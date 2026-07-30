@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Simulado em andamento' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'simulado' }) %>
+  <div class="container">
+
+    <% if (role !== 'rayane') { %>
+      <div class="card">
+        <p class="muted">Modo administrador: este simulado só pode ser respondido pelo perfil da Rayane. Aguarde o
+          resultado final em <a href="/rayane/simulado/<%= simulado.id %>/resultado">Ver resultado</a> (disponível
+          após a finalização).</p>
+      </div>
+    <% } else { %>
+
+      <div class="card" style="position: sticky; top: 8px; z-index: 5;">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+          <div>
+            <strong>Simulado CEFET-MG</strong>
+            <div class="muted small">Questão <span id="current-index">1</span> de <%= questions.length %></div>
+          </div>
+          <div class="center">
+            <div id="timer" style="font-size:1.4rem; font-weight:700;">--:--:--</div>
+            <div class="muted small">tempo restante</div>
+          </div>
+          <button class="btn" id="finish-btn" style="background:var(--red);">Finalizar simulado</button>
+        </div>
+        <div id="question-nav" style="display:flex; gap:4px; flex-wrap:wrap; margin-top:14px; max-height:90px; overflow-y:auto;"></div>
+      </div>
+
+      <div class="card" id="question-card">
+        <span class="low-tag" id="question-subject"></span>
+        <h3 id="question-stem" class="mt-0" style="margin-top:8px;"></h3>
+        <div id="options"></div>
+        <div style="display:flex; justify-content:space-between; margin-top:16px;">
+          <button class="btn btn-outline" id="prev-btn">← Anterior</button>
+          <button class="btn btn-outline" id="next-btn">Próxima →</button>
+        </div>
+      </div>
+
+    <% } %>
+
+  </div>
+
+  <script>
+    window.SIMULADO_ID = <%= simulado.id %>;
+    window.SIMULADO_QUESTIONS = <%- JSON.stringify(questions) %>;
+    window.SECONDS_REMAINING = <%= secondsRemaining %>;
+  </script>
+  <script src="/js/simulado-tomar.js"></script>
+</body>
+</html>

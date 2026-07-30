@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('partials/head', { title: 'Entrar — Estudos CEFET-MG' }) %>
+</head>
+<body>
+  <div class="container login-wrap">
+    <h1 class="center" style="margin-bottom: 24px;">CEFET-MG <span style="color:var(--primary)">Varginha 2027</span></h1>
+    <div class="card">
+      <h2>Entrar</h2>
+      <% if (error) { %>
+        <div class="alert alert-error"><%= error %></div>
+      <% } %>
+      <form method="POST" action="/login">
+        <div class="profile-toggle">
+          <label>
+            <input type="radio" name="profile" value="rayane" checked />
+            <span>Rayane</span>
+          </label>
+          <label>
+            <input type="radio" name="profile" value="admin" />
+            <span>Admin</span>
+          </label>
+        </div>
+        <label class="small muted" style="text-align:left; display:block;">
+          PIN de acesso
+          <input type="password" name="pin" inputmode="numeric" autofocus required />
+        </label>
+        <button type="submit" class="btn" style="width:100%; margin-top:16px;">Entrar</button>
+      </form>
+    </div>
+    <p class="center muted small">Site de estudos pessoal — não substitui o edital oficial do CEFET-MG.</p>
+  </div>
+</body>
+</html>

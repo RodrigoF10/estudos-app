@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Praticar: ' + theme.name }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'hoje' }) %>
+  <div class="container">
+
+    <p><a href="/rayane/tema/<%= theme.id %>">← Voltar para <%= theme.name %></a></p>
+
+    <div class="card">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div>
+          <span class="low-tag"><%= subject.name %></span>
+          <h2 style="margin: 6px 0 0;"><%= theme.name %></h2>
+        </div>
+        <div class="center">
+          <div id="session-score" class="muted small"></div>
+          <div class="muted small">Questão <span id="session-count">1</span> de 10 nesta sessão</div>
+        </div>
+      </div>
+      <div class="progress-bar" style="margin-top:10px;"><div id="session-progress-bar" style="width:10%;"></div></div>
+    </div>
+
+    <% if (questionCount === 0) { %>
+      <div class="card"><p class="muted">Ainda não há questões cadastradas para este tema.</p></div>
+    <% } else if (role !== 'rayane') { %>
+      <div class="card"><p class="muted">Modo administrador: você está vendo a tela da Rayane, mas só o perfil dela pode responder e registrar tentativas.</p></div>
+    <% } else { %>
+      <div class="card" id="question-card">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <p class="muted small" id="question-reason" style="margin:0;"></p>
+          <span class="low-tag" id="question-difficulty"></span>
+        </div>
+        <h3 id="question-stem" class="mt-0"></h3>
+        <div id="options"></div>
+        <div id="feedback"></div>
+        <div style="margin-top:14px; display:flex; justify-content:flex-end;">
+          <button class="btn" id="next-btn" style="display:none;">Próxima questão →</button>
+        </div>
+      </div>
+
+      <div class="card center" id="session-summary" style="display:none;">
+        <h2 class="mt-0">Sessão concluída! 🎉</h2>
+        <p id="session-summary-text" class="muted"></p>
+        <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+          <a class="btn btn-outline" href="/rayane/tema/<%= theme.id %>">Voltar para o tema</a>
+          <button class="btn" id="practice-more-btn">Praticar mais 10</button>
+        </div>
+      </div>
+    <% } %>
+
+  </div>
+
+  <script>
+    window.THEME_ID = <%= theme.id %>;
+  </script>
+  <script src="/js/praticar.js"></script>
+</body>
+</html>

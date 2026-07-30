@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: subject.name + ' — Estudos CEFET-MG' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'hoje' }) %>
+  <div class="container">
+
+    <p><a href="/rayane">← Voltar para Hoje</a></p>
+
+    <div class="card">
+      <h2 class="mt-0"><%= subject.name %></h2>
+      <p class="muted"><%= subject.weight_percent %>% da prova · <%= progress.mastered %> de <%= progress.totalThemes %> temas dominados</p>
+      <div class="progress-bar"><div style="width: <%= progress.totalThemes ? Math.round((progress.mastered / progress.totalThemes) * 100) : 0 %>%;"></div></div>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Trilha de estudo</h2>
+      <p class="muted small" style="margin-top:-8px;">Ordenada do tema que mais cai na prova para o que menos cai.</p>
+      <% progress.themes.forEach(function(item, idx) { %>
+        <div class="theme-row">
+          <div>
+            <span class="muted small">#<%= idx + 1 %></span>
+            <strong><%= item.theme.name %></strong>
+            <% if (item.theme.low_priority) { %><span class="low-tag">baixa prioridade</span><% } %>
+            <% if (item.theme.is_special) { %><span class="low-tag" style="border-color:var(--primary); color:var(--primary);">prioridade máxima</span><% } %>
+            <div><span class="badge badge-<%= item.stats.level.key %>"><%= item.stats.level.emoji %> <%= item.stats.level.label %></span></div>
+          </div>
+          <div style="display:flex; gap:8px;">
+            <a class="btn btn-sm btn-outline" href="/rayane/tema/<%= item.theme.id %>">Teoria</a>
+            <a class="btn btn-sm" href="/rayane/praticar/<%= item.theme.id %>">Praticar</a>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: theme.name + ' — Estudos CEFET-MG' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'hoje' }) %>
+  <div class="container">
+
+    <p><a href="/rayane/materia/<%= subject.slug %>">← Voltar para <%= subject.name %></a></p>
+
+    <div class="card">
+      <span class="badge badge-<%= stats.level.key %>"><%= stats.level.emoji %> <%= stats.level.label %></span>
+      <% if (theme.is_special) { %><span class="low-tag" style="border-color:var(--primary); color:var(--primary);">prioridade máxima</span><% } %>
+      <% if (theme.low_priority) { %><span class="low-tag">baixa prioridade</span><% } %>
+      <h2 style="margin-bottom:4px;"><%= theme.name %></h2>
+      <p><%= theme.summary %></p>
+      <% if (stats.attempts > 0) { %>
+        <p class="muted small">Você já respondeu <%= stats.attempts %> questões deste tema, com <%= Math.round((stats.accuracy || 0) * 100) %>% de acerto recente.</p>
+      <% } %>
+      <a class="btn" href="/rayane/praticar/<%= theme.id %>">Praticar agora (<%= questionCount %> questões disponíveis)</a>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Melhores vídeos e artigos</h2>
+      <% if (links.length === 0) { %>
+        <p class="muted">Ainda sem conteúdo curado para este tema — em breve.</p>
+      <% } %>
+      <div class="grid grid-2">
+        <% links.forEach(function(l) { %>
+          <a class="subject-pill" href="<%= l.url %>" target="_blank" rel="noopener">
+            <span class="low-tag"><%= l.type === 'video' ? '▶ Vídeo' : '📄 Artigo' %></span>
+            <div style="margin-top:6px; font-weight:600;"><%= l.title %></div>
+            <div class="weight"><%= l.source %></div>
+          </a>
+        <% }) %>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

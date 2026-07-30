@@ -1,0 +1,21 @@
+{
+  "name": "cefet-estudos",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Site de estudos da Rayane para o Processo Seletivo CEFET-MG (Ensino Técnico Integrado, campus Varginha, 2027)",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.4",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "notes": "Usa @libsql/client (compatível com SQLite): localmente aponta para um arquivo (data/estudos.db), em produção no Vercel aponta para um banco Turso remoto via TURSO_DATABASE_URL/TURSO_AUTH_TOKEN. Veja o README para detalhes de publicação."
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Simulados — Estudos CEFET-MG' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'simulado' }) %>
+  <div class="container">
+
+    <div class="card">
+      <h2 class="mt-0">Simulado completo</h2>
+      <p>Reproduz o formato oficial da prova do CEFET-MG: <strong>50 questões</strong> (15 Português, 15 Matemática,
+        8 Ciências, 6 Geografia, 6 História) em <strong>3 horas</strong> cronometradas. Durante o simulado você não
+        vê se acertou ou errou — assim como na prova real — e só confere a correção completa, questão por questão,
+        ao final.</p>
+
+      <% if (ongoing) { %>
+        <div class="alert alert-info">Você já tem um simulado em andamento, iniciado em <%= ongoing.started_at %>.</div>
+        <a class="btn" href="/rayane/simulado/<%= ongoing.id %>">Continuar simulado</a>
+      <% } else if (role === 'rayane') { %>
+        <button class="btn" id="start-simulado-btn">Começar novo simulado</button>
+      <% } else { %>
+        <p class="muted">Modo administrador: só o perfil da Rayane pode iniciar um simulado.</p>
+      <% } %>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Histórico de simulados</h2>
+      <% if (history.length === 0) { %>
+        <p class="muted">Nenhum simulado finalizado ainda.</p>
+      <% } else { %>
+        <% history.forEach(function(h) { %>
+          <div class="theme-row">
+            <div>
+              <strong><%= h.started_at.slice(0,10).split('-').reverse().join('/') %></strong>
+              <div class="muted small"><%= h.correct_count %> de <%= h.total_questions %> questões corretas
+                (<%= Math.round((h.correct_count/h.total_questions)*100) %>%)</div>
+            </div>
+            <a class="btn btn-sm btn-outline" href="/rayane/simulado/<%= h.id %>/resultado">Ver resultado</a>
+          </div>
+        <% }) %>
+      <% } %>
+    </div>
+
+  </div>
+
+  <script src="/js/simulado-intro.js"></script>
+</body>
+</html>

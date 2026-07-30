@@ -1,0 +1,25 @@
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">CEFET-MG <span>Varginha 2027</span></div>
+    <% if (role === 'rayane') { %>
+      <nav class="main-nav">
+        <a href="/rayane" class="<%= active === 'hoje' ? 'active' : '' %>">Hoje</a>
+        <a href="/rayane/simulado" class="<%= active === 'simulado' ? 'active' : '' %>">Simulados</a>
+        <a href="/rayane/progresso" class="<%= active === 'progresso' ? 'active' : '' %>">Progresso</a>
+        <a href="/rayane/cronograma" class="<%= active === 'cronograma' ? 'active' : '' %>">Cronograma</a>
+      </nav>
+    <% } else if (role === 'admin') { %>
+      <nav class="main-nav">
+        <a href="/admin" class="<%= active === 'overview' ? 'active' : '' %>">Visão geral</a>
+        <a href="/admin/atividade" class="<%= active === 'atividade' ? 'active' : '' %>">Atividade</a>
+        <a href="/admin/cronograma" class="<%= active === 'cronograma' ? 'active' : '' %>">Cronograma</a>
+        <a href="/rayane" class="<%= active === 'espelho' ? 'active' : '' %>">Ver como Rayane</a>
+      </nav>
+    <% } %>
+    <% if (role) { %>
+      <form class="logout-form" action="/logout" method="POST">
+        <button type="submit">Sair (<%= role %>)</button>
+      </form>
+    <% } %>
+  </div>
+</header>

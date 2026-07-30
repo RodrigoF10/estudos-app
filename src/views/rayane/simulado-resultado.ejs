@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Resultado do simulado' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'simulado' }) %>
+  <div class="container">
+
+    <p><a href="/rayane/simulado">← Voltar para simulados</a></p>
+
+    <%
+      const scorePercent = Math.round((simulado.correct_count / simulado.total_questions) * 100);
+      const startedAt = new Date(simulado.started_at + 'Z');
+      const finishedAt = simulado.finished_at ? new Date(simulado.finished_at + 'Z') : null;
+      const durationMin = finishedAt ? Math.round((finishedAt - startedAt) / 60000) : null;
+    %>
+
+    <div class="card center">
+      <h2 class="mt-0">Resultado do simulado</h2>
+      <div style="font-size:2.6rem; font-weight:700; color: var(--primary);"><%= scorePercent %>%</div>
+      <p class="muted"><%= simulado.correct_count %> de <%= simulado.total_questions %> questões corretas
+        <% if (durationMin !== null) { %> · tempo de prova: <%= durationMin %> min<% } %></p>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Desempenho por matéria</h2>
+      <div class="grid grid-3">
+        <% bySubject.forEach(function(s) { %>
+          <div class="card center" style="margin-bottom:0;">
+            <div class="muted small"><%= s.name %></div>
+            <div style="font-size:1.4rem; font-weight:700;"><%= s.correct %>/<%= s.total %></div>
+            <div class="muted small"><%= s.total ? Math.round((s.correct/s.total)*100) : 0 %>%</div>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Revisão completa, questão por questão</h2>
+      <p class="muted small" style="margin-top:-8px;">Assim como no motor de exercícios, veja por que cada alternativa está certa ou errada.</p>
+
+      <% rows.forEach(function(r, idx) { %>
+        <div class="card" style="border-color: <%= !r.selected_option ? 'var(--border)' : (r.is_correct ? 'var(--green)' : 'var(--red)') %>;">
+          <span class="low-tag"><%= r.subject_name %></span>
+          <span class="low-tag">Questão <%= idx + 1 %></span>
+          <% if (!r.selected_option) { %>
+            <span class="badge" style="background:#eee; color:var(--muted);">Não respondida</span>
+          <% } else if (r.is_correct) { %>
+            <span class="badge badge-dominado">✅ Correta</span>
+          <% } else { %>
+            <span class="badge" style="background:var(--red-bg); color:var(--red);">❌ Errada</span>
+          <% } %>
+
+          <h3 style="margin: 10px 0 6px;"><%= r.stem %></h3>
+          <% ['a','b','c','d'].forEach(function(letter) { %>
+            <div class="option-btn disabled"
+              style="<%= letter === r.correct_option ? 'background:var(--green-bg); border-color:var(--green);' : (letter === r.selected_option ? 'background:var(--red-bg); border-color:var(--red);' : '') %>">
+              <span class="letter"><%= letter.toUpperCase() %>)</span> <%= r['option_' + letter] %>
+              <% if (letter === r.selected_option) { %> <strong class="small">(sua resposta)</strong><% } %>
+            </div>
+          <% }) %>
+
+          <div class="explanation-box ok" style="margin-top:10px;">
+            <strong>Por que a alternativa <%= r.correct_option.toUpperCase() %> está correta:</strong> <%= r.explanation_correct %>
+          </div>
+          <div class="explanation-box" style="background:#f5f5fa; border:1px solid var(--border); margin-top:10px;">
+            <strong>Por que as outras alternativas estão erradas:</strong>
+            <ul style="margin:8px 0 0; padding-left:18px;">
+              <% ['a','b','c','d'].forEach(function(letter) { %>
+                <% if (letter !== r.correct_option) { %>
+                  <li><strong><%= letter.toUpperCase() %>)</strong> <%= r['explanation_' + letter] %></li>
+                <% } %>
+              <% }) %>
+            </ul>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+
+  </div>
+</body>
+</html>

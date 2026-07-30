@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Cronograma — Admin' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'cronograma' }) %>
+  <div class="container">
+
+    <div class="card">
+      <h2 class="mt-0">Adicionar bloco ao cronograma da Rayane</h2>
+      <form id="add-block-form">
+        <div class="grid grid-3">
+          <label class="small muted">Data
+            <input type="date" name="date" required />
+          </label>
+          <label class="small muted">Matéria
+            <select id="new-subject" name="subject_id" required>
+              <% subjects.forEach(function(s) { %>
+                <option value="<%= s.id %>"><%= s.name %></option>
+              <% }) %>
+            </select>
+          </label>
+          <label class="small muted">Tema (opcional)
+            <select id="new-theme" name="theme_id"></select>
+          </label>
+        </div>
+        <label class="small muted" style="display:block; max-width:180px; margin-top:10px;">Minutos previstos
+          <input type="number" name="planned_minutes" value="30" min="10" step="5" />
+        </label>
+        <button type="submit" class="btn" style="margin-top:14px;">Adicionar</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Cronograma completo da Rayane</h2>
+      <% if (blocks.length === 0) { %>
+        <p class="muted">Nenhum bloco cadastrado ainda.</p>
+      <% } %>
+      <% blocks.forEach(function(b) { %>
+        <div class="theme-row">
+          <div>
+            <strong><%= b.date.split('-').reverse().join('/') %></strong> — <%= b.subject_name %><% if (b.theme_name) { %> · <%= b.theme_name %><% } %>
+            <div class="muted small"><%= b.planned_minutes %> min · <span class="status-<%= b.status %>"><%= b.status %></span></div>
+          </div>
+          <div style="display:flex; gap:6px;">
+            <button class="btn btn-sm btn-outline" data-status-btn="done" data-id="<%= b.id %>">Feito</button>
+            <button class="btn btn-sm btn-outline" data-status-btn="skipped" data-id="<%= b.id %>">Pular</button>
+            <button class="btn btn-sm" style="background:var(--red);" data-delete-btn data-id="<%= b.id %>">Remover</button>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+
+  </div>
+
+  <script>
+    window.THEMES_BY_SUBJECT = <%- JSON.stringify(themesBySubject) %>;
+  </script>
+  <script src="/js/cronograma.js"></script>
+</body>
+</html>
