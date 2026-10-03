@@ -1,0 +1,281 @@
+@C01
+resumo: Substâncias puras e misturas (homogêneas e heterogêneas), propriedades (densidade, solubilidade) e métodos de separação.
+
+## O que a banca cobra
+Tabelas de propriedades (ponto de fusão/ebulição, densidade, solubilidade) para **escolher o método de separação** ou **identificar a substância**; classificar sistemas (nº de fases e de componentes).
+
+## Ideias-chave
+- **Substância pura**: composição fixa (água, sal, ouro). **Mistura**: duas ou mais substâncias.
+- **Mistura homogênea** (uma fase, "solução": sal na água) × **heterogênea** (duas ou mais fases: água e óleo). Fases = partes visivelmente distintas.
+- **Substância simples** (um só elemento: O₂, Fe) × **composta** (mais de um elemento: H₂O, CO₂).
+- **Métodos de separação:**
+| Mistura | Método |
+|---|---|
+| Sólido + líquido (areia e água) | Filtração (sólido insolúvel); decantação |
+| Líquidos que não se misturam (água e óleo) | Decantação (funil de separação) |
+| Sólido dissolvido em líquido (sal e água) | Evaporação ou destilação simples |
+| Líquidos miscíveis com pontos de ebulição diferentes | Destilação fracionada |
+| Sólidos com um magnético (ferro e areia) | Separação magnética |
+| Sólidos de tamanhos diferentes | Peneiração |
+- **Densidade** = massa ÷ volume. Menos denso **flutua** sobre o mais denso.
+
+## Como resolver
+1. Veja o **estado físico** e a **solubilidade** dos componentes.
+2. Escolha o método que explora a **diferença de propriedade**.
+
+> Filtrar não separa sal dissolvido em água. Evaporar não "separa" o líquido (ele é perdido); destilar recupera o líquido.
+
+@C12
+resumo: Grupos de plantas e animais, adaptações ao ambiente e características comparadas.
+
+## O que a banca cobra
+Classificar plantas (briófitas, pteridófitas, gimnospermas, angiospermas), comparar animais (vertebrados e invertebrados, tipo de circulação, reprodução) e relacionar **característica × adaptação ao ambiente**.
+
+## Plantas
+| Grupo | Vasos? | Semente? | Fruto? | Exemplo |
+|---|---|---|---|---|
+| Briófitas | não | não | não | musgos |
+| Pteridófitas | sim | não | não | samambaias |
+| Gimnospermas | sim | sim | não | pinheiros |
+| Angiospermas | sim | sim | sim | maioria (feijão, laranja) |
+- **Fotossíntese**: CO₂ + H₂O + luz → glicose + O₂ (nos cloroplastos).
+- **Dispersão de sementes:** vento, água, animais.
+
+## Animais (vertebrados)
+- Peixes: brânquias, coração com 2 cavidades. Anfíbios: pele úmida, vida dupla (água e terra), coração de 3 cavidades. Répteis: pele com escamas, ovos com casca. Aves: penas, ovos, endotérmicas. Mamíferos: pelos, glândulas mamárias, endotérmicos.
+- **Ectotérmicos** (temperatura varia com o ambiente): peixes, anfíbios, répteis. **Endotérmicos:** aves e mamíferos.
+
+## Como resolver
+1. Pergunte: _o ambiente exige o quê?_ (economizar água, flutuar, voar). A adaptação responde a isso.
+
+> Briófitas são pequenas porque não têm vasos condutores. Gimnospermas **têm semente, mas não têm fruto**.
+
+@C05
+resumo: Calor e temperatura; condução, convecção e irradiação; isolantes e condutores térmicos.
+
+## O que a banca cobra
+Situações do cotidiano (cabo de panela, geladeira, garrafa térmica, ar-condicionado no alto, corrimão de metal x madeira): qual **processo de propagação** age e **por que** um material é bom ou mau condutor.
+
+## Ideias-chave
+- **Temperatura** mede o **grau de agitação** das partículas; **calor** é a energia que passa do corpo mais quente para o mais frio.
+- **Condução:** calor passa de partícula a partícula, em **sólidos** (metais conduzem bem).
+- **Convecção:** correntes de fluido (líquidos e gases): o quente sobe, o frio desce.
+- **Irradiação:** ondas eletromagnéticas; **não precisa de meio material** (calor do Sol).
+- **Isolantes:** madeira, isopor, ar, lã, plástico. **Condutores:** metais.
+- Sensação térmica: o metal "parece mais frio" porque tira calor da mão mais rápido, mas está na mesma temperatura da madeira.
+- **Dilatação:** aquecer aumenta o tamanho; é por isso que há "juntas" em pontes e trilhos.
+
+## Como resolver
+1. Identifique em que **meio** o calor passa (sólido, fluido, vácuo).
+2. Veja se o objeto quer **conduzir** (panela) ou **isolar** (cabo, garrafa térmica).
+
+> Garrafa térmica combina todos: vácuo (sem condução/convecção), parede espelhada (reflete irradiação) e tampa isolante.
+
+@C09
+resumo: Sistema Solar, movimentos da Terra e da Lua, estações do ano, fases da Lua, marés e eclipses.
+
+## O que a banca cobra
+Esquemas com a Terra, o Sol e a Lua: explicar **estações**, **fases**, **eclipses** e **marés**, e distinguir modelos geocêntrico e heliocêntrico.
+
+## Ideias-chave
+- **Rotação** (24 h): dia e noite. **Translação** (≈ 365 dias): ano.
+- **Estações do ano** vêm da **inclinação do eixo** da Terra (≈ 23,5°) e **não** da distância ao Sol. Quando o hemisfério Sul está inclinado para o Sol, lá é verão.
+- **Fases da Lua:** dependem de quanto da face iluminada vemos: nova, crescente, cheia, minguante (ciclo ≈ 29,5 dias). A Lua sempre mostra a mesma face à Terra.
+- **Eclipse solar:** a Lua fica entre o Sol e a Terra (na lua **nova**). **Eclipse lunar:** a Terra fica entre o Sol e a Lua (na lua **cheia**).
+- **Marés:** causadas principalmente pela **atração gravitacional da Lua** (e do Sol). Marés mais altas (de sizígia) com lua nova e cheia.
+- **Geocentrismo** (Terra no centro; Ptolomeu) × **heliocentrismo** (Sol no centro; Copérnico, defendido por Galileu).
+- **Big Bang:** modelo de que o universo se expandiu a partir de um estado muito quente e denso há ≈ 13,8 bilhões de anos.
+
+## Como resolver
+1. Desenhe a posição Sol–Terra–Lua.
+2. Para estações, imagine a inclinação do eixo (não a distância).
+
+> Erro clássico: "no verão a Terra está mais perto do Sol". Falso: em julho a Terra está mais **longe** do Sol e é verão no hemisfério Norte; o que importa é a inclinação do eixo.
+
+@C10
+resumo: Ecologia: cadeias e teias alimentares, níveis tróficos, decompositores e relações entre os seres vivos.
+
+## O que a banca cobra
+Teias alimentares em esquema: **quem é produtor, consumidor ou decompositor**, o que acontece se uma espécie some, fluxo de energia e relações ecológicas.
+
+## Ideias-chave
+- **Produtores**: fazem fotossíntese (plantas, algas). **Consumidores**: primários (herbívoros), secundários (carnívoros que comem herbívoros), terciários. **Decompositores**: fungos e bactérias; reciclam a matéria.
+- A seta na cadeia alimentar aponta para **quem recebe a energia** (para quem come): capim → boi.
+- **Fluxo de energia é unidirecional** e diminui a cada nível (cerca de 10% passa adiante); a **matéria circula**.
+- **Relações ecológicas:**
+| Relação | Exemplo | Efeito |
+|---|---|---|
+| Mutualismo | abelha e flor | ambos ganham |
+| Comensalismo | rêmora e tubarão | um ganha, outro indiferente |
+| Predação | onça e capivara | um ganha, outro morre |
+| Competição | duas plantas por luz | ambos perdem |
+| Parasitismo | pulga e cachorro | um ganha, o outro perde |
+- **Desequilíbrio:** retirar um predador de topo pode fazer a população da presa explodir.
+
+## Como resolver
+1. Siga as setas e identifique o **nível trófico**.
+2. Para "o que acontece se...", mude uma população e acompanhe a cadeia: quem comia o que sumiu cresce; quem era comido por ele diminui.
+
+> Decompositores fecham o ciclo: sem eles, a matéria orgânica se acumularia. Não são um "nível a mais" no fim da seta de energia, mas atuam em todos.
+
+@C03
+resumo: Modelos atômicos, partículas do átomo, tabela periódica, fórmulas e ligações químicas.
+
+## O que a banca cobra
+Número de prótons, nêutrons e elétrons; localizar elemento na tabela; distinguir elemento, substância simples e composta; "qual modelo atômico explica tal fenômeno"; fórmula de substâncias (óxidos, sais).
+
+## Ideias-chave
+- **Prótons** (+, no núcleo), **nêutrons** (sem carga, no núcleo), **elétrons** (−, na eletrosfera). **Z = número de prótons** (identifica o elemento); **A = prótons + nêutrons**.
+- Átomo neutro: prótons = elétrons.
+- **Modelos:** Dalton (esfera maciça, indivisível), Thomson (esfera positiva com elétrons "pudim de passas"; explica a eletrização), Rutherford (núcleo pequeno e denso, eletrosfera vazia), Bohr (elétrons em camadas de energia).
+- **Tabela periódica:** elementos em ordem crescente de Z; **famílias** (colunas) têm propriedades parecidas (1: alcalinos, 17: halogênios, 18: gases nobres); **períodos** (linhas) = número de camadas.
+- **Fórmulas:** H₂O (água), CO₂ (gás carbônico), NaCl (sal), O₂, O₃, SO₂ e SO₃ (óxidos de enxofre), CO (monóxido). O número pequeno mostra **quantos átomos** daquele elemento.
+- **Elemento** = átomos com o mesmo Z; **substância** = formada por elementos.
+
+## Como resolver
+1. Z dá o elemento; A − Z dá os nêutrons.
+2. Em fórmula, **conte os átomos** com cuidado (Ca(OH)₂ tem 1 Ca, 2 O e 2 H).
+
+> Isótopos: mesmo Z, A diferente. Íon: átomo que ganhou ou perdeu elétrons (carga ≠ 0), com prótons iguais.
+
+@C11
+resumo: Sistemas do corpo humano (digestório, respiratório, circulatório, excretor, endócrino…), saúde, vacinas, doenças e reprodução.
+
+## O que a banca cobra
+Funções de órgãos e sistemas, trajeto do sangue ou do alimento, vacinas e prevenção, métodos contraceptivos e infecções sexualmente transmissíveis, hábitos de saúde.
+
+## Ideias-chave
+- **Digestório:** boca → faringe → esôfago → estômago → intestino delgado (**absorção** de nutrientes) → intestino grosso (absorve água) → ânus. Fígado produz bile; pâncreas, enzimas.
+- **Respiratório:** nariz → faringe → laringe → traqueia → brônquios → pulmões (**alvéolos**, onde ocorre a troca gasosa). O diafragma controla a respiração.
+- **Circulatório:** coração (4 cavidades), artérias (saem do coração), veias (voltam), capilares (trocas). **Pequena circulação**: coração-pulmões (oxigena); **grande circulação**: coração-corpo.
+- **Excretor:** rins filtram o sangue e formam a urina.
+- **Vacinas:** estimulam o corpo a produzir **anticorpos** e memória imunológica, **sem causar a doença**. Soro: já traz anticorpos prontos.
+- **Preservativo** (camisinha): único método que previne **gravidez e IST**.
+- **Sangue:** hemácias (oxigênio), leucócitos (defesa), plaquetas (coagulação).
+
+## Como resolver
+1. Siga o caminho (do alimento, do ar, do sangue) e veja onde a função acontece.
+2. Para saúde, escolha a alternativa **preventiva** e baseada em evidência.
+
+> Vacina previne; soro trata. Absorção de nutrientes ocorre no intestino **delgado**, não no estômago.
+
+@C08
+resumo: Óptica (luz, espelhos, lentes, cores) e ondas sonoras (altura, intensidade, timbre, propagação).
+
+## O que a banca cobra
+Reflexão e refração da luz, lentes (convergente/divergente) e defeitos da visão, cor de objetos; som: qual característica muda (agudo × grave, forte × fraco), propagação em meios.
+
+## Ideias-chave
+- **Reflexão:** a luz "bate e volta" (espelho). **Refração:** a luz muda de meio e **desvia** (lápis "quebrado" no copo).
+- **Lente convergente** (borda fina) concentra a luz (corrige **hipermetropia**; lupa). **Divergente** (borda grossa) espalha a luz (corrige **miopia**).
+- **Cor de um objeto** é a luz que ele **reflete**; o preto absorve tudo, o branco reflete tudo.
+- **Luz branca** = soma das cores (arco-íris, prisma). Luz vai a ≈ 300 000 km/s.
+- **Som** é onda **mecânica** (precisa de meio; **não** se propaga no vácuo). Mais rápido nos sólidos que nos gases.
+- **Altura** (grave ou agudo) depende da **frequência** (Hz). **Intensidade** (forte ou fraco) depende da **amplitude** (dB). **Timbre** distingue instrumentos.
+- **Eco**: reflexão do som.
+
+## Como resolver
+1. Pergunte: _é luz ou som?_ Luz propaga no vácuo; som, não.
+2. Relacione cada característica da onda à característica percebida.
+
+> Frequência alta = som agudo. Volume (forte/fraco) não é altura. Cuidado com "alto" no sentido de volume na linguagem comum.
+
+@C02
+resumo: Estados físicos, mudanças de estado e leitura de gráficos de aquecimento/resfriamento (temperatura × tempo).
+
+## O que a banca cobra
+Gráfico de **temperatura × tempo**: identificar patamares (mudança de estado), estado da substância em cada trecho e se é **substância pura** ou mistura.
+
+## Ideias-chave
+- **Mudanças:** fusão (sólido → líquido), solidificação, vaporização (líquido → gás: evaporação, ebulição, calefação), condensação (liquefação), sublimação (sólido ↔ gás).
+- **Substância pura:** a temperatura **fica constante** durante a mudança de estado (**patamar** no gráfico), pois a energia é usada para romper ligações.
+- **Mistura:** a temperatura **varia** durante a mudança de estado (sem patamar bem definido).
+- Água: fusão 0 °C e ebulição 100 °C (ao nível do mar). No **topo de montanha** (menos pressão), a água ferve em temperatura **menor**.
+- **Evaporação** acontece só na superfície e em qualquer temperatura; **ebulição** ocorre em todo o líquido, a uma temperatura fixa.
+
+## Como resolver
+1. No gráfico, patamar = mudança de estado. Acima/abaixo dos patamares, a substância está em **um** estado.
+2. Compare a temperatura dos patamares com os pontos de fusão/ebulição da tabela.
+
+> Linha subindo = aquecendo **sem** mudar de estado. Patamar = mudando de estado. Se não há patamar, desconfie de mistura.
+
+@C07
+resumo: Movimento (velocidade, aceleração), forças (leis de Newton, peso) e máquinas simples (alavanca, roldana).
+
+## O que a banca cobra
+Velocidade média, gráficos de posição × tempo, 3ª lei de Newton (ação e reação), queda livre, peso × massa e alavancas.
+
+## Ideias-chave
+- **Velocidade média** = distância ÷ tempo. Km/h → m/s: **divida por 3,6**; m/s → km/h: multiplique por 3,6.
+- **MRU:** velocidade constante (gráfico s × t é uma reta). **Aceleração** = variação de velocidade ÷ tempo.
+- **1ª lei (inércia):** sem força resultante, repouso ou MRU. **2ª lei:** F = m·a. **3ª lei:** ação e reação (pares em **corpos diferentes**, mesma intensidade e sentidos opostos).
+- **Peso** = m·g (g ≈ 10 m/s²); **massa** não muda; peso muda com a gravidade (a Lua tem g ≈ 1/6).
+- **Queda livre** (sem ar): todos os corpos caem com a mesma aceleração, independentemente da massa.
+- **Alavanca:** quanto **mais longe do apoio** a força é aplicada, **menor** a força necessária. **Roldana móvel** divide a força pela metade.
+- **Atrito:** força contrária ao movimento.
+
+## Como resolver
+1. Converta as unidades **antes** de calcular.
+2. Em ação e reação, lembre: as forças **não se anulam**, porque agem em corpos distintos.
+
+> Massa é em kg; peso é força, em newtons. "Pesar 60 kg" é linguagem de balança comum.
+
+@C04
+resumo: Transformações químicas (reagentes e produtos), conservação da massa, proporções fixas e reações do cotidiano.
+
+## O que a banca cobra
+Reconhecer que houve **reação química**, aplicar a **Lei de Lavoisier** e a **Lei de Proust** em tabelas de massas, e explicar fenômenos como chuva ácida, combustão e ferrugem.
+
+## Ideias-chave
+- **Fenômeno físico** (muda o aspecto, não a substância: derreter gelo, rasgar papel) × **químico** (forma novas substâncias: queimar, enferrujar, azedar o leite).
+- **Sinais de reação:** mudança de cor, liberação de gás (bolhas), formação de sólido, luz/calor.
+- **Lavoisier (conservação da massa):** em sistema fechado, massa dos reagentes = massa dos produtos. Se a massa "diminui" num recipiente aberto, é porque um gás escapou.
+- **Proust (proporções constantes):** uma substância composta sempre tem os mesmos elementos na mesma proporção em massa (água: 1 g de H para 8 g de O).
+- **Chuva ácida:** SO₂ e NOₓ + água → ácidos (H₂SO₄, HNO₃).
+- **Combustão:** combustível + O₂ → CO₂ + H₂O + energia.
+
+## Como resolver
+1. Em tabela de massas, some reagentes e compare com produtos; ou compare a **razão** entre as massas em duas experiências.
+2. Classifique: o fenômeno gera substância nova?
+
+> Palha de aço queimada fica **mais pesada**: ganhou o oxigênio do ar. Não viola Lavoisier.
+
+@C06
+resumo: Eletricidade: corrente, tensão, potência, consumo de energia (kWh), circuitos e eletrização.
+
+## O que a banca cobra
+Calcular o **consumo mensal** de aparelhos e o custo na conta; reconhecer circuitos em série/paralelo, fusíveis e disjuntores; processos de **eletrização**.
+
+## Ideias-chave
+- **Potência** (W) = energia ÷ tempo. **Energia (kWh) = potência (kW) × tempo (h).** Custo = energia × tarifa (R$/kWh).
+- **Potência elétrica:** P = U · i (tensão × corrente). **Lei de Ohm:** U = R · i.
+- **Circuito em série:** uma só corrente; se um aparelho queima, todos desligam. **Paralelo:** cada aparelho tem a mesma tensão, funciona independente (casas).
+- **Disjuntor/fusível** desligam o circuito quando a corrente passa de um limite (proteção).
+- **Eletrização:** por **atrito**, **contato** ou **indução**. Cargas de sinais **iguais se repelem**; **diferentes se atraem**. Um corpo eletrizado atrai pedacinhos de papel neutros.
+- **Condutores** (metais) × **isolantes** (borracha, plástico).
+
+## Como resolver
+1. Converta W em kW (÷ 1000) e minutos em horas.
+2. Some os consumos dos aparelhos, multiplique pela tarifa.
+
+> Potência alta não significa consumo alto sozinha: o que conta é o **tempo de uso**. Um chuveiro de 5 000 W usado 20 min por dia pode gastar menos que uma TV 24 h ligada.
+
+@C13
+resumo: Ambiente e sustentabilidade: poluição, efeito estufa, queimadas, recursos naturais, resíduos e desenvolvimento sustentável.
+
+## O que a banca cobra
+Notícias e gráficos sobre desmatamento, queimadas, poluição do ar e da água, resíduos; ações sustentáveis; relação entre fenômeno e causa.
+
+## Ideias-chave
+- **Efeito estufa** é natural e necessário; o **aquecimento global** vem do excesso de gases de efeito estufa (CO₂ e CH₄) por queima de combustíveis fósseis, desmatamento e queimadas.
+- **Chuva ácida** (SO₂, NOₓ), **inversão térmica** (poluentes presos perto do solo no inverno), **eutrofização** (excesso de nutrientes na água → algas → falta de oxigênio).
+- **Resíduos:** 3 R's (reduzir, reutilizar, reciclar); coleta seletiva; compostagem do lixo orgânico; lixo eletrônico exige descarte correto.
+- **Desenvolvimento sustentável:** atender às necessidades de hoje **sem comprometer** as das gerações futuras.
+- **Energia renovável:** solar, eólica, hidráulica, biomassa. **Não renovável:** petróleo, carvão, gás.
+- **Biodiversidade** e **unidades de conservação** protegem espécies e serviços do ecossistema.
+
+## Como resolver
+1. Ligue **causa → efeito → ação**.
+2. A alternativa sustentável reduz o problema **na origem** (não só "esconde").
+
+> Reciclar é importante, mas **reduzir** o consumo vem antes. Fique atento a alternativas que prometem "resolver" um problema criando outro.

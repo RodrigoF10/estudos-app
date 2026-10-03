@@ -4,9 +4,11 @@
     <% if (role === 'rayane') { %>
       <nav class="main-nav">
         <a href="/rayane" class="<%= active === 'hoje' ? 'active' : '' %>">Hoje</a>
+        <a href="/rayane/trilha" class="<%= active === 'trilha' ? 'active' : '' %>">Trilha</a>
         <a href="/rayane/simulado" class="<%= active === 'simulado' ? 'active' : '' %>">Simulados</a>
+        <a href="/rayane/erros" class="<%= active === 'erros' ? 'active' : '' %>">Erros</a>
         <a href="/rayane/progresso" class="<%= active === 'progresso' ? 'active' : '' %>">Progresso</a>
-        <a href="/rayane/cronograma" class="<%= active === 'cronograma' ? 'active' : '' %>">Cronograma</a>
+        <a href="/rayane/plano" class="<%= active === 'plano' ? 'active' : '' %>">Plano</a>
       </nav>
     <% } else if (role === 'admin') { %>
       <nav class="main-nav">

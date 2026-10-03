@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Atividade — Admin' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'atividade' }) %>
+  <div class="container">
+
+    <div class="card">
+      <h2 class="mt-0">Últimas tentativas da Rayane</h2>
+      <% if (attempts.length === 0) { %>
+        <p class="muted">Nenhuma tentativa registrada ainda.</p>
+      <% } else { %>
+        <div class="table-scroll">
+        <table class="simple">
+          <thead><tr><th>Quando</th><th>Origem</th><th>Matéria</th><th>Tema</th><th>Nível</th><th>Questão</th><th>Resultado</th></tr></thead>
+          <tbody>
+            <% attempts.forEach(function(a) { %>
+              <tr>
+                <td class="small muted"><%= a.created_at %></td>
+                <td class="small"><%= a.source === 'simulado' ? '📝 Simulado' : '📚 Prática' %></td>
+                <td><%= a.subject_name %></td>
+                <td><%= a.theme_name %></td>
+                <td class="small"><%= a.difficulty === 'facil' ? 'Fácil' : (a.difficulty === 'dificil' ? 'Difícil' : 'Médio') %></td>
+                <td class="small"><%= a.stem.length > 70 ? a.stem.slice(0, 70) + '…' : a.stem %></td>
+                <td><%= a.is_correct ? '✅' : '❌' %></td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+        </div>
+      <% } %>
+    </div>
+
+  </div>
+</body>
+</html>

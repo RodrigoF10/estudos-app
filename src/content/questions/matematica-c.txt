@@ -1,0 +1,522 @@
+# Matemática — M06 (divisores, múltiplos, primos, frações), M07 (função afim), M11 (contagem), M10 (probabilidade), M05 (conjuntos)
+
+# ===================== M06 =====================
+
+@A-M06-01 N1 cálculo
+stem: Dois ônibus saem juntos do terminal às 6 h. Um deles passa pelo terminal a cada 12 minutos, e o outro, a cada 15 minutos. Eles voltarão a sair juntos após
+o1: 27 minutos.
+o2: 30 minutos.
+o3: 60 minutos.
+o4: 180 minutos.
+key: C
+a: 27 é a soma de 12 e 15; os instantes de saída são múltiplos dos intervalos, e não a soma deles.
+b: 30 é múltiplo de 15, mas não de 12 (30 ÷ 12 não é inteiro).
+c: O primeiro instante em que os dois coincidem é o mínimo múltiplo comum: mmc(12, 15) = 60 minutos.
+d: 180 é o produto de 12 por 15, que é um múltiplo comum, mas não o menor.
+
+@A-M06-02 N1 cálculo
+stem: Duas fitas, de 24 m e 36 m, serão cortadas em pedaços de mesmo comprimento, o maior possível, sem sobras. O número total de pedaços obtidos será
+o1: 5.
+o2: 10.
+o3: 12.
+o4: 15.
+key: A
+a: mdc(24, 36) = 12 m. Pedaços: 24 ÷ 12 = 2 e 36 ÷ 12 = 3. Total: 2 + 3 = 5.
+b: 10 pedaços resultariam de cortar em pedaços de 6 m (4 + 6), que é divisor comum de 24 e 36, mas não o maior.
+c: 12 é o comprimento de cada pedaço (mdc), e não a quantidade de pedaços.
+d: 15 pedaços resultariam de cortar em pedaços de 4 m (6 + 9); esses pedaços não são os maiores possíveis.
+
+@A-M06-03 N2
+stem: A quantidade de números primos maiores que 20 e menores que 40 é
+o1: 3.
+o2: 4.
+o3: 5.
+o4: 6.
+key: B
+a: Faltou algum: os primos nesse intervalo são 23, 29, 31 e 37.
+b: Entre 20 e 40, os números que só têm dois divisores são 23, 29, 31 e 37. São 4.
+c: Alguém contou 5 ao incluir um número composto como 33 (3 · 11) ou 39 (3 · 13).
+d: 6 inclui números compostos, como 25, 27, 33 ou 35.
+
+@A-M06-04 N2 cálculo
+stem: Um reservatório está com 3/4 de sua capacidade ocupada. Em seguida, retira-se 1/3 da água que há nele. Depois da retirada, a parte da capacidade total ocupada é
+o1: 1/4.
+o2: 5/12.
+o3: 1/2.
+o4: 2/3.
+key: C
+a: 1/4 seria o que foi retirado (1/3 de 3/4); pede-se o que sobrou.
+b: 5/12 resulta de subtrair 3/4 − 1/3, como se a fração retirada fosse da capacidade total do reservatório.
+c: Retirou 1/3 do que havia, então sobraram 2/3 de 3/4: (2/3) · (3/4) = 6/12 = 1/2.
+d: 2/3 é a fração que restou do volume que havia, e não da capacidade total.
+
+@A-M06-05 N2
+stem: O número de divisores naturais de 36 é
+o1: 6.
+o2: 8.
+o3: 12.
+o4: 9.
+key: D
+a: 6 é o número de divisores de 12 (1, 2, 3, 4, 6 e 12), e não de 36.
+b: 8 é o número de divisores de 24 (1, 2, 3, 4, 6, 8, 12 e 24), e não de 36.
+c: 12 é um dos divisores, e não o número deles.
+d: Divisores de 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. São 9 (fatorando, 36 = 2² · 3², e (2 + 1)(2 + 1) = 9).
+
+@A-M06-06 N2
+stem: O algarismo A para que o número 73A seja divisível por 3 e por 5 é
+o1: 0.
+o2: 2.
+o3: 5.
+o4: 8.
+key: C
+a: 730 é divisível por 5 (termina em 0), mas 7 + 3 + 0 = 10 não é múltiplo de 3.
+b: 732 não é divisível por 5, pois não termina em 0 nem em 5.
+c: Para ser divisível por 5, A é 0 ou 5. Para ser divisível por 3, 7 + 3 + A deve ser múltiplo de 3: com A = 5, a soma é 15. O número é 735.
+d: 738 é divisível por 3 (soma 18), mas não por 5.
+
+@A-M06-07 N3 cálculo
+stem: Uma torneira enche um tanque em 6 horas, e outra torneira enche o mesmo tanque em 3 horas. Funcionando juntas, as duas torneiras enchem o tanque em
+o1: 1,5 hora.
+o2: 2 horas.
+o3: 3 horas.
+o4: 4,5 horas.
+key: B
+a: 1,5 h é a metade do tempo da torneira mais rápida; as duas juntas não dobram a velocidade da mais rápida, porque a outra é mais lenta.
+b: Em 1 hora, a primeira enche 1/6 e a segunda, 1/3 = 2/6. Juntas: 3/6 = 1/2 do tanque por hora, logo o tanque enche em 2 horas.
+c: 3 h é o tempo da torneira mais rápida, funcionando sozinha.
+d: 4,5 h é a média entre 6 h e 3 h; o trabalho conjunto deve levar menos tempo que o da mais rápida.
+
+@A-M06-08 N3 cálculo
+stem: Três luzes piscam em intervalos de 4 s, 6 s e 10 s e acabam de piscar juntas. Nos próximos 3 minutos, contando o instante final, o número de vezes em que as três piscarão juntas novamente é
+o1: 3.
+o2: 2.
+o3: 4.
+o4: 6.
+key: A
+a: mmc(4, 6, 10) = 60 s. Em 3 minutos (180 s), elas coincidem em 60 s, 120 s e 180 s: 3 vezes.
+b: 2 conta apenas até 120 s, deixando de fora o instante 180 s (que está incluído no intervalo de 3 minutos).
+c: 4 incluiria o instante 0 s, que é o piscar inicial (não é “novamente”).
+d: 6 resulta de dividir 180 por 30, e 30 s não é múltiplo comum a 4 s (30 ÷ 4 não é inteiro).
+
+# ===================== M07 =====================
+
+@A-M07-01 N1 cálculo
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Gráfico da distância percorrida por um carro em função do tempo, com reta de (0, 0) até (3, 180)"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">0</text><line x1="85.5" y1="14" x2="85.5" y2="162" stroke="#e3e5f0"/><text x="85.5" y="174" font-size="9" text-anchor="middle">1</text><line x1="137.0" y1="14" x2="137.0" y2="162" stroke="#e3e5f0"/><text x="137.0" y="174" font-size="9" text-anchor="middle">2</text><line x1="188.5" y1="14" x2="188.5" y2="162" stroke="#e3e5f0"/><text x="188.5" y="174" font-size="9" text-anchor="middle">3</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">4</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">0</text><line x1="34" y1="125.0" x2="240" y2="125.0" stroke="#e3e5f0"/><text x="29" y="128.0" font-size="9" text-anchor="end">60</text><line x1="34" y1="88.0" x2="240" y2="88.0" stroke="#e3e5f0"/><text x="29" y="91.0" font-size="9" text-anchor="end">120</text><line x1="34" y1="51.0" x2="240" y2="51.0" stroke="#e3e5f0"/><text x="29" y="54.0" font-size="9" text-anchor="end">180</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">240</text><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#555"/><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="34.0,162.0 188.5,51.0"/><circle cx="34.0" cy="162.0" r="3" fill="#4351c9"/><circle cx="188.5" cy="51.0" r="3" fill="#4351c9"/><text x="240" y="188" font-size="9" text-anchor="end">Tempo (h)</text><text x="2" y="9" font-size="9">Distância (km)</text></svg><p class="src">Movimento de um carro com velocidade constante.</p>
+stem: A velocidade do carro, em km/h, é
+o1: 40.
+o2: 60.
+o3: 80.
+o4: 180.
+key: B
+a: 40 km/h resultaria em 120 km em 3 horas, e não em 180 km.
+b: Velocidade = distância ÷ tempo = 180 ÷ 3 = 60 km/h (coeficiente angular da reta).
+c: 80 km/h resultaria em 240 km em 3 horas.
+d: 180 é a distância percorrida (em km), e não a velocidade.
+
+@A-M07-02 N1 cálculo
+stem: Uma corrida de táxi custa uma taxa fixa de R$ 5,00 mais R$ 2,00 por quilômetro rodado. O valor de uma corrida de 12 km é
+o1: R$ 17,00.
+o2: R$ 24,00.
+o3: R$ 29,00.
+o4: R$ 34,00.
+key: C
+a: R$ 17,00 resulta de somar 5 + 12, sem multiplicar os quilômetros por R$ 2,00.
+b: R$ 24,00 é só o valor dos quilômetros (12 · 2); falta a taxa fixa de R$ 5,00.
+c: Valor = 5 + 2 · 12 = 5 + 24 = R$ 29,00.
+d: R$ 34,00 resulta de multiplicar 5 + 12 por 2, o que aplica o valor por km também à taxa fixa.
+
+@A-M07-03 N2 cálculo
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Gráfico de uma função afim f, com reta passando pelos pontos (0, 3) e (3, 9)"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">0</text><line x1="75.2" y1="14" x2="75.2" y2="162" stroke="#e3e5f0"/><text x="75.2" y="174" font-size="9" text-anchor="middle">1</text><line x1="116.4" y1="14" x2="116.4" y2="162" stroke="#e3e5f0"/><text x="116.4" y="174" font-size="9" text-anchor="middle">2</text><line x1="157.6" y1="14" x2="157.6" y2="162" stroke="#e3e5f0"/><text x="157.6" y="174" font-size="9" text-anchor="middle">3</text><line x1="198.8" y1="14" x2="198.8" y2="162" stroke="#e3e5f0"/><text x="198.8" y="174" font-size="9" text-anchor="middle">4</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">5</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">0</text><line x1="34" y1="132.4" x2="240" y2="132.4" stroke="#e3e5f0"/><text x="29" y="135.4" font-size="9" text-anchor="end">3</text><line x1="34" y1="102.8" x2="240" y2="102.8" stroke="#e3e5f0"/><text x="29" y="105.8" font-size="9" text-anchor="end">6</text><line x1="34" y1="73.2" x2="240" y2="73.2" stroke="#e3e5f0"/><text x="29" y="76.2" font-size="9" text-anchor="end">9</text><line x1="34" y1="43.6" x2="240" y2="43.6" stroke="#e3e5f0"/><text x="29" y="46.6" font-size="9" text-anchor="end">12</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">15</text><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#555"/><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="34.0,132.4 157.6,73.2"/><circle cx="34.0" cy="132.4" r="3" fill="#4351c9"/><circle cx="157.6" cy="73.2" r="3" fill="#4351c9"/><text x="240" y="188" font-size="9" text-anchor="end">x</text><text x="2" y="9" font-size="9">f(x)</text></svg><p class="src">O gráfico mostra um trecho da reta que representa a função f. Ela passa pelos pontos (0, 3) e (3, 9).</p>
+stem: O valor de f(5) é
+o1: 10.
+o2: 11.
+o3: 15.
+o4: 13.
+key: D
+a: 10 supõe que f(5) = 5 + 5, sem considerar o ritmo de crescimento da reta.
+b: 11 supõe um crescimento de 1,6 por unidade de x, o que não condiz com os dois pontos dados.
+c: 15 resulta de usar 3x, que seria uma função de coeficiente 3 (não confere com f(3) = 9 e f(0) = 3).
+d: Coeficiente angular: (9 − 3) ÷ (3 − 0) = 2. Intercepto: 3. Logo f(x) = 2x + 3 e f(5) = 13.
+
+@A-M07-04 N2 cálculo
+stem: O lucro mensal, em milhares de reais, de uma pequena confeitaria é dado por L(x) = 3x − 12, em que x é o número de milhares de bolos vendidos. O menor número de bolos para que o lucro deixe de ser negativo (ponto de equilíbrio) é
+o1: 400 bolos.
+o2: 4 000 bolos.
+o3: 12 000 bolos.
+o4: 36 000 bolos.
+key: B
+a: 400 bolos resulta de errar a unidade: x é dado em milhares.
+b: L(x) = 0 ⇒ 3x = 12 ⇒ x = 4. Como x é em milhares, são 4 000 bolos.
+c: 12 000 resulta de usar o termo constante, 12, como o número de bolos.
+d: 36 000 resulta de multiplicar 3 por 12, que não é solução de nenhuma equação do problema.
+
+@A-M07-05 N3 cálculo
+sup: <table class="qt"><caption>Preços de duas locadoras de bicicletas</caption><tr><th>Locadora</th><th>Taxa fixa</th><th>Valor por dia</th></tr><tr><td>A</td><td>R$ 50,00</td><td>R$ 10,00</td></tr><tr><td>B</td><td>R$ 20,00</td><td>R$ 20,00</td></tr></table>
+stem: A locadora A passa a ser mais barata que a B para períodos de, no mínimo,
+o1: 2 dias.
+o2: 3 dias.
+o3: 4 dias.
+o4: 5 dias.
+key: C
+a: Com 2 dias: A cobra R$ 70,00 e B cobra R$ 60,00; B ainda é mais barata.
+b: Com 3 dias: A cobra R$ 80,00 e B também cobra R$ 80,00. Há igualdade, e não vantagem para A.
+c: A(d) = 50 + 10d e B(d) = 20 + 20d. A < B ⇒ 30 < 10d ⇒ d > 3. O primeiro número inteiro de dias é 4 (A: R$ 90,00; B: R$ 100,00).
+d: Com 5 dias A também é mais barata, mas não é o mínimo; já com 4 dias isso ocorre.
+
+@A-M07-06 N3 cálculo
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Gráfico da distância percorrida por um ciclista: de 0 a 1 hora vai de 0 a 60 km, de 1 a 2 horas permanece em 60 km, de 2 a 4 horas vai até 160 km"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">0</text><line x1="85.5" y1="14" x2="85.5" y2="162" stroke="#e3e5f0"/><text x="85.5" y="174" font-size="9" text-anchor="middle">1</text><line x1="137.0" y1="14" x2="137.0" y2="162" stroke="#e3e5f0"/><text x="137.0" y="174" font-size="9" text-anchor="middle">2</text><line x1="188.5" y1="14" x2="188.5" y2="162" stroke="#e3e5f0"/><text x="188.5" y="174" font-size="9" text-anchor="middle">3</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">4</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">0</text><line x1="34" y1="125.0" x2="240" y2="125.0" stroke="#e3e5f0"/><text x="29" y="128.0" font-size="9" text-anchor="end">40</text><line x1="34" y1="88.0" x2="240" y2="88.0" stroke="#e3e5f0"/><text x="29" y="91.0" font-size="9" text-anchor="end">80</text><line x1="34" y1="51.0" x2="240" y2="51.0" stroke="#e3e5f0"/><text x="29" y="54.0" font-size="9" text-anchor="end">120</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">160</text><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#555"/><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="34.0,162.0 85.5,106.5 137.0,106.5 240.0,14.0"/><circle cx="34.0" cy="162.0" r="3" fill="#4351c9"/><circle cx="85.5" cy="106.5" r="3" fill="#4351c9"/><circle cx="137.0" cy="106.5" r="3" fill="#4351c9"/><circle cx="240.0" cy="14.0" r="3" fill="#4351c9"/><text x="240" y="188" font-size="9" text-anchor="end">Tempo (h)</text><text x="2" y="9" font-size="9">Distância (km)</text></svg><p class="src">Distância percorrida por um ciclista em um passeio de 4 horas, com uma parada.</p>
+stem: A velocidade média do ciclista em todo o passeio, incluindo a parada, foi de
+o1: 40 km/h.
+o2: 50 km/h.
+o3: 55 km/h.
+o4: 60 km/h.
+key: A
+a: Velocidade média = distância total ÷ tempo total = 160 ÷ 4 = 40 km/h.
+b: 50 km/h é a velocidade no último trecho (100 km em 2 h), e não a média do passeio.
+c: 55 km/h é a média simples entre 60 e 50 km/h, que ignora a parada e os tempos de cada trecho.
+d: 60 km/h é a velocidade no primeiro trecho.
+
+@A-M07-07 N2 cálculo
+stem: Uma planta mede 12 cm e cresce 3 cm por semana, de forma constante. O número de semanas necessário para que ela chegue a 51 cm é
+o1: 11.
+o2: 12.
+o3: 13.
+o4: 17.
+key: C
+a: Com 11 semanas, a altura é 12 + 33 = 45 cm, ainda abaixo de 51 cm.
+b: Com 12 semanas, a altura é 12 + 36 = 48 cm, ainda abaixo de 51 cm.
+c: h(t) = 12 + 3t = 51 ⇒ 3t = 39 ⇒ t = 13 semanas.
+d: 17 resulta de dividir 51 por 3, sem descontar os 12 cm que a planta já tinha.
+
+@A-M07-08 N2 cálculo
+stem: A relação entre as temperaturas em graus Fahrenheit (F) e Celsius (C) é F = 1,8 · C + 32. A temperatura de 86 °F corresponde, em graus Celsius, a
+o1: 20.
+o2: 25.
+o3: 54.
+o4: 30.
+key: D
+a: Com C = 20, F = 1,8 · 20 + 32 = 68 °F.
+b: Com C = 25, F = 1,8 · 25 + 32 = 77 °F.
+c: 54 é o valor de 1,8 · C, e não o de C; falta dividir por 1,8.
+d: 86 = 1,8 · C + 32 ⇒ 1,8 · C = 54 ⇒ C = 30.
+
+# ===================== M11 =====================
+
+@A-M11-01 N1 cálculo
+stem: Ana tem 3 camisas e 4 bermudas diferentes. O número de combinações diferentes de uma camisa com uma bermuda que ela pode formar é
+o1: 7.
+o2: 12.
+o3: 16.
+o4: 81.
+key: B
+a: 7 é a soma 3 + 4; para cada camisa há 4 bermudas possíveis, e por isso se multiplica.
+b: Princípio multiplicativo: 3 · 4 = 12.
+c: 16 é 4², que não corresponde às escolhas de Ana.
+d: 81 é 3⁴, que seria o número de maneiras de escolher uma entre 3 opções quatro vezes seguidas.
+
+@A-M11-02 N2 cálculo
+stem: Uma senha é formada por 3 algarismos distintos escolhidos entre 1, 2, 3, 4 e 5. O número de senhas possíveis é
+o1: 60.
+o2: 15.
+o3: 120.
+o4: 125.
+key: A
+a: Há 5 opções para o 1º algarismo, 4 para o 2º e 3 para o 3º: 5 · 4 · 3 = 60.
+b: 15 é a soma 5 + 4 + 3, mas as escolhas são sucessivas e se multiplicam.
+c: 120 é 5!, que seria o número de maneiras de usar os 5 algarismos em uma senha de 5 posições.
+d: 125 é 5³, número de senhas com repetição permitida.
+
+@A-M11-03 N2
+stem: O número de anagramas (permutações das letras) da palavra AMOR é
+o1: 12.
+o2: 16.
+o3: 24.
+o4: 64.
+key: C
+a: 12 resulta de multiplicar só 4 · 3.
+b: 16 é 4², que seria o caso de repetir letras.
+c: As 4 letras são distintas: 4! = 4 · 3 · 2 · 1 = 24.
+d: 64 é 4³, que não corresponde a esse problema.
+
+@A-M11-04 N3 cálculo
+stem: Cinco amigos, entre eles Ana e Bia, vão se sentar em 5 cadeiras alinhadas, de modo que Ana e Bia fiquem sempre lado a lado. O número de maneiras de fazer isso é
+o1: 24.
+o2: 48.
+o3: 60.
+o4: 120.
+key: B
+a: 24 é 4!, mas ainda é preciso multiplicar por 2, porque Ana e Bia podem trocar de lugar entre si.
+b: Tratando Ana e Bia como um bloco, há 4 “objetos” para permutar: 4! = 24. Dentro do bloco, 2 ordens possíveis: 24 · 2 = 48.
+c: 60 resulta de contar como 5 · 4 · 3, que não considera a condição pedida.
+d: 120 é 5!, o total sem a restrição de ficarem juntas.
+
+@A-M11-05 N2 cálculo
+stem: De um grupo de 6 estudantes será escolhida uma comissão de 3 pessoas, sem funções diferentes entre os membros. O número de comissões possíveis é
+o1: 18.
+o2: 120.
+o3: 216.
+o4: 20.
+key: D
+a: 18 é 6 · 3, que não conta combinações.
+b: 120 é 6 · 5 · 4, que contaria comissões com ordem (cargos diferentes).
+c: 216 é 6³, que contaria escolhas com repetição.
+d: Combinação: C(6, 3) = 6 · 5 · 4 ÷ (3 · 2 · 1) = 120 ÷ 6 = 20.
+
+@A-M11-06 N3 cálculo
+stem: Quantos números pares de 3 algarismos distintos podem ser formados com os algarismos 1, 2, 3, 4 e 5?
+o1: 12.
+o2: 24.
+o3: 30.
+o4: 60.
+key: B
+a: 12 resulta de considerar só uma das opções para as unidades (2 ou 4): 1 · 4 · 3 = 12.
+b: O algarismo das unidades deve ser 2 ou 4 (2 opções). As centenas têm 4 opções restantes e as dezenas, 3: 2 · 4 · 3 = 24.
+c: 30 resulta de 5 · 3 · 2, que não respeita a condição de ser par.
+d: 60 é o total de números de 3 algarismos distintos (5 · 4 · 3), e inclui os ímpares.
+
+@A-M11-07 N3 cálculo
+stem: Em um campeonato, 8 times jogam entre si em dois turnos (turno e returno), de modo que cada time enfrenta cada adversário duas vezes. O número total de jogos é
+o1: 56.
+o2: 28.
+o3: 64.
+o4: 112.
+key: A
+a: Em um turno: C(8, 2) = 28 jogos. Com turno e returno: 28 · 2 = 56 (ou 8 · 7 = 56).
+b: 28 é o número de jogos de um só turno, C(8, 2); no campeonato há dois turnos.
+c: 64 é 8², que contaria o jogo de um time contra ele mesmo.
+d: 112 é 56 · 2, contando os jogos duas vezes além do necessário.
+
+@A-M11-08 N3 cálculo
+stem: Uma senha numérica tem 4 algarismos (de 0 a 9, podendo haver repetição). O número de senhas que têm pelo menos um algarismo repetido é
+o1: 5 040.
+o2: 9 000.
+o3: 10 000.
+o4: 4 960.
+key: D
+a: 5 040 é o número de senhas SEM algarismos repetidos.
+b: 9 000 é o número de senhas que não começam por 0, que não é a condição pedida.
+c: 10 000 é o total de senhas, inclusive as sem repetição.
+d: Total de senhas: 10⁴ = 10 000. Senhas sem repetição: 10 · 9 · 8 · 7 = 5 040. Com pelo menos uma repetição: 10 000 − 5 040 = 4 960.
+
+# ===================== M10 =====================
+
+@A-M10-01 N1 cálculo
+stem: Ao lançar um dado comum, de seis faces numeradas de 1 a 6, a probabilidade de sair um número maior que 4 é
+o1: 1/6.
+o2: 1/3.
+o3: 1/2.
+o4: 2/3.
+key: B
+a: 1/6 é a probabilidade de um único resultado específico; há dois favoráveis (5 e 6).
+b: Casos favoráveis: 5 e 6 (2 casos). Casos possíveis: 6. Probabilidade = 2/6 = 1/3.
+c: 1/2 seria a probabilidade de sair um número maior que 3 (4, 5 ou 6).
+d: 2/3 é a probabilidade de sair um número maior ou igual a 3 (3, 4, 5 ou 6).
+
+@A-M10-02 N1 cálculo
+stem: Uma urna contém 5 bolas azuis e 3 bolas vermelhas, todas iguais, a não ser pela cor. Sorteando-se uma bola ao acaso, a probabilidade de que seja vermelha é
+o1: 3/8.
+o2: 3/5.
+o3: 5/8.
+o4: 1/3.
+key: A
+a: Casos favoráveis: 3 vermelhas. Total de bolas: 5 + 3 = 8. Probabilidade = 3/8.
+b: 3/5 compara vermelhas com azuis, e a probabilidade compara com o total.
+c: 5/8 é a probabilidade de sair azul.
+d: 1/3 resulta de pensar em apenas duas cores, sem considerar as quantidades.
+
+@A-M10-03 N2 cálculo
+stem: Lançam-se dois dados comuns e observa-se a soma dos números das faces de cima. A probabilidade de a soma ser 7 é
+o1: 1/12.
+o2: 1/6.
+o3: 7/36.
+o4: 1/2.
+key: B
+a: 1/12 resultaria de 3 casos favoráveis em 36; mas são 6.
+b: Casos favoráveis: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1): 6 casos em 36 possíveis. 6/36 = 1/6.
+c: 7/36 resulta de confundir o valor da soma (7) com o número de casos favoráveis.
+d: 1/2 seria a probabilidade de a soma ser par ou ímpar; a soma 7 é só um valor.
+
+@A-M10-04 N2 cálculo
+stem: Uma moeda honesta é lançada 3 vezes. A probabilidade de sair cara pelo menos uma vez é
+o1: 1/8.
+o2: 3/8.
+o3: 7/8.
+o4: 1/2.
+key: C
+a: 1/8 é a probabilidade de sair três coroas, que é o contrário do evento pedido.
+b: 3/8 é a probabilidade de sair exatamente uma cara.
+c: O evento contrário (nenhuma cara, ou seja, três coroas) tem probabilidade (1/2)³ = 1/8. Logo, 1 − 1/8 = 7/8.
+d: 1/2 é a probabilidade de uma cara em um único lançamento, e não de pelo menos uma em três.
+
+@A-M10-05 N3 cálculo
+sup: <table class="qt"><caption>Uma turma de 30 estudantes, segundo o sexo e o uso de óculos</caption><tr><th></th><th>Usa óculos</th><th>Não usa óculos</th></tr><tr><td>Meninas</td><td>5</td><td>13</td></tr><tr><td>Meninos</td><td>7</td><td>5</td></tr></table>
+stem: Um estudante dessa turma é sorteado ao acaso e se sabe que ele usa óculos. A probabilidade de que seja uma menina é
+o1: 5/18.
+o2: 5/12.
+o3: 5/30.
+o4: 7/12.
+key: B
+a: 5/18 é a proporção de meninas que usam óculos entre todas as meninas, e a condição é diferente (o sorteado já usa óculos).
+b: Sabendo que usa óculos, o conjunto de possíveis é o dos 12 estudantes que usam óculos (5 + 7). Meninas nesse grupo: 5. Probabilidade = 5/12.
+c: 5/30 é a probabilidade de sortear, entre todos, uma menina que usa óculos, sem usar a informação dada.
+d: 7/12 é a probabilidade de ser menino, entre os que usam óculos.
+
+@A-M10-06 N3 cálculo
+stem: Uma urna tem 4 bolas verdes e 6 amarelas. Duas bolas são retiradas ao acaso, uma após a outra, sem reposição. A probabilidade de ambas serem verdes é
+o1: 3/25.
+o2: 4/25.
+o3: 2/5.
+o4: 2/15.
+key: D
+a: 3/25 resulta de manter 10 no denominador na 2ª retirada (4/10 · 3/10), esquecendo que não há reposição.
+b: 4/25 seria a probabilidade com reposição: (4/10) · (4/10) = 16/100.
+c: 2/5 é a probabilidade de a 1ª bola ser verde (4/10); a de saírem duas verdes é menor.
+d: 1ª verde: 4/10. 2ª verde, sem reposição: 3/9. Probabilidade: (4/10) · (3/9) = 12/90 = 2/15.
+
+@A-M10-07 N2
+stem: Em uma rifa, Ana comprou 5 bilhetes de um total de 200 vendidos. Bia comprou 3 bilhetes de uma outra rifa, com 100 bilhetes vendidos. Sobre as chances de ganhar, é correto afirmar que
+o1: Ana tem chance maior, pois comprou mais bilhetes.
+o2: Bia tem chance maior, pois 3/100 é maior que 5/200.
+o3: as duas têm a mesma chance, pois cada uma comprou poucos bilhetes.
+o4: não é possível comparar, pois as rifas são diferentes.
+key: B
+a: Comprar mais bilhetes não basta: é preciso considerar o total de bilhetes de cada rifa.
+b: Ana: 5/200 = 2,5%. Bia: 3/100 = 3%. Bia tem a maior probabilidade.
+c: As probabilidades são diferentes (2,5% e 3%).
+d: É possível comparar: as probabilidades são números que permitem comparação entre rifas diferentes.
+
+@A-M10-08 N3 cálculo
+stem: A previsão do tempo indica 40% de chance de chuva no sábado e 50% no domingo, com os dois eventos independentes. A probabilidade de não chover em nenhum dos dois dias é
+o1: 10%.
+o2: 20%.
+o3: 30%.
+o4: 90%.
+key: C
+a: 10% resulta de 50% − 40%, o que não calcula probabilidades de eventos independentes.
+b: 20% é a probabilidade de chover nos dois dias (0,4 · 0,5).
+c: Não chover no sábado: 60%. Não chover no domingo: 50%. Como são independentes: 0,6 · 0,5 = 0,3 = 30%.
+d: 90% resulta de somar 40% + 50%, que é um erro: probabilidades de eventos independentes se multiplicam.
+
+# ===================== M05 =====================
+
+@A-M05-01 N1 cálculo
+sup: <svg viewBox="0 0 230 140" width="270" height="164" role="img" aria-label="Diagrama de Venn com dois conjuntos: Futebol, com 18 estudantes, e Vôlei, com 15 estudantes, com 5 estudantes na interseção; o universo tem 30 estudantes"><rect x="5" y="5" width="220" height="130" fill="none" stroke="#888"/><circle cx="90" cy="70" r="50" fill="#7c8cff55" stroke="#4351c9"/><circle cx="140" cy="70" r="50" fill="#f5c27a88" stroke="#b7791f"/><text x="65" y="40" font-size="11" text-anchor="middle">Futebol</text><text x="65" y="54" font-size="10" text-anchor="middle">18 no total</text><text x="165" y="40" font-size="11" text-anchor="middle">Vôlei</text><text x="165" y="54" font-size="10" text-anchor="middle">15 no total</text><text x="115" y="74" font-size="12" text-anchor="middle">5</text><text x="215" y="130" font-size="10" text-anchor="end">30 estudantes</text></svg><p class="src">Em uma turma de 30 estudantes, 18 praticam futebol, 15 praticam vôlei e 5 praticam os dois esportes.</p>
+stem: O número de estudantes dessa turma que não praticam nenhum dos dois esportes é
+o1: 2.
+o2: 0.
+o3: 3.
+o4: 7.
+key: A
+a: Estudantes que praticam pelo menos um esporte: 18 + 15 − 5 = 28. Nenhum dos dois: 30 − 28 = 2.
+b: 0 supõe que todos praticam algum esporte, mas 18 + 15 − 5 = 28, e não 30.
+c: 3 resultaria de errar a conta de união (por exemplo, 18 + 15 − 6).
+d: 7 resultaria de subtrair apenas a interseção (30 − 18 − 5), o que não considera os que fazem vôlei.
+
+@A-M05-02 N1
+stem: Dados os conjuntos A = {1, 2, 3, 4, 5} e B = {4, 5, 6, 7}, o número de elementos do conjunto A ∪ B é
+o1: 2.
+o2: 5.
+o3: 7.
+o4: 9.
+key: C
+a: 2 é o número de elementos da interseção A ∩ B = {4, 5}.
+b: 5 é o número de elementos só de A.
+c: A ∪ B = {1, 2, 3, 4, 5, 6, 7}. Os elementos comuns (4 e 5) são contados uma única vez: 7 elementos.
+d: 9 resulta de somar 5 + 4 sem descontar os elementos repetidos.
+
+@A-M05-03 N2 cálculo
+stem: Em uma pesquisa com 100 pessoas, 60 disseram ler jornal, 50 disseram ler revista e 20 disseram ler os dois. O número de pessoas que leem apenas um dos dois tipos de publicação é
+o1: 40.
+o2: 90.
+o3: 110.
+o4: 70.
+key: D
+a: 40 é o número das que leem só jornal (60 − 20); falta somar as que leem só revista.
+b: 90 resulta de somar 40 + 50, misturando só jornal com o total de revista.
+c: 110 é 60 + 50, que conta duas vezes quem lê os dois.
+d: Só jornal: 60 − 20 = 40. Só revista: 50 − 20 = 30. Apenas um: 40 + 30 = 70.
+
+@A-M05-04 N2
+stem: Entre os números abaixo, o único que é irracional é
+o1: √16.
+o2: 0,333...
+o3: √7.
+o4: 22/7.
+key: C
+a: √16 = 4, que é um número inteiro e, portanto, racional.
+b: 0,333... é dízima periódica e vale 1/3; é racional.
+c: 7 não é quadrado perfeito, e √7 = 2,6457... tem infinitas casas decimais sem período. É irracional.
+d: 22/7 é uma razão entre inteiros, logo é racional (embora seja usada como aproximação de π).
+
+@A-M05-05 N2
+stem: Considere A = {2, 4, 6, 8} e B = {x ∈ ℕ | x é par e x ≤ 10}. É correto afirmar que
+o1: A ⊂ B.
+o2: B ⊂ A.
+o3: 4 ⊂ A.
+o4: A = B.
+key: A
+a: Todos os elementos de A (2, 4, 6, 8) são pares menores ou iguais a 10, então estão em B. Portanto A ⊂ B.
+b: B = {0, 2, 4, 6, 8, 10} tem elementos que não estão em A (0 e 10); logo B não está contido em A.
+c: A relação entre elemento e conjunto é de pertinência: 4 ∈ A. O símbolo ⊂ liga conjuntos.
+d: A e B são diferentes: B tem 0 e 10, que A não tem.
+
+@A-M05-06 N2 cálculo
+stem: Um conjunto com 4 elementos tem quantos subconjuntos?
+o1: 8.
+o2: 12.
+o3: 24.
+o4: 16.
+key: D
+a: 8 é o número de subconjuntos de um conjunto de 3 elementos (2³).
+b: 12 é 4 · 3, que não corresponde à contagem de subconjuntos.
+c: 24 é 4!, que conta permutações, e não subconjuntos.
+d: Cada elemento pode estar ou não no subconjunto: 2 · 2 · 2 · 2 = 2⁴ = 16.
+
+@A-M05-07 N3 cálculo
+sup: <table class="qt"><caption>Alunos de uma escola de idiomas (120 matriculados)</caption><tr><th>Cursos</th><th>Alunos</th></tr><tr><td>Inglês</td><td>70</td></tr><tr><td>Espanhol</td><td>50</td></tr><tr><td>Francês</td><td>30</td></tr><tr><td>Inglês e Espanhol</td><td>20</td></tr><tr><td>Inglês e Francês</td><td>10</td></tr><tr><td>Espanhol e Francês</td><td>5</td></tr><tr><td>Os três cursos</td><td>3</td></tr></table>
+stem: Os valores das linhas “Inglês e Espanhol”, “Inglês e Francês” e “Espanhol e Francês” incluem os alunos que fazem os três cursos. O número de alunos matriculados que não fazem nenhum dos três cursos é
+o1: 2.
+o2: 5.
+o3: 8.
+o4: 30.
+key: A
+a: Alunos que fazem pelo menos um curso: 70 + 50 + 30 − 20 − 10 − 5 + 3 = 118. Logo, 120 − 118 = 2.
+b: 5 resulta de esquecer de somar de volta os 3 alunos dos três cursos (150 − 35 = 115; 120 − 115 = 5).
+c: 8 resulta de subtrair os 3 alunos dos três cursos em vez de somá-los (150 − 35 − 3 = 112; 120 − 112 = 8).
+d: 30 resulta de comparar 70 + 50 + 30 = 150 com 120, esquecendo as interseções.
+
+@A-M05-08 N3
+stem: Sejam os intervalos A = [−2, 5) e B = (1, 8]. A interseção A ∩ B é o intervalo
+o1: [−2, 8].
+o2: [1, 5).
+o3: (1, 5].
+o4: (1, 5).
+key: D
+a: [−2, 8] seria a união A ∪ B.
+b: O 1 não pertence a B (extremo aberto), então o intervalo não pode ser fechado em 1.
+c: O 5 não pertence a A (extremo aberto), então o intervalo não pode ser fechado em 5.
+d: A ∩ B reúne os números que estão nos dois: maiores que 1 (B exclui o 1) e menores que 5 (A exclui o 5). Então (1, 5).
+
+@A-M05-09 N2 cálculo
+stem: Em um grupo de pessoas, 60% gostam de música, 45% gostam de cinema e 25% gostam de música e de cinema. A porcentagem de pessoas desse grupo que não gostam de nenhuma das duas atividades é
+o1: 20%.
+o2: 5%.
+o3: 25%.
+o4: 80%.
+key: A
+a: Gostam de pelo menos uma: 60 + 45 − 25 = 80%. Não gostam de nenhuma: 100 − 80 = 20%.
+b: 5% resulta de calcular 100 − 60 − 45 = −5 e ignorar o sinal: a soma passa de 100% porque os que gostam das duas atividades foram contados duas vezes.
+c: 25% é a interseção (os que gostam das duas).
+d: 80% é a porcentagem dos que gostam de pelo menos uma atividade.
+
+@A-M05-10 N2
+stem: A dízima periódica 0,454545... pode ser escrita como a fração
+o1: 9/20.
+o2: 45/10.
+o3: 1/2.
+o4: 5/11.
+key: D
+a: 9/20 = 0,45 exato; a dízima 0,4545... é um pouco maior.
+b: 45/10 = 4,5, que é 10 vezes maior que a dízima.
+c: 1/2 = 0,5; embora próximo, a dízima vale cerca de 0,4545.
+d: x = 0,4545... ⇒ 100x = 45,4545... ⇒ 99x = 45 ⇒ x = 45/99 = 5/11.

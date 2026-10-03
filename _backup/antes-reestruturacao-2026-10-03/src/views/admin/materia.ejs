@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: subject.name + ' — Admin' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'overview' }) %>
+  <div class="container">
+
+    <p><a href="/admin">← Voltar para visão geral</a></p>
+
+    <div class="card">
+      <h2 class="mt-0"><%= subject.name %></h2>
+      <p class="muted"><%= subject.weight_percent %>% da prova · <%= progress.mastered %> de <%= progress.totalThemes %> temas dominados</p>
+      <div class="progress-bar"><div style="width: <%= progress.totalThemes ? Math.round((progress.mastered/progress.totalThemes)*100) : 0 %>%;"></div></div>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Detalhamento por tema</h2>
+      <div class="table-scroll">
+      <table class="simple">
+        <thead><tr><th>#</th><th>Tema</th><th>Status</th><th>Tentativas</th><th>Aproveitamento recente</th></tr></thead>
+        <tbody>
+          <% progress.themes.forEach(function(t, idx) { %>
+            <tr>
+              <td><%= idx + 1 %></td>
+              <td><%= t.theme.name %><% if (t.theme.low_priority) { %> <span class="low-tag">baixa prioridade</span><% } %></td>
+              <td><span class="badge badge-<%= t.stats.level.key %>"><%= t.stats.level.emoji %> <%= t.stats.level.label %></span></td>
+              <td><%= t.stats.attempts %></td>
+              <td><%= t.stats.accuracy !== null ? Math.round(t.stats.accuracy*100) + '%' : '—' %></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

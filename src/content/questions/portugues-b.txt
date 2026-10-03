@@ -1,0 +1,315 @@
+# Português — PT08 (gêneros, suportes e argumentação) e PT03 (modalização e marcas de opinião)
+# Textos autorais para estudo. Dados citados em textos de apoio são fictícios e estão assim indicados.
+
+# ===================== PT08 =====================
+
+@A-PT08-01 N1
+sup: <p><b>DOE SANGUE. DOE VIDA.</b></p><p>Hemocentro Regional — de terça a sábado, das 7h às 17h.<br>Leve documento com foto. Você pode ajudar até quatro pessoas em uma única doação.</p><p class="src">Cartaz autoral para estudo.</p>
+stem: O principal objetivo do texto é
+o1: relatar um acontecimento ocorrido no hemocentro.
+o2: descrever o prédio onde as doações são realizadas.
+o3: ensinar o leitor a coletar sangue com segurança.
+o4: convencer o leitor a doar sangue e informá-lo de onde e quando fazê-lo.
+key: D
+a: Não há relato de fato passado; o texto se dirige ao leitor no presente, convidando-o a agir.
+b: Não há descrição do prédio; o endereço funciona só como informação prática.
+c: O texto não ensina técnica de coleta, e sim convida à doação.
+d: O imperativo (“doe”, “leve”) e o argumento (ajudar até quatro pessoas) mostram a intenção de persuadir; o horário e o local informam como agir.
+
+@A-PT08-02 N1
+sup: <p><b>Bolo de caneca</b></p><p>Em uma caneca grande, misture quatro colheres de farinha de trigo, três de açúcar e duas de chocolate em pó. Acrescente um ovo e três colheres de leite e mexa até obter uma massa lisa. Leve ao micro-ondas por dois minutos. Espere esfriar um pouco antes de comer.</p><p class="src">Receita autoral para estudo.</p>
+stem: O tipo textual predominante e a finalidade do texto são, respectivamente,
+o1: descritivo; apresentar as características de um alimento.
+o2: injuntivo; orientar o leitor na realização de uma tarefa.
+o3: narrativo; contar uma sequência de fatos já ocorridos.
+o4: dissertativo; defender um ponto de vista sobre alimentação.
+key: B
+a: Não há descrição de aspectos do bolo (cor, sabor, aparência); o texto dá ordens de preparo.
+b: Verbos no imperativo (“misture”, “acrescente”, “mexa”, “leve”, “espere”) orientam passo a passo. É o tipo injuntivo.
+c: A receita não conta o que alguém fez em um tempo passado; instrui o que deve ser feito.
+d: Não há tese nem argumentos; o texto apenas orienta como preparar.
+
+@A-PT08-03 N2
+sup: <p><b>Ler faz diferença</b></p><p>Muitos acham que a leitura é só um passatempo. Os números mostram o contrário. Em uma pesquisa com 2 mil estudantes do 9º ano (dados fictícios para estudo), 78% dos que liam ao menos um livro por mês tiveram nota acima da média em Língua Portuguesa, contra 41% entre os que não liam. Quem lê escreve melhor, argumenta melhor e compreende melhor o que lê. Por isso, a escola precisa transformar a leitura em hábito diário.</p><p class="src">Texto de opinião autoral para estudo.</p>
+stem: Para defender que a leitura deve ser um hábito diário na escola, o autor se apoia principalmente
+o1: em dados de pesquisa que relacionam a leitura ao desempenho dos estudantes.
+o2: no relato de uma experiência pessoal do autor com os livros.
+o3: na citação de especialistas em educação, que garantem o valor da leitura.
+o4: na comparação entre o desempenho de escolas públicas e privadas.
+key: A
+a: Os percentuais (78% × 41%) são o principal argumento: mostram, com números, a relação entre leitura e notas.
+b: O autor não fala de sua vivência; o texto está em terceira pessoa e usa números.
+c: Nenhum especialista é citado; a única fonte é uma pesquisa.
+d: A pesquisa compara quem lê e quem não lê, e não tipos de escola.
+
+@A-PT08-04 N2
+sup: <p>Há quem diga que as redes sociais nos aproximam. É verdade: hoje falo todos os dias com a minha prima, que mora em outro estado. Mas vejo, nos almoços de domingo, oito pessoas à mesa e oito telas acesas. Aproximar-se de quem está longe não pode significar afastar-se de quem está ao lado. O desafio é usar as redes sem permitir que elas substituam a conversa olho no olho.</p><p class="src">Trecho de crônica autoral para estudo.</p>
+stem: A tese defendida no texto é a de que
+o1: as redes sociais afastam as pessoas e, por isso, devem ser evitadas.
+o2: as redes sociais só têm utilidade para manter contato com parentes distantes.
+o3: as redes sociais aproximam quem está longe, mas não devem substituir a convivência presencial.
+o4: a conversa presencial é sempre superior a qualquer forma de comunicação a distância.
+key: C
+a: O autor reconhece benefícios das redes (“é verdade”); ele não propõe evitá-las.
+b: Diz que ajudam com quem está longe, mas não afirma que só servem para isso.
+c: Sintetiza a ideia central: reconhecer o valor das redes (“aproximam”) e alertar contra a substituição do convívio (“não pode significar afastar-se de quem está ao lado”).
+d: “Sempre superior” é uma generalização que o texto não faz; o autor fala de equilíbrio, e não de superioridade absoluta.
+
+@A-PT08-05 N2
+sup: <p><b>Assunto:</b> Pedido de prorrogação do prazo de entrega do trabalho</p><p>Prezada Professora Helena,</p><p>Escrevo para solicitar a prorrogação, por dois dias, do prazo de entrega do trabalho de Ciências, pois estive afastado das aulas por motivo de saúde, conforme atestado em anexo.</p><p>Agradeço desde já a atenção.</p><p>Atenciosamente,<br>Pedro Almeida — 9º B</p><p class="src">E-mail autoral para estudo.</p>
+stem: As escolhas linguísticas que caracterizam o gênero e o grau de formalidade do texto são
+o1: o vocativo respeitoso, o verbo “solicitar” e a despedida “Atenciosamente”.
+o2: as gírias e as abreviações típicas de mensagens entre amigos.
+o3: as interjeições e os pontos de exclamação que expressam emoção.
+o4: a linguagem poética e as figuras de linguagem para sensibilizar a leitora.
+key: A
+a: “Prezada Professora”, “solicitar” e “Atenciosamente” são marcas de e-mail formal dirigido a uma autoridade, com linguagem polida e objetiva.
+b: Não há gírias nem abreviações; a linguagem é monitorada.
+c: O texto não usa interjeições nem exclamações.
+d: Não há linguagem figurada; o objetivo é pedir algo de forma clara e educada.
+
+@A-PT08-06 N2 NÃO/incorreta
+sup: <p><b>Uniforme escolar: um direito, não um peso</b></p><p>Quem nunca saiu de casa sem saber o que vestir? O uniforme resolve esse dilema e iguala os estudantes, evitando que a roupa vire motivo de exclusão. Em uma enquete feita em uma escola municipal (dados fictícios para estudo), 62% dos alunos disseram sentir-se mais à vontade com uniforme. Na Escola Aurora, por exemplo, as brincadeiras ofensivas sobre roupas caíram pela metade depois que o uniforme foi adotado. Portanto, o uniforme deve ser mantido.</p><p class="src">Artigo de opinião autoral para estudo.</p>
+stem: Para defender seu ponto de vista, o autor NÃO emprega
+o1: uma pergunta retórica.
+o2: dados de uma enquete.
+o3: a citação de um especialista em educação.
+o4: um exemplo de uma escola.
+key: C
+a: A pergunta “Quem nunca saiu de casa sem saber o que vestir?” é retórica e aparece no início do texto.
+b: Os 62% da enquete são usados como argumento.
+c: Nenhum especialista é citado no texto, portanto é o recurso que NÃO aparece.
+d: A “Escola Aurora” é um exemplo usado para sustentar a ideia.
+
+@A-PT08-07 N2
+sup: <p><b>Por que bocejar é contagioso?</b></p><p>Você já reparou que basta alguém bocejar para que outras pessoas ao redor comecem a bocejar também? Os cientistas ainda não sabem exatamente por que isso acontece, mas uma das hipóteses é que o bocejo contagioso esteja ligado à empatia, isto é, à capacidade de reconhecer o estado emocional do outro.</p><p class="src">Texto de divulgação científica autoral para estudo.</p>
+stem: No início do texto, a pergunta dirigida ao leitor tem como função
+o1: cobrar do leitor uma resposta por escrito.
+o2: aproximar o leitor do tema, partindo de uma experiência comum a muitas pessoas.
+o3: mostrar que o autor ignora o assunto e pede ajuda ao leitor.
+o4: comprovar que a hipótese apresentada no final é falsa.
+key: B
+a: A pergunta é uma estratégia de aproximação, e não uma tarefa para o leitor.
+b: A pergunta parte de algo que o leitor provavelmente já viveu (bocejar junto) e o convida a refletir, o que prepara a explicação científica.
+c: O autor apresenta hipóteses da ciência; a pergunta não revela ignorância dele.
+d: A pergunta não discute a hipótese; ela apenas introduz o tema.
+
+@A-PT08-08 N3 julgar afirmativas
+sup: <p><b>O último vendedor de pipoca</b></p><p>Todo fim de tarde, quando o sino da igreja bate seis horas, eu o vejo empurrar o carrinho até a esquina da praça. Chama-se seu Aderaldo e vende pipoca ali há trinta anos. Já vi gerações de meninos crescerem diante do seu carrinho: os que pediam “com bastante sal” viraram pais que agora pedem “sem sal, por causa da pressão”. Ele diz que não se importa: “O que importa é o cheirinho, filha”. Talvez tenha razão. Nesta cidade que corre, o cheiro de pipoca é uma das poucas coisas que ainda convida a ficar.</p><p class="src">Crônica autoral para estudo.</p>
+stem: Sobre o gênero e a construção do texto, analise as afirmativas.
+I. O texto é narrado em primeira pessoa e parte de uma cena cotidiana observada pela narradora.
+II. A fala do vendedor, reproduzida em discurso direto, aproxima o texto da oralidade.
+III. A reflexão final transforma uma cena banal em comentário sobre a vida na cidade.
+IV. O principal objetivo do texto é ensinar o leitor a vender pipoca.
+Estão corretas apenas
+o1: I e II.
+o2: II e IV.
+o3: I e III.
+o4: I, II e III.
+key: D
+a: I e II estão certas, mas a III também: o último período generaliza a cena para a vida da cidade.
+b: A IV é falsa: o texto não ensina nada sobre vender pipoca; observa e reflete.
+c: I e III estão certas, mas a II também: a fala do seu Aderaldo está entre aspas, em discurso direto, e usa linguagem oral (“filha”, “cheirinho”).
+d: I (“eu o vejo...”), II (“O que importa é o cheirinho, filha”) e III (“Nesta cidade que corre...”) são verdadeiras; a IV é falsa. Trata-se de uma crônica.
+
+@A-PT08-09 N1
+sup: <p>A prefeitura inaugurou ontem a nova ciclovia da avenida central, com 12 quilômetros de extensão. É, sem dúvida, a melhor obra dos últimos dez anos.</p><p class="src">Trecho de matéria autoral para estudo.</p>
+stem: No trecho, a opinião do autor está expressa em
+o1: “A prefeitura inaugurou ontem a nova ciclovia”.
+o2: “É, sem dúvida, a melhor obra dos últimos dez anos”.
+o3: “com 12 quilômetros de extensão”.
+o4: “da avenida central”.
+key: B
+a: É um fato noticiado, que pode ser verificado.
+b: “Sem dúvida” e “a melhor obra” são marcas de avaliação pessoal; o autor julga a obra.
+c: A extensão é um dado objetivo e mensurável.
+d: É uma informação de localização, sem juízo de valor.
+
+@A-PT08-10 N3
+sup: <p>Os defensores do uso do celular em sala de aula alegam que o aparelho facilita pesquisas e torna as aulas mais dinâmicas. De fato, em atividades orientadas, ele pode ser um excelente recurso. No entanto, quando não há regras, o celular tende a virar distração: basta uma notificação para que a atenção de uma turma inteira se disperse. Por isso, o uso deve ser permitido apenas com objetivos pedagógicos claros.</p><p class="src">Trecho de artigo de opinião autoral para estudo.</p>
+stem: A estratégia argumentativa adotada pelo autor consiste em
+o1: apresentar apenas argumentos favoráveis ao uso do celular.
+o2: apresentar apenas argumentos contrários, ignorando os favoráveis.
+o3: citar especialistas para comprovar que o celular prejudica o aprendizado.
+o4: reconhecer parte da validade do argumento contrário e depois limitá-lo, para sustentar sua própria tese.
+key: D
+a: O autor também apresenta riscos (“virar distração”), então não são só argumentos favoráveis.
+b: Ele admite benefícios (“De fato...”), e por isso não ignora os argumentos favoráveis.
+c: Nenhum especialista é citado.
+d: “De fato” reconhece o argumento da outra posição; “No entanto” o relativiza; a conclusão (uso apenas com objetivos pedagógicos) é a tese do autor.
+
+@A-PT08-11 N2
+sup: <p><b>Cartaz de campanha (descrição)</b></p><p><i>Imagem:</i> sobre o asfalto, um capacete de motociclista com uma grande rachadura e, ao lado dele, um par de tênis parado, como se uma pessoa estivesse de pé, ilesa.</p><p><i>Slogan:</i> “Seu capacete pode quebrar. Você, não.”</p><p class="src">Cartaz autoral para estudo.</p>
+stem: A relação entre a imagem e o slogan constrói a ideia de que
+o1: o capacete absorve o impacto e protege o motociclista, por isso seu uso é importante.
+o2: o uso do capacete é opcional para quem anda em baixa velocidade.
+o3: os motociclistas são os principais responsáveis pelos acidentes de trânsito.
+o4: o asfalto é a causa principal dos acidentes com motocicletas.
+key: A
+a: O capacete danificado ao lado de alguém ileso sugere que ele recebeu o impacto no lugar da pessoa. A mensagem é a favor do uso.
+b: A campanha defende o uso do capacete sem exceções; não fala de velocidade.
+c: O cartaz não atribui culpa aos motociclistas; ele apenas destaca a proteção.
+d: O asfalto aparece só como cenário; não é apontado como causa.
+
+@A-PT08-12 N2
+sup: <p><b>Praça é reaberta após seis meses de reforma</b></p><p>A Praça das Acácias foi reaberta ontem ao público. “Os brinquedos novos fizeram a alegria da criançada”, disse a moradora Marlene Duarte, de 64 anos. Segundo o engenheiro responsável pela obra, Carlos Menezes, “todo o piso foi trocado e recebe iluminação de led”. Já o comerciante Paulo Teles criticou o prazo: “Era para ficar pronta em três meses”.</p><p class="src">Notícia autoral para estudo.</p>
+stem: A inclusão das falas da moradora, do engenheiro e do comerciante tem como principal objetivo
+o1: mostrar que a reforma foi um fracasso total.
+o2: apresentar a opinião do jornalista sobre a gestão da prefeitura.
+o3: dar credibilidade à notícia e mostrar pontos de vista diferentes sobre o mesmo fato.
+o4: divertir o leitor com histórias pessoais dos moradores.
+key: C
+a: Há elogios (moradora, engenheiro) e uma crítica (comerciante); o texto não conclui que a reforma foi um fracasso.
+b: O jornalista não emite opinião; as avaliações são dos entrevistados.
+c: Citar fontes diversas é uma estratégia da notícia: confere credibilidade e mostra pluralidade de vozes.
+d: Não há intenção de entretenimento; as falas servem para informar sobre a reforma.
+
+@A-PT08-13 N3 NÃO/incorreta
+sup: <p><b>O tempo das coisas</b></p><p>Vivemos acelerados. Respondemos mensagens enquanto caminhamos, assistimos a vídeos em velocidade dobrada e medimos o dia pelo que conseguimos “produzir”. Não se trata de condenar a tecnologia, que nos devolveu horas antes perdidas em filas e deslocamentos; trata-se de perguntar o que fazemos com as horas devolvidas. Se a resposta for “mais tarefas”, talvez estejamos apenas trocando uma pressa por outra. Descansar, conversar sem pressa e não fazer nada continuam sendo, para a saúde, tão necessários quanto trabalhar — ainda que as planilhas não saibam registrar isso.</p><p class="src">Trecho de crônica autoral para estudo.</p>
+stem: De acordo com o texto, NÃO se pode afirmar que
+o1: a tecnologia deve ser abandonada para que as pessoas recuperem o controle do tempo.
+o2: o cotidiano atual é marcado pela pressa e pela busca de produtividade.
+o3: a tecnologia trouxe ganho de tempo em certas situações do dia a dia.
+o4: o descanso é tão importante para a saúde quanto o trabalho.
+key: A
+a: O autor diz expressamente que “não se trata de condenar a tecnologia”. Afirmar que ela deve ser abandonada extrapola o texto.
+b: “Vivemos acelerados” e “medimos o dia pelo que conseguimos produzir” sustentam essa afirmação.
+c: O texto afirma que a tecnologia “nos devolveu horas antes perdidas em filas e deslocamentos”.
+d: Está no final do texto: descansar é “tão necessário quanto trabalhar”.
+
+@A-PT08-14 N2
+sup: <p><b>Charge (descrição)</b></p><p>Em um consultório, o planeta Terra, com um termômetro na boca, está sentado na maca. O médico, olhando o termômetro, diz: “Febre alta. Receito menos fumaça e menos desmatamento.” O planeta, acendendo um cigarro, responde: “Claro, doutor. Começo amanhã.”</p><p class="src">Charge autoral para estudo.</p>
+stem: A crítica construída pela charge dirige-se
+o1: aos médicos, que exageram a gravidade das doenças.
+o2: à falta de atitude diante do aquecimento global, representada pelo adiamento das mudanças.
+o3: aos cientistas, que prescrevem remédios ineficazes para o planeta.
+o4: aos fumantes, que são os principais responsáveis pelo aquecimento global.
+key: B
+a: O médico é quem faz o diagnóstico correto; a crítica não é a ele.
+b: A Terra “promete começar amanhã” enquanto acende um cigarro. A cena critica quem sabe do problema (febre = aquecimento) e adia a ação.
+c: As recomendações do médico (menos fumaça e desmatamento) são adequadas; o problema é não segui-las.
+d: O cigarro funciona como símbolo da poluição, e não como crítica aos fumantes.
+
+# ===================== PT03 =====================
+
+@A-PT03-01 N1
+sup: <p>Infelizmente, a quadra da escola continuará fechada até o fim do mês.</p><p class="src">Frase autoral para estudo.</p>
+stem: O advérbio “infelizmente” expressa, na frase,
+o1: certeza do falante quanto ao fato.
+o2: lamento do falante em relação ao fato.
+o3: dúvida do falante sobre a data.
+o4: causa do fechamento da quadra.
+key: B
+a: A certeza seria marcada por “certamente”, “sem dúvida”.
+b: “Infelizmente” revela o ponto de vista do falante: ele lamenta a informação que dá.
+c: A data é apresentada com clareza (“até o fim do mês”), sem hesitação.
+d: A causa do fechamento não é dada na frase.
+
+@A-PT03-02 N1
+sup: <p>Talvez o campeonato seja adiado por causa da chuva.</p><p class="src">Frase autoral para estudo.</p>
+stem: A palavra “talvez” indica
+o1: certeza de que o campeonato será adiado.
+o2: lamento pelo adiamento do campeonato.
+o3: ordem para que o campeonato seja adiado.
+o4: possibilidade, pois o fato pode ou não ocorrer.
+key: D
+a: Quem tem certeza usa “com certeza” ou “certamente”.
+b: O lamento seria marcado por “infelizmente” ou “lamentavelmente”.
+c: Não há ordem, pois não existe verbo no imperativo.
+d: “Talvez” mostra que o falante considera o fato apenas possível, sem garantir que acontecerá.
+
+@A-PT03-03 N2
+sup: <p>A absurda decisão da diretoria de cortar o recreio foi anunciada ontem à tarde.</p><p class="src">Frase autoral para estudo.</p>
+stem: A palavra que revela a avaliação pessoal de quem escreve sobre a decisão da diretoria é
+o1: “absurda”.
+o2: “diretoria”.
+o3: “anunciada”.
+o4: “ontem”.
+key: A
+a: “Absurda” é um adjetivo avaliativo: mostra o julgamento do autor, e outro autor poderia usar “justa” ou “necessária”.
+b: “Diretoria” é substantivo que nomeia quem decidiu; não traz avaliação.
+c: “Anunciada” indica o fato de a decisão ter sido divulgada; é neutra.
+d: “Ontem” é um dado de tempo.
+
+@A-PT03-04 N2
+sup: <p>Certamente o time vai vencer a final.</p><p class="src">Frase autoral para estudo.</p>
+stem: Se “certamente” fosse substituído por “possivelmente”, a frase
+o1: manteria o mesmo grau de certeza do falante.
+o2: passaria a expressar um lamento do falante.
+o3: passaria a expressar menor grau de certeza do falante.
+o4: passaria a expressar uma ordem ao time.
+key: C
+a: Os dois advérbios têm sentidos diferentes quanto à certeza: o primeiro afirma, o segundo supõe.
+b: O lamento seria expresso por “infelizmente”, e não por “possivelmente”.
+c: “Certamente” indica convicção; “possivelmente” indica probabilidade. O falante deixaria de afirmar para apenas supor.
+d: Não existe imperativo na frase, e o advérbio não cria ordem.
+
+@A-PT03-05 N2
+sup: <p><b>Manchete A:</b> Ministro alegou que as obras atrasaram por falta de verba.<br><b>Manchete B:</b> Ministro comprovou que as obras atrasaram por falta de verba.</p><p class="src">Manchetes autorais para estudo.</p>
+stem: A troca do verbo “alegou” por “comprovou” altera o posicionamento do jornalista, pois
+o1: “alegou” sugere que a informação é do ministro e não foi confirmada, enquanto “comprovou” a apresenta como verdadeira.
+o2: “alegou” indica que o ministro mentiu, e “comprovou” indica que ele falou a verdade só em parte.
+o3: os dois verbos significam a mesma coisa e podem ser trocados livremente.
+o4: “comprovou” indica que o jornalista duvida do ministro, e “alegou” mostra confiança total.
+key: A
+a: “Alegar” é afirmar sem apresentar prova; o jornalista atribui a afirmação ao ministro. “Comprovar” indica que há prova, e o fato passa a valer como verdadeiro.
+b: “Alegou” não significa mentir; apenas não garante a veracidade. “Comprovou” não indica verdade parcial.
+c: Os sentidos são diferentes: um não garante e o outro garante a veracidade.
+d: É o contrário: quem duvida é o jornalista que escolhe “alegou”.
+
+@A-PT03-06 N3
+sup: <p>I. A reforma terminará em junho.<br>II. A reforma deve terminar em junho.<br>III. A reforma talvez termine em junho.</p><p class="src">Frases autorais para estudo.</p>
+stem: Em relação ao grau de certeza do falante, as frases I, II e III expressam, respectivamente,
+o1: possibilidade, probabilidade e certeza.
+o2: certeza, certeza e dúvida.
+o3: probabilidade, certeza e possibilidade.
+o4: certeza, probabilidade e possibilidade.
+key: D
+a: A ordem está invertida: a frase I é a mais firme, e a III, a mais incerta.
+b: A frase II não afirma com certeza: o verbo “dever” indica expectativa, e não garantia.
+c: A frase I, com futuro do presente sem ressalvas, expressa certeza, e não probabilidade.
+d: I: futuro simples, afirma como certo. II: “deve” indica probabilidade (é o esperado). III: “talvez” + subjuntivo indica possibilidade, o menor grau de certeza.
+
+@A-PT03-07 N2
+sup: <p>Segundo a empresa, o novo medicamento é “totalmente seguro”, mas a agência de saúde ainda não concluiu a análise.</p><p class="src">Trecho de notícia autoral para estudo.</p>
+stem: Ao usar “segundo a empresa”, as aspas em “totalmente seguro” e a oração final, o jornalista
+o1: confirma que o medicamento é seguro porque a empresa afirmou isso.
+o2: afirma que a empresa mentiu ao divulgar as informações.
+o3: atribui a informação à empresa, sem assumir sua veracidade.
+o4: reproduz um texto da agência de saúde para elogiar o produto.
+key: C
+a: A empresa é apenas a fonte; a oração final (“a agência ainda não concluiu a análise”) mostra que a informação não está confirmada.
+b: O texto não acusa mentira: apenas informa que a análise não foi concluída.
+c: “Segundo...” e aspas marcam que a ideia é da empresa; o jornalista se distancia e deixa o leitor avaliar.
+d: Quem fala “totalmente seguro” é a empresa, não a agência, que ainda analisa o caso.
+
+@A-PT03-08 N3
+sup: <p><b>Resenha: “Cidade de Vidro” (filme fictício)</b></p><p>O filme, dirigido por uma estreante, tem fotografia competente e atuações irregulares. A história, que acompanha uma adolescente em busca do pai, começa promissora, mas se arrasta na segunda metade. Em compensação, a trilha sonora é um achado: delicada, discreta e sempre a serviço da cena. Mesmo com falhas, vale a sessão.</p><p class="src">Resenha autoral para estudo.</p>
+stem: O trecho em que a avaliação do resenhista aparece de forma mais conclusiva, orientando a decisão do leitor, é
+o1: “dirigido por uma estreante”.
+o2: “Mesmo com falhas, vale a sessão”.
+o3: “acompanha uma adolescente em busca do pai”.
+o4: “a trilha sonora é um achado”.
+key: B
+a: É uma informação sobre quem dirigiu o filme; não é avaliação.
+b: Depois de apontar pontos fortes e fracos, o resenhista conclui e recomenda: “vale a sessão”.
+c: É uma síntese do enredo, sem avaliação.
+d: É uma avaliação, mas parcial, sobre um aspecto só (a trilha sonora); não orienta a decisão geral.
+
+@A-PT03-09 N3 julgar afirmativas
+sup: <p>Segundo o prefeito, a obra ficará pronta em junho. Pelo andamento atual, porém, dificilmente o prazo será cumprido. Cabe lembrar que, em duas ocasiões anteriores, o cronograma foi alterado.</p><p class="src">Trecho de notícia autoral para estudo.</p>
+stem: Sobre os recursos usados no texto, analise as afirmativas.
+I. “Segundo o prefeito” atribui a informação a uma fonte, sem que o autor a assuma.
+II. “Dificilmente” expressa a opinião do autor de que o cumprimento do prazo é improvável.
+III. “Porém” introduz uma ideia que contraria a expectativa criada pela fala do prefeito.
+IV. “Cabe lembrar” mostra que o autor concorda totalmente com o prefeito.
+Estão corretas apenas
+o1: I e II.
+o2: III e IV.
+o3: II e IV.
+o4: I, II e III.
+key: D
+a: I e II estão certas, mas a III também: “porém” contrapõe o dado do andamento atual à promessa do prefeito.
+b: A IV é falsa: lembrar que o cronograma já mudou duas vezes reforça a dúvida sobre o prazo, e não a concordância com o prefeito.
+c: A IV é falsa e a I, verdadeira, ficou de fora.
+d: I (atribuição à fonte), II (“dificilmente” = avaliação do autor) e III (“porém” = oposição) estão corretas; a IV contradiz o sentido do trecho.

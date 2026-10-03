@@ -8,6 +8,7 @@
   let finishing = false;
 
   const stemEl = document.getElementById('question-stem');
+  const supportEl = document.getElementById('question-support');
   const subjectEl = document.getElementById('question-subject');
   const optionsEl = document.getElementById('options');
   const navEl = document.getElementById('question-nav');
@@ -54,13 +55,28 @@
     currentIndexEl.textContent = idx + 1;
     subjectEl.textContent = q.subject_name;
     stemEl.textContent = q.stem;
+    if (q.support_html) {
+      supportEl.innerHTML = q.support_html; // conteúdo próprio do app (confiável)
+      supportEl.style.display = 'block';
+    } else {
+      supportEl.style.display = 'none';
+      supportEl.innerHTML = '';
+    }
     optionsEl.innerHTML = '';
 
     ['a', 'b', 'c', 'd'].forEach((letter) => {
       const btn = document.createElement('button');
       btn.className = 'option-btn';
       if (q.selected_option === letter) btn.classList.add('correct'); // usa o verde só para indicar "selecionada"
-      btn.innerHTML = `<span class="letter">${letter.toUpperCase()})</span> ${q['option_' + letter]}`;
+      const letterEl = document.createElement('span');
+      letterEl.className = 'letter';
+      letterEl.textContent = letter.toUpperCase() + ')';
+      const textEl = document.createElement('span');
+      textEl.className = 'opt-text';
+      textEl.textContent = q['option_' + letter];
+      btn.appendChild(letterEl);
+      btn.appendChild(document.createTextNode(' '));
+      btn.appendChild(textEl);
       btn.addEventListener('click', () => selectAnswer(idx, letter));
       optionsEl.appendChild(btn);
     });

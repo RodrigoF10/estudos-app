@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <%- include('../partials/head', { title: 'Praticar: ' + theme.name }) %>
+  <%- include('../partials/head', { title: 'Praticar: ' + title }) %>
 </head>
 <body>
-  <%- include('../partials/nav', { role, active: 'hoje' }) %>
+  <%- include('../partials/nav', { role, active: 'trilha' }) %>
   <div class="container">
 
-    <p><a href="/rayane/tema/<%= theme.id %>">← Voltar para <%= theme.name %></a></p>
+    <p><a href="<%= backUrl %>">← Voltar</a></p>
 
     <div class="card">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
         <div>
-          <span class="low-tag"><%= subject.name %></span>
-          <h2 style="margin: 6px 0 0;"><%= theme.name %></h2>
+          <% if (subject) { %><span class="low-tag"><%= subject.name %></span><% } %>
+          <h2 style="margin: 6px 0 0;"><%= title %></h2>
         </div>
         <div class="center">
           <div id="session-score" class="muted small"></div>
@@ -24,16 +24,20 @@
     </div>
 
     <% if (questionCount === 0) { %>
-      <div class="card"><p class="muted">Ainda não há questões cadastradas para este tema.</p></div>
+      <div class="card"><p class="muted">
+        <% if (mode === 'revisao') { %>Nenhuma revisão vencida agora. Volte amanhã ou pratique um tópico novo!
+        <% } else if (mode === 'erros') { %>Seu caderno de erros está vazio. Mandou bem! 🎉
+        <% } else { %>Ainda não há questões cadastradas para este tópico.<% } %></p></div>
     <% } else if (role !== 'rayane') { %>
       <div class="card"><p class="muted">Modo administrador: você está vendo a tela da Rayane, mas só o perfil dela pode responder e registrar tentativas.</p></div>
     <% } else { %>
       <div class="card" id="question-card">
-        <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px;">
           <p class="muted small" id="question-reason" style="margin:0;"></p>
-          <span class="low-tag" id="question-difficulty"></span>
+          <span id="question-tags"></span>
         </div>
-        <h3 id="question-stem" class="mt-0"></h3>
+        <div class="support" id="question-support" style="display:none;"></div>
+        <div id="question-stem" class="stem"></div>
         <div id="options"></div>
         <div id="feedback"></div>
         <div style="margin-top:14px; display:flex; justify-content:flex-end;">
@@ -45,7 +49,7 @@
         <h2 class="mt-0">Sessão concluída! 🎉</h2>
         <p id="session-summary-text" class="muted"></p>
         <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
-          <a class="btn btn-outline" href="/rayane/tema/<%= theme.id %>">Voltar para o tema</a>
+          <a class="btn btn-outline" href="<%= backUrl %>">Voltar</a>
           <button class="btn" id="practice-more-btn">Praticar mais 10</button>
         </div>
       </div>
@@ -54,7 +58,7 @@
   </div>
 
   <script>
-    window.THEME_ID = <%= theme.id %>;
+    window.PRACTICE = { mode: <%- JSON.stringify(mode) %>, themeId: <%- JSON.stringify(theme ? theme.id : null) %> };
   </script>
   <script src="/js/praticar.js"></script>
 </body>

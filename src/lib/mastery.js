@@ -1,10 +1,12 @@
-// Calcula o "selo de domínio" de um tema para um usuário, com base no histórico
-// de tentativas (attempts). Segue os 4 níveis descritos na especificação do site:
+// Calcula o "selo de domínio" de cada tópico para um usuário, com base no
+// histórico de tentativas (attempts). 4 níveis:
 //   nao_iniciado -> em_desenvolvimento -> quase_la -> dominado
 //
-// "Dominado" exige não só boa taxa de acerto, mas também acerto em pelo menos
-// uma tentativa feita alguns dias depois da primeira (indício de retenção real,
-// não só decoreba de curto prazo).
+// "Dominado" exige boa taxa de acerto recente (>= 80% nas últimas 10) E
+// evidência de retenção: ao menos um acerto feito 2,5+ dias depois da
+// primeira tentativa (não é decoreba de curto prazo).
+//
+// Só entram tentativas de questões ATIVAS (o banco antigo foi desativado).
 
 const { dbAll } = require('../db');
 
@@ -15,50 +17,83 @@ const LEVELS = {
   DOMINADO: { key: 'dominado', label: 'Dominado', emoji: '🟢' },
 };
 
-async function getThemeStats(user, themeId) {
-  const attempts = await dbAll(
-    'SELECT * FROM attempts WHERE user = ? AND theme_id = ? ORDER BY created_at ASC',
-    [user, themeId]
-  );
-
-  if (attempts.length === 0) {
-    return { level: LEVELS.NAO_INICIADO, attempts: 0, correct: 0, accuracy: null };
+function statsFromAttempts(attempts) {
+  if (!attempts || attempts.length === 0) {
+    return { level: LEVELS.NAO_INICIADO, attempts: 0, correct: 0, accuracy: null, uniqueQuestions: 0 };
   }
-
   const correctCount = attempts.filter((a) => a.is_correct).length;
-  const accuracy = correctCount / attempts.length;
-
-  // Considera só as últimas 10 tentativas para a taxa de acerto "atual"
   const recent = attempts.slice(-10);
   const recentAccuracy = recent.filter((a) => a.is_correct).length / recent.length;
-
-  const firstAttemptDate = new Date(attempts[0].created_at);
-  const hasRetentionEvidence = attempts.some((a) => {
-    const days = (new Date(a.created_at) - firstAttemptDate) / (1000 * 60 * 60 * 24);
-    return a.is_correct && days >= 2.5;
-  });
+  const first = new Date(attempts[0].created_at + 'Z').getTime();
+  const hasRetention = attempts.some((a) => a.is_correct && (new Date(a.created_at + 'Z').getTime() - first) / 86400000 >= 2.5);
 
   let level;
-  if (recentAccuracy < 0.5) {
-    level = LEVELS.EM_DESENVOLVIMENTO;
-  } else if (recentAccuracy < 0.8 || !hasRetentionEvidence) {
-    level = LEVELS.QUASE_LA;
-  } else {
-    level = LEVELS.DOMINADO;
-  }
+  if (recentAccuracy < 0.5) level = LEVELS.EM_DESENVOLVIMENTO;
+  else if (recentAccuracy < 0.8 || !hasRetention) level = LEVELS.QUASE_LA;
+  else level = LEVELS.DOMINADO;
 
-  return { level, attempts: attempts.length, correct: correctCount, accuracy: recentAccuracy };
+  return {
+    level,
+    attempts: attempts.length,
+    correct: correctCount,
+    accuracy: recentAccuracy,
+    uniqueQuestions: new Set(attempts.map((a) => a.question_id)).size,
+  };
 }
 
-async function getSubjectProgress(user, subjectId) {
-  const themes = await dbAll('SELECT * FROM themes WHERE subject_id = ? ORDER BY priority_rank ASC', [subjectId]);
-  const themeStats = [];
-  for (const t of themes) {
-    themeStats.push({ theme: t, stats: await getThemeStats(user, t.id) });
-  }
+// Uma única consulta traz todas as tentativas do usuário em questões/temas ativos.
+async function getAllThemeStats(user) {
+  const rows = await dbAll(
+    `SELECT a.theme_id, a.question_id, a.is_correct, a.created_at
+     FROM attempts a
+     JOIN questions q ON q.id = a.question_id AND q.active = 1
+     JOIN themes t ON t.id = a.theme_id AND t.active = 1
+     WHERE a.user = ? ORDER BY a.created_at ASC, a.id ASC`,
+    [user]
+  );
+  const byTheme = new Map();
+  rows.forEach((r) => {
+    if (!byTheme.has(r.theme_id)) byTheme.set(r.theme_id, []);
+    byTheme.get(r.theme_id).push(r);
+  });
+  return byTheme;
+}
+
+async function getThemeStats(user, themeId) {
+  const byTheme = await getAllThemeStats(user);
+  return statsFromAttempts(byTheme.get(Number(themeId)));
+}
+
+async function getSubjectProgress(user, subjectId, preloaded) {
+  const byTheme = preloaded || (await getAllThemeStats(user));
+  const themes = await dbAll(
+    'SELECT * FROM themes WHERE subject_id = ? AND active = 1 ORDER BY priority_rank ASC',
+    [subjectId]
+  );
+  const themeStats = themes.map((t) => ({ theme: t, stats: statsFromAttempts(byTheme.get(t.id)) }));
   const started = themeStats.filter((t) => t.stats.attempts > 0).length;
   const mastered = themeStats.filter((t) => t.stats.level.key === 'dominado').length;
-  return { themes: themeStats, totalThemes: themes.length, started, mastered };
+  const core = themeStats.filter((t) => t.theme.tier === 'core');
+  const coreMastered = core.filter((t) => t.stats.level.key === 'dominado').length;
+  return {
+    themes: themeStats,
+    totalThemes: themes.length,
+    started,
+    mastered,
+    coreTotal: core.length,
+    coreMastered,
+  };
 }
 
-module.exports = { LEVELS, getThemeStats, getSubjectProgress };
+// Visão geral para a tela inicial/trilha: todas as matérias e tópicos de uma vez.
+async function getAllProgress(user) {
+  const byTheme = await getAllThemeStats(user);
+  const subjects = await dbAll('SELECT * FROM subjects ORDER BY order_index ASC');
+  const out = [];
+  for (const s of subjects) {
+    out.push({ subject: s, progress: await getSubjectProgress(user, s.id, byTheme) });
+  }
+  return out;
+}
+
+module.exports = { LEVELS, statsFromAttempts, getAllThemeStats, getThemeStats, getSubjectProgress, getAllProgress };

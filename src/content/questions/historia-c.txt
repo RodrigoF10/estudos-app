@@ -1,0 +1,296 @@
+# História — H08 (guerras, totalitarismos e Guerra Fria), H09 (mundo contemporâneo), H06 (imperialismo e neocolonialismo)
+
+# ===================== H08 =====================
+
+@A-H08-01 N1
+sup: <p>Em 28 de junho de 1914, em Sarajevo, o arquiduque Francisco Ferdinando, herdeiro do trono do Império Austro-Húngaro, foi assassinado por um jovem nacionalista sérvio.</p>
+stem: Esse assassinato foi o estopim da
+o1: Segunda Guerra Mundial.
+o2: Guerra Fria.
+o3: Primeira Guerra Mundial.
+o4: Guerra do Vietnã.
+key: C
+a: A Segunda Guerra Mundial começou em 1939, com a invasão da Polônia pela Alemanha.
+b: A Guerra Fria começou depois de 1945, como disputa entre Estados Unidos e União Soviética.
+c: O atentado de Sarajevo levou a Áustria-Hungria a declarar guerra à Sérvia, e as alianças entre países ampliaram o conflito, que durou de 1914 a 1918.
+d: A Guerra do Vietnã ocorreu entre as décadas de 1950 e 1970.
+
+@A-H08-02 N1
+sup: <p>Durante a Segunda Guerra Mundial, o regime nazista perseguiu e assassinou cerca de seis milhões de judeus, além de ciganos, pessoas com deficiência, opositores políticos e outros grupos, em campos de concentração e de extermínio, como Auschwitz.</p>
+stem: Esse genocídio é conhecido como
+o1: Holocausto.
+o2: Apartheid.
+o3: Gulag.
+o4: Inquisição.
+key: A
+a: O Holocausto foi o genocídio de milhões de judeus e de outros grupos pelo regime nazista.
+b: O apartheid foi o regime de segregação racial da África do Sul.
+c: O Gulag foi o sistema de campos de trabalho forçado da União Soviética.
+d: A Inquisição foi o tribunal da Igreja Católica, que perseguiu os acusados de heresia desde a Idade Média.
+
+@A-H08-03 N1
+sup: <p>Depois de 1945, o mundo se dividiu em dois grandes blocos: um liderado pelos Estados Unidos (capitalista) e outro, pela União Soviética (socialista). As duas superpotências disputaram influência, armas e tecnologia, mas nunca chegaram a entrar em guerra direta entre si.</p>
+stem: Esse período é conhecido como
+o1: Guerra dos Cem Anos.
+o2: Guerra Fria.
+o3: Belle Époque.
+o4: Guerra Santa.
+key: B
+a: A Guerra dos Cem Anos foi um conflito medieval entre Inglaterra e França.
+b: A Guerra Fria foi a disputa entre os blocos capitalista e socialista, sem confronto militar direto entre as superpotências.
+c: A Belle Époque foi um período de prosperidade e otimismo na Europa, entre o final do século XIX e 1914.
+d: Guerra Santa é um termo usado para guerras com motivação religiosa, e não para esse período.
+
+@A-H08-04 N2
+sup: <p>Nos regimes nazista, na Alemanha, e fascista, na Itália, o Estado controlava a vida pública e a privada. Os líderes, Hitler e Mussolini, eram apresentados como salvadores da pátria.</p>
+stem: Uma característica comum a esses regimes totalitários era
+o1: a liberdade de imprensa e a pluralidade de partidos.
+o2: o respeito à autonomia dos indivíduos e das minorias.
+o3: a defesa do livre debate e das eleições periódicas.
+o4: o partido único, o culto ao líder, a propaganda e a repressão aos opositores.
+key: D
+a: Nesses regimes não havia liberdade de imprensa nem pluralidade de partidos.
+b: Esses regimes desrespeitavam os direitos individuais e perseguiam minorias.
+c: O livre debate e as eleições periódicas são características das democracias, e não dos regimes totalitários.
+d: Nazismo e fascismo tinham partido único, culto à personalidade do líder, propaganda de massa e perseguição aos opositores.
+
+@A-H08-05 N2
+sup: <p>O Tratado de Versalhes (1919) obrigou a Alemanha derrotada a pagar indenizações, a perder territórios e a reduzir seu Exército. Em 1929, a crise econômica mundial elevou muito o desemprego no país.</p>
+stem: Esses acontecimentos contribuíram para a ascensão do nazismo porque
+o1: o ressentimento nacional e a crise econômica favoreceram o discurso de Hitler, que prometia recuperar a grandeza da Alemanha.
+o2: reduziram a insatisfação da população alemã com o governo do país.
+o3: eliminaram o nacionalismo alemão e afastaram os grupos de extrema-direita.
+o4: fortaleceram a economia alemã e a democracia na República de Weimar.
+key: A
+a: Humilhação, pobreza e desemprego tornaram parte da população receptiva a promessas de Hitler, que culpava os outros pela situação.
+b: Os acontecimentos aumentaram a insatisfação, e não a reduziram.
+c: O ressentimento com Versalhes aumentou o nacionalismo.
+d: A crise de 1929 enfraqueceu a economia alemã e a democracia.
+
+@A-H08-06 N2
+sup: <p>Em 1961, o governo da Alemanha Oriental construiu um muro que dividiu Berlim ao meio. Em 9 de novembro de 1989, o muro foi aberto, e a população passou a derrubá-lo.</p>
+stem: O Muro de Berlim é considerado um símbolo
+o1: da união entre os blocos capitalista e socialista, que se aproximavam.
+o2: da divisão do mundo em blocos durante a Guerra Fria e do fim dessa divisão, com a sua queda.
+o3: da vitória do nazismo na Segunda Guerra Mundial, em 1945.
+o4: do domínio britânico sobre a Alemanha, depois da guerra.
+key: B
+a: O muro separava os dois blocos e não os unia.
+b: O muro simbolizava a divisão entre o bloco ocidental e o bloco soviético, e sua queda marcou o fim da Guerra Fria.
+c: O nazismo foi derrotado em 1945, e o muro foi construído em 1961.
+d: A Alemanha Ocidental era aliada dos EUA e a Oriental, da URSS; não havia domínio britânico sobre o país.
+
+@A-H08-07 N3 associação
+sup: <p><b>Coluna I:</b><br>1. Plano Marshall<br>2. OTAN<br>3. Pacto de Varsóvia</p><p><b>Coluna II:</b><br>(A) Aliança militar liderada pela União Soviética, criada em 1955.<br>(B) Ajuda econômica dos Estados Unidos para a reconstrução da Europa Ocidental.<br>(C) Aliança militar ocidental, liderada pelos Estados Unidos, criada em 1949.</p>
+stem: A associação correta entre as colunas é
+o1: 1-B, 2-C, 3-A.
+o2: 1-C, 2-B, 3-A.
+o3: 1-B, 2-A, 3-C.
+o4: 1-A, 2-C, 3-B.
+key: A
+a: Plano Marshall: ajuda econômica (B). OTAN: aliança ocidental de 1949 (C). Pacto de Varsóvia: aliança liderada pela URSS (A).
+b: O Plano Marshall foi um plano econômico (B), e não uma aliança militar (C).
+c: A OTAN é a aliança ocidental (C), e não a soviética (A); o Pacto de Varsóvia é a soviética (A).
+d: O Plano Marshall não foi a aliança soviética (A), e o Pacto de Varsóvia não foi a ajuda econômica (B).
+
+@A-H08-08 N3
+sup: <table class="qt"><caption>Crise dos Mísseis de Cuba (1962)</caption><tr><th>Data</th><th>Acontecimento</th></tr><tr><td>16 de outubro</td><td>Os Estados Unidos descobrem que a União Soviética instalou mísseis nucleares em Cuba.</td></tr><tr><td>22 de outubro</td><td>O presidente Kennedy anuncia o bloqueio naval à ilha.</td></tr><tr><td>28 de outubro</td><td>O líder soviético Khruschóv anuncia a retirada dos mísseis, e os EUA se comprometem a não invadir Cuba.</td></tr></table>
+stem: Segundo a tabela, a crise terminou
+o1: com um ataque nuclear dos Estados Unidos à União Soviética, em novembro de 1962.
+o2: com uma negociação, em que a União Soviética retirou os mísseis e os EUA prometeram não invadir Cuba.
+o3: com a invasão de Cuba pelos Estados Unidos, que derrubaram o governo da ilha.
+o4: com a saída de Cuba do bloco socialista, depois de um acordo com os EUA.
+key: B
+a: Não houve ataque nuclear; a crise terminou sem o uso das armas.
+b: A crise terminou por negociação: Khruschóv retirou os mísseis, e Kennedy prometeu não invadir Cuba.
+c: A tabela diz que os EUA se comprometeram a não invadir Cuba.
+d: Cuba continuou no bloco socialista depois da crise.
+
+# ===================== H09 =====================
+
+@A-H09-01 N1
+sup: <p>Nos anos 1950 e 1960, nos Estados Unidos, a população negra lutou contra a segregação racial e pela igualdade de direitos. Um dos principais líderes desse movimento defendia a luta não violenta e foi assassinado em 1968.</p>
+stem: Esse líder foi
+o1: Nelson Mandela.
+o2: Mahatma Gandhi.
+o3: Martin Luther King Jr.
+o4: Abraham Lincoln.
+key: C
+a: Nelson Mandela lutou contra o apartheid na África do Sul.
+b: Mahatma Gandhi liderou a luta pela independência da Índia e foi assassinado em 1948.
+c: Martin Luther King Jr. foi o principal líder do movimento pelos direitos civis nos EUA e foi assassinado em 1968.
+d: Abraham Lincoln foi presidente dos EUA durante a Guerra Civil e foi assassinado em 1865.
+
+@A-H09-02 N1
+sup: <p>No final do século XIX e no início do século XX, mulheres na Inglaterra, nos Estados Unidos, no Brasil e em outros países se mobilizaram, em movimentos conhecidos como sufragistas.</p>
+stem: A principal reivindicação das sufragistas era
+o1: o direito de voto das mulheres.
+o2: o fim do trabalho escravo.
+o3: o fim da monarquia.
+o4: a redução dos impostos.
+key: A
+a: Sufrágio é o direito de votar. As sufragistas lutavam pelo voto feminino.
+b: O fim do trabalho escravo foi a bandeira do movimento abolicionista.
+c: O fim da monarquia era uma bandeira dos republicanos.
+d: A redução de impostos não era a reivindicação central do movimento sufragista.
+
+@A-H09-03 N2
+sup: <p>Em 1947, a ONU aprovou um plano para dividir o território da Palestina, então sob administração britânica. Segundo o plano, haveria um Estado judeu e um Estado árabe, e a cidade de Jerusalém ficaria sob administração internacional. Em 1948, foi proclamado o Estado de Israel, e começou uma guerra com países árabes vizinhos.</p>
+stem: O plano aprovado pela ONU em 1947 previa
+o1: a criação de um único Estado, de maioria árabe.
+o2: a divisão da Palestina em dois Estados, um judeu e um árabe.
+o3: a anexação do território da Palestina pelo Egito.
+o4: a transferência de toda a população judaica para a Europa.
+key: B
+a: O plano previa dois Estados, e não um único Estado.
+b: O Plano de Partilha da ONU previa a criação de um Estado judeu e de um Estado árabe, com Jerusalém sob regime internacional.
+c: O plano não previa que o Egito anexasse o território da Palestina.
+d: O plano não previa a transferência dos judeus para a Europa.
+
+@A-H09-04 N2
+sup: <p>De 1948 a 1994, na África do Sul, as pessoas eram separadas por critérios raciais: a população negra, maioria do país, tinha direitos políticos e sociais restritos e vivia em áreas separadas. Um dos presos políticos desse regime, Nelson Mandela, ficou quase 27 anos na prisão e foi eleito presidente em 1994.</p>
+stem: Esse regime de segregação racial é conhecido como
+o1: apartheid.
+o2: nazismo.
+o3: colonialismo.
+o4: fascismo.
+key: A
+a: O apartheid foi o regime de segregação racial oficial da África do Sul, que terminou em 1994.
+b: O nazismo foi o regime de Hitler na Alemanha, baseado na ideia de superioridade racial dos alemães.
+c: O colonialismo é o domínio de um território por outro país; o termo não designa o regime sul-africano.
+d: O fascismo foi o regime de Mussolini na Itália.
+
+@A-H09-05 N2
+sup: <p>Em 1948, depois dos horrores da Segunda Guerra Mundial, a Assembleia Geral da ONU aprovou um documento que afirma que todas as pessoas nascem livres e iguais em dignidade e direitos.</p>
+stem: Esse documento é a
+o1: Declaração de Independência dos Estados Unidos.
+o2: Declaração Universal dos Direitos Humanos.
+o3: Magna Carta.
+o4: Declaração dos Direitos do Homem e do Cidadão.
+key: B
+a: A Declaração de Independência dos EUA é de 1776 e rompeu com a Inglaterra.
+b: A Declaração Universal dos Direitos Humanos foi aprovada pela ONU em 1948.
+c: A Magna Carta é um documento inglês de 1215, que limitou o poder do rei.
+d: A Declaração dos Direitos do Homem e do Cidadão é de 1789, da Revolução Francesa.
+
+@A-H09-06 N2
+sup: <p>Em 2006, uma lei federal brasileira criou mecanismos para coibir a violência doméstica e familiar contra a mulher. Ela recebeu o nome de uma mulher que ficou paraplégica depois de sofrer agressões do marido e que lutou por justiça.</p>
+stem: Essa lei é a
+o1: Lei Áurea.
+o2: Lei do Ventre Livre.
+o3: Lei de Cotas.
+o4: Lei Maria da Penha.
+key: D
+a: A Lei Áurea, de 1888, aboliu a escravidão.
+b: A Lei do Ventre Livre, de 1871, tratou dos filhos de mulheres escravizadas.
+c: A Lei de Cotas, de 2012, reserva vagas em instituições federais de ensino.
+d: A Lei Maria da Penha (2006) prevê medidas protetivas e punições contra a violência doméstica e familiar.
+
+@A-H09-07 N2
+sup: <p>Jerusalém é considerada cidade sagrada por judeus, cristãos e muçulmanos. Tanto israelenses quanto palestinos reivindicam a cidade como capital.</p>
+stem: Um dos motivos para a disputa por Jerusalém é
+o1: a cidade ter grande importância religiosa para as três religiões.
+o2: a cidade ser a única fonte de água do Oriente Médio.
+o3: a cidade ficar à beira do Oceano Atlântico.
+o4: a ausência de moradores na cidade.
+key: A
+a: O valor sagrado de Jerusalém para as três religiões é um dos motivos centrais da disputa pela cidade.
+b: A disputa não decorre de ser a cidade a única fonte de água da região.
+c: Jerusalém fica no interior, e não no litoral do Atlântico.
+d: Jerusalém é uma cidade muito povoada.
+
+@A-H09-08 N3 cálculo
+sup: <table class="qt"><caption>Rendimento médio mensal de trabalhadores com a mesma escolaridade (valores fictícios)</caption><tr><th>Grupo</th><th>Rendimento médio</th></tr><tr><td>Homens</td><td>R$ 3.000</td></tr><tr><td>Mulheres</td><td>R$ 2.400</td></tr></table>
+stem: Em relação ao rendimento médio dos homens, o das mulheres é menor em
+o1: 25%.
+o2: 80%.
+o3: 20%.
+o4: 600%.
+key: C
+a: 25% é a diferença em relação ao rendimento das mulheres (600 ÷ 2.400), e a comparação pedida é com o dos homens.
+b: 80% é o rendimento das mulheres em relação ao dos homens, e não a redução.
+c: A diferença é R$ 600, que corresponde a 20% dos R$ 3.000 dos homens.
+d: 600 é a diferença em reais, e não em porcentagem.
+
+@A-H09-09 N3 julgar afirmativas
+stem: Sobre o movimento pelos direitos civis nos Estados Unidos, analise as afirmativas.
+I. O movimento nunca utilizou a desobediência civil não violenta.
+II. A Lei dos Direitos Civis de 1964 proibiu a discriminação racial em locais públicos.
+III. Rosa Parks, ao se recusar a ceder seu lugar no ônibus, em 1955, tornou-se um símbolo da luta contra a segregação.
+IV. A Lei do Direito de Voto, de 1965, proibiu práticas que impediam os negros de votar.
+Estão corretas apenas
+o1: I e II.
+o2: II, III e IV.
+o3: I, III e IV.
+o4: I, II, III e IV.
+key: B
+a: A I é falsa: o movimento usou boicotes, marchas e outras formas de desobediência civil não violenta.
+b: II, III e IV estão corretas. A I é falsa: a não violência foi uma marca do movimento, liderado por Martin Luther King Jr.
+c: A I é falsa; a alternativa a considera verdadeira e exclui a II, que é verdadeira.
+d: A I é falsa; o movimento adotou a desobediência civil não violenta.
+
+# ===================== H06 =====================
+
+@A-H06-01 N1
+sup: <p>Entre 1884 e 1885, representantes de potências europeias se reuniram em Berlim para definir regras para a ocupação do continente africano. Nenhum africano participou das decisões.</p>
+stem: Essa reunião foi a
+o1: Conferência de Yalta, que dividiu a Europa depois da Segunda Guerra.
+o2: Congresso de Viena, que reorganizou a Europa depois de Napoleão.
+o3: Conferência de Bandung, que reuniu países asiáticos e africanos já independentes.
+o4: Conferência de Berlim, que ajudou a organizar a partilha da África pelos europeus.
+key: D
+a: A Conferência de Yalta (1945) reuniu os líderes dos Aliados no final da Segunda Guerra.
+b: O Congresso de Viena (1814–1815) reorganizou a Europa depois da derrota de Napoleão.
+c: A Conferência de Bandung (1955) reuniu países asiáticos e africanos independentes.
+d: A Conferência de Berlim (1884–1885) estabeleceu regras para a partilha da África entre as potências europeias.
+
+@A-H06-02 N2
+stem: Entre os motivos que levaram as potências europeias à expansão imperialista, no século XIX, estavam
+o1: a falta de produção industrial e a necessidade de importar máquinas.
+o2: o excesso de matérias-primas na Europa e a falta de consumidores.
+o3: a busca de matérias-primas, de mercados consumidores e de áreas para investir capitais.
+o4: o desejo de preservar as culturas dos povos africanos e asiáticos.
+key: C
+a: As potências eram industrializadas e produziam máquinas em excesso.
+b: As indústrias necessitavam de mais matérias-primas e de mais consumidores.
+c: A industrialização exigia matérias-primas e mercados, e os capitais acumulados buscavam áreas de investimento.
+d: O imperialismo explorou os povos dominados e não buscou preservar suas culturas.
+
+@A-H06-03 N2
+sup: <p>No século XIX, comerciantes britânicos vendiam ópio na China. Quando o governo chinês tentou proibir o comércio da droga, o Reino Unido entrou em guerra e venceu. Pelo Tratado de Nanquim (1842), a China abriu portos ao comércio britânico e cedeu a ilha de Hong Kong.</p>
+stem: Esse episódio mostra que o imperialismo
+o1: respeitou a soberania dos países asiáticos.
+o2: foi uma política de cooperação entre iguais.
+o3: promoveu a independência da China.
+o4: impôs interesses econômicos europeus pelo uso da força militar.
+key: D
+a: O Reino Unido não respeitou a decisão do governo chinês de proibir o ópio.
+b: Houve imposição e não cooperação entre iguais.
+c: A China foi obrigada a ceder território e abrir portos, e não ganhou independência.
+d: Os britânicos usaram a força para impor o comércio e obter vantagens, como a cessão de Hong Kong.
+
+@A-H06-04 N2
+sup: <p>A Índia foi colônia britânica até 1947. Um dos líderes do movimento de independência foi Mahatma Gandhi, que organizou marchas e o boicote aos produtos britânicos, sem usar armas.</p>
+stem: A estratégia de luta defendida por Gandhi é conhecida como
+o1: guerrilha rural.
+o2: golpe militar.
+o3: desobediência civil não violenta.
+o4: colaboração com o governo colonial.
+key: C
+a: A guerrilha rural envolve o uso de armas, o que Gandhi rejeitava.
+b: Gandhi não defendia golpes militares.
+c: Gandhi defendia a resistência pacífica, por meio de marchas, boicotes e desobediência a leis consideradas injustas.
+d: Gandhi liderou a resistência ao governo colonial e não a colaboração com ele.
+
+@A-H06-05 N3
+sup: <p>Em 1914, quase todo o continente africano estava sob domínio europeu; apenas a Etiópia e a Libéria permaneciam independentes. As fronteiras das colônias foram traçadas pelos europeus em mapas, em muitos casos sem considerar as etnias, as línguas e as culturas locais.</p>
+stem: Uma consequência de longo prazo desse processo foi
+o1: a unificação de todas as etnias africanas em um único Estado forte.
+o2: o respeito às fronteiras culturais tradicionais depois das independências.
+o3: o fim das desigualdades entre a África e a Europa, após a descolonização.
+o4: a formação de países com fronteiras que reuniram povos rivais e separaram povos de mesma cultura, o que contribuiu para conflitos posteriores.
+key: D
+a: A partilha dividiu a África em várias colônias e não a unificou.
+b: As fronteiras coloniais ignoraram as culturas locais, e muitas foram mantidas após as independências.
+c: As desigualdades entre África e Europa continuaram após o período colonial.
+d: Fronteiras artificiais dividiram povos e uniram grupos rivais, e isso contribuiu para tensões e guerras civis depois das independências.

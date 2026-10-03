@@ -1,0 +1,458 @@
+# Matemática — M12 (geometria plana), M13 (semelhança, Tales, Pitágoras, trigonometria), M14 (ângulos e polígonos)
+# Figuras em SVG recriam o tipo de suporte das provas do CEFET-MG. Contas conferidas em verify-math.py.
+
+# ===================== M12 =====================
+
+@A-M12-01 N1 cálculo
+stem: Um terreno retangular tem 18 m de comprimento e 12 m de largura. Para cercá-lo com uma volta de tela, serão necessários
+o1: 30 metros de tela.
+o2: 48 metros de tela.
+o3: 216 metros de tela.
+o4: 60 metros de tela.
+key: D
+a: 30 m é a soma de comprimento e largura (18 + 12), isto é, só metade do contorno.
+b: 48 m não corresponde ao contorno do terreno; resulta de erro de soma dos lados.
+c: 216 m² é a área do terreno (18 × 12). A cerca depende do perímetro, e não da área.
+d: O perímetro é a soma de todos os lados: 18 + 12 + 18 + 12 = 60 m.
+
+@A-M12-02 N1 cálculo
+stem: Uma roda de bicicleta tem 30 cm de raio. Adotando π = 3, o comprimento da circunferência da roda é
+o1: 180 cm.
+o2: 90 cm.
+o3: 540 cm.
+o4: 2 700 cm.
+key: A
+a: C = 2 · π · r = 2 · 3 · 30 = 180 cm.
+b: 90 cm seria π · r = 3 · 30; falta multiplicar por 2 (diâmetro).
+c: 540 cm resulta de π · r · 6, sem relação com a fórmula do comprimento.
+d: 2 700 cm² corresponde a π · r² (3 · 900), que é a área, e não o comprimento.
+
+@A-M12-03 N2 cálculo
+sup: <svg viewBox="0 0 150 150" width="150" height="150" role="img" aria-label="Quadrado de lado 10 cm com círculo inscrito; os cantos estão sombreados"><rect x="10" y="10" width="130" height="130" fill="#f5c27a" stroke="#333"/><circle cx="75" cy="75" r="65" fill="#fff" stroke="#333"/><text x="75" y="8" font-size="10" text-anchor="middle">10 cm</text></svg><p class="src">Um círculo está inscrito em um quadrado de lado 10 cm. A região sombreada é a que fica dentro do quadrado e fora do círculo. Considere π = 3.</p>
+stem: A área da região sombreada, em cm², é igual a
+o1: 25.
+o2: 75.
+o3: 85.
+o4: 100.
+key: A
+a: Quadrado: 10 × 10 = 100. Círculo de raio 5: 3 · 5² = 75. Região sombreada: 100 − 75 = 25 cm².
+b: 75 cm² é a área do círculo, e não da região sombreada.
+c: 85 cm² resulta de usar π · r = 3 · 5 = 15 como área do círculo (esquecendo de elevar o raio ao quadrado) e calcular 100 − 15.
+d: 100 cm² é a área do quadrado inteiro; falta descontar o círculo.
+
+@A-M12-04 N2 cálculo
+sup: <svg viewBox="0 0 160 110" width="200" height="138" role="img" aria-label="Piso em forma de L: retângulo de 8 m por 5 m com um recorte de 3 m por 2 m no canto superior direito"><polygon points="10,15 85,15 85,45 130,45 130,95 10,95" fill="#cfe3ff" stroke="#333"/><rect x="85" y="15" width="45" height="30" fill="none" stroke="#999" stroke-dasharray="3 3"/><text x="70" y="108" font-size="10" text-anchor="middle">8 m</text><text x="4" y="58" font-size="10" text-anchor="middle" transform="rotate(-90 4 58)">5 m</text><text x="108" y="34" font-size="9" text-anchor="middle">3 m × 2 m</text></svg><p class="src">Planta de um piso. Do retângulo de 8 m por 5 m foi retirado um recorte de 3 m por 2 m (tracejado).</p>
+stem: A área do piso, em metros quadrados, é de
+o1: 34.
+o2: 28.
+o3: 40.
+o4: 46.
+key: A
+a: Retângulo completo: 8 × 5 = 40 m². Recorte: 3 × 2 = 6 m². Área do piso: 40 − 6 = 34 m².
+b: 28 resulta de subtrair 12 (6 + 6) em vez de 6; o recorte tem 3 × 2 = 6 m².
+c: 40 m² é a área do retângulo antes de retirar o recorte.
+d: 46 m² soma o recorte em vez de subtraí-lo.
+
+@A-M12-05 N2
+stem: Uma pizzaria vende duas pizzas circulares: a média, de 30 cm de diâmetro, por R$ 36,00; e a grande, de 40 cm de diâmetro, por R$ 60,00. Considerando o preço por área, é correto afirmar que
+o1: a média é mais vantajosa, pois custa 40% menos que a grande.
+o2: as duas têm o mesmo custo por área, pois o diâmetro da grande é só 10 cm maior.
+o3: a grande tem área apenas 33% maior, e por isso a média compensa mais.
+o4: a grande é mais vantajosa: sua área é cerca de 78% maior, e seu preço, cerca de 67% maior.
+key: D
+a: A média realmente custa 40% menos, mas ela também tem bem menos que 60% da área. É preciso comparar o preço pela área, e não só o preço.
+b: Os custos por área são diferentes: 36 ÷ 900 = 0,040 e 60 ÷ 1 600 = 0,0375 (por unidade de π · r²).
+c: 33% é o aumento do diâmetro (40 ÷ 30). A área cresce com o quadrado do diâmetro: (40 ÷ 30)² ≈ 1,78.
+d: A área é proporcional ao quadrado do diâmetro: 1 600 ÷ 900 ≈ 1,78 (78% a mais). O preço sobe 60 ÷ 36 ≈ 1,67 (67% a mais). Logo, a grande custa menos por área.
+
+@A-M12-06 N3 cálculo
+sup: <svg viewBox="0 0 150 150" width="170" height="170" role="img" aria-label="Quadrado ABCD de lado 12 cm; M é ponto médio de BC e N é ponto médio de CD; triângulo AMN sombreado"><rect x="10" y="20" width="120" height="120" fill="#fff" stroke="#333"/><polygon points="10,140 130,80 70,20" fill="#f5c27a" stroke="#333"/><text x="3" y="150" font-size="11">A</text><text x="132" y="150" font-size="11">B</text><text x="133" y="18" font-size="11">C</text><text x="3" y="16" font-size="11">D</text><text x="134" y="84" font-size="11">M</text><text x="67" y="14" font-size="11">N</text></svg><p class="src">ABCD é um quadrado de lado 12 cm. M é o ponto médio do lado BC e N é o ponto médio do lado CD.</p>
+stem: A área do triângulo AMN, em cm², é igual a
+o1: 36.
+o2: 54.
+o3: 72.
+o4: 90.
+key: B
+a: 36 cm² é a área de apenas um dos triângulos laterais (ABM ou ADN), e não do triângulo AMN.
+b: Área do quadrado: 144. Triângulos ao redor: ABM = ½ · 12 · 6 = 36; ADN = ½ · 12 · 6 = 36; MCN = ½ · 6 · 6 = 18. Sobra 144 − 90 = 54 cm².
+c: 72 cm² é metade da área do quadrado; o triângulo AMN não tem essa área.
+d: 90 cm² é a soma dos três triângulos retirados, e não a área do que sobra.
+
+@A-M12-07 N2 cálculo
+stem: Uma roda de 50 cm de diâmetro percorre 1,5 km em linha reta, sem deslizar. Adotando π = 3, o número de voltas completas da roda é
+o1: 1 000.
+o2: 500.
+o3: 2 000.
+o4: 3 000.
+key: A
+a: C = π · d = 3 · 50 = 150 cm = 1,5 m. Distância: 1,5 km = 1 500 m. Voltas: 1 500 ÷ 1,5 = 1 000.
+b: 500 voltas ocorreriam se o comprimento da circunferência fosse 3 m, que seria o resultado de usar 50 cm como raio.
+c: 2 000 voltas resultam de usar C = 75 cm, isto é, π · 25, tomando o raio como se fosse o diâmetro.
+d: 3 000 voltas resultam de esquecer a conversão: usar 1,5 km como 3 000 · 0,5 m, confundindo as unidades.
+
+@A-M12-08 N1 cálculo
+sup: <svg viewBox="0 0 170 90" width="210" height="110" role="img" aria-label="Trapézio com bases 10 m e 6 m e altura 4 m"><polygon points="20,70 150,70 125,20 45,20" fill="#cfe3ff" stroke="#333"/><line x1="125" y1="20" x2="125" y2="70" stroke="#666" stroke-dasharray="3 3"/><text x="85" y="84" font-size="10" text-anchor="middle">10 m</text><text x="85" y="15" font-size="10" text-anchor="middle">6 m</text><text x="140" y="49" font-size="10">4 m</text></svg><p class="src">Canteiro em forma de trapézio.</p>
+stem: A área do canteiro, em metros quadrados, é
+o1: 24.
+o2: 32.
+o3: 40.
+o4: 64.
+key: B
+a: 24 m² é o produto da base menor pela altura (6 × 4); falta usar a média das bases.
+b: A = (B + b) · h ÷ 2 = (10 + 6) · 4 ÷ 2 = 32 m².
+c: 40 m² é o produto da base maior pela altura (10 × 4), que desconsidera que o canteiro estreita em cima.
+d: 64 m² é (10 + 6) · 4, sem dividir por 2.
+
+@A-M12-09 N2 cálculo
+stem: Aumentando-se em 20% a medida do lado de um quadrado, a área desse quadrado aumenta
+o1: 20%.
+o2: 40%.
+o3: 120%.
+o4: 44%.
+key: D
+a: A área não cresce na mesma proporção do lado, pois depende do quadrado dele.
+b: 40% é a soma de dois aumentos de 20%, ignorando que o segundo se aplica ao valor já aumentado (20% de 20% adicional).
+c: 120% seria o caso de a área ficar 2,2 vezes maior; não é o resultado de nenhuma etapa do cálculo.
+d: Novo lado: 1,2 · ℓ. Nova área: (1,2 ℓ)² = 1,44 ℓ². O aumento é de 44%.
+
+@A-M12-10 N2 cálculo
+sup: <svg viewBox="0 0 170 170" width="180" height="180" role="img" aria-label="Pista circular: círculo externo de raio 50 m e círculo interno de raio 40 m"><circle cx="85" cy="85" r="75" fill="#f5c27a" stroke="#333"/><circle cx="85" cy="85" r="60" fill="#fff" stroke="#333"/><line x1="85" y1="85" x2="160" y2="85" stroke="#333"/><text x="125" y="80" font-size="10" text-anchor="middle">50 m</text><text x="85" y="89" font-size="10" text-anchor="middle">40 m</text></svg><p class="src">Pista de corrida em forma de coroa circular: raio externo de 50 m e raio interno de 40 m.</p>
+stem: Adotando π = 3, a área da pista, em metros quadrados, é
+o1: 300.
+o2: 900.
+o3: 1 800.
+o4: 2 700.
+key: D
+a: 300 m² seria π · 10², isto é, a área de um círculo de raio 10 (a largura da pista), o que não vale para uma coroa.
+b: 900 m² é R² − r² (2 500 − 1 600), mas falta multiplicar por π.
+c: 1 800 m² não resulta da fórmula da coroa; vem de misturar raios e diâmetros.
+d: A = π · (R² − r²) = 3 · (2 500 − 1 600) = 3 · 900 = 2 700 m².
+
+@A-M12-11 N3 cálculo
+sup: <p><b>Pintura de uma parede</b></p><p>Uma parede retangular mede 4 m de largura por 3 m de altura. Ela tem uma porta de 2 m × 1 m e uma janela de 1,5 m × 1 m. A parede receberá duas demãos de tinta. O rendimento da tinta é de 5 m² por litro, e a tinta é vendida em latas de 1 litro.</p>
+stem: O menor número de latas que atende à pintura é
+o1: 3.
+o2: 4.
+o3: 5.
+o4: 6.
+key: B
+a: 3 latas só cobririam 15 m², que é pouco para as duas demãos de 8,5 m² (17 m² no total).
+b: Área a pintar: 12 − 2 − 1,5 = 8,5 m². Duas demãos: 17 m². Litros: 17 ÷ 5 = 3,4. Como a lata é de 1 L, é preciso comprar 4.
+c: 5 latas resultam de não descontar porta e janela: 24 ÷ 5 = 4,8, arredondando para 5.
+d: 6 latas excedem o necessário, mesmo sem descontar porta e janela.
+
+@A-M12-12 N3 cálculo
+stem: Um retângulo tem perímetro de 36 cm, e um lado mede o dobro do outro. A área desse retângulo, em cm², é
+o1: 36.
+o2: 54.
+o3: 72.
+o4: 108.
+key: C
+a: 36 é o próprio perímetro; não é a área.
+b: 54 vem de usar lados 6 e 9, que não estão na razão 2 para 1.
+c: Lados x e 2x: 2(x + 2x) = 36, logo 6x = 36 e x = 6. Lados 6 e 12: área 6 × 12 = 72 cm².
+d: 108 vem de usar lados 6 e 18, o triplo, e não o dobro.
+
+@A-M12-13 N2 cálculo
+stem: Na planta de uma sala, desenhada na escala 1:200, a sala é representada por um retângulo de 4 cm por 3 cm. A área real da sala, em metros quadrados, é
+o1: 0,24.
+o2: 12.
+o3: 2 400.
+o4: 48.
+key: D
+a: 0,24 m² é 12 cm² convertidos mal: ele é a área no desenho, em outra unidade, sem aplicar a escala.
+b: 12 é a área no desenho em cm², não a área real.
+c: 2 400 vem de multiplicar a área do desenho (12 cm²) por 200, esquecendo que a escala vale para os lados, e não para a área.
+d: Lados reais: 4 cm × 200 = 800 cm = 8 m e 3 cm × 200 = 600 cm = 6 m. Área: 8 × 6 = 48 m².
+
+@A-M12-14 N3 cálculo
+sup: <svg viewBox="0 0 170 170" width="180" height="180" role="img" aria-label="Quadrado inscrito em um círculo de raio 5 cm; a região entre o círculo e o quadrado está sombreada"><circle cx="85" cy="85" r="75" fill="#f5c27a" stroke="#333"/><polygon points="85,10 160,85 85,160 10,85" fill="#fff" stroke="#333"/><line x1="85" y1="85" x2="160" y2="85" stroke="#333"/><text x="125" y="80" font-size="10" text-anchor="middle">5 cm</text></svg><p class="src">Um quadrado está inscrito em um círculo de raio 5 cm: os quatro vértices do quadrado estão sobre a circunferência. Considere π = 3.</p>
+stem: A área da região sombreada, em cm², é igual a
+o1: 25.
+o2: 50.
+o3: 75.
+o4: 125.
+key: A
+a: A diagonal do quadrado é o diâmetro (10 cm). Como a área do quadrado é d² ÷ 2 = 50, a região sombreada vale 75 − 50 = 25 cm².
+b: 50 cm² é a área do quadrado, e não a da região sombreada.
+c: 75 cm² é a área do círculo (3 · 5²); falta descontar o quadrado.
+d: 125 cm² soma as áreas do círculo e do quadrado, em vez de subtrair.
+
+# ===================== M13 =====================
+
+@A-M13-01 N1 cálculo
+sup: <svg viewBox="0 0 150 130" width="190" height="165" role="img" aria-label="Escada de 5 m apoiada em uma parede, com a base a 3 m da parede"><line x1="130" y1="10" x2="130" y2="110" stroke="#333" stroke-width="3"/><line x1="10" y1="110" x2="130" y2="110" stroke="#333" stroke-width="3"/><line x1="130" y1="22" x2="58" y2="110" stroke="#b7791f" stroke-width="3"/><text x="90" y="125" font-size="10" text-anchor="middle">3 m</text><text x="82" y="58" font-size="10">5 m</text><text x="138" y="70" font-size="10">h</text></svg><p class="src">Uma escada de 5 m de comprimento está apoiada em uma parede vertical, com a base a 3 m da parede, em um piso horizontal.</p>
+stem: A altura h, em metros, que a escada atinge na parede é
+o1: 4.
+o2: 2.
+o3: 8.
+o4: 16.
+key: A
+a: Pitágoras: 5² = 3² + h², logo h² = 25 − 9 = 16 e h = 4 m.
+b: 2 m resultaria de subtrair 5 − 3, o que não vale nos triângulos retângulos.
+c: 8 m soma 5 + 3, e a soma dos lados nunca dá um cateto.
+d: 16 é h², e falta extrair a raiz quadrada.
+
+@A-M13-02 N1 cálculo
+stem: Em um mesmo instante, uma vara de 2 m de altura projeta uma sombra de 1,5 m. Nesse momento, uma árvore projeta uma sombra de 9 m. Considerando os raios solares paralelos, a altura da árvore é
+o1: 6 m.
+o2: 7,5 m.
+o3: 18 m.
+o4: 12 m.
+key: D
+a: 6 é a razão entre as sombras (9 ÷ 1,5); falta multiplicar pela altura da vara.
+b: 7,5 m resulta de subtrair 9 − 1,5, e a relação é de proporção, não de diferença.
+c: 18 m resulta de multiplicar a sombra por 2 (altura da vara), sem dividir por 1,5.
+d: Os triângulos são semelhantes: 2 ÷ 1,5 = h ÷ 9, então h = 2 · 9 ÷ 1,5 = 12 m.
+
+@A-M13-03 N2 cálculo
+sup: <svg viewBox="0 0 200 130" width="260" height="170" role="img" aria-label="Três retas paralelas cortadas por duas transversais. Em uma transversal, os segmentos medem 3 e 5; na outra, 6 e x"><line x1="10" y1="25" x2="190" y2="25" stroke="#333"/><line x1="10" y1="65" x2="190" y2="65" stroke="#333"/><line x1="10" y1="105" x2="190" y2="105" stroke="#333"/><line x1="45" y1="10" x2="75" y2="120" stroke="#b7791f"/><line x1="115" y1="10" x2="175" y2="120" stroke="#b7791f"/><text x="46" y="48" font-size="10" text-anchor="end">3</text><text x="53" y="90" font-size="10" text-anchor="end">5</text><text x="140" y="48" font-size="10">6</text><text x="158" y="90" font-size="10">x</text></svg><p class="src">As três retas horizontais são paralelas e as duas retas inclinadas são transversais.</p>
+stem: O valor de x é
+o1: 5.
+o2: 6.
+o3: 8.
+o4: 10.
+key: D
+a: 5 é a medida do segmento correspondente na outra transversal, e não o valor de x.
+b: 6 é o segmento que já está ao lado de x; não se pode repetir.
+c: 8 resulta de somar 3 + 5, o que ignora a proporcionalidade entre os segmentos.
+d: Pelo teorema de Tales, 3 ÷ 5 = 6 ÷ x, então x = 5 · 6 ÷ 3 = 10.
+
+@A-M13-04 N2 cálculo
+stem: Dois triângulos são semelhantes, e a razão de semelhança do menor para o maior é 1 : 3. O perímetro do triângulo menor é 14 cm. O perímetro do triângulo maior, em cm, é
+o1: 17.
+o2: 28.
+o3: 42.
+o4: 126.
+key: C
+a: 17 resulta de somar 14 + 3, o que não corresponde à razão de semelhança.
+b: 28 resulta de multiplicar por 2, e a razão é 3.
+c: Em triângulos semelhantes, os perímetros estão na mesma razão dos lados: 14 × 3 = 42 cm.
+d: 126 resulta de multiplicar por 9 (3²), que seria a razão entre as áreas, e não entre os perímetros.
+
+@A-M13-05 N2 cálculo
+sup: <table class="qt"><caption>Valores aproximados de razões trigonométricas</caption><tr><th>Ângulo</th><th>sen</th><th>cos</th><th>tg</th></tr><tr><td>30°</td><td>0,50</td><td>0,87</td><td>0,58</td></tr><tr><td>45°</td><td>0,71</td><td>0,71</td><td>1,00</td></tr><tr><td>60°</td><td>0,87</td><td>0,50</td><td>1,73</td></tr></table><p class="src">Uma rampa de 10 m de comprimento forma um ângulo de 30° com o piso horizontal.</p>
+stem: Usando a tabela, a altura que a rampa atinge, em metros, é aproximadamente
+o1: 5,0.
+o2: 5,8.
+o3: 8,7.
+o4: 20,0.
+key: A
+a: A altura é o cateto oposto ao ângulo de 30°: 10 · sen 30° = 10 · 0,50 = 5,0 m.
+b: 5,8 m seria 10 · tg 30°, o que usa a razão errada (tangente é cateto oposto ÷ adjacente).
+c: 8,7 m seria 10 · cos 30°, a projeção horizontal da rampa, e não a altura.
+d: 20 m seria 10 ÷ sen 30°; a divisão faz sentido só se 10 m fosse a altura.
+
+@A-M13-06 N2 cálculo
+stem: Um campo de futebol de salão é um retângulo de 24 m por 10 m. Um atleta vai correr de um canto ao canto oposto, em linha reta. A distância percorrida é de
+o1: 26 m.
+o2: 17 m.
+o3: 34 m.
+o4: 676 m.
+key: A
+a: Pitágoras: d² = 24² + 10² = 576 + 100 = 676, então d = 26 m.
+b: 17 m é a média entre 24 e 10; a diagonal não é a média dos lados.
+c: 34 m é a soma dos lados, que corresponde ao caminho pelas bordas, e não à diagonal.
+d: 676 é d², e falta extrair a raiz quadrada.
+
+@A-M13-07 N2 cálculo
+stem: Um painel tem a forma de um triângulo equilátero de lado 12 cm. Adotando √3 = 1,73, a altura desse painel, em cm, é aproximadamente
+o1: 6,0.
+o2: 10,4.
+o3: 12,0.
+o4: 20,8.
+key: B
+a: 6 cm é metade do lado, que é a base de cada triângulo retângulo que se forma, e não a altura.
+b: Altura h: h² = 12² − 6² = 108, h = 6√3 ≈ 6 · 1,73 ≈ 10,4 cm.
+c: 12 cm é a medida do lado; a altura é menor que o lado em um triângulo equilátero.
+d: 20,8 cm é 12 · √3, ou seja, esqueceu-se de dividir por 2 (a altura é ℓ√3 ÷ 2).
+
+@A-M13-08 N3 cálculo
+sup: <svg viewBox="0 0 220 150" width="270" height="185" role="img" aria-label="Dois postes verticais de 10 m e 5 m, distantes 12 m um do outro, ligados por um fio entre os topos"><line x1="10" y1="130" x2="210" y2="130" stroke="#333"/><line x1="30" y1="130" x2="30" y2="20" stroke="#333" stroke-width="3"/><line x1="190" y1="130" x2="190" y2="75" stroke="#333" stroke-width="3"/><line x1="30" y1="20" x2="190" y2="75" stroke="#b7791f" stroke-width="2"/><text x="22" y="80" font-size="10" text-anchor="end">10 m</text><text x="198" y="108" font-size="10">5 m</text><text x="110" y="144" font-size="10" text-anchor="middle">12 m</text></svg><p class="src">Um fio reto liga os topos de dois postes verticais, em terreno plano.</p>
+stem: O comprimento do fio, em metros, é
+o1: 12.
+o2: 13.
+o3: 15.
+o4: 17.
+key: B
+a: 12 m é só a distância horizontal entre os postes; o fio é inclinado e, por isso, maior.
+b: Diferença das alturas: 10 − 5 = 5. Fio: √(12² + 5²) = √169 = 13 m.
+c: 15 m soma as alturas (10 + 5), o que não tem relação com o fio.
+d: 17 m soma 12 + 5, o que ignora Pitágoras (a hipotenusa é menor que a soma dos catetos).
+
+@A-M13-09 N3 cálculo
+stem: Dois triângulos são semelhantes. As áreas são 16 cm² e 64 cm². Um lado do triângulo menor mede 5 cm. O lado correspondente no triângulo maior mede
+o1: 10 cm.
+o2: 20 cm.
+o3: 25 cm.
+o4: 40 cm.
+key: A
+a: A razão entre as áreas é 64 ÷ 16 = 4. A razão entre os lados é √4 = 2; logo, 5 · 2 = 10 cm.
+b: 20 cm resulta de aplicar a razão entre as áreas (4) aos lados, e a razão entre lados é a raiz dela.
+c: 25 cm vem de 5², que não tem relação com o problema.
+d: 40 cm resulta de multiplicar 5 por 8, sem justificativa pelo enunciado.
+
+@A-M13-10 N3 cálculo
+sup: <svg viewBox="0 0 190 130" width="250" height="170" role="img" aria-label="Trapézio retângulo com base maior 10, base menor 4 e altura 8"><polygon points="30,112 150,112 78,16 30,16" fill="#cfe3ff" stroke="#333"/><text x="90" y="126" font-size="10" text-anchor="middle">10</text><text x="54" y="11" font-size="10" text-anchor="middle">4</text><text x="24" y="68" font-size="10" text-anchor="end">8</text></svg><p class="src">Trapézio com um lado perpendicular às bases: base maior 10, base menor 4 e altura 8 (medidas em metros).</p>
+stem: O perímetro desse trapézio, em metros, é
+o1: 22.
+o2: 28.
+o3: 36.
+o4: 32.
+key: D
+a: 22 m soma apenas bases e altura (10 + 4 + 8), sem o lado oblíquo.
+b: 28 m usa 6 m (10 − 4) como lado oblíquo; esse valor é só a projeção horizontal do lado.
+c: 36 m usa 14 m (6 + 8) como lado oblíquo, mas o lado é a hipotenusa, e não a soma dos catetos.
+d: O lado oblíquo é a hipotenusa de um triângulo retângulo de catetos 6 e 8: √(36 + 64) = 10. Perímetro: 10 + 4 + 8 + 10 = 32 m.
+
+@A-M13-11 N3 cálculo
+sup: <table class="qt"><caption>Valores aproximados de razões trigonométricas</caption><tr><th>Ângulo</th><th>sen</th><th>cos</th><th>tg</th></tr><tr><td>30°</td><td>0,50</td><td>0,87</td><td>0,58</td></tr><tr><td>60°</td><td>0,87</td><td>0,50</td><td>1,73</td></tr></table><p class="src">Um balão está preso ao solo, plano e horizontal, por uma corda esticada de 40 m, que forma um ângulo de 60° com o solo.</p>
+stem: Segundo a tabela, a altura do balão em relação ao solo, em metros, é de aproximadamente
+o1: 20,0.
+o2: 34,8.
+o3: 46,0.
+o4: 69,2.
+key: B
+a: 20 m seria 40 · cos 60° (distância horizontal), e não a altura.
+b: A altura é o cateto oposto ao ângulo de 60°: 40 · sen 60° = 40 · 0,87 = 34,8 m.
+c: 46 m resulta de 40 ÷ 0,87, e isso dividiria a corda em vez de multiplicar.
+d: 69,2 m seria 40 · tg 60°, que usa a razão errada (a corda é a hipotenusa, e a tangente envolve os catetos).
+
+@A-M13-12 N3 cálculo
+sup: <svg viewBox="0 0 230 150" width="290" height="189" role="img" aria-label="Três lotes entre as ruas A e B, com divisas laterais paralelas; as frentes na rua A medem 15 m, 20 m e 25 m e os fundos na rua B somam 90 m"><line x1="5" y1="20" x2="225" y2="20" stroke="#333" stroke-width="3"/><line x1="5" y1="98" x2="225" y2="131" stroke="#333" stroke-width="3"/><line x1="10" y1="20" x2="18.9" y2="99.8" stroke="#777"/><line x1="55" y1="20" x2="64.6" y2="106.7" stroke="#777"/><line x1="115" y1="20" x2="125.6" y2="115.9" stroke="#777"/><line x1="190" y1="20" x2="201.9" y2="127.3" stroke="#777"/><text x="32" y="14" font-size="10" text-anchor="middle">15 m</text><text x="85" y="14" font-size="10" text-anchor="middle">20 m</text><text x="152" y="14" font-size="10" text-anchor="middle">25 m</text><text x="5" y="10" font-size="9">Rua A</text><text x="5" y="118" font-size="9">Rua B</text><text x="120" y="146" font-size="10" text-anchor="middle">fundos: 90 m (total)</text></svg><p class="src">As divisas laterais dos lotes são retas paralelas entre si. As ruas A e B são retas transversais a elas.</p>
+stem: Três lotes têm frente para a rua A, com 15 m, 20 m e 25 m. As divisas laterais dos lotes são paralelas entre si, e os fundos, na rua B, somam 90 m. O fundo do lote de 25 m de frente mede
+o1: 25 m.
+o2: 30 m.
+o3: 37,5 m.
+o4: 45 m.
+key: C
+a: 25 m copia a frente do lote, mas as ruas A e B têm extensões diferentes (60 m e 90 m), e por isso o fundo não é igual à frente.
+b: 30 m é o fundo do lote do meio (90 · 20 ÷ 60), e não o do lote de 25 m.
+c: Pelo teorema de Tales, a razão entre frente e fundo é constante: 90 ÷ 60 = 1,5. Fundo do lote de 25 m: 25 · 1,5 = 37,5 m.
+d: 45 m é a metade do total dos fundos, sem relação com a proporção das frentes.
+
+# ===================== M14 =====================
+
+@A-M14-01 N1 cálculo
+stem: Em um triângulo, dois ângulos internos medem 50° e 60°. O terceiro ângulo mede
+o1: 50°.
+o2: 60°.
+o3: 70°.
+o4: 110°.
+key: C
+a: 50° é um dos ângulos dados, e o terceiro precisa fechar a soma de 180°.
+b: 60° é outro ângulo dado; a soma 50 + 60 + 60 = 170, que não fecha 180°.
+c: A soma dos ângulos internos é 180°: 180° − 50° − 60° = 70°.
+d: 110° é a soma dos dois ângulos dados (50 + 60), e não o ângulo restante.
+
+@A-M14-02 N1 cálculo
+stem: Dois ângulos são suplementares, e um deles é o triplo do outro. O menor desses ângulos mede
+o1: 45°.
+o2: 30°.
+o3: 60°.
+o4: 135°.
+key: A
+a: Se o menor é x, o outro é 3x e x + 3x = 180°, então x = 45° (e o maior é 135°).
+b: 30° e 90° (triplo) somam 120°, e não 180°.
+c: 60° e 180° (triplo) somam 240°, e não 180°.
+d: 135° é o maior dos ângulos, e a pergunta é sobre o menor.
+
+@A-M14-03 N2 cálculo
+sup: <svg viewBox="0 0 210 160" width="270" height="205" role="img" aria-label="Retas paralelas r e s cortadas por uma transversal t; em r, o ângulo de 65° acima da reta e à direita de t; x é o ângulo abaixo de s e à direita de t"><line x1="10" y1="45" x2="200" y2="45" stroke="#333"/><line x1="10" y1="115" x2="200" y2="115" stroke="#333"/><line x1="64" y1="150" x2="127" y2="15" stroke="#b7791f" stroke-width="2"/><text x="195" y="39" font-size="11" text-anchor="end">r</text><text x="195" y="109" font-size="11" text-anchor="end">s</text><text x="120" y="12" font-size="11">t</text><text x="132" y="38" font-size="10">65°</text><text x="100" y="135" font-size="10">x</text></svg><p class="src">As retas r e s são paralelas.</p>
+stem: A medida do ângulo x é
+o1: 25°.
+o2: 65°.
+o3: 115°.
+o4: 295°.
+key: C
+a: 25° é o complemento de 65° (90° − 65°), que não tem relação com as paralelas.
+b: 65° é o correspondente na reta s, acima dela; mas x está abaixo de s e é o suplemento desse ângulo.
+c: O ângulo de 65° em r tem correspondente de 65° em s (acima da reta). O ângulo x, abaixo de s, é suplementar: 180° − 65° = 115°.
+d: 295° é o replemento (360° − 65°), que não é o ângulo marcado.
+
+@A-M14-04 N2 cálculo
+stem: A medida de cada ângulo interno de um hexágono regular é
+o1: 108°.
+o2: 120°.
+o3: 135°.
+o4: 144°.
+key: B
+a: 108° é o ângulo interno do pentágono regular.
+b: Soma dos ângulos internos: (6 − 2) · 180° = 720°. Cada ângulo: 720° ÷ 6 = 120°.
+c: 135° é o ângulo interno do octógono regular.
+d: 144° é o ângulo interno do decágono regular.
+
+@A-M14-05 N2 cálculo
+stem: O número de diagonais de um octógono (polígono de 8 lados) é
+o1: 8.
+o2: 16.
+o3: 40.
+o4: 20.
+key: D
+a: 8 é o número de lados, e não o de diagonais.
+b: 16 resulta de 8 · 2, que ignora que cada vértice liga a 5 outros.
+c: 40 é 8 · 5, sem dividir por 2, e cada diagonal foi contada duas vezes.
+d: Cada vértice se liga a 8 − 3 = 5 vértices não vizinhos. Como cada diagonal é contada duas vezes: 8 · 5 ÷ 2 = 20.
+
+@A-M14-06 N2 cálculo
+sup: <p>Um pentágono (irregular) tem quatro ângulos internos que medem 100°, 110°, 120° e 90°.</p>
+stem: O quinto ângulo interno desse pentágono mede
+o1: 100°.
+o2: 110°.
+o3: 120°.
+o4: 130°.
+key: C
+a: Se o quinto fosse 100°, a soma seria 520°, que não fecha 540°.
+b: Se fosse 110°, a soma seria 530°, que não fecha 540°.
+c: Soma dos ângulos internos do pentágono: (5 − 2) · 180° = 540°. Os quatro dados somam 420°. Logo, 540° − 420° = 120°.
+d: Se fosse 130°, a soma seria 550°, acima dos 540° possíveis.
+
+@A-M14-07 N3 cálculo
+stem: Em um triângulo isósceles, o ângulo externo relativo ao vértice do ângulo desigual mede 130°. Cada ângulo da base desse triângulo mede
+o1: 25°.
+o2: 50°.
+o3: 65°.
+o4: 130°.
+key: C
+a: 25° resulta de dividir por 2 o ângulo do vértice (50° ÷ 2). Os ângulos da base são metade do que sobra de 180°, e não metade do ângulo do vértice.
+b: 50° é o ângulo do vértice (180° − 130°), e não os da base.
+c: Ângulo do vértice: 180° − 130° = 50°. Os dois ângulos da base são iguais: (180° − 50°) ÷ 2 = 65°. (Confirmação: o externo é a soma dos dois internos não adjacentes, 65° + 65° = 130°.)
+d: 130° é o ângulo externo dado, e não um ângulo interno da base.
+
+@A-M14-08 N3 NÃO/incorreta
+stem: Para cobrir completamente um piso, sem sobras nem espaços, é possível usar ladrilhos que sejam polígonos regulares iguais. Entre os polígonos abaixo, aquele que NÃO permite essa cobertura sozinho é o
+o1: triângulo equilátero.
+o2: quadrado.
+o3: pentágono regular.
+o4: hexágono regular.
+key: C
+a: O ângulo interno é 60°, e seis triângulos juntos em um ponto fecham 360°, então ele ladrilha o plano.
+b: O ângulo interno é 90°, e quatro quadrados fecham 360° em cada vértice.
+c: O ângulo interno é 108°, e 360° ÷ 108° não é um número inteiro (3,33...). Os pentágonos deixam falhas ou se sobrepõem.
+d: O ângulo interno é 120°, e três hexágonos fecham 360° em cada vértice, como nos favos de mel.
+
+@A-M14-09 N3 cálculo
+sup: <p>Às 4 h 10 min, os ponteiros de um relógio analógico formam um ângulo. Lembre-se de que o ponteiro dos minutos avança 6° por minuto, e o das horas, 30° por hora (0,5° por minuto).</p>
+stem: Às 4 h 10 min, o menor ângulo entre os ponteiros mede
+o1: 60°.
+o2: 65°.
+o3: 70°.
+o4: 125°.
+key: B
+a: 60° resulta de ignorar o avanço do ponteiro das horas: 120° (ponteiro exatamente no 4) − 60° (ponteiro dos minutos no 2). Às 4 h 10, o ponteiro das horas já se deslocou 5°.
+b: Ponteiro dos minutos: 10 · 6° = 60°. Ponteiro das horas: 4 · 30° + 10 · 0,5° = 125°. Diferença: 125° − 60° = 65°.
+c: 70° resulta de contar o avanço do ponteiro das horas como 10° (em vez de 5°): 130° − 60°.
+d: 125° é a posição do ponteiro das horas, e não o ângulo entre os dois ponteiros.
+
+@A-M14-10 N3 cálculo
+sup: <svg viewBox="0 0 150 140" width="190" height="175" role="img" aria-label="Quadrado ABCD com triângulo equilátero ABE desenhado dentro do quadrado"><rect x="15" y="15" width="110" height="110" fill="#fff" stroke="#333"/><polygon points="15,125 125,125 70,30" fill="#cfe3ff" stroke="#333"/><text x="5" y="135" font-size="11">A</text><text x="127" y="135" font-size="11">B</text><text x="127" y="14" font-size="11">C</text><text x="5" y="14" font-size="11">D</text><text x="68" y="25" font-size="11">E</text></svg><p class="src">ABCD é um quadrado e ABE é um triângulo equilátero, com E no interior do quadrado.</p>
+stem: O ângulo AÊD mede
+o1: 15°.
+o2: 30°.
+o3: 60°.
+o4: 75°.
+key: D
+a: 15° é a metade de 30°, que seria o ângulo no vértice A, e não o do vértice E.
+b: 30° é o ângulo DÂE (90° − 60°), e a pergunta é sobre o ângulo em E.
+c: 60° é o ângulo do triângulo equilátero, e o ângulo AÊD pertence a outro triângulo.
+d: DÂE = 90° − 60° = 30°. O triângulo ADE é isósceles (AD = AB = AE). Logo AÊD = (180° − 30°) ÷ 2 = 75°.

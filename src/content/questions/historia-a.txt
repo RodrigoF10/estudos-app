@@ -1,0 +1,448 @@
+# História — H02 (Brasil Império e Independência), H03 (Primeira República e modernismo), H01 (escravização, abolição e racismo), H04 (Era Vargas)
+
+# ===================== H02 =====================
+
+@A-H02-01 N1
+sup: <p>Em 9 de janeiro de 1822, o príncipe regente D. Pedro recebeu ordens das Cortes de Lisboa que exigiam o seu retorno a Portugal. Ele respondeu que ficaria no Brasil.</p>
+stem: Esse episódio da história brasileira ficou conhecido como
+o1: Dia do Fico.
+o2: Grito do Ipiranga.
+o3: Abdicação de D. Pedro I.
+o4: Proclamação da República.
+key: A
+a: Ao declarar que permaneceria no Brasil, D. Pedro contrariou as Cortes. O episódio ficou conhecido como Dia do Fico.
+b: O Grito do Ipiranga é a declaração da independência, em 7 de setembro de 1822, e ocorreu meses depois.
+c: A abdicação de D. Pedro I ocorreu em 1831, quando ele deixou o trono em favor de seu filho.
+d: A Proclamação da República ocorreu em 1889, muito depois do episódio descrito.
+
+@A-H02-02 N1
+sup: <table class="qt"><caption>Acontecimentos da história do Brasil</caption><tr><th>Acontecimento</th></tr><tr><td>Independência do Brasil</td></tr><tr><td>Abdicação de D. Pedro I</td></tr><tr><td>Lei Áurea</td></tr><tr><td>Proclamação da República</td></tr></table>
+stem: Entre os acontecimentos da tabela, o mais antigo é
+o1: a Abdicação de D. Pedro I (1831).
+o2: a Lei Áurea (1888).
+o3: a Proclamação da República (1889).
+o4: a Independência do Brasil (1822).
+key: D
+a: A abdicação ocorreu em 1831, depois da Independência (1822).
+b: A Lei Áurea é de 1888, posterior à Independência.
+c: A Proclamação da República é de 1889, o acontecimento mais recente da tabela.
+d: A Independência foi proclamada em 1822, antes dos demais acontecimentos.
+
+@A-H02-03 N2
+sup: <p>A Constituição de 1824 foi outorgada por D. Pedro I, depois de ele dissolver a Assembleia Constituinte, em 1823. Ela criou quatro poderes: Executivo, Legislativo, Judiciário e Moderador. O Poder Moderador era exercido pelo imperador, que podia, entre outras coisas, dissolver a Câmara dos Deputados e nomear os senadores. O voto era censitário, isto é, exigia uma renda mínima. O catolicismo era a religião oficial.</p>
+stem: A Constituição de 1824 é considerada centralizadora porque
+o1: estabelecia uma república federativa, com ampla autonomia das províncias.
+o2: garantia o voto universal para homens e mulheres de todas as classes.
+o3: concentrava poder nas mãos do imperador, por meio do Poder Moderador, e restringia a participação política pela renda.
+o4: separava a Igreja do Estado, ao proibir uma religião oficial.
+key: C
+a: A Constituição de 1824 criou uma monarquia e não uma república; as províncias tinham pouca autonomia.
+b: O voto era censitário; não havia voto universal, e as mulheres não votavam.
+c: O imperador podia dissolver a Câmara e nomear senadores, e o voto censitário excluía os mais pobres da política.
+d: O catolicismo era a religião oficial do Império.
+
+@A-H02-04 N2
+sup: <p>Entre 1864 e 1870, o Paraguai, governado por Solano López, enfrentou os exércitos de três países vizinhos, que se uniram contra ele. A guerra terminou com a derrota do Paraguai e deixou o país arrasado.</p>
+stem: A aliança militar formada por Brasil, Argentina e Uruguai nessa guerra ficou conhecida como
+o1: Tríplice Entente.
+o2: Pacto de Varsóvia.
+o3: Confederação do Equador.
+o4: Tríplice Aliança.
+key: D
+a: A Tríplice Entente foi formada por Reino Unido, França e Rússia, antes da Primeira Guerra Mundial.
+b: O Pacto de Varsóvia foi uma aliança militar do bloco socialista, criada em 1955.
+c: A Confederação do Equador foi uma revolta separatista de 1824, no Nordeste do Brasil.
+d: Brasil, Argentina e Uruguai formaram a Tríplice Aliança contra o Paraguai na Guerra do Paraguai.
+
+@A-H02-05 N2
+sup: <p>Entre 1835 e 1845, durante o período regencial, parte da elite do Rio Grande do Sul se rebelou contra o governo central do Império. Os rebeldes reclamavam, entre outros motivos, dos impostos que prejudicavam a venda do charque gaúcho e da centralização do poder.</p>
+stem: Essa revolta é conhecida como
+o1: Revolução Farroupilha.
+o2: Guerra de Canudos.
+o3: Revolta da Chibata.
+o4: Inconfidência Mineira.
+key: A
+a: A Farroupilha (1835–1845) foi uma revolta no Rio Grande do Sul, em parte motivada por impostos e pela centralização política.
+b: A Guerra de Canudos ocorreu no sertão da Bahia, em 1896–1897, já no período republicano.
+c: A Revolta da Chibata foi um levante de marinheiros no Rio de Janeiro, em 1910.
+d: A Inconfidência Mineira foi um movimento de 1789, em Minas Gerais, ainda no período colonial.
+
+@A-H02-06 N2 NÃO/incorreta
+stem: Vários fatores contribuíram para o fim da monarquia no Brasil, em 1889. Assinale a alternativa que NÃO apresenta um desses fatores.
+o1: O descontentamento de militares com o governo imperial, na chamada Questão Militar.
+o2: O conflito entre o governo imperial e parte da Igreja, na chamada Questão Religiosa.
+o3: A insatisfação de fazendeiros, que não receberam indenização pela abolição da escravidão.
+o4: O apoio unânime da população, do Exército e da Igreja à manutenção da monarquia.
+key: D
+a: A Questão Militar, que opôs oficiais ao governo, enfraqueceu o apoio do Exército ao Império; foi um fator.
+b: A Questão Religiosa abalou a relação do imperador com a Igreja, que passou a apoiar menos o regime; foi um fator.
+c: Fazendeiros do café, descontentes com a abolição sem indenização, retiraram apoio ao Império; foi um fator.
+d: Não havia apoio unânime à monarquia: militares, parte da Igreja e fazendeiros estavam descontentes, e isso a enfraqueceu. Por isso não é um fator para o fim do Império.
+
+@A-H02-07 N3
+sup: <p>No Segundo Reinado, o imperador escolhia o chefe do gabinete de ministros, que nem sempre era do partido com maioria na Câmara. Depois da escolha, o imperador usava o Poder Moderador para dissolver a Câmara e convocar novas eleições. Os resultados dessas eleições costumavam dar maioria ao partido do novo gabinete.</p>
+stem: Esse sistema, que diferia do parlamentarismo europeu, em que o gabinete é formado conforme a maioria eleita, ficou conhecido como
+o1: federalismo oligárquico.
+o2: política do café com leite.
+o3: parlamentarismo às avessas.
+o4: voto de cabresto.
+key: C
+a: O federalismo oligárquico é característica da Primeira República, e não do Segundo Reinado.
+b: A política do café com leite foi a alternância entre paulistas e mineiros na presidência, durante a República Velha.
+c: No chamado parlamentarismo às avessas, o gabinete era escolhido pelo imperador antes das eleições, e não conforme a maioria eleita.
+d: O voto de cabresto era a pressão sobre os eleitores por parte dos coronéis, e não o sistema de escolha dos gabinetes.
+
+@A-H02-08 N3 asserção–razão
+sup: <p>Analise as asserções e a relação entre elas.</p><p><b>I.</b> A independência do Brasil foi proclamada em 1822.</p><p style="text-align:center"><b>PORQUE</b></p><p><b>II.</b> O Brasil foi o último país das Américas a abolir a escravidão, em 1888.</p>
+stem: A respeito dessas asserções, é correto afirmar que
+o1: ambas as asserções são verdadeiras, e a II justifica a I.
+o2: ambas as asserções são verdadeiras, mas a II não justifica a I.
+o3: a I é verdadeira, e a II é falsa.
+o4: a I é falsa, e a II é verdadeira.
+key: B
+a: A abolição ocorreu em 1888, mais de 60 anos depois da independência; ela não explica a proclamação de 1822.
+b: Ambas são verdadeiras (a independência em 1822; a abolição em 1888, a última das Américas), mas não há relação de causa entre elas: a abolição veio depois.
+c: A II é verdadeira: Cuba aboliu a escravidão em 1886, e o Brasil, em 1888, foi o último.
+d: A I é verdadeira: a independência foi proclamada em 7 de setembro de 1822.
+
+@A-H02-09 N3 julgar afirmativas
+stem: Sobre o Brasil do século XIX, analise as afirmativas.
+I. A escravidão foi abolida junto com a Independência, em 1822.
+II. O café foi o principal produto de exportação do Império, sobretudo na segunda metade do século.
+III. Imigrantes europeus passaram a trabalhar nas fazendas de café, principalmente em São Paulo, à medida que o trabalho escravizado entrava em crise.
+IV. A Guerra do Paraguai fortaleceu o Exército, que ganhou influência política.
+Estão corretas apenas
+o1: I e II.
+o2: II e III.
+o3: II, III e IV.
+o4: I, II, III e IV.
+key: C
+a: A I é falsa: a escravidão só foi abolida em 1888.
+b: II e III estão corretas, mas a IV também: a guerra aumentou o prestígio e a influência política do Exército.
+c: II, III e IV estão corretas. A I é falsa: a escravidão continuou depois da Independência e foi abolida em 1888.
+d: A I é falsa; a escravidão não foi abolida em 1822.
+
+# ===================== H03 =====================
+
+@A-H03-01 N1
+sup: <p>Na Primeira República (1889–1930), a presidência do Brasil foi ocupada, na maior parte do tempo, por políticos de dois estados poderosos, que se revezavam no cargo.</p>
+stem: Esse acordo entre as elites ficou conhecido como política
+o1: do café com leite, entre São Paulo e Minas Gerais.
+o2: da boa vizinhança, entre Brasil e Estados Unidos.
+o3: do voto universal, entre homens e mulheres.
+o4: do tenentismo, entre militares e civis.
+key: A
+a: São Paulo (produtor de café) e Minas Gerais (produtor de leite) se revezavam na presidência: a política do café com leite.
+b: A política da boa vizinhança foi uma estratégia dos Estados Unidos nos anos 1930 para se aproximar da América Latina.
+c: Não havia voto universal na República Velha: mulheres e analfabetos não votavam.
+d: O tenentismo foi um movimento de jovens oficiais contra as oligarquias, e não um acordo entre elas.
+
+@A-H03-02 N1
+sup: <p>Na Primeira República, grandes proprietários de terra, chamados coronéis, controlavam os votos de muitos eleitores, que eram pressionados a votar nos candidatos indicados por eles. O voto não era secreto.</p>
+stem: Essa prática ficou conhecida como
+o1: voto distrital.
+o2: sufrágio feminino.
+o3: voto de cabresto.
+o4: referendo popular.
+key: C
+a: O voto distrital é um sistema em que o eleitor vota em candidatos de seu distrito, e não uma prática de pressão.
+b: O sufrágio feminino é o direito de voto das mulheres, que só foi concedido no Brasil em 1932.
+c: O voto de cabresto era a pressão exercida pelos coronéis sobre os eleitores, favorecida pelo voto aberto.
+d: O referendo é uma consulta à população sobre uma lei, e não a prática descrita.
+
+@A-H03-03 N1
+sup: <p>Em fevereiro de 1922, no Teatro Municipal de São Paulo, artistas e escritores realizaram um evento que reuniu pintura, música e literatura. Eles criticavam os padrões artísticos tradicionais e defendiam a liberdade de criação e a valorização da cultura brasileira.</p>
+stem: Esse evento foi a
+o1: Semana de Arte Moderna.
+o2: Missão Artística Francesa.
+o3: Exposição Universal de Paris.
+o4: Bienal de Veneza.
+key: A
+a: A Semana de Arte Moderna de 1922 marcou o início do Modernismo no Brasil, com ruptura em relação ao academicismo.
+b: A Missão Artística Francesa chegou ao Brasil em 1816 e trouxe o estilo neoclássico, que os modernistas criticavam.
+c: A Exposição Universal de Paris foi realizada na França, e não no Teatro Municipal de São Paulo.
+d: A Bienal de Veneza ocorre na Itália.
+
+@A-H03-04 N2 associação
+sup: <p><b>Coluna I:</b><br>1. Guerra de Canudos<br>2. Revolta da Vacina<br>3. Revolta da Chibata</p><p><b>Coluna II:</b><br>(A) Levante de marinheiros liderados por João Cândido, em 1910, contra os castigos físicos na Marinha.<br>(B) Revolta popular, em 1904, no Rio de Janeiro, contra a vacinação obrigatória e contra as reformas urbanas.<br>(C) Conflito no sertão da Bahia entre o Exército e uma comunidade liderada por Antônio Conselheiro.</p>
+stem: A associação correta entre as colunas é
+o1: 1-B, 2-C, 3-A.
+o2: 1-C, 2-B, 3-A.
+o3: 1-A, 2-B, 3-C.
+o4: 1-C, 2-A, 3-B.
+key: B
+a: A Guerra de Canudos não é a revolta contra a vacinação; esta é a Revolta da Vacina (B).
+b: Canudos: comunidade de Antônio Conselheiro, na Bahia (C). Vacina: revolta de 1904 contra a vacinação obrigatória (B). Chibata: marinheiros e castigos físicos (A).
+c: A Revolta da Chibata não foi na Bahia, nem protagonizada por camponeses; foi de marinheiros, no Rio de Janeiro.
+d: A Revolta da Vacina não foi de marinheiros contra castigos físicos; essa é a Revolta da Chibata.
+
+@A-H03-05 N2
+sup: <p>Na década de 1920, jovens oficiais do Exército, chamados tenentes, se rebelaram em diferentes momentos, como no episódio dos “18 do Forte de Copacabana” (1922) e na Coluna Prestes (1925–1927). Eles criticavam a corrupção, as fraudes eleitorais e o poder das oligarquias.</p>
+stem: Entre as reivindicações dos tenentes estava
+o1: a volta da monarquia ao Brasil.
+o2: o fim da industrialização.
+o3: a ampliação do poder dos coronéis.
+o4: o voto secreto e a moralização da política.
+key: D
+a: Os tenentes eram republicanos e não pretendiam restaurar a monarquia.
+b: Os tenentes não pediam o fim da industrialização; eles criticavam o sistema político.
+c: Os tenentes combatiam o poder dos coronéis e das oligarquias, e não pretendiam ampliá-lo.
+d: Os tenentes defendiam o voto secreto, a reforma eleitoral e o combate à corrupção e às oligarquias.
+
+@A-H03-06 N2
+sup: <p>Em 1906, o Convênio de Taubaté, firmado por governadores de São Paulo, Minas Gerais e Rio de Janeiro, determinou que o governo federal compraria o café excedente, para evitar a queda dos preços, e que o pagamento seria feito com empréstimos externos.</p>
+stem: Esse acordo mostra que, na Primeira República,
+o1: o Estado brasileiro não interferia na economia.
+o2: o governo protegia o setor cafeeiro, socializando os prejuízos com a compra do excedente de café.
+o3: o café perdeu importância e foi substituído pelo petróleo.
+o4: a indústria era a atividade econômica mais protegida pelo governo.
+key: B
+a: O convênio mostra o contrário: o Estado interveio para sustentar os preços do café.
+b: O governo comprava o café excedente para manter os preços, protegendo os cafeicultores. Os custos eram bancados pelo conjunto da sociedade.
+c: O café era o principal produto de exportação do Brasil na época; o petróleo não o substituiu.
+d: O setor mais protegido pelo governo era o cafeeiro, e não a indústria.
+
+@A-H03-07 N2
+sup: <p>Em 1928, Oswald de Andrade publicou o Manifesto Antropófago, que propunha “devorar” a cultura estrangeira, assim como os indígenas faziam com seus inimigos, e transformá-la em algo novo, de caráter brasileiro.</p>
+stem: A ideia central do manifesto era
+o1: rejeitar totalmente as influências culturais estrangeiras, em defesa da tradição.
+o2: copiar fielmente os modelos artísticos europeus, para elevar a arte brasileira.
+o3: absorver as influências externas e recriá-las de modo original, com identidade brasileira.
+o4: voltar às tradições coloniais portuguesas, para preservar a herança de Portugal.
+key: C
+a: O manifesto não propunha rejeitar tudo: propunha “devorar”, ou seja, assimilar e transformar as influências.
+b: Copiar os modelos europeus era o que os modernistas criticavam.
+c: A antropofagia cultural consiste em assimilar influências estrangeiras e recriá-las com identidade própria.
+d: Os modernistas buscavam renovar a arte, e não voltar às tradições coloniais.
+
+@A-H03-08 N3 julgar afirmativas
+stem: Sobre a Primeira República (1889–1930), analise as afirmativas.
+I. Na política dos governadores, o presidente apoiava as oligarquias estaduais, e elas apoiavam o presidente.
+II. O voto era secreto, e por isso os coronéis não conseguiam controlar as eleições.
+III. Mulheres e analfabetos não podiam votar.
+IV. O período terminou com a Revolução de 1930, que levou Getúlio Vargas ao poder.
+Estão corretas apenas
+o1: I, II e III.
+o2: I, III e IV.
+o3: II e IV.
+o4: I, II, III e IV.
+key: B
+a: A II é falsa: o voto era aberto, o que facilitava o controle dos coronéis. Além disso, a IV é verdadeira e foi excluída.
+b: I, III e IV estão corretas. A II é falsa: o voto não era secreto, e os coronéis controlavam os eleitores.
+c: A II é falsa: o voto era aberto. A I e a III também são verdadeiras e foram excluídas.
+d: A II é falsa; o voto não era secreto e favorecia o voto de cabresto.
+
+@A-H03-09 N3
+sup: <p><i>Notícia fictícia, novembro de 1929:</i> “Os armazéns de Santos estão cheios de sacas de café sem compradores. Os preços despencaram depois da quebra da Bolsa de Nova York, e os fazendeiros pedem ajuda ao governo. Os Estados Unidos, principal comprador, reduziram as importações.”</p>
+stem: A situação descrita mostra que a crise de 1929
+o1: aumentou a demanda pelo café brasileiro nos Estados Unidos e elevou os preços.
+o2: não teve efeitos no Brasil, por ser um país agrícola e distante dos mercados.
+o3: beneficiou os cafeicultores, que passaram a vender o produto por preços mais altos.
+o4: afetou a economia cafeeira, pois a queda do consumo nos países ricos reduziu as exportações e derrubou os preços.
+key: D
+a: O texto afirma o contrário: os Estados Unidos reduziram as importações.
+b: O Brasil dependia muito das exportações de café e foi fortemente afetado.
+c: Os preços despencaram; os cafeicultores perderam, e não ganharam.
+d: Com a crise, os países ricos compraram menos café. As exportações e os preços caíram, e o setor cafeeiro entrou em crise, o que enfraqueceu as oligarquias.
+
+# ===================== H01 =====================
+
+@A-H01-01 N1
+sup: <p>Em 13 de maio de 1888, a princesa Isabel, regente do Império, assinou uma lei que declarou extinta a escravidão no Brasil. A lei, porém, não previa indenização aos libertos nem terra, educação ou trabalho para eles.</p>
+stem: Essa lei é conhecida como
+o1: Lei do Ventre Livre.
+o2: Lei Áurea.
+o3: Lei dos Sexagenários.
+o4: Lei Eusébio de Queirós.
+key: B
+a: A Lei do Ventre Livre (1871) libertou os filhos de mulheres escravizadas nascidos a partir da data da lei.
+b: A Lei Áurea (1888) aboliu a escravidão no Brasil, sem políticas de inclusão para os libertos.
+c: A Lei dos Sexagenários (1885) libertou escravizados com mais de 60 anos.
+d: A Lei Eusébio de Queirós (1850) proibiu o tráfico de africanos escravizados para o Brasil.
+
+@A-H01-02 N1
+sup: <p>No século XVII, fugitivos da escravidão formaram, na região da Serra da Barriga (atual Alagoas), uma grande comunidade de resistência, que durou quase todo o século. Um de seus líderes foi Zumbi, morto em 20 de novembro de 1695.</p>
+stem: Essa comunidade foi o Quilombo
+o1: de Canudos.
+o2: do Contestado.
+o3: dos Palmares.
+o4: de Piratininga.
+key: C
+a: Canudos foi uma comunidade sertaneja da Bahia, do final do século XIX, e não um quilombo do século XVII.
+b: O Contestado foi uma guerra no Paraná e em Santa Catarina, no início do século XX.
+c: O Quilombo dos Palmares foi o maior símbolo de resistência dos escravizados; Zumbi é lembrado em 20 de novembro, Dia da Consciência Negra.
+d: Piratininga é o antigo nome da região onde foi fundada São Paulo, e não um quilombo.
+
+@A-H01-03 N1
+stem: Entre os séculos XVI e XIX, milhões de africanos foram trazidos à força para as Américas, em navios chamados tumbeiros, para trabalhar como escravizados. Entre os países das Américas, o que recebeu o maior número desses africanos foi
+o1: o Brasil.
+o2: o México.
+o3: o Canadá.
+o4: a Argentina.
+key: A
+a: O Brasil recebeu o maior número de africanos escravizados, cerca de 4 a 5 milhões de pessoas, e foi o último país das Américas a abolir a escravidão.
+b: O México recebeu bem menos africanos escravizados que o Brasil.
+c: O Canadá recebeu um número muito pequeno de africanos escravizados.
+d: A Argentina recebeu bem menos africanos escravizados que o Brasil.
+
+@A-H01-04 N2
+sup: <table class="qt"><caption>Leis relacionadas ao fim da escravidão no Brasil</caption><tr><th>Número</th><th>Lei</th></tr><tr><td>I</td><td>Lei Áurea (1888)</td></tr><tr><td>II</td><td>Lei do Ventre Livre (1871)</td></tr><tr><td>III</td><td>Lei Eusébio de Queirós (1850)</td></tr><tr><td>IV</td><td>Lei dos Sexagenários (1885)</td></tr></table>
+stem: A ordem cronológica correta dessas leis, da mais antiga para a mais recente, é
+o1: III, II, IV, I.
+o2: II, III, IV, I.
+o3: III, IV, II, I.
+o4: II, III, I, IV.
+key: A
+a: 1850 (III), 1871 (II), 1885 (IV) e 1888 (I).
+b: A Lei Eusébio de Queirós (1850) é anterior à do Ventre Livre (1871).
+c: A Lei do Ventre Livre (1871) é anterior à dos Sexagenários (1885).
+d: A Lei Áurea (1888) é posterior à dos Sexagenários (1885) e foi a última.
+
+@A-H01-05 N2 cálculo
+sup: <table class="qt"><caption>Censo de 1872 (valores aproximados)</caption><tr><th>Categoria</th><th>Pessoas</th></tr><tr><td>População total do Brasil</td><td>10.000.000</td></tr><tr><td>Pessoas escravizadas</td><td>1.500.000</td></tr></table>
+stem: Segundo a tabela, a parcela da população brasileira que vivia na condição de escravizada era de, aproximadamente,
+o1: 5%.
+o2: 15%.
+o3: 25%.
+o4: 50%.
+key: B
+a: 5% de 10 milhões seriam 500 mil pessoas, e não 1,5 milhão.
+b: 1.500.000 ÷ 10.000.000 = 0,15, ou 15%.
+c: 25% seriam 2,5 milhões de pessoas.
+d: 50% seriam 5 milhões de pessoas, mais de três vezes o número da tabela.
+
+@A-H01-06 N2
+sup: <p>A Constituição de 1988, em seu artigo 5º, trata o racismo como um crime grave, a ser punido com reclusão.</p>
+stem: De acordo com a Constituição de 1988, a prática do racismo é crime
+o1: afiançável e prescritível.
+o2: afiançável e imprescritível.
+o3: inafiançável e prescritível.
+o4: inafiançável e imprescritível.
+key: D
+a: A Constituição não permite fiança nem prescrição no caso do racismo.
+b: O racismo é inafiançável, e não afiançável.
+c: O racismo é imprescritível, e não prescritível.
+d: A Constituição de 1988 determina que o racismo é crime inafiançável (não admite fiança) e imprescritível (pode ser punido a qualquer tempo).
+
+@A-H01-07 N2
+sup: <p>A Lei de Cotas (Lei nº 12.711, de 2012) reserva parte das vagas das universidades e institutos federais para estudantes que cursaram o ensino médio em escolas públicas, com subcotas para pretos, pardos, indígenas e pessoas de baixa renda.</p>
+stem: Essa lei é um exemplo de ação afirmativa, que tem como objetivo
+o1: reduzir desigualdades históricas de acesso ao ensino superior.
+o2: eliminar o vestibular e o Enem.
+o3: reservar as vagas apenas para estudantes de escolas particulares.
+o4: acabar com o ensino médio público.
+key: A
+a: Ações afirmativas são políticas para reduzir desigualdades históricas e ampliar o acesso de grupos que foram excluídos.
+b: A lei não elimina os processos seletivos; ela reserva vagas dentro deles.
+c: A lei beneficia estudantes que vieram de escolas públicas, e não os de escolas particulares.
+d: A lei não tem relação com o fim do ensino médio público.
+
+@A-H01-08 N3
+sup: <p>Em 1850, o mesmo ano em que foi proibido o tráfico de africanos para o Brasil, a Lei de Terras estabeleceu que as terras devolutas (sem dono registrado) só poderiam ser adquiridas por compra.</p>
+stem: A Lei de Terras de 1850 relaciona-se ao fim da escravidão, pois
+o1: distribuiu terras gratuitamente aos escravizados, como forma de compensação.
+o2: dificultou o acesso dos futuros libertos e dos pobres à terra, mantendo a concentração fundiária.
+o3: proibiu a propriedade de terras por grandes fazendeiros, para reduzir sua influência.
+o4: obrigou os senhores a pagar salários aos escravizados antes da abolição.
+key: B
+a: A lei não distribuiu terras: ela exigiu compra, o que beneficiou quem tinha dinheiro.
+b: Exigir compra impediu o acesso à terra dos pobres e dos futuros libertos, sem recursos, e manteve as terras nas mãos das elites.
+c: A lei favoreceu os grandes fazendeiros, que tinham capital para comprar as terras.
+d: A lei não tratava do pagamento de salários a escravizados.
+
+@A-H01-09 N3 julgar afirmativas
+stem: Sobre a escravidão e a abolição no Brasil, analise as afirmativas.
+I. Os escravizados resistiram por meio de fugas, quilombos e revoltas, como a Revolta dos Malês (Salvador, 1835).
+II. Depois da abolição, o governo imperial criou programas de terra, educação e emprego para os libertos.
+III. O movimento abolicionista contou com a participação de pessoas negras, como Luiz Gama e José do Patrocínio.
+IV. A abolição, em 1888, encerrou imediatamente as desigualdades raciais no Brasil.
+Estão corretas apenas
+o1: I e III.
+o2: I, II e III.
+o3: II e IV.
+o4: I, III e IV.
+key: A
+a: I e III estão corretas. A II é falsa: os libertos não receberam terra, educação ou emprego. A IV é falsa: as desigualdades continuaram.
+b: A II é falsa: não houve políticas de inclusão para os libertos.
+c: A II e a IV são falsas, e a alternativa exclui I e III, que estão corretas.
+d: A IV é falsa: as desigualdades raciais persistiram depois da abolição.
+
+# ===================== H04 =====================
+
+@A-H04-01 N1
+sup: <p>Em 1930, depois de uma disputa eleitoral contestada e de um movimento armado, Getúlio Vargas assumiu o governo provisório do Brasil, pondo fim à República Velha.</p>
+stem: Esse movimento ficou conhecido como
+o1: Revolução Constitucionalista.
+o2: Golpe de 1964.
+o3: Revolução de 1930.
+o4: Revolução Industrial.
+key: C
+a: A Revolução Constitucionalista (1932) foi uma revolta de São Paulo contra o governo Vargas, e não o movimento que o levou ao poder.
+b: O golpe de 1964 derrubou o presidente João Goulart e iniciou a ditadura militar.
+c: A Revolução de 1930 levou Vargas ao poder e encerrou a República Velha.
+d: A Revolução Industrial foi um processo econômico iniciado na Inglaterra, no século XVIII.
+
+@A-H04-02 N1
+sup: <p>No governo de Getúlio Vargas, foram criados o salário mínimo (1940), a carteira de trabalho e, em 1943, um conjunto de leis que regulamentou jornada de trabalho, férias, descanso semanal e outros direitos dos trabalhadores urbanos.</p>
+stem: Esse conjunto de leis ficou conhecido como
+o1: Código Civil.
+o2: Constituição Cidadã.
+o3: Lei Áurea.
+o4: Consolidação das Leis do Trabalho (CLT).
+key: D
+a: O Código Civil trata de relações entre pessoas e bens em geral, e não é o conjunto de leis trabalhistas descrito.
+b: A Constituição Cidadã é a Constituição de 1988.
+c: A Lei Áurea, de 1888, aboliu a escravidão.
+d: A CLT, de 1943, reuniu as leis trabalhistas no Brasil.
+
+@A-H04-03 N2
+sup: <p>Em 10 de novembro de 1937, Vargas anunciou uma nova Constituição, que concentrava poderes no presidente. O Congresso foi fechado e os partidos políticos foram extintos. Um órgão do governo, o DIP, controlava a imprensa e fazia propaganda oficial.</p>
+stem: O regime político instalado nesse período é conhecido como
+o1: Estado Novo.
+o2: República da Espada.
+o3: Segundo Reinado.
+o4: Regime Parlamentarista.
+key: A
+a: O Estado Novo (1937–1945) foi um regime autoritário, com censura, centralização do poder e fim dos partidos.
+b: A República da Espada foi o início da República (1889–1894), com os marechais Deodoro e Floriano.
+c: O Segundo Reinado foi o período do imperador Pedro II (1840–1889).
+d: No regime parlamentarista, o poder do Executivo é exercido por um primeiro-ministro; não foi o caso do Estado Novo.
+
+@A-H04-04 N2 associação
+sup: <p><b>Coluna I:</b><br>1. Companhia Siderúrgica Nacional (Volta Redonda)<br>2. Petrobras<br>3. CLT</p><p><b>Coluna II:</b><br>(A) Empresa criada em 1953 para exercer o monopólio estatal da exploração do petróleo.<br>(B) Usina siderúrgica que impulsionou a indústria de base no Brasil.<br>(C) Conjunto de leis que reuniu direitos trabalhistas.</p>
+stem: A associação correta entre as colunas é
+o1: 1-A, 2-B, 3-C.
+o2: 1-B, 2-A, 3-C.
+o3: 1-B, 2-C, 3-A.
+o4: 1-C, 2-B, 3-A.
+key: B
+a: A siderúrgica é a descrita em (B), e a Petrobras é a descrita em (A); as duas estão trocadas.
+b: CSN: indústria de base (B). Petrobras: monopólio do petróleo (A). CLT: direitos trabalhistas (C).
+c: A CLT é o conjunto de leis trabalhistas (C), e não a empresa do petróleo (A).
+d: A CSN é a siderúrgica (B), e não a CLT (C).
+
+@A-H04-05 N2
+sup: <p>Em 1932, o Código Eleitoral criado no governo Vargas instituiu a Justiça Eleitoral, o voto secreto e um direito que até então era negado a metade da população.</p>
+stem: Esse direito era o
+o1: voto dos analfabetos.
+o2: voto dos menores de 16 anos.
+o3: voto das mulheres.
+o4: voto dos estrangeiros.
+key: C
+a: Os analfabetos só conquistaram o direito de voto em 1985, com uma emenda constitucional.
+b: O voto aos 16 anos é facultativo e foi estabelecido apenas pela Constituição de 1988.
+c: O Código Eleitoral de 1932 concedeu o voto às mulheres, depois de décadas de luta do movimento sufragista.
+d: Os estrangeiros não passaram a votar nas eleições brasileiras com o Código de 1932.
+
+@A-H04-06 N3
+sup: <p>No governo Vargas, o Estado concedeu direitos aos trabalhadores, mas também passou a controlar os sindicatos e a divulgar a imagem do presidente como o “pai dos pobres”, em programas de rádio e em materiais de propaganda.</p>
+stem: O trecho ilustra o populismo, entendido como
+o1: governo que dá voz independente aos sindicatos e dispensa a figura de um líder carismático.
+o2: governo em que o poder é exercido diretamente por assembleias populares.
+o3: política de isolamento do país em relação ao comércio mundial e às influências externas.
+o4: relação direta entre o líder e as massas, em que direitos sociais são apresentados como concessões do governante, com controle estatal sobre os trabalhadores.
+key: D
+a: No populismo varguista, os sindicatos eram controlados pelo Estado e a figura do líder era central.
+b: O poder não era exercido por assembleias populares; o presidente concentrava as decisões, em especial no Estado Novo.
+c: O texto não trata de isolamento comercial; o tema é a relação do governo com os trabalhadores.
+d: O populismo combina direitos sociais, propaganda e controle estatal, criando uma ligação direta do líder com as massas.

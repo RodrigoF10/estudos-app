@@ -18,7 +18,7 @@
       <div class="card" style="position: sticky; top: 8px; z-index: 5;">
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
           <div>
-            <strong>Simulado CEFET-MG</strong>
+            <strong>Simulado CEFET-MG<%= simulado.mode === 'completo' ? '' : (simulado.mode === 'rapido' ? ' · rápido' : ' · por matéria') %></strong>
             <div class="muted small">Questão <span id="current-index">1</span> de <%= questions.length %></div>
           </div>
           <div class="center">
@@ -32,7 +32,8 @@
 
       <div class="card" id="question-card">
         <span class="low-tag" id="question-subject"></span>
-        <h3 id="question-stem" class="mt-0" style="margin-top:8px;"></h3>
+        <div class="support" id="question-support" style="display:none;"></div>
+        <div id="question-stem" class="stem"></div>
         <div id="options"></div>
         <div style="display:flex; justify-content:space-between; margin-top:16px;">
           <button class="btn btn-outline" id="prev-btn">← Anterior</button>

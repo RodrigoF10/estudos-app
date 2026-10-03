@@ -1,0 +1,211 @@
+@R-2024-38
+stem: É comum vermos imagens de humanos que viveram na época da Era do Gelo utilizando grossas peles de animais, pois era um período no qual houve um grande resfriamento do nosso planeta.
+
+NÃO é um motivo adequado para essa representação o fato de as peles
+key: C
+a: As peles eram sobras de caça, um motivo realista (material disponível), portanto adequado como razão.
+b: Peles têm bom isolamento térmico (muito ar entre os pelos), o que é motivo adequado.
+c: A pele não "aquece" a pessoa: o corpo é a fonte de calor; a pele grossa só reduz as perdas. Dizer que ela aquece por ser grossa é a ideia errada (e por isso é a alternativa que NÃO é motivo adequado).
+d: Ao impedir a perda de energia térmica para o meio externo, a pele cumpre exatamente o papel de isolante.
+
+@R-2024-42
+stem: A figura de uma garrafa térmica mostra, esquematicamente, suas várias camadas: tampa isolante, parede externa, região de vácuo entre duas superfícies espelhadas (as duas paredes internas da ampola de vidro) e um apoio isolante na base.
+
+Sobre o funcionamento de uma garrafa térmica, analise se as afirmações a seguir são verdadeiras (V) ou falsas (F).
+( ) A região de vácuo entre as superfícies espelhadas funciona para impedir a transmissão de calor por radiação.
+( ) As paredes espelhadas funcionam para impedir a transmissão de calor por radiação.
+( ) O apoio isolante na base serve para impedir a transmissão de calor por convecção.
+( ) O vácuo entre as camadas interna e externa das superfícies espelhadas serve para impedir a transmissão de calor por condução.
+
+A sequência correta de cima para baixo é
+key: D
+a: A 1ª é falsa: no vácuo a radiação pode se propagar; o que impede a radiação são as paredes espelhadas. A 3ª também é falsa.
+b: A 1ª é falsa (o vácuo impede condução e convecção, não radiação) e a 3ª é falsa.
+c: A 2ª é verdadeira (espelhos refletem a radiação), logo "F, F" já está incorreto; a 3ª é falsa.
+d: 1ª (F): a radiação atravessa o vácuo; ela é bloqueada pelo espelhamento. 2ª (V): as superfícies espelhadas refletem a radiação. 3ª (F): o apoio isolante na base impede a condução (contato entre sólidos), não a convecção. 4ª (V): sem matéria entre as paredes, não há condução (nem convecção).
+
+@R-2025-37
+key: A
+a: Nos metais há elétrons livres que se movem e transportam energia rapidamente por toda a peça; por isso a colher de metal esquenta inteira e queima a mão.
+b: A madeira não "perde calor rapidamente"; ela conduz mal o calor.
+c: A madeira não "armazena" o calor impedindo a passagem; o fenômeno é a baixa condutividade térmica.
+d: A proximidade dos átomos não explica sozinha; além disso, "condução da temperatura" é uma ideia errada: o que se conduz é calor (energia térmica).
+
+@R-2026-35
+sup: <table class="qt"><tr><th>Estudante</th><th>Explicação</th></tr><tr><td>Ana</td><td>Permite a transmissão de calor no vácuo.</td></tr><tr><td>Bianca</td><td>É responsável pela transmissão de calor nos líquidos e gases.</td></tr><tr><td>Carlos</td><td>É a transmissão de calor por meio da movimentação do próprio material.</td></tr><tr><td>Davi</td><td>Explica a transmissão de calor nos sólidos.</td></tr><tr><td>Eva</td><td>Ocorre quando o ar aquecido sobe enquanto o ar frio desce.</td></tr></table>
+stem: Na aula de Ciências, foi discutido o funcionamento dos aparelhos de ar condicionado e do aquecedor de ambiente. A professora explicou que, para os processos de troca de calor nos ambientes onde estão operando, esses aparelhos funcionam por meio do fenômeno da convecção.
+
+Sobre esse fenômeno, a professora registrou, no quadro, diferentes explicações dadas pelos estudantes. Estão corretas somente as explicações dos estudantes:
+o1: Ana, Carlos e Eva.
+o2: Ana, Bianca e Davi.
+o3: Bianca, Carlos e Eva.
+o4: Bianca, Carlos e Davi.
+key: C
+a: Ana está errada: a convecção precisa de um fluido (matéria); no vácuo a transmissão é por radiação.
+b: Ana e Davi estão errados: o vácuo (radiação) e os sólidos (condução) não se aplicam à convecção.
+c: Bianca (líquidos e gases), Carlos (transporte do próprio material) e Eva (ar quente sobe e ar frio desce) descrevem corretamente a convecção.
+d: Davi está errado: nos sólidos o calor se propaga por condução.
+
+@R-2017-35
+key: C
+a: Energia elétrica fornecida é uma grandeza medida em joules (ou kWh), não é potência.
+b: Corrente por unidade de tempo não é potência (corrente já é carga por tempo); esta frase não define nenhuma grandeza usual.
+c: Potência é a energia fornecida (ou consumida) por unidade de tempo: P = E ÷ t (watt = joule por segundo).
+d: A tensão elétrica (volts) é a diferença de potencial; é outra grandeza.
+
+@R-2018-46
+key: B
+a: 15 A corresponde a 1650 W, só metade da potência total dos aparelhos.
+b: Potência total = 1000 + 2100 + 50 + 150 = 3300 W. Corrente: I = P ÷ U = 3300 ÷ 110 = 30 A.
+c: 45 A suportaria 4950 W, superdimensionado e não é o mínimo.
+d: 60 A suportaria 6600 W, o dobro do necessário.
+
+@R-2020-33
+key: A
+a: O carro eletrizado acumula cargas; ao tocar a parte metálica, a pessoa conecta o carro ao solo (através do corpo e dos pés), e as cargas escoam pelo passageiro, produzindo o choque.
+b: O ar seco é um mau condutor, e a pele úmida do corpo humano conduz melhor que o ar seco.
+c: No atrito há transferência de elétrons (cargas negativas), não de cargas positivas.
+d: As cargas em excesso em um condutor ficam na superfície externa, não no interior (gaiola de Faraday).
+
+@R-2024-46
+sup: <table class="qt"><tr><th>Eletrodoméstico</th><th>Potência (W)</th><th>Tempo de uso diário (h)</th><th>Consumo diário (Wh)</th></tr><tr><td>Micro-ondas</td><td>1000</td><td>0,25</td><td>250</td></tr><tr><td>Chuveiro elétrico</td><td>4500</td><td>0,5</td><td>2250</td></tr><tr><td>Ferro de passar roupa</td><td>1200</td><td>0,5</td><td>600</td></tr><tr><td>Máquina de lavar roupa</td><td>500</td><td>1</td><td>500</td></tr><tr><td>Lâmpada incandescente (60 W)</td><td>60</td><td>3</td><td>180</td></tr><tr><td>Lâmpada LED (15 W)</td><td>15</td><td>4</td><td>60</td></tr><tr><td>Televisão LED</td><td>50</td><td>10</td><td>500</td></tr><tr><td>Ar-condicionado</td><td>1200</td><td>6</td><td>7200</td></tr><tr><td>Computador (desktop)</td><td>150</td><td>6</td><td>900</td></tr><tr><td>Ventilador</td><td>60</td><td>6</td><td>360</td></tr><tr><td>Geladeira</td><td>150</td><td>24</td><td>3600</td></tr></table>
+stem: Um gráfico de barras apresenta dados do consumo de energia elétrica residencial no Brasil de 2019 a 2021 (Fonte: MME), mostrando que o consumo mensal é maior nos meses mais quentes (dezembro a março) e menor nos meses mais frios (junho a agosto). A tabela apresenta dados sobre o consumo médio diário de energia elétrica residencial para diferentes eletrodomésticos.
+
+A estratégia que poderia ser indicada ao cidadão comum para ajudar a reduzir o gasto energético durante os meses de maior consumo em sua residência é
+key: A
+a: Nos meses mais quentes o maior gasto vem do ar-condicionado (7200 Wh/dia). O ventilador gasta 360 Wh/dia, 20 vezes menos.
+b: Aproveitar a luz natural economiza pouco: uma lâmpada LED gasta 60 Wh/dia e uma incandescente, 180 Wh/dia, contra 7200 Wh/dia do ar-condicionado. Além disso, janelas abertas em dia quente fazem o ar-condicionado trabalhar mais.
+c: A geladeira (3600 Wh) é essencial e fica ligada o dia todo; a televisão consome só 500 Wh/dia, bem menos que o ar-condicionado. Essas não são as maiores economias possíveis.
+d: Lâmpadas incandescentes gastam mais que LED e o calor que emitem seria indesejado nos meses quentes (de maior consumo).
+
+@R-2017-32
+key: D
+a: A 1ª é falsa: a queda livre é causada pela força peso (gravidade), não pelo princípio da inércia.
+b: A 3ª é verdadeira: pela inércia, o objeto tende a manter a velocidade e segue para a frente quando o caminhão freia.
+c: A 2ª é verdadeira: no vácuo, todos os corpos caem com a mesma aceleração g, independentemente da massa.
+d: 1ª (F): a causa é a força peso. 2ª (V): no vácuo, aceleração igual para qualquer massa. 3ª (V): inércia faz o objeto ser lançado para frente na frenagem.
+
+@R-2018-44
+key: D
+a: Posição depende do referencial adotado.
+b: Referencial é o corpo ou ponto em relação ao qual medimos posição e movimento; não está "associado ao valor" da velocidade nem da aceleração.
+c: Velocidade também depende do referencial (um passageiro está parado em relação ao ônibus e em movimento em relação à rua).
+d: Aceleração é a variação da velocidade por unidade de tempo, medida em um dado referencial.
+
+@R-2018-48
+key: B
+a: Sob o mesmo peso, a mola A deformou 2 cm (12 − 10), menos que a B, logo A é mais rígida.
+b: A mesma força deforma A em 2 cm e B em 3 cm (18 − 15). Como F = k·x, k = F ÷ x: a mola B tem constante menor, ou seja, é mais macia.
+c: O experimento é conclusivo: a força aplicada é igual e as deformações foram medidas.
+d: As deformações são diferentes (2 cm e 3 cm), logo as rigidezes são diferentes.
+
+@R-2019-39
+key: D
+a: A inércia (massa) do ocupante não muda com o airbag.
+b: O airbag não "direciona o impacto" para a estrutura; ele amortece o corpo.
+c: A força do airbag atua contra o movimento do ocupante, não no mesmo sentido do carro.
+d: O airbag aumenta o tempo da parada do ocupante; como a variação de quantidade de movimento é a mesma, a força média sobre o corpo diminui, reduzindo o risco de lesão.
+
+@R-2019-45
+key: C
+a: 18:00 corresponde a 16 horas de viagem, valor muito acima do que se calcula.
+b: 09:40 não resulta de nenhum cálculo correto com os dados.
+c: 10 nós = 10 × 1,85 = 18,5 km/h. Distância: 74 000 m = 74 km. Tempo: 74 ÷ 18,5 = 4 h. Saída às 02:00, chegada às 06:00.
+d: 04:00 seria o horário se a viagem durasse 2 h (usando 37 km/h, o dobro da velocidade).
+
+@R-2020-35
+stem: Considere o problema de Calvin na tirinha: "Jack e Joe saíram de casa ao mesmo tempo e estão dirigindo um na direção do outro. Jack vai a 120 km/h e Joe a 60 km/h. Em dez minutos os dois vão chegar ao mesmo ponto. A que distância Jack e Joe estavam um do outro?"
+
+A resposta correta para o desafio da tirinha, em km, é
+key: C
+a: 10 km seria a distância percorrida por Joe (60 × 1/6), não pelos dois.
+b: 20 km é a distância percorrida por Jack (120 × 1/6), apenas parte da distância total.
+c: Em 10 min = 1/6 h, Jack percorre 120 × 1/6 = 20 km e Joe 60 × 1/6 = 10 km. Como andam um ao encontro do outro, a distância inicial era 20 + 10 = 30 km (ou velocidade relativa 180 km/h × 1/6 h).
+d: 40 km não corresponde ao cálculo; seria o caso de 240 km/h de velocidade relativa.
+
+@R-2020-36
+key: B
+a: A reação não é aplicada ao ar atmosférico; ele pode até resistir ao movimento, mas não é o par ação-reação do impulso.
+b: Terceira Lei de Newton: o motor empurra os gases para baixo (ação); os gases empurram o foguete para cima (reação). A reação da força que impulsiona o foguete está aplicada nos gases expelidos.
+c: O foguete já deixou a superfície; o empuxo não depende de apoio no solo.
+d: O foguete não "empurra a torre"; o par ação-reação ocorre entre o foguete e os gases.
+
+@R-2020-41
+key: C
+a: A força de resistência do ar NÃO é a mesma nos dois objetos: ela depende da forma e da área; a pena sofre proporcionalmente mais.
+b: Na Lua há gravidade (cerca de 1/6 da terrestre); os objetos cairiam, juntos.
+c: O peso (P = m·g) depende da massa e da gravidade, não do ar. Com a sala cheia ou vazia, o peso é o mesmo; o que muda é a resistência do ar.
+d: O ar não reduz a gravidade; ele oferece resistência, uma força de sentido oposto ao movimento.
+
+@R-2019-40
+key: C
+a: A íris regula a quantidade de luz que entra no olho; não distingue cores.
+b: A cóclea é parte do ouvido interno e converte vibrações em sinais nervosos de som.
+c: Os cones são as células da retina responsáveis pela visão de cores e de detalhes; o aparelho identifica a cor das notas, substituindo essa função.
+d: Os canais semicirculares, no ouvido interno, estão ligados ao equilíbrio.
+
+@R-2020-37
+key: D
+a: A miopia é corrigida por lentes divergentes (bordas grossas); a gota de água se comporta como lente convergente.
+b: Daltonismo é uma alteração genética na percepção de cores; não se corrige com lentes comuns.
+c: Astigmatismo é corrigido com lentes cilíndricas, de curvatura diferente em direções diferentes.
+d: Uma gota de água suspensa tem forma convexa e funciona como lente convergente. A hipermetropia é corrigida com lentes convergentes.
+
+@R-2026-38
+key: D
+a: O som não é formado por "partículas diferentes"; é uma onda mecânica que se propaga no próprio meio.
+b: As moléculas não são "empurradas" até os ouvidos: elas vibram em torno de uma posição média; quem se propaga é a perturbação (energia).
+c: O som se propaga pelas moléculas do meio, não pelos espaços vazios; zonas de compressão e rarefação existem, mas a explicação é incorreta no restante.
+d: O som é uma onda mecânica longitudinal: as moléculas vibram e passam a energia de uma para outra, até chegar ao tímpano.
+
+@R-2016-35
+stem: Considere uma situação em que há um alinhamento perfeito entre o Sol, a Terra e a Lua com o centro dos três astros formando uma linha reta. Nesse caso, é possível observar a partir __________, o fenômeno chamado __________ quando __________ se encontra entre __________ e __________.
+
+A opção que contém os termos que completam corretamente as lacunas acima é a letra
+key: C
+a: O eclipse solar é observado da Terra, quando a Lua passa entre o Sol e a Terra. Dizer "a partir da Lua" torna a frase incorreta.
+b: Eclipse solar ocorre quando a Lua está entre o Sol e a Terra, não a Terra entre a Lua e o Sol.
+c: Com a Terra entre o Sol e a Lua, a sombra da Terra cai sobre a Lua: observamos da Terra um eclipse lunar.
+d: A ordem Sol–Terra–Lua está certa, mas "eclipse terrestre" não é o nome do fenômeno: com a Terra entre o Sol e a Lua, quem observa é alguém na Terra e o fenômeno é o eclipse lunar.
+
+@R-2018-43
+key: A
+a: No eclipse solar a Lua está entre o Sol e a Terra: fase de Lua Nova. A fase imediatamente anterior à Nova é a Minguante.
+b: A Crescente é posterior à Nova.
+c: A Cheia ocorre cerca de uma semana depois (Crescente → Cheia → Minguante → Nova): não é a fase anterior.
+d: A Nova é a própria fase do eclipse, não a anterior.
+
+@R-2019-48
+key: A
+a: I é verdadeira: a mesma atração gravitacional que faz o menino cair puxa a Lua em órbita da Terra.
+b: II é falsa: a Lei da Gravitação é universal, vale para quaisquer corpos com massa, não só para a Terra em torno do Sol.
+c: III é falsa: a gravidade age entre quaisquer massas; as grandes massas apenas tornam a força perceptível.
+d: II é falsa, portanto "I e II" não pode ser a resposta.
+
+@R-2020-44
+key: D
+a: No Big Bang, o Universo está em expansão: a distância entre as galáxias aumenta.
+b: As estrelas (e galáxias) se formaram antes dos planetas, que surgem a partir de nuvens de gás e poeira enriquecidas por estrelas anteriores.
+c: No início o Universo era extremamente quente e denso, e foi esfriando.
+d: Como a luz leva tempo para chegar, observar objetos mais distantes é olhar para o passado; as estrelas e galáxias mais antigas observadas estão mais afastadas da Terra, de acordo com o modelo.
+
+@R-2024-40
+key: D
+a: Há duas protuberâncias de água (lado voltado para a Lua e lado oposto), então não ocorre só uma maré alta por dia.
+b: Há duas marés altas e duas baixas, não duas baixas e uma alta.
+c: Cada maré alta é acompanhada de uma baixa; são duas de cada.
+d: A Terra gira em 24 h e a água forma duas protuberâncias (uma voltada para a Lua e outra no lado oposto). Um ponto fixo à beira mar passa por elas duas vezes e pelas depressões duas vezes: duas marés altas e duas baixas.
+
+@R-2025-34
+key: D
+a: A órbita elíptica faz a distância variar um pouco, mas não causa as estações (no hemisfério sul o verão ocorre perto do afélio em alguns anos e o inverno ocorre simultaneamente no norte).
+b: A rotação determina o dia e a noite.
+c: A translação é o movimento em torno do Sol e sozinha não explica as estações: sem inclinação, não haveria estações.
+d: Com o eixo inclinado em relação ao plano da órbita, cada hemisfério recebe luz solar mais direta em uma época do ano; isso origina as estações.
+
+@R-2017-45
+key: B
+a: Parasita vive à custa de um hospedeiro, prejudicando-o; não é o caso das algas no casco.
+b: As algas realizam fotossíntese: são produtoras, base da cadeia alimentar. Os peixes comem as algas.
+c: O consumidor é quem se alimenta de outros seres; os peixes é que são consumidores, não o alimento deles.
+d: Decompositores atuam sobre matéria morta (fungos e bactérias); as algas estão vivas.

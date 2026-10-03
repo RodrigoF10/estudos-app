@@ -4,36 +4,60 @@
   <%- include('../partials/head', { title: subject.name + ' — Estudos CEFET-MG' }) %>
 </head>
 <body>
-  <%- include('../partials/nav', { role, active: 'hoje' }) %>
+  <%- include('../partials/nav', { role, active: 'trilha' }) %>
   <div class="container">
 
-    <p><a href="/rayane">← Voltar para Hoje</a></p>
+    <p><a href="/rayane/trilha">← Voltar para a Trilha</a></p>
+
+    <% const core = progress.themes.filter(function(t){ return t.theme.tier === 'core'; });
+       const comp = progress.themes.filter(function(t){ return t.theme.tier !== 'core'; }); %>
 
     <div class="card">
       <h2 class="mt-0"><%= subject.name %></h2>
-      <p class="muted"><%= subject.weight_percent %>% da prova · <%= progress.mastered %> de <%= progress.totalThemes %> temas dominados</p>
-      <div class="progress-bar"><div style="width: <%= progress.totalThemes ? Math.round((progress.mastered / progress.totalThemes) * 100) : 0 %>%;"></div></div>
+      <p class="muted"><%= subject.weight_percent %>% da prova · núcleo: <%= progress.coreMastered %> de <%= progress.coreTotal %> tópicos dominados</p>
+      <div class="progress-bar"><div style="width: <%= progress.coreTotal ? Math.round((progress.coreMastered / progress.coreTotal) * 100) : 0 %>%;"></div></div>
+      <p style="margin-bottom:0; margin-top:14px;"><a class="btn btn-sm btn-outline" href="/rayane/simulado">Fazer simulado desta matéria</a></p>
     </div>
 
     <div class="card">
-      <h2 class="mt-0">Trilha de estudo</h2>
-      <p class="muted small" style="margin-top:-8px;">Ordenada do tema que mais cai na prova para o que menos cai.</p>
-      <% progress.themes.forEach(function(item, idx) { %>
+      <h2 class="mt-0">Núcleo — o que mais cai</h2>
+      <p class="muted small" style="margin-top:-8px;">Ordenado do tópico mais cobrado (2016–2026) para o menos cobrado.</p>
+      <% core.forEach(function(item, idx) { const c = counts[item.theme.id] || { total: 0, real: 0, autoral: 0 }; %>
         <div class="theme-row">
           <div>
             <span class="muted small">#<%= idx + 1 %></span>
             <strong><%= item.theme.name %></strong>
-            <% if (item.theme.low_priority) { %><span class="low-tag">baixa prioridade</span><% } %>
-            <% if (item.theme.is_special) { %><span class="low-tag" style="border-color:var(--primary); color:var(--primary);">prioridade máxima</span><% } %>
+            <% if (item.theme.is_special) { %><span class="low-tag" style="border-color:var(--primary); color:var(--primary);">obra do ano</span><% } %>
+            <div class="muted small">≈ <%= item.theme.expected_per_exam.toFixed(1).replace('.', ',') %> por prova · <%= c.total %> questões (<%= c.real %> reais, <%= c.autoral %> autorais)</div>
             <div><span class="badge badge-<%= item.stats.level.key %>"><%= item.stats.level.emoji %> <%= item.stats.level.label %></span></div>
           </div>
-          <div style="display:flex; gap:8px;">
+          <div>
             <a class="btn btn-sm btn-outline" href="/rayane/tema/<%= item.theme.id %>">Teoria</a>
             <a class="btn btn-sm" href="/rayane/praticar/<%= item.theme.id %>">Praticar</a>
           </div>
         </div>
       <% }) %>
     </div>
+
+    <% if (comp.length) { %>
+      <div class="card">
+        <h2 class="mt-0">Complemento</h2>
+        <p class="muted small" style="margin-top:-8px;">Caem pouco (cerca de 1 questão por prova cada), mas valem pontos depois que o núcleo estiver firme.</p>
+        <% comp.forEach(function(item) { const c = counts[item.theme.id] || { total: 0 }; %>
+          <div class="theme-row">
+            <div>
+              <strong><%= item.theme.name %></strong>
+              <div class="muted small">≈ <%= item.theme.expected_per_exam.toFixed(1).replace('.', ',') %> por prova · <%= c.total %> questões</div>
+              <div><span class="badge badge-<%= item.stats.level.key %>"><%= item.stats.level.emoji %> <%= item.stats.level.label %></span></div>
+            </div>
+            <div>
+              <a class="btn btn-sm btn-outline" href="/rayane/tema/<%= item.theme.id %>">Teoria</a>
+              <a class="btn btn-sm" href="/rayane/praticar/<%= item.theme.id %>">Praticar</a>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    <% } %>
 
   </div>
 </body>

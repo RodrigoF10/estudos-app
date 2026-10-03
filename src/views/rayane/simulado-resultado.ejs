@@ -14,13 +14,23 @@
       const startedAt = new Date(simulado.started_at + 'Z');
       const finishedAt = simulado.finished_at ? new Date(simulado.finished_at + 'Z') : null;
       const durationMin = finishedAt ? Math.round((finishedAt - startedAt) / 60000) : null;
+      const isFull = simulado.total_questions === 50;
+      const proj = String(projected).replace('.', ',');
+      const metaPct = Math.round((passTarget / 50) * 100);
     %>
 
     <div class="card center">
       <h2 class="mt-0">Resultado do simulado</h2>
-      <div style="font-size:2.6rem; font-weight:700; color: var(--primary);"><%= scorePercent %>%</div>
-      <p class="muted"><%= simulado.correct_count %> de <%= simulado.total_questions %> questões corretas
+      <div style="font-size:2.6rem; font-weight:700; color: var(--primary);"><%= simulado.correct_count %> / <%= simulado.total_questions %></div>
+      <p class="muted" style="margin-bottom:4px;"><%= scorePercent %>% de acerto
         <% if (durationMin !== null) { %> · tempo de prova: <%= durationMin %> min<% } %></p>
+      <% if (!isFull) { %><p class="muted small" style="margin:0;">Equivale a cerca de <strong><%= proj %> acertos em 50</strong>.</p><% } %>
+      <div class="meter"><div class="fill" style="width: <%= Math.min(100, scorePercent) %>%;"></div><div class="goal" style="left: <%= metaPct %>%;"><span>meta <%= passTarget %>/50</span></div></div>
+      <p style="margin:0;">
+        <% if (projected >= passTarget) { %>🎯 <strong>Acima da meta!</strong> Mantenha o ritmo e o caderno de erros em dia.
+        <% } else if (projected >= passTarget - 6) { %>💪 <strong>Quase lá:</strong> faltam ~<%= Math.ceil(passTarget - projected) %> acertos para a meta. Ataque os tópicos em vermelho abaixo.
+        <% } else { %>📈 <strong>Ainda distante da meta (<%= passTarget %>/50)</strong> — normal no começo. Foque nos tópicos do núcleo em vermelho abaixo e refaça os erros.<% } %>
+      </p>
     </div>
 
     <div class="card">
@@ -28,7 +38,7 @@
       <div class="grid grid-3">
         <% bySubject.forEach(function(s) { %>
           <div class="card center" style="margin-bottom:0;">
-            <div class="muted small"><%= s.name %></div>
+            <div class="muted small"><%= s.label %></div>
             <div style="font-size:1.4rem; font-weight:700;"><%= s.correct %>/<%= s.total %></div>
             <div class="muted small"><%= s.total ? Math.round((s.correct/s.total)*100) : 0 %>%</div>
           </div>
@@ -37,13 +47,37 @@
     </div>
 
     <div class="card">
+      <h2 class="mt-0">Diagnóstico por tópico e nível</h2>
+      <p class="muted small" style="margin-top:-8px;">Do pior para o melhor. Os tópicos com erro são a sua lista de estudo da semana.</p>
+      <div class="table-scroll">
+        <table class="simple">
+          <thead><tr><th>Tópico</th><th>Matéria</th><th>Acertos</th><th></th></tr></thead>
+          <tbody>
+            <% byTheme.forEach(function(t) { const pct = Math.round((t.correct / t.total) * 100); %>
+              <tr>
+                <td><%= t.label %><% if (t.tier === 'core') { %> <span class="qtag real">núcleo</span><% } %></td>
+                <td><%= t.subject %></td>
+                <td><%= t.correct %>/<%= t.total %> (<%= pct %>%)</td>
+                <td><%= pct >= 80 ? '🟢' : (pct >= 50 ? '🟡' : '🔴') %></td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted small" style="margin-bottom:0; margin-top:10px;">
+        Por nível: <% byLevel.forEach(function(l, i) { %><%= i ? ' · ' : '' %><%= l.label %>: <%= l.correct %>/<%= l.total %><% }) %>
+      </p>
+    </div>
+
+    <div class="card">
       <h2 class="mt-0">Revisão completa, questão por questão</h2>
-      <p class="muted small" style="margin-top:-8px;">Assim como no motor de exercícios, veja por que cada alternativa está certa ou errada.</p>
+      <p class="muted small" style="margin-top:-8px;">Veja por que cada alternativa está certa ou errada. As erradas já foram para o seu caderno de erros e para a revisão espaçada.</p>
 
       <% rows.forEach(function(r, idx) { %>
         <div class="card" style="border-color: <%= !r.selected_option ? 'var(--border)' : (r.is_correct ? 'var(--green)' : 'var(--red)') %>;">
           <span class="low-tag"><%= r.subject_name %></span>
           <span class="low-tag">Questão <%= idx + 1 %></span>
+          <span class="qtag"><%= r.theme_name %></span>
           <% if (!r.selected_option) { %>
             <span class="badge" style="background:#eee; color:var(--muted);">Não respondida</span>
           <% } else if (r.is_correct) { %>
@@ -51,18 +85,20 @@
           <% } else { %>
             <span class="badge" style="background:var(--red-bg); color:var(--red);">❌ Errada</span>
           <% } %>
+          <div class="muted small" style="margin-top:6px;"><%= r.source_note %></div>
 
-          <h3 style="margin: 10px 0 6px;"><%= r.stem %></h3>
+          <% if (r.support_html) { %><div class="support"><%- r.support_html %></div><% } %>
+          <div class="stem"><%= r.stem %></div>
           <% ['a','b','c','d'].forEach(function(letter) { %>
             <div class="option-btn disabled"
               style="<%= letter === r.correct_option ? 'background:var(--green-bg); border-color:var(--green);' : (letter === r.selected_option ? 'background:var(--red-bg); border-color:var(--red);' : '') %>">
-              <span class="letter"><%= letter.toUpperCase() %>)</span> <%= r['option_' + letter] %>
+              <span class="letter"><%= letter.toUpperCase() %>)</span> <span class="opt-text"><%= r['option_' + letter] %></span>
               <% if (letter === r.selected_option) { %> <strong class="small">(sua resposta)</strong><% } %>
             </div>
           <% }) %>
 
           <div class="explanation-box ok" style="margin-top:10px;">
-            <strong>Por que a alternativa <%= r.correct_option.toUpperCase() %> está correta:</strong> <%= r.explanation_correct %>
+            <strong>Por que a alternativa <%= r.correct_option.toUpperCase() %> está correta:</strong> <span style="white-space:pre-line;"><%= r.explanation_correct %></span>
           </div>
           <div class="explanation-box" style="background:#f5f5fa; border:1px solid var(--border); margin-top:10px;">
             <strong>Por que as outras alternativas estão erradas:</strong>

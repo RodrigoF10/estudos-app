@@ -10,10 +10,11 @@
     <div class="card" style="background: linear-gradient(135deg, #5b5be0, #4544c4); color: #fff; border: none;">
       <h2 style="color:#fff; margin-top:0;">Oi, Rayane! 👋</h2>
       <% if (countdown) { %>
-        <p style="font-size:1.1rem; margin-bottom:0;">
+        <p style="font-size:1.1rem; margin-bottom:6px;">
           Faltam <strong><%= countdown.daysLeft %> dias</strong> para a prova do CEFET-MG (<%= countdown.examDate.split('-').reverse().join('/') %>).
         </p>
       <% } %>
+      <p class="small" style="margin:0; opacity:.92;"><strong><%= phase.label %></strong><br><%= phase.desc %></p>
     </div>
 
     <% if (ongoingSimulado) { %>
@@ -24,15 +25,35 @@
       </div>
     <% } %>
 
+    <div class="stat-grid" style="margin-bottom:18px;">
+      <div class="stat">
+        <div class="n"><%= todayCount %><span class="l"> / <%= dailyGoal %></span></div>
+        <div class="l">questões hoje (meta diária)</div>
+      </div>
+      <a class="stat" href="/rayane/revisar" style="color:inherit;">
+        <div class="n"><%= dueCount %></div>
+        <div class="l">revisões vencidas ›</div>
+      </a>
+      <a class="stat" href="/rayane/erros" style="color:inherit;">
+        <div class="n"><%= errCount %></div>
+        <div class="l">no caderno de erros ›</div>
+      </a>
+      <div class="stat">
+        <div class="n"><%= lastCompleto ? lastCompleto.correct_count : '—' %><span class="l"> / 50</span></div>
+        <div class="l">último simulado completo (meta: <%= passTarget %>)</div>
+      </div>
+    </div>
+
     <% if (suggestion) { %>
       <div class="card">
         <h2 class="mt-0">Sugestão de hoje</h2>
-        <p class="muted small" style="margin-top:-8px;">Escolhida com base no peso da matéria na prova e no que você ainda não domina.</p>
+        <p class="muted small" style="margin-top:-8px;">Escolhida pelo que mais cai na prova e pelo que você ainda não domina.</p>
         <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;">
           <div>
             <span class="badge badge-<%= suggestion.stats.level.key %>"><%= suggestion.stats.level.emoji %> <%= suggestion.stats.level.label %></span>
+            <span class="qtag" style="margin-left:6px;">≈ <%= suggestion.theme.expected_per_exam.toFixed(1).replace('.', ',') %> questão(ões) por prova</span>
             <h3 style="margin: 8px 0 2px;"><%= suggestion.subject.name %> · <%= suggestion.theme.name %></h3>
-            <p class="muted small" style="max-width:520px;"><%= suggestion.theme.summary %></p>
+            <p class="muted small" style="max-width:560px;"><%= suggestion.theme.summary %></p>
           </div>
           <div style="display:flex; gap:8px;">
             <a class="btn btn-outline" href="/rayane/tema/<%= suggestion.theme.id %>">Ver teoria</a>
@@ -41,7 +62,19 @@
         </div>
       </div>
     <% } else { %>
-      <div class="card"><p>Parabéns, todos os temas cadastrados já estão dominados! Continue revisando pelo cronograma.</p></div>
+      <div class="card"><p>Parabéns, todos os tópicos já estão dominados! Continue com simulados e revisões.</p></div>
+    <% } %>
+
+    <% if (weak.length > 0) { %>
+      <div class="card">
+        <h2 class="mt-0">Pontos fracos do núcleo</h2>
+        <% weak.forEach(function(w) { %>
+          <div class="theme-row">
+            <div><strong><%= w.theme.name %></strong> <span class="muted small">· <%= w.subject.name %> · <%= Math.round(w.stats.accuracy * 100) %>% recente</span></div>
+            <div><a class="btn btn-sm" href="/rayane/praticar/<%= w.theme.id %>">Reforçar</a></div>
+          </div>
+        <% }) %>
+      </div>
     <% } %>
 
     <div class="card">
@@ -61,12 +94,13 @@
             <% } %>
           </div>
         <% }) %>
+        <p class="small"><a href="/rayane/plano">Ver o plano das 8 semanas →</a> · <a href="/rayane/cronograma">Ajustar cronograma →</a></p>
       <% } %>
     </div>
 
     <div class="card">
-      <h2 class="mt-0">Simulado completo</h2>
-      <p class="muted small" style="margin-top:-8px;">50 questões, no mesmo formato da prova (15 Português, 15 Matemática, 8 Ciências, 6 Geografia, 6 História), com 3 horas cronometradas.</p>
+      <h2 class="mt-0">Simulados</h2>
+      <p class="muted small" style="margin-top:-8px;">Completo (50 questões, 3 h), rápido (20 questões) ou por matéria — sempre no estilo da prova. A meta é chegar a <strong><%= passTarget %> acertos</strong>.</p>
       <a class="btn btn-outline" href="/rayane/simulado">Ver simulados</a>
     </div>
 
@@ -76,7 +110,7 @@
         <% subjects.forEach(function(s) { %>
           <a class="subject-pill" href="/rayane/materia/<%= s.subject.slug %>">
             <strong><%= s.subject.name %></strong>
-            <div class="weight"><%= s.subject.weight_percent %>% da prova · <%= s.mastered %>/<%= s.total %> temas dominados</div>
+            <div class="weight"><%= s.subject.weight_percent %>% da prova · núcleo: <%= s.coreMastered %>/<%= s.coreTotal %> dominados</div>
             <div class="progress-bar" style="margin-top:8px;">
               <div style="width: <%= s.total ? Math.round((s.mastered / s.total) * 100) : 0 %>%;"></div>
             </div>

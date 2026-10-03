@@ -1,0 +1,225 @@
+# Matemática — M15 (transformações e simetria), M08 (função quadrática), M16 (geometria espacial)
+
+# ===================== M15 =====================
+
+@A-M15-01 N1
+stem: Considerando apenas a figura do quadrado, o número de eixos de simetria de reflexão que ele possui é
+o1: 1.
+o2: 2.
+o3: 4.
+o4: 8.
+key: C
+a: Um único eixo seria o de uma figura como o triângulo isósceles.
+b: Dois eixos (os que passam pelos pontos médios dos lados opostos) é só parte do total; faltam as diagonais.
+c: O quadrado tem 4 eixos: 2 que passam pelos pontos médios de lados opostos (vertical e horizontal) e 2 que passam pelas diagonais.
+d: 8 resulta de contar cada eixo duas vezes.
+
+@A-M15-02 N1
+stem: Em um plano cartesiano, o ponto P(3, 2) é refletido em relação ao eixo y (eixo vertical). As coordenadas do ponto refletido são
+o1: (−3, 2).
+o2: (3, −2).
+o3: (−3, −2).
+o4: (2, 3).
+key: A
+a: Na reflexão em relação ao eixo y, a ordenada permanece e a abscissa troca de sinal: (3, 2) → (−3, 2).
+b: Seria a reflexão em relação ao eixo x (eixo horizontal).
+c: Seria a reflexão em relação à origem (simetria central), e não ao eixo y.
+d: Seria a reflexão em relação à reta y = x, que apenas troca as coordenadas.
+
+@A-M15-03 N2
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Triângulo de vértices (1, 1), (3, 1) e (2, 3) em um plano cartesiano"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">0</text><line x1="59.8" y1="14" x2="59.8" y2="162" stroke="#e3e5f0"/><text x="59.8" y="174" font-size="9" text-anchor="middle">1</text><line x1="85.5" y1="14" x2="85.5" y2="162" stroke="#e3e5f0"/><text x="85.5" y="174" font-size="9" text-anchor="middle">2</text><line x1="111.2" y1="14" x2="111.2" y2="162" stroke="#e3e5f0"/><text x="111.2" y="174" font-size="9" text-anchor="middle">3</text><line x1="137.0" y1="14" x2="137.0" y2="162" stroke="#e3e5f0"/><text x="137.0" y="174" font-size="9" text-anchor="middle">4</text><line x1="162.8" y1="14" x2="162.8" y2="162" stroke="#e3e5f0"/><text x="162.8" y="174" font-size="9" text-anchor="middle">5</text><line x1="188.5" y1="14" x2="188.5" y2="162" stroke="#e3e5f0"/><text x="188.5" y="174" font-size="9" text-anchor="middle">6</text><line x1="214.2" y1="14" x2="214.2" y2="162" stroke="#e3e5f0"/><text x="214.2" y="174" font-size="9" text-anchor="middle">7</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">8</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">-2</text><line x1="34" y1="137.3" x2="240" y2="137.3" stroke="#e3e5f0"/><text x="29" y="140.3" font-size="9" text-anchor="end">-1</text><line x1="34" y1="112.7" x2="240" y2="112.7" stroke="#e3e5f0"/><text x="29" y="115.7" font-size="9" text-anchor="end">0</text><line x1="34" y1="88.0" x2="240" y2="88.0" stroke="#e3e5f0"/><text x="29" y="91.0" font-size="9" text-anchor="end">1</text><line x1="34" y1="63.3" x2="240" y2="63.3" stroke="#e3e5f0"/><text x="29" y="66.3" font-size="9" text-anchor="end">2</text><line x1="34" y1="38.7" x2="240" y2="38.7" stroke="#e3e5f0"/><text x="29" y="41.7" font-size="9" text-anchor="end">3</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">4</text><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#555"/><line x1="34" y1="112.7" x2="240" y2="112.7" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="59.8,88.0 111.2,88.0 85.5,38.7 59.8,88.0"/><circle cx="59.8" cy="88.0" r="3" fill="#4351c9"/><circle cx="111.2" cy="88.0" r="3" fill="#4351c9"/><circle cx="85.5" cy="38.7" r="3" fill="#4351c9"/><circle cx="59.8" cy="88.0" r="3" fill="#4351c9"/><text x="240" y="188" font-size="9" text-anchor="end">x</text><text x="2" y="9" font-size="9">y</text></svg><p class="src">O triângulo de vértices A(1, 1), B(3, 1) e C(2, 3) será transladado 4 unidades para a direita e 2 unidades para baixo.</p>
+stem: Após a translação, as coordenadas do vértice C são
+o1: (2, 5).
+o2: (6, 1).
+o3: (6, 5).
+o4: (−2, 1).
+key: B
+a: (2, 5) resulta de somar 2 em y (para cima), e de não deslocar o ponto na direção horizontal.
+b: Translação de 4 para a direita soma 4 em x, e 2 para baixo subtrai 2 em y: C(2, 3) → (2 + 4, 3 − 2) = (6, 1).
+c: (6, 5) resulta de somar 4 em x e 2 em y, deslocando para cima em vez de para baixo.
+d: (−2, 1) resulta de deslocar 4 para a esquerda e 2 para baixo.
+
+@A-M15-04 N2
+stem: O ponto Q(2, 1) sofre uma rotação de 90° no sentido anti-horário em torno da origem do plano cartesiano. As novas coordenadas de Q são
+o1: (−1, 2).
+o2: (1, −2).
+o3: (−2, −1).
+o4: (1, 2).
+key: A
+a: Na rotação de 90° anti-horária, (x, y) vai para (−y, x): (2, 1) → (−1, 2).
+b: (1, −2) é a rotação de 90° no sentido horário, (x, y) → (y, −x).
+c: (−2, −1) é a rotação de 180° (simetria em relação à origem).
+d: (1, 2) é a reflexão em relação à reta y = x.
+
+@A-M15-05 N2
+stem: Considere as letras maiúsculas de imprensa, em fonte de bastão (sem enfeites), da palavra TOMATE. O número de letras dessa palavra que possuem eixo de simetria vertical é
+o1: 3.
+o2: 4.
+o3: 5.
+o4: 6.
+key: C
+a: 3 conta só T, O e M, esquecendo o A e o segundo T.
+b: 4 deixa de contar uma das letras da lista (por exemplo, o segundo T ou o A): as cinco têm eixo vertical.
+c: T, O, M, A e T têm simetria em relação a um eixo vertical. O E só tem eixo horizontal.
+d: A letra E não tem eixo vertical (seu eixo de simetria é horizontal); então não são seis.
+
+@A-M15-06 N3
+stem: O ponto P(2, 3) é refletido em relação ao eixo x e, em seguida, o ponto obtido é transladado pelo vetor (−1, 4), isto é, 1 unidade para a esquerda e 4 para cima. As coordenadas finais são
+o1: (1, 1).
+o2: (1, 7).
+o3: (−3, 7).
+o4: (3, 1).
+key: A
+a: Reflexão em x: (2, 3) → (2, −3). Translação: (2 − 1, −3 + 4) = (1, 1).
+b: (1, 7) resulta de translação sem fazer a reflexão: (2 − 1, 3 + 4) = (1, 7).
+c: (−3, 7) resulta de refletir em y (−2, 3) e transladar (−2 − 1, 3 + 4) = (−3, 7).
+d: (3, 1) resulta de somar +1 em x em vez de subtrair: (2 + 1, −3 + 4).
+
+# ===================== M08 =====================
+
+@A-M08-01 N1 cálculo
+stem: As raízes da equação x² − 4x + 3 = 0 são
+o1: −1 e −3.
+o2: 2 e 2.
+o3: −1 e 3.
+o4: 1 e 3.
+key: D
+a: −1 e −3 teriam soma −4 e produto 3, e a soma deve ser 4.
+b: 2 e 2 têm soma 4, mas produto 4, e não 3.
+c: −1 e 3 têm soma 2 e produto −3, que não é o que pede a equação.
+d: Soma das raízes = 4 e produto = 3: os números 1 e 3. Conferindo: 1² − 4 + 3 = 0 e 3² − 12 + 3 = 0.
+
+@A-M08-02 N2 cálculo
+stem: Uma bola é lançada para cima, e sua altura h, em metros, após t segundos, é dada por h(t) = −t² + 6t. A altura máxima atingida pela bola é
+o1: 3 m.
+o2: 6 m.
+o3: 9 m.
+o4: 12 m.
+key: C
+a: 3 é o instante da altura máxima (em segundos), e não a altura.
+b: 6 m é o coeficiente do termo em t, e não a altura máxima.
+c: O vértice ocorre em t = −b ÷ 2a = −6 ÷ (−2) = 3 s. A altura é h(3) = −9 + 18 = 9 m.
+d: 12 m não corresponde a nenhum valor da função (h(3) = 9 m é o máximo).
+
+@A-M08-03 N2
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Gráfico da função quadrática f(x) = x² − 4x + 3, com parábola de vértice (2, −1), que corta o eixo x em 1 e 3"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">-1</text><line x1="68.3" y1="14" x2="68.3" y2="162" stroke="#e3e5f0"/><text x="68.3" y="174" font-size="9" text-anchor="middle">0</text><line x1="102.7" y1="14" x2="102.7" y2="162" stroke="#e3e5f0"/><text x="102.7" y="174" font-size="9" text-anchor="middle">1</text><line x1="137.0" y1="14" x2="137.0" y2="162" stroke="#e3e5f0"/><text x="137.0" y="174" font-size="9" text-anchor="middle">2</text><line x1="171.3" y1="14" x2="171.3" y2="162" stroke="#e3e5f0"/><text x="171.3" y="174" font-size="9" text-anchor="middle">3</text><line x1="205.7" y1="14" x2="205.7" y2="162" stroke="#e3e5f0"/><text x="205.7" y="174" font-size="9" text-anchor="middle">4</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">5</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">-2</text><line x1="34" y1="137.3" x2="240" y2="137.3" stroke="#e3e5f0"/><text x="29" y="140.3" font-size="9" text-anchor="end">-1</text><line x1="34" y1="112.7" x2="240" y2="112.7" stroke="#e3e5f0"/><text x="29" y="115.7" font-size="9" text-anchor="end">0</text><line x1="34" y1="88.0" x2="240" y2="88.0" stroke="#e3e5f0"/><text x="29" y="91.0" font-size="9" text-anchor="end">1</text><line x1="34" y1="63.3" x2="240" y2="63.3" stroke="#e3e5f0"/><text x="29" y="66.3" font-size="9" text-anchor="end">2</text><line x1="34" y1="38.7" x2="240" y2="38.7" stroke="#e3e5f0"/><text x="29" y="41.7" font-size="9" text-anchor="end">3</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">4</text><line x1="68.3" y1="14" x2="68.3" y2="162" stroke="#555"/><line x1="34" y1="112.7" x2="240" y2="112.7" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="68.3,38.7 85.5,81.8 102.7,112.7 119.8,131.2 137.0,137.3 154.2,131.2 171.3,112.7 188.5,81.8 205.7,38.7"/><text x="240" y="188" font-size="9" text-anchor="end">x</text><text x="2" y="9" font-size="9">f(x)</text></svg><p class="src">Gráfico de uma função quadrática f.</p>
+stem: De acordo com o gráfico, o valor mínimo de f e o valor de x em que ele ocorre são, respectivamente,
+o1: −1 e 2.
+o2: 2 e −1.
+o3: 3 e 1.
+o4: 0 e 2.
+key: A
+a: O ponto mais baixo do gráfico é o vértice (2, −1): valor mínimo −1, atingido em x = 2.
+b: Inverte as coordenadas do vértice: o valor mínimo é a ordenada (−1), e x = 2 é a abscissa.
+c: 1 e 3 são as raízes (onde a curva corta o eixo x); não são o mínimo.
+d: Em x = 2 o valor da função é −1, e não 0.
+
+@A-M08-04 N3 cálculo
+stem: Com 40 m de tela, deseja-se cercar um terreno retangular. Se um lado mede x metros, a área do terreno é A(x) = x(20 − x). A maior área possível, em metros quadrados, é
+o1: 80.
+o2: 96.
+o3: 100.
+o4: 400.
+key: C
+a: 80 m² é uma área possível (por exemplo, com lados de cerca de 5,5 m e 14,5 m), mas não é a maior.
+b: 96 m² é a área de lados 8 e 12, que é menor que a do quadrado (10 · 10).
+c: A(x) = −x² + 20x tem máximo no vértice, x = 10. Então A(10) = 10 · 10 = 100 m² (o quadrado é o retângulo de maior área para um perímetro fixo).
+d: 400 m² resulta de elevar 20 ao quadrado, sem considerar o vértice da parábola.
+
+@A-M08-05 N3 cálculo
+stem: O lucro mensal L, em reais, de uma oficina, em função do número x de peças vendidas (em dezenas), é dado por L(x) = −2x² + 40x − 150. O lucro máximo mensal é
+o1: R$ 10,00.
+o2: R$ 50,00.
+o3: R$ 150,00.
+o4: R$ 200,00.
+key: B
+a: 10 é o valor de x (dezenas de peças) que maximiza o lucro, e não o lucro.
+b: Vértice: x = −40 ÷ (−4) = 10. L(10) = −200 + 400 − 150 = 50.
+c: 150 é o termo independente (custo fixo), que aparece com sinal negativo em L.
+d: 200 é −2x² + 40x com x = 10 (−200 + 400); falta subtrair o custo fixo de 150.
+
+@A-M08-06 N2 cálculo
+stem: Para que a equação x² − 6x + k = 0 tenha uma única solução real, o valor de k deve ser
+o1: 3.
+o2: 6.
+o3: 9.
+o4: 36.
+key: C
+a: Com k = 3, o discriminante é 36 − 12 = 24, positivo (duas soluções).
+b: Com k = 6, o discriminante é 36 − 24 = 12, positivo (duas soluções).
+c: Uma única raiz real exige discriminante zero: (−6)² − 4 · 1 · k = 0 ⇒ 36 = 4k ⇒ k = 9. (Isso fornece x² − 6x + 9 = (x − 3)².)
+d: Com k = 36, o discriminante é 36 − 144, negativo (nenhuma solução real).
+
+# ===================== M16 =====================
+
+@A-M16-01 N1 cálculo
+stem: Uma caixa-d’água tem a forma de um paralelepípedo com 2 m de comprimento, 1,5 m de largura e 1 m de altura. Sabendo que 1 m³ equivale a 1 000 litros, a capacidade da caixa é
+o1: 300 litros.
+o2: 3 000 litros.
+o3: 4 500 litros.
+o4: 30 000 litros.
+key: B
+a: 300 litros resultaria de errar a conversão (3 m³ = 300 L).
+b: Volume: 2 · 1,5 · 1 = 3 m³. Como 1 m³ = 1 000 L, são 3 000 litros.
+c: 4 500 litros resulta de multiplicar 3 por 1,5 de novo, sem sentido no problema.
+d: 30 000 litros resultaria de errar a conversão em fator 10.
+
+@A-M16-02 N2 cálculo
+stem: Uma lata cilíndrica tem 5 cm de raio e 12 cm de altura. Adotando π = 3 e sabendo que 1 cm³ equivale a 1 mL, a capacidade da lata é
+o1: 180 mL.
+o2: 1 800 mL.
+o3: 3 600 mL.
+o4: 900 mL.
+key: D
+a: 180 mL resulta de usar π · r · h = 3 · 5 · 12, sem elevar o raio ao quadrado.
+b: 1 800 mL resulta de usar 2 · π · r (comprimento da circunferência) e multiplicar por 12 · 5.
+c: 3 600 mL resulta de usar o diâmetro (10 cm) no lugar do raio: 3 · 10² · 12.
+d: V = π · r² · h = 3 · 5² · 12 = 3 · 25 · 12 = 900 cm³ = 900 mL.
+
+@A-M16-03 N2 cálculo
+stem: Uma torneira despeja água em um tanque com vazão constante de 12 litros por minuto. O tanque tem 1,2 m³ de capacidade e está vazio. O tempo necessário para enchê-lo completamente é
+o1: 10 minutos.
+o2: 60 minutos.
+o3: 144 minutos.
+o4: 100 minutos.
+key: D
+a: 10 minutos resulta de dividir 120 por 12, e 1,2 m³ são 1 200 litros, e não 120.
+b: 60 minutos não resulta de nenhuma etapa correta do cálculo.
+c: 144 minutos resulta de multiplicar 12 por 12, o que não tem relação com o problema.
+d: 1,2 m³ = 1 200 litros. Tempo = 1 200 ÷ 12 = 100 minutos.
+
+@A-M16-04 N2
+stem: Um prisma tem como bases dois hexágonos e as faces laterais são retângulos. O número de arestas desse prisma é
+o1: 12.
+o2: 18.
+o3: 16.
+o4: 20.
+key: B
+a: 12 é só o número de arestas das duas bases (6 + 6); faltam as arestas laterais.
+b: Cada base tem 6 arestas (12 no total) e há 6 arestas laterais ligando as bases: 12 + 6 = 18. (Conferência de Euler: V − A + F = 12 − 18 + 8 = 2.)
+c: 16 não corresponde a nenhuma contagem do prisma.
+d: 20 resulta de contar mais de 6 arestas laterais; um prisma hexagonal tem 6 faces laterais e, portanto, 6 arestas laterais.
+
+@A-M16-05 N3 cálculo
+stem: Cada aresta de um cubo é aumentada em 10%. O volume do novo cubo, em relação ao volume original, aumenta
+o1: 10%.
+o2: 30%.
+o3: 100%.
+o4: 33,1%.
+key: D
+a: 10% é o aumento da aresta; o volume cresce com o cubo da aresta.
+b: 30% resulta de somar 10% três vezes, o que ignora que cada aumento incide sobre um valor maior.
+c: 100% seria o caso de o volume dobrar, o que não ocorre com 10% de aumento na aresta.
+d: Novo volume: (1,1 · a)³ = 1,331 · a³. O aumento é de 33,1%.
+
+@A-M16-06 N2 cálculo
+stem: Um reservatório cilíndrico tem 1 m de raio e 2 m de altura. Adotando π = 3, o tempo necessário para encher completamente o reservatório, com uma torneira que despeja 100 litros por minuto, é
+o1: 60 minutos.
+o2: 6 minutos.
+o3: 20 minutos.
+o4: 600 minutos.
+key: A
+a: V = π r² h = 3 · 1² · 2 = 6 m³ = 6 000 L. Tempo: 6 000 ÷ 100 = 60 minutos.
+b: 6 minutos resulta de usar o volume em m³ (6) sem converter para litros.
+c: 20 minutos resulta de esquecer o π: volume 1² · 2 = 2 m³ = 2 000 L; 2 000 ÷ 100 = 20.
+d: 600 minutos resulta de errar a conversão em fator 10 (60 000 L).

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Progresso — Estudos CEFET-MG' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'progresso' }) %>
+  <div class="container">
+
+    <div class="card">
+      <h2 class="mt-0">Seu progresso geral</h2>
+      <p class="muted">Total de <%= totalAttempts %> questões respondidas, <%= totalCorrect %> acertos
+        (<%= totalAttempts ? Math.round((totalCorrect / totalAttempts) * 100) : 0 %>% de aproveitamento histórico).</p>
+    </div>
+
+    <% if (totalAttempts === 0) { %>
+      <div class="card"><p class="muted">Os gráficos de evolução aparecem aqui assim que você começar a praticar.</p></div>
+    <% } else { %>
+      <div class="card">
+        <h2 class="mt-0">Evolução do aproveitamento (últimos 30 dias)</h2>
+        <canvas id="chart-evolucao" height="90"></canvas>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card">
+          <h2 class="mt-0">Aproveitamento por matéria</h2>
+          <canvas id="chart-materia"></canvas>
+        </div>
+        <div class="card">
+          <h2 class="mt-0">Aproveitamento por nível de dificuldade</h2>
+          <canvas id="chart-dificuldade"></canvas>
+        </div>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card">
+          <h2 class="mt-0">Domínio dos temas</h2>
+          <canvas id="chart-dominio"></canvas>
+        </div>
+        <% if (dashboardData.simulados.length > 0) { %>
+          <div class="card">
+            <h2 class="mt-0">Notas nos simulados</h2>
+            <canvas id="chart-simulados"></canvas>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+
+    <% progressBySubject.forEach(function(item) { %>
+      <div class="card">
+        <h2 class="mt-0"><%= item.subject.name %> <span class="muted small">(<%= item.subject.weight_percent %>% da prova)</span></h2>
+        <div class="progress-bar" style="margin-bottom:14px;">
+          <div style="width: <%= item.progress.totalThemes ? Math.round((item.progress.mastered / item.progress.totalThemes) * 100) : 0 %>%;"></div>
+        </div>
+        <% item.progress.themes.forEach(function(t) { %>
+          <div class="theme-row">
+            <div>
+              <%= t.theme.name %>
+              <% if (t.theme.low_priority) { %><span class="low-tag">baixa prioridade</span><% } %>
+            </div>
+            <span class="badge badge-<%= t.stats.level.key %>"><%= t.stats.level.emoji %> <%= t.stats.level.label %></span>
+          </div>
+        <% }) %>
+      </div>
+    <% }) %>
+
+  </div>
+
+  <% if (totalAttempts > 0) { %>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+    <script>
+      window.DASHBOARD_DATA = <%- JSON.stringify(dashboardData) %>;
+    </script>
+    <script src="/js/dashboard.js"></script>
+  <% } %>
+</body>
+</html>

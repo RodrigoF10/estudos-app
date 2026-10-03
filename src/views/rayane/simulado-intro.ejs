@@ -8,17 +8,40 @@
   <div class="container">
 
     <div class="card">
-      <h2 class="mt-0">Simulado completo</h2>
-      <p>Reproduz o formato oficial da prova do CEFET-MG: <strong>50 questões</strong> (15 Português, 15 Matemática,
-        8 Ciências, 6 Geografia, 6 História) em <strong>3 horas</strong> cronometradas. Durante o simulado você não
-        vê se acertou ou errou — assim como na prova real — e só confere a correção completa, questão por questão,
-        ao final.</p>
+      <h2 class="mt-0">Simulados no padrão da prova</h2>
+      <p>As questões seguem a distribuição real das provas do CEFET-MG (2016–2026): os tópicos que mais caem aparecem mais, e a mistura é de questões <strong>reais</strong> e <strong>autorais</strong> no mesmo estilo, em níveis N1/N2/N3.
+        Durante o simulado você não vê se acertou — assim como na prova — e confere a correção completa no final.
+        Meta: <strong><%= passTarget %> acertos em 50</strong> (menos de 10 elimina, mas o objetivo é bem mais alto).</p>
 
       <% if (ongoing) { %>
         <div class="alert alert-info">Você já tem um simulado em andamento, iniciado em <%= ongoing.started_at %>.</div>
         <a class="btn" href="/rayane/simulado/<%= ongoing.id %>">Continuar simulado</a>
       <% } else if (role === 'rayane') { %>
-        <button class="btn" id="start-simulado-btn">Começar novo simulado</button>
+        <div class="grid grid-3" style="margin-top:14px;">
+          <div class="mode-card">
+            <h3>Completo</h3>
+            <p class="muted small">50 questões (15 Port · 15 Mat · 8 Ciên · 6 Geo · 6 His) em 3 horas. Faça 1 por semana.</p>
+            <button class="btn start-simulado-btn" data-mode="completo">Começar</button>
+          </div>
+          <div class="mode-card">
+            <h3>Rápido</h3>
+            <p class="muted small">20 questões na mesma proporção da prova, 72 minutos. Bom para dias corridos.</p>
+            <button class="btn btn-outline start-simulado-btn" data-mode="rapido">Começar</button>
+          </div>
+          <div class="mode-card">
+            <h3>Por matéria</h3>
+            <p class="muted small">Só uma matéria, 3,6 min por questão.</p>
+            <select class="input" id="mat-subject" style="width:100%; margin-bottom:6px;">
+              <% subjects.forEach(function(s) { %><option value="<%= s.slug %>"><%= s.name %></option><% }) %>
+            </select>
+            <select class="input" id="mat-count" style="width:100%; margin-bottom:8px;">
+              <option value="10">10 questões</option>
+              <option value="15" selected>15 questões</option>
+              <option value="20">20 questões</option>
+            </select>
+            <button class="btn btn-outline start-simulado-btn" data-mode="materia">Começar</button>
+          </div>
+        </div>
       <% } else { %>
         <p class="muted">Modo administrador: só o perfil da Rayane pode iniciar um simulado.</p>
       <% } %>
@@ -33,8 +56,10 @@
           <div class="theme-row">
             <div>
               <strong><%= h.started_at.slice(0,10).split('-').reverse().join('/') %></strong>
+              <span class="qtag"><%= h.mode === 'completo' ? 'Completo' : (h.mode === 'rapido' ? 'Rápido' : 'Por matéria') %></span>
               <div class="muted small"><%= h.correct_count %> de <%= h.total_questions %> questões corretas
-                (<%= Math.round((h.correct_count/h.total_questions)*100) %>%)</div>
+                (<%= Math.round((h.correct_count/h.total_questions)*100) %>%
+                <% if (h.total_questions !== 50) { %> · equivale a <%= (Math.round((h.correct_count/h.total_questions)*50*10)/10).toString().replace('.', ',') %>/50<% } %>)</div>
             </div>
             <a class="btn btn-sm btn-outline" href="/rayane/simulado/<%= h.id %>/resultado">Ver resultado</a>
           </div>

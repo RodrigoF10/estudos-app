@@ -1,0 +1,532 @@
+[
+ {
+  "code": "PT04",
+  "subj": "Português",
+  "name": "Figuras de linguagem e recursos expressivos",
+  "tier": "core",
+  "rank": 1,
+  "exp": 2.99,
+  "count": 36,
+  "recent": 15
+ },
+ {
+  "code": "PT08",
+  "subj": "Português",
+  "name": "Gêneros, suportes e argumentação",
+  "tier": "core",
+  "rank": 2,
+  "exp": 2.87,
+  "count": 26,
+  "recent": 19
+ },
+ {
+  "code": "PT09",
+  "subj": "Português",
+  "name": "Obra: personagens, enredo, espaço e contexto",
+  "tier": "core",
+  "rank": 3,
+  "exp": 2.85,
+  "count": 35,
+  "recent": 14
+ },
+ {
+  "code": "PT05",
+  "subj": "Português",
+  "name": "Intertextualidade e comparação entre textos",
+  "tier": "core",
+  "rank": 4,
+  "exp": 1.71,
+  "count": 18,
+  "recent": 10
+ },
+ {
+  "code": "PT02",
+  "subj": "Português",
+  "name": "Coesão e conectivos",
+  "tier": "core",
+  "rank": 5,
+  "exp": 1.44,
+  "count": 14,
+  "recent": 9
+ },
+ {
+  "code": "PT03",
+  "subj": "Português",
+  "name": "Modalização e marcas de opinião",
+  "tier": "core",
+  "rank": 6,
+  "exp": 1.26,
+  "count": 12,
+  "recent": 8
+ },
+ {
+  "code": "PT06",
+  "subj": "Português",
+  "name": "Narrador, foco narrativo e tipos de discurso",
+  "tier": "complement",
+  "rank": 7,
+  "exp": 0.99,
+  "count": 10,
+  "recent": 6
+ },
+ {
+  "code": "PT07",
+  "subj": "Português",
+  "name": "Variação linguística e norma culta",
+  "tier": "complement",
+  "rank": 8,
+  "exp": 0.9,
+  "count": 10,
+  "recent": 5
+ },
+ {
+  "code": "M12",
+  "subj": "Matemática",
+  "name": "Geometria plana: áreas, perímetros e circunferência",
+  "tier": "core",
+  "rank": 1,
+  "exp": 1.72,
+  "count": 20,
+  "recent": 9
+ },
+ {
+  "code": "M09",
+  "subj": "Matemática",
+  "name": "Estatística: média, mediana, moda e gráficos",
+  "tier": "core",
+  "rank": 2,
+  "exp": 1.48,
+  "count": 13,
+  "recent": 10
+ },
+ {
+  "code": "M13",
+  "subj": "Matemática",
+  "name": "Semelhança, Tales, Pitágoras e trigonometria",
+  "tier": "core",
+  "rank": 3,
+  "exp": 1.44,
+  "count": 16,
+  "recent": 8
+ },
+ {
+  "code": "M04",
+  "subj": "Matemática",
+  "name": "Álgebra: fatoração, produtos notáveis, potências e radicais",
+  "tier": "core",
+  "rank": 4,
+  "exp": 1.26,
+  "count": 14,
+  "recent": 7
+ },
+ {
+  "code": "M02",
+  "subj": "Matemática",
+  "name": "Razão, proporção, regra de três e grandezas",
+  "tier": "core",
+  "rank": 5,
+  "exp": 1.22,
+  "count": 13,
+  "recent": 7
+ },
+ {
+  "code": "M14",
+  "subj": "Matemática",
+  "name": "Ângulos e polígonos",
+  "tier": "core",
+  "rank": 6,
+  "exp": 0.99,
+  "count": 10,
+  "recent": 6
+ },
+ {
+  "code": "M06",
+  "subj": "Matemática",
+  "name": "Divisores, múltiplos, primos e frações",
+  "tier": "core",
+  "rank": 7,
+  "exp": 0.86,
+  "count": 11,
+  "recent": 4
+ },
+ {
+  "code": "M07",
+  "subj": "Matemática",
+  "name": "Função afim e leitura de gráficos de funções",
+  "tier": "core",
+  "rank": 8,
+  "exp": 0.81,
+  "count": 10,
+  "recent": 4
+ },
+ {
+  "code": "M11",
+  "subj": "Matemática",
+  "name": "Contagem e análise combinatória",
+  "tier": "core",
+  "rank": 9,
+  "exp": 0.8,
+  "count": 6,
+  "recent": 6
+ },
+ {
+  "code": "M10",
+  "subj": "Matemática",
+  "name": "Probabilidade",
+  "tier": "core",
+  "rank": 10,
+  "exp": 0.8,
+  "count": 6,
+  "recent": 6
+ },
+ {
+  "code": "M03",
+  "subj": "Matemática",
+  "name": "Equações e sistemas do 1º grau; problemas",
+  "tier": "core",
+  "rank": 11,
+  "exp": 0.77,
+  "count": 9,
+  "recent": 4
+ },
+ {
+  "code": "M05",
+  "subj": "Matemática",
+  "name": "Conjuntos",
+  "tier": "core",
+  "rank": 12,
+  "exp": 0.72,
+  "count": 8,
+  "recent": 4
+ },
+ {
+  "code": "M01",
+  "subj": "Matemática",
+  "name": "Porcentagem, variações e juros",
+  "tier": "complement",
+  "rank": 13,
+  "exp": 0.72,
+  "count": 8,
+  "recent": 4
+ },
+ {
+  "code": "M15",
+  "subj": "Matemática",
+  "name": "Transformações geométricas e simetria",
+  "tier": "complement",
+  "rank": 14,
+  "exp": 0.58,
+  "count": 5,
+  "recent": 4
+ },
+ {
+  "code": "M08",
+  "subj": "Matemática",
+  "name": "Função quadrática (parábola)",
+  "tier": "complement",
+  "rank": 15,
+  "exp": 0.55,
+  "count": 8,
+  "recent": 2
+ },
+ {
+  "code": "M16",
+  "subj": "Matemática",
+  "name": "Geometria espacial: volume, vazão e planificações",
+  "tier": "complement",
+  "rank": 16,
+  "exp": 0.27,
+  "count": 4,
+  "recent": 1
+ },
+ {
+  "code": "C01",
+  "subj": "Ciências",
+  "name": "Matéria: substâncias, misturas e separação",
+  "tier": "core",
+  "rank": 1,
+  "exp": 1.37,
+  "count": 13,
+  "recent": 7
+ },
+ {
+  "code": "C12",
+  "subj": "Ciências",
+  "name": "Botânica, zoologia e adaptações",
+  "tier": "core",
+  "rank": 2,
+  "exp": 1.07,
+  "count": 16,
+  "recent": 4
+ },
+ {
+  "code": "C05",
+  "subj": "Ciências",
+  "name": "Calor e temperatura",
+  "tier": "core",
+  "rank": 3,
+  "exp": 0.83,
+  "count": 9,
+  "recent": 4
+ },
+ {
+  "code": "C09",
+  "subj": "Ciências",
+  "name": "Astronomia e gravitação",
+  "tier": "core",
+  "rank": 4,
+  "exp": 0.63,
+  "count": 7,
+  "recent": 3
+ },
+ {
+  "code": "C10",
+  "subj": "Ciências",
+  "name": "Ecologia: cadeias, teias e relações",
+  "tier": "core",
+  "rank": 5,
+  "exp": 0.63,
+  "count": 7,
+  "recent": 3
+ },
+ {
+  "code": "C03",
+  "subj": "Ciências",
+  "name": "Átomo, tabela periódica e fórmulas químicas",
+  "tier": "core",
+  "rank": 6,
+  "exp": 0.53,
+  "count": 12,
+  "recent": 1
+ },
+ {
+  "code": "C11",
+  "subj": "Ciências",
+  "name": "Corpo humano e saúde",
+  "tier": "core",
+  "rank": 7,
+  "exp": 0.5,
+  "count": 11,
+  "recent": 1
+ },
+ {
+  "code": "C08",
+  "subj": "Ciências",
+  "name": "Óptica e som",
+  "tier": "core",
+  "rank": 8,
+  "exp": 0.5,
+  "count": 7,
+  "recent": 2
+ },
+ {
+  "code": "C02",
+  "subj": "Ciências",
+  "name": "Mudanças de estado e curvas de aquecimento",
+  "tier": "core",
+  "rank": 9,
+  "exp": 0.47,
+  "count": 6,
+  "recent": 2
+ },
+ {
+  "code": "C07",
+  "subj": "Ciências",
+  "name": "Mecânica: movimento, forças e máquinas",
+  "tier": "core",
+  "rank": 10,
+  "exp": 0.4,
+  "count": 12,
+  "recent": 0
+ },
+ {
+  "code": "C04",
+  "subj": "Ciências",
+  "name": "Transformações químicas e leis das reações",
+  "tier": "complement",
+  "rank": 11,
+  "exp": 0.4,
+  "count": 8,
+  "recent": 1
+ },
+ {
+  "code": "C06",
+  "subj": "Ciências",
+  "name": "Eletricidade e consumo de energia",
+  "tier": "complement",
+  "rank": 12,
+  "exp": 0.37,
+  "count": 7,
+  "recent": 1
+ },
+ {
+  "code": "C13",
+  "subj": "Ciências",
+  "name": "Ambiente e sustentabilidade",
+  "tier": "complement",
+  "rank": 13,
+  "exp": 0.3,
+  "count": 5,
+  "recent": 1
+ },
+ {
+  "code": "G04",
+  "subj": "Geografia",
+  "name": "Biomas, clima e vegetação",
+  "tier": "core",
+  "rank": 1,
+  "exp": 1.18,
+  "count": 9,
+  "recent": 4
+ },
+ {
+  "code": "G01",
+  "subj": "Geografia",
+  "name": "Cartografia, coordenadas e fusos horários",
+  "tier": "core",
+  "rank": 2,
+  "exp": 1.02,
+  "count": 9,
+  "recent": 3
+ },
+ {
+  "code": "G07",
+  "subj": "Geografia",
+  "name": "Globalização, desigualdade e geopolítica",
+  "tier": "core",
+  "rank": 3,
+  "exp": 0.99,
+  "count": 11,
+  "recent": 2
+ },
+ {
+  "code": "G06",
+  "subj": "Geografia",
+  "name": "Economia brasileira e mundial: indústria, comércio e energia",
+  "tier": "core",
+  "rank": 4,
+  "exp": 0.84,
+  "count": 6,
+  "recent": 3
+ },
+ {
+  "code": "G03",
+  "subj": "Geografia",
+  "name": "Urbanização e rede urbana",
+  "tier": "core",
+  "rank": 5,
+  "exp": 0.78,
+  "count": 5,
+  "recent": 3
+ },
+ {
+  "code": "G02",
+  "subj": "Geografia",
+  "name": "População e demografia",
+  "tier": "core",
+  "rank": 6,
+  "exp": 0.62,
+  "count": 5,
+  "recent": 2
+ },
+ {
+  "code": "G05",
+  "subj": "Geografia",
+  "name": "Questões ambientais e uso da terra",
+  "tier": "complement",
+  "rank": 7,
+  "exp": 0.56,
+  "count": 4,
+  "recent": 2
+ },
+ {
+  "code": "H03",
+  "subj": "História",
+  "name": "Primeira República e modernismo",
+  "tier": "core",
+  "rank": 1,
+  "exp": 1.28,
+  "count": 8,
+  "recent": 5
+ },
+ {
+  "code": "H01",
+  "subj": "História",
+  "name": "Escravização, abolição e racismo",
+  "tier": "core",
+  "rank": 2,
+  "exp": 1.06,
+  "count": 7,
+  "recent": 4
+ },
+ {
+  "code": "H07",
+  "subj": "História",
+  "name": "Revolução Industrial, trabalho e tecnologia",
+  "tier": "core",
+  "rank": 3,
+  "exp": 0.66,
+  "count": 3,
+  "recent": 3
+ },
+ {
+  "code": "H05",
+  "subj": "História",
+  "name": "Ditadura militar e redemocratização",
+  "tier": "core",
+  "rank": 4,
+  "exp": 0.62,
+  "count": 5,
+  "recent": 2
+ },
+ {
+  "code": "H04",
+  "subj": "História",
+  "name": "Era Vargas, populismo e desenvolvimentismo",
+  "tier": "core",
+  "rank": 5,
+  "exp": 0.59,
+  "count": 7,
+  "recent": 1
+ },
+ {
+  "code": "H02",
+  "subj": "História",
+  "name": "Brasil Império e Independência",
+  "tier": "core",
+  "rank": 6,
+  "exp": 0.56,
+  "count": 4,
+  "recent": 2
+ },
+ {
+  "code": "H09",
+  "subj": "História",
+  "name": "Mundo contemporâneo: Israel–Palestina, direitos civis e gênero",
+  "tier": "core",
+  "rank": 7,
+  "exp": 0.56,
+  "count": 4,
+  "recent": 2
+ },
+ {
+  "code": "H08",
+  "subj": "História",
+  "name": "Guerras, totalitarismos e Guerra Fria",
+  "tier": "core",
+  "rank": 8,
+  "exp": 0.43,
+  "count": 7,
+  "recent": 0
+ },
+ {
+  "code": "H06",
+  "subj": "História",
+  "name": "Imperialismo e neocolonialismo",
+  "tier": "complement",
+  "rank": 9,
+  "exp": 0.24,
+  "count": 4,
+  "recent": 0
+ }
+]

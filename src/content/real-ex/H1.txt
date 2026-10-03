@@ -1,0 +1,234 @@
+@R-2016-58
+exclude: gabarito discutível (alternativas C e D parecem incorretas).
+
+@R-2019-56
+o4: III, IV, V.
+key: A
+a: I (V): lideranças radicais apoiavam fugas e quilombos (Antônio Bento, Caifazes). II (V): Nabuco e Rebouças eram abolicionistas monarquistas. V (V): os Caifazes reuniam gente de várias classes, inclusive ex-escravizados.
+b: IV é falsa: a Lei Áurea (1888) aboliu a escravidão sem indenizar os proprietários; a indenização foi um projeto rejeitado.
+c: III é falsa: Palmares foi destruído em 1694, quase dois séculos antes da Confederação Abolicionista (1883).
+d: III e IV são falsas.
+
+@R-2020-55
+stem: O trecho a seguir do jornal O Pharol comentava a lei provincial e tratava dos subsídios à imigração de trabalhadores estrangeiros.
+
+"Os mineiros compreendem perfeitamente a necessidade econômica, a força imperativa da civilização, da humanidade e religião, os interesses físicos, morais e intelectuais que determinam o desaparecimento, inadiável e improrrogável do elemento escravizado. [...] Necessário é que desde já surta seus efeitos a lei provincial; para isso é mister que nos estabelecimentos rurais se inicie a construção de cômodos para os trabalhadores livres." (O Pharol, 10 fev. 1888. Juiz de Fora, MG.)
+
+Entre os argumentos utilizados em defesa da vinda de imigrantes para trabalhar no Brasil, no período final da escravidão, é INCORRETO incluir a
+o4: facilidade de inserção dos italianos na sociedade brasileira.
+key: B
+a: Era argumento comum: o trabalhador livre era visto como mais adequado à economia que se modernizava.
+b: Os europeus que vinham para o Brasil eram, em geral, camponeses pobres, sem formação especializada em cafeicultura (planta tropical que não se cultivava na Europa). Logo, este NÃO era um argumento correto.
+c: A ideologia racista da época idealizava o europeu como mais produtivo e "civilizado": argumento usado na defesa da imigração.
+d: A proximidade cultural (religião católica, língua latina) dos italianos era citada como facilitadora da inserção.
+
+@R-2024-54
+stem: Texto I: "Em meio às discussões sobre racismo, o Google mantinha até esta quarta-feira [24/05/2023] em sua loja de aplicativo um jogo chamado 'Simulador de Escravidão'. O game simula pessoas negras que podem ser castigadas ao longo das partidas. [...] Nos comentários, algumas pessoas reclamavam de poucas possibilidades de agressão. A produtora do game, Magnus, informou na plataforma que o 'jogo foi criado para fins de entretenimento' e que condena a escravidão no mundo real." (G1, 24/05/2023, adaptado)
+
+Texto II: Descrição do jogo na loja: "Comércio de escravos no mercado. Compre e venda escravos. Gerencie seus escravos. Proteja seus escravos para evitar que escapem e se levantem. Torne-se um rico proprietário de escravos ou consiga a abolição da escravidão. Existem 3 tipos de escravos: trabalhadores, gladiadores e escravos de prazer. Compre e venda-os." (Classificação: Livre.)
+
+Considerando os textos I e II, é correto afirmar que, ao
+key: C
+a: Castigar pessoas escravizadas por diversão não cumpre função pedagógica; o ensino de História exige contexto e crítica.
+b: O jogo não é simulação histórica do escravismo colonial (inclui "gladiadores" e outros elementos fictícios) e reduz o tema a diversão.
+c: Transformar a escravidão em entretenimento naturaliza a violência e reforça a desumanização que o racismo produziu sobre a população negra.
+d: O texto não discute preços históricos do tráfico; a crítica é ao conteúdo e à banalização, não a um erro de preços.
+
+@R-2017-55
+stem: Em 1888 o escritor paulista Júlio Ribeiro propôs, para a república brasileira, uma bandeira inspirada na dos Estados Unidos (listras e estrelas representando as províncias).
+
+O movimento republicano que surgiu durante o Segundo Reinado buscava, nos Estados Unidos da América, suas principais referências. Entre as características daquele país que mais influenciaram o republicanismo brasileiro está a
+key: B
+a: A cultura protestante não foi o elemento de inspiração: o republicanismo brasileiro era laico/positivista e a elite era católica.
+b: O federalismo norte-americano (estados com autonomia) inspirou os republicanos, sobretudo os paulistas, que queriam autonomia provincial contra a centralização do Império.
+c: A colonização do interior não era um traço que o republicanismo quisesse imitar.
+d: Nos EUA, a escravidão foi resolvida por uma guerra civil; os republicanos brasileiros não a tinham como modelo.
+
+@R-2018-55
+key: B
+a: A elite não queria ficar sob a tutela portuguesa (queria autonomia), mas sem rupturas sociais.
+b: Ao aceitar D. Pedro (um príncipe português) como líder, a elite senhorial buscava manter a ordem social escravista e a unidade do território, evitando transformações mais bruscas.
+c: A elite era conservadora: a república era defendida por poucos liberais urbanos.
+d: A monarquia foi mantida justamente para preservar a ordem; não se impediu o regime monárquico.
+
+@R-2024-57
+stem: Texto I (notícia): "Emprestado para bicentenário, coração de D. Pedro I chega ao Brasil. Relíquia será exposta em festividades da Independência." (Agência Brasil, 07/09/2022.)
+
+Texto II: "Para as elites baianas, a implementação de seu projeto conservador representava um delicado dilema. Ganhar a guerra, expulsando os portugueses e integrando a Província da Bahia ao Império do Brasil significava, inevitavelmente, armar e organizar um contingente populacional potencialmente rebelde. Foi necessário estabelecer uma dura vigilância [...]. As autoridades apelaram para um discurso patriótico, mas encontraram pela frente uma interpretação mais radical do que o desejado. Muitas vezes, soldados e civis resolviam, eles próprios, julgar e prender portugueses como inimigos da Causa do Brasil à revelia de seus superiores." (GUERRA FILHO, Sérgio. A Independência e o protagonismo popular, 2022.)
+
+Sobre a Independência do Brasil, considere as afirmações abaixo.
+I- Foi um fato histórico apropriado por grupos variados, confrontando visões diferentes sobre os eventos ocorridos à época e a maneira de interpretá-los e de celebrá-los atualmente.
+II- Abarcou diferentes movimentos em regiões diversas do país, com objetivos muitas vezes conflitantes, apesar de alguns elementos comuns, como a luta pela ruptura com Portugal.
+III- Foi um processo coordenado pela Corte luso-brasileira no Rio de Janeiro, visando à consolidação de um império liberal com a participação de toda a população brasileira.
+
+Estão corretas as afirmativas
+key: B
+a: III é falsa: o processo não foi coordenado, nem liberal e participativo; houve conflitos (como na Bahia) e exclusão popular.
+b: I e II são verdadeiras: a Independência é disputada na memória e envolveu movimentos regionais com interesses diferentes (como a guerra na Bahia).
+c: III é falsa.
+d: III é falsa, logo a combinação II e III não pode estar correta.
+
+@R-2017-57
+key: A
+a: O pacto entre os estados (política dos governadores, café com leite) controlava o resultado das eleições pela fraude e pelo voto de cabresto.
+b: A mobilização operária e as revoltas urbanas existiram, mas não eram incentivadas pelo regime.
+c: A participação não era livre: o voto era aberto, havia fraude e a maioria da população não votava (analfabetos).
+d: A divisão do poder era oligárquica e desigual, não democrática.
+
+@R-2018-56
+key: A
+a: Canudos (1896-1897, Bahia) e o Cangaço (sertão nordestino) são movimentos sociais rurais da Primeira República.
+b: A Revolta da Vacina (1904) foi urbana, no Rio de Janeiro.
+c: A Revolta da Armada (1893-94) foi militar e naval; as Ligas Camponesas são dos anos 1950.
+d: A Guerra do Contestado (1912-1916) foi rural, mas a Revolta da Chibata (1910) foi dos marinheiros no Rio de Janeiro.
+
+@R-2020-60
+stem: Os textos abaixo expressam posições relativas a projetos de identidade e desenvolvimento para o Brasil durante a Primeira República.
+
+Texto I: "Assim esgotando a terra, deixamos também de formar a nação. Abandonando a terra, e não cuidando da nação, abandonamos a Pátria, porque a Pátria é a terra, com o habitat, mas principalmente, para o sentimento e para a razão, [é] a nação, isto é, a gente. Fora disto, a palavra 'Pátria' não exprime senão uma imagem supersticiosa – como as de qualquer culto fetichista – ou uma falsidade convencional." (TORRES, Alberto. O problema nacional brasileiro, 1914.)
+
+Texto II: "Queremos luz, ar, ventiladores, aeroplanos, reivindicações obreiras, idealismos, motores, chaminés de fábricas, sangue, velocidade, sonho na nossa Arte. E que o rufo de um automóvel, nos trilhos de dois versos, espante da poesia o último deus homérico, que ficou, anacronicamente, a dormir e sonhar, na era do jazz band e do cinema, com a frauta dos pastores da Arcádia e os seios de Helena." (DEL PICCHIA, Menotti. Arte moderna, conferência na Semana de Arte Moderna, 1922.)
+
+Os textos I e II representam o debate entre
+key: D
+a: Protecionistas × liberais é um debate econômico sobre tarifas; os textos tratam de identidade e arte.
+b: O debate "nacionalistas × entreguistas" é político-econômico e não aparece nos textos.
+c: Germanistas × americanistas não é debate presente nos textos.
+d: Texto I valoriza a terra, a tradição agrária e a formação da nação (visão tradicionalista); Texto II defende modernidade, indústria, velocidade e ruptura com a arte do passado (vanguarda modernista).
+
+@R-2016-56
+key: D
+a: O trecho trata de influências externas sobre o Estado Novo; não se refere à solução econômica brasileira como pioneira.
+b: O Estado Novo (1937-45) suprimiu direitos políticos e civis; não os garantiu, mesmo seguindo modelos importados.
+c: A legislação trabalhista varguista buscava harmonizar capital e trabalho (corporativismo), não reforçar o antagonismo.
+d: A crise de 1929 mostrou os limites do liberalismo econômico, levando a projetos autoritários (Itália, Alemanha e o Estado Novo) com forte intervenção estatal na economia.
+
+@R-2017-58
+key: B
+a: O texto diz que os liberais (UDN) não atraíam votos; por isso passaram a contestar eleições e apelar às Forças Armadas, não a fazer campanhas eficazes.
+b: Sem apoio das urnas, a UDN aderiu à "manobra do golpe", pedindo a intervenção militar e distorcendo as leis constitucionais.
+c: A defesa da Petrobras era uma bandeira do projeto nacionalista de Vargas, não dos opositores.
+d: O texto afirma o contrário: eles contestaram resultados eleitorais, em vez de respeitar o resultado popular.
+
+@R-2018-58
+key: C
+a: A segunda proposição também é verdadeira.
+b: A primeira é verdadeira (a memória de Vargas ganha interpretações diversas).
+c: Ambas são verdadeiras e a segunda é a causa da primeira: Vargas é ambíguo (avanços e autoritarismo), por isso cada época o reinterpretou.
+d: A segunda proposição explica a primeira (a ambiguidade permite apropriações variadas), logo justifica.
+
+@R-2018-59
+key: A
+a: A modernização dos anos 1950 foi desigual: concentrou-se nas grandes cidades e atingiu principalmente as classes médias e altas; o campo e os pobres ficaram à margem.
+b: O automóvel foi símbolo do progresso, impulsionado pela indústria automobilística do governo JK.
+c: A indústria cultural (rádio, TV, publicidade) se consolidou e uniformizou hábitos de consumo.
+d: Tecidos sintéticos, enlatados e eletrodomésticos foram novos hábitos de consumo urbanos.
+
+@R-2019-58
+stem: Um "talão de greves" emitido pelo Departamento Estadual de Ordem Política e Social (DEOPS) de São Paulo registra um movimento ocorrido na fábrica Calfat & Cia Fiações e Tecelagem:
+• Número de operários: 700 aprox. Mulheres: 400
+• Início da greve: 11/10/1935. Término: 14/10/1935
+• Motivo: aumento salarial
+• Agitadores da fábrica: [nomes]
+• Agitadores estranhos: [nomes]
+• Solução: de acordo
+(Dossiê Fábrica Calfat, DEOPS/SP, Arquivo do Estado de São Paulo.)
+
+A análise desse documento permite constatar que, durante o primeiro governo constitucional de Getúlio Vargas (1934-1937), o movimento operário era
+key: A
+a: O documento foi produzido pela polícia política (DEOPS), que registrava greves e "agitadores": o movimento era controlado e monitorado pelo Estado.
+b: O talão não informa a origem dos operários.
+c: O presidente não apoiava greves; as greves eram vigiadas e reprimidas.
+d: Não há indicação de sindicatos anarquistas; o motivo era salarial e o registro é policial.
+
+@R-2019-59
+stem: Texto 1: "O projeto de incorporação da Petróleo Brasileiro Sociedade Anônima, ou, mais simplesmente, Petrobras, visa captar, para o desenvolvimento da indústria brasileira do petróleo, as fontes de receita de que necessita e a centralização de iniciativas que lhe é indispensável. Mais ainda, consolida a orientação nacionalista, de que nunca se afastou o meu governo e que espero poder sustentar até o fim, contra todos os adversários descobertos ou embuçados e os inimigos da nossa emancipação econômica." (Getúlio Vargas, Candeias, Bahia, 23 de junho de 1952.)
+
+Texto 2: "Rendo homenagem muito especial, por fim, a todos os que defenderam a Petrobras quando ela foi atacada ao longo de sua história – e ainda hoje – e aos funcionários e petroleiros que se mantiveram de pé quando a empresa passou a ser tratada como uma herança maldita do período jurássico. Benditos amigos e companheiros do dinossauro, que sobreviveu à extinção, deu a volta por cima, mostrou o seu valor. E descobriu o pré-sal – patrimônio da União, riqueza do Brasil e passaporte para o nosso futuro." (Pronunciamento do Presidente Luiz Inácio Lula da Silva, 06 de setembro de 2009.)
+
+Sobre os textos 1 e 2, produzidos em momentos distintos, é correto afirmar que
+key: B
+a: Ambos defendem a empresa estatal e a orientação nacionalista, o oposto do Estado liberal.
+b: Os dois presidentes defendem a Petrobras como instrumento do Estado para o desenvolvimento nacional e a "emancipação econômica": convergem para a ideia de Estado protagonista.
+c: Os textos concordam no papel da empresa estatal; não divergem.
+d: O discurso desenvolvimentista dos dois valoriza o Estado e a empresa nacional, e não o predomínio do capital privado.
+
+@R-2016-59
+key: D
+a: O imperialismo desestruturou o artesanato local diante de produtos industrializados europeus.
+b: Não houve efetivação de direitos para os dominados; houve exploração e trabalho forçado.
+c: Houve resistências à dominação e a imposição foi violenta.
+d: Nas colônias africanas, a propriedade coletiva da terra foi destruída; impuseram-se trabalhos forçados e impostos para forçar os africanos ao trabalho assalariado.
+
+@R-2017-56
+key: C
+a: O turismo não é característica da anexação em 1898 (e o navio a vapor é anterior); I é falsa.
+b: I e IV são falsas: não havia expansão japonesa como motivo central da anexação do Havaí nos anos de 1890, e o turismo não foi o fator.
+c: II e III são verdadeiras: o arquipélago era posto estratégico no Pacífico para o comércio com a Ásia, e as terras (plantações de açúcar e abacaxi) abriram uma fronteira agrícola para empresas estadunidenses.
+d: IV é falsa como fator central; III é verdadeira, mas a combinação não está completa.
+
+@R-2019-55
+key: C
+a: A acumulação de ouro e prata é característica do mercantilismo (séculos XVI-XVIII).
+b: O trecho fala em partilha da África e busca de mercados, não em especulação financeira nas economias europeias.
+c: A partilha da África ocorreu na fase do neocolonialismo/imperialismo (final do século XIX), impulsionada pela concorrência entre economias industriais por mercados, matérias-primas e lucros.
+d: O tráfico atlântico foi abolido ao longo do século XIX; o neocolonialismo usou ocupação e domínio direto, não o tráfico de escravos.
+
+@R-2024-58
+key: B
+a: A reportagem não nega a importância dos computadores nem trata das contradições do capitalismo.
+b: A reportagem de 1968 expressa o receio de que o computador torne o ser humano obsoleto e ganhe "características humanas", debates que reaparecem hoje com a Inteligência Artificial.
+c: O texto vê a computação como uma "nova fase" da Revolução Industrial ("entra em fase nova"), não como ruptura total.
+d: A reportagem não demonstra entusiasmo com a substituição dos humanos; mostra receio e dúvida.
+
+@R-2025-47
+key: A
+a: O Ludismo (início do século XIX) foi o movimento de operários ingleses que destruíam máquinas por medo de perder o emprego, o mesmo receio de desemprego citado no texto sobre IA.
+b: O socialismo propõe nova organização social e propriedade coletiva; não se resume ao medo das máquinas.
+c: O anarquismo defende a abolição do Estado.
+d: O liberalismo defende a livre iniciativa e a liberdade econômica, e não tem a bandeira contra as máquinas.
+
+@R-2026-46
+exclude: depende dos textos I e II do caderno (não reproduzidos).
+
+@R-2016-55
+key: A
+a: Com milhares de ogivas, EUA e URSS tinham arsenal para destruir o mundo várias vezes (efeito de dissuasão chamado "destruição mútua assegurada").
+b: Houve guerras regionais indiretas (Coreia, Vietnã, Afeganistão), por procuração das superpotências.
+c: Os testes aumentaram o temor do uso de armas nucleares, em vez de gerar a sensação de que não seriam usadas.
+d: As áreas de influência foram disputadas (Cuba, Vietnã, Angola), não permaneceram intocáveis.
+
+@R-2016-60
+key: A
+a: Na Itália, a crise do pós-guerra levou à ascensão do fascismo (Mussolini) e ao fim da democracia, não ao seu fortalecimento.
+b: A Guerra Civil Espanhola (1936-39) opôs a república a nacionalistas liderados por Franco.
+c: Na Inglaterra a democracia liberal foi mantida, apesar da crise econômica.
+d: Em Portugal, o Estado Novo de Salazar era autoritário, nacionalista, católico e corporativista.
+
+@R-2018-57
+key: B
+a: O fascismo combatia o socialismo e o movimento operário.
+b: A educação fascista, com disciplina e preparo militar, formava cidadãos nacionalistas e obedientes à hierarquia (culto ao Duce).
+c: O fascismo era autoritário; não formava defensores da democracia e liberdades.
+d: O fascismo era conservador quanto ao papel feminino e rejeitava a emancipação das mulheres.
+
+@R-2020-57
+key: C
+a: A propaganda nazista visava eliminar divergências, apresentando uma única visão.
+b: Simplificar a comunicação para as massas (slogans) é o que o texto diz.
+c: Hitler defende repetir poucos slogans para massas de pouca capacidade crítica: o objetivo não era construir debate, e sim impor mensagens.
+d: A linguagem era ferramenta de persuasão emocional.
+
+@R-2017-60
+key: D
+a: O soul não surgiu da recusa de participação política, e sim ligado ao movimento por direitos civis.
+b: O movimento hippie e os festivais brancos são outra vertente cultural.
+c: O texto não trata de repressão militar a estudantes.
+d: O soul surge das canções do movimento por direitos civis e expressa o orgulho negro e a luta pela afirmação de sua identidade.
+
+@R-2020-58
+key: A
+a: O currículo exaltava a história dos judeus e diminuía a árabe, para criar pertencimento e lealdade ao Estado de Israel por meio da educação.
+b: O texto mostra que a diversidade religiosa e a história árabe eram minimizadas.
+c: O currículo reforçava a identidade nacional, mas não buscava o isolamento como objetivo.
+d: O currículo não assimilava diferenças entre árabes e palestinos; acentuava a visão negativa dos árabes.

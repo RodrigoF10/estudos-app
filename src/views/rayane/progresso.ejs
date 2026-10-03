@@ -39,7 +39,7 @@
         </div>
         <% if (dashboardData.simulados.length > 0) { %>
           <div class="card">
-            <h2 class="mt-0">Notas nos simulados</h2>
+            <h2 class="mt-0">Acertos nos simulados (equivalente a 50)</h2>
             <canvas id="chart-simulados"></canvas>
           </div>
         <% } %>
@@ -56,7 +56,7 @@
           <div class="theme-row">
             <div>
               <%= t.theme.name %>
-              <% if (t.theme.low_priority) { %><span class="low-tag">baixa prioridade</span><% } %>
+              <% if (t.theme.tier !== 'core') { %><span class="low-tag">complemento</span><% } %>
             </div>
             <span class="badge badge-<%= t.stats.level.key %>"><%= t.stats.level.emoji %> <%= t.stats.level.label %></span>
           </div>

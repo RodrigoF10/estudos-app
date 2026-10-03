@@ -1,0 +1,513 @@
+# Geografia — G07 (globalização e geopolítica), G06 (economia e energia), G03 (urbanização), G02 (população), G05 (questões ambientais)
+
+# ===================== G07 =====================
+
+@A-G07-01 N1
+stem: A globalização é um processo caracterizado pela intensificação dos fluxos de mercadorias, capitais, informações e pessoas entre países. Esse processo foi acelerado principalmente
+o1: pelo fechamento das fronteiras comerciais entre os países.
+o2: pelo desenvolvimento dos meios de transporte e de comunicação, como a internet.
+o3: pelo fim da produção industrial nos países ricos.
+o4: pela redução do comércio internacional.
+key: B
+a: O fechamento das fronteiras comerciais é o contrário da globalização, que se baseia no aumento das trocas.
+b: Transportes mais rápidos e telecomunicações (internet, satélites) aproximaram mercados e encurtaram distâncias.
+c: Os países ricos continuam industrializados; muitas empresas apenas instalaram fábricas em outros países.
+d: A globalização aumentou o comércio mundial e não o reduziu.
+
+@A-G07-02 N1
+stem: O Índice de Desenvolvimento Humano (IDH) é utilizado para comparar a qualidade de vida entre países. Esse índice leva em conta três dimensões:
+o1: renda, educação e longevidade (saúde).
+o2: população, território e clima.
+o3: exportações, importações e dívida externa.
+o4: religião, idioma e cultura.
+key: A
+a: O IDH combina renda (PIB per capita), educação (anos de estudo) e longevidade (expectativa de vida ao nascer).
+b: População, território e clima não fazem parte do cálculo do IDH.
+c: Exportações, importações e dívida são indicadores de economia, mas não compõem o IDH.
+d: Religião, idioma e cultura não entram no IDH.
+
+@A-G07-03 N2
+sup: <p>Um bloco econômico reúne países europeus que adotam uma moeda única (o euro) em boa parte de seus membros, permitem a livre circulação de pessoas, bens e capitais e têm instituições comuns, como o Parlamento Europeu.</p>
+stem: Esse bloco é a
+o1: Mercosul.
+o2: Opep.
+o3: União Europeia.
+o4: Otan.
+key: C
+a: O Mercosul reúne países da América do Sul e não tem moeda única nem livre circulação plena.
+b: A Opep é uma organização de países exportadores de petróleo e não um bloco de integração europeia.
+c: A União Europeia é o bloco de integração mais avançada, com moeda única e livre circulação entre os países do espaço comum.
+d: A Otan é uma aliança militar, e não um bloco econômico.
+
+@A-G07-04 N2
+sup: <p>Os países que compõem uma organização controlam a produção e os preços de uma importante matéria-prima energética no mercado mundial. Entre seus membros estão Arábia Saudita, Irã, Iraque, Kuwait e Venezuela.</p>
+stem: Essa organização é a
+o1: Organização Mundial do Comércio (OMC).
+o2: Organização dos Países Exportadores de Petróleo (Opep).
+o3: Organização das Nações Unidas (ONU).
+o4: Fundo Monetário Internacional (FMI).
+key: B
+a: A OMC trata das regras do comércio internacional; ela não controla a produção de uma matéria-prima.
+b: A Opep reúne grandes exportadores de petróleo, que coordenam a produção e influenciam o preço mundial do produto.
+c: A ONU trabalha pela paz e pela cooperação internacional; não regula a produção de petróleo.
+d: O FMI empresta recursos a países em dificuldades financeiras e não controla a produção de petróleo.
+
+@A-G07-05 N2
+sup: <p>Uma empresa de eletrônicos projeta seus produtos em seu país de origem, desenvolvido, mas instala as fábricas em outros países, onde a mão de obra é mais barata e há incentivos fiscais.</p>
+stem: Essa estratégia é típica
+o1: de empresas estatais, que atuam apenas no mercado interno de um único país.
+o2: das cooperativas agrícolas, que produzem apenas para o consumo local.
+o3: do artesanato, cuja produção é feita à mão e em pequena escala.
+o4: das multinacionais, que dividem a produção entre vários países para reduzir custos e aumentar lucros.
+key: D
+a: Estatais atuam em um país; o texto trata de produção espalhada por diferentes países.
+b: Cooperativas agrícolas não instalam fábricas de eletrônicos em outros países.
+c: O artesanato não envolve fábricas nem produção em escala global.
+d: As multinacionais organizam a produção em escala mundial, escolhendo locais com menores custos e melhores condições.
+
+@A-G07-06 N3 julgar afirmativas
+stem: Sobre a globalização, analise as afirmativas.
+I. Ela ampliou a circulação de capitais, mercadorias e informações entre os países.
+II. Ela não eliminou as desigualdades entre os países, que continuam presentes.
+III. Os países desenvolvidos concentram a sede da maioria das grandes empresas multinacionais e a produção de tecnologia de ponta.
+IV. Todos os países passaram a ter o mesmo nível de desenvolvimento econômico.
+Estão corretas apenas
+o1: I e II.
+o2: I, II e III.
+o3: II, III e IV.
+o4: I, II, III e IV.
+key: B
+a: I e II são verdadeiras, mas III também é: as sedes das grandes multinacionais e a tecnologia de ponta estão concentradas nos países ricos.
+b: I, II e III estão corretas. A IV é falsa: as desigualdades entre países permanecem.
+c: A IV é falsa, e a I é verdadeira; a alternativa exclui I, que está correta.
+d: A IV é falsa, pois a globalização não igualou o nível de desenvolvimento dos países.
+
+@A-G07-07 N3
+sup: <table class="qt"><caption>Indicadores de quatro países fictícios (valores ilustrativos)</caption><tr><th>País</th><th>Renda per capita (US$/ano)</th><th>Expectativa de vida (anos)</th><th>Anos médios de estudo</th></tr><tr><td>A</td><td>45.000</td><td>82</td><td>13</td></tr><tr><td>B</td><td>20.000</td><td>80</td><td>12</td></tr><tr><td>C</td><td>8.000</td><td>70</td><td>8</td></tr><tr><td>D</td><td>25.000</td><td>68</td><td>6</td></tr></table>
+stem: Uma conclusão sustentada pelos dados da tabela é que
+o1: a renda per capita é sempre suficiente para garantir indicadores melhores de saúde e educação.
+o2: o país C tem melhor desenvolvimento humano que o país D, pois tem renda menor.
+o3: o país D tem renda per capita maior que a do B, mas indicadores de saúde e educação piores; renda alta, sozinha, não garante bom desenvolvimento humano.
+o4: a escolaridade de um país não tem nenhuma relação com a renda per capita dele.
+key: C
+a: O país D contradiz essa ideia: tem renda alta e indicadores sociais baixos.
+b: A justificativa é inválida: renda menor não torna o desenvolvimento humano melhor. Embora C tenha indicadores sociais melhores que D, a causa apontada (“pois tem renda menor”) não é sustentada pelos dados.
+c: A renda de D (25.000) é maior que a de B (20.000), mas a expectativa de vida (68 contra 80) e os anos de estudo (6 contra 12) são menores. Logo, renda alta não garante, por si só, bom desenvolvimento humano.
+d: Nos países A, B e C, rendas maiores acompanham mais anos de estudo; afirmar que não há relação alguma é um exagero.
+
+@A-G07-08 N1
+sup: <p>Uma pessoa deixa o seu país por causa de guerra, perseguição por motivos políticos, religiosos ou étnicos, ou graves violações de direitos humanos, e busca proteção em outro país.</p>
+stem: Essa pessoa é classificada como
+o1: turista.
+o2: refugiada.
+o3: emigrante pendular.
+o4: nômade.
+key: B
+a: O turista viaja por lazer e retorna ao seu país.
+b: O refugiado é quem foge de guerra ou perseguição e precisa de proteção internacional.
+c: A migração pendular é o deslocamento diário entre cidades próximas, para trabalho ou estudo.
+d: O nômade é quem não tem moradia fixa e se desloca de modo contínuo, por cultura ou sobrevivência, e não por perseguição.
+
+# ===================== G06 =====================
+
+@A-G06-01 N1
+stem: No Brasil, a principal fonte de geração de energia elétrica é
+o1: a energia hidráulica, das usinas hidrelétricas.
+o2: a energia nuclear, produzida nas usinas de Angra dos Reis.
+o3: o carvão mineral, queimado em usinas termelétricas.
+o4: a energia solar, em usinas instaladas no Nordeste.
+key: A
+a: A energia hidráulica, de hidrelétricas como Itaipu e Belo Monte, responde pela maior parte da eletricidade do país.
+b: A energia nuclear tem participação pequena na matriz elétrica brasileira.
+c: O carvão mineral tem participação muito pequena na geração de eletricidade no Brasil.
+d: A solar cresceu bastante, mas ainda é menor que a hidráulica.
+
+@A-G06-02 N1
+stem: Os setores da economia agrupam as atividades segundo seu tipo. O comércio e a prestação de serviços (bancos, escolas, hospitais, transportes) pertencem ao setor
+o1: primário.
+o2: secundário.
+o3: terciário.
+o4: extrativista.
+key: C
+a: O setor primário reúne atividades de extração e produção de matérias-primas, como agricultura e pecuária.
+b: O setor secundário reúne as indústrias, que transformam matéria-prima em produtos.
+c: Comércio e serviços formam o setor terciário, que tem a maior participação no PIB brasileiro.
+d: Extrativismo é uma atividade do setor primário e não um setor próprio.
+
+@A-G06-03 N1
+stem: Entre as fontes de energia abaixo, a que é considerada renovável é a
+o1: eólica, que usa a força dos ventos.
+o2: derivada do petróleo.
+o3: do carvão mineral.
+o4: do gás natural.
+key: A
+a: O vento se renova continuamente na natureza; por isso a energia eólica é renovável.
+b: Os derivados do petróleo vêm de um combustível fóssil, que leva milhões de anos para se formar.
+c: O carvão mineral é um combustível fóssil, não renovável.
+d: O gás natural é um combustível fóssil, esgotável.
+
+@A-G06-04 N2
+stem: A região Sudeste, em especial o estado de São Paulo, concentra a maior parte da indústria brasileira. Entre os motivos históricos para isso está
+o1: a existência de grandes jazidas de petróleo em todo o interior paulista, usadas como energia.
+o2: o capital acumulado com a economia cafeeira, que financiou fábricas, ferrovias e a formação de um grande mercado consumidor.
+o3: a ausência de população nessa região, o que reduzia os custos de produção.
+o4: o clima seco, que impedia a agricultura e levava as pessoas para a indústria.
+key: B
+a: O petróleo brasileiro está principalmente no mar, e não em todo o interior paulista.
+b: O café gerou capital, infraestrutura (ferrovias, portos), imigrantes e mercado consumidor, condições que impulsionaram a industrialização do Sudeste.
+c: A região é muito populosa, o que favorece o mercado consumidor e a mão de obra.
+d: O interior paulista teve clima favorável ao café; o clima seco não explica a concentração industrial.
+
+@A-G06-05 N2 cálculo
+sup: <svg viewBox="0 0 300 236" width="300" height="236" role="img" aria-label="Gráfico de barras horizontais com a participação de cada fonte na geração de eletricidade no Brasil: hidráulica 60 por cento, eólica 13, biomassa 8, solar 7, gás natural 6, nuclear 2 e outras 4"><line x1="96.0" y1="8" x2="96.0" y2="210" stroke="#d6d8e6"/><text x="96.0" y="222" font-size="9" text-anchor="middle">0</text><line x1="122.3" y1="8" x2="122.3" y2="210" stroke="#d6d8e6"/><text x="122.3" y="222" font-size="9" text-anchor="middle">10</text><line x1="148.6" y1="8" x2="148.6" y2="210" stroke="#d6d8e6"/><text x="148.6" y="222" font-size="9" text-anchor="middle">20</text><line x1="174.9" y1="8" x2="174.9" y2="210" stroke="#d6d8e6"/><text x="174.9" y="222" font-size="9" text-anchor="middle">30</text><line x1="201.1" y1="8" x2="201.1" y2="210" stroke="#d6d8e6"/><text x="201.1" y="222" font-size="9" text-anchor="middle">40</text><line x1="227.4" y1="8" x2="227.4" y2="210" stroke="#d6d8e6"/><text x="227.4" y="222" font-size="9" text-anchor="middle">50</text><line x1="253.7" y1="8" x2="253.7" y2="210" stroke="#d6d8e6"/><text x="253.7" y="222" font-size="9" text-anchor="middle">60</text><line x1="280.0" y1="8" x2="280.0" y2="210" stroke="#d6d8e6"/><text x="280.0" y="222" font-size="9" text-anchor="middle">70</text><text x="90" y="25" font-size="10" text-anchor="end">Hidráulica</text><rect x="96" y="12" width="157.7" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="257.7" y="25" font-size="9">60</text><text x="90" y="53" font-size="10" text-anchor="end">Eólica</text><rect x="96" y="40" width="34.2" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="134.2" y="53" font-size="9">13</text><text x="90" y="81" font-size="10" text-anchor="end">Biomassa</text><rect x="96" y="68" width="21.0" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="121.0" y="81" font-size="9">8</text><text x="90" y="109" font-size="10" text-anchor="end">Solar</text><rect x="96" y="96" width="18.4" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="118.4" y="109" font-size="9">7</text><text x="90" y="137" font-size="10" text-anchor="end">Gás natural</text><rect x="96" y="124" width="15.8" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="115.8" y="137" font-size="9">6</text><text x="90" y="165" font-size="10" text-anchor="end">Nuclear</text><rect x="96" y="152" width="5.3" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="105.3" y="165" font-size="9">2</text><text x="90" y="193" font-size="10" text-anchor="end">Outras</text><rect x="96" y="180" width="10.5" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="110.5" y="193" font-size="9">4</text><text x="294" y="234" font-size="9" text-anchor="end">% da geração de eletricidade</text></svg><p class="src">Valores arredondados e ilustrativos. “Outras” inclui carvão e derivados de petróleo. Considere renováveis: hidráulica, eólica, biomassa e solar.</p>
+stem: Segundo o gráfico, as fontes renováveis respondem, em conjunto, por
+o1: 60%.
+o2: 73%.
+o3: 80%.
+o4: 88%.
+key: D
+a: 60% é a participação apenas da hidráulica.
+b: 73% soma a hidráulica e a eólica com a solar, deixando a biomassa de fora.
+c: 80% soma as renováveis e deixa de fora a solar.
+d: 60 + 13 + 8 + 7 = 88%.
+
+@A-G06-06 N3
+sup: <table class="qt"><caption>Comércio exterior de um país fictício (bilhões de dólares, valores ilustrativos)</caption><tr><th>Ano</th><th>Exportações</th><th>Importações</th></tr><tr><td>I</td><td>280</td><td>230</td></tr><tr><td>II</td><td>340</td><td>270</td></tr><tr><td>III</td><td>300</td><td>305</td></tr></table><p class="src">Saldo da balança comercial = exportações − importações. Saldo positivo é superávit; saldo negativo é déficit.</p>
+stem: O ano com o maior superávit e o ano em que houve déficit na balança comercial foram, respectivamente,
+o1: I e II.
+o2: II e III.
+o3: I e III.
+o4: III e II.
+key: B
+a: I teve superávit de 50, menor que o do ano II (70); II não teve déficit.
+b: Saldos: I = +50; II = +70; III = −5. O maior superávit é o do ano II, e o déficit ocorre no ano III.
+c: O ano I teve superávit de 50; o maior superávit foi 70, no ano II.
+d: O ano III teve déficit, e não o maior superávit; o ano II teve superávit, e não déficit.
+
+@A-G06-07 N3 asserção–razão
+sup: <p>Analise as asserções e a relação entre elas.</p><p><b>I.</b> A economia brasileira é vulnerável às oscilações dos preços internacionais das commodities.</p><p style="text-align:center"><b>PORQUE</b></p><p><b>II.</b> A pauta de exportações do Brasil tem forte peso de commodities, como soja, minério de ferro e petróleo, cujos preços são definidos no mercado internacional.</p>
+stem: A respeito dessas asserções, é correto afirmar que
+o1: ambas as asserções são verdadeiras, e a II justifica a I.
+o2: ambas as asserções são verdadeiras, mas a II não justifica a I.
+o3: a I é verdadeira, e a II é falsa.
+o4: a I é falsa, e a II é verdadeira.
+key: A
+a: A II explica a I: se grande parte do que o país exporta tem preço fixado fora, quedas de preço reduzem a receita.
+b: A II é a razão da I: o peso das commodities na pauta é exatamente o que expõe a economia às variações de preço.
+c: A II é verdadeira: soja, minério de ferro e petróleo estão entre os principais produtos exportados pelo país.
+d: A I é verdadeira; a alternativa a considera falsa.
+
+@A-G06-08 N2 cálculo
+sup: <table class="qt"><caption>Participação de produtos nas exportações de um país (total: US$ 300 bilhões; valores ilustrativos)</caption><tr><th>Produto</th><th>Participação</th></tr><tr><td>Soja</td><td>25%</td></tr><tr><td>Petróleo</td><td>15%</td></tr><tr><td>Minério de ferro</td><td>12%</td></tr><tr><td>Outros produtos</td><td>48%</td></tr></table>
+stem: O valor exportado de soja e minério de ferro, juntos, foi de
+o1: US$ 37 bilhões.
+o2: US$ 75 bilhões.
+o3: US$ 111 bilhões.
+o4: US$ 144 bilhões.
+key: C
+a: 37 é a soma das porcentagens (25% + 12%) e não o valor em bilhões de dólares.
+b: US$ 75 bilhões é o valor apenas da soja (25% de 300).
+c: (25% + 12%) = 37%. 0,37 · 300 = US$ 111 bilhões.
+d: US$ 144 bilhões é o valor de “outros produtos” (48% de 300).
+
+# ===================== G03 =====================
+
+@A-G03-01 N1
+stem: O processo de aumento da proporção da população que vive nas cidades, em relação à que vive no campo, é chamado de
+o1: êxodo urbano.
+o2: urbanização.
+o3: conurbação.
+o4: colonização.
+key: B
+a: O êxodo urbano é o movimento inverso: pessoas saem da cidade em direção ao campo.
+b: A urbanização é o crescimento da população urbana e da área das cidades em relação à população rural.
+c: Conurbação é a união física entre áreas urbanas de cidades vizinhas.
+d: Colonização é a ocupação e exploração de um território por outro povo ou país.
+
+@A-G03-02 N1
+sup: <p>As áreas urbanas de duas cidades vizinhas, como São Paulo e Guarulhos, cresceram tanto que se encontraram e hoje formam uma só mancha urbana contínua.</p>
+stem: Esse fenômeno é chamado de
+o1: êxodo rural.
+o2: migração pendular.
+o3: conurbação.
+o4: gentrificação.
+key: C
+a: O êxodo rural é a saída de pessoas do campo para a cidade.
+b: A migração pendular é o deslocamento diário entre cidades por trabalho ou estudo.
+c: Conurbação é a junção física entre cidades vizinhas por causa de seu crescimento.
+d: A gentrificação é a valorização de um bairro popular, que expulsa moradores de baixa renda.
+
+@A-G03-03 N1
+sup: <p>No Brasil, a partir da década de 1950, muitos trabalhadores deixaram o campo para viver nas cidades. A mecanização das lavouras reduziu a oferta de empregos rurais, e as indústrias das cidades ofereciam trabalho.</p>
+stem: Esse deslocamento da população do campo para a cidade é chamado de
+o1: êxodo rural.
+o2: migração internacional.
+o3: transumância.
+o4: migração pendular.
+key: A
+a: O êxodo rural é a saída de trabalhadores do campo para a cidade, motivada por falta de emprego e pela mecanização.
+b: A migração internacional ocorre entre países; o texto trata de deslocamento dentro do Brasil.
+c: A transumância é o deslocamento sazonal de rebanhos entre pastagens.
+d: A migração pendular é o deslocamento diário de ida e volta, e não a mudança definitiva de moradia.
+
+@A-G03-04 N2
+sup: <p>Em muitas cidades, quando chove forte, ruas e avenidas ficam alagadas. Nelas, grande parte do solo foi coberto por asfalto e concreto, e os rios foram canalizados.</p>
+stem: Esses alagamentos são agravados porque
+o1: o asfalto absorve a água da chuva e a devolve em seguida ao solo.
+o2: o solo coberto aumenta a infiltração da água e eleva o lençol freático.
+o3: a vegetação urbana é abundante e retém toda a água da chuva.
+o4: o solo impermeabilizado impede a infiltração da água, e a chuva escorre rapidamente para as áreas baixas.
+key: D
+a: O asfalto e o concreto são impermeáveis e não absorvem a água da chuva.
+b: A cobertura do solo diminui a infiltração; ela não a aumenta.
+c: Nas cidades que sofrem alagamentos, falta vegetação, e não sobra.
+d: Sem solo exposto, a água não se infiltra e escoa pela superfície, sobrecarregando bueiros e rios e causando enchentes.
+
+@A-G03-05 N2
+sup: <p>Medições de temperatura mostram que o centro de uma grande cidade, com muitos prédios, asfalto e pouca vegetação, pode ser vários graus mais quente que as áreas rurais próximas.</p>
+stem: Esse fenômeno é chamado de
+o1: inversão térmica.
+o2: ilha de calor.
+o3: efeito estufa natural.
+o4: chuva ácida.
+key: B
+a: A inversão térmica ocorre quando uma camada de ar frio fica presa sob uma camada de ar quente e retém poluentes.
+b: A ilha de calor é a elevação de temperatura em áreas urbanas, causada por concreto, asfalto, pouca vegetação e calor de veículos e indústrias.
+c: O efeito estufa natural afeta todo o planeta e não diferencia o centro da cidade de áreas rurais próximas.
+d: A chuva ácida é uma precipitação com poluentes e não uma diferença de temperatura entre áreas.
+
+@A-G03-06 N2
+sup: <svg viewBox="0 0 396 170" width="396" height="170" role="img" aria-label="Gráfico de linha com a porcentagem da população urbana do Brasil: 36 por cento em 1950, 45 em 1960, 56 em 1970, 68 em 1980, 76 em 1991, 81 em 2000 e 84 em 2010"><line x1="46" y1="134.0" x2="388" y2="134.0" stroke="#d6d8e6"/><text x="40" y="137.0" font-size="9" text-anchor="end">0</text><line x1="46" y1="111.6" x2="388" y2="111.6" stroke="#d6d8e6"/><text x="40" y="114.6" font-size="9" text-anchor="end">20</text><line x1="46" y1="89.2" x2="388" y2="89.2" stroke="#d6d8e6"/><text x="40" y="92.2" font-size="9" text-anchor="end">40</text><line x1="46" y1="66.8" x2="388" y2="66.8" stroke="#d6d8e6"/><text x="40" y="69.8" font-size="9" text-anchor="end">60</text><line x1="46" y1="44.4" x2="388" y2="44.4" stroke="#d6d8e6"/><text x="40" y="47.4" font-size="9" text-anchor="end">80</text><line x1="46" y1="22.0" x2="388" y2="22.0" stroke="#d6d8e6"/><text x="40" y="25.0" font-size="9" text-anchor="end">100</text><line x1="46" y1="16" x2="46" y2="134" stroke="#555"/><line x1="46" y1="134" x2="388" y2="134" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="68.0,93.7 116.0,83.6 164.0,71.3 212.0,57.8 260.0,48.9 308.0,43.3 356.0,39.9"/><circle cx="68.0" cy="93.7" r="3" fill="#4351c9"/><text x="68.0" y="87.7" font-size="9" text-anchor="middle">36</text><text x="68.0" y="147" font-size="9" text-anchor="middle">1950</text><circle cx="116.0" cy="83.6" r="3" fill="#4351c9"/><text x="116.0" y="77.6" font-size="9" text-anchor="middle">45</text><text x="116.0" y="147" font-size="9" text-anchor="middle">1960</text><circle cx="164.0" cy="71.3" r="3" fill="#4351c9"/><text x="164.0" y="65.3" font-size="9" text-anchor="middle">56</text><text x="164.0" y="147" font-size="9" text-anchor="middle">1970</text><circle cx="212.0" cy="57.8" r="3" fill="#4351c9"/><text x="212.0" y="51.8" font-size="9" text-anchor="middle">68</text><text x="212.0" y="147" font-size="9" text-anchor="middle">1980</text><circle cx="260.0" cy="48.9" r="3" fill="#4351c9"/><text x="260.0" y="42.9" font-size="9" text-anchor="middle">76</text><text x="260.0" y="147" font-size="9" text-anchor="middle">1991</text><circle cx="308.0" cy="43.3" r="3" fill="#4351c9"/><text x="308.0" y="37.3" font-size="9" text-anchor="middle">81</text><text x="308.0" y="147" font-size="9" text-anchor="middle">2000</text><circle cx="356.0" cy="39.9" r="3" fill="#4351c9"/><text x="356.0" y="33.9" font-size="9" text-anchor="middle">84</text><text x="356.0" y="147" font-size="9" text-anchor="middle">2010</text><text x="4" y="12" font-size="9">% da população urbana</text></svg><p class="src">Valores aproximados, com base em dados do IBGE.</p>
+stem: O gráfico mostra que o Brasil passou a ter mais população urbana do que rural, isto é, mais de 50% de população urbana, a partir da década de
+o1: 1950.
+o2: 1960.
+o3: 1970.
+o4: 1980.
+key: C
+a: Em 1950, apenas cerca de 36% da população vivia nas cidades.
+b: Em 1960, a população urbana ainda era de cerca de 45%, menor que 50%.
+c: Em 1970, a população urbana chegou a cerca de 56%, passando a maioria.
+d: Em 1980 o índice já era de cerca de 68%, mas a maioria urbana já existia desde a década anterior.
+
+@A-G03-07 N3
+sup: <p>Os moradores de uma pequena cidade do interior precisam viajar 200 km até uma capital regional para realizar exames de alta complexidade e fazer cursos universitários. Para outros serviços, a capital regional depende de uma metrópole.</p>
+stem: Essa situação exemplifica
+o1: a hierarquia urbana: cidades maiores oferecem serviços mais especializados e exercem influência sobre as menores.
+o2: a conurbação entre a pequena cidade e a capital regional, que se uniram fisicamente.
+o3: o êxodo rural, que esvazia o campo e leva pessoas para as cidades.
+o4: a independência entre as cidades da rede urbana, que não se influenciam.
+key: A
+a: Na rede urbana, as cidades se organizam em níveis: as maiores oferecem serviços raros e atraem moradores das menores.
+b: Conurbação exige cidades vizinhas e contíguas; as cidades do texto estão a 200 km uma da outra.
+c: O êxodo rural é a saída do campo para as cidades; o texto trata do deslocamento entre cidades.
+d: O texto mostra dependência entre as cidades, o contrário de independência.
+
+@A-G03-08 N3 julgar afirmativas
+stem: Sobre a urbanização brasileira, analise as afirmativas.
+I. A conurbação ocorre quando o crescimento de cidades vizinhas faz com que elas se unam fisicamente.
+II. A urbanização brasileira foi rápida e se intensificou a partir da década de 1950, ligada à industrialização.
+III. O crescimento acelerado, sem planejamento, contribuiu para problemas como moradias precárias, trânsito e deficiências de saneamento.
+IV. A infraestrutura urbana é igual em todas as áreas de uma mesma cidade.
+Estão corretas apenas
+o1: I e II.
+o2: II e III.
+o3: I, II e III.
+o4: I, II, III e IV.
+key: C
+a: I e II estão corretas, mas a III também: o crescimento rápido sem planejamento gerou esses problemas.
+b: II e III estão corretas, mas a I também: conurbação é a união de áreas urbanas vizinhas.
+c: I, II e III estão corretas. A IV é falsa: bairros centrais e periféricos têm infraestrutura bem diferente.
+d: A IV é falsa: as cidades brasileiras têm grandes desigualdades de infraestrutura entre áreas.
+
+# ===================== G02 =====================
+
+@A-G02-01 N1 cálculo
+sup: <p>Em um país, a taxa de natalidade é de 18 nascimentos por mil habitantes ao ano, e a taxa de mortalidade é de 6 mortes por mil habitantes ao ano. Crescimento vegetativo = natalidade − mortalidade.</p>
+stem: O crescimento vegetativo desse país é de
+o1: 24 por mil habitantes ao ano.
+o2: 3 por mil habitantes ao ano.
+o3: 108 por mil habitantes ao ano.
+o4: 12 por mil habitantes ao ano.
+key: D
+a: 24 resulta de somar natalidade e mortalidade, em vez de subtrair.
+b: 3 resulta de dividir 18 por 6, e o cálculo correto é uma subtração.
+c: 108 resulta de multiplicar as taxas.
+d: 18 − 6 = 12 por mil habitantes ao ano, ou 1,2% ao ano.
+
+@A-G02-02 N1 cálculo
+sup: <p>Um município tem 200.000 habitantes e uma área de 100 km². Densidade demográfica = população ÷ área.</p>
+stem: A densidade demográfica desse município é de
+o1: 2.000 habitantes por km².
+o2: 20.000 habitantes por km².
+o3: 200 habitantes por km².
+o4: 0,0005 habitante por km².
+key: A
+a: 200.000 ÷ 100 = 2.000 hab/km².
+b: 20.000 resulta de errar uma casa decimal na divisão.
+c: 200 resulta de errar uma casa decimal na divisão.
+d: 0,0005 resulta de dividir a área pela população, o inverso do cálculo.
+
+@A-G02-03 N1
+sup: <svg viewBox="0 0 340 170" width="340" height="170" role="img" aria-label="Duas pirâmides etárias. País A: base larga, com muitos jovens, e topo estreito, com poucos idosos. País B: base estreita, com poucos jovens, e topo mais largo, com muitos idosos."><rect x="79" y="24" width="6" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="85" y="24" width="6" height="22" fill="#f5a3b8" stroke="#c0446a"/><rect x="73" y="50" width="12" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="85" y="50" width="12" height="22" fill="#f5a3b8" stroke="#c0446a"/><rect x="65" y="76" width="20" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="85" y="76" width="20" height="22" fill="#f5a3b8" stroke="#c0446a"/><rect x="55" y="102" width="30" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="85" y="102" width="30" height="22" fill="#f5a3b8" stroke="#c0446a"/><rect x="43" y="128" width="42" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="85" y="128" width="42" height="22" fill="#f5a3b8" stroke="#c0446a"/><text x="85" y="14" font-size="11" font-weight="bold" text-anchor="middle">País A</text><text x="65" y="162" font-size="9" text-anchor="middle">Homens</text><text x="105" y="162" font-size="9" text-anchor="middle">Mulheres</text><rect x="233" y="24" width="22" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="255" y="24" width="22" height="22" fill="#f5a3b8" stroke="#c0446a"/><rect x="227" y="50" width="28" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="255" y="50" width="28" height="22" fill="#f5a3b8" stroke="#c0446a"/><rect x="227" y="76" width="28" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="255" y="76" width="28" height="22" fill="#f5a3b8" stroke="#c0446a"/><rect x="231" y="102" width="24" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="255" y="102" width="24" height="22" fill="#f5a3b8" stroke="#c0446a"/><rect x="237" y="128" width="18" height="22" fill="#7c8cff" stroke="#4351c9"/><rect x="255" y="128" width="18" height="22" fill="#f5a3b8" stroke="#c0446a"/><text x="255" y="14" font-size="11" font-weight="bold" text-anchor="middle">País B</text><text x="235" y="162" font-size="9" text-anchor="middle">Homens</text><text x="275" y="162" font-size="9" text-anchor="middle">Mulheres</text><text x="170" y="39" font-size="9" text-anchor="middle">60+</text><text x="170" y="65" font-size="9" text-anchor="middle">45–59</text><text x="170" y="91" font-size="9" text-anchor="middle">30–44</text><text x="170" y="117" font-size="9" text-anchor="middle">15–29</text><text x="170" y="143" font-size="9" text-anchor="middle">0–14</text><text x="170" y="12" font-size="8" text-anchor="middle">idade</text></svg>
+stem: As figuras representam as pirâmides etárias de dois países. O país A, de base larga e topo estreito, e o país B, de base estreita e topo mais largo, indicam, respectivamente,
+o1: população envelhecida no país A e população jovem no país B.
+o2: população jovem em ambos os países, com alta natalidade nos dois.
+o3: população envelhecida em ambos os países, com baixa natalidade nos dois.
+o4: população jovem, de alta natalidade, e população em processo de envelhecimento, de baixa natalidade.
+key: D
+a: Inverte os perfis: base larga indica muitos jovens, e não população envelhecida.
+b: O país B tem base estreita, o que indica poucos jovens.
+c: O país A tem base larga, o que indica muitos jovens e não população envelhecida.
+d: A base larga do país A indica muitos jovens e alta natalidade. A base estreita e o topo largo do país B indicam poucos jovens e muitos idosos.
+
+@A-G02-04 N2
+sup: <p>Em um país, a taxa de mortalidade caiu bastante graças à vacinação e ao saneamento básico, mas a taxa de natalidade continuou alta por algum tempo. Mais tarde, a natalidade também caiu.</p>
+stem: Na transição demográfica, o período em que a mortalidade já caiu e a natalidade ainda é alta caracteriza-se por
+o1: diminuição rápida da população.
+o2: estabilidade, sem crescimento populacional.
+o3: crescimento populacional acelerado.
+o4: envelhecimento imediato da população.
+key: C
+a: Com muitos nascimentos e menos mortes, a população cresce; ela não diminui.
+b: A população só se estabiliza quando natalidade e mortalidade ficam baixas e próximas.
+c: Se a natalidade é alta e a mortalidade baixa, o crescimento vegetativo é grande e a população cresce rapidamente.
+d: O envelhecimento ocorre quando a natalidade cai por muito tempo, e não enquanto ela ainda é alta.
+
+@A-G02-05 N2
+sup: <p>Em um país, a proporção de pessoas em idade ativa (de 15 a 64 anos) é maior que a de crianças e idosos, que dependem delas. Esse é um período favorável ao crescimento econômico, caso haja empregos e investimentos.</p>
+stem: Esse período é chamado de
+o1: êxodo demográfico.
+o2: explosão demográfica.
+o3: déficit populacional.
+o4: bônus demográfico.
+key: D
+a: Êxodo é a saída de pessoas; o termo não descreve a proporção entre faixas etárias.
+b: Explosão demográfica refere-se ao crescimento muito rápido da população total, e não à proporção de pessoas em idade ativa.
+c: Déficit populacional não é o termo usado para esse fenômeno.
+d: O bônus demográfico ocorre quando há mais pessoas em idade ativa em relação aos dependentes (crianças e idosos).
+
+@A-G02-06 N2
+sup: <svg viewBox="0 0 476 170" width="476" height="170" role="img" aria-label="Gráfico de barras com a população do Brasil, em milhões de habitantes: 52 em 1950, 70 em 1960, 93 em 1970, 119 em 1980, 147 em 1991, 170 em 2000, 191 em 2010 e 203 em 2022"><line x1="46" y1="130.0" x2="468" y2="130.0" stroke="#d6d8e6"/><text x="40" y="133.0" font-size="9" text-anchor="end">0</text><line x1="46" y1="112.0" x2="468" y2="112.0" stroke="#d6d8e6"/><text x="40" y="115.0" font-size="9" text-anchor="end">40</text><line x1="46" y1="94.0" x2="468" y2="94.0" stroke="#d6d8e6"/><text x="40" y="97.0" font-size="9" text-anchor="end">80</text><line x1="46" y1="76.0" x2="468" y2="76.0" stroke="#d6d8e6"/><text x="40" y="79.0" font-size="9" text-anchor="end">120</text><line x1="46" y1="58.0" x2="468" y2="58.0" stroke="#d6d8e6"/><text x="40" y="61.0" font-size="9" text-anchor="end">160</text><line x1="46" y1="40.0" x2="468" y2="40.0" stroke="#d6d8e6"/><text x="40" y="43.0" font-size="9" text-anchor="end">200</text><line x1="46" y1="22.0" x2="468" y2="22.0" stroke="#d6d8e6"/><text x="40" y="25.0" font-size="9" text-anchor="end">240</text><line x1="46" y1="16" x2="46" y2="130" stroke="#555"/><line x1="46" y1="130" x2="468" y2="130" stroke="#555"/><rect x="58" y="106.6" width="34" height="23.4" fill="#7c8cff" stroke="#4351c9"/><text x="75" y="103.6" font-size="9" text-anchor="middle">52</text><text x="75" y="143" font-size="9" text-anchor="middle">1950</text><rect x="110" y="98.5" width="34" height="31.5" fill="#7c8cff" stroke="#4351c9"/><text x="127" y="95.5" font-size="9" text-anchor="middle">70</text><text x="127" y="143" font-size="9" text-anchor="middle">1960</text><rect x="162" y="88.2" width="34" height="41.9" fill="#7c8cff" stroke="#4351c9"/><text x="179" y="85.2" font-size="9" text-anchor="middle">93</text><text x="179" y="143" font-size="9" text-anchor="middle">1970</text><rect x="214" y="76.4" width="34" height="53.6" fill="#7c8cff" stroke="#4351c9"/><text x="231" y="73.4" font-size="9" text-anchor="middle">119</text><text x="231" y="143" font-size="9" text-anchor="middle">1980</text><rect x="266" y="63.8" width="34" height="66.2" fill="#7c8cff" stroke="#4351c9"/><text x="283" y="60.8" font-size="9" text-anchor="middle">147</text><text x="283" y="143" font-size="9" text-anchor="middle">1991</text><rect x="318" y="53.5" width="34" height="76.5" fill="#7c8cff" stroke="#4351c9"/><text x="335" y="50.5" font-size="9" text-anchor="middle">170</text><text x="335" y="143" font-size="9" text-anchor="middle">2000</text><rect x="370" y="44.0" width="34" height="86.0" fill="#7c8cff" stroke="#4351c9"/><text x="387" y="41.0" font-size="9" text-anchor="middle">191</text><text x="387" y="143" font-size="9" text-anchor="middle">2010</text><rect x="422" y="38.6" width="34" height="91.4" fill="#7c8cff" stroke="#4351c9"/><text x="439" y="35.6" font-size="9" text-anchor="middle">203</text><text x="439" y="143" font-size="9" text-anchor="middle">2022</text><text x="4" y="12" font-size="9">População (milhões)</text></svg><p class="src">Valores aproximados, com base nos censos do IBGE.</p>
+stem: Entre 1950 e 2010, a população brasileira cresceu, aproximadamente,
+o1: 50%.
+o2: o dobro.
+o3: quase quatro vezes.
+o4: quase dez vezes.
+key: C
+a: 50% de crescimento daria cerca de 78 milhões, bem menos que os 191 milhões de 2010.
+b: Dobrar daria cerca de 104 milhões, e a população chegou a 191 milhões.
+c: 191 ÷ 52 ≈ 3,7, ou seja, quase quatro vezes a população de 1950.
+d: Quase dez vezes daria cerca de 500 milhões, valor muito acima do real.
+
+@A-G02-07 N2
+sup: <p>Muitas pessoas moram em Guarulhos e trabalham em São Paulo, deslocando-se todos os dias entre as duas cidades.</p>
+stem: Esse tipo de deslocamento é chamado de migração
+o1: pendular.
+o2: sazonal.
+o3: internacional.
+o4: definitiva.
+key: A
+a: A migração pendular é o deslocamento diário, de ida e volta, entre a cidade onde se mora e onde se trabalha ou estuda.
+b: A migração sazonal ocorre em épocas do ano, como a de trabalhadores da colheita.
+c: A migração internacional ocorre entre países; no caso, as cidades são do mesmo país.
+d: A migração definitiva é a mudança permanente de residência, e não um deslocamento diário.
+
+@A-G02-08 N3 julgar afirmativas
+sup: <table class="qt"><caption>Taxa de fecundidade (filhos por mulher) de três países fictícios, sem migração (valores ilustrativos)</caption><tr><th>País</th><th>Fecundidade</th></tr><tr><td>A</td><td>4,5</td></tr><tr><td>B</td><td>2,1</td></tr><tr><td>C</td><td>1,3</td></tr></table><p class="src">A taxa de reposição, que mantém a população estável a longo prazo, é de cerca de 2,1 filhos por mulher.</p>
+stem: Com base na tabela, analise as afirmativas.
+I. A população do país A tende a crescer.
+II. A população do país B tende a se manter estável a longo prazo.
+III. A população do país C tende a diminuir a longo prazo.
+IV. No país C, a proporção de jovens tende a aumentar.
+Estão corretas apenas
+o1: I e II.
+o2: I, II e III.
+o3: II, III e IV.
+o4: I, II, III e IV.
+key: B
+a: I e II são verdadeiras, mas a III também: com fecundidade abaixo de 2,1, a população tende a diminuir.
+b: I, II e III estão corretas. A IV é falsa: com poucos nascimentos, a proporção de jovens tende a diminuir e a de idosos a aumentar.
+c: A IV é falsa e a I é verdadeira; a alternativa exclui I, que está correta.
+d: A IV é falsa: a fecundidade baixa reduz a proporção de jovens.
+
+@A-G02-09 N3 asserção–razão
+sup: <p>Analise as asserções e a relação entre elas.</p><p><b>I.</b> A população brasileira está ficando cada vez mais jovem.</p><p style="text-align:center"><b>PORQUE</b></p><p><b>II.</b> A expectativa de vida dos brasileiros aumentou nas últimas décadas.</p>
+stem: A respeito dessas asserções, é correto afirmar que
+o1: ambas as asserções são verdadeiras, e a II justifica a I.
+o2: ambas as asserções são verdadeiras, mas a II não justifica a I.
+o3: a I é verdadeira, e a II é falsa.
+o4: a I é falsa, e a II é verdadeira.
+key: D
+a: A I é falsa: a população brasileira está envelhecendo.
+b: A I é falsa; por isso a combinação não pode ser de duas verdadeiras.
+c: A II é verdadeira (a expectativa de vida cresceu); a falsa é a I.
+d: A I é falsa, pois a queda da natalidade e o aumento da longevidade tornam a população mais envelhecida. A II é verdadeira.
+
+# ===================== G05 =====================
+
+@A-G05-01 N1
+stem: O gás que mais contribui para o aumento do efeito estufa, resultante principalmente da queima de combustíveis fósseis como gasolina, óleo diesel e carvão, é o
+o1: oxigênio.
+o2: nitrogênio.
+o3: hélio.
+o4: dióxido de carbono (CO₂).
+key: D
+a: O oxigênio é um gás essencial à respiração e não é o principal causador do efeito estufa intensificado.
+b: O nitrogênio é o gás mais abundante na atmosfera, mas não contribui significativamente para o efeito estufa.
+c: O hélio é um gás nobre e não participa do efeito estufa.
+d: A queima de combustíveis fósseis libera CO₂, que retém calor na atmosfera e intensifica o efeito estufa.
+
+@A-G05-02 N2
+sup: <p>Os 3 Rs da sustentabilidade são: reduzir, reutilizar e reciclar. Eles aparecem nessa ordem por ordem de prioridade.</p>
+stem: Dar prioridade à redução do consumo, em vez de apenas reciclar, é a melhor atitude porque
+o1: reduzir diminui a produção de resíduos e o uso de recursos naturais e de energia desde a origem.
+o2: reciclar sempre gasta mais energia do que produzir um objeto novo.
+o3: reduzir o consumo aumenta a quantidade de lixo nos aterros.
+o4: o lixo reciclado deixa de existir, e por isso não há problema em consumir mais.
+key: A
+a: Consumir menos evita extrair recursos, produzir, transportar e descartar, e por isso é o primeiro passo.
+b: A reciclagem costuma economizar energia (como no caso do alumínio); a afirmação é falsa.
+c: Reduzir o consumo diminui o lixo e não o aumenta.
+d: A reciclagem não elimina todo o impacto: ela consome energia e água, e nem todo material é reciclável.
+
+@A-G05-03 N2
+sup: <p>Em uma fazenda em terreno inclinado, o agricultor planta em fileiras que acompanham as curvas de nível, e não em linhas retas que descem a encosta.</p>
+stem: Essa técnica é usada para
+o1: aumentar a erosão e levar o solo para as áreas baixas.
+o2: facilitar a passagem de máquinas, sem relação com o solo.
+o3: eliminar a necessidade de irrigação e de adubação.
+o4: reduzir a velocidade da água da chuva e diminuir a erosão do solo.
+key: D
+a: A técnica tem o objetivo contrário: reduzir a erosão.
+b: O principal objetivo do plantio em curvas de nível é a conservação do solo.
+c: A técnica não elimina a irrigação nem a adubação; ela conserva o solo.
+d: As fileiras em curva de nível funcionam como barreiras que retardam a água, favorecem a infiltração e protegem o solo.
+
+@A-G05-04 N2
+stem: O Protocolo de Montreal, acordo internacional assinado em 1987, teve como principal objetivo
+o1: proteger a camada de ozônio, eliminando o uso de substâncias como os CFCs.
+o2: reduzir as emissões de dióxido de carbono pelos veículos.
+o3: proibir a caça de baleias em todos os oceanos.
+o4: regulamentar a exploração de petróleo no mar.
+key: A
+a: O Protocolo de Montreal estabeleceu a eliminação progressiva dos CFCs e de outras substâncias que destroem a camada de ozônio.
+b: A redução das emissões de CO₂ é tratada em outros acordos, como o Protocolo de Kyoto e o Acordo de Paris.
+c: A caça às baleias é tratada por outro tipo de acordo (a Comissão Baleeira Internacional).
+d: A exploração de petróleo no mar não é objeto do Protocolo de Montreal.
+
+@A-G05-05 N3 julgar afirmativas
+stem: Sobre as questões ambientais globais, analise as afirmativas.
+I. O efeito estufa é um fenômeno natural que mantém a temperatura do planeta adequada à vida.
+II. As atividades humanas, como a queima de combustíveis fósseis e o desmatamento, intensificam o efeito estufa.
+III. O Acordo de Paris, de 2015, tem como meta limitar o aquecimento global bem abaixo de 2 °C em relação ao período pré-industrial.
+IV. O Protocolo de Montreal tem como objetivo reduzir as emissões de dióxido de carbono.
+Estão corretas apenas
+o1: I e II.
+o2: I, II e III.
+o3: II, III e IV.
+o4: I, II, III e IV.
+key: B
+a: I e II são verdadeiras, mas a III também é: o Acordo de Paris fixa essa meta.
+b: I, II e III são verdadeiras. A IV é falsa: o Protocolo de Montreal trata das substâncias que destroem a camada de ozônio.
+c: A IV é falsa e a I é verdadeira; a alternativa exclui I, que está correta.
+d: A IV é falsa: o Protocolo de Montreal visa proteger a camada de ozônio, e não reduzir o CO₂.

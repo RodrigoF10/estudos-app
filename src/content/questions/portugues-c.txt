@@ -1,0 +1,297 @@
+# Português — PT05 (intertextualidade), PT06 (narrador e discurso), PT07 (variação linguística e norma culta)
+# Textos autorais, exceto os versos iniciais da "Canção do exílio" (Gonçalves Dias, 1843, domínio público).
+
+# ===================== PT05 =====================
+
+@A-PT05-01 N2
+sup: <p><b>Texto I</b><br>Minha terra tem palmeiras,<br>Onde canta o Sabiá;<br>As aves, que aqui gorjeiam,<br>Não gorjeiam como lá.<br><i>(Gonçalves Dias, “Canção do exílio”, 1843)</i></p><p><b>Texto II</b><br>Minha rua tem buracos,<br>Onde o carro vai pular;<br>Os prefeitos, que prometem,<br>Nunca vêm para consertar.<br><i>(Versos autorais para estudo)</i></p>
+stem: O Texto II dialoga com o Texto I por meio de
+o1: paródia, pois imita a forma do poema original para criticar uma situação atual.
+o2: citação literal, pois reproduz exatamente os versos do poema original.
+o3: paráfrase, pois diz a mesma ideia do original com outras palavras e o mesmo tom.
+o4: epígrafe, pois apresenta o poema original antes de um texto principal.
+key: A
+a: O texto II mantém a estrutura (“Minha... tem... onde...”) e o ritmo do poema de Gonçalves Dias, mas troca o tema por uma crítica (buracos, promessas não cumpridas). Isso é paródia.
+b: Não há reprodução exata: as palavras são outras.
+c: A paráfrase preserva o sentido do original; aqui o sentido é invertido (de exaltação da pátria para crítica à rua).
+d: Epígrafe é um trecho que abre um texto. O poema II não funciona dessa forma.
+
+@A-PT05-02 N2
+sup: <p><b>Texto I (notícia)</b><br>Cidade de 14 mil habitantes planta duas mil árvores em um único dia. A ação, organizada por escolas e moradores, ocupou duas praças e a margem do córrego que corta o bairro.</p><p><b>Texto II (poema)</b><br>Quem planta uma árvore<br>não planta sombra:<br>planta a tarde dos netos,<br>planta a promessa de um ninho.</p><p class="src">Textos autorais para estudo.</p>
+stem: A aproximação entre os textos I e II está em
+o1: ambos tratarem de desmatamento, que é criticado de forma irônica.
+o2: ambos apresentarem dados numéricos sobre o plantio de árvores.
+o3: ambos tratarem do plantio de árvores como cuidado com o futuro, mas o primeiro informa e o segundo expressa emoção.
+o4: ambos terem como objetivo principal convencer o leitor a participar de uma campanha.
+key: C
+a: Nenhum dos textos trata de desmatamento nem usa ironia.
+b: Só o texto I traz números (“duas mil árvores”); o poema não traz dados.
+c: O tema comum é o plantio. O texto I relata um fato de forma objetiva; o poema usa imagens (“a tarde dos netos”) para falar de futuro e esperança.
+d: Nenhum dos textos convida o leitor a participar; o primeiro informa, o segundo é lírico.
+
+@A-PT05-03 N1
+sup: <p>O time tem um ataque forte e uma defesa bem organizada, mas o goleiro tem o seu calcanhar de aquiles: a bola alta.</p><p class="src">Trecho de matéria esportiva autoral para estudo.</p>
+stem: A expressão “calcanhar de aquiles” estabelece intertextualidade com
+o1: uma lenda do folclore brasileiro sobre um jogador de futebol.
+o2: o mito grego de um herói que só podia ser ferido no calcanhar.
+o3: uma fábula em que um animal ágil é vencido por outro.
+o4: um conto de fadas sobre um príncipe que perde o sapato.
+key: B
+a: A expressão não vem do folclore brasileiro.
+b: No mito grego de Aquiles, o herói era invulnerável, exceto no calcanhar. A expressão passou a designar o ponto fraco de alguém ou de algo.
+c: Nenhuma fábula tem esse sentido; a expressão vem de um mito.
+d: O sapato perdido lembra Cinderela, que não tem relação com a expressão.
+
+@A-PT05-04 N2
+sup: <p><b>Campanha de conscientização</b></p><p>Água mole em pedra dura, tanto bate até que fura.<br><b>Torneira pingando, tanto pinga até que falta.</b></p><p class="src">Anúncio autoral para estudo.</p>
+stem: O anúncio dialoga com um texto conhecido para
+o1: contradizer o provérbio, mostrando que ele é falso.
+o2: citar o provérbio como prova de que a água é um recurso infinito.
+o3: criticar as pessoas que insistem em ditados populares.
+o4: retomar um provérbio conhecido e adaptá-lo, alertando sobre o desperdício de água.
+key: D
+a: O anúncio não nega o provérbio; ele aproveita a mesma estrutura e a ideia de persistência.
+b: A mensagem é oposta: “falta” água, e o recurso não é infinito.
+c: O provérbio não é criticado; serve de base para a mensagem.
+d: A primeira frase é o provérbio; a segunda, adaptada, relaciona o gotejar da torneira ao desperdício que leva à falta de água.
+
+@A-PT05-05 N2
+sup: <p><b>Texto I</b><br>Na cidade grande, ninguém se vê:<br>cada rosto é pressa, cada olhar, deserto.<br>Mil pessoas passam em torno de mim<br>e eu continuo sozinho, tão perto.</p><p><b>Texto II</b><br>Na cidade pequena, tudo se sabe:<br>o pão quente, a notícia, o nome da rua.<br>Ninguém passa sem um bom-dia à porta,<br>e a solidão não tem onde se pôr.</p><p class="src">Poemas autorais para estudo.</p>
+stem: A comparação entre os poemas revela que
+o1: ambos valorizam o anonimato como grande vantagem da vida urbana.
+o2: ambos criticam a falta de emprego e de oportunidades nas cidades.
+o3: o primeiro elogia a vida na metrópole, e o segundo a critica duramente.
+o4: o primeiro destaca a solidão em meio à multidão, enquanto o segundo destaca a convivência e a proximidade.
+key: D
+a: O anonimato é apresentado como causa de solidão no texto I; no II, não é valorizado.
+b: O trabalho não é tema de nenhum dos poemas.
+c: O texto I critica a vida na metrópole (“ninguém se vê”, “olhar, deserto”); o II mostra proximidade.
+d: Texto I: “mil pessoas” e “continuo sozinho”. Texto II: “bom-dia à porta” e “a solidão não tem onde se pôr”. As visões contrastam.
+
+@A-PT05-06 N1
+sup: <p><b>Texto I</b><br>Quem com ferro fere, com ferro será ferido.</p><p><b>Texto II</b><br>Quem agride com violência acabará recebendo violência.</p>
+stem: O Texto II mantém relação com o Texto I porque
+o1: nega a ideia do primeiro por meio de outras palavras.
+o2: retoma a mesma ideia com outras palavras, sem alterar o sentido.
+o3: faz uma citação literal do primeiro texto.
+o4: apresenta uma crítica irônica ao primeiro texto.
+key: B
+a: Os dois textos concordam, e o segundo não contradiz o primeiro.
+b: O texto II explica o provérbio com outras palavras, sem mudar o sentido: é uma paráfrase.
+c: A citação literal repetiria as mesmas palavras, o que não acontece.
+d: Não há ironia; o texto II é uma explicação direta.
+
+@A-PT05-07 N3
+sup: <p><b>Charge (descrição)</b></p><p>Um homem de coroa de papel posa para uma selfie, no meio de uma praça, enquanto várias pessoas aplaudem ao redor. Uma criança aponta para ele e diz:</p><p>— Mas ele só tem seguidores!</p><p class="src">Charge autoral para estudo, inspirada no conto “A roupa nova do rei”, de Hans Christian Andersen.</p>
+stem: Na história de Andersen, um menino diz que o rei está nu, enquanto todos fingem ver sua roupa. Na charge, a fala da criança retoma esse conto para
+o1: elogiar a coragem do homem que mostra sua imagem a todos.
+o2: criticar a vaidade dos que dependem de roupas caras para ser admirados.
+o3: revelar a verdade que todos evitam ver: a popularidade do homem é só aparência.
+o4: ensinar às crianças que elas devem respeitar os reis.
+key: C
+a: A charge não elogia o homem; ela ironiza a busca de aprovação.
+b: A crítica não é sobre roupas, e sim sobre a admiração baseada em aparência e seguidores.
+c: Assim como o menino diz a verdade que os adultos escondem, a criança expõe que o prestígio do homem está apenas na quantidade de seguidores, sem valor real.
+d: O sentido do conto é o oposto: questiona a bajulação diante de quem tem poder.
+
+@A-PT05-08 N2
+sup: <p><b>Texto I (crônica)</b><br>Na rua da minha infância, a bola era o centro do mundo. Quando alguém a chutava longe demais, tudo parava até que ela voltasse.</p><p><b>Texto II (poema)</b><br>Já não há bola nem rua.<br>Só há uma sala fria<br>onde meus filhos jogam<br>com o polegar.</p><p class="src">Textos autorais para estudo.</p>
+stem: Os textos se complementam ao tratar da infância, pois
+o1: o primeiro evoca brincadeiras de rua, e o segundo sugere que o modo de brincar mudou.
+o2: ambos defendem que as crianças de hoje brincam mais do que antigamente.
+o3: ambos descrevem as brincadeiras do presente com saudade.
+o4: o primeiro critica a tecnologia, e o segundo, o futebol.
+key: A
+a: A “bola” e a “rua” do texto I contrastam com a “sala fria” e o “polegar” do II (jogos eletrônicos). O poema sugere mudança nas brincadeiras.
+b: O texto II mostra que o brincar mudou, e não que aumentou.
+c: A saudade aparece no primeiro texto, sobre o passado; o poema fala do presente com certo estranhamento.
+d: O texto I não critica a tecnologia, e o futebol não é criticado em nenhum dos dois.
+
+@A-PT05-09 N3
+sup: <p><b>Texto I</b><br>“Todos são iguais perante a lei, sem distinção de qualquer natureza.”<br><i>(Constituição Federal de 1988, art. 5º, trecho)</i></p><p><b>Texto II</b><br>“Todos são iguais perante a lei — desde que tenham advogado caro.”<br><i>(Comentário autoral para estudo)</i></p>
+stem: No Texto II, o autor dialoga com o Texto I para
+o1: confirmar que a lei é aplicada da mesma forma a todas as pessoas, sem exceção.
+o2: ironizar a distância entre o princípio da igualdade e a prática, ao acrescentar uma condição que o contradiz.
+o3: explicar, com outras palavras, o princípio da igualdade perante a lei.
+o4: propor que a lei seja substituída por outro conjunto de regras mais justo.
+key: B
+a: A condição “desde que tenham advogado caro” nega a igualdade; o texto não confirma o princípio.
+b: O autor retoma a frase do artigo e adiciona uma ressalva que revela uma desigualdade real. A ironia critica a prática, e não o princípio.
+c: Seria paráfrase se mantivesse o sentido; o acréscimo muda o sentido da frase.
+d: Não há proposta de mudança da lei; há crítica à sua aplicação.
+
+@A-PT05-10 N3
+sup: <p><b>Texto I (resumo do mito)</b><br>Segundo o mito grego, Ícaro e seu pai, Dédalo, estavam presos no labirinto do rei Minos, em Creta. Dédalo construiu asas de penas e cera para fugirem. Apesar do aviso do pai, Ícaro voou alto demais; o calor do sol derreteu a cera e ele caiu no mar.</p><p><b>Texto II (conselho)</b><br>Ao jovem empreendedor: sonhe alto, mas não esqueça que quem voa sem olhar para o sol acaba mergulhando no mar.</p><p class="src">Textos autorais para estudo.</p>
+stem: O conselho do Texto II dialoga com o mito porque
+o1: afirma que ninguém deve ter sonhos ambiciosos para não se frustrar.
+o2: sugere que o jovem deve fugir de lugares onde está preso.
+o3: usa a imagem de Ícaro para alertar sobre os riscos de uma ambição sem limites e sem prudência.
+o4: propõe que o jovem construa asas para chegar mais alto do que seu pai.
+key: C
+a: O texto diz “sonhe alto”; o aviso é sobre prudência, e não sobre desistir de sonhos.
+b: A fuga do labirinto não é o foco do conselho.
+c: O voo alto demais e a queda de Ícaro viram metáfora: ambição é positiva, mas ignorar os riscos (“o sol”) leva ao fracasso (“o mar”).
+d: O texto não sugere superar o pai nem construir asas literais.
+
+# ===================== PT06 =====================
+
+@A-PT06-01 N1
+sup: <p>Abri a porta devagar, com o coração aos pulos. Do outro lado, a sala estava escura, e eu só ouvia a minha própria respiração.</p><p class="src">Trecho de conto autoral para estudo.</p>
+stem: O foco narrativo do trecho é
+o1: terceira pessoa, com narrador que sabe tudo sobre as personagens.
+o2: terceira pessoa, com narrador que apenas observa de fora.
+o3: segunda pessoa, com narrador que fala diretamente ao leitor.
+o4: primeira pessoa, com narrador que participa dos fatos que conta.
+key: D
+a: Em terceira pessoa, o narrador não aparece na ação; aqui ele diz “abri”, “meu”.
+b: Em terceira pessoa o narrador não é personagem da cena; no trecho, ele é.
+c: O trecho não se dirige ao leitor como “você”.
+d: Os verbos e pronomes (“abri”, “eu só ouvia”, “minha respiração”) mostram que o narrador é uma personagem e conta o que vive.
+
+@A-PT06-02 N2
+sup: <p>Ana atravessou a rua sem olhar para os lados. O motorista freou a tempo, mas o susto fez com que ela derrubasse o livro. Ninguém na calçada disse nada.</p><p class="src">Trecho de conto autoral para estudo.</p>
+stem: O narrador do trecho
+o1: está fora da história e descreve os fatos sem revelar o que as personagens pensam.
+o2: é a própria Ana, que conta o que viveu.
+o3: é um passante que participa da cena e dá sua opinião.
+o4: conhece os pensamentos de todas as personagens e os revela.
+key: A
+a: O texto usa terceira pessoa e se limita ao que se vê e ao que acontece (“atravessou”, “freou”, “derrubasse”). Não há acesso à mente das personagens.
+b: Se Ana fosse a narradora, o texto usaria “atravessei”, “derrubei”.
+c: O narrador não aparece como passante nem opina.
+d: Não há revelação de pensamentos; o texto apenas descreve ações.
+
+@A-PT06-03 N2
+sup: <p>O diretor disse, em reunião: — Amanhã não haverá aula.</p><p class="src">Frase autoral para estudo.</p>
+stem: A transformação adequada do discurso direto em discurso indireto é
+o1: O diretor disse que amanhã não haverá aula.
+o2: O diretor disse que não haverá aula amanhã.
+o3: O diretor disse que, no dia seguinte, não haveria aula.
+o4: O diretor disse: no dia seguinte não haveria aula.
+key: C
+a: Quando o verbo de elocução está no passado, o advérbio e o tempo verbal precisam mudar (“amanhã” → “no dia seguinte”; “haverá” → “haveria”).
+b: Mantém “haverá” e “amanhã”, sem ajuste ao passado.
+c: Houve adaptação correta: “amanhã” virou “no dia seguinte” e o futuro virou futuro do pretérito, mantendo a conjunção “que”.
+d: Mantém dois-pontos, típicos do discurso direto, e as alterações ficam incoerentes.
+
+@A-PT06-04 N3
+sup: <p>Marta olhou o relógio. Cinco horas. Será que ele ainda vinha? Já tinha esperado demais; que absurdo chegar assim, sem avisar, depois de tantas promessas.</p><p class="src">Trecho de conto autoral para estudo.</p>
+stem: Nos dois últimos períodos, os pensamentos de Marta aparecem em
+o1: discurso direto, marcado por travessão e verbo de elocução como “disse”.
+o2: discurso indireto livre, em que a voz do narrador se mistura aos pensamentos da personagem, sem marcas explícitas.
+o3: discurso indireto, introduzido por verbo de elocução e pela conjunção “que”.
+o4: discurso direto, marcado por aspas e dois-pontos antes da fala.
+key: B
+a: Não há travessão nem verbo como “disse” ou “pensou”.
+b: Perguntas e exclamações (“Será que ele ainda vinha?”, “que absurdo...”) revelam o pensamento de Marta, mas aparecem na terceira pessoa e sem marcação. Isso caracteriza o discurso indireto livre.
+c: Não há “que” introduzindo o pensamento nem verbo como “pensou que”.
+d: Não há aspas nem dois-pontos.
+
+@A-PT06-05 N2
+sup: <p>Meu irmão sempre foi o mais corajoso da rua. Eu o observava da janela, admirando a facilidade com que ele pulava o muro do vizinho para buscar a bola, enquanto os outros meninos esperavam do lado de fora.</p><p class="src">Trecho de conto autoral para estudo.</p>
+stem: O narrador do trecho é
+o1: narrador-personagem que conta a história de outra personagem, da qual é observador.
+o2: narrador em terceira pessoa que sabe tudo sobre os personagens.
+o3: narrador-protagonista que conta suas próprias aventuras.
+o4: narrador distante que não participa da história nem a conhece.
+key: A
+a: O narrador fala em primeira pessoa (“Eu o observava”), participa da história como irmão, mas o centro da narrativa é a coragem do irmão. É testemunha.
+b: Não é terceira pessoa, pois o narrador se coloca (“meu irmão”, “eu o observava”).
+c: Ele não é o protagonista; o foco está no irmão, que é admirado.
+d: O narrador participa e tem laços com o que conta.
+
+@A-PT06-06 N3 julgar afirmativas
+sup: <p>O senhor Teodoro era um homem de bem — pelo menos era o que ele mesmo repetia a quem quisesse ouvir, e a quem não quisesse também. Naquela manhã, acordou cedo para dar uma lição de moral ao vizinho que, na véspera, havia deixado a calçada sem varrer.</p><p class="src">Trecho de conto autoral para estudo.</p>
+stem: Sobre o narrador do trecho, analise as afirmativas.
+I. Ele conta a história em terceira pessoa, sem participar dela.
+II. Ele não é neutro: usa a ironia para avaliar a personagem.
+III. Ele conhece hábitos da personagem, como a mania de repetir que é um homem de bem.
+Estão corretas
+o1: apenas I.
+o2: apenas II.
+o3: apenas I e III.
+o4: I, II e III.
+key: D
+a: A I está certa, mas a II e a III também.
+b: A II está certa, mas as outras também.
+c: Faltou a II: “pelo menos era o que ele mesmo repetia” e “e a quem não quisesse também” revelam ironia do narrador.
+d: Terceira pessoa (I), ironia (II) e conhecimento dos hábitos de Teodoro (III) estão todos presentes.
+
+# ===================== PT07 =====================
+
+@A-PT07-01 N1
+sup: <p>— E aí, mano, bora pro rolê no sábado? Vai ser top!</p><p class="src">Mensagem autoral para estudo.</p>
+stem: Essa linguagem é adequada em uma situação
+o1: formal, como em um e-mail enviado a um diretor de escola.
+o2: formal, como em um discurso de formatura.
+o3: informal, como em uma conversa entre amigos.
+o4: técnica, como em um relatório científico.
+key: C
+a: Em um e-mail ao diretor, expressões como “mano”, “rolê” e “top” seriam inadequadas.
+b: Um discurso formal exigiria vocabulário mais cuidado.
+c: Gírias, vocativo informal (“mano”) e exclamação indicam registro informal e entre pessoas próximas.
+d: Relatórios científicos usam linguagem objetiva, sem gírias.
+
+@A-PT07-02 N2
+sup: <p>Ana, de São Paulo, pediu “mandioca frita” no restaurante. Pedro, do Rio de Janeiro, disse que prefere “aipim”. Lia, de Pernambuco, completou: “Lá em casa a gente fala macaxeira”.</p><p class="src">Texto autoral para estudo.</p>
+stem: O fenômeno linguístico ilustrado no texto é
+o1: a variação social, pois as pessoas pertencem a classes diferentes.
+o2: a variação regional, pois a mesma raiz é chamada por nomes diferentes de acordo com o lugar.
+o3: a variação histórica, pois as palavras mudam com o passar dos séculos.
+o4: a variação de registro, pois as pessoas usam linguagem formal e informal.
+key: B
+a: O texto não indica classe social; a diferença está na origem geográfica.
+b: Mandioca, aipim e macaxeira nomeiam a mesma raiz em regiões diferentes do país.
+c: Não há comparação entre épocas diferentes.
+d: Todas as falas têm o mesmo grau de informalidade; o que muda é o nome, conforme a região.
+
+@A-PT07-03 N2
+stem: De acordo com a norma-padrão, a frase adequada é
+o1: Fazem dois anos que moro nesta cidade.
+o2: Haviam muitos alunos na sala.
+o3: Prefiro mais estudar do que jogar.
+o4: Houve muitos problemas na reunião.
+key: D
+a: O verbo “fazer”, indicando tempo, é impessoal: “Faz dois anos”.
+b: “Haver”, no sentido de existir, é impessoal: “Havia muitos alunos”.
+c: O correto é “Prefiro estudar a jogar”; “preferir” não admite “mais” nem “do que”.
+d: “Haver” no sentido de ocorrer é impessoal e fica no singular; a concordância está de acordo com a norma-padrão.
+
+@A-PT07-04 N2
+sup: <p>A palavra “você” vem de “vossa mercê”, forma de tratamento usada para se dirigir a pessoas de prestígio. Com o tempo, passou por “vosmecê” e “vancê” até chegar à forma atual.</p><p class="src">Texto informativo autoral para estudo.</p>
+stem: A transformação descrita no texto é um exemplo de variação
+o1: histórica, pois a palavra mudou ao longo do tempo.
+o2: regional, pois cada região usa uma forma diferente.
+o3: social, pois só as classes populares falam “você”.
+o4: situacional, pois a palavra só aparece em contextos formais.
+key: A
+a: A evolução de “vossa mercê” para “você” mostra mudança da língua no tempo: variação histórica (ou diacrônica).
+b: O texto trata de épocas diferentes, e não de lugares.
+c: O texto não relaciona a mudança a classe social.
+d: “Você” é usada em situações diversas; o texto não afirma que seja só formal.
+
+@A-PT07-05 N3
+sup: <p>— Nóis foi na roça de manhã cedinho e num achô ninguém — disse Zeca, tirando o chapéu.</p><p class="src">Trecho de conto autoral para estudo.</p>
+stem: Ao reproduzir a fala de Zeca com marcas orais e regionais, o autor
+o1: mostra que a personagem comete erros que precisam ser corrigidos pelo leitor.
+o2: caracteriza a personagem pela maneira de falar, dando realismo ao diálogo, sem tratar essa fala como inferior.
+o3: critica a falta de escolaridade das pessoas do campo.
+o4: indica que o narrador usa a norma culta, e as personagens, não.
+key: B
+a: A fala não é apresentada como erro, e sim como forma de falar de uma personagem.
+b: Marcas como “nóis”, “num” e “achô” compõem a identidade social e regional de Zeca e tornam a cena verossímil.
+c: Não há crítica no trecho; o autor apenas caracteriza a personagem.
+d: O trecho não traz a voz do narrador, só a fala da personagem; a inferência seria uma extrapolação.
+
+@A-PT07-06 N3
+sup: <p>Não existe “português errado”; existe português adequado ou inadequado a cada situação. Uma gíria é perfeita entre amigos, mas pode ser um tropeço numa entrevista de emprego. Dominar a norma culta não significa desprezar as outras variedades: significa ter mais uma ferramenta para escolher a fala certa na hora certa.</p><p class="src">Trecho de artigo de opinião autoral para estudo.</p>
+stem: A ideia central defendida pelo autor é a de que
+o1: as gírias devem ser eliminadas da língua.
+o2: só a norma culta deve ser ensinada nas escolas.
+o3: as falas devem ser julgadas pela adequação à situação, e não rotuladas como certas ou erradas.
+o4: a norma culta é inútil, pois todas as variedades têm o mesmo valor em qualquer contexto.
+key: C
+a: O autor diz que a gíria “é perfeita entre amigos”; não propõe eliminá-la.
+b: Ele valoriza a norma culta, mas também as outras variedades.
+c: A tese é que o critério é a adequação: “português adequado ou inadequado a cada situação”.
+d: O autor afirma que dominar a norma culta é uma “ferramenta”; não a considera inútil.

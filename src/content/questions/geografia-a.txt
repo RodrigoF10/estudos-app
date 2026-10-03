@@ -1,0 +1,296 @@
+# Geografia — G04 (biomas, clima e vegetação), G01 (cartografia, coordenadas e fusos horários)
+
+# ===================== G04 =====================
+
+@A-G04-01 N1
+sup: <p>Um bioma brasileiro apresenta floresta densa e sempre verde, clima quente e úmido, com chuvas abundantes e bem distribuídas ao longo do ano, e a maior biodiversidade do país.</p>
+stem: Esse bioma é a
+o1: Caatinga.
+o2: Amazônia.
+o3: Pampa.
+o4: Mata Atlântica, que ocupa a maior área do território brasileiro.
+key: B
+a: A Caatinga tem clima semiárido, vegetação adaptada à seca e chuvas escassas e irregulares.
+b: A Amazônia tem floresta equatorial densa, chuvas abundantes e grande biodiversidade, e é o maior bioma do Brasil.
+c: O Pampa tem campos de gramíneas, no extremo sul, com clima subtropical.
+d: A Mata Atlântica foi muito devastada e hoje restam apenas fragmentos; o bioma de maior área é a Amazônia.
+
+@A-G04-02 N1
+sup: <p>Em certo bioma, plantas como os cactos e árvores que perdem as folhas na estação seca têm raízes e caules que armazenam água. As chuvas são escassas e irregulares, e o clima é semiárido.</p>
+stem: Esse bioma é predominante no sertão da região Nordeste e é denominado
+o1: Pantanal.
+o2: Mata Atlântica.
+o3: Caatinga.
+o4: Amazônia.
+key: C
+a: O Pantanal é uma planície sujeita a inundações periódicas, bem diferente do semiárido.
+b: A Mata Atlântica ocupa o litoral e tem clima úmido, com floresta densa.
+c: A Caatinga reúne vegetação adaptada à seca (xerófila) e domina o sertão nordestino, de clima semiárido.
+d: A Amazônia tem clima quente e úmido, com chuvas fartas durante o ano.
+
+@A-G04-03 N1
+sup: <p>Um bioma brasileiro tem árvores de troncos retorcidos e casca grossa, raízes profundas, solos ácidos e plantas adaptadas ao fogo natural. Nele nascem rios importantes de grandes bacias hidrográficas, e hoje é uma das principais áreas de expansão da agricultura de grãos.</p>
+stem: Trata-se do
+o1: Pampa.
+o2: Pantanal.
+o3: Caatinga.
+o4: Cerrado.
+key: D
+a: O Pampa é formado por campos de gramíneas, e não por árvores de troncos retorcidos.
+b: O Pantanal é uma planície alagável; não é o principal berço de rios de grandes bacias.
+c: A Caatinga é semiárida e tem rios intermitentes; não se identifica com solos ácidos e nascentes de grandes bacias.
+d: O Cerrado é a savana brasileira, com plantas adaptadas ao fogo e à seca sazonal. É rico em nascentes e área de expansão agrícola, em especial da soja.
+
+@A-G04-04 N2 associação
+sup: <p><b>Coluna I:</b><br>1. Pantanal<br>2. Pampa<br>3. Mata Atlântica</p><p><b>Coluna II:</b><br>(A) Campos de gramíneas e pastagens naturais no extremo sul do país.<br>(B) Bioma muito devastado, concentrado no litoral, onde vive grande parte da população brasileira.<br>(C) Planície que fica alagada em parte do ano, com grande diversidade de aves e peixes.</p>
+stem: A associação correta entre as colunas é
+o1: 1-A, 2-C, 3-B.
+o2: 1-C, 2-B, 3-A.
+o3: 1-B, 2-A, 3-C.
+o4: 1-C, 2-A, 3-B.
+key: D
+a: O Pantanal é a planície alagável (C), e não os campos do sul; o Pampa é que tem os campos (A).
+b: O Pampa não é o bioma litorâneo muito devastado; este é a Mata Atlântica (B).
+c: O Pantanal não é o bioma do litoral muito devastado (B), e a Mata Atlântica não é uma planície alagada (C).
+d: Pantanal: planície alagável (C). Pampa: campos do extremo sul (A). Mata Atlântica: litoral, muito devastada (B).
+
+@A-G04-05 N2
+sup: <svg viewBox="0 0 396 170" width="396" height="170" role="img" aria-label="Gráfico de barras com a chuva média mensal em uma cidade, de janeiro a dezembro. Chove muito de novembro a março e pouco de junho a setembro, com o mínimo de 10 milímetros em julho e agosto"><line x1="46" y1="130.0" x2="388" y2="130.0" stroke="#d6d8e6"/><text x="40" y="133.0" font-size="9" text-anchor="end">0</text><line x1="46" y1="112.0" x2="388" y2="112.0" stroke="#d6d8e6"/><text x="40" y="115.0" font-size="9" text-anchor="end">50</text><line x1="46" y1="94.0" x2="388" y2="94.0" stroke="#d6d8e6"/><text x="40" y="97.0" font-size="9" text-anchor="end">100</text><line x1="46" y1="76.0" x2="388" y2="76.0" stroke="#d6d8e6"/><text x="40" y="79.0" font-size="9" text-anchor="end">150</text><line x1="46" y1="58.0" x2="388" y2="58.0" stroke="#d6d8e6"/><text x="40" y="61.0" font-size="9" text-anchor="end">200</text><line x1="46" y1="40.0" x2="388" y2="40.0" stroke="#d6d8e6"/><text x="40" y="43.0" font-size="9" text-anchor="end">250</text><line x1="46" y1="22.0" x2="388" y2="22.0" stroke="#d6d8e6"/><text x="40" y="25.0" font-size="9" text-anchor="end">300</text><line x1="46" y1="16" x2="46" y2="130" stroke="#555"/><line x1="46" y1="130" x2="388" y2="130" stroke="#555"/><rect x="50" y="40.0" width="20" height="90.0" fill="#7c8cff" stroke="#4351c9"/><text x="60.0" y="37.0" font-size="9" text-anchor="middle">250</text><text x="60.0" y="143" font-size="9" text-anchor="middle">J</text><rect x="78" y="47.2" width="20" height="82.8" fill="#7c8cff" stroke="#4351c9"/><text x="88.0" y="44.2" font-size="9" text-anchor="middle">230</text><text x="88.0" y="143" font-size="9" text-anchor="middle">F</text><rect x="106" y="43.6" width="20" height="86.4" fill="#7c8cff" stroke="#4351c9"/><text x="116.0" y="40.6" font-size="9" text-anchor="middle">240</text><text x="116.0" y="143" font-size="9" text-anchor="middle">M</text><rect x="134" y="72.4" width="20" height="57.6" fill="#7c8cff" stroke="#4351c9"/><text x="144.0" y="69.4" font-size="9" text-anchor="middle">160</text><text x="144.0" y="143" font-size="9" text-anchor="middle">A</text><rect x="162" y="104.8" width="20" height="25.2" fill="#7c8cff" stroke="#4351c9"/><text x="172.0" y="101.8" font-size="9" text-anchor="middle">70</text><text x="172.0" y="143" font-size="9" text-anchor="middle">M</text><rect x="190" y="122.8" width="20" height="7.2" fill="#7c8cff" stroke="#4351c9"/><text x="200.0" y="119.8" font-size="9" text-anchor="middle">20</text><text x="200.0" y="143" font-size="9" text-anchor="middle">J</text><rect x="218" y="126.4" width="20" height="3.6" fill="#7c8cff" stroke="#4351c9"/><text x="228.0" y="123.4" font-size="9" text-anchor="middle">10</text><text x="228.0" y="143" font-size="9" text-anchor="middle">J</text><rect x="246" y="126.4" width="20" height="3.6" fill="#7c8cff" stroke="#4351c9"/><text x="256.0" y="123.4" font-size="9" text-anchor="middle">10</text><text x="256.0" y="143" font-size="9" text-anchor="middle">A</text><rect x="274" y="115.6" width="20" height="14.4" fill="#7c8cff" stroke="#4351c9"/><text x="284.0" y="112.6" font-size="9" text-anchor="middle">40</text><text x="284.0" y="143" font-size="9" text-anchor="middle">S</text><rect x="302" y="90.4" width="20" height="39.6" fill="#7c8cff" stroke="#4351c9"/><text x="312.0" y="87.4" font-size="9" text-anchor="middle">110</text><text x="312.0" y="143" font-size="9" text-anchor="middle">O</text><rect x="330" y="65.2" width="20" height="64.8" fill="#7c8cff" stroke="#4351c9"/><text x="340.0" y="62.2" font-size="9" text-anchor="middle">180</text><text x="340.0" y="143" font-size="9" text-anchor="middle">N</text><rect x="358" y="43.6" width="20" height="86.4" fill="#7c8cff" stroke="#4351c9"/><text x="368.0" y="40.6" font-size="9" text-anchor="middle">240</text><text x="368.0" y="143" font-size="9" text-anchor="middle">D</text><text x="4" y="12" font-size="9">Chuva média mensal (mm)</text></svg><p class="src">Na cidade representada, a temperatura média mensal varia entre 20 °C e 26 °C ao longo do ano. (Dados ilustrativos.)</p>
+stem: Os dados indicam que a cidade tem clima
+o1: equatorial, com chuvas abundantes durante todos os meses.
+o2: tropical, com verão chuvoso e inverno seco.
+o3: semiárido, com chuvas escassas e irregulares.
+o4: subtropical, com chuvas bem distribuídas e invernos frios.
+key: B
+a: No clima equatorial não há estação seca definida; no gráfico, os meses de inverno têm pouquíssima chuva.
+b: Há duas estações marcantes: uma chuvosa (verão) e outra seca (inverno), típicas do clima tropical.
+c: No semiárido, o total anual é muito baixo e as chuvas são irregulares. Aqui o total é elevado e concentrado de forma regular em uma estação.
+d: O clima subtropical tem chuvas distribuídas ao longo do ano e invernos frios. A temperatura média mínima é de 20 °C e há meses muito secos.
+
+@A-G04-06 N2
+sup: <p>Na Serra do Mar, os ventos úmidos vindos do oceano sobem as encostas, resfriam-se, e o vapor de água se condensa. Chove muito na vertente voltada para o mar. Do outro lado da serra, o ar chega mais seco, e chove bem menos.</p>
+stem: Esse tipo de chuva é denominado
+o1: orográfica, ou de relevo.
+o2: frontal, formada pelo encontro de massas de ar.
+o3: convectiva, formada pelo aquecimento intenso do solo.
+o4: chuva ácida, formada pela poluição do ar.
+key: A
+a: Na chuva orográfica, o relevo força a subida do ar úmido, que se resfria e condensa; o lado oposto fica na “sombra de chuva”.
+b: A chuva frontal ocorre quando massas de ar de temperaturas diferentes se encontram; o texto descreve o efeito de uma serra.
+c: A chuva convectiva vem da subida do ar aquecido pelo solo, e não da barreira de um relevo.
+d: A chuva ácida resulta de poluentes na atmosfera e não da subida do ar nas encostas.
+
+@A-G04-07 N2 NÃO/incorreta
+stem: O desmatamento de grandes áreas de floresta tem várias consequências ambientais. Assinale a alternativa que NÃO apresenta uma consequência do desmatamento.
+o1: Erosão e empobrecimento dos solos.
+o2: Redução da biodiversidade.
+o3: Alteração no regime local de chuvas.
+o4: Aumento da diversidade de espécies da região.
+key: D
+a: Sem a cobertura vegetal, a chuva carrega o solo e o empobrece; essa é uma consequência real.
+b: A destruição do habitat leva muitas espécies a desaparecer; consequência real.
+c: A floresta devolve vapor de água à atmosfera, e a sua perda pode reduzir a chuva local; consequência real.
+d: O desmatamento reduz o número de espécies; por isso essa alternativa NÃO é uma consequência do desmatamento.
+
+@A-G04-08 N2
+sup: <svg viewBox="0 0 300 208" width="300" height="208" role="img" aria-label="Gráfico de barras horizontais com a porcentagem do território brasileiro ocupada por cada bioma: Amazônia 49, Cerrado 24, Mata Atlântica 13, Caatinga 10, Pampa 2 e Pantanal 2"><line x1="96.0" y1="8" x2="96.0" y2="182" stroke="#d6d8e6"/><text x="96.0" y="194" font-size="9" text-anchor="middle">0</text><line x1="126.7" y1="8" x2="126.7" y2="182" stroke="#d6d8e6"/><text x="126.7" y="194" font-size="9" text-anchor="middle">10</text><line x1="157.3" y1="8" x2="157.3" y2="182" stroke="#d6d8e6"/><text x="157.3" y="194" font-size="9" text-anchor="middle">20</text><line x1="188.0" y1="8" x2="188.0" y2="182" stroke="#d6d8e6"/><text x="188.0" y="194" font-size="9" text-anchor="middle">30</text><line x1="218.7" y1="8" x2="218.7" y2="182" stroke="#d6d8e6"/><text x="218.7" y="194" font-size="9" text-anchor="middle">40</text><line x1="249.3" y1="8" x2="249.3" y2="182" stroke="#d6d8e6"/><text x="249.3" y="194" font-size="9" text-anchor="middle">50</text><line x1="280.0" y1="8" x2="280.0" y2="182" stroke="#d6d8e6"/><text x="280.0" y="194" font-size="9" text-anchor="middle">60</text><text x="90" y="25" font-size="10" text-anchor="end">Amazônia</text><rect x="96" y="12" width="150.3" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="250.3" y="25" font-size="9">49</text><text x="90" y="53" font-size="10" text-anchor="end">Cerrado</text><rect x="96" y="40" width="73.6" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="173.6" y="53" font-size="9">24</text><text x="90" y="81" font-size="10" text-anchor="end">Mata Atlântica</text><rect x="96" y="68" width="39.9" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="139.9" y="81" font-size="9">13</text><text x="90" y="109" font-size="10" text-anchor="end">Caatinga</text><rect x="96" y="96" width="30.7" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="130.7" y="109" font-size="9">10</text><text x="90" y="137" font-size="10" text-anchor="end">Pampa</text><rect x="96" y="124" width="6.1" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="106.1" y="137" font-size="9">2</text><text x="90" y="165" font-size="10" text-anchor="end">Pantanal</text><rect x="96" y="152" width="6.1" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="106.1" y="165" font-size="9">2</text><text x="294" y="206" font-size="9" text-anchor="end">% do território</text></svg><p class="src">Valores aproximados, com base em dados do IBGE.</p>
+stem: Os dois biomas que, somados, ocupam cerca de três quartos (75%) do território brasileiro são
+o1: Amazônia e Mata Atlântica.
+o2: Amazônia e Cerrado.
+o3: Cerrado e Caatinga.
+o4: Mata Atlântica e Caatinga.
+key: B
+a: Amazônia + Mata Atlântica = 49% + 13% = 62%, menos que 75%.
+b: Amazônia + Cerrado = 49% + 24% = 73%, valor próximo de três quartos do território.
+c: Cerrado + Caatinga = 24% + 10% = 34%, apenas cerca de um terço.
+d: Mata Atlântica + Caatinga = 13% + 10% = 23%, menos de um quarto.
+
+@A-G04-09 N3 julgar afirmativas
+stem: Sobre os fatores que influenciam o clima, analise as afirmativas.
+I. A latitude influencia a temperatura: regiões próximas ao Equador recebem mais energia solar ao longo do ano.
+II. Em geral, quanto maior a altitude, menor é a temperatura.
+III. A proximidade do mar (maritimidade) reduz a amplitude térmica, ou seja, a diferença entre as temperaturas máxima e mínima.
+IV. A Amazônia tem clima semiárido, com poucas chuvas.
+Estão corretas apenas
+o1: I e II.
+o2: I, II e III.
+o3: II e IV.
+o4: I, II, III e IV.
+key: B
+a: I e II são verdadeiras, mas III também é: a água demora a aquecer e a esfriar, e por isso o litoral tem menor amplitude térmica.
+b: I, II e III são corretas. A IV é falsa: a Amazônia tem clima equatorial, quente e úmido.
+c: A IV é falsa, e a II é verdadeira; a alternativa exclui I e III, que também são verdadeiras.
+d: A IV é falsa: o clima predominante na Amazônia é o equatorial, e o semiárido ocorre no sertão nordestino.
+
+@A-G04-10 N3 asserção–razão
+sup: <p>Analise as asserções e a relação entre elas.</p><p><b>I.</b> A Caatinga é um bioma de clima semiárido, com chuvas escassas e irregulares.</p><p style="text-align:center"><b>PORQUE</b></p><p><b>II.</b> Na Caatinga, a vegetação é densa e sempre verde, pois chove em abundância o ano inteiro.</p>
+stem: A respeito dessas asserções, é correto afirmar que
+o1: ambas as asserções são verdadeiras, e a II justifica a I.
+o2: ambas as asserções são verdadeiras, mas a II não justifica a I.
+o3: a I é verdadeira, e a II é falsa.
+o4: a I é falsa, e a II é verdadeira.
+key: C
+a: A II é falsa; não pode justificar a I.
+b: A II é falsa, pois a Caatinga não tem chuvas abundantes o ano todo.
+c: A I é verdadeira (clima semiárido). A II é falsa: a vegetação da Caatinga é adaptada à seca, e muitas plantas perdem as folhas, e a chuva é escassa.
+d: A I é verdadeira e a II é falsa; a alternativa inverte os valores.
+
+@A-G04-11 N3
+sup: <table class="qt"><caption>Dados climáticos médios de quatro localidades brasileiras (valores ilustrativos)</caption><tr><th>Localidade</th><th>Temperatura média anual</th><th>Amplitude térmica anual</th><th>Chuva total anual</th><th>Meses secos</th></tr><tr><td>A</td><td>27 °C</td><td>2 °C</td><td>2.300 mm</td><td>0</td></tr><tr><td>B</td><td>25 °C</td><td>5 °C</td><td>1.400 mm</td><td>5</td></tr><tr><td>C</td><td>27 °C</td><td>3 °C</td><td>600 mm</td><td>8</td></tr><tr><td>D</td><td>18 °C</td><td>10 °C</td><td>1.500 mm</td><td>0</td></tr></table>
+stem: As localidades A, B, C e D correspondem, respectivamente, aos climas
+o1: equatorial, tropical, semiárido e subtropical.
+o2: tropical, equatorial, semiárido e subtropical.
+o3: equatorial, semiárido, tropical e subtropical.
+o4: equatorial, subtropical, semiárido e tropical.
+key: A
+a: A (muita chuva, sem meses secos, calor constante) é equatorial. B (verão chuvoso e 5 meses secos) é tropical. C (pouquíssima chuva, 8 meses secos) é semiárido. D (temperatura mais baixa, grande amplitude, chuva bem distribuída) é subtropical.
+b: Troca A e B: a localidade A não tem estação seca, característica do equatorial, e B tem 5 meses secos, típico do tropical.
+c: Troca B e C: C tem apenas 600 mm e 8 meses secos (semiárido), e B tem chuva moderada com estação seca marcada (tropical).
+d: Troca B e D: D tem temperatura baixa e grande amplitude térmica (subtropical); B é típica do tropical.
+
+# ===================== G01 =====================
+
+@A-G01-01 N1
+stem: Um ponto localizado na latitude 10° S e na longitude 40° W está situado, em relação à linha do Equador e ao meridiano de Greenwich, nos hemisférios
+o1: Norte e Ocidental.
+o2: Sul e Oriental.
+o3: Norte e Oriental.
+o4: Sul e Ocidental.
+key: D
+a: Latitude S indica Hemisfério Sul, e não Norte.
+b: Longitude W indica Hemisfério Ocidental (Oeste), e não Oriental.
+c: Latitude S e longitude W indicam Sul e Oeste.
+d: 10° S está ao sul do Equador (Hemisfério Sul) e 40° W está a oeste de Greenwich (Hemisfério Ocidental).
+
+@A-G01-02 N1 cálculo
+sup: <p>Em um mapa na escala 1 : 50.000, a distância entre duas cidades é de 4 cm.</p>
+stem: A distância real entre essas cidades é de
+o1: 200 m.
+o2: 2 km.
+o3: 20 km.
+o4: 200 km.
+key: B
+a: 200 m resulta de um erro de conversão: 200.000 cm equivalem a 2.000 m, e não a 200 m.
+b: 4 · 50.000 = 200.000 cm = 2.000 m = 2 km.
+c: 20 km resulta de errar uma casa na conversão de centímetros para quilômetros.
+d: 200 km resulta de ler 200.000 como metros e não como centímetros.
+
+@A-G01-03 N1
+sup: <p>O território brasileiro é cortado pela linha do Equador, ao norte, e pelo Trópico de Capricórnio, ao sul.</p>
+stem: Por isso, a maior parte do Brasil está localizada na zona
+o1: intertropical, entre os trópicos, com predomínio de climas quentes.
+o2: temperada do norte, com invernos rigorosos.
+o3: polar, com temperaturas muito baixas.
+o4: temperada do sul, com estações bem definidas.
+key: A
+a: A região entre os trópicos de Câncer e de Capricórnio é a zona intertropical, onde a maior parte do Brasil está localizada.
+b: O Brasil não está na zona temperada do norte, que fica ao norte do Trópico de Câncer.
+c: A zona polar fica nas altas latitudes, perto dos círculos polares; o Brasil está muito distante delas.
+d: A zona temperada do sul fica ao sul do Trópico de Capricórnio, e só uma pequena parte do Brasil está nela.
+
+@A-G01-04 N2 cálculo
+sup: <table class="qt"><caption>Fusos horários em relação ao meridiano de Greenwich (UTC)</caption><tr><th>Cidade</th><th>Fuso</th></tr><tr><td>Brasília</td><td>UTC −3</td></tr><tr><td>Dubai</td><td>UTC +4</td></tr></table>
+stem: Quando são 10 h em Brasília, a hora em Dubai é
+o1: 3 h.
+o2: 14 h.
+o3: 17 h.
+o4: 13 h.
+key: C
+a: 3 h resulta de subtrair a diferença (10 − 7), quando Dubai está adiantado, e não atrasado.
+b: 14 h resulta de somar apenas o fuso de Dubai (+4), ignorando o fuso de Brasília.
+c: Dubai está 7 horas à frente de Brasília (4 − (−3) = 7). 10 h + 7 h = 17 h.
+d: 13 h resulta de somar apenas 3 h (o fuso de Brasília, em módulo), ignorando o fuso de Dubai.
+
+@A-G01-05 N2 cálculo
+sup: <p>Um avião parte de Brasília (UTC −3) às 20 h do horário local e voa 10 horas até Londres (UTC +0). Considere que não há horário de verão nos dois locais.</p>
+stem: O horário local de chegada em Londres é
+o1: 6 h do mesmo dia.
+o2: 9 h do dia seguinte.
+o3: 12 h do dia seguinte.
+o4: 3 h do dia seguinte.
+key: B
+a: 6 h resulta de somar a duração do voo ao horário de Brasília, sem converter para o fuso de Londres.
+b: Londres está 3 h adiantada em relação a Brasília. A partida, em Londres, é às 23 h; somando as 10 h do voo, chega às 33 h, isto é, 9 h do dia seguinte.
+c: 12 h resulta de somar a diferença de fuso duas vezes.
+d: 3 h resulta de subtrair a diferença de fuso, em vez de somá-la, e depois somar a duração do voo.
+
+@A-G01-06 N2 cálculo
+sup: <p>Em um mapa na escala 1 : 2.000.000, a distância entre dois municípios é de 6 cm.</p>
+stem: A distância real entre esses municípios, em linha reta, é de
+o1: 12 km.
+o2: 60 km.
+o3: 120 km.
+o4: 1.200 km.
+key: C
+a: 12 km resulta de errar duas casas na conversão de centímetros em quilômetros.
+b: 60 km resulta de usar a escala como se fosse 1 : 1.000.000.
+c: 6 · 2.000.000 = 12.000.000 cm = 120.000 m = 120 km.
+d: 1.200 km resulta de errar uma casa na conversão de centímetros em quilômetros.
+
+@A-G01-07 N2
+sup: <p>Em um mapa-múndi na projeção de Mercator, a Groenlândia aparece com tamanho próximo ao da África, embora a área real da África seja muitas vezes maior.</p>
+stem: Essa diferença ocorre porque, nessa projeção,
+o1: os continentes são representados em escala menor nas regiões tropicais.
+o2: a Groenlândia é um território que se expandiu nas últimas décadas.
+o3: a Terra é plana, e por isso todas as áreas são mapeadas com igual precisão.
+o4: as áreas são cada vez mais ampliadas conforme aumenta a latitude, o que distorce as regiões polares.
+key: D
+a: Na projeção de Mercator, as áreas próximas ao Equador são as que se aproximam mais da dimensão real, e não as mais reduzidas.
+b: A área da Groenlândia não mudou de forma que explique essa distorção; o efeito é cartográfico.
+c: A Terra é esférica; a projeção transforma uma superfície curva em plana e, por isso, sempre distorce algo.
+d: Na projeção de Mercator, as distâncias entre os paralelos aumentam em direção aos polos. Por isso as áreas nas latitudes altas aparecem exageradas.
+
+@A-G01-08 N2
+sup: <svg viewBox="0 0 280 180" width="280" height="180" role="img" aria-label="Mapa de curvas de nível de um morro, com curvas de 100, 200 e 300 metros. No lado esquerdo as curvas estão mais próximas umas das outras do que no lado direito. O ponto A está no lado esquerdo, entre as curvas de 100 e 200 metros, e o ponto B está no lado direito, entre as mesmas curvas."><ellipse cx="135" cy="90" rx="120" ry="76" fill="none" stroke="#8a5a2b" stroke-width="1.5"/><ellipse cx="125" cy="90" rx="80" ry="54" fill="none" stroke="#8a5a2b" stroke-width="1.5"/><ellipse cx="105" cy="90" rx="40" ry="30" fill="none" stroke="#8a5a2b" stroke-width="1.5"/><text x="135" y="11" font-size="9" text-anchor="middle">100 m</text><text x="125" y="33" font-size="9" text-anchor="middle">200 m</text><text x="105" y="57" font-size="9" text-anchor="middle">300 m</text><circle cx="30" cy="90" r="3" fill="#c0392b"/><text x="25" y="84" font-size="11" font-weight="bold">A</text><circle cx="230" cy="90" r="3" fill="#c0392b"/><text x="225" y="84" font-size="11" font-weight="bold">B</text></svg>
+stem: A figura mostra as curvas de nível de um morro. Comparando as encostas nos pontos A e B, é correto afirmar que
+o1: a encosta em A é mais íngreme, pois as curvas de nível estão mais próximas.
+o2: a encosta em B é mais íngreme, pois as curvas de nível estão mais distantes.
+o3: as duas encostas têm o mesmo declive, pois A e B estão entre as mesmas curvas.
+o4: a encosta em A é mais suave, pois curvas próximas indicam terreno plano.
+key: A
+a: A mesma diferença de altitude (100 m) ocorre em uma distância horizontal menor em A. Isso significa maior declive.
+b: Curvas mais distantes indicam que o terreno sobe pouco por distância horizontal, ou seja, declive mais suave em B.
+c: Estar entre as mesmas curvas indica a mesma diferença de altitude, mas não o mesmo declive; a distância horizontal é diferente.
+d: Curvas próximas indicam terreno íngreme; curvas bem afastadas indicam terreno mais plano.
+
+@A-G01-09 N3 julgar afirmativas
+stem: Sobre os fusos horários, analise as afirmativas.
+I. A Terra gira de oeste para leste e, por isso, o Sol nasce primeiro nos lugares situados mais a leste.
+II. A superfície terrestre é dividida em 24 fusos de 15° de longitude cada um.
+III. Quanto mais a oeste do meridiano de Greenwich, mais adiantada é a hora local.
+Estão corretas apenas
+o1: I e II.
+o2: II e III.
+o3: I e III.
+o4: I, II e III.
+key: A
+a: I e II são verdadeiras: 360° ÷ 24 = 15° por fuso. A III é falsa: a oeste de Greenwich a hora é atrasada.
+b: A III é falsa: a oeste de Greenwich as horas são atrasadas; ao leste são adiantadas. A I é verdadeira.
+c: A III é falsa e a II é verdadeira (360° ÷ 24 = 15°).
+d: A III é falsa: a hora local é mais atrasada à medida que se vai para o oeste de Greenwich.
+
+@A-G01-10 N3 cálculo
+sup: <p>Em um mapa na escala 1 : 500.000, uma região retangular mede 4 cm de largura por 3 cm de altura.</p>
+stem: A área real dessa região é de
+o1: 12 km².
+o2: 35 km².
+o3: 300 km².
+o4: 6.000.000 km².
+key: C
+a: 12 corresponde à área no mapa em cm², sem aplicar a escala.
+b: 35 resulta de somar os lados reais (20 + 15), e a área se obtém multiplicando.
+c: 4 cm · 500.000 = 20 km e 3 cm · 500.000 = 15 km. Área = 20 · 15 = 300 km².
+d: 6.000.000 resulta de multiplicar a área do mapa (12 cm²) pela escala e interpretar como km².
+
+@A-G01-11 N2
+sup: <p>Um mapa do Brasil mostra os estados em tons de cor cada vez mais escuros, conforme aumenta a densidade demográfica (habitantes por km²).</p>
+stem: Esse tipo de representação cartográfica é chamado de mapa
+o1: coroplético, que usa cores ou tonalidades para mostrar a intensidade de um fenômeno em áreas.
+o2: hipsométrico, que usa cores para indicar a altitude do relevo em áreas de um mapa.
+o3: de fluxos, que usa setas e linhas para mostrar deslocamentos de pessoas ou mercadorias.
+o4: topográfico, que mostra o relevo detalhado por meio de curvas de nível.
+key: A
+a: O mapa coroplético representa dados (como densidade demográfica) por áreas, com cores ou tons graduados.
+b: O mapa hipsométrico também usa cores, mas para representar altitudes e não dados populacionais.
+c: O mapa de fluxos usa setas ou linhas para mostrar movimentos, como migrações e comércio.
+d: O mapa topográfico mostra o relevo detalhado, normalmente com curvas de nível.

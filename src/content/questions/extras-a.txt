@@ -1,0 +1,130 @@
+# Complemento de questões para os tópicos centrais com menos de 12 itens: C02, G03, G02, H07, H09
+
+@A-C02-11 N2
+sup: <p>O “gelo-seco” é o dióxido de carbono no estado sólido. Quando exposto ao ar ambiente, ele “desaparece” sem deixar líquido e forma uma névoa branca ao redor.</p>
+stem: A mudança de estado físico que ocorre com o gelo-seco é a
+o1: fusão.
+o2: solidificação.
+o3: sublimação.
+o4: condensação.
+key: C
+a: A fusão é a passagem de sólido para líquido, e o gelo-seco não deixa líquido.
+b: A solidificação é a passagem de líquido para sólido, o inverso da fusão.
+c: A sublimação é a passagem direta de sólido para gás, como ocorre com o gelo-seco. A névoa vem do vapor de água do ar, que se condensa por causa do frio.
+d: A condensação é a passagem de gás para líquido; ela ocorre com o vapor de água do ar, e não com o gelo-seco.
+
+@A-C02-12 N3
+sup: <p>Em cidades de grande altitude, a pressão atmosférica é menor que ao nível do mar. Nesses locais, a água ferve a temperaturas inferiores a 100 °C, por exemplo, cerca de 90 °C.</p>
+stem: Por isso, em cidades de grande altitude, o cozimento de alimentos em água fervente costuma demorar mais, pois
+o1: a água ferve a uma temperatura menor, e os alimentos recebem menos energia por unidade de tempo.
+o2: a água só começa a ferver depois de ultrapassar 100 °C, e por isso demora mais.
+o3: a pressão menor aumenta o ponto de ebulição, e a água ferve a mais de 100 °C.
+o4: o ar rarefeito aumenta a quantidade de calor recebido pela água do fogão.
+key: A
+a: A água ferve a uma temperatura mais baixa (cerca de 90 °C) e permanece nela; os alimentos cozinham mais devagar.
+b: Em altitude, a água ferve antes de 100 °C, e não depois.
+c: A menor pressão diminui o ponto de ebulição, e não o aumenta.
+d: O ar rarefeito não aumenta o calor recebido; o que muda é o ponto de ebulição.
+
+@A-G03-09 N2
+sup: <p>A cidade de Belo Horizonte, em Minas Gerais, exerce forte influência sobre os municípios vizinhos, como Contagem e Betim. Esses municípios compartilham transporte, serviços e mercado de trabalho com a capital.</p>
+stem: O conjunto formado por uma metrópole e por municípios vizinhos integrados por serviços e infraestrutura é chamado de
+o1: zona rural.
+o2: região metropolitana.
+o3: bioma urbano.
+o4: fronteira agrícola.
+key: B
+a: A zona rural é a área do campo, e não o conjunto de cidades integradas.
+b: A região metropolitana reúne uma metrópole e municípios vizinhos integrados por transporte, serviços e mercado de trabalho.
+c: Bioma urbano não é um conceito usado para designar um conjunto de municípios.
+d: A fronteira agrícola é a área em que a agricultura avança sobre vegetação nativa.
+
+@A-G03-10 N3 cálculo
+sup: <table class="qt"><caption>População do Brasil (valores aproximados)</caption><tr><th>Ano</th><th>População total (milhões)</th><th>Parcela urbana</th></tr><tr><td>1970</td><td>93</td><td>56%</td></tr><tr><td>2010</td><td>191</td><td>84%</td></tr></table>
+stem: Entre 1970 e 2010, a população urbana do Brasil aumentou em cerca de
+o1: 28 milhões de pessoas.
+o2: 98 milhões de pessoas.
+o3: 108 milhões de pessoas.
+o4: 160 milhões de pessoas.
+key: C
+a: 28 resulta da diferença entre as porcentagens (84 − 56), e não da diferença entre as populações.
+b: 98 é a diferença entre as populações totais (191 − 93), e não a diferença entre as populações urbanas.
+c: 1970: 0,56 · 93 ≈ 52 milhões. 2010: 0,84 · 191 ≈ 160 milhões. Aumento: 160 − 52 ≈ 108 milhões.
+d: 160 milhões é a população urbana em 2010, e não o aumento no período.
+
+@A-G02-10 N2
+stem: Com o aumento da expectativa de vida e a queda da natalidade, a população brasileira está envelhecendo. Uma consequência desse processo para o Estado é
+o1: a diminuição da demanda por serviços de saúde, pois há menos jovens.
+o2: o aumento da demanda por saúde e previdência, com menor proporção de pessoas em idade ativa para contribuir.
+o3: a redução do número de aposentados, pois as pessoas vivem menos.
+o4: o aumento do número de escolas de ensino fundamental, pois há mais crianças.
+key: B
+a: Idosos tendem a precisar de mais serviços de saúde, e não de menos.
+b: Com mais idosos e menos pessoas em idade ativa, aumenta a pressão sobre a saúde e a previdência.
+c: O número de aposentados cresce com o envelhecimento da população.
+d: Com menos nascimentos, a demanda por escolas de ensino fundamental tende a diminuir.
+
+@A-G02-11 N3 cálculo
+sup: <table class="qt"><caption>Taxa de fecundidade do Brasil (filhos por mulher; valores aproximados)</caption><tr><th>Ano</th><th>Fecundidade</th></tr><tr><td>1960</td><td>6,2</td></tr><tr><td>1980</td><td>4,4</td></tr><tr><td>2000</td><td>2,4</td></tr><tr><td>2020</td><td>1,6</td></tr></table>
+stem: De 1960 a 2020, a taxa de fecundidade brasileira diminuiu, aproximadamente,
+o1: 26%.
+o2: 4,6%.
+o3: 387%.
+o4: 74%.
+key: D
+a: 26% é a razão entre 1,6 e 6,2, ou seja, o que restou da taxa em 2020 em relação a 1960, e não a redução.
+b: 4,6 é a diferença absoluta (em filhos por mulher) e não uma porcentagem.
+c: 387% resulta de dividir a taxa de 1960 pela de 2020 (6,2 ÷ 1,6) e interpretar como redução.
+d: A redução foi de 6,2 − 1,6 = 4,6 filhos por mulher. 4,6 ÷ 6,2 ≈ 0,74, ou 74%.
+
+@A-H07-10 N2
+sup: <p>No século XIX, cidades industriais inglesas, como Manchester, cresceram muito rápido. Os operários moravam em cortiços apertados, sem esgoto nem água tratada, e o ar das cidades era poluído pela fumaça das fábricas.</p>
+stem: Uma consequência social desse crescimento urbano acelerado e sem planejamento foi
+o1: a redução de doenças infecciosas, pelo contato com a tecnologia.
+o2: a propagação de doenças como a cólera, pelas péssimas condições de moradia e saneamento.
+o3: o aumento da expectativa de vida dos operários.
+o4: o fim da poluição do ar nas cidades.
+key: B
+a: As condições de moradia e saneamento favoreciam a propagação de doenças.
+b: A falta de esgoto e de água tratada favoreceu epidemias de doenças como a cólera nas cidades industriais.
+c: Nas primeiras décadas da industrialização, a expectativa de vida dos operários era baixa.
+d: A poluição do ar aumentou com o uso do carvão nas fábricas.
+
+@A-H07-11 N3
+sup: <p>A Segunda Revolução Industrial ampliou muito a produção de bens e a necessidade de matérias-primas, como borracha, petróleo e minérios. As indústrias europeias e norte-americanas também precisavam de novos mercados consumidores.</p>
+stem: Essa necessidade ajuda a explicar
+o1: a expansão imperialista sobre a África e a Ásia, no final do século XIX.
+o2: o isolamento das potências industriais do restante do mundo.
+o3: o fim das colônias europeias nas Américas.
+o4: o desaparecimento do comércio internacional.
+key: A
+a: A busca de matérias-primas e mercados levou as potências industriais a dominar a África e a Ásia.
+b: As potências industriais buscaram contato com outros continentes, e não o isolamento.
+c: As colônias europeias nas Américas já tinham sido, em grande parte, extintas no início do século XIX.
+d: O comércio internacional cresceu com a industrialização.
+
+@A-H09-10 N2
+sup: <p>Em 1967, na chamada Guerra dos Seis Dias, Israel derrotou países árabes vizinhos e passou a ocupar territórios, entre eles regiões onde vivem muitos palestinos.</p>
+stem: Entre os territórios ocupados por Israel em 1967 estão
+o1: a Península Arábica e o Iraque.
+o2: o Egito e a Líbia.
+o3: o Irã e o Afeganistão.
+o4: a Cisjordânia e a Faixa de Gaza.
+key: D
+a: A Península Arábica e o Iraque não foram ocupados por Israel em 1967.
+b: Israel ocupou a Península do Sinai, que pertencia ao Egito, mas não o Egito inteiro nem a Líbia.
+c: O Irã e o Afeganistão não fazem fronteira com Israel e não foram ocupados.
+d: Em 1967, Israel passou a ocupar a Cisjordânia e a Faixa de Gaza, entre outras áreas, e a questão desses territórios é central no conflito.
+
+@A-H09-11 N3
+sup: <p>A Constituição de 1988 afirma que homens e mulheres são iguais em direitos e obrigações. Ainda assim, o Brasil tem leis específicas de proteção às mulheres, como a Lei Maria da Penha, que trata da violência doméstica e familiar.</p>
+stem: A existência de leis específicas de proteção às mulheres não contraria o princípio da igualdade porque
+o1: a igualdade formal, prevista na lei, não elimina por si só as desigualdades reais, e medidas específicas buscam corrigi-las.
+o2: as mulheres devem ter mais direitos que os homens em todas as situações da vida social.
+o3: os homens não podem ser vítimas de nenhum tipo de violência.
+o4: a Constituição de 1988 não trata da igualdade entre homens e mulheres.
+key: A
+a: A igualdade de direitos na lei não elimina a violência e a discriminação reais; leis específicas buscam proteger quem sofre mais com esses problemas.
+b: O objetivo é corrigir desigualdades, e não dar mais direitos às mulheres em todas as situações.
+c: A afirmação é falsa: homens também podem ser vítimas de violência, mas a lei trata de um tipo específico de violência.
+d: O enunciado mostra que a Constituição trata da igualdade entre homens e mulheres.

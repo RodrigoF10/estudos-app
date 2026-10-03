@@ -1,149 +1,145 @@
-# Site de Estudos — CEFET-MG Varginha 2027 (Rayane)
+# Site de Estudos — CEFET-MG 2027 (Rayane)
 
-Site pessoal de estudos para o processo seletivo do CEFET-MG (Ensino Médio Integrado
-ao Técnico, campus Varginha), com um perfil para a Rayane estudar e um perfil de
-administrador para acompanhar o progresso dela.
+App de estudos para o Processo Seletivo 2027 do CEFET-MG (Ensino Técnico **Integrado**,
+edital 491/2026; prova em **29/11/2026**, 50 questões: Português 15, Matemática 15,
+Ciências 8, História 6, Geografia 6; menos de 10 acertos elimina). **Meta: 35+ acertos.**
 
-Feito com Node.js + Express + EJS. Usa **SQLite** como banco de dados através da
-biblioteca `@libsql/client`: rodando localmente, ela usa um arquivo comum
-(`data/estudos.db`), sem precisar de conta nem serviço externo; publicado no Vercel
-(seção 7), ela passa a usar um banco remoto no Turso, compatível com SQLite — a
-mesma linguagem SQL, sem reescrever nada do site.
+Tem um perfil para a Rayane estudar e um perfil Admin para acompanhar o progresso.
+Funciona junto com o **Professor CEFET** (agente no chat): os dois usam a mesma
+metodologia e o mesmo padrão de questões.
+
+Feito com Node.js + Express + EJS. Banco SQLite via `@libsql/client`: localmente é um
+arquivo (`data/estudos.db`); publicado no Vercel (seção 7) usa um banco Turso remoto.
 
 ## 1. Pré-requisitos
 
-- **Node.js versão 18 ou mais recente**. Baixe em https://nodejs.org caso ainda não
-  tenha. Para conferir a versão instalada: `node --version`
+- **Node.js 18 ou mais recente** (https://nodejs.org). Conferir: `node --version`
 
-## 2. Instalação (primeira vez)
+## 2. Instalação e uso local
 
-Abra um terminal dentro da pasta `estudos-app` e rode, em ordem:
+Dentro da pasta `estudos-app`:
 
 ```
 npm install
-npm run seed
 npm start
 ```
 
-- `npm install` baixa as bibliotecas (Express, EJS, cliente do banco de dados etc.).
-  **Se você já usava uma versão anterior do site**, rode `npm install` de novo agora —
-  as bibliotecas mudaram nesta atualização (troca de `express-session` por cookie
-  assinado, e de `node:sqlite` por `@libsql/client`, para viabilizar a publicação
-  no Vercel).
-- `npm run seed` cria o banco de dados (`data/estudos.db`) já populado com as
-  matérias, temas priorizados, conteúdos curados e o banco de questões.
-  **Atenção:** o banco já vem pronto e populado neste momento (765 questões) —
-  **não é necessário rodar `npm run seed` de novo**. Rodar esse comando **apaga
-  o histórico de respostas da Rayane, o cronograma e os simulados já feitos**,
-  recriando tudo do zero. Só rode de novo se quiser mesmo resetar o progresso
-  dela, ou se for adicionar questões novas nos arquivos de `src/questions/`.
-- `npm start` inicia o site.
+Abra **http://localhost:3000**. Não precisa rodar `npm run seed`: ao iniciar, o site
+sincroniza sozinho o conteúdo (tópicos, teoria e questões) com os arquivos de
+`src/content/`, **sem apagar** respostas, revisões, simulados nem cronograma.
 
-Depois de `npm start`, abra o navegador em **http://localhost:3000**.
-
-Nas próximas vezes, só é preciso rodar `npm start` (não precisa repetir `npm install`
-nem `npm run seed`, a menos que queira atualizar o conteúdo).
+Antes de entregar o site à Rayane, apague a pasta `data/` se você fez testes — ela guarda o
+progresso e será recriada limpa na próxima execução.
 
 ## 3. Login
-
-A tela inicial pede para escolher o perfil (Rayane ou Admin) e um PIN.
 
 | Perfil | PIN padrão |
 |---|---|
 | Rayane | `1234` |
 | Admin  | `4321` |
 
-**Para trocar os PINs**, defina variáveis de ambiente antes de rodar `npm start`:
+Para trocar: `RAYANE_PIN=novo ADMIN_PIN=outro npm start`
+(PowerShell: `$env:RAYANE_PIN="novo"; $env:ADMIN_PIN="outro"; npm start`)
 
-```
-RAYANE_PIN=novosenha ADMIN_PIN=outrasenha npm start
-```
+## 4. Metodologia (a mesma do Professor CEFET)
 
-(No Windows, no PowerShell: `$env:RAYANE_PIN="novosenha"; $env:ADMIN_PIN="outrasenha"; npm start`)
+1. **Foco no que mais cai.** Os 53 tópicos foram mapeados contra as provas de 2016–2026.
+   **42 tópicos do núcleo** cobrem ~86–89% das questões dos últimos 10 anos (Pareto:
+   é o que a trilha prioriza); 11 tópicos de **complemento** só entram depois.
+2. **Todas as questões no padrão da prova**: texto de apoio (tabelas, gráficos, mapas,
+   tirinhas), enunciado contextualizado, 4 alternativas A–D, formatos reais (direta,
+   cálculo, "julgue as afirmativas I–IV", "NÃO/incorreta", associação, asserção–razão).
+3. **Duas origens, sempre identificadas na tela:**
+   - **Real** — questão que de fato caiu (2016–2026), com ano/número;
+   - **Autoral** — escrita no estilo da prova.
+   Cada questão tem **nível N1 / N2 / N3** (base, prova típica, mais difícil).
+4. **O Alienista (livro de 2027)**: todas as questões da obra são **autorais** (nenhuma
+   questão real de livros de edições anteriores é usada).
+5. **Explicação de todas as alternativas**, errada ou certa, em linguagem de 9º ano.
+6. **Revisão espaçada** (1, 3, 7, 15, 30 dias) e **domínio por tópico** guiam o "Hoje".
+7. **Plano de 8 semanas** ancorado na data da prova, com simulados semanais.
 
-## 4. O que tem em cada perfil
+## 5. O que tem em cada perfil
 
 **Rayane:**
-- `Hoje` — sugestão do que estudar agora (com base no peso da matéria na prova e no
-  que ainda não foi dominado) + o plano de estudo do dia.
-- Trilha por matéria — todos os temas, ordenados do que mais cai na prova para o
-  que menos cai, com selo de domínio (🔴🟠🟡🟢) para cada um.
-- Página de cada tema — resumo, vídeos e artigos selecionados, e botão para praticar.
-- Exercícios — cada questão respondida mostra a explicação da alternativa certa
-  **e de todas as erradas**, e entra num sistema de revisão espaçada (volta a
-  aparecer em 1, 3, 7, 15 ou 30 dias, dependendo do desempenho).
-- `Progresso` — visão consolidada de domínio por matéria e tema.
-- `Cronograma` — ela mesma pode adicionar/ajustar blocos de estudo por data.
+- `Hoje` — o que estudar agora (núcleo primeiro, revisões vencidas, erros pendentes).
+- `Trilha` / página de matéria / página de tópico — teoria curta + prática, ordenados do
+  que mais cai para o que menos cai, com selo de domínio.
+- `Praticar` — sessões de 10 questões por tópico ("praticar mais 10"); cada resposta mostra a explicação.
+- `Erros` — caderno de erros com refazer.
+- `Plano` — as 8 semanas, com tópicos, meta e simulado de cada semana.
+- `Simulado` — **completo** (50 questões, 3 h, proporção real), **rápido** (20 questões,
+  72 min) ou **por matéria**; resultado com nota, desempenho por matéria, diagnóstico por tópico/nível,
+  projeção de acertos em 50 e comparação com a meta de 35.
+- `Progresso` — evolução, aproveitamento por matéria e por nível, notas dos simulados.
+- `Cronograma` — blocos de estudo por data.
 
-**Admin:**
-- `Visão geral` — dias até a prova, aproveitamento geral, mapa de domínio por
-  matéria, aderência ao cronograma na última semana e alertas automáticos de temas
-  prioritários sem prática há mais de 7 dias.
-- `Atividade` — histórico de tentativas da Rayane, questão a questão.
-- `Cronograma` — pode montar/editar o cronograma da Rayane.
-- `Ver como Rayane` — abre as telas dela em modo leitura (sem poder responder
-  exercícios em nome dela).
+**Admin:** visão geral (dias até a prova, aproveitamento, domínio por matéria, aderência,
+alertas), atividade questão a questão, cronograma, e "Ver como Rayane" (somente leitura).
 
-## 5. Sobre as questões
+## 6. Banco de questões
 
-O banco tem **765 questões**, escritas especialmente para este site, no mesmo
-estilo e nível de dificuldade das provas reais do CEFET-MG. Elas **não reproduzem**
-nenhuma questão oficial. A quantidade de questões por tema segue a mesma lógica de
-prioridade da trilha de estudo: mais questões nos temas que mais caíram nas provas
-de 2014 a 2025 (ex.: 20 questões sobre "O Alienista", 20 sobre Geometria Plana) e
-menos nos temas de baixa prioridade (ex.: 4 a 8 questões em Lógica Matemática,
-Trigonometria, História Antiga/Medieval, e nos temas de reforço de Ciências
-adicionados depois — Mecânica/Newton, Óptica, Hidrostática, Leis Ponderais,
-Misturas/Separação, Tabela Periódica, Zoologia/Bioquímica). Cada questão tem
-também um nível de dificuldade (fácil/médio/difícil), usado no gráfico de
-"aproveitamento por nível" da página Progresso.
+**685 questões**: 202 reais (2016–2026) + 483 autorais (40 delas sobre O Alienista).
+Todos os 42 tópicos do núcleo têm ao menos 12 questões e os de complemento ao menos 6.
+O gabarito fica equilibrado (A/B/C/D ≈ 168/180/172/165). As alternativas **não** são
+embaralhadas na hora: a ordem A–D é a definida na escrita (em questões como "I e II
+apenas" a ordem tem de ser fixa).
 
-Além disso, cobrindo lacunas identificadas na análise das provas dos últimos 10
-anos, foram adicionados os temas **Geografia da África** e **Escravidão e
-diáspora africana** (História), ambos com prioridade média/alta e conteúdo
-curado próprio. Questões escritas a partir desse ponto seguem também o formato
-de "texto de apoio" compartilhado entre questões e blocos de "analise as
-afirmativas I, II, III, IV", no mesmo estilo das provas reais mais recentes.
+### Estrutura do conteúdo (`src/content/`)
 
-## 5.1. Simulados, dashboard e mais
+```
+topics.json          # 53 tópicos (código, nome, matéria, núcleo/complemento, peso)
+theory/*.txt         # teoria curta por matéria
+real.json            # metadados das questões reais (ano, nº, tópico, nível)
+real-ex/*.txt        # texto das questões reais
+questions/*.txt      # questões autorais (inclui alienista.txt)
+check.js  parse.js  index.js  theory.js
+```
 
-Além da prática por tema (sessões de até 10 questões por vez, para não cansar),
-o site agora tem:
+### Como adicionar questões autorais
 
-- **Simulados cronometrados** (`/rayane/simulado`): uma prova completa de 50
-  questões (15 Português, 15 Matemática, 8 Ciências, 6 Geografia, 6 História),
-  com 3 horas de cronômetro, igual à estrutura real da prova.
-- **Dashboard de progresso** com gráficos de evolução, aproveitamento por
-  matéria, por nível de dificuldade, domínio dos temas e notas nos simulados.
-- **Plano automático**: o cronograma nunca fica vazio — se um dia não tiver
-  nada marcado, o site sugere automaticamente o que estudar, sem sobrescrever
-  o que já foi ajustado manualmente.
-- **Contador de tempo de estudo**, visível só no perfil Admin (Visão geral).
+Edite um arquivo de `src/content/questions/`. Cada questão tem cabeçalho e campos:
 
-As questões ficam organizadas por matéria em `src/questions/` (`portugues.js`,
-`matematica.js`, `ciencias.js`, `geografia.js`, `historia.js`). Para adicionar mais
-questões, edite o arquivo da matéria correspondente seguindo o mesmo padrão
-(pergunta + 4 alternativas + explicação de cada uma) e depois rode `npm run seed`
-de novo.
+```
+@A-M12-31 N2 cálculo
+sup: <p class="src">Fonte…</p> (HTML opcional: tabela, SVG)
+stem: Enunciado em texto simples.
+o1: alternativa …
+o2: …
+o3: …
+o4: …
+key: B
+a: explicação da alternativa o1 (na ordem original, sem citar letras)
+b: …
+c: …
+d: …
+```
 
-## 6. Estrutura do projeto
+- Código `A-<TÓPICO>-<nº>`; nível `N1|N2|N3`; formato opcional (`cálculo`,
+  `julgar afirmativas`, `NÃO/incorreta`, `associação`, `asserção–razão`); questões da obra levam `obra`
+  no cabeçalho (e o tópico PT09 só aceita questões com `obra`).
+- Rode **`npm run check`**: valida (ids únicos, tópico existente, 4 alternativas
+  distintas, gabarito A–D) e mostra a cobertura por tópico e o equilíbrio do gabarito.
+- Ao reiniciar o site (`npm start`) o conteúdo novo é sincronizado automaticamente.
+  Para forçar: `npm run seed -- --force` (também não-destrutivo).
+
+## 6.1. Estrutura do projeto
 
 ```
 estudos-app/
-  api/
-    index.js          # ponto de entrada usado pelo Vercel (função serverless)
+  api/index.js        # entrada do Vercel (serverless)
   src/
-    server.js        # ponto de entrada local (npm start)
-    db.js             # conexão com o banco (arquivo local ou Turso) + schema
-    seed.js           # popula matérias/temas/conteúdos
-    seed-questions.js # banco de questões
-    lib/              # spaced repetition, cálculo de domínio, sugestão do dia
+    server.js         # entrada local (npm start)
+    db.js             # conexão (arquivo local ou Turso) + schema
+    seed.js           # sincronização manual do conteúdo (não destrutiva)
+    content/          # tópicos, teoria e questões (ver acima)
+    lib/              # content-sync, srs, mastery, plan (8 semanas), planner, simulado, analytics
     middleware/auth.js
     routes/           # auth, rayane, admin, api
     views/            # páginas EJS
   public/             # CSS e JS do navegador
-  data/               # banco SQLite local (criado automaticamente, não versionar)
-  vercel.json         # configuração de publicação no Vercel
+  data/               # SQLite local (criado sozinho; não versionar)
+  vercel.json
 ```
 
 ## 7. Publicar o site na internet de graça (Vercel + Turso)
@@ -217,22 +213,20 @@ Nenhuma das duas exige cartão de crédito para o plano gratuito.
    parecido com `https://cefet-estudos-seuusuario.vercel.app` — esse é o
    endereço definitivo do site, acessível de qualquer navegador ou celular.
 
-### 7.4. Popular o banco publicado com as questões
+### 7.4. Popular o banco publicado
 
-O banco no Turso começa vazio. Para colocá-lo no mesmo estado do site local
-(765 questões, matérias, temas etc.), rode o seed **apontando para o Turso**,
-uma única vez, a partir do seu computador:
+O banco no Turso começa vazio. Rode a sincronização **apontando para o Turso**, uma vez,
+a partir do seu computador:
 
 ```
 TURSO_DATABASE_URL="sua-url-aqui" TURSO_AUTH_TOKEN="seu-token-aqui" npm run seed
 ```
 
-(No PowerShell: `$env:TURSO_DATABASE_URL="sua-url-aqui"; $env:TURSO_AUTH_TOKEN="seu-token-aqui"; npm run seed`)
+(PowerShell: `$env:TURSO_DATABASE_URL="sua-url-aqui"; $env:TURSO_AUTH_TOKEN="seu-token-aqui"; npm run seed`)
 
-Depois disso, o site publicado no Vercel já aparece com tudo funcionando. Sempre
-que adicionar questões novas nos arquivos de `src/questions/` **e quiser
-atualizar o site publicado**, rode esse mesmo comando de novo (lembre-se: ele
-reseta o progresso registrado, então combine com a Rayane antes).
+A sincronização **não apaga o progresso** da Rayane, então pode ser repetida sempre que
+você adicionar ou corrigir questões. (O site publicado também sincroniza sozinho quando
+a versão do conteúdo muda.)
 
 ### 7.5. Atualizações depois de publicado
 

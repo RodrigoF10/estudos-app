@@ -1,0 +1,323 @@
+# Português — PT04 (figuras de linguagem e recursos expressivos) e PT02 (coesão e conectivos)
+# Todos os textos de apoio são autorais (escritos para estudo), no estilo das provas do CEFET-MG.
+
+# ===================== PT04 =====================
+
+@A-PT04-01 N1
+sup: <p>A cidade dorme.<br>No alto da praça, o relógio conversa baixinho com a lua<br>e os postes, cansados, vão acendendo, um a um, os olhos amarelos.</p><p class="src">Texto autoral para estudo.</p>
+stem: Nos versos, o relógio “conversa baixinho com a lua” e os postes têm “olhos amarelos”. Esses recursos são exemplos de
+o1: comparação, pois aproximam dois elementos com o uso de um conectivo como “tal qual”.
+o2: personificação, pois atribuem ações e características humanas a seres inanimados.
+o3: hipérbole, pois exageram a intensidade de um fato para impressionar o leitor.
+o4: antítese, pois opõem ideias de sentidos contrários na mesma passagem.
+key: B
+a: Na comparação há um conectivo (“como”, “tal qual”) ligando os termos. Nos versos não existe nenhum.
+b: Relógio que conversa e postes que têm olhos e se mostram cansados recebem comportamentos de gente. É a definição de personificação (ou prosopopeia).
+c: Não há exagero: o que existe é atribuição de qualidades humanas a objetos, não aumento de intensidade.
+d: Não há ideias opostas (como dia × noite). Todos os elementos reforçam a imagem de uma cidade quieta e sonolenta.
+
+@A-PT04-02 N1
+sup: <p>A paciência da minha avó é como um rio: segue o seu curso, sem pressa, e acaba abrindo caminho entre as pedras mais duras.</p><p class="src">Trecho de crônica autoral para estudo.</p>
+stem: No trecho, a paciência da avó é caracterizada por meio de uma
+o1: metáfora, já que a identificação entre os dois termos acontece sem conectivo.
+o2: ironia, pois o narrador afirma o contrário do que realmente pensa.
+o3: hipérbole, pois a qualidade da avó é exagerada de modo irreal.
+o4: comparação, marcada pelo conectivo “como”, que aproxima a paciência da avó e o rio.
+key: D
+a: Na metáfora o termo é identificado diretamente com o outro (“a paciência é um rio”). Aqui aparece o “como”, e por isso a figura é comparação.
+b: Não há ironia: o narrador elogia a avó de forma sincera, sem dizer o oposto do que pensa.
+c: A imagem do rio não exagera a qualidade da avó além do possível; apenas a compara a um elemento da natureza.
+d: O “como” é o conectivo comparativo que liga “paciência” e “rio”. Essa presença explícita é o que diferencia a comparação da metáfora.
+
+@A-PT04-03 N1
+sup: <p>Era um bairro de casas pequenas e sonhos enormes, de ruas silenciosas e quintais barulhentos.</p><p class="src">Trecho de conto autoral para estudo.</p>
+stem: A caracterização do bairro, no trecho, se constrói principalmente pelo emprego de
+o1: antítese, ao contrapor termos de sentidos opostos (pequenas × enormes; silenciosas × barulhentos).
+o2: gradação, ao apresentar ideias em ordem crescente de intensidade, do menor ao maior.
+o3: repetição, ao insistir várias vezes no mesmo vocábulo para reforçar uma ideia.
+o4: eufemismo, ao suavizar uma realidade desagradável por meio de uma palavra mais branda.
+key: A
+a: “Pequenas” se opõe a “enormes” e “silenciosas” a “barulhentos”. Palavras de sentido contrário aproximadas formam uma antítese.
+b: Não há sequência crescente (do menor para o maior) de ideias; os pares são de opostos, não de intensidade progressiva.
+c: Nenhuma palavra se repete no trecho; as palavras são diferentes.
+d: O texto não atenua nada. Apenas descreve o bairro por meio de contrastes.
+
+@A-PT04-04 N2
+sup: <p><b>Cena de escritório</b></p><p>O funcionário chega à reunião quarenta minutos depois do horário marcado. O chefe, olhando para o relógio, diz:</p><p>— Que beleza! Pontualidade britânica, como sempre.</p><p class="src">Texto autoral para estudo.</p>
+stem: Na fala do chefe, o sentido é construído principalmente por
+o1: eufemismo, pois ele suaviza uma crítica para não constranger o funcionário.
+o2: hipérbole, pois ele exagera a demora do funcionário para ressaltar o atraso.
+o3: ironia, pois ele diz o contrário do que pensa para criticar o atraso do funcionário.
+o4: paradoxo, pois ele une duas ideias contraditórias que se anulam.
+key: C
+a: Um eufemismo substitui uma palavra dura por outra mais branda. Aqui o chefe não suaviza: ele critica, mas de forma disfarçada.
+b: Ele não aumenta o tempo do atraso; o exagero não está na fala. A figura está no contraste entre o elogio e o fato.
+c: O chefe elogia a pontualidade de quem se atrasou. O elogio, dito num contexto contrário, é uma crítica: isso é ironia.
+d: Não há duas ideias contraditórias na mesma expressão. O chefe usa um elogio com o sentido oposto ao que está dizendo.
+
+@A-PT04-05 N2
+sup: <p>Esperei o ônibus por uma eternidade. Quando ele finalmente apontou na esquina, eu já tinha criado raízes na calçada.</p><p class="src">Trecho de crônica autoral para estudo.</p>
+stem: Os exageros “por uma eternidade” e “criado raízes na calçada” têm como principal efeito
+o1: diminuir a importância da demora, tornando a espera algo irrelevante.
+o2: apresentar dados objetivos sobre o tempo de espera, como em uma notícia.
+o3: enfatizar a sensação de que a espera foi muito longa e incômoda.
+o4: sugerir que o narrador pretendia ficar parado no ponto de ônibus.
+key: C
+a: É o contrário: os exageros ampliam a demora, e não a diminuem.
+b: Dados objetivos seriam números (“esperei 50 minutos”). Expressões como “eternidade” não informam o tempo real.
+c: A hipérbole (exagero) é usada para expressar o incômodo: a espera pareceu interminável a ponto de o narrador “criar raízes”, como uma árvore.
+d: A expressão “criar raízes” é figurada; ela não indica vontade de ficar parado, e sim a impressão de ter ficado muito tempo no mesmo lugar.
+
+@A-PT04-06 N2
+sup: <p><b>Empresa reorganiza equipes e reduz quadro</b></p><p>Em comunicado interno, a diretoria informou que quarenta funcionários “deixarão de fazer parte do quadro” a partir do próximo mês, em razão da “readequação de custos”.</p><p class="src">Notícia autoral para estudo.</p>
+stem: Ao anunciar que os funcionários “deixarão de fazer parte do quadro”, a diretoria recorre a
+o1: um eufemismo, que suaviza a informação de que haverá demissões.
+o2: uma metonímia, que substitui o todo (a empresa) por uma de suas partes.
+o3: uma hipérbole, que exagera o número de pessoas afetadas.
+o4: um pleonasmo, que repete uma ideia já contida na expressão anterior.
+key: A
+a: “Deixar de fazer parte do quadro” é um modo mais brando de dizer “ser demitido”. Substituir uma expressão dura por outra suave é eufemismo.
+b: Não há troca de uma parte pelo todo ou do autor pela obra: a expressão é uma forma indireta de dizer “demitir”.
+c: O número (quarenta) é informado de modo objetivo; não há exagero algum.
+d: Pleonasmo seria repetição desnecessária (“subir para cima”). Não há redundância na expressão.
+
+@A-PT04-07 N2
+sup: <p>Naquela casa, eram três bocas para alimentar e um único salário para pagar todas as contas do mês.</p><p class="src">Trecho de conto autoral para estudo.</p>
+stem: No trecho, a expressão “três bocas para alimentar” é um caso de
+o1: personificação, pois atribui sentimentos humanos a objetos.
+o2: comparação, pois aproxima duas realidades por meio de um conectivo.
+o3: antítese, pois opõe a quantidade de pessoas e de salários.
+o4: metonímia, pois a parte (as bocas) é usada para designar o todo (as pessoas).
+key: D
+a: Não há objetos agindo como pessoas; “bocas” designa pessoas da família.
+b: Não existe conectivo comparativo (“como”, “tal qual”) ligando duas realidades.
+c: A oposição entre “três” e “um” existe, mas a pergunta é sobre a expressão “três bocas”, que não opõe ideias.
+d: “Boca” é uma parte do corpo usada no lugar das pessoas que precisam comer. Tomar a parte pelo todo é metonímia (alguns autores chamam esse caso específico de sinédoque).
+
+@A-PT04-08 N2
+sup: <p>Havia um cheiro azul no ar da manhã,<br>e a voz doce da avó, tão macia,<br>cheirava a pão e a janelas abertas.</p><p class="src">Poema autoral para estudo.</p>
+stem: Nos versos, a mistura de sensações ligadas a sentidos diferentes (olfato, visão, audição, paladar e tato) caracteriza a
+o1: gradação, pois as sensações aparecem em ordem crescente.
+o2: sinestesia, pois ela associa, em uma mesma expressão, percepções de sentidos diferentes.
+o3: aliteração, pois há repetição de sons consoantes ao longo do poema.
+o4: ironia, pois o eu lírico diz o contrário do que sente.
+key: B
+a: Não há progressão crescente de intensidade, e sim fusão de sentidos diferentes.
+b: “Cheiro azul” une olfato e visão; “voz doce e macia” une audição, paladar e tato. Essa mistura de sensações é a sinestesia.
+c: Não é a repetição de sons o que caracteriza os versos; o efeito vem da combinação de sentidos distintos.
+d: O tom dos versos é afetuoso e sincero, sem sentido oposto ao dito.
+
+@A-PT04-09 N3
+sup: <p>Quanto mais perto do silêncio,<br>mais barulho faz o pensamento.<br>É na pressa dos dias parados<br>que descubro o meu tempo mais lento.</p><p class="src">Poema autoral para estudo.</p>
+stem: A ideia de que o silêncio traz inquietação e de que a pausa revela um outro ritmo de vida é construída, no poema, por meio de
+o1: paradoxos, que unem ideias aparentemente contraditórias (como “pressa dos dias parados”) para expressar uma verdade inesperada.
+o2: comparações, que explicam os sentimentos do eu lírico com o auxílio do conectivo “como”.
+o3: onomatopeias, que imitam os sons do silêncio e do pensamento.
+o4: eufemismos, que suavizam as dificuldades enfrentadas pelo eu lírico.
+key: A
+a: “Pressa” e “parados”, “silêncio” e “barulho”, aparecem juntos em ideias que parecem contradizer-se, mas revelam algo verdadeiro: o silêncio externo faz o pensamento ficar agitado. Isso é paradoxo.
+b: O conectivo “como” não aparece no poema; “quanto mais... mais...” indica proporção, não comparação figurada.
+c: Onomatopeia imita sons (“tic-tac”, “zum-zum”). Nenhuma palavra do poema faz isso.
+d: O eu lírico não suaviza nada; ele expõe uma inquietação e uma descoberta por meio de contradições.
+
+@A-PT04-10 N3 julgar afirmativas
+sup: <p>A cidade acorda tossindo. Os ônibus, bois metálicos, mugem nas esquinas, e a fumaça, preguiçosa, sobe devagar, como quem não quer ir trabalhar.</p><p class="src">Trecho de crônica autoral para estudo.</p>
+stem: Sobre os recursos expressivos empregados no trecho, analise as afirmativas.
+I. “Bois metálicos” é uma metáfora que identifica os ônibus a animais de carga.
+II. “Mugem” e “preguiçosa” atribuem comportamentos de seres vivos a ônibus e fumaça.
+III. “Como quem não quer ir trabalhar” estabelece uma comparação para dar à fumaça um comportamento humano.
+IV. “A cidade acorda tossindo” é uma hipérbole, pois exagera o barulho do trânsito.
+Estão corretas apenas
+o1: I e IV.
+o2: II e III.
+o3: I, II e IV.
+o4: I, II e III.
+key: D
+a: A afirmativa IV é falsa e, por isso, a alternativa não pode estar certa: “acorda tossindo” é personificação, e não exagero do barulho.
+b: II e III estão corretas, mas a alternativa deixa de fora a I, que também é verdadeira (“bois metálicos” é metáfora).
+c: Inclui a IV, falsa. A expressão “acorda tossindo” atribui ações humanas à cidade (personificação).
+d: I está certa (metáfora: ônibus = bois metálicos). II está certa (ônibus “mugem”, fumaça “preguiçosa”). III está certa (comparação com “como quem...”). IV é falsa: trata-se de personificação.
+
+@A-PT04-11 N2
+sup: <p>O “especialista” contratado pela prefeitura garantiu que a obra do viaduto ficaria pronta em março... de 2035.</p><p class="src">Trecho de coluna de opinião autoral para estudo.</p>
+stem: As aspas em “especialista” e as reticências antes de “de 2035” indicam, no trecho,
+o1: destaque à competência do profissional e à rapidez prometida para a obra.
+o2: distanciamento irônico do autor em relação à competência do profissional e ao prazo anunciado.
+o3: citação literal de uma fala dita pelo profissional ao repórter.
+o4: sinal de que o texto pertence ao gênero narrativo e usa linguagem literária.
+key: B
+a: O texto não elogia: o prazo de quase dez anos desmente qualquer ideia de rapidez e de competência.
+b: As aspas sugerem que o autor duvida do título “especialista”; as reticências criam uma pausa que antecipa a quebra de expectativa (“março... de 2035”). Ambos produzem ironia.
+c: Não há fala transcrita; o trecho usa discurso indireto (“garantiu que a obra ficaria pronta”). As aspas marcam ironia, não citação.
+d: Trata-se de texto de opinião (coluna), e a ironia é um recurso argumentativo, não um sinal de gênero narrativo.
+
+@A-PT04-12 N3
+sup: <p><b>Violência não se combate com silêncio</b></p><p>Quem cala, consente. Quem consente, repete. Quem repete, ensina. E quem ensina a violência não educa: adoece toda a comunidade.</p><p class="src">Texto de campanha autoral para estudo.</p>
+stem: A construção do texto, em que cada afirmação retoma o termo final da anterior, produz o efeito de
+o1: contraste, pois cada frase nega o que foi dito na frase anterior.
+o2: humor, pois as frases curtas criam um tom de brincadeira e leveza.
+o3: progressão, pois leva o leitor da omissão individual até o prejuízo coletivo, reforçando a responsabilidade de quem se cala.
+o4: neutralidade, pois o autor apenas informa fatos sem tentar convencer o leitor.
+key: C
+a: As frases não se negam: cada uma complementa a anterior (“cala → consente → repete → ensina”).
+b: O assunto é grave e o tom é de alerta; não há intenção de fazer rir.
+c: O encadeamento (gradação) conduz de uma atitude pessoal (calar) a uma consequência social (adoecer a comunidade). O texto quer convencer o leitor a não se omitir.
+d: O gênero é uma campanha, que busca persuadir; as frases em forma de sentença mostram posição clara do autor.
+
+@A-PT04-13 N3 direta
+sup: <p><b>Tirinha “Sem sinal” (descrição)</b></p><p><b>Quadro 1:</b> Em uma sala, a filha, de pé, avisa ao pai, que está no sofá com o celular na mão: “Pai, a internet caiu!”.</p><p><b>Quadro 2:</b> O pai, sem tirar os olhos da tela preta do aparelho, responde com ar dramático: “Que tragédia... vou ter que conversar com a família.”</p><p><b>Quadro 3:</b> A mãe e os filhos se entreolham, assustados, e a filha pergunta: “Quem são esses?”.</p><p class="src">Tirinha autoral para estudo.</p>
+stem: O humor da tirinha é produzido, principalmente, por meio de
+o1: uma metáfora, que identifica a internet a um membro querido da família.
+o2: uma personificação, que atribui sentimentos e vontade ao aparelho celular.
+o3: uma antítese, que contrapõe família e tecnologia como realidades opostas e inconciliáveis.
+o4: uma ironia, pois o exagero dramático do pai e a reação dos filhos revelam o pouco convívio da família por causa da tecnologia.
+key: D
+a: A internet não é identificada a nenhum parente; não há metáfora desse tipo.
+b: O celular não age como gente; quem age de modo humano são as pessoas da cena.
+c: A oposição entre família e tecnologia existe na crítica, mas o humor não vem de palavras de sentido contrário; vem do contraste entre o que é dito e o que se percebe.
+d: O pai fala “conversar com a família” como se fosse um sacrifício, e a pergunta “Quem são esses?” indica que os familiares quase não se conhecem. A crítica ao excesso de tecnologia é feita por ironia e exagero.
+
+@A-PT04-14 N3
+sup: <p><b>Óticas Lente Clara</b></p><p>Venha conferir: nossas ofertas estão sempre à vista.</p><p class="src">Anúncio autoral para estudo.</p>
+stem: O efeito de humor e de persuasão do slogan resulta, principalmente,
+o1: do duplo sentido de “à vista”, que remete tanto à visão quanto ao pagamento sem parcelamento.
+o2: da comparação entre o preço dos produtos e a visão dos clientes.
+o3: do exagero do número de ofertas disponíveis na loja.
+o4: da substituição do nome da loja pelo produto que ela vende.
+key: A
+a: “À vista” tem dois sentidos possíveis: “visíveis, expostas” (e a loja vende produtos para a visão) e “pagamento em dinheiro”. O jogo de sentidos é o recurso do anúncio.
+b: Não há comparação; nenhum conectivo liga preço e visão.
+c: O anúncio não indica quantidade; apenas diz que as ofertas estão visíveis.
+d: Não há troca do nome da loja pelo produto (metonímia); o nome continua sendo “Lente Clara”.
+
+# ===================== PT02 =====================
+
+@A-PT02-01 N1
+sup: <p>Choveu muito durante a madrugada; por isso, a quadra da escola amanheceu alagada e a aula de Educação Física foi cancelada.</p><p class="src">Texto autoral para estudo.</p>
+stem: No trecho, a expressão “por isso” estabelece entre as ideias uma relação de
+o1: oposição, pois liga fatos contrários.
+o2: tempo, pois indica que um fato ocorreu depois de outro.
+o3: consequência, pois a quadra alagada resulta da chuva forte.
+o4: comparação, pois aproxima duas situações semelhantes.
+key: C
+a: Os fatos não se opõem; um é resultado do outro. A oposição seria marcada por “mas”, “porém”.
+b: A sequência no tempo existe, mas “por isso” mostra a ligação de causa e efeito, e não só a ordem dos fatos.
+c: A chuva forte causou o alagamento; “por isso” introduz o efeito (consequência).
+d: Não há semelhança sendo apresentada entre as situações.
+
+@A-PT02-02 N1
+sup: <p>Embora estudasse todos os dias, Lia chegou nervosa à prova.</p><p class="src">Frase autoral para estudo.</p>
+stem: A conjunção “embora” expressa, na frase, uma ideia de
+o1: concessão, pois indica um fato contrário ao esperado que não impediu o resultado.
+o2: causa, pois explica o motivo de Lia ter ficado nervosa.
+o3: finalidade, pois indica o objetivo dos estudos.
+o4: condição, pois informa o que é necessário para que Lia fique nervosa.
+key: A
+a: Estudar muito faria esperar tranquilidade, mas ela ficou nervosa mesmo assim. O contrário do esperado que não impede o fato principal é concessão.
+b: Estudar não é o motivo do nervosismo. Para causa seria necessário “porque” ou “já que”.
+c: Não há ideia de objetivo; a finalidade seria marcada por “para que”.
+d: Não há condição (“se”); o estudo realmente aconteceu todos os dias.
+
+@A-PT02-03 N2
+sup: <p>O Grêmio Estudantil organizou uma feira de ciências. Ela reuniu trinta projetos e atraiu moradores do bairro, o que surpreendeu os professores.</p><p class="src">Texto autoral para estudo.</p>
+stem: No texto, a expressão “o que” retoma
+o1: “moradores do bairro”, que aparece antes do pronome.
+o2: “os professores”, sujeito da oração anterior.
+o3: “trinta projetos”, objeto direto da oração anterior.
+o4: o fato de a feira ter reunido trinta projetos e atraído moradores do bairro.
+key: D
+a: O que surpreendeu os professores não foram só os moradores, mas o conjunto dos fatos anteriores.
+b: “Os professores” aparece depois de “o que”, e eles são os que se surpreendem, não o que é retomado.
+c: “Trinta projetos” é apenas um dos fatos; o pronome retoma a ideia inteira da oração anterior.
+d: “O que” é um pronome que retoma toda a oração anterior (reunir projetos e atrair moradores). O que surpreendeu foi esse conjunto de fatos.
+
+@A-PT02-04 N2
+sup: <p>Não fui à festa porque estava com febre.</p><p class="src">Frase autoral para estudo.</p>
+stem: Assinale a reescrita que mantém o sentido da frase original.
+o1: Embora estivesse com febre, não fui à festa.
+o2: Como estava com febre, não fui à festa.
+o3: Se estivesse com febre, não iria à festa.
+o4: Quando estava com febre, fui à festa.
+key: B
+a: “Embora” cria ideia de concessão (mesmo com febre), que mudaria o sentido original, de causa.
+b: “Como”, no início da frase, tem valor de causa, igual ao “porque” da original. O sentido permanece.
+c: “Se” expressa condição hipotética (ainda não aconteceu); a original diz que a febre realmente ocorreu.
+d: Altera o sentido: na original ela não foi à festa; aqui, foi.
+
+@A-PT02-05 N2
+sup: <p>Muitos jovens afirmam preferir o cinema; ______, o consumo de séries em casa só cresce a cada ano.</p><p class="src">Texto autoral para estudo.</p>
+stem: Para que haja relação de oposição entre as ideias, a lacuna deve ser preenchida por
+o1: portanto.
+o2: no entanto.
+o3: logo.
+o4: porque.
+key: B
+a: “Portanto” indica conclusão, e a segunda ideia não é conclusão da primeira.
+b: “No entanto” é conjunção adversativa; ela contrapõe a preferência declarada pelo cinema ao crescimento do consumo de séries.
+c: “Logo” também indica conclusão; não há essa ligação entre as ideias.
+d: “Porque” indica causa, mas o consumo de séries não é causa de preferir o cinema.
+
+@A-PT02-06 N3
+sup: <p>Devemos votar com consciência, pois o voto é a principal ferramenta política do cidadão. Contudo, muitos ainda o trocam por favores. Assim, a corrupção, longe de ser só um problema dos políticos, também é nossa.</p><p class="src">Trecho de artigo de opinião autoral para estudo.</p>
+stem: As relações estabelecidas pelos conectivos “pois”, “contudo” e “assim” são, respectivamente, de
+o1: causa, concessão e comparação.
+o2: explicação, conclusão e oposição.
+o3: conclusão, oposição e adição.
+o4: explicação, oposição e conclusão.
+key: D
+a: “Pois” é explicativo, e não causal comum; “contudo” é oposição (não concessão); “assim” é conclusão (não comparação).
+b: Inverte as duas últimas: “contudo” expressa oposição e “assim” introduz a conclusão do texto.
+c: “Pois” explica a ideia anterior (não conclui) e “assim” conclui (não adiciona).
+d: “Pois” justifica a afirmação anterior (explicação); “contudo” contrapõe a prática ao dever (oposição); “assim” conclui o raciocínio.
+
+@A-PT02-07 N2
+sup: <p>Ana disse a Júlia que seu irmão chegaria cedo.</p><p class="src">Frase autoral para estudo.</p>
+stem: A frase apresenta ambiguidade, que decorre de
+o1: o pronome “seu” poder se referir tanto a Ana quanto a Júlia.
+o2: o verbo “chegar” estar no futuro do pretérito.
+o3: o termo “cedo” ter significado vago.
+o4: faltar sujeito para o verbo “disse”.
+key: A
+a: Não se sabe se o irmão é de Ana ou de Júlia. O pronome possessivo não deixa clara a referência, e essa falha de coesão referencial gera dupla leitura.
+b: O tempo verbal não causa ambiguidade de sentido nesse caso.
+c: “Cedo” é impreciso, mas isso não gera duas interpretações da frase, que é o que se pergunta.
+d: O sujeito de “disse” é “Ana”; ele está claro na frase.
+
+@A-PT02-08 N2
+sup: <p>Enquanto o transporte público perde passageiros a cada ano, o número de automóveis nas ruas só cresce.</p><p class="src">Trecho de artigo autoral para estudo.</p>
+stem: Nesse trecho, o conectivo “enquanto” pode ser substituído, sem alteração do sentido, por
+o1: logo que.
+o2: desde que.
+o3: ao passo que.
+o4: uma vez que.
+key: C
+a: “Logo que” indica tempo (“assim que”), o que não é o caso: as duas ideias se contrapõem.
+b: “Desde que” indica condição, o que muda o sentido.
+c: “Ao passo que” expressa contraste entre dois fatos simultâneos: o transporte público perde passageiros, os automóveis aumentam.
+d: “Uma vez que” indica causa; um fato não explica o outro no trecho.
+
+@A-PT02-09 N2
+sup: <p>A Organização Mundial da Saúde divulgou ontem um novo alerta sobre o uso excessivo de telas por crianças. A entidade recomenda que pais limitem o tempo diante dos aparelhos. O órgão, com sede em Genebra, também sugere atividades ao ar livre.</p><p class="src">Notícia autoral para estudo.</p>
+stem: As expressões “a entidade” e “o órgão” contribuem para a coesão do texto porque
+o1: introduzem um novo assunto que não tem relação com o anterior.
+o2: indicam que o texto passa a tratar de outro tema.
+o3: apresentam a opinião do autor sobre a Organização Mundial da Saúde.
+o4: retomam “Organização Mundial da Saúde” por outras palavras, evitando repetir o nome.
+key: D
+a: As expressões retomam um assunto já apresentado; elas não introduzem um novo.
+b: O tema é mantido (as recomendações da OMS); não há mudança.
+c: O texto é noticioso e não traz julgamento do autor sobre a OMS.
+d: Substituir o nome por termos equivalentes (“a entidade”, “o órgão”) é coesão lexical por retomada e evita a repetição.
+
+@A-PT02-10 N3 associação
+sup: <p><b>Ordene as frases para formar um parágrafo coeso e coerente.</b></p><p>(1) Isso acontece porque o corpo libera substâncias que provocam sensação de bem-estar.<br>(2) Além disso, o hábito ajuda a dormir melhor e a manter a atenção nos estudos.<br>(3) Praticar atividade física regularmente faz bem não só ao corpo, mas também ao humor.<br>(4) Portanto, reservar alguns minutos do dia para se movimentar é um investimento em saúde física e mental.<br>(5) Estudos mostram que pessoas ativas relatam menos tristeza e menos ansiedade.</p><p class="src">Texto autoral para estudo.</p>
+stem: A sequência que organiza corretamente as frases, de acordo com os elementos de coesão, é
+o1: 3, 5, 1, 2, 4.
+o2: 3, 1, 5, 2, 4.
+o3: 5, 3, 1, 2, 4.
+o4: 2, 3, 5, 1, 4.
+key: A
+a: (3) apresenta a ideia central; (5) mostra a evidência; (1) “Isso acontece porque...” explica o dado de (5); (2) “Além disso” acrescenta outro benefício; (4) “Portanto” conclui.
+b: Colocar (1) antes de (5) deixa “Isso” sem referência, já que ainda não foi apresentada nenhuma informação que “isso” possa retomar.
+c: Começar por (5) apresenta o dado antes da ideia central; o parágrafo perde a introdução do tema.
+d: “Além disso” em (2) não pode abrir o parágrafo, pois ele acrescenta ideia a algo dito antes.

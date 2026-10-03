@@ -1,0 +1,319 @@
+@M12
+resumo: Áreas e perímetros (quadrado, retângulo, triângulo, trapézio, círculo) e figuras compostas ou sombreadas.
+
+## O que a banca cobra
+Quase sempre uma **figura composta** ou **sombreada**: a resposta é uma subtração ou soma de áreas. Também aparecem circunferência (comprimento e área) e problemas com cercas, pisos e terrenos.
+
+## Fórmulas essenciais
+| Figura | Área | Perímetro |
+|---|---|---|
+| Quadrado (lado a) | a² | 4a |
+| Retângulo (b × h) | b·h | 2b + 2h |
+| Triângulo | b·h ÷ 2 | soma dos lados |
+| Paralelogramo | b·h | soma dos lados |
+| Losango | D·d ÷ 2 | 4·lado |
+| Trapézio | (B + b)·h ÷ 2 | soma dos lados |
+| Círculo (raio r) | π·r² | 2·π·r |
+
+- **Comprimento da circunferência:** C = 2πr. **Diâmetro:** d = 2r.
+- **Coroa circular (anel):** π(R² − r²).
+
+## Como resolver
+1. Desenhe e escreva as medidas.
+2. **Decomponha** em figuras conhecidas (ou subtraia o que "sobra").
+3. Confira as **unidades** (cm × cm = cm²; m → cm multiplica por 100; m² → cm² multiplica por 10 000).
+
+> A banca adora trocar **raio por diâmetro** e **área por perímetro**. Releia o que a pergunta pede.
+
+@M09
+resumo: Média, mediana, moda e leitura de gráficos e tabelas de dados.
+
+## O que a banca cobra
+Calcular média (simples e ponderada), mediana e moda a partir de tabela ou gráfico, ou descobrir **qual valor falta** para atingir uma média. Também aparece a leitura de gráficos de barras, linhas, setores e radar.
+
+## Definições
+- **Média aritmética**: soma dos valores ÷ quantidade de valores.
+- **Média ponderada**: cada valor é multiplicado pelo seu peso; soma dos produtos ÷ soma dos pesos.
+- **Mediana**: valor central dos dados **em ordem**. Se a quantidade é par, é a média dos dois centrais.
+- **Moda**: valor que mais se repete (pode haver mais de uma ou nenhuma).
+
+## Como resolver
+1. Em tabela de frequência, **multiplique valor × frequência** antes de somar.
+2. Para a mediana, **ordene** primeiro.
+3. "Que nota o aluno precisa tirar?": média desejada × quantidade − soma que já tem.
+
+> Média **não** é o valor do meio, e a mediana **não** muda com valores extremos como a média muda. Se a questão dá uma **tabela de frequência**, a mediana está na posição acumulada, não no meio da lista de valores diferentes.
+
+@M13
+resumo: Semelhança de triângulos, Teorema de Tales, Pitágoras e razões trigonométricas básicas (seno, cosseno, tangente).
+
+## O que a banca cobra
+Problemas com sombra e altura, rampas, escadas, terrenos entre retas paralelas, diagonal de quadrado/retângulo e ângulo de elevação. Costuma vir com figura.
+
+## Ideias-chave
+- **Pitágoras** (triângulo retângulo): a² = b² + c², com a = hipotenusa. Ternos comuns: 3-4-5, 5-12-13, 8-15-17, 6-8-10.
+- **Semelhança**: triângulos com mesmos ângulos têm lados **proporcionais** (use razão entre lados correspondentes).
+- **Tales**: retas paralelas cortadas por transversais formam segmentos proporcionais.
+- **Trigonometria** (triângulo retângulo, ângulo α): sen α = cateto oposto ÷ hipotenusa; cos α = cateto adjacente ÷ hipotenusa; tg α = oposto ÷ adjacente.
+- Valores: sen 30° = 1/2, cos 60° = 1/2, sen 45° = cos 45° = √2/2, sen 60° = cos 30° = √3/2, tg 45° = 1.
+- **Diagonal do quadrado:** d = L√2. **Altura do triângulo equilátero:** h = L√3/2.
+
+## Como resolver
+1. Marque na figura qual triângulo é retângulo e quais são semelhantes.
+2. Escreva a proporção **na mesma ordem** (menor/maior com menor/maior).
+
+> Não troque cateto por hipotenusa: a hipotenusa é sempre o lado **oposto ao ângulo reto** e o **maior**.
+
+@M04
+resumo: Fatoração, produtos notáveis, potências e radicais; simplificar e valorar expressões.
+
+## O que a banca cobra
+Simplificar expressões, calcular valor numérico, usar um produto notável como atalho (ex.: calcular 51² − 49² sem calculadora) e operar com potências e raízes.
+
+## Produtos notáveis e fatoração
+- (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b².
+- (a + b)(a − b) = a² − b² (diferença de quadrados).
+- Fator comum: ax + ay = a(x + y).
+- Agrupamento: ax + ay + bx + by = (a + b)(x + y).
+
+## Potências e radicais
+- aᵐ · aⁿ = aᵐ⁺ⁿ; aᵐ ÷ aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ; a⁰ = 1; a⁻ⁿ = 1/aⁿ.
+- √(ab) = √a · √b; √(a/b) = √a/√b; √(a²) = a (para a ≥ 0).
+- **Racionalizar:** 1/√a = √a/a.
+
+## Como resolver
+1. Procure **fator comum** ou **diferença de quadrados** antes de calcular.
+2. Em potências de mesma base, some ou subtraia os expoentes.
+
+> (a + b)² **não** é a² + b². Falta o termo 2ab. E (−2)² = 4, mas −2² = −4.
+
+@M02
+resumo: Razão, proporção, regra de três (direta e inversa), escalas e divisão proporcional.
+
+## O que a banca cobra
+Problemas de cotidiano: receita, velocidade, consumo, trabalho de várias pessoas, mapa em escala, divisão de valor em partes proporcionais. É o tipo de questão mais frequente de Matemática.
+
+## Ideias-chave
+- **Razão** = comparação por divisão (a/b). **Proporção**: a/b = c/d, e então a·d = b·c.
+- **Regra de três direta**: as duas grandezas crescem juntas (mais carros, mais gasolina).
+- **Regra de três inversa**: uma cresce e a outra diminui (mais operários, menos dias).
+- **Mais de duas grandezas**: compare cada uma com a grandeza do que você procura, direta ou inversa, e multiplique as razões.
+- **Escala** = medida no desenho ÷ medida real (use a mesma unidade!).
+- **Divisão proporcional:** some as partes, divida o total pela soma, multiplique pela parte de cada um.
+
+## Como resolver
+1. Escreva a tabela com as grandezas e coloque o **x** onde está a pergunta.
+2. Pergunte: _se uma dobra, a outra dobra (direta) ou cai pela metade (inversa)?_
+3. Verifique o resultado: tem sentido?
+
+> Nas questões de "operários × dias × peças" (tipo da prova), monte a razão por grandeza. Escala 1 : 50 000 significa 1 cm no mapa = 50 000 cm = 500 m reais.
+
+@M14
+resumo: Ângulos (paralelas e transversal, triângulos) e polígonos (soma dos ângulos, polígonos regulares, diagonais).
+
+## O que a banca cobra
+Descobrir um ângulo desconhecido numa figura com retas paralelas ou em polígonos regulares (hexágono, pentágono, octógono).
+
+## Fórmulas e propriedades
+- **Soma dos ângulos internos** de um triângulo: 180°. De um polígono de n lados: **S = (n − 2)·180°**.
+- **Ângulo interno** de polígono regular: S ÷ n. **Ângulo externo:** 360° ÷ n (e interno + externo = 180°).
+- **Ângulo externo de um triângulo** = soma dos dois internos não adjacentes.
+- **Paralelas cortadas por transversal:** correspondentes e alternos são **iguais**; colaterais somam 180°.
+- **Opostos pelo vértice** são iguais. Ângulos **suplementares** somam 180°; **complementares**, 90°.
+- **Número de diagonais:** d = n(n − 3)/2.
+
+## Como resolver
+1. Marque na figura os ângulos que você já conhece e propague (alternos, correspondentes, suplementares).
+2. Em polígonos regulares, comece pelo **ângulo externo** (360° ÷ n).
+
+> Triângulo isósceles tem **dois** ângulos iguais (os da base). Triângulo equilátero: 60° cada.
+
+@M06
+resumo: Divisores, múltiplos, MMC, MDC, números primos, frações e operações com frações.
+
+## O que a banca cobra
+Problemas de "coincidência" (MMC: quando dois eventos se repetem juntos), de "dividir em partes iguais" (MDC), números primos, divisibilidade e operações com frações em contexto.
+
+## Ideias-chave
+- **Critérios de divisibilidade:** por 2 (termina em par), 3 (soma dos algarismos múltipla de 3), 5 (termina em 0 ou 5), 9 (soma múltipla de 9), 10 (termina em 0).
+- **Número primo:** tem exatamente 2 divisores (2, 3, 5, 7, 11, 13…). O **2** é o único primo par; **1 não é primo**.
+- **MMC**: menor múltiplo comum (eventos que se repetem juntos de novo; "daqui a quanto tempo").
+- **MDC**: maior divisor comum (cortar/dividir em pedaços iguais, o maior possível).
+- **Frações:** some/subtraia com denominador comum; multiplique numerador × numerador; divida **multiplicando pelo inverso**.
+- Fração de fração: "2/3 de 3/4" = 2/3 × 3/4.
+
+## Como resolver
+1. Fatore em primos (árvore de fatores) para achar MMC e MDC.
+2. Em "fração do que sobrou", calcule passo a passo, sempre sobre o **novo** total.
+
+> MMC é para "de novo juntos"; MDC é para "o maior pedaço igual". Pergunte-se qual dos dois a história pede.
+
+@M07
+resumo: Função afim (reta): f(x) = ax + b; coeficientes, gráfico, taxa de variação, interpretação de gráficos.
+
+## O que a banca cobra
+Contextos de **custo fixo + custo variável** (táxi, plano de celular, aluguel): descobrir a lei da função, ler o gráfico e comparar duas retas.
+
+## Ideias-chave
+- **f(x) = ax + b**: a = coeficiente angular (**taxa de variação**: quanto y muda quando x aumenta 1); b = coeficiente linear (valor quando x = 0, onde a reta corta o eixo y).
+- **a > 0**: crescente; **a < 0**: decrescente.
+- **Raiz (zero)**: onde a reta corta o eixo x: x = −b/a.
+- **Dois pontos** (x₁, y₁) e (x₂, y₂): a = (y₂ − y₁)/(x₂ − x₁); depois ache b.
+- **Ponto de encontro de duas retas:** iguale as duas funções.
+
+## Como resolver
+1. Descubra o **valor fixo** (b) e o **valor por unidade** (a).
+2. Em "qual plano compensa", encontre o x em que os custos são iguais e veja de que lado cada um fica melhor.
+
+> Gráfico de reta que **não passa pela origem** tem b ≠ 0: não é proporcionalidade direta. Cuidado com a escala dos eixos.
+
+@M11
+resumo: Princípio multiplicativo, permutação, arranjo e combinação em problemas de contagem.
+
+## O que a banca cobra
+Quantas senhas, placas, trajetos, filas, comissões ou combinações existem. Muitas vezes com restrições ("não pode repetir", "o primeiro tem que ser par").
+
+## Ideias-chave
+- **Princípio multiplicativo**: se há m escolhas para uma etapa e n para a seguinte, há m × n possibilidades. (Escolha cada **posição** ou etapa por vez.)
+- **Permutação** de n elementos distintos: n! = n · (n−1) · … · 1. Com elementos repetidos: n! ÷ (repetições!).
+- **Arranjo** (a ordem importa) e **combinação** (a ordem **não** importa): C(n, p) = n! ÷ [p!(n − p)!].
+- **"Ou" soma, "e" multiplica**.
+
+## Como resolver
+1. Pergunte: _a ordem importa?_ Fila, senha e pódio: sim. Comissão e escolha de grupo: não.
+2. Comece pela posição com **mais restrição**.
+3. Para "pelo menos um": conte o total e **subtraia** o caso "nenhum".
+
+> Antes de usar fórmula, tente montar com traços: _ _ _ e preencha com o número de escolhas de cada posição.
+
+@M10
+resumo: Probabilidade: casos favoráveis ÷ casos possíveis; eventos independentes, complementar e "ou".
+
+## O que a banca cobra
+Dados, moedas, bolas em urna, sorteios, tabelas de pesquisa. Comparar chances ou calcular a probabilidade de eventos combinados.
+
+## Ideias-chave
+- **P(evento) = casos favoráveis ÷ casos possíveis**, entre 0 e 1 (0% a 100%).
+- **Evento complementar:** P(não A) = 1 − P(A). Muito útil em "pelo menos um".
+- **Eventos independentes ("e")**: multiplique as probabilidades. (Duas moedas: 1/2 × 1/2.)
+- **Eventos que não ocorrem juntos ("ou")**: some as probabilidades.
+- **Sem reposição**: depois de tirar uma bola, o total diminui.
+- Quando a ordem não é importante, conte as **combinações**.
+
+## Como resolver
+1. Liste (ou calcule) o **espaço amostral**.
+2. Conte os casos **favoráveis** e divida.
+3. Simplifique a fração e, se pedirem, converta em porcentagem.
+
+> "Probabilidade de sair 6 em um dado, depois de já ter saído 6 três vezes" continua sendo 1/6: os lançamentos são independentes.
+
+@M03
+resumo: Equações e sistemas do 1º grau e problemas que se resolvem "traduzindo" o texto para equação.
+
+## O que a banca cobra
+Problemas com idades, dinheiro, preços de dois produtos, medidas de um terreno. Pede para **montar** a equação ou o sistema e resolvê-lo.
+
+## Ideias-chave
+- **Equação do 1º grau**: isole x fazendo a mesma operação nos dois lados.
+- **Sistema com duas incógnitas:** use **substituição** (isole uma incógnita) ou **adição** (some as equações para eliminar uma).
+- **Traduza o texto:** "o dobro de x" = 2x; "x a mais que y" = x = y + 3; "a metade" = x/2; "cinco a menos" = x − 5.
+
+## Como resolver
+1. Dê uma letra para o que se **pergunta**.
+2. Escreva a equação com o texto, frase a frase.
+3. Resolva e **confira** substituindo na história (não só na equação).
+
+> Se o problema pede "quanto custa **cada**", você precisará de duas equações. Se pede o "**total**", às vezes dá para somar as equações sem achar cada preço.
+
+@M05
+resumo: Conjuntos: união, interseção, diferença e problemas com diagramas de Venn.
+
+## O que a banca cobra
+Pesquisas em que as pessoas gostam de uma coisa, de outra ou de ambas: calcular quantas estão em cada região do diagrama. Também conjuntos numéricos (naturais, inteiros, racionais, reais).
+
+## Ideias-chave
+- **União (A ∪ B)**: está em A **ou** em B. **Interseção (A ∩ B)**: está em A **e** em B.
+- **n(A ∪ B) = n(A) + n(B) − n(A ∩ B)**.
+- **Diferença A − B**: está em A e **não** está em B.
+- **Estratégia do diagrama**: comece **de dentro para fora**: primeiro o que está nos dois (interseção); depois subtraia para achar "só A" e "só B"; por fim, os que não estão em nenhum.
+- **Conjuntos numéricos:** ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ. Dízima periódica é racional; √2 e π são irracionais.
+
+## Como resolver
+1. Desenhe os círculos e preencha **a interseção primeiro**.
+2. Confira: a soma de todas as regiões deve dar o total do universo.
+
+> "Só A" não é o mesmo que "A": o conjunto A inclui os que estão também em B.
+
+@M01
+resumo: Porcentagem, aumentos e descontos sucessivos, fator de multiplicação e juros simples/compostos.
+
+## O que a banca cobra
+Descontos e acréscimos em compras, variação de preço, taxa de juros, comparação de ofertas.
+
+## Ideias-chave
+- **x% de V** = (x ÷ 100) × V.
+- **Fator de multiplicação:** aumento de 20% → ×1,20; desconto de 20% → ×0,80.
+- **Variações sucessivas se multiplicam** (não se somam): +10% e depois −10% dá 1,10 × 0,90 = 0,99 (queda de 1%).
+- **Juros simples:** J = C·i·t (cresce igual a cada período).
+- **Juros compostos:** M = C(1 + i)ᵗ (juros sobre juros).
+
+## Como resolver
+1. Transforme a porcentagem em fator.
+2. Em "quanto por cento a mais/a menos", compare **com o valor inicial**: variação = (novo − antigo) ÷ antigo.
+
+> 20% de desconto **seguido de** 20% de aumento **não** volta ao preço original. O aumento incide sobre o preço menor.
+
+@M15
+resumo: Simetria e transformações no plano: reflexão, rotação e translação em malha ou plano cartesiano.
+
+## O que a banca cobra
+Desenho em malha quadriculada: qual figura resulta depois de girar, refletir ou deslocar; ou quantos eixos de simetria uma figura tem.
+
+## Ideias-chave
+- **Reflexão (simetria axial):** a figura "espelhada" em um eixo; distâncias ao eixo se mantêm; a orientação se inverte.
+- **Rotação:** giro em torno de um ponto (centro) por um ângulo (90°, 180°, 270°).
+- **Translação:** deslocar sem girar nem inverter (mesma forma, mesma orientação).
+- **Eixos de simetria:** quadrado 4; retângulo 2; triângulo equilátero 3; círculo infinitos; triângulo escaleno 0.
+- No plano cartesiano: reflexão no eixo x troca (x, y) por (x, −y); no eixo y, por (−x, y); rotação de 180° em torno da origem, por (−x, −y).
+
+## Como resolver
+1. Mova **um ponto de cada vez** (os vértices) e depois ligue.
+2. Teste mentalmente: _se eu dobrar a folha no eixo, os pontos coincidem?_
+
+> Rotação de 180° e reflexão não são o mesmo movimento, embora algumas figuras (simétricas) pareçam iguais depois dos dois.
+
+@M08
+resumo: Função quadrática: parábola, vértice, raízes, valor máximo ou mínimo.
+
+## O que a banca cobra
+Problemas de **máximo ou mínimo** (altura máxima de uma bola, lucro máximo, área máxima de um terreno) e leitura do gráfico da parábola.
+
+## Ideias-chave
+- **f(x) = ax² + bx + c**. Se **a > 0**: concavidade para cima (tem **mínimo**); se **a < 0**: para baixo (tem **máximo**).
+- **Raízes (zeros)**: onde corta o eixo x: x = [−b ± √(b² − 4ac)] ÷ 2a. **Δ = b² − 4ac**: Δ > 0, duas raízes; Δ = 0, uma; Δ < 0, nenhuma real.
+- **Vértice:** x_v = −b ÷ 2a e y_v = f(x_v) (é o valor máximo ou mínimo). Também é o ponto médio entre as duas raízes.
+- **c** é onde o gráfico corta o eixo y.
+
+## Como resolver
+1. Para o máximo/mínimo, calcule o **x do vértice** e depois o y.
+2. Se o gráfico mostra as raízes, o vértice está **no meio** delas.
+
+> O "valor máximo" é o y do vértice, não o x. Leia o que a pergunta pede: "em que instante" (x) ou "qual a altura máxima" (y).
+
+@M16
+resumo: Volumes de prismas e cilindros, vazão e enchimento de reservatórios, planificações.
+
+## O que a banca cobra
+Quanto cabe num reservatório, quanto tempo leva para encher (vazão), troca de unidades (m³, litros) e identificar planificações.
+
+## Ideias-chave
+- **Volume de prisma/cilindro:** V = área da base × altura. Paralelepípedo: a·b·c. Cubo: a³. Cilindro: π·r²·h.
+- **Conversão:** 1 m³ = 1 000 litros; 1 litro = 1 000 cm³ (1 dm³ = 1 litro).
+- **Vazão:** volume ÷ tempo. **Tempo = volume ÷ vazão.**
+- **Planificação:** o cubo tem 6 quadrados; verifique se, ao dobrar, as faces **não se sobrepõem**.
+
+## Como resolver
+1. Calcule o volume em uma só unidade (converta antes).
+2. Em enchimento, use V = vazão × tempo, somando vazões quando há duas torneiras (e subtraindo no ralo).
+
+> Se as dimensões estão em cm e a resposta é em litros: divida o volume em cm³ por 1 000.

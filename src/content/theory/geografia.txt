@@ -1,0 +1,149 @@
+@G04
+resumo: Biomas brasileiros, clima, vegetação, domínios morfoclimáticos e fatores que determinam o clima.
+
+## O que a banca cobra
+Identificar o **bioma** ou o **clima** a partir de texto, mapa ou climograma; relacionar clima × vegetação; ecossistemas de transição; desertos e circulação atmosférica.
+
+## Biomas do Brasil
+| Bioma | Características |
+|---|---|
+| Amazônia | Floresta equatorial úmida, grande biodiversidade, chuvas o ano todo |
+| Cerrado | Savana: árvores retorcidas, raízes profundas, estação seca marcada; "berço das águas" |
+| Caatinga | Semiárido do Nordeste; plantas adaptadas à seca (cactos, folhas reduzidas) |
+| Mata Atlântica | Floresta tropical do litoral; **muito devastada**, hoje restam fragmentos |
+| Pantanal | Planície alagável; ciclos de cheia e seca |
+| Pampa | Campos do Sul, vegetação rasteira |
+- **Ecótonos / transição:** Mata dos Cocais (entre Amazônia, Cerrado e Caatinga).
+
+## Clima: o que o determina
+- **Latitude** (zona tropical mais quente), **altitude** (mais alto, mais frio), **massas de ar**, **continentalidade/maritimidade**, **correntes marítimas**, **relevo**.
+- **Desertos:** grandes desertos se concentram perto de **30° de latitude**, onde o ar desce (alta pressão) e inibe chuvas. Têm **grande amplitude térmica diária**.
+- **El Niño:** aquecimento anormal do Pacífico, que altera as chuvas (seca no Norte/Nordeste e chuva no Sul do Brasil).
+
+## Como resolver
+1. Use as pistas: chuva (quanto e quando), vegetação, temperatura.
+2. Em climograma: barras = chuva, linha = temperatura.
+
+> Mata Atlântica e Amazônia são florestas, mas só a Atlântica está **muito fragmentada** por ocupação humana. Caatinga é bioma **exclusivamente brasileiro**.
+
+@G01
+resumo: Cartografia: escala, coordenadas (latitude e longitude), fusos horários, projeções e leitura de mapas.
+
+## O que a banca cobra
+Calcular a **hora** em outro lugar do mundo (fusos), converter **escala**, localizar coordenadas, identificar projeções e elementos do mapa.
+
+## Ideias-chave
+- **Latitude**: distância ao Equador (0° a 90° N/S). **Longitude**: distância ao meridiano de Greenwich (0° a 180° L/O).
+- **Fusos horários:** a Terra gira 360° em 24 h, então **15° = 1 hora**. Diferença de horas = diferença de longitude ÷ 15.
+  - **Para o leste a hora é adiantada** (+); para o **oeste, atrasada** (−). Mnemônico: _"o Sol nasce primeiro no leste"._
+  - Se os dois lugares estão em lados opostos de Greenwich (L e O), **some** as longitudes; se do mesmo lado, **subtraia**.
+- **Brasil** tem 4 fusos (UTC−2 a UTC−5); Brasília é UTC−3.
+- **Escala** = distância no mapa ÷ distância real (mesma unidade). **Escala maior** (1:1 000) mostra mais detalhe que a **menor** (1:1 000 000).
+- **Projeção de Mercator:** preserva ângulos, **distorce áreas** perto dos polos (Groenlândia parece enorme).
+- **Elementos do mapa:** título, legenda, escala, orientação (rosa dos ventos), fonte.
+
+## Como resolver (fuso)
+1. Calcule a diferença de longitude e divida por 15.
+2. Some ou subtraia no horário da cidade de **partida** (leste = soma; oeste = subtrai).
+3. Se passar de 24 h ou ficar negativo, **ajuste a data**.
+
+> Atenção ao tempo de **voo** no problema: ele é o tempo real decorrido; o fuso só muda o relógio do lugar de chegada.
+
+@G07
+resumo: Globalização, desigualdade, divisão internacional do trabalho, blocos e geopolítica atual.
+
+## O que a banca cobra
+Textos e dados sobre comércio internacional, desigualdade entre países, papel da China e da África, blocos econômicos, crises, protecionismo e tarifas.
+
+## Ideias-chave
+- **Globalização:** integração mundial de economia, cultura e informação, com cadeias de produção espalhadas pelo mundo.
+- **Divisão internacional do trabalho (DIT):** países periféricos exportam **matérias-primas** e produtos de baixo valor agregado; os centrais, produtos industrializados e tecnologia. Para reduzir a dependência, é preciso **agregar valor** e diversificar parceiros.
+- **Blocos econômicos:** Mercosul, União Europeia, Nafta (hoje USMCA), BRICS (cooperação entre emergentes).
+- **Desigualdade:** entre países (Norte rico × Sul pobre) e dentro deles (índice de Gini; quanto **mais perto de 1**, mais desigual).
+- **Protecionismo:** tarifas e barreiras para proteger a produção local. **Livre comércio:** redução dessas barreiras.
+- **Capital financeiro** circula em tempo real; crises em um país afetam outros.
+
+## Como resolver
+1. Identifique **quem exporta o quê** (primário × industrializado).
+2. Procure a **relação causa-efeito** apontada pelo texto, sem extrapolar.
+
+> "Déficit" = importa mais do que exporta; "superávit" = exporta mais do que importa. Valor agregado é o que torna o produto mais caro por unidade (tecnologia, indústria, serviço).
+
+@G06
+resumo: Economia: indústria (revoluções industriais, indústria no Brasil), comércio exterior e energia.
+
+## O que a banca cobra
+Fases da industrialização, fatores de localização das indústrias, indústria 4.0, balança comercial, fontes e matriz energética.
+
+## Ideias-chave
+- **1ª Revolução Industrial:** máquina a vapor, carvão, têxtil. **2ª:** eletricidade, petróleo, aço, indústria química, linha de montagem. **3ª (técnico-científico-informacional):** informática, robótica, telecomunicações, biotecnologia. **Indústria 4.0:** internet das coisas, nuvem, inteligência artificial, automação.
+- **Brasil:** primeiras indústrias de **bens de consumo não duráveis** (têxteis, alimentos); **bens duráveis e de capital** a partir dos anos 1950 (Plano de Metas, JK; automóveis). **Concentração no Sudeste**, em especial São Paulo; desconcentração parcial a partir dos anos 1970–80 (incentivos fiscais).
+- **Fatores locacionais:** matéria-prima, mão de obra, mercado consumidor, energia, transportes, incentivos fiscais, centros de pesquisa (indústrias de alta tecnologia).
+- **Balança comercial** = exportações − importações.
+- **Matriz energética brasileira:** muito **hidrelétrica** na eletricidade (renovável); petróleo é a maior fonte da matriz total; crescimento da eólica e solar.
+
+## Como resolver
+1. Identifique a **época** (qual revolução) pelas tecnologias citadas.
+2. Em localização, pergunte **o que a indústria precisa** (insumo, mercado, mão de obra qualificada).
+
+> Não confunda 2ª Revolução (petróleo, eletricidade) com 3ª (informática, robótica). O Brasil só se industrializa fortemente depois dos anos 1930, com aceleração nos anos 1950.
+
+@G03
+resumo: Urbanização, êxodo rural, metrópoles, rede urbana, segregação e problemas urbanos.
+
+## O que a banca cobra
+Textos e dados sobre crescimento das cidades, periferias, favelas, mobilidade, hierarquia urbana (metrópoles, capitais regionais, cidades médias), migração pendular.
+
+## Ideias-chave
+- **Urbanização brasileira:** acelerou a partir de 1950, com industrialização e **êxodo rural**; hoje cerca de 85% da população vive em cidades.
+- **Segregação socioespacial:** separação dos grupos sociais no espaço (bairros ricos com infraestrutura × periferias e favelas com carência de serviços).
+- **Metropolização:** crescimento das grandes cidades; **conurbação:** cidades vizinhas que se unem fisicamente; **região metropolitana.**
+- **Rede urbana:** hierarquia das cidades (metrópoles, capitais regionais, centros sub-regionais). **Cidades médias** vêm crescendo mais que as metrópoles.
+- **Migração pendular:** deslocamento diário entre cidades para trabalhar ou estudar.
+- **Problemas urbanos:** trânsito, moradia, saneamento, enchentes, ilhas de calor, poluição.
+- **Megacidades:** mais de 10 milhões de habitantes; o maior crescimento está em países em desenvolvimento.
+
+## Como resolver
+1. Relacione o fenômeno (êxodo, industrialização) à consequência (periferização, informalidade).
+2. Em dados de população, compare **proporções**, não só números absolutos.
+
+> Cidade global (influência econômica mundial, ex.: Nova York) não é o mesmo que megacidade (muito populosa). Planejamento urbano eficiente **não** é regra nas megacidades de países pobres.
+
+@G02
+resumo: Demografia: crescimento populacional, pirâmides etárias, transição demográfica, migrações.
+
+## O que a banca cobra
+Ler **pirâmide etária**, interpretar dados do Censo, explicar a queda da natalidade e o envelhecimento da população, tipos de migração.
+
+## Ideias-chave
+- **Taxa de natalidade** (nascimentos), **mortalidade**, **crescimento vegetativo** = natalidade − mortalidade.
+- **Transição demográfica:** primeiro cai a mortalidade (saúde, saneamento); depois cai a natalidade; a população cresce menos e **envelhece**.
+- **Pirâmide etária:** base larga = muitos jovens; **base estreita e topo largo = envelhecimento**. A razão de dependência compara dependentes (crianças e idosos) com a população em idade de trabalhar.
+- **Brasil:** queda da **taxa de fecundidade** (abaixo de 2,1 filhos por mulher, nível de reposição), aumento da expectativa de vida, o menor crescimento já registrado no Censo 2022.
+- **Migrações:** emigração (sair), imigração (entrar), êxodo rural, migração pendular, **refugiados** (fogem de guerra ou perseguição).
+- **Bônus demográfico:** período em que há mais pessoas em idade de trabalhar do que dependentes.
+
+## Como resolver
+1. Em pirâmide, olhe a **base** (natalidade) e o **topo** (idosos).
+2. Em texto sobre crescimento menor, procure a causa estrutural (fecundidade), não um fator pontual.
+
+> "População cresce menos" não é "população diminui". Queda de crescimento ≠ queda do número absoluto.
+
+@G05
+resumo: Questões ambientais e uso da terra: degradação do solo, agrotóxicos, unidades de conservação, mineração.
+
+## O que a banca cobra
+Impactos de atividades agrárias e minerárias no ambiente, práticas **benéficas e adversas**, gestão de áreas protegidas.
+
+## Ideias-chave
+- **Práticas adversas:** monocultura extensiva, **desmatamento**, queimadas, uso intenso de **agrotóxicos** (contaminam solo e água), mineração sem controle (rompimento de barragens), irrigação mal manejada (**salinização**).
+- **Práticas benéficas:** **rotação de culturas**, **curva de nível/terraceamento** (evita erosão), plantio direto, adubação equilibrada, **agroflorestas**, reflorestamento.
+- **Erosão** e **voçoroca**: perda de solo por chuva e escoamento; **desertificação**: degradação de áreas secas.
+- **Unidades de Conservação (UC):** proteção integral (parques) e uso sustentável (reservas extrativistas). **Plano de manejo** define o uso; **conselhos gestores** com participação social.
+- **Legislação:** Código Florestal (Reserva Legal e APP), SNUC.
+
+## Como resolver
+1. Classifique cada prática em **benéfica ou adversa** para o solo/água.
+2. Gestão compartilhada = **participação** de comunidade e usuários nas decisões.
+
+> Fertilizar o solo é benéfico se feito com equilíbrio; **excesso** gera contaminação. Pesticidas tóxicos são práticas adversas.

@@ -1,0 +1,538 @@
+# O Alienista (Machado de Assis) — questões AUTORAIS no estilo CEFET (nenhuma é de prova anterior).
+# Textos de apoio: ou trechos curtos da obra (domínio público) ou textos ORIGINAIS escritos para estudo, identificados como tal.
+
+# ===================== PT09 — a obra =====================
+
+@A-PT09-01 N1 obra
+sup: <p>“As crônicas da vila de Itaguaí dizem que em tempos remotos vivera ali um certo médico, o Dr. Simão Bacamarte, filho da nobreza da terra e o maior dos médicos do Brasil, de Portugal e das Espanhas.”</p><p class="src">Machado de Assis, <i>O Alienista</i> (início do capítulo I).</p>
+stem: Na obra, o termo “alienista” designa Simão Bacamarte porque ele é
+o1: um médico que se dedica ao estudo e ao tratamento da loucura.
+o2: um estrangeiro que chegou a Itaguaí vindo de outra terra.
+o3: um cronista que registra a história da vila.
+o4: um boticário que prepara remédios para a população.
+key: A
+a: Alienista é o médico que estuda e trata os “alienados”, isto é, os considerados loucos. Bacamarte constrói a Casa Verde para esse fim.
+b: Bacamarte é filho da terra, e não um estrangeiro; “alienista” não tem esse sentido.
+c: As “crônicas” são a fonte que o narrador cita; Bacamarte não é o cronista.
+d: O boticário da história é Crispim Soares, amigo de Bacamarte.
+
+@A-PT09-02 N1 obra
+stem: Em <i>O Alienista</i>, a história se passa na vila de Itaguaí, onde o médico Simão Bacamarte cria um hospital para tratar de pessoas consideradas loucas. Esse hospital é chamado de
+o1: Santa Casa.
+o2: Casa Verde.
+o3: Casa Grande.
+o4: Casa de Câmara.
+key: B
+a: Santa Casa é o nome de hospitais de misericórdia e não o do manicômio da obra.
+b: A Casa Verde é o manicômio criado por Bacamarte em Itaguaí.
+c: Casa Grande é a moradia do senhor de engenho, em obras sobre a sociedade escravista.
+d: A Câmara é o órgão de governo da vila; ela aprova a construção da Casa Verde, mas não é o hospital.
+
+@A-PT09-03 N1 obra
+sup: <p>Na obra, a Casa Verde recebe esse nome por causa de uma característica do prédio: as janelas foram pintadas de verde, o que era novidade em Itaguaí.</p>
+stem: O nome “Casa Verde”, portanto, se deve
+o1: à cor das janelas do edifício.
+o2: ao jardim que cercava o hospital.
+o3: ao nome de seu fundador.
+o4: à esperança de cura dos pacientes.
+key: A
+a: O nome vem da cor das janelas, pintadas de verde.
+b: O texto não menciona jardim: o nome vem das janelas.
+c: O fundador é Bacamarte, e o nome não vem dele.
+d: A cor verde do prédio não tem a ver com a esperança de cura; é um dado concreto sobre as janelas.
+
+@A-PT09-04 N1 obra
+stem: Em <i>O Alienista</i>, o amigo e confidente de Simão Bacamarte, que exerce a profissão de boticário em Itaguaí, é
+o1: Padre Lopes.
+o2: Porfírio.
+o3: Crispim Soares.
+o4: Costa.
+key: C
+a: Padre Lopes é o vigário da vila, e não o boticário.
+b: Porfírio é o barbeiro que lidera a revolta contra a Casa Verde.
+c: Crispim Soares é o boticário amigo de Bacamarte.
+d: Costa é um dos moradores internados por Bacamarte.
+
+@A-PT09-05 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> Aos quarenta anos, o doutor Bacamarte decidiu casar-se. Não procurava beleza nem simpatia: queria uma esposa de boa saúde, que digerisse bem, dormisse bem e lhe desse filhos fortes. Escolheu D. Evarista porque reunia, segundo ele, as melhores condições físicas para esse fim.</p>
+stem: Segundo o texto, o critério que o médico usou para escolher a esposa foi
+o1: a beleza e a simpatia.
+o2: a riqueza da família.
+o3: a fama de ser culta.
+o4: as condições físicas e de saúde.
+key: D
+a: O texto afirma que ele não procurava beleza nem simpatia.
+b: O texto não menciona a riqueza da família.
+c: O texto não faz referência à cultura de D. Evarista.
+d: O médico escolhe a esposa por critérios físicos, como boa digestão e sono, e não por afeto.
+
+@A-PT09-06 N2 obra
+sup: <p>“A razão é o perfeito equilíbrio de todas as faculdades; fora daí insânia, insânia, e só insânia.”</p><p class="src">Machado de Assis, <i>O Alienista</i> (fala de Simão Bacamarte).</p>
+stem: Com essa definição, Bacamarte amplia o conceito de loucura, porque passa a considerar
+o1: louco apenas quem apresenta comportamento violento.
+o2: louca toda pessoa que apresente qualquer desequilíbrio de suas faculdades.
+o3: sadios apenas os que frequentam a igreja e a Câmara.
+o4: loucos os que não aceitam a medicina.
+key: B
+a: Se a loucura se limitasse aos violentos, a definição não precisaria falar em “equilíbrio de todas as faculdades”.
+b: Se só é razão o perfeito equilíbrio, qualquer desvio é insânia, e quase todos podem ser internados.
+c: A fala não mede a saúde mental pela presença na igreja ou na Câmara.
+d: A fala não se refere à aceitação da medicina; refere-se ao equilíbrio das faculdades.
+
+@A-PT09-07 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> As internações se multiplicavam. Cada família temia ver um de seus membros levado à Casa Verde por qualquer motivo: uma mania, uma vaidade, um excesso de generosidade. Foi nesse clima de medo que o barbeiro Porfírio reuniu um grupo de moradores e se declarou contra o médico.</p>
+stem: Na obra, a revolta liderada pelo barbeiro Porfírio, conhecida como a Revolta dos Canjicas, tem como alvo
+o1: a Casa Verde e o poder do alienista de internar pessoas.
+o2: o governo do rei de Portugal, distante da vila.
+o3: a Igreja local e o vigário Padre Lopes.
+o4: o comércio do boticário, amigo de Bacamarte.
+key: A
+a: A revolta é um movimento de moradores amedrontados contra a Casa Verde e contra o poder de Bacamarte.
+b: A revolta é local, contra o poder de Bacamarte, e não contra o rei.
+c: O alvo é a Casa Verde, e não a Igreja.
+d: O boticário é amigo de Bacamarte, mas não é o alvo da revolta.
+
+@A-PT09-08 N2 obra
+sup: <p><i>Resumo original:</i> Depois de internar boa parte da população, Bacamarte muda de ideia. Conclui que a doença é rara, e que o normal é o desequilíbrio. Libera os internados e passa a recolher as pessoas que parecem perfeitamente equilibradas, pois, segundo a nova teoria, elas é que fogem à regra.</p>
+stem: A mudança de critério de Bacamarte mostra que
+o1: a ciência dele evolui com base em provas e em experiências bem-sucedidas, como deve ocorrer em uma teoria científica.
+o2: ele reconhece o erro de sua teoria e abandona totalmente os estudos sobre a loucura.
+o3: ele muda o conceito de loucura sem rever a certeza de que tem razão, e a teoria passa a se ajustar ao que ele quer provar.
+o4: os moradores de Itaguaí, organizados em uma revolta vitoriosa, o convenceram a libertar todos.
+key: C
+a: O texto não aponta provas nem experiências bem-sucedidas; a mudança é abrupta.
+b: Ele não abandona os estudos; continua a internar pessoas.
+c: Ele inverte a teoria sem admitir erro, o que mostra o caráter arbitrário do critério e a confiança excessiva em si mesmo.
+d: A mudança parte do próprio médico, e não de um pedido dos moradores.
+
+@A-PT09-09 N2 obra
+sup: <p><i>Resumo original:</i> Ao final da obra, Bacamarte examina a si mesmo e conclui que tem todas as qualidades em perfeito equilíbrio: é paciente, leal, corajoso e sensato. Pela sua teoria, isso significa que ele é o único caso de desequilíbrio em Itaguaí. Decide, então, internar-se na Casa Verde, onde morre meses depois.</p>
+stem: Esse desfecho é irônico porque
+o1: o médico finalmente se cura da loucura e é elogiado por toda a vila como herói.
+o2: o médico, ao aplicar a própria teoria a si mesmo, conclui ser o único insano, o que revela o absurdo do critério.
+o3: a vila inteira se une, em um gesto de gratidão, para libertá-lo da Casa Verde.
+o4: o médico é julgado e punido pela Câmara por ter internado pessoas sem critério.
+key: B
+a: O texto não fala em cura nem em elogios; diz que o médico morre na Casa Verde.
+b: A teoria leva Bacamarte à conclusão de que o único louco é ele, e esse paradoxo mostra o absurdo do critério que ele criou.
+c: O texto não menciona libertação feita pela vila.
+d: O texto não fala em punição pela Câmara.
+
+@A-PT09-10 N3 obra
+sup: <p>“A loucura, objeto dos meus estudos, era até agora uma ilha perdida no oceano da razão; começo a suspeitar que é um continente.”</p><p class="src">Machado de Assis, <i>O Alienista</i> (fala de Simão Bacamarte).</p>
+stem: Nessa fala, a ideia de que a loucura é “um continente” sugere, no contexto da obra, que
+o1: a loucura ocupa um espaço restrito e raro na sociedade, como uma ilha isolada.
+o2: a razão desapareceu por completo de Itaguaí e foi substituída por um território novo.
+o3: o médico planeja viajar para um continente distante, a fim de estudar a loucura em outros povos.
+o4: a loucura se espalha por uma área muito maior do que o médico supunha, o que justifica internar um número crescente de pessoas.
+key: D
+a: A imagem da ilha representa uma loucura restrita; a de continente indica o contrário.
+b: A fala não diz que a razão desapareceu; compara a extensão da loucura com a da razão.
+c: “Continente” é usado em sentido figurado, e não como viagem real.
+d: A metáfora indica que a loucura é extensa, e essa suposição leva Bacamarte a internar cada vez mais gente.
+
+@A-PT09-11 N3 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> Crispim Soares concordava sempre. Quando o doutor falava de uma nova teoria, ele dizia: “É admirável!”. Quando o doutor internava um vizinho, ele murmurava: “A ciência sabe o que faz”. Em casa, porém, confessava à mulher que tinha medo.</p>
+stem: O comportamento do boticário, como retratado no texto, revela
+o1: a coragem de quem enfrenta o poder e discorda do médico em público.
+o2: a independência de pensamento de um cientista que forma opinião própria.
+o3: a conveniência de quem aprova o poderoso por medo ou interesse, apesar das dúvidas que guarda para si.
+o4: a indiferença de quem não se importa com o destino dos vizinhos nem com a vila.
+key: C
+a: O boticário não enfrenta o poder: concorda sempre com o médico.
+b: Ele não revela pensamento próprio; repete a opinião do médico.
+c: O personagem aprova em público, por medo, o que critica em privado, e isso representa o oportunismo e a bajulação.
+d: O medo que confessa à mulher mostra que ele se importa e não é indiferente.
+
+@A-PT09-12 N3 julgar afirmativas obra
+stem: Sobre <i>O Alienista</i>, de Machado de Assis, analise as afirmativas.
+I. Simão Bacamarte nunca estudou fora do Brasil.
+II. A Casa Verde é o manicômio criado pelo médico, em Itaguaí.
+III. A obra foi reunida no livro <i>Papéis Avulsos</i>, publicado em 1882.
+IV. O barbeiro Porfírio lidera uma revolta contra a Casa Verde.
+Estão corretas apenas
+o1: I e II.
+o2: II e IV.
+o3: II, III e IV.
+o4: I, II, III e IV.
+key: C
+a: A I é falsa: Bacamarte estudou em Coimbra e em Pádua.
+b: II e IV estão corretas, mas a III também: o conto foi reunido em Papéis Avulsos, em 1882.
+c: II, III e IV estão corretas. A I é falsa: Bacamarte estudou na Europa (Coimbra e Pádua).
+d: A I é falsa: Bacamarte estudou na Europa.
+
+@A-PT09-13 N2 associação obra
+sup: <p><b>Coluna I:</b><br>1. Simão Bacamarte<br>2. Crispim Soares<br>3. Porfírio</p><p><b>Coluna II:</b><br>(A) Barbeiro que lidera a revolta contra a Casa Verde.<br>(B) Médico que funda a Casa Verde e cria a teoria sobre a razão.<br>(C) Boticário, amigo do médico, que costuma concordar com ele.</p>
+stem: A associação correta entre as colunas é
+o1: 1-B, 2-C, 3-A.
+o2: 1-A, 2-B, 3-C.
+o3: 1-C, 2-A, 3-B.
+o4: 1-B, 2-A, 3-C.
+key: A
+a: Bacamarte é o médico (B). Crispim Soares é o boticário (C). Porfírio é o barbeiro rebelde (A).
+b: Bacamarte não é o barbeiro (A) e Porfírio não é o boticário (C).
+c: Bacamarte não é o boticário (C); Crispim não é o barbeiro (A).
+d: Crispim Soares é o boticário (C), e não o barbeiro (A); Porfírio não é o boticário.
+
+@A-PT09-14 N3 asserção–razão obra
+sup: <p>Analise as asserções e a relação entre elas.</p><p><b>I.</b> <i>O Alienista</i> faz uma crítica à confiança excessiva na ciência e no poder de quem a detém.</p><p style="text-align:center"><b>PORQUE</b></p><p><b>II.</b> O narrador da obra defende que a ciência nunca erra e que o poder do médico sobre a vila deve ser absoluto.</p>
+stem: A respeito dessas asserções, é correto afirmar que
+o1: ambas as asserções são verdadeiras, e a II justifica a I.
+o2: ambas as asserções são verdadeiras, mas a II não justifica a I.
+o3: a I é verdadeira, e a II é falsa.
+o4: a I é falsa, e a II é verdadeira.
+key: C
+a: A II é falsa; não pode justificar a I.
+b: A II é falsa: o narrador não defende o poder absoluto do médico.
+c: A I é verdadeira (a obra critica o cientificismo e o abuso de poder). A II é falsa: o narrador usa a ironia justamente para mostrar o erro de Bacamarte.
+d: A I é verdadeira e a II é falsa; a alternativa inverte os valores.
+
+# ===================== PT04 — figuras de linguagem =====================
+
+@A-PT04-21 N1 obra
+sup: <p>“[...] o Dr. Simão Bacamarte, filho da nobreza da terra e o maior dos médicos do Brasil, de Portugal e das Espanhas.”</p><p class="src">Machado de Assis, <i>O Alienista</i>.</p>
+stem: Ao chamar o doutor de “o maior dos médicos do Brasil, de Portugal e das Espanhas”, o narrador usa um recurso que produz um efeito de
+o1: exagero, que reforça o tom irônico do elogio.
+o2: suavização de uma ideia desagradável.
+o3: contradição entre termos opostos.
+o4: atribuição de qualidades humanas a um objeto.
+key: A
+a: A hipérbole é o exagero. Dizer que alguém é o maior médico de três regiões é um elogio tão enorme que se torna irônico.
+b: Suavizar uma ideia desagradável é o eufemismo, e o trecho não faz isso.
+c: A contradição entre termos opostos é a antítese ou o paradoxo; não é o caso.
+d: Atribuir qualidades humanas a seres inanimados é a personificação; o trecho fala de uma pessoa.
+
+@A-PT04-22 N2 obra
+sup: <p>“A loucura, objeto dos meus estudos, era até agora uma ilha perdida no oceano da razão; começo a suspeitar que é um continente.”</p><p class="src">Machado de Assis, <i>O Alienista</i>.</p>
+stem: Os termos “ilha”, “oceano” e “continente” estão empregados em sentido figurado. A figura de linguagem predominante no trecho é a
+o1: onomatopeia.
+o2: metáfora.
+o3: metonímia.
+o4: elipse.
+key: B
+a: A onomatopeia reproduz sons, e o trecho não tem esse recurso.
+b: A metáfora compara a loucura a uma ilha, a razão a um oceano e, depois, a loucura a um continente.
+c: A metonímia substitui um termo por outro que tem relação de proximidade, como o autor pela obra; não é o caso.
+d: A elipse é a omissão de um termo facilmente subentendido, e não é o recurso central do trecho.
+
+@A-PT04-23 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “Generoso como era, o doutor oferecia a quem lhe aparecesse, sem cobrar nada, o conforto de uma cela sem janelas.”</p>
+stem: No trecho, o uso de “generoso” e “conforto” para falar de uma cela sem janelas configura
+o1: ironia, pois o narrador diz o contrário do que realmente pensa, para criticar o médico.
+o2: hipérbole, pois exagera as qualidades do doutor.
+o3: comparação, pois liga dois elementos por um termo comparativo.
+o4: onomatopeia, pois imita um som.
+key: A
+a: Chamar de “conforto” uma cela sem janelas é dizer o oposto do que se pensa. Esse é o efeito da ironia.
+b: Não há exagero numérico nem de intensidade; há o uso de palavras opostas ao sentido real.
+c: Não há comparação com “como” ou “tal qual” entre dois elementos; a palavra “como” indica o modo de ser do doutor.
+d: Não há imitação de sons.
+
+@A-PT04-24 N2 obra
+sup: <p>“A razão é o perfeito equilíbrio de todas as faculdades; fora daí insânia, insânia, e só insânia.”</p><p class="src">Machado de Assis, <i>O Alienista</i>.</p>
+stem: Na frase, a oposição entre os termos “razão” e “insânia” caracteriza a figura de linguagem chamada
+o1: prosopopeia.
+o2: eufemismo.
+o3: antítese.
+o4: pleonasmo.
+key: C
+a: A prosopopeia dá vida e ação humana a seres inanimados, e não é o caso.
+b: O eufemismo suaviza uma expressão forte; aqui, ao contrário, a loucura é afirmada com insistência.
+c: A antítese opõe ideias contrárias: razão (equilíbrio) × insânia (desequilíbrio).
+d: O pleonasmo é a repetição desnecessária de ideia; a repetição de “insânia” é enfática e não é pleonasmo.
+
+@A-PT04-25 N3 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “O doutor não prendia ninguém: apenas hospedava, para o bem da ciência, os cidadãos que lhe pareciam desequilibrados, em quartos sem chave do lado de dentro.”</p>
+stem: A substituição de “prender” por “hospedar” no trecho é um exemplo de
+o1: hipérbole, pois exagera uma ação.
+o2: eufemismo irônico, pois suaviza, com uma palavra agradável, uma ação violenta.
+o3: antítese, pois opõe duas palavras de sentidos contrários.
+o4: metonímia, pois usa a parte pelo todo.
+key: B
+a: Não há exagero: há troca de uma palavra forte por outra branda.
+b: “Hospedar” disfarça a violência de “prender”. O contexto mostra que o efeito é irônico, e o narrador critica o médico.
+c: As palavras “prender” e “hospedar” são usadas como substitutas, e não em oposição dentro de uma mesma frase.
+d: Não há relação de parte pelo todo: o recurso é a suavização de uma ação.
+
+@A-PT04-26 N3 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “Era tão perfeito o equilíbrio de suas qualidades que o doutor concluiu ser ele o único louco da vila.”</p>
+stem: A ideia de que a perfeição conduz à conclusão de que alguém é louco forma um
+o1: paradoxo, pois reúne ideias aparentemente contraditórias que, no contexto, revelam o absurdo do critério do médico.
+o2: pleonasmo, pois repete uma informação já dada, de forma desnecessária.
+o3: eufemismo, pois suaviza uma verdade desagradável por meio de uma palavra mais branda.
+o4: onomatopeia, pois imita o som de um objeto ou de um animal.
+key: A
+a: O paradoxo une ideias que parecem contraditórias: ser perfeito e ser louco. Aqui ele evidencia o absurdo da teoria.
+b: O trecho não repete uma informação; apresenta uma conclusão inesperada.
+c: Não há suavização: a afirmação é direta e surpreendente.
+d: Não há imitação de sons.
+
+# ===================== PT02 — coesão e conectivos =====================
+
+@A-PT02-21 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “O médico prometeu cuidar apenas dos furiosos; <b>porém</b>, em poucos meses, a Casa Verde já abrigava também os mansos.”</p>
+stem: No trecho, o conectivo “porém” estabelece uma relação de
+o1: causa.
+o2: conclusão.
+o3: oposição.
+o4: finalidade.
+key: C
+a: A causa seria introduzida por “porque” ou “pois”; “porém” não indica motivo.
+b: A conclusão seria introduzida por “portanto” ou “logo”.
+c: “Porém” opõe a promessa (cuidar só dos furiosos) à realidade (também os mansos).
+d: A finalidade seria introduzida por “para” ou “a fim de”.
+
+@A-PT02-22 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “<b>Como</b> a vila temia o médico, ninguém ousava discordar dele em público.”</p>
+stem: Nesse trecho, o conectivo “como” introduz uma oração que expressa
+o1: comparação.
+o2: causa.
+o3: concessão.
+o4: condição.
+key: B
+a: Para ser comparação, “como” ligaria dois elementos semelhantes (“forte como um touro”); aqui ele inicia a oração que dá o motivo.
+b: O medo é a causa de ninguém discordar; “como” equivale a “porque” ou “já que”.
+c: A concessão seria expressa por “embora” ou “ainda que”.
+d: A condição seria expressa por “se” ou “caso”.
+
+@A-PT02-23 N3 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “Bacamarte reuniu os vereadores e <b>lhes</b> apresentou o plano. Eles <b>o</b> aprovaram, embora <b>o</b> achassem caro.”</p>
+stem: Os termos destacados “lhes” (primeira ocorrência) e “o” (em “o aprovaram”) retomam, respectivamente,
+o1: os vereadores e o plano.
+o2: Bacamarte e os vereadores.
+o3: o plano e Bacamarte.
+o4: os vereadores e Bacamarte.
+key: A
+a: “Lhes” retoma “os vereadores” (a quem o plano foi apresentado), e “o” retoma “o plano”, que foi aprovado.
+b: “Lhes” é plural e não retoma Bacamarte, que é singular e sujeito da frase.
+c: “Lhes” retoma pessoas, e não o plano.
+d: “O”, em “o aprovaram”, retoma o plano e não Bacamarte.
+
+@A-PT02-24 N3 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “<b>Embora</b> a população protestasse, Bacamarte continuou internando as pessoas.”</p>
+stem: A frase em que o sentido original está mantido, ou seja, em que há ideia de oposição entre os fatos, é:
+o1: Bacamarte continuou internando as pessoas, pois a população protestava.
+o2: A população protestava, logo Bacamarte continuou internando as pessoas.
+o3: Se a população protestasse, Bacamarte continuaria internando as pessoas.
+o4: A população protestava; no entanto, Bacamarte continuou internando as pessoas.
+key: D
+a: “Pois” indica causa: transforma o protesto em motivo para continuar, o que muda o sentido.
+b: “Logo” indica conclusão, e o protesto passaria a ser a razão da atitude.
+c: “Se” indica condição e transforma um fato real em hipótese.
+d: “No entanto” mantém a oposição entre o protesto e a atitude de Bacamarte, como em “embora”.
+
+# ===================== PT03 — modalização e marcas de opinião =====================
+
+@A-PT03-21 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “<b>Certamente</b> o médico agia de boa-fé; <b>talvez</b>, porém, fosse bom demais para perceber o mal que fazia.”</p>
+stem: Os termos “certamente” e “talvez” indicam, respectivamente, que o narrador apresenta a informação como
+o1: duvidosa e certa.
+o2: certa e possível (duvidosa).
+o3: falsa e verdadeira.
+o4: obrigatória e proibida.
+key: B
+a: A ordem está invertida: “certamente” indica certeza e “talvez” indica dúvida.
+b: “Certamente” é modalizador de certeza e “talvez”, de possibilidade.
+c: Os termos não classificam a informação como falsa ou verdadeira; indicam o grau de certeza do narrador.
+d: Obrigação e proibição seriam indicadas por verbos como “dever” e “proibir”.
+
+@A-PT03-22 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “<b>Infelizmente</b>, a Casa Verde já estava lotada.”</p>
+stem: O advérbio “infelizmente” indica que o narrador
+o1: expressa uma avaliação afetiva (de lamento) sobre o fato.
+o2: apresenta o fato como duvidoso ou apenas provável.
+o3: atribui a informação a outra pessoa ou a outra fonte.
+o4: dá uma ordem direta ao leitor sobre o que ele deve fazer.
+key: A
+a: “Infelizmente” traz um sentimento do narrador diante do fato (modalização afetiva).
+b: A dúvida seria indicada por “talvez” ou “provavelmente”.
+c: A atribuição de fonte seria indicada por “segundo” ou “de acordo com”.
+d: Não há ordem ao leitor: o verbo está no indicativo e a frase é declarativa.
+
+@A-PT03-23 N3 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> (1) “Bacamarte internou vinte pessoas em uma semana.” (2) “Bacamarte, de forma absurda, internou vinte pessoas em uma semana.”</p>
+stem: A diferença entre as duas frases está na expressão “de forma absurda”, que
+o1: apenas informa o número de pessoas que foram internadas na semana.
+o2: revela um julgamento do narrador sobre o fato, acrescentando opinião à informação.
+o3: indica o lugar em que ocorreu o fato, dentro da vila.
+o4: elimina a responsabilidade de Bacamarte, que apenas obedecia a ordens.
+key: B
+a: O número de pessoas aparece nas duas frases; a expressão acrescenta outra coisa.
+b: “De forma absurda” é uma marca de opinião: o narrador não apenas informa, mas julga a atitude de Bacamarte.
+c: Não há indicação de lugar na expressão.
+d: A expressão reforça a crítica ao médico, e não o isenta de culpa.
+
+@A-PT03-24 N3 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “<b>Segundo as crônicas</b>, o médico <b>teria</b> mandado construir a Casa Verde em apenas um mês.”</p>
+stem: O uso da expressão “segundo as crônicas” e do verbo no futuro do pretérito (“teria”) indica que o narrador
+o1: afirma, com total certeza e sem dúvidas, que o fato realmente ocorreu.
+o2: dá uma ordem ao médico sobre o prazo da obra.
+o3: confirma que o fato aconteceu em um passado muito distante.
+o4: atribui a informação a uma fonte e não se compromete totalmente com a sua veracidade.
+key: D
+a: “Segundo” e “teria” abrem distância em relação ao fato; não indicam certeza total.
+b: O verbo no futuro do pretérito não tem valor de ordem; indica possibilidade ou fato não confirmado.
+c: A expressão não trata do tempo em que ocorreu o fato, e sim da confiabilidade da informação.
+d: A informação é atribuída às crônicas, e o futuro do pretérito mostra que se trata de um fato não confirmado pelo narrador.
+
+# ===================== PT05 — intertextualidade =====================
+
+@A-PT05-21 N2 obra
+sup: <p><b>Texto I</b> (original, para este estudo): <i>O médico decidiu quem era são e quem era louco, e ninguém na vila ousou pedir a ele os motivos. Aos poucos, a Casa Verde se encheu de gente que apenas tinha manias, vaidades ou ideias diferentes das dele.</i></p><p><b>Texto II</b> (notícia fictícia): <i>Clínica é investigada por internações sem laudo médico. Segundo familiares, pessoas eram mantidas no local sem avaliação adequada e sem acompanhamento da Justiça.</i></p>
+stem: O ponto em comum entre os dois textos é
+o1: a denúncia de abusos cometidos por quem tem poder de internar pessoas sem critérios claros.
+o2: a defesa de internações obrigatórias para toda a população, em nome da saúde.
+o3: o elogio à atuação de médicos que decidem sozinhos o que é melhor para todos.
+o4: a descrição de um método científico, comprovado, de cura da loucura.
+key: A
+a: Nos dois textos há internações sem critérios claros e sem controle externo, o que é apresentado como abuso de poder.
+b: Nenhum dos textos defende internações obrigatórias para todos.
+c: Os textos criticam, e não elogiam, a decisão tomada sem controle.
+d: Nenhum dos textos descreve um método científico de cura.
+
+@A-PT05-22 N3 obra
+sup: <p><b>Texto I</b> (original, para este estudo): <i>“Bacamarte examinou os moradores um a um e viu em cada qual um sintoma. Não era a vila que estava doente, era a régua do médico que media tudo como doença.”</i></p><p><b>Texto II</b> (publicação fictícia em rede social): <i>“Hoje, qualquer timidez vira transtorno e qualquer tristeza vira doença. Antes de aceitar um rótulo, pergunte: quem está definindo o que é ‘normal’?”</i></p>
+stem: A ideia que aproxima os dois textos é
+o1: a defesa de que o médico sempre sabe o que é melhor para o paciente.
+o2: a afirmação de que a tristeza e a timidez não existem.
+o3: a ideia de que a vila é composta somente de pessoas doentes.
+o4: a crítica à tendência de classificar comportamentos comuns como doenças.
+key: D
+a: Os textos duvidam da autoridade do médico e do critério de normalidade.
+b: O texto II não nega a existência da timidez ou da tristeza; critica o rótulo de doença.
+c: O texto I diz que a régua do médico é que mede tudo como doença, e não que a vila seja somente de doentes.
+d: Os dois textos criticam o hábito de transformar comportamentos comuns em doenças, e questionam o critério usado.
+
+@A-PT05-23 N2 obra
+sup: <p>Frase de partida: “A razão é o perfeito equilíbrio de todas as faculdades; fora daí insânia, insânia, e só insânia.”</p><p class="src">Machado de Assis, <i>O Alienista</i>.</p>
+stem: A alternativa que apresenta uma paráfrase da frase, isto é, a mesma ideia dita com outras palavras, é:
+o1: A razão é rara e por isso a maioria das pessoas deve ser perdoada pelos erros.
+o2: A loucura é um equilíbrio das faculdades e a razão é um desequilíbrio.
+o3: O equilíbrio das faculdades não tem relação com a razão ou com a insânia.
+o4: Só é sensato quem mantém todas as suas capacidades mentais em perfeito equilíbrio; qualquer desvio é loucura.
+key: D
+a: A ideia de perdoar os erros não está na frase e muda o sentido.
+b: O sentido está invertido: a razão é o equilíbrio, e a loucura é o desequilíbrio.
+c: A frase afirma justamente a relação entre equilíbrio e razão.
+d: A paráfrase mantém as duas ideias: razão = equilíbrio perfeito; qualquer desvio = insânia.
+
+@A-PT05-24 N3 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “Quando o governo cria uma regra que ninguém entende e depois diz que tudo está sob controle, lembro do doutor de Itaguaí: todos fora da Casa Verde, menos ele, tinham algum problema.”</p>
+stem: Ao mencionar “o doutor de Itaguaí”, o autor do texto faz uma alusão à obra de Machado de Assis para
+o1: elogiar a competência dos governantes, comparando-os com um grande cientista.
+o2: criticar a postura de quem impõe critérios arbitrários e se considera sempre certo, comparando-a com a de Bacamarte.
+o3: informar a data e o local em que a obra foi publicada pela primeira vez.
+o4: citar literalmente um trecho do livro, entre aspas, como prova de autoridade.
+key: B
+a: A comparação com o médico não é elogio: é crítica.
+b: A alusão aproxima a atitude de quem cria regras incompreensíveis e se acha sempre certo da atitude do alienista da obra.
+c: O texto não informa data nem dados de publicação.
+d: Não há aspas nem trecho literal; há apenas uma referência indireta, isto é, uma alusão.
+
+# ===================== PT06 — narrador e discurso =====================
+
+@A-PT06-21 N1 obra
+sup: <p>“As crônicas da vila de Itaguaí dizem que em tempos remotos vivera ali um certo médico [...]”</p><p class="src">Machado de Assis, <i>O Alienista</i>.</p>
+stem: O narrador da obra, no trecho, conta a história
+o1: em primeira pessoa, como um personagem que participa da trama.
+o2: em segunda pessoa, dirigindo-se o tempo todo a um personagem.
+o3: por meio de cartas e bilhetes trocados entre os personagens.
+o4: em terceira pessoa, como quem relata o que dizem as crônicas, sem participar dos fatos.
+key: D
+a: O narrador não diz “eu” nem participa da ação como personagem.
+b: Não há narração em segunda pessoa no trecho.
+c: O trecho não é formado por cartas.
+d: O narrador de terceira pessoa se apresenta como cronista que relata os fatos de uma vila.
+
+@A-PT06-22 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i><br>(1) O médico disse: — Itaguaí é o meu universo.<br>(2) O médico disse que Itaguaí era o seu universo.<br>(3) Itaguaí, universo do médico? Assim ele dizia.</p>
+stem: O discurso indireto, em que o narrador relata a fala do personagem com suas próprias palavras, aparece na frase
+o1: (1), pois a fala vem após o travessão e está marcada na frase.
+o2: (2), pois a fala é introduzida por “que” e as pessoas do discurso e os tempos verbais são adaptados.
+o3: (3), pois há uma pergunta feita pelo narrador.
+o4: em nenhuma delas, pois todas reproduzem a fala do médico.
+key: B
+a: A frase (1) é discurso direto: reproduz a fala do personagem com travessão.
+b: A frase (2) é discurso indireto: o narrador resume a fala, usa “que” e muda “é” para “era”.
+c: A frase (3) não é discurso indireto: mistura a pergunta com a explicação do narrador.
+d: A frase (2) é exemplo de discurso indireto.
+
+@A-PT06-23 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “Bacamarte contemplou a vila. <b>Teriam mesmo juízo aqueles homens?</b> Era duvidoso.”</p>
+stem: O trecho em destaque apresenta
+o1: discurso direto, com a fala do personagem marcada por travessão.
+o2: discurso indireto, introduzido por um verbo de dizer e pela conjunção “que”.
+o3: discurso indireto livre, em que a voz do narrador se mistura ao pensamento do personagem.
+o4: um comentário do autor, sem relação com os pensamentos do personagem.
+key: C
+a: Não há travessão nem aspas: o trecho não é discurso direto.
+b: Não há verbo de dizer nem “que”; o trecho não é discurso indireto simples.
+c: A pergunta acompanha o pensamento de Bacamarte sem verbo de dizer ou travessão, o que caracteriza o discurso indireto livre.
+d: A pergunta expressa o pensamento do personagem, e não um comentário do autor.
+
+@A-PT06-24 N3 obra
+sup: <p>No início de <i>O Alienista</i>, o narrador apresenta o que conta como informação retirada das “crônicas da vila”, como se fosse um historiador. Ao longo da obra, porém, ele faz comentários irônicos sobre os personagens.</p>
+stem: Na obra, a postura de historiador sério adotada pelo narrador produz o efeito de
+o1: comprovar, com documentos históricos, que tudo ocorreu realmente.
+o2: eliminar qualquer crítica aos personagens, tratando-os com respeito.
+o3: transformar a obra em um texto científico, sem elementos de ficção.
+o4: dar aparência de seriedade ao relato, o que reforça o humor e a ironia quando os fatos narrados são absurdos.
+key: D
+a: A obra é ficção; a referência às crônicas é um recurso literário e não uma comprovação.
+b: O narrador critica os personagens por meio da ironia.
+c: A obra continua a ser um texto literário, e não científico.
+d: O contraste entre o tom sério de cronista e o absurdo dos fatos produz humor e ironia.
+
+# ===================== PT07 — variação linguística e norma culta =====================
+
+@A-PT07-21 N1 obra
+sup: <p>Na obra de Machado de Assis, a Casa Verde é chamada de “casa de orates”.</p>
+stem: Nesse contexto, a palavra “orate” é sinônimo de
+o1: médico.
+o2: padre.
+o3: louco.
+o4: vereador.
+key: C
+a: O médico da obra é chamado de “alienista”, e não de “orate”.
+b: O vigário da vila é o Padre Lopes; “orate” não se refere a padre.
+c: “Orate” é um termo antigo para “louco”; “casa de orates” é o manicômio.
+d: Os vereadores integram a Câmara; “orate” não se refere a eles.
+
+@A-PT07-22 N2 obra
+sup: <p><i>Texto original, escrito para este estudo:</i> “Era mister que a vila se desse a conhecer pela sua casa de saúde.”</p>
+stem: Nesse trecho, a expressão “era mister” tem sentido próximo de
+o1: era permitido.
+o2: era proibido.
+o3: era inútil.
+o4: era necessário.
+key: D
+a: “Mister”, nessa expressão, não indica permissão.
+b: “Mister” não tem sentido de proibição.
+c: O sentido é o oposto de inútil: indica necessidade.
+d: “Era mister” é uma expressão antiga que significa “era preciso” ou “era necessário”.
+
+@A-PT07-23 N2 obra
+sup: <p>Em uma apresentação sobre a obra, um aluno escreveu frases sobre a Casa Verde e deve adequá-las à norma-padrão da língua portuguesa.</p>
+stem: A frase que está de acordo com a norma-padrão é:
+o1: Faz-se experiências na Casa Verde desde o início.
+o2: Existe muitos loucos na Casa Verde.
+o3: Fazem-se experiências na Casa Verde desde o início.
+o4: Houveram muitas internações em Itaguaí.
+key: C
+a: O verbo concorda com o sujeito (“experiências”, plural): o correto é “Fazem-se”.
+b: O verbo “existir” concorda com o sujeito: “Existem muitos loucos”.
+c: Na voz passiva sintética, o verbo concorda com o sujeito: “Fazem-se experiências”.
+d: O verbo “haver”, no sentido de “existir”, é impessoal: “Houve muitas internações”.
+
+@A-PT07-24 N3 obra
+sup: <p><i>Texto original, escrito para este estudo:</i><br>Fala 1 (o médico à Câmara): “Senhores vereadores, proponho a construção de um estabelecimento para o tratamento dos alienados.”<br>Fala 2 (o barbeiro a um vizinho): “Tá doido, vizinho? Esse doutor vai prender todo mundo!”</p>
+stem: A diferença de linguagem entre as duas falas se explica, principalmente,
+o1: pelo fato de um falante estar certo e o outro estar errado em relação à gramática.
+o2: pelo desconhecimento da língua portuguesa pelo barbeiro, que não sabe falar bem.
+o3: pelo fato de o médico ter nascido em Portugal e o barbeiro, no Brasil.
+o4: pela adequação do registro ao interlocutor e à situação: uma fala formal diante da Câmara e outra, informal, entre vizinhos.
+key: D
+a: Não há “certo” e “errado” em registros diferentes; cada um é adequado a uma situação.
+b: A fala do barbeiro não prova desconhecimento da língua; é um registro informal.
+c: O texto não relaciona a diferença à origem do médico.
+d: A fala 1 é formal, adequada a uma Câmara, e a 2 é informal, usada entre vizinhos. A variação acompanha a situação e o interlocutor.

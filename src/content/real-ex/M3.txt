@@ -1,0 +1,324 @@
+@R-2022-40
+sup: <table class="qt"><tr><th>Amostra</th><th>Água</th><th>Hidrogênio</th><th>Oxigênio</th></tr><tr><td>I</td><td>27 g</td><td>x g</td><td>y g</td></tr><tr><td>II</td><td>z g</td><td>w g</td><td>56 g</td></tr></table>
+stem: Segundo a Lei das Proporções Constantes, uma determinada substância composta sempre é formada pelos mesmos elementos químicos numa mesma proporção em massa. A água, por exemplo, é uma substância composta formada por hidrogênio e oxigênio de modo que, em cada 9 gramas de água, temos 1 grama de hidrogênio e 8 gramas de oxigênio. No quadro, são apresentados dados referentes à decomposição de duas amostras (I e II) de água.
+
+Considerando a Lei das Proporções Constantes e os dados do quadro, é correto afirmar que
+key: C
+a: Amostra I: 27 g = 3 × 9 g, então y = 3 × 8 = 24, que não é divisível por 5.
+b: Na amostra I, x = 3 × 1 = 3, que é ímpar.
+c: Na amostra II, 56 g de oxigênio = 7 × 8 g, logo w = 7 × 1 = 7 g de hidrogênio e z = 7 × 9 = 63 g de água. O número 7 é primo.
+d: z = 63 não é quadrado perfeito (7² = 49 e 8² = 64).
+
+@R-2023-27
+sup: <table class="qt"><tr><th></th><th>Pulseira</th><th>Colar</th><th>Brinco</th></tr><tr><td>Carol</td><td>3/8</td><td>13/24</td><td>1/12</td></tr><tr><td>Lourdes</td><td>1/4</td><td>5/12</td><td>1/3</td></tr><tr><td>Ícaro</td><td>1/5</td><td>4/15</td><td>8/15</td></tr></table>
+stem: Os itens de um conjunto, formado por uma pulseira, um colar e um brinco, serão distribuídos entre três pessoas. Cada uma delas atribui para cada item uma fração do valor total do conjunto, conforme o quadro.
+
+Cada pessoa receberá um item que, em sua própria avaliação, corresponda a pelo menos um terço do valor total do conjunto. De acordo com esse critério para distribuição dos itens, é correto afirmar que
+key: A
+a: Ícaro só avalia o brinco (8/15 > 1/3); o colar (4/15) e a pulseira (1/5) valem menos de 1/3 para ele. Logo Ícaro fica com o brinco. Lourdes: pulseira 1/4 < 1/3; sobra o colar (5/12 > 1/3). Carol fica com a pulseira (3/8 > 1/3). Tudo confere.
+b: Lourdes ficaria com o brinco, mas Ícaro só aceita o brinco (colar vale 4/15 < 1/3 para ele).
+c: Lourdes não pode ficar com a pulseira (1/4 < 1/3).
+d: Ícaro não pode ficar com a pulseira (1/5 < 1/3).
+
+@R-2025-17
+o1: par, então b² = 36.
+o2: ímpar, então b² < a².
+key: A
+a: Para ser divisível por 3, a soma dos algarismos 3a + 2b deve ser múltipla de 3, então 2b é múltiplo de 3 e b ∈ {3, 6, 9}. Se n é par, b é par: b = 6 e b² = 36.
+b: Se n é ímpar, b ∈ {3, 9}, mas não há relação garantida entre b e a (por exemplo, a = 1 e b = 3 dá b² > a²).
+c: Para ser divisível por 9, 3a + 2b deveria ser múltiplo de 9; com b = 3, 3a + 6 só é múltiplo de 9 para alguns valores de a, não sempre.
+d: Se n é par, b = 6, e o último algarismo é 6; um número divisível por 10 termina em 0, e b ≠ 0.
+
+@R-2019-29
+stem: Um prestador de serviço da construção civil deseja adquirir um equipamento, fabricado por duas marcas A e B, para melhor desempenhar seu trabalho. O equipamento da marca A é vendido no mercado por R$ 2000,00 e tem um custo de manutenção anual de R$ 300,00 e o da marca B é vendido por R$ 1400,00 e tem um custo de manutenção anual de R$ 450,00. Um gráfico mostra o custo total V em função do tempo de uso t (em anos) para cada marca: são duas retas, que se cruzam no ponto P.
+
+Deseja-se saber em quanto tempo de uso (t), o custo total do equipamento (V) da marca A e o da marca B serão iguais. Nesse caso, o ponto P(t, V) tem coordenadas
+key: A
+a: Custo de A: V = 2000 + 300t. Custo de B: V = 1400 + 450t. Igualando: 600 = 150t, logo t = 4 anos e V = 2000 + 300 × 4 = 3200. P = (4, 3200).
+b: Com t = 4, V = 3400 não está em nenhuma das retas (A dá 3200; B dá 3200).
+c: Com t = 20, A custaria 8000 e B custaria 10400; ainda não se igualaram.
+d: Com t = 20 os custos são diferentes (8000 e 10400); o ponto não está nas duas retas.
+
+@R-2020-23
+stem: Considere o gráfico da função real f(x) = −2x + 4, representado no plano cartesiano (reta que corta o eixo y em 4 e o eixo x em 2).
+
+A função afim, g(x), cujo gráfico é simétrico ao dessa função f(x) em relação ao eixo y, é dada por
+o1: g(x) = 2x + 4
+o2: g(x) = 2x − 4
+o3: g(x) = −2x − 4
+o4: g(x) = −4x + 2
+key: A
+a: A simetria em relação ao eixo y troca x por −x: g(x) = f(−x) = −2(−x) + 4 = 2x + 4. A reta continua passando por (0, 4) e passa a cortar o eixo x em −2.
+b: g(x) = 2x − 4 corta o eixo y em −4; seria uma reflexão em relação ao eixo x e uma translação, não a simetria pedida.
+c: g(x) = −2x − 4 seria simétrica em relação à origem (troca de x e y de sinal), não em relação ao eixo y.
+d: −4x + 2 não mantém o ponto (0, 4), que está sobre o eixo de simetria.
+
+@R-2022-33
+sup: <table class="qt"><tr><th>Escala X</th><th>Escala Celsius</th></tr><tr><td>12 °X</td><td>20 °C</td></tr><tr><td>20 °X</td><td>25 °C</td></tr></table>
+stem: Considere uma escala linear X de temperatura cuja correspondência com os valores na escala Celsius está representada na tabela.
+
+Usando um termômetro graduado na escala X, Pedro registra a temperatura de 0 °X para um objeto. Nessas condições, a temperatura desse objeto correspondente na escala Celsius (°C) é igual a
+key: C
+a: 7,5 é a variação em °C entre 0 °X e 12 °X (12 × 5/8); falta somar o valor de partida de 20 °C com sinal negativo.
+b: 10 não segue a razão constante 5/8 entre as escalas.
+c: A escala é linear: de 12 °X a 20 °X (variação de 8) a temperatura vai de 20 °C a 25 °C (variação de 5), logo C = 20 + (5/8)(X − 12). Para X = 0: C = 20 − 7,5 = 12,5.
+d: 15 não segue a razão 5/8; seria obtido ao somar um valor errado.
+
+@R-2023-28
+key: D
+a: 2 horas custariam 20 + 4 × 30 = R$ 140,00, bem abaixo do limite.
+b: 2h30min custariam 20 + 5 × 30 = R$ 170,00; ainda sobra dinheiro.
+c: 3 horas custariam 20 + 6 × 30 = R$ 200,00; ainda sobram R$ 30,00.
+d: Custo = 20 + 30n (n = número de meias horas). 20 + 30n ≤ 230 dá n ≤ 7, ou seja, 7 meias horas = 3h30min (custo exato de R$ 230,00).
+
+@R-2016-21
+key: A
+a: S(t) = 3t² − 39t + 66 = 3(t − 2)(t − 11). As raízes são 2 e 11 e a parábola tem concavidade para cima (a = 3 > 0), logo S < 0 entre as raízes: entre o 2º e o 11º mês.
+b: 4 e 16 não são raízes de S.
+c: O saldo seria negativo em dois intervalos separados, mas a parábola com a > 0 é negativa em um único intervalo entre as raízes.
+d: A função tem um único intervalo de saldo negativo, não dois.
+
+@R-2019-26
+stem: Considere f e g duas funções reais definidas por f(x) = − x² + x + 6 e g(x) = x + 2. Sobre os gráficos dessas funções, é correto afirmar que eles se interceptam em pontos cujas ordenadas são
+key: C
+a: Se as ordenadas fossem −2 e 2, as abscissas seriam −4 e 0, e f(−4) = −14 ≠ −2.
+b: Ordenada −2 corresponderia a x = −4, que não é raiz da equação.
+c: −x² + x + 6 = x + 2 ⇒ x² = 4 ⇒ x = −2 ou x = 2. Ordenadas: g(−2) = 0 e g(2) = 4.
+d: As ordenadas 4 e 6 não correspondem às abscissas de interseção; 6 é a ordenada de f em x = 0, mas g(0) = 2.
+
+@R-2020-28
+stem: O corte transversal de um túnel, de pista única, em que a base tem 20 m de largura e a altura máxima é de 8 m, tem o formato de um arco de parábola cujo vértice V está no ponto mais alto (a base fica sobre o eixo x, de x = 0 até x = 20).
+
+Um caminhão, cujo formato do corte transversal de sua carroceria é um retângulo, tem altura do chão até seu ponto mais alto igual a 6 m. O ponto mais alto desse caminhão está em sua carroceria. Para que ele consiga passar no túnel, a maior largura possível para a carroceria do caminhão, dentre as opções abaixo, em metros, é
+o1: 6
+o2: 8
+o3: 11
+o4: 13
+key: B
+a: 6 m passaria, mas não é a maior largura possível dentre as opções.
+b: A parábola passa por (0, 0) e (20, 0) e tem vértice (10, 8): y = a·x(x − 20) com a·(−100) = 8, logo a = −0,08. Na altura 6: −0,08x(x − 20) = 6, ou x² − 20x + 75 = 0, ou x = 5 ou x = 15. O teto do túnel tem 10 m de largura a 6 m de altura. A maior largura entre as opções que não passa de 10 m é 8.
+c: 11 m ultrapassa os 10 m de abertura disponíveis na altura de 6 m.
+d: 13 m também ultrapassa o limite de 10 m.
+
+@R-2023-24
+stem: Considere o gráfico da função quadrática f(x) = −x² + 16x − 28 que intercepta o eixo x nos pontos A e B.
+
+Sendo C um ponto pertencente ao gráfico de f, no primeiro quadrante, a maior área possível para o triângulo ABC, em unidades de área, é igual a
+key: B
+a: 144 seria a área para uma altura de 24, menor que a altura máxima (36).
+b: Raízes: x² − 16x + 28 = 0 ⇒ x = 2 ou x = 14, logo AB = 12. A maior altura do triângulo é a ordenada do vértice: f(8) = −64 + 128 − 28 = 36. Área máxima = 12 × 36 ÷ 2 = 216.
+c: 324 resultaria de usar 12 × 54 ÷ 2 (altura errada) ou 18 × 36 ÷ 2 (base errada).
+d: 432 é a área de um retângulo 12 × 36, e não de um triângulo (esqueceu de dividir por 2).
+
+@R-2020-24
+sup: <table class="qt"><tr><th>Conceito</th><th>Intervalo da nota</th></tr><tr><td>Insatisfatório</td><td>0 ≤ N ≤ 3</td></tr><tr><td>Regular</td><td>3 &lt; N ≤ 6</td></tr><tr><td>Bom</td><td>6 &lt; N ≤ 8</td></tr><tr><td>Ótimo</td><td>8 &lt; N ≤ 10</td></tr></table>
+stem: Joana está ansiosa para saber seu conceito final em Matemática, que está condicionado à média aritmética das notas obtidas nas quatro provas da disciplina. O quadro apresenta a correspondência entre os conceitos e os intervalos de notas.
+
+O sistema online da escola divulgou as quatro notas de Joana: N1 = 4, N2 = 7, N3 = 9 e N4 = 8.
+
+De acordo com essas notas, o conceito de Joana na disciplina de Matemática foi
+key: C
+a: A média é 7, bem acima de 3.
+b: A média 7 está acima de 6, portanto não é Regular.
+c: Média = (4 + 7 + 9 + 8) ÷ 4 = 28 ÷ 4 = 7, e 6 < 7 ≤ 8 corresponde ao conceito Bom.
+d: Ótimo exige média acima de 8; ela teve 7. Só a maior nota (9) é ótima.
+
+@R-2022-35
+sup: <table class="qt"><tr><th>Extensão territorial (km²)</th><th>Parques Nacionais</th></tr><tr><td>de 10 a menos de 100</td><td>7</td></tr><tr><td>de 100 a menos de 1 000</td><td>33</td></tr><tr><td>de 1 000 a menos de 10 000</td><td>27</td></tr><tr><td>de 10 000 a menos de 100 000</td><td>6</td></tr></table>
+stem: O Brasil possui atualmente 334 Unidades de Conservação Federais (UCs) dentre florestas, reservas e parques. Os 73 Parques Nacionais podem ser agrupados de acordo com sua extensão territorial, conforme a tabela (adaptada de dados do ICMBio).
+
+Com base nesses dados, é correto afirmar que a área total dos 73 parques nacionais, em quilômetros quadrados, é, no mínimo, igual a
+key: B
+a: 730 resultaria de supor 10 km² para cada um dos 73 parques, ignorando as faixas maiores.
+b: O mínimo ocorre quando cada parque tem o menor valor da sua faixa: 7 × 10 + 33 × 100 + 27 × 1 000 + 6 × 10 000 = 70 + 3 300 + 27 000 + 60 000 = 90 370.
+c: 903 700 é dez vezes maior que o mínimo; erro de ordem de grandeza.
+d: 7 300 000 corresponde a 73 parques de 100 000 km², um valor máximo (e nem isso é permitido, já que a última faixa é "menos de 100 000").
+
+@R-2025-30
+sup: <table class="qt"><tr><th>Idade</th><th>Número de jogadores</th></tr><tr><td>10</td><td>3</td></tr><tr><td>11</td><td>4</td></tr><tr><td>14</td><td>4</td></tr><tr><td>16</td><td>2</td></tr><tr><td>17</td><td>2</td></tr></table>
+stem: Um grupo de 15 amigos, cujas idades estão registradas na tabela, se inscreveu para disputar em equipe uma gincana. Dentre as regras da gincana, há as seguintes exigências:
+
+I- Cada equipe deverá ser formada por 16 jogadores.
+II- A mediana da idade dos jogadores da equipe deverá ser 13,5.
+
+Sendo assim, para atender as exigências, a equipe precisa incluir um jogador de
+key: B
+a: Com 12 anos, o 8º valor seria 12 e o 9º, 14; mediana = 13, e não 13,5.
+b: Idades ordenadas (15): 10, 10, 10, 11, 11, 11, 11, 14, 14, 14, 14, 16, 16, 17, 17. Com 16 jogadores, a mediana é a média do 8º e 9º valores. Incluindo um jogador de 13 anos, os valores centrais passam a ser 13 e 14: (13 + 14) ÷ 2 = 13,5.
+c: Com 14 anos, os valores centrais seriam 14 e 14: mediana 14.
+d: Com 15 anos, o 8º valor seria 14 e o 9º também 14: mediana 14.
+
+@R-2026-24
+key: B
+a: Com 3 integrantes, 2 teriam média 46 (soma 92) e com Carla a soma seria 162, média 54, não 52.
+b: Seja n o total. Os n − 1 outros somam 46(n − 1). Com Carla (70): 46(n − 1) + 70 = 52n, então 24 = 6n e n = 4. Conferindo: 3 × 46 = 138; 138 + 70 = 208; 208 ÷ 4 = 52.
+c: Com 5 integrantes, a soma seria 4 × 46 + 70 = 254, média 50,8.
+d: Com 6 integrantes, a soma seria 5 × 46 + 70 = 300, média 50.
+
+@R-2022-30
+key: B
+a: Y (chover E fazer sol) não pode ser maior que X (só chover): a interseção está contida no evento.
+b: A interseção (II) está contida em I, logo Y ≤ X. E I está contido na união (III), logo X ≤ Z. Portanto Y ≤ X ≤ Z.
+c: Z (a união) não pode ser menor que Y; a união contém todos os outros casos.
+d: Z não pode ser menor que X; o evento "ou" contém o evento I.
+
+@R-2022-36
+key: D
+a: Nenhum teste de eficácia indica imunidade total; 10 voluntários do grupo teste adoeceram.
+b: As chances são diferentes: 10 em 10 mil no grupo teste contra 190 em 10 mil no controle.
+c: 200 infectados em 20 mil voluntários é 1%; a chance de estar infectado é bem menor que a de não estar.
+d: Proporção de infectados: 10/10 000 = 0,1% no grupo teste contra 190/10 000 = 1,9% no controle. As pessoas vacinadas tiveram menor chance de contrair a doença.
+
+@R-2023-31
+sup: <table class="qt"><tr><th>Lançamentos</th><th>1º</th><th>2º</th><th>3º</th><th>4º</th><th>5º</th><th>6º</th></tr><tr><td>Sequência I</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td></tr><tr><td>Sequência II</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>Sequência III</td><td>2</td><td>5</td><td>1</td><td>2</td><td>4</td><td>3</td></tr></table>
+stem: O quadro exibe três sequências numéricas, obtidas por meio de sorteio, em lançamentos consecutivos de um dado honesto de seis faces, numeradas de 1 a 6.
+
+Assim, na sequência I, o número 5 foi sorteado em todos os lançamentos. Na sequência II, no primeiro lançamento foi sorteado o número 1, no segundo o número 2 e assim por diante. Considerando A, B e C as probabilidades de serem obtidas as sequências I, II e III, respectivamente, é correto afirmar que
+o1: A < B < C
+o2: B < A < C
+o3: B = A < C
+o4: A = B = C
+key: D
+a: Sequências que "parecem" mais prováveis não o são: todas têm a mesma probabilidade.
+b: Uma sequência com números repetidos, como a I, não tem probabilidade maior ou menor que a II.
+c: A sequência III também é uma sequência específica de 6 resultados; não é mais provável.
+d: Os lançamentos são independentes e cada face tem probabilidade 1/6. Qualquer sequência específica de 6 lançamentos tem probabilidade (1/6)⁶. Logo A = B = C.
+
+@R-2024-28
+key: C
+a: André precisa de coroa nas três rodadas, mas as duas primeiras foram cara; sua chance é zero.
+b: Bruno tem 1/2 de chance (cara na terceira rodada), mas Cecília também tem 1/2; a resposta completa inclui os dois.
+c: Bruno precisa de cara na 3ª rodada: 1/2. Cecília precisa de número par (2, 4 ou 6) na 3ª rodada, já que o 2 foi par duas vezes: 3/6 = 1/2. Daniela precisa do número 2: 1/6. André: 0. A maior chance, igual, é a de Bruno e Cecília.
+d: Daniela só vence se sair o 2 (1/6), chance bem menor que a de Cecília (1/2).
+
+@R-2025-29
+key: B
+a: As chances não são iguais: entre 1 e 9 há 5 ímpares e 4 pares.
+b: Célio escolheu entre os números de 1 a 9: 5 ímpares (1, 3, 5, 7, 9) e 4 pares (2, 4, 6, 8). Amanda escreveu um número par. A soma é ímpar quando Célio escolhe ímpar (5 em 9) e par quando escolhe par (4 em 9). Amanda vence com 5/9 e Célio com 4/9.
+c: Célio só vence se escolher par (4/9), probabilidade menor que a de Amanda (5/9).
+d: É possível calcular: as quantidades de pares e ímpares permitem determinar as probabilidades.
+
+@R-2022-29
+key: C
+a: Contar só os múltiplos de 5 até 35 dá 7 fatores 5, mas ainda falta o fator extra de 25.
+b: 7 é a quantidade de múltiplos de 5 (5, 10, ..., 35), sem contar o segundo fator 5 de 25.
+c: Cada zero final vem de um par de fatores 2 × 5, e há fatores 2 de sobra. Os fatores 5 em 35!: ⌊35/5⌋ + ⌊35/25⌋ = 7 + 1 = 8. Logo m termina em 8 zeros.
+d: 9 zeros exigiria 9 fatores 5, mas 35! só tem 8.
+
+@R-2024-24
+sup: <table class="qt"><tr><th>Produto</th><th>Preço</th></tr><tr><td>A</td><td>R$ 35,00</td></tr><tr><td>B</td><td>R$ 20,00</td></tr><tr><td>C</td><td>R$ 10,00</td></tr><tr><td>D</td><td>R$ 35,00</td></tr><tr><td>E</td><td>R$ 20,00</td></tr><tr><td>F</td><td>R$ 10,00</td></tr><tr><td>G</td><td>R$ 10,00</td></tr><tr><td>H</td><td>R$ 35,00</td></tr></table>
+stem: Um site de compras lançou uma promoção em que uma lista de 8 produtos é oferecida com entrega grátis. Para ter direito à promoção, duas condições precisam ser satisfeitas:
+1) Cada cliente não poderá comprar mais do que 1 unidade de um mesmo produto;
+2) O valor mínimo da compra deverá ser de R$ 50,00.
+Na tabela, estão apresentados os produtos oferecidos nessa promoção e seus respectivos preços.
+
+Um cliente decidiu comprar o produto A, mas, para ter o benefício da entrega gratuita, adicionará produtos à compra a fim de gastar o mínimo possível.
+
+Dessa forma, de quantas maneiras diferentes esse cliente poderá fazer a escolha desses produtos?
+key: B
+a: 4 maneiras deixa de contar uma das combinações com gasto mínimo.
+b: Com A (R$ 35), faltam pelo menos R$ 15. Os acréscimos possíveis são múltiplos de 10 (10, 20, 35). O menor acréscimo que alcança 15 é R$ 20, total R$ 55. Combinações de R$ 20: B sozinho, E sozinho, ou dois de R$ 10: C+F, C+G, F+G. Total: 2 + 3 = 5.
+c: 6 incluiria uma combinação inexistente com acréscimo de R$ 20.
+d: 7 contaria combinações mais caras (acréscimo de R$ 30 ou mais), que não minimizam o gasto.
+
+@R-2024-31
+key: D
+a: 5 é só o número de escolhas do primeiro dígito.
+b: 12 é só o número de pares (2ª e 3ª posições) que formam um número primo; falta multiplicar pelas 5 escolhas do 1º/4º dígitos.
+c: 36 não corresponde a nenhum dos fatores corretos.
+d: 1º e 4º dígitos iguais e ímpares: 5 possibilidades. Para os dígitos centrais (só ímpares), os primos de dois algarismos são 11, 13, 17, 19, 31, 37, 53, 59, 71, 73, 79, 97: 12 possibilidades. Princípio multiplicativo: 5 × 12 = 60.
+
+@R-2025-26
+key: C
+a: 24 = 4! seria o número de formas se houvesse exatamente 4 poltronas.
+b: 60 = 5 × 4 × 3 seria o número se fossem apenas 3 pessoas.
+c: Primeira pessoa: 5 poltronas; segunda: 4; terceira: 3; quarta: 2. Total: 5 × 4 × 3 × 2 = 120 (arranjo de 5 tomados 4 a 4).
+d: 256 = 4⁴ aconteceria se pudessem repetir as poltronas, mas cada pessoa ocupa uma poltrona diferente.
+
+@R-2026-25
+key: A
+a: 1ª letra: C ou S (primeiras letras de Celio, Celso, Cesar, Selma): 2 opções. 2ª letra: E em todos os nomes: 1 opção. 3ª letra: L, L, S, L: 2 opções (L ou S). 4ª letra: I, S, A, M: 4 opções. 5ª letra: O, O, R, A: 3 opções (O, R ou A). Total: 2 × 1 × 2 × 4 × 3 = 48.
+b: 512 = 2⁹ não vem da contagem de letras distintas por posição.
+c: 729 = 3⁶ não corresponde a esse problema.
+d: 4096 = 4⁶ contaria 4 escolhas por posição mesmo quando as letras se repetem entre os nomes.
+
+@R-2022-27
+sup: <table class="qt"><tr><th>Diâmetro da pizza</th><th>Preço (R$)</th></tr><tr><td>20 cm</td><td>20,00</td></tr><tr><td>30 cm</td><td>40,00</td></tr><tr><td>40 cm</td><td>60,00</td></tr><tr><td>50 cm</td><td>120,00</td></tr></table>
+stem: Um restaurante vende pizzas no formato circular em 4 tamanhos diferentes. Na tabela a seguir, são apresentados os preços dessas pizzas, conforme o diâmetro de cada uma delas.
+
+A opção de menor custo, por cm² de pizza, é aquela cujo diâmetro, em cm, mede
+key: C
+a: Para 20 cm: custo ∝ 20/20² = 20/400 = 0,05 (por unidade de π/4 cm²), o segundo maior.
+b: Para 30 cm: 40/900 ≈ 0,0444, maior que o de 40 cm.
+c: A área é proporcional a d² (A = π·d²/4). Custo por área ∝ preço ÷ d²: 20/400 = 0,0500; 40/900 ≈ 0,0444; 60/1 600 = 0,0375; 120/2 500 = 0,0480. O menor é o de 40 cm.
+d: Para 50 cm: 120/2 500 = 0,048, maior que o de 40 cm.
+
+@R-2023-39
+stem: A fachada de um sobrado é formada por um quadrado de lado igual a 8 m e um triângulo (sobre o lado superior do quadrado) de altura igual a 3 m. Essa fachada possui duas janelas e uma porta retangulares, com as seguintes dimensões para cada uma delas:
+• janela: 1,4 m × 1 m.
+• porta: 0,6 m × 2 m.
+
+A fachada será pintada, com exceção das janelas e da porta. Sabendo-se que cada litro de tinta é suficiente para pintar 9 m², a quantidade mínima de tinta que deve ser comprada para realizar essa pintura, em litro, é igual a
+key: C
+a: 6 L cobririam 54 m², menos que os 72 m² a pintar.
+b: 7 L cobririam 63 m², ainda menos que os 72 m².
+c: Área do quadrado: 8 × 8 = 64 m². Área do triângulo: 8 × 3 ÷ 2 = 12 m². Fachada: 76 m². Descontos: 2 janelas (2 × 1,4 = 2,8 m²) e a porta (0,6 × 2 = 1,2 m²) = 4 m². Área a pintar: 72 m². 72 ÷ 9 = 8 litros.
+d: 9 L cobririam 81 m²; seria o valor se a porta e as janelas não fossem descontadas (76 ÷ 9 ≈ 8,4 → 9).
+
+@R-2022-32
+stem: Corredores de rua utilizam o conceito de ritmo para controlar o desenvolvimento da corrida, que é medido em minuto/quilômetro (min/km). Por exemplo, um corredor que apresenta um ritmo de 3 min/km percorre 1 km a cada 3 minutos.
+
+Considere que os corredores Andreia e Samuel participam de uma corrida, partindo de um mesmo ponto e instante, percorrendo estradas distintas. Os dois mantêm um ritmo constante durante uma corrida de 24 minutos: Andreia a 4 min/km e Samuel a 3 min/km. Ambos percorrem trajetórias retilíneas e perpendiculares entre si (Estrada A e Estrada B), a partir do ponto de partida.
+
+Ao final da corrida, o segmento de reta que liga esses corredores tem, em km, comprimento igual a
+key: C
+a: 6 km é a distância percorrida por Andreia; falta considerar Samuel e o triângulo retângulo.
+b: 8 km é a distância percorrida por Samuel, não a distância entre os dois.
+c: Andreia percorre 24 ÷ 4 = 6 km e Samuel 24 ÷ 3 = 8 km, em trajetórias perpendiculares. A distância entre eles é a hipotenusa: √(6² + 8²) = √100 = 10 km.
+d: 14 km é a soma dos dois percursos (6 + 8); só valeria se eles estivessem em linha reta, em sentidos opostos.
+
+@R-2017-30
+key: D
+a: Com x = 5°, 2x = 10° e y = 70° (y + 10 = 80°) e 5x = 25°: 25 + (3·70 − 40 = 170) = 195°, não é suplementar.
+b: Com x = 10°, y = 60° e 5x + (3y − 40) = 50 + 140 = 190°, não 180°.
+c: Com x = 15°, y = 50° e 5x + (3y − 40) = 75 + 110 = 185°, não 180°.
+d: Complementares: 2x + (y + 10) = 90, logo y = 80 − 2x. Suplementares: 5x + (3y − 40) = 180. Substituindo: 5x + 240 − 6x − 40 = 180, então x = 20°. Conferindo: y = 40°; 40 + 50 = 90 e 100 + 80 = 180.
+
+@R-2023-22
+sup: <table class="qt"><tr><th>Quadrilátero</th><th>Característica</th></tr><tr><td>Paralelogramo</td><td>Os lados opostos são paralelos.</td></tr><tr><td>Losango</td><td>Os quatro lados são congruentes.</td></tr><tr><td>Retângulo</td><td>Os quatro ângulos são retos.</td></tr><tr><td>Quadrado</td><td>Os quatro ângulos são retos e os quatro lados são congruentes.</td></tr></table>
+stem: O quadro apresenta características de alguns quadriláteros notáveis.
+
+Sobre esses quadriláteros, é correto afirmar que:
+key: A
+a: O quadrado tem os quatro lados congruentes, que é a característica do losango; logo todo quadrado é losango.
+b: Um retângulo 2 × 3 tem quatro ângulos retos, mas lados diferentes: não é losango.
+c: O quadrado tem quatro ângulos retos, que é a característica do retângulo; logo todo quadrado é retângulo.
+d: Todo losango tem lados opostos paralelos, portanto todo losango é paralelogramo.
+
+@R-2019-25
+stem: A figura 1 mostra uma pirâmide formada por um quadrado (base) e quatro triângulos equiláteros (faces laterais). A planificação dessa pirâmide é formada por um quadrado com um triângulo equilátero colado em cada um de seus quatro lados.
+
+Se a área total da pirâmide é dada pela área da planificação e o lado do quadrado mede l, então, a área total da pirâmide é
+o1: 3l²/2
+o2: l²(1 + √3/4)
+o3: l²(1 + √3)
+o4: 3l²
+key: C
+a: 3l²/2 não corresponde à soma das cinco figuras (um quadrado e quatro triângulos).
+b: l²(1 + √3/4) soma o quadrado com apenas UM triângulo equilátero (área l²√3/4); a planificação tem quatro triângulos.
+c: Quadrado: l². Cada triângulo equilátero de lado l tem área l²√3 ÷ 4; são quatro: 4 × l²√3 ÷ 4 = l²√3. Total: l² + l²√3 = l²(1 + √3).
+d: 3l² não resulta da soma; seria obtido aproximando √3 por 2, o que é incorreto (√3 ≈ 1,73 e a área é ≈ 2,73 l²).
+
+@R-2020-21
+stem: Carlos solicitou a um carpinteiro a construção de uma caixa no formato de um paralelepípedo retangular, com dimensões x, 2x e 3x cm. Após analisar todos os materiais que precisavam ser guardados nessa caixa, o carpinteiro explicou a Carlos que o espaço seria insuficiente e que, portanto, ela deveria ser maior que aquela inicialmente solicitada. Assim, a caixa construída passou a ter as seguintes dimensões (x + 1), (2x + 2), (3x + 2) cm.
+
+A diferença entre o volume da caixa construída pelo carpinteiro e o volume da caixa inicialmente solicitada por Carlos, em cm³, é
+o1: 2(8x² + 7x + 2)
+o2: 3(2x² + 5x + 1)
+o3: 4(x² + 3x + 4)
+o4: 6(2x² + 6x + 2)
+key: A
+a: Volume inicial: x · 2x · 3x = 6x³. Volume da caixa construída: (x + 1)(2x + 2)(3x + 2) = 2(x + 1)²(3x + 2) = 2(3x³ + 8x² + 7x + 2) = 6x³ + 16x² + 14x + 4. Diferença: 16x² + 14x + 4 = 2(8x² + 7x + 2).
+b: 3(2x² + 5x + 1) = 6x² + 15x + 3 não coincide com 16x² + 14x + 4.
+c: 4(x² + 3x + 4) = 4x² + 12x + 16 não coincide com a diferença correta.
+d: 6(2x² + 6x + 2) = 12x² + 36x + 12 não coincide com a diferença correta.

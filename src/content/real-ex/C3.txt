@@ -1,0 +1,200 @@
+@R-2018-32
+key: C
+a: A fotossíntese transforma CO₂ e água em açúcares; não incorpora o N₂ do ar.
+b: As folhas não capturam o N₂ gasoso: as plantas não conseguem usar o nitrogênio atmosférico diretamente.
+c: O nitrogênio é fixado por bactérias (no solo ou associadas às raízes) e transformado em nitratos e amônia; as plantas absorvem esses sais pelas raízes.
+d: Plantas autotróficas não digerem matéria orgânica; isso é função de heterótrofos.
+
+@R-2024-35
+key: D
+a: Simbioses são apenas um tipo de relação; as teias mostram principalmente relações alimentares.
+b: As teias incluem produtores, consumidores de vários níveis e decompositores, não só primários.
+c: A relação linear é a de uma cadeia alimentar simples; a teia mostra relações ramificadas.
+d: Uma teia alimentar é formada por várias cadeias interligadas, porque a maioria dos seres se alimenta de mais de uma espécie e é alimento de várias outras.
+
+@R-2024-39
+key: C
+a: Sociedade é a relação entre indivíduos da mesma espécie, organizados e cooperando; aqui são espécies diferentes.
+b: No predatismo um organismo mata o outro para se alimentar; o morcego não mata a planta.
+c: Mutualismo: o morcego obtém néctar e pólen e a planta tem suas flores polinizadas; ambos se beneficiam, mas a relação não é obrigatória para a sobrevivência.
+d: No inquilinismo um organismo usa o outro como abrigo sem prejudicá-lo ou beneficiá-lo; aqui há benefício mútuo.
+
+@R-2025-32
+key: B
+a: A conversão de energia solar em açúcares é feita por produtores (fotossíntese), não pelos decompositores.
+b: Ao decompor a matéria orgânica, eles liberam nutrientes e formam o húmus, mantendo a fertilidade do solo e reciclando a matéria no ecossistema.
+c: Quem regula as populações de produtores e consumidores primários são os consumidores (predadores) e fatores abióticos, não os decompositores.
+d: O oxigênio é produzido na fotossíntese por plantas, algas e cianobactérias.
+
+@R-2016-44
+key: D
+a: O sangue não esfria a água do chuveiro; a água do chuveiro está mais quente que o corpo.
+b: Saciedade depende de sinais hormonais e do estômago, não do desvio do sangue para a pele.
+c: Levar nutrientes às células da pele ocorre o tempo todo, mas não é a finalidade do desvio no banho quente.
+d: Com a pele aquecida, o corpo desvia o sangue para ela (vasodilatação), aumentando a perda de calor para o ambiente e ajudando a manter a temperatura corporal.
+
+@R-2016-47
+key: A
+a: A hemoglobina (e a mioglobina nos músculos) se liga ao oxigênio; sangue mais escuro e abundante em hemoglobina permite armazenar e aproveitar quase todo o O₂.
+b: A bexiga natatória é um órgão de flutuação dos peixes ósseos; baleias são mamíferos e não a possuem.
+c: Nos mergulhos, os batimentos cardíacos de mamíferos marinhos diminuem (bradicardia) para economizar oxigênio.
+d: O ar ao nível do mar tem a mesma proporção de oxigênio (cerca de 21%); não há excesso de oxigênio.
+
+@R-2017-48
+key: B
+a: Pílulas e outros métodos hormonais têm alta eficácia (acima de 90% com uso correto).
+b: O coito interrompido (retirar o pênis antes da ejaculação) tem eficácia baixa: pode haver espermatozoides no líquido pré-ejaculatório e depende de controle voluntário.
+c: A camisinha (preservativo), usada corretamente, tem eficácia alta e ainda previne ISTs.
+d: O DIU hormonal (sistema intrauterino) é um dos métodos mais eficazes.
+
+@R-2018-33
+key: A
+a: O soro antiescorpiônico contém anticorpos prontos (imunização passiva) que neutralizam as toxinas do veneno, evitando os sintomas.
+b: Toxina viral atenuada seria o princípio de uma vacina, que estimula o corpo a produzir os próprios anticorpos; o soro não é vacina.
+c: Antígenos estimulam a produção de anticorpos, mas o soro já traz os anticorpos; ele não contém antígenos.
+d: Proteínas que estimulam a produção de anticorpos são antígenos (vacina), e o efeito demora; o soro age imediatamente.
+
+@R-2018-34
+key: D
+a: A síntese de proteínas ocorre em todas as células, nos ribossomos; plaquetas não são a causa.
+b: A defesa do organismo é feita sobretudo pelos leucócitos (glóbulos brancos), não pelas plaquetas.
+c: O transporte de oxigênio é feito pelas hemácias (glóbulos vermelhos).
+d: As plaquetas (fragmentos celulares) participam da coagulação do sangue; produzi-las dá aos pulmões também papel na coagulação.
+
+@R-2019-46
+key: B
+a: O suor é eliminado pela pele e pode conter pequenas quantidades de resíduos, mas não é o mais indicado para analisar substâncias presentes no sangue de forma geral.
+b: Os rins filtram o sangue e a urina elimina os resíduos e substâncias estranhas (como desreguladores endócrinos); por isso a urina é uma amostra biológica prática para avaliar a exposição.
+c: A saliva tem composição diferente e menor concentração dessas substâncias.
+d: O escarro é secreção das vias respiratórias; não reflete bem o que circula no sangue.
+
+@R-2020-40
+sup: <table class="qt"><tr><th>Localização primária do câncer</th><th>Nº de casos</th><th>%</th></tr><tr><td>Próstata</td><td>68.220</td><td>42,0</td></tr><tr><td>Traqueia, brônquios e pulmão</td><td>18.740</td><td>11,6</td></tr><tr><td>Cólon e reto</td><td>17.380</td><td>10,7</td></tr><tr><td>Estômago</td><td>13.540</td><td>8,4</td></tr><tr><td>Cavidade oral</td><td>11.200</td><td>6,9</td></tr><tr><td>Esôfago</td><td>8.240</td><td>5,1</td></tr><tr><td>Bexiga</td><td>6.690</td><td>4,1</td></tr><tr><td>Laringe</td><td>6.390</td><td>3,9</td></tr><tr><td>Sangue (leucemias)</td><td>5.940</td><td>3,7</td></tr><tr><td>Encéfalo e medula</td><td>5.810</td><td>3,6</td></tr><tr><td>Total</td><td>162.150</td><td>100,0</td></tr></table>
+stem: Na tabela, são apresentados os números de casos de diferentes tipos de câncer que afetam o ser humano do sexo masculino (INCA, adaptado).
+
+Com base nos dados da tabela, afirma-se que:
+I- A soma de casos de câncer relacionados ao sistema urinário é igual a 14,8%.
+II- O maior número de casos relaciona-se a uma glândula que produz um fluido que protege e nutre os espermatozoides.
+III- Dos diferentes tipos de câncer, pelo menos 4 relacionam-se a órgãos do sistema respiratório.
+IV- O percentual de 19,1% refere-se ao somatório de casos de câncer no sistema digestório.
+
+Estão corretas apenas as afirmativas
+key: C
+a: I é falsa: o único câncer do sistema urinário listado é o de bexiga (4,1%); a próstata pertence ao sistema genital.
+b: I e IV são falsas: o sistema digestório soma cólon e reto (10,7), estômago (8,4), cavidade oral (6,9) e esôfago (5,1) = 31,1%, não 19,1%.
+c: II é verdadeira: o maior número é de câncer de próstata, glândula que produz o líquido seminal. III é verdadeira: traqueia, brônquios, pulmão e laringe são pelo menos 4 órgãos do sistema respiratório.
+d: IV é falsa: o somatório do sistema digestório é 31,1%.
+
+@R-2024-41
+key: B
+a: Répteis têm coração com três cavidades (dois átomos e um ventrículo parcialmente dividido) ou quatro nos crocodilianos, com mistura de sangues.
+b: Peixes têm coração com duas cavidades (um átrio e um ventrículo) que recebe apenas sangue venoso, que segue para as brânquias.
+c: Anfíbios têm coração com três cavidades (dois átrios e um ventrículo), com mistura de sangues.
+d: Mamíferos têm coração com quatro cavidades, e duas delas têm sangue arterial.
+
+@R-2016-43
+key: B
+a: Reprodução cruzada de corais não reverte o aquecimento global ou das águas.
+b: Cruzar corais do Golfo (que toleram até 36 °C) com os de climas temperados poderia gerar descendentes com genes de termorresistência, capazes de suportar águas mais quentes.
+c: O método transfere características, mas a intenção é ajudar corais, não substituir os de clima temperado.
+d: A frase é verdadeira sobre a reprodução, mas descreve o mecanismo de forma genérica; o objetivo citado é obter descendentes termorresistentes.
+
+@R-2016-45
+key: B
+a: Fungos são heterótrofos e não absorvem CO₂ para fabricar alimento.
+b: As plantas absorvem CO₂ na fotossíntese para produzir seu alimento e sobreviver, um processo similar ao do tijolo que remove CO₂ do ar.
+c: Animais liberam CO₂ na respiração; não o absorvem para sobreviver.
+d: Algumas bactérias realizam fotossíntese (cianobactérias), mas o grupo como um todo é heterogêneo; a resposta mais abrangente e correta é "plantas".
+
+@R-2016-48
+key: D
+a: A redução de potássio não conserva o alimento.
+b: Sem agrotóxicos, o alimento não dura mais; o fator relevante é a ausência de micro-organismos.
+c: O sabor adocicado não é o motivo da conservação.
+d: Em salas ultralimpas há muito menos micro-organismos (fungos e bactérias) deterioradores, o que prolonga a vida da alface.
+
+@R-2017-43
+key: D
+a: As abelhas não são "adaptadas às culturas agrícolas"; elas existem há muito antes da agricultura.
+b: As abelhas não vivem exclusivamente em locais de fácil acesso ao pólen.
+c: Feromônios sexuais não têm relação com as essências florais buscadas pelas abelhas.
+d: As abelhas têm pelos, corbículas e outras estruturas especializadas que coletam e transportam o pólen, o que as torna polinizadoras eficientes.
+
+@R-2017-47
+stem: A imagem mostra a famosa Dionéia ou Vênus papa-moscas (Dionaea muscipula). Suas armadilhas nada mais são do que suas próprias folhas modificadas no processo de evolução.
+
+Dentre as funções dessas armadilhas, NÃO se inclui a
+key: B
+a: Folhas podem dar origem a novas mudas (reprodução assexuada), então isso inclui uma função das folhas.
+b: A reprodução sexuada ocorre nas flores (com gametas), não nas folhas modificadas em armadilhas; portanto essa NÃO é função das armadilhas.
+c: As armadilhas absorvem substâncias (nutrientes liberados dos insetos digeridos), então a absorção é função delas.
+d: Como folhas, elas têm clorofila e realizam fotossíntese.
+
+@R-2018-31
+key: A
+a: A fermentação alcoólica das leveduras produz CO₂, que faz o pão crescer (além de etanol que evapora no forno).
+b: A gasolina é derivada do petróleo, que não vem de fermentação.
+c: O macarrão é feito de farinha e água, sem fermentação.
+d: O sabonete resulta de saponificação (reação de gordura com base), sem fermentação.
+
+@R-2018-35
+key: D
+a: A respiração cutânea não é a função regulada pelo clima nas serpentes (que respiram por pulmões).
+b: A taxa de fecundação não é regulada pela variação climática dessa forma.
+c: A ingestão de alimento depende da disponibilidade de presas, não é regulada diretamente pela temperatura ambiente do ponto de vista do texto.
+d: Serpentes são ectotérmicas (a temperatura do corpo depende do ambiente); assim, variações climáticas influenciam e elas regulam a temperatura corpórea pelo comportamento (sol e sombra).
+
+@R-2020-38
+key: B
+a: Litosfera é a camada rochosa da Terra, não a formação de seres vivos.
+b: O experimento mostra a formação de células primitivas, ou seja, o início da vida; o conjunto dos seres vivos e dos ambientes onde há vida é a biosfera.
+c: Atmosfera é a camada gasosa; o experimento tratava de membranas e moléculas orgânicas.
+d: Hidrosfera é o conjunto das águas; o fluido nos recipientes não é o tema central.
+
+@R-2024-43
+key: B
+a: Folhas diversificadas existem em outras plantas, como as gimnospermas e as pteridófitas.
+b: Flores, frutos e sementes são as estruturas características das angiospermas; os frutos protegem as sementes e atraem animais que as dispersam.
+c: Vasos condutores existem também nas pteridófitas e gimnospermas (plantas vasculares).
+d: Raízes variadas existem em plantas de outros grupos e não explicam a dispersão.
+
+@R-2025-36
+key: A
+a: Briófitas e pteridófitas têm gametas masculinos flagelados que precisam de água para nadar até a oosfera: a fecundação depende da água.
+b: Flores são exclusivas de angiospermas; briófitas e pteridófitas não as têm.
+c: Frutos são exclusivos de angiospermas; briófitas não têm raízes, caules (verdadeiros) nem frutos.
+d: Soros (agrupamentos de esporângios) são das pteridófitas; as briófitas produzem esporos em cápsulas.
+
+@R-2019-42
+sup: <table class="qt"><tr><th rowspan="2">Metal analisado</th><th colspan="4">Concentração média (mg/kg)</th></tr><tr><th>Solo não plantado</th><th>Solo plantado com feijão</th><th>Solo plantado com grama</th><th>Solo plantado com milho</th></tr><tr><td>Ferro (Fe)</td><td>50185,19</td><td>49078,73</td><td>50185,01</td><td>49427,38</td></tr><tr><td>Zinco (Zn)</td><td>286,03</td><td>234,15</td><td>156,13</td><td>255,21</td></tr></table>
+stem: Em novembro de 2015, ocorreu um dos desastres ambientais mais graves do Brasil: o rompimento da Barragem do Fundão, na cidade mineira de Mariana. Nesse acidente, o solo do local e a água do Rio Doce foram contaminados por uma série de resíduos de mineração, inclusive metais pesados, como: ferro, chumbo, zinco e cádmio.
+
+Pesquisa desenvolvida por estudantes do Curso de Engenharia Ambiental do CEFET-MG utilizou, para remediação do solo contaminado, o plantio de diferentes vegetais, de forma a reduzir as concentrações dos metais pesados. Alguns dados da pesquisa estão apresentados na tabela.
+
+Essa pesquisa permite concluir que
+key: A
+a: Para o zinco, o solo plantado com grama ficou com 156,13 mg/kg, o menor valor entre os três vegetais (feijão 234,15 e milho 255,21), logo a grama foi o melhor para remediar o zinco.
+b: Para o ferro, o menor valor (melhor resultado) foi o do feijão (49078,73), e não o do milho (49427,38).
+c: A redução do ferro foi de cerca de 1106 mg/kg com o feijão, 758 com o milho e quase zero (0,18) com a grama; nem todos reduziram mais de 1000.
+d: A maior redução de zinco foi na grama: (286,03 − 156,13) ÷ 286,03 ≈ 45%, menos de 50%.
+
+@R-2020-47
+key: D
+a: A fuligem não indica caráter ácido da chuva; para isso seria preciso medir o pH.
+b: O texto trata de fuligem na chuva (qualidade do ar), não da poluição das águas da cidade.
+c: Fuligem (partículas de carbono) não é gás de efeito estufa.
+d: A fuligem vem da queima de biomassa; o resultado evidencia o efeito das queimadas na qualidade do ar da cidade.
+
+@R-2020-48
+key: D
+a: Priorizar combustíveis fósseis agrava a poluição e esgota recursos não renováveis.
+b: Priorizar a espécie humana em relação às demais ignora a interdependência dos seres vivos.
+c: Aumentar produtos industrializados eleva o consumo de recursos.
+d: Desenvolvimento sustentável exige reconhecer que os recursos naturais são limitados e devem ser usados de modo a atender também as futuras gerações.
+
+@R-2026-37
+key: C
+a: A erosão do solo não é a razão apresentada pelo texto para o agravamento do efeito estufa.
+b: A destruição de florestas reduz a liberação de oxigênio; não haveria "excesso".
+c: As florestas mortas se decompõem, e a decomposição da biomassa libera CO₂ e outros gases, ampliando o efeito estufa; além disso, sem as árvores, menos CO₂ é absorvido.
+d: O texto trata de eventos de 252 milhões de anos atrás, quando não havia áreas urbanas ou agrícolas.

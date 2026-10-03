@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Caderno de erros — Estudos CEFET-MG' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'erros' }) %>
+  <div class="container">
+
+    <div class="card">
+      <h2 class="mt-0">Caderno de erros</h2>
+      <p class="muted">Questões cuja <strong>última</strong> resposta foi errada (<%= rows.length %>). Leia a explicação de cada alternativa, depois refaça — a questão sai do caderno quando você acerta.</p>
+      <% if (role === 'rayane' && rows.length > 0) { %>
+        <a class="btn" href="/rayane/praticar-erros">Refazer erros agora</a>
+      <% } %>
+    </div>
+
+    <% if (rows.length === 0) { %>
+      <div class="card"><p class="muted">Nenhum erro pendente. Continue praticando! 🎉</p></div>
+    <% } %>
+
+    <% let lastSubject = null; %>
+    <% rows.forEach(function(r) { %>
+      <% if (lastSubject !== r.subject_name) { lastSubject = r.subject_name; %><h3 class="tier-title"><%= r.subject_name %></h3><% } %>
+      <details class="card">
+        <summary style="cursor:pointer;">
+          <span class="qtag"><%= r.theme_name %></span>
+          <span class="muted small"><%= r.source_note %></span><br>
+          <span style="white-space:pre-line;"><%= r.stem.length > 160 ? r.stem.slice(0, 160) + '…' : r.stem %></span>
+        </summary>
+        <% if (r.support_html) { %><div class="support"><%- r.support_html %></div><% } %>
+        <div class="stem"><%= r.stem %></div>
+        <% ['a','b','c','d'].forEach(function(letter) { %>
+          <div class="option-btn disabled"
+            style="<%= letter === r.correct_option ? 'background:var(--green-bg); border-color:var(--green);' : (letter === r.selected_option ? 'background:var(--red-bg); border-color:var(--red);' : '') %>">
+            <span class="letter"><%= letter.toUpperCase() %>)</span> <span class="opt-text"><%= r['option_' + letter] %></span>
+            <% if (letter === r.selected_option) { %> <strong class="small">(sua resposta)</strong><% } %>
+          </div>
+        <% }) %>
+        <div class="explanation-box ok" style="margin-top:10px;">
+          <strong>Por que a alternativa <%= r.correct_option.toUpperCase() %> está correta:</strong> <span style="white-space:pre-line;"><%= r.explanation_correct %></span>
+        </div>
+        <div class="explanation-box" style="background:#f5f5fa; border:1px solid var(--border); margin-top:10px;">
+          <strong>Por que as outras estão erradas:</strong>
+          <ul style="margin:8px 0 0; padding-left:18px;">
+            <% ['a','b','c','d'].forEach(function(letter) { if (letter !== r.correct_option) { %>
+              <li><strong><%= letter.toUpperCase() %>)</strong> <%= r['explanation_' + letter] %></li>
+            <% } }) %>
+          </ul>
+        </div>
+        <p style="margin-top:10px;"><a class="btn btn-sm btn-outline" href="/rayane/praticar/<%= r.theme_id %>?modo=erros">Refazer erros deste tópico</a></p>
+      </details>
+    <% }) %>
+
+  </div>
+</body>
+</html>

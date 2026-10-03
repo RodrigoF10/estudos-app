@@ -1,0 +1,343 @@
+# Ciências — C05 (calor e temperatura), C02 (mudanças de estado e curvas), C09 (astronomia e gravitação)
+
+# ===================== C05 =====================
+
+@A-C05-01 N1
+stem: O Sol aquece a Terra, mesmo havendo vácuo na maior parte do espaço entre os dois astros. Isso ocorre por
+o1: condução, que exige contato direto entre os corpos e a presença de meio material.
+o2: convecção, que ocorre pela circulação de fluidos aquecidos.
+o3: radiação, que se propaga por ondas eletromagnéticas e dispensa meio material.
+o4: evaporação, que transforma líquidos em vapor e resfria a superfície.
+key: C
+a: A condução precisa de matéria entre os pontos; no vácuo ela não ocorre.
+b: A convecção exige líquidos ou gases em movimento; não há fluido no espaço vazio.
+c: A radiação térmica (como a luz do Sol) é onda eletromagnética e se propaga no vácuo.
+d: A evaporação é uma mudança de estado, e não uma forma de propagação de calor pelo espaço.
+
+@A-C05-02 N1 cálculo
+stem: A temperatura normal do corpo humano é de cerca de 37 °C. Sabendo que a relação entre as escalas é K = °C + 273, essa temperatura, em kelvin, é de aproximadamente
+o1: 236 K.
+o2: 273 K.
+o3: 373 K.
+o4: 310 K.
+key: D
+a: 236 resulta de subtrair (273 − 37) em vez de somar.
+b: 273 K corresponde a 0 °C, e não a 37 °C.
+c: 373 K corresponde a 100 °C (ponto de ebulição da água), e não a 37 °C.
+d: K = 37 + 273 = 310 K.
+
+@A-C05-03 N2
+sup: <p>Em uma geladeira doméstica, o congelador costuma ficar na parte superior, e as prateleiras de alimentos, abaixo dele.</p>
+stem: Essa posição do congelador favorece o resfriamento de toda a geladeira porque
+o1: o ar frio, mais denso, desce, e o ar mais quente, menos denso, sobe até o congelador, formando correntes de convecção.
+o2: o ar quente, mais denso, desce até as prateleiras e se mistura ao ar frio por condução.
+o3: o frio é uma energia que, por radiação, se propaga somente de cima para baixo.
+o4: o ar frio, menos denso, sobe e aquece os alimentos da parte de baixo.
+key: A
+a: O ar em contato com o congelador esfria, fica mais denso e desce. O ar mais quente, que fica embaixo, sobe e também é resfriado. Esse ciclo é a convecção.
+b: O ar quente é menos denso que o frio, e por isso sobe, e não desce.
+c: Não existe “frio” como energia que se propaga: o que se propaga é o calor, que flui do corpo mais quente para o mais frio.
+d: O ar frio é mais denso que o quente e tende a descer, e não a subir.
+
+@A-C05-04 N2
+sup: <table class="qt"><caption>Condutividade térmica de alguns materiais (valores aproximados, em W/m·K)</caption><tr><th>Material</th><th>Condutividade</th></tr><tr><td>Cobre</td><td>400</td></tr><tr><td>Alumínio</td><td>235</td></tr><tr><td>Vidro</td><td>1,0</td></tr><tr><td>Madeira</td><td>0,15</td></tr><tr><td>Isopor</td><td>0,03</td></tr></table>
+stem: Para fabricar uma caixa térmica que conserve bebidas geladas por mais tempo, o material mais adequado, entre os da tabela, é o
+o1: cobre.
+o2: alumínio.
+o3: vidro.
+o4: isopor.
+key: D
+a: O cobre tem a maior condutividade; ele transmitiria calor do ambiente para as bebidas muito rapidamente.
+b: O alumínio também é bom condutor de calor, e por isso é pouco indicado para isolar.
+c: O vidro conduz mais calor que madeira e isopor.
+d: O isopor tem a menor condutividade da tabela; ele dificulta a passagem de calor do ambiente para dentro da caixa.
+
+@A-C05-05 N2
+sup: <table class="qt"><caption>Calor específico (valores aproximados)</caption><tr><th>Material</th><th>cal/(g · °C)</th></tr><tr><td>Água</td><td>1,00</td></tr><tr><td>Areia</td><td>0,20</td></tr></table>
+stem: Em um dia de sol, a areia da praia fica muito mais quente que a água do mar. Isso ocorre porque
+o1: a areia tem menor calor específico, e a mesma quantidade de calor provoca nela uma variação de temperatura maior.
+o2: a areia absorve mais calor do Sol que a água, que reflete toda a radiação recebida.
+o3: a água tem menor calor específico e, por isso, perde calor mais rápido que a areia.
+o4: a areia é isolante térmico e impede que o calor absorvido escape para o ambiente.
+key: A
+a: Com calor específico 5 vezes menor (0,20 contra 1,00), a areia precisa de bem menos calor para elevar 1 °C a temperatura de um grama. Ela esquenta (e esfria) mais depressa.
+b: A água também absorve radiação; ela não reflete toda a luz.
+c: O calor específico da água é maior, e não menor, como mostra a tabela.
+d: A areia não é isolante a ponto de explicar o fenômeno; a causa principal é o calor específico.
+
+@A-C05-06 N2 cálculo
+stem: Para aquecer 200 g de água de 20 °C a 70 °C, é necessária uma quantidade de calor de (calor específico da água: 1 cal/g·°C)
+o1: 4 000 cal.
+o2: 10 000 cal.
+o3: 14 000 cal.
+o4: 20 000 cal.
+key: B
+a: 4 000 cal resulta de usar ΔT = 20 °C (a temperatura inicial) em vez da variação de temperatura.
+b: Q = m · c · ΔT = 200 · 1 · (70 − 20) = 200 · 50 = 10 000 cal.
+c: 14 000 cal resulta de usar a temperatura final (70 °C) em vez da variação.
+d: 20 000 cal resulta de usar ΔT = 100 °C, que não corresponde ao problema.
+
+@A-C05-07 N2 cálculo
+stem: Misturam-se 100 g de água a 80 °C com 100 g de água a 20 °C em um recipiente isolado termicamente (sem perdas de calor). A temperatura final de equilíbrio é
+o1: 40 °C.
+o2: 60 °C.
+o3: 50 °C.
+o4: 100 °C.
+key: C
+a: 40 °C resultaria de a água fria ganhar mais calor do que a quente perde, o que não ocorre com massas iguais.
+b: 60 °C seria o resultado se a água quente tivesse massa maior que a fria.
+c: Massas iguais do mesmo líquido: a temperatura final é a média: (80 + 20) ÷ 2 = 50 °C. A água quente perde o mesmo calor que a fria ganha.
+d: A soma das temperaturas não é a temperatura final; ela fica entre 20 °C e 80 °C.
+
+@A-C05-08 N3 julgar afirmativas
+stem: Sobre calor e temperatura, analise as afirmativas.
+I. Calor é energia térmica em trânsito entre corpos com temperaturas diferentes.
+II. A temperatura está relacionada ao grau de agitação das partículas de um corpo.
+III. Dois corpos em equilíbrio térmico estão à mesma temperatura.
+IV. Espontaneamente, o calor flui do corpo de menor temperatura para o de maior temperatura.
+Estão corretas apenas
+o1: I e II.
+o2: I, II e III.
+o3: II, III e IV.
+o4: I, II, III e IV.
+key: B
+a: I e II estão corretas, mas a III também: no equilíbrio térmico, as temperaturas são iguais.
+b: I, II e III são verdadeiras. A IV é falsa: espontaneamente, o calor flui do corpo mais quente para o mais frio.
+c: A IV é falsa, e a I, verdadeira, ficou de fora.
+d: A IV é falsa: o fluxo espontâneo de calor vai do mais quente para o mais frio.
+
+# ===================== C02 =====================
+
+@A-C02-01 N1
+stem: Bolinhas de naftalina, guardadas em armários, diminuem de tamanho com o tempo e acabam desaparecendo sem deixar líquido. A mudança de estado físico que ocorre é a
+o1: fusão.
+o2: condensação.
+o3: solidificação.
+o4: sublimação.
+key: D
+a: Fusão é a passagem de sólido a líquido, e a naftalina some sem formar líquido.
+b: Condensação é a passagem de gás a líquido.
+c: Solidificação é a passagem de líquido a sólido.
+d: Sublimação é a passagem direta de sólido a gás, como ocorre com a naftalina.
+
+@A-C02-02 N2
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Curva de aquecimento de uma substância pura: temperatura de -20 °C a 120 °C ao longo de 20 minutos, com patamares em 0 °C (de 2 a 6 min) e em 100 °C (de 10 a 18 min)"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">0</text><line x1="54.6" y1="14" x2="54.6" y2="162" stroke="#e3e5f0"/><text x="54.6" y="174" font-size="9" text-anchor="middle">2</text><line x1="75.2" y1="14" x2="75.2" y2="162" stroke="#e3e5f0"/><text x="75.2" y="174" font-size="9" text-anchor="middle">4</text><line x1="95.8" y1="14" x2="95.8" y2="162" stroke="#e3e5f0"/><text x="95.8" y="174" font-size="9" text-anchor="middle">6</text><line x1="116.4" y1="14" x2="116.4" y2="162" stroke="#e3e5f0"/><text x="116.4" y="174" font-size="9" text-anchor="middle">8</text><line x1="137.0" y1="14" x2="137.0" y2="162" stroke="#e3e5f0"/><text x="137.0" y="174" font-size="9" text-anchor="middle">10</text><line x1="157.6" y1="14" x2="157.6" y2="162" stroke="#e3e5f0"/><text x="157.6" y="174" font-size="9" text-anchor="middle">12</text><line x1="178.2" y1="14" x2="178.2" y2="162" stroke="#e3e5f0"/><text x="178.2" y="174" font-size="9" text-anchor="middle">14</text><line x1="198.8" y1="14" x2="198.8" y2="162" stroke="#e3e5f0"/><text x="198.8" y="174" font-size="9" text-anchor="middle">16</text><line x1="219.4" y1="14" x2="219.4" y2="162" stroke="#e3e5f0"/><text x="219.4" y="174" font-size="9" text-anchor="middle">18</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">20</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">-20</text><line x1="34" y1="140.9" x2="240" y2="140.9" stroke="#e3e5f0"/><text x="29" y="143.9" font-size="9" text-anchor="end">0</text><line x1="34" y1="119.7" x2="240" y2="119.7" stroke="#e3e5f0"/><text x="29" y="122.7" font-size="9" text-anchor="end">20</text><line x1="34" y1="98.6" x2="240" y2="98.6" stroke="#e3e5f0"/><text x="29" y="101.6" font-size="9" text-anchor="end">40</text><line x1="34" y1="77.4" x2="240" y2="77.4" stroke="#e3e5f0"/><text x="29" y="80.4" font-size="9" text-anchor="end">60</text><line x1="34" y1="56.3" x2="240" y2="56.3" stroke="#e3e5f0"/><text x="29" y="59.3" font-size="9" text-anchor="end">80</text><line x1="34" y1="35.1" x2="240" y2="35.1" stroke="#e3e5f0"/><text x="29" y="38.1" font-size="9" text-anchor="end">100</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">120</text><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#555"/><line x1="34" y1="140.9" x2="240" y2="140.9" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="34.0,162.0 54.6,140.9 95.8,140.9 137.0,35.1 219.4,35.1 240.0,14.0"/><circle cx="34.0" cy="162.0" r="3" fill="#4351c9"/><circle cx="54.6" cy="140.9" r="3" fill="#4351c9"/><circle cx="95.8" cy="140.9" r="3" fill="#4351c9"/><circle cx="137.0" cy="35.1" r="3" fill="#4351c9"/><circle cx="219.4" cy="35.1" r="3" fill="#4351c9"/><circle cx="240.0" cy="14.0" r="3" fill="#4351c9"/><text x="240" y="188" font-size="9" text-anchor="end">Tempo (min)</text><text x="2" y="9" font-size="9">Temperatura (°C)</text></svg><p class="src">Curva de aquecimento da água, sob pressão de 1 atm, aquecida por uma fonte de calor constante, a partir de gelo a −20 °C.</p>
+stem: O intervalo de tempo em que coexistem água sólida e água líquida é
+o1: de 0 a 2 minutos.
+o2: de 2 a 6 minutos.
+o3: de 6 a 10 minutos.
+o4: de 10 a 18 minutos.
+key: B
+a: Entre 0 e 2 minutos só há gelo, que esquenta de −20 °C a 0 °C.
+b: No patamar de 0 °C (de 2 a 6 min) o gelo está fundindo; há sólido e líquido ao mesmo tempo.
+c: De 6 a 10 minutos só há água líquida, que esquenta de 0 °C a 100 °C.
+d: De 10 a 18 minutos há água líquida e vapor (ebulição), e não sólido.
+
+@A-C02-03 N2
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Curva de aquecimento de uma substância pura: temperatura de -20 °C a 120 °C ao longo de 20 minutos, com patamares em 0 °C (de 2 a 6 min) e em 100 °C (de 10 a 18 min)"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">0</text><line x1="54.6" y1="14" x2="54.6" y2="162" stroke="#e3e5f0"/><text x="54.6" y="174" font-size="9" text-anchor="middle">2</text><line x1="75.2" y1="14" x2="75.2" y2="162" stroke="#e3e5f0"/><text x="75.2" y="174" font-size="9" text-anchor="middle">4</text><line x1="95.8" y1="14" x2="95.8" y2="162" stroke="#e3e5f0"/><text x="95.8" y="174" font-size="9" text-anchor="middle">6</text><line x1="116.4" y1="14" x2="116.4" y2="162" stroke="#e3e5f0"/><text x="116.4" y="174" font-size="9" text-anchor="middle">8</text><line x1="137.0" y1="14" x2="137.0" y2="162" stroke="#e3e5f0"/><text x="137.0" y="174" font-size="9" text-anchor="middle">10</text><line x1="157.6" y1="14" x2="157.6" y2="162" stroke="#e3e5f0"/><text x="157.6" y="174" font-size="9" text-anchor="middle">12</text><line x1="178.2" y1="14" x2="178.2" y2="162" stroke="#e3e5f0"/><text x="178.2" y="174" font-size="9" text-anchor="middle">14</text><line x1="198.8" y1="14" x2="198.8" y2="162" stroke="#e3e5f0"/><text x="198.8" y="174" font-size="9" text-anchor="middle">16</text><line x1="219.4" y1="14" x2="219.4" y2="162" stroke="#e3e5f0"/><text x="219.4" y="174" font-size="9" text-anchor="middle">18</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">20</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">-20</text><line x1="34" y1="140.9" x2="240" y2="140.9" stroke="#e3e5f0"/><text x="29" y="143.9" font-size="9" text-anchor="end">0</text><line x1="34" y1="119.7" x2="240" y2="119.7" stroke="#e3e5f0"/><text x="29" y="122.7" font-size="9" text-anchor="end">20</text><line x1="34" y1="98.6" x2="240" y2="98.6" stroke="#e3e5f0"/><text x="29" y="101.6" font-size="9" text-anchor="end">40</text><line x1="34" y1="77.4" x2="240" y2="77.4" stroke="#e3e5f0"/><text x="29" y="80.4" font-size="9" text-anchor="end">60</text><line x1="34" y1="56.3" x2="240" y2="56.3" stroke="#e3e5f0"/><text x="29" y="59.3" font-size="9" text-anchor="end">80</text><line x1="34" y1="35.1" x2="240" y2="35.1" stroke="#e3e5f0"/><text x="29" y="38.1" font-size="9" text-anchor="end">100</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">120</text><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#555"/><line x1="34" y1="140.9" x2="240" y2="140.9" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="34.0,162.0 54.6,140.9 95.8,140.9 137.0,35.1 219.4,35.1 240.0,14.0"/><circle cx="34.0" cy="162.0" r="3" fill="#4351c9"/><circle cx="54.6" cy="140.9" r="3" fill="#4351c9"/><circle cx="95.8" cy="140.9" r="3" fill="#4351c9"/><circle cx="137.0" cy="35.1" r="3" fill="#4351c9"/><circle cx="219.4" cy="35.1" r="3" fill="#4351c9"/><circle cx="240.0" cy="14.0" r="3" fill="#4351c9"/><text x="240" y="188" font-size="9" text-anchor="end">Tempo (min)</text><text x="2" y="9" font-size="9">Temperatura (°C)</text></svg><p class="src">Curva de aquecimento da água, sob pressão de 1 atm, aquecida por uma fonte de calor constante, a partir de gelo a −20 °C.</p>
+stem: Durante o intervalo de 10 a 18 minutos, a temperatura permanece constante em 100 °C, mesmo com o fornecimento contínuo de calor, porque
+o1: o calor recebido é usado na mudança de estado (vaporização), e não no aumento da temperatura.
+o2: a água deixou de receber calor da fonte.
+o3: a água líquida atingiu a temperatura máxima que um líquido pode ter.
+o4: o vapor formado impede a troca de calor com a fonte.
+key: A
+a: Durante a mudança de estado, a energia recebida rompe as ligações entre as moléculas (vaporização) e a temperatura não varia. Isso ocorre também na fusão (patamar de 0 °C).
+b: A fonte é constante e continua fornecendo calor durante todo o experimento.
+c: A temperatura de ebulição depende da pressão; 100 °C vale para 1 atm, e não é um limite para todos os líquidos.
+d: O vapor não bloqueia a troca de calor; o patamar é consequência da mudança de estado.
+
+@A-C02-04 N2
+sup: <table class="qt"><caption>Temperatura (°C) de duas amostras sólidas, A e B, aquecidas pela mesma fonte de calor</caption><tr><th>Tempo (min)</th><th>0</th><th>2</th><th>4</th><th>6</th><th>8</th><th>10</th></tr><tr><td>Amostra A</td><td>20</td><td>50</td><td>80</td><td>80</td><td>80</td><td>100</td></tr><tr><td>Amostra B</td><td>20</td><td>40</td><td>60</td><td>68</td><td>75</td><td>95</td></tr></table><p class="src">Nas duas amostras, a fusão ocorreu entre 4 e 8 minutos.</p>
+stem: Com base nos dados, é correto afirmar que
+o1: A é uma substância pura, pois sua temperatura permanece constante durante a fusão.
+o2: B é uma substância pura, pois sua temperatura aumenta continuamente.
+o3: A e B são misturas, pois nenhuma delas tem temperatura constante durante todo o experimento.
+o4: A é uma mistura, pois atinge a maior temperatura (100 °C) mais depressa.
+key: A
+a: Substâncias puras têm temperatura de fusão constante. A amostra A se mantém em 80 °C durante a fusão (de 4 a 8 min).
+b: Em uma substância pura, a temperatura não varia durante a fusão. A amostra B aumenta (60 → 75 °C), comportamento de mistura.
+c: A não é mistura: seu patamar em 80 °C caracteriza substância pura; apenas B tem temperatura variando durante a fusão.
+d: O fato de A chegar mais rápido a 100 °C não indica mistura; o critério é o patamar durante a mudança de estado.
+
+@A-C02-05 N2
+stem: Em um dia de sol, uma roupa molhada estendida no varal seca, mesmo estando a temperatura bem abaixo de 100 °C. O fenômeno responsável é a
+o1: ebulição, que só ocorre a 100 °C.
+o2: evaporação, que ocorre na superfície do líquido, em qualquer temperatura.
+o3: sublimação, que transforma a água líquida em gelo.
+o4: condensação, que transforma o vapor em líquido.
+key: B
+a: Na ebulição o líquido forma bolhas e ferve, o que não acontece com a roupa no varal.
+b: A evaporação é a passagem lenta de líquido a vapor pela superfície, e é favorecida por sol, calor e vento.
+c: Sublimação é a passagem direta de sólido a gás e não se aplica à água líquida.
+d: A condensação seria o oposto: formação de gotas a partir do vapor.
+
+@A-C02-06 N1
+sup: <p>No ciclo da água, a água dos oceanos e dos rios evapora, sobe pela atmosfera e, ao encontrar ar mais frio, forma as nuvens. Depois, precipita-se como chuva.</p>
+stem: A formação das nuvens, a partir do vapor de água, ocorre por
+o1: fusão.
+o2: sublimação.
+o3: vaporização.
+o4: condensação.
+key: D
+a: Fusão é a passagem de sólido a líquido.
+b: Sublimação é a passagem direta entre sólido e gás.
+c: Vaporização é a passagem de líquido a gás, que ocorre antes: o oceano evapora.
+d: O vapor, ao esfriar, condensa em pequenas gotas de água líquida, que formam as nuvens.
+
+@A-C02-07 N2
+sup: <p>Em uma panela de pressão, a tampa veda o recipiente, e o vapor formado fica retido, aumentando a pressão interna.</p>
+stem: Os alimentos cozinham mais rapidamente na panela de pressão porque
+o1: a pressão maior diminui o ponto de ebulição da água, e ela evapora mais rápido.
+o2: a pressão maior eleva o ponto de ebulição da água, e o cozimento ocorre a uma temperatura mais alta.
+o3: a tampa vedada impede qualquer troca de calor com o ambiente.
+o4: o vapor retido transforma a água em um gás mais quente que o fogo.
+key: B
+a: O ponto de ebulição aumenta, e não diminui, com o aumento da pressão.
+b: Com maior pressão, a água só ferve a uma temperatura superior a 100 °C. Em temperatura mais alta, o alimento cozinha mais depressa.
+c: A panela troca calor com o ambiente; o que muda é a pressão e a temperatura de ebulição.
+d: O vapor retido não fica mais quente que a chama; o efeito vem do aumento do ponto de ebulição.
+
+@A-C02-08 N2 cálculo
+stem: O calor latente de fusão do gelo é 80 cal/g. A quantidade de calor necessária para derreter 100 g de gelo que já está a 0 °C é
+o1: 80 cal.
+o2: 800 cal.
+o3: 8 000 cal.
+o4: 80 000 cal.
+key: C
+a: 80 cal derreteria apenas 1 g de gelo.
+b: 800 cal derreteria apenas 10 g de gelo.
+c: Q = m · L = 100 g · 80 cal/g = 8 000 cal. A temperatura permanece em 0 °C durante a fusão.
+d: 80 000 cal derreteria 1 000 g (1 kg) de gelo.
+
+@A-C02-09 N3 cálculo
+stem: Para transformar 50 g de gelo a 0 °C em 50 g de água líquida a 20 °C, são necessárias duas etapas: fundir o gelo (calor latente de fusão: 80 cal/g) e aquecer a água de 0 °C a 20 °C (calor específico: 1 cal/g·°C). A quantidade total de calor é de
+o1: 5 000 cal.
+o2: 1 000 cal.
+o3: 4 000 cal.
+o4: 9 000 cal.
+key: A
+a: Fusão: 50 · 80 = 4 000 cal. Aquecimento: 50 · 1 · 20 = 1 000 cal. Total: 5 000 cal.
+b: 1 000 cal é só o calor para aquecer a água (50 · 1 · 20); falta fundir o gelo.
+c: 4 000 cal é só o calor da fusão (50 · 80); falta aquecer a água.
+d: 9 000 cal resulta de somar 80 + 20 + ... com erro de multiplicação; não corresponde às etapas do problema.
+
+@A-C02-10 N3 julgar afirmativas
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Curva de resfriamento da água: a temperatura cai de 30 °C a 0 °C em 3 minutos, permanece em 0 °C de 3 a 9 minutos e depois cai a -10 °C aos 12 minutos"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">0</text><line x1="85.5" y1="14" x2="85.5" y2="162" stroke="#e3e5f0"/><text x="85.5" y="174" font-size="9" text-anchor="middle">3</text><line x1="137.0" y1="14" x2="137.0" y2="162" stroke="#e3e5f0"/><text x="137.0" y="174" font-size="9" text-anchor="middle">6</text><line x1="188.5" y1="14" x2="188.5" y2="162" stroke="#e3e5f0"/><text x="188.5" y="174" font-size="9" text-anchor="middle">9</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">12</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">-10</text><line x1="34" y1="125.0" x2="240" y2="125.0" stroke="#e3e5f0"/><text x="29" y="128.0" font-size="9" text-anchor="end">0</text><line x1="34" y1="88.0" x2="240" y2="88.0" stroke="#e3e5f0"/><text x="29" y="91.0" font-size="9" text-anchor="end">10</text><line x1="34" y1="51.0" x2="240" y2="51.0" stroke="#e3e5f0"/><text x="29" y="54.0" font-size="9" text-anchor="end">20</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">30</text><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#555"/><line x1="34" y1="125.0" x2="240" y2="125.0" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="34.0,14.0 85.5,125.0 188.5,125.0 240.0,162.0"/><circle cx="34.0" cy="14.0" r="3" fill="#4351c9"/><circle cx="85.5" cy="125.0" r="3" fill="#4351c9"/><circle cx="188.5" cy="125.0" r="3" fill="#4351c9"/><circle cx="240.0" cy="162.0" r="3" fill="#4351c9"/><text x="240" y="188" font-size="9" text-anchor="end">Tempo (min)</text><text x="2" y="9" font-size="9">Temperatura (°C)</text></svg><p class="src">Água líquida colocada em um congelador a −10 °C.</p>
+stem: Com base no gráfico, analise as afirmativas.
+I. Entre 3 e 9 minutos ocorre a solidificação da água.
+II. A temperatura de solidificação da água, nessas condições, é 0 °C.
+III. A partir de 9 minutos já não há água líquida no recipiente.
+IV. Aos 3 minutos, metade da água já estava solidificada.
+Estão corretas apenas
+o1: I e II.
+o2: II e IV.
+o3: I, II e III.
+o4: I, II, III e IV.
+key: C
+a: I e II estão certas, mas a III também: ao fim do patamar toda a água já solidificou.
+b: A IV é falsa: aos 3 minutos a água acaba de chegar a 0 °C; a solidificação só começa a partir daí.
+c: I (patamar de 3 a 9 min), II (0 °C) e III (depois do patamar, só gelo, que esfria até −10 °C) estão corretas. A IV é falsa.
+d: A IV é falsa, pois aos 3 minutos ainda toda a água está líquida (a 0 °C).
+
+# ===================== C09 =====================
+
+@A-C09-01 N1
+stem: As estações do ano ocorrem principalmente porque
+o1: a distância entre a Terra e o Sol varia muito ao longo do ano.
+o2: o eixo de rotação da Terra é inclinado em relação ao plano de sua órbita.
+o3: a Lua muda de fase a cada mês.
+o4: a Terra gira em torno do seu eixo uma vez por dia.
+key: B
+a: A órbita da Terra é quase circular; a variação de distância é pequena e não explica as estações (em julho, a Terra está mais longe do Sol, e é verão no hemisfério norte).
+b: Com o eixo inclinado (cerca de 23,5°), cada hemisfério recebe mais ou menos luz direta ao longo do ano, e a inclinação dos raios solares varia.
+c: As fases da Lua não influenciam as estações.
+d: A rotação explica o dia e a noite, e não as estações do ano.
+
+@A-C09-02 N1
+stem: Na fase de lua cheia, a ordem dos astros, em linha aproximadamente reta, é
+o1: Sol, Lua e Terra.
+o2: Terra, Sol e Lua.
+o3: Sol, Terra e Lua.
+o4: Lua, Sol e Terra.
+key: C
+a: Na ordem Sol–Lua–Terra, o lado da Lua voltado para a Terra fica sem luz: é a lua nova.
+b: Com o Sol entre a Terra e a Lua, a Lua ficaria do lado oposto ao Sol, mas essa ordem não é a que ocorre em um mês lunar.
+c: Na lua cheia, a Terra fica entre o Sol e a Lua; a face da Lua voltada para a Terra está totalmente iluminada.
+d: Essa ordem coloca a Lua e a Terra do mesmo lado do Sol e não representa a lua cheia.
+
+@A-C09-03 N2
+sup: <p>Os moradores de uma cidade litorânea notam que, duas vezes por mês, as marés ficam mais altas do que o normal: nos dias de lua cheia e de lua nova.</p>
+stem: A explicação para esse fenômeno é que, nessas fases,
+o1: a Lua está mais perto da Terra e, sozinha, produz marés mais altas.
+o2: o Sol, a Terra e a Lua estão alinhados, e as atrações gravitacionais do Sol e da Lua se somam.
+o3: a Terra está mais perto do Sol e a água evapora mais.
+o4: a Lua reflete mais luz solar e aquece o oceano.
+key: B
+a: A distância da Lua à Terra varia ao longo do mês, mas isso não depende da fase; o principal é o alinhamento com o Sol.
+b: Com Sol, Terra e Lua alinhados (lua cheia ou nova), os efeitos gravitacionais se reforçam e produzem as marés de maior amplitude (sizígia).
+c: A evaporação não explica o aumento da altura das marés.
+d: A luz refletida da Lua não aquece os oceanos de modo relevante; as marés são efeito da gravidade.
+
+@A-C09-04 N2
+stem: Um eclipse solar ocorre quando
+o1: a Terra fica entre o Sol e a Lua e projeta sua sombra sobre a Lua.
+o2: o Sol fica entre a Terra e a Lua e deixa a Lua sem iluminação.
+o3: a Lua passa a girar em torno do Sol.
+o4: a Lua fica entre o Sol e a Terra e projeta sua sombra sobre uma região da Terra.
+key: D
+a: Essa é a descrição do eclipse lunar (a sombra da Terra cobre a Lua).
+b: O Sol não fica entre a Terra e a Lua nos eclipses.
+c: A Lua gira em torno da Terra, e não do Sol.
+d: No eclipse solar, a Lua (em fase de lua nova) passa entre o Sol e a Terra, e sua sombra cobre uma região do planeta.
+
+@A-C09-05 N2
+sup: <p>Em 1610, usando um telescópio, Galileu Galilei observou quatro luas que giravam em torno de Júpiter.</p>
+stem: Essa observação contribuiu para enfraquecer o modelo geocêntrico porque mostrou que
+o1: nem todos os corpos celestes giram em torno da Terra.
+o2: todos os astros giram em torno da Terra.
+o3: Júpiter é o centro do universo.
+o4: a Terra não gira em torno do seu eixo.
+key: A
+a: Se há corpos que giram em torno de Júpiter, o centro de todos os movimentos não pode ser só a Terra, o que apoia o modelo de Copérnico.
+b: O modelo geocêntrico dizia isso, e a observação o contradiz.
+c: Nenhuma observação indicou Júpiter como centro do universo.
+d: A rotação da Terra não é tema dessa observação.
+
+@A-C09-06 N3 cálculo
+sup: <p>Na Terra, a aceleração da gravidade é de cerca de 10 m/s². Na Lua, é de cerca de 1,6 m/s². Um astronauta tem massa de 60 kg.</p>
+stem: Na superfície da Lua, a massa e o peso desse astronauta são, respectivamente,
+o1: 10 kg e 96 N.
+o2: 60 kg e 600 N.
+o3: 60 kg e 96 N.
+o4: 96 kg e 600 N.
+key: C
+a: A massa não diminui na Lua: continua 60 kg.
+b: 600 N é o peso do astronauta na Terra (60 · 10); na Lua, o peso é menor.
+c: A massa (quantidade de matéria) é a mesma: 60 kg. Peso = massa · gravidade = 60 · 1,6 = 96 N.
+d: A massa não aumenta nem muda na Lua, e 600 N é o peso na Terra.
+
+@A-C09-07 N2
+sup: <p>Observações astronômicas mostram que as galáxias estão se afastando umas das outras, e quanto mais distante a galáxia, maior a velocidade de afastamento.</p>
+stem: Essa observação é uma das principais evidências para a teoria do Big Bang porque indica que
+o1: o universo está em expansão e, no passado, a matéria estava concentrada em uma região muito pequena e densa.
+o2: o universo sempre teve o mesmo tamanho e a mesma temperatura, desde a sua origem.
+o3: as galáxias se afastam porque a Terra está no centro do universo e as repele.
+o4: o Sol vai se apagar em poucos anos e, por isso, as galáxias se afastam.
+key: A
+a: Se as galáxias se afastam, voltando no tempo elas estariam mais próximas, o que sugere uma origem a partir de um estado muito denso e quente.
+b: Um universo estático não explica o afastamento observado.
+c: O afastamento é observado de qualquer ponto do universo; a Terra não é o centro.
+d: O destino do Sol não tem relação com a expansão do universo.
+
+@A-C09-08 N3 cálculo
+sup: <p>A luz do Sol leva cerca de 8 minutos para chegar à Terra e cerca de 43 minutos para chegar a Júpiter. A velocidade da luz é a mesma nos dois trajetos.</p>
+stem: Com base nesses dados, Júpiter está do Sol, aproximadamente,
+o1: 2 vezes mais distante que a Terra.
+o2: 3 vezes mais distante que a Terra.
+o3: 5 vezes mais distante que a Terra.
+o4: 10 vezes mais distante que a Terra.
+key: C
+a: 2 vezes resultaria em cerca de 16 minutos de viagem da luz.
+b: 3 vezes resultaria em cerca de 24 minutos.
+c: Com velocidade constante, a distância é proporcional ao tempo: 43 ÷ 8 ≈ 5,4. Júpiter está cerca de 5 vezes mais longe do Sol que a Terra.
+d: 10 vezes resultaria em cerca de 80 minutos.

@@ -1,0 +1,219 @@
+@R-2024-22
+key: A
+a: Em 3h30min (3,5 h) a 80 km/h o carro percorre 3,5 × 80 = 280 km. Com 14 km por litro: 280 ÷ 14 = 20 litros.
+b: 25 L permitiria 350 km, mais do que o percurso feito.
+c: 30 L permitiria 420 km; o percurso foi de 280 km.
+d: 35 L permitiria 490 km, quase o dobro do necessário.
+
+@R-2024-29
+key: C
+a: Se houvesse só tijolos C no limite, caberiam 3 000; mas já há A e B ocupando parte da capacidade, e 1 500 deixaria carga sobrando.
+b: 1 750 tijolos C ocupariam 1 750/3 000 ≈ 58% da capacidade, não os 75% que restam.
+c: Seja W a capacidade. 200 tijolos A ocupam 200/1 000 = 20% de W. 100 tijolos B ocupam 100/2 000 = 5% de W. Sobram 75% de W, que correspondem a 0,75 × 3 000 = 2 250 tijolos C.
+d: 2 500 tijolos C ocupariam 2 500/3 000 ≈ 83% de W, excedendo o que resta (75%).
+
+@R-2017-18
+key: B
+a: 12h36min: as horas passadas (12h36) não excedem em 3h16 as que faltam (11h24); excedem em apenas 1h12.
+b: Seja h o tempo decorrido (em horas). Faltam 24 − h. Então h − (24 − h) = 3h16min, ou seja, 2h = 27h16min e h = 13h38min.
+c: 14h38min: o excesso seria de 5h16min (14h38 − 9h22).
+d: 15h16min: o excesso seria de 6h32min.
+
+@R-2018-21
+key: C
+a: A idade encontrada é 7, que não é divisível por 5 (7 ÷ 5 não é exato).
+b: A idade encontrada é 7, que não é divisível por 3 (7 ÷ 3 não é exato).
+c: Seja x a minha idade. O primogênito tem x + 14. O quarto filho tem (x + 14)/3 + 7. Soma = 42: x + (x + 14) + (x + 14)/3 + 7 = 42. Multiplicando por 3: 3x + 3x + 42 + x + 14 + 21 = 126, logo 7x = 49 e x = 7. Conferindo: 7 + 21 + 14 = 42. O número 7 é primo.
+d: A idade encontrada é 7, que é ímpar; ser par exigiria múltiplo de 2.
+
+@R-2019-21
+o4: 4.
+key: C
+a: Se Bárbara recebeu 8, Augusto recebeu 4; com 3 a mais ele teria 7, que não é o dobro de 8.
+b: Se Bárbara recebeu 7, Augusto recebeu 5; com 3 a mais ele teria 8, que não é o dobro de 7.
+c: Sejam A e B os livros de cada um: A + B = 12 e A + 3 = 2B. Substituindo A = 12 − B: 15 − B = 2B, logo B = 5 (e A = 7; conferindo: 7 + 3 = 10 = 2 × 5).
+d: Se Bárbara recebeu 4, Augusto recebeu 8; com 3 a mais ele teria 11, que não é o dobro de 4.
+
+@R-2023-30
+o4: 39.
+key: C
+a: Se 5 alunos usaram celular no total, o número de usuários de computador seria 54, mas a turma A tem apenas 31 alunos; 5 é só o número de usuários de celular na turma A.
+b: 15 é o número de usuários de celular da turma B (3 × 5), não o total.
+c: Seja a o número de alunos que usaram celular na turma A; na turma B foram 3a. Computador: na turma A são 31 − a; na B são 28 − 3a. Como 31 − a = 2(28 − 3a), temos 5a = 25 e a = 5. Celular no total: 5 + 15 = 20.
+d: 39 é o número total de usuários de computador (59 − 20); a pergunta é sobre o celular.
+
+@R-2025-24
+key: C
+a: Quem olha só o salário fixo de Lavínia (R$ 3.200) soma 3 + 2 + 0 + 0 = 5 e esquece a comissão. O salário K, com a comissão, é 6 400.
+b: 7 é a soma dos algarismos de 1 600 (1 + 6 + 0 + 0), valor que aparece no meio da conta (0,01V = 1 600). Quem para aí esquece de calcular o salário K = 6 400, cuja soma é 10.
+c: Se V é o valor das vendas de cada uma: 3 200 + 0,02V = 4 800 + 0,01V, então 0,01V = 1 600 e V = 160 000. O salário é K = 3 200 + 0,02 × 160 000 = 6 400. Soma dos algarismos: 6 + 4 + 0 + 0 = 10.
+d: Só K = 6 400 faz as duas remunerações serem iguais com as mesmas vendas; a soma dos seus algarismos é 10, e não 12.
+
+@R-2018-28
+stem: Se a e b são constantes reais tais que (2x − 1) ÷ (x² − 2x) = a/x + b/(x − 2), com x ≠ 0 e x ≠ 2; então, b − a é igual a
+key: A
+a: x² − 2x = x(x − 2). Somando as frações do lado direito: [a(x − 2) + b·x] ÷ [x(x − 2)]. Igualando os numeradores: 2x − 1 = (a + b)x − 2a. Logo a + b = 2 e −2a = −1, então a = 1/2 e b = 3/2. Assim b − a = 1.
+b: b − a = 2 não é consistente com a + b = 2 e −2a = −1.
+c: Trocar a e b nos coeficientes leva a b − a = −1 ou a valores incorretos; o resultado correto é 1.
+d: 4 não resulta de nenhuma combinação correta dos coeficientes.
+
+@R-2019-16
+stem: Considere a expressão M = (x⁵y + 2x⁴y² + x³y³) ÷ (x³ + x³y + x²y).
+
+Se x + y = −3 e xy = 4, então o valor numérico de M é
+o1: −36.
+o2: −3.
+o3: 24.
+o4: 36.
+key: D
+a: O sinal negativo é indevido: o numerador é x³y(x + y)², um produto que contém o quadrado (x + y)² = 9, e o resultado final é positivo.
+b: −3 seria o valor de x + y; não é o valor de M.
+c: 24 não resulta do cálculo; M é um número obtido por simplificação algébrica.
+d: Numerador: x³y(x² + 2xy + y²) = x³y(x + y)² = x²·(xy)·9 = 36x². Denominador: x³ + x²·(xy) + x·(xy) = x³ + 4x² + 4x = x(x² + 4x + 4). Como x é raiz de t² − (x + y)t + xy = t² + 3t + 4, vale x² + 3x + 4 = 0, logo x² + 4x + 4 = x. O denominador é x·x = x², e M = 36x² ÷ x² = 36.
+
+@R-2020-22
+stem: Se x + y = 4, então P = x³ + x²y + x² − y² é equivalente à expressão algébrica
+o1: 3x − 16
+o2: x³ + 8x
+o3: 3x² + 2x − 1
+o4: 4x² + 8x − 16
+key: D
+a: 3x − 16 tem grau 1, mas P tem termos de grau 2; a simplificação correta mantém x².
+b: x³ + 8x manteria o termo x³, que desaparece com x²(x + y) = 4x².
+c: 3x² + 2x − 1 não resulta das substituições corretas.
+d: x³ + x²y = x²(x + y) = 4x². E x² − y² = (x + y)(x − y) = 4(x − y) = 4x − 4(4 − x) = 8x − 16. Logo P = 4x² + 8x − 16.
+
+@R-2023-21
+stem: Considere a expressão M = (x³ + 3x² − (x − 2)(x + 2) − 4) ÷ (x³ + 4x² + 4x); sendo x ≠ 0 e x ≠ −2. Nessas condições, M é equivalente a
+o1: x
+o2: x/(x + 2)
+o3: 2/x
+o4: 2/(x + 2)
+key: B
+a: Isso ocorreria se numerador e denominador fossem iguais; o denominador x(x + 2)² tem um fator a mais.
+b: Numerador: x³ + 3x² − (x² − 4) − 4 = x³ + 2x² = x²(x + 2). Denominador: x³ + 4x² + 4x = x(x + 2)². Então M = x²(x + 2) ÷ [x(x + 2)²] = x/(x + 2).
+c: 2/x viria de simplificar incorretamente os termos independentes.
+d: 2/(x + 2) viria de ignorar os termos de x² e x³ do numerador.
+
+@R-2024-17
+stem: Lucas recebe uma mesada cujo valor não é fixo. Para descobrir quanto irá receber em cada mês, ele precisa resolver desafios matemáticos propostos por seu pai. No último mês, o valor que recebeu, em real, foi igual ao resultado da seguinte expressão:
+
+[3 × 10² × ((3 + √5)² − (3 − √5)²)] ÷ (2³ × 3√5)
+
+A mesada recebida por Lucas, em real, no último mês foi de
+key: D
+a: 75 é a metade do valor; vem de errar o produto notável (diferença de quadrados).
+b: 100 não resulta do cálculo correto.
+c: 125 não resulta do cálculo correto.
+d: (3 + √5)² − (3 − √5)² = 4·3·√5 = 12√5 (diferença de quadrados: (a + b)² − (a − b)² = 4ab). Então a expressão vale 300 · 12√5 ÷ (8 · 3√5) = 3600 ÷ 24 = 150.
+
+@R-2024-18
+stem: Considere a expressão a seguir:
+
+m = (2¹⁶ − 2¹⁴)² ÷ (2²⁹ + 2²⁶)
+
+Simplificando essa expressão, é correto afirmar que o valor de m é igual a
+o1: 4
+o2: 2
+o3: 1/2
+o4: 1/4
+key: A
+a: Numerador: 2¹⁶ − 2¹⁴ = 2¹⁴(4 − 1) = 3·2¹⁴, e elevado ao quadrado dá 9·2²⁸. Denominador: 2²⁶(2³ + 1) = 9·2²⁶. Então m = 2²⁸ ÷ 2²⁶ = 2² = 4.
+b: m = 2 resultaria de um expoente a menos (2¹); a divisão de potências dá 2²⁸⁻²⁶ = 2².
+c: 1/2 resultaria de inverter a divisão ou errar o sinal do expoente.
+d: 1/4 é o inverso do resultado correto.
+
+@R-2026-16
+stem: A Unidade Astronômica (UA) é uma unidade de medida utilizada para indicar distâncias entre corpos no sistema solar.
+
+Considere que
+I) 1 UA = 1,5 × 10¹¹ m;
+II) a distância entre a Terra e a Lua era de 300.000.000 metros num certo instante.
+
+Nesse instante, a distância entre a Terra e a Lua, em UA, era igual a
+o1: 0,4 × 10³
+o2: 0,4 × 10⁻³
+o3: 2,0 × 10³
+o4: 2,0 × 10⁻³
+key: D
+a: 0,4 × 10³ = 400 UA, valor enorme: a Lua está muito mais perto da Terra que o Sol.
+b: 0,4 × 10⁻³ UA seria 5 vezes menor que o correto (inverteu a razão e errou na potência).
+c: 2,0 × 10³ UA é a razão invertida: 1,5 × 10¹¹ ÷ 3 × 10⁸ ≈ 500; e mesmo assim não coincide.
+d: 300.000.000 m = 3 × 10⁸ m. Dividindo por 1,5 × 10¹¹: (3 ÷ 1,5) × 10⁸⁻¹¹ = 2,0 × 10⁻³ UA.
+
+@R-2026-17
+stem: Na expressão algébrica
+
+M = (a⁶ − 2a³b³ + b⁶) ÷ (a⁶ − b⁶)
+
+o valor numérico de M quando a = 2 e b = 3 é
+o1: −15/29
+o2: −13/47
+o3: −19/35
+o4: −11/69
+key: C
+a: −15/29 não resulta da simplificação correta e da substituição.
+b: −13/47 não resulta da simplificação correta e da substituição.
+c: O numerador é um quadrado perfeito: a⁶ − 2a³b³ + b⁶ = (a³ − b³)². O denominador é diferença de quadrados: a⁶ − b⁶ = (a³ − b³)(a³ + b³). Simplificando: M = (a³ − b³) ÷ (a³ + b³). Com a = 2 e b = 3: (8 − 27) ÷ (8 + 27) = −19/35.
+d: −11/69 é fruto de calcular o numerador e o denominador sem simplificar com erro de potência.
+
+@R-2016-26
+key: D
+a: Os elementos de X são naturais, então n ∈ A não implica −n ∈ A (−n não é natural).
+b: A = {3, 6, 12, 21, 42, 84}: possui 6 elementos, não 4.
+c: Zero não é divisor de 84, portanto não pertence a Y e nem a A.
+d: Os divisores positivos de 84 (84 = 2²·3·7) são 1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84; os múltiplos de 3 entre eles são 3, 6, 12, 21, 42, 84. O maior é 84 = 7 × 12, divisível por 7.
+
+@R-2022-25
+key: D
+a: G − (M ∪ P) são os que gostam de Geografia e de nenhuma das outras duas.
+b: G − (M ∩ P) são os que gostam de Geografia, mas não de ambas as outras.
+c: (M ∩ P) − G exigiria gostar de Matemática E de Português; o enunciado diz Matemática OU Português.
+d: "Gostam de Matemática ou de Português" é M ∪ P; "mas não gostam de Geografia" retira G: (M ∪ P) − G.
+
+@R-2024-26
+key: D
+a: Exatamente 59 só ocorreria se nenhuma pessoa tivesse os dois antígenos (A e B ao mesmo tempo), o que não é dito.
+b: Exatamente 78 só ocorreria se todos os 19 do tipo B também fossem A (19 pessoas AB).
+c: O mínimo de 41 e o máximo de 59 vêm de somar 22 + 19 = 41 e subtrair de 100, ignorando que pode haver interseção.
+d: Tipo O = 100 − |A ∪ B| = 100 − (22 + 19 − |A ∩ B|) = 59 + |A ∩ B|. A interseção vai de 0 a 19 (o menor grupo), então O varia de 59 a 78.
+
+@R-2026-22
+key: D
+a: 15 seria o resultado se só uma união de 11 estados fosse desconsiderada; erra a conta da interseção.
+b: 14 é o tamanho da união dos estados já visitados, não o número de estados disponíveis.
+c: 13 resulta de subtrair 11 + 11 − 8 − 1, erro de contagem.
+d: Estados visitados por pelo menos um deles: 11 + 11 − 8 = 14. Restam 26 − 14 = 12 estados nunca visitados por nenhum dos dois.
+
+@R-2017-21
+stem: Um Quadrado Perfeito é um número inteiro que pode ser escrito como quadrado de outro número inteiro. Para que o número M = (45864 ÷ 360) · y seja um quadrado perfeito, o menor valor de y, y ∈ ℕ*, é
+key: C
+a: 13: M = 7²·13·13/5 não é inteiro; falta o fator 5 para cancelar o denominador.
+b: 36 é um quadrado, mas não cancela o 5 do denominador nem completa o 13.
+c: 45864 = 2³·3²·7²·13 e 360 = 2³·3²·5, então 45864/360 = 7²·13/5. Para M ser inteiro e quadrado perfeito, y deve ter o fator 5 (para cancelar) e o fator 13 (para o expoente de 13 ficar par): y = 5 · 13 = 65. Então M = 7²·13² = 91².
+d: 127 é primo e não completa o quadrado.
+
+@R-2018-26
+key: B
+a: Segunda seria obtida com resto 1 na divisão por 7.
+b: Os dias da semana se repetem de 7 em 7. 1 870 626 ÷ 7 = 267 232 com resto 2 (7 × 267 232 = 1 870 624). Dois dias depois de domingo é terça-feira.
+c: Quarta seria obtida com resto 3.
+d: Quinta seria obtida com resto 4.
+
+@R-2020-17
+sup: <table class="qt"><tr><th>Obras de Eça de Queirós adaptadas</th><th>Ano</th></tr><tr><td>O Mistério da Estrada de Sintra</td><td>1870</td></tr><tr><td>O Crime do Padre Amaro</td><td>1875</td></tr><tr><td>A Tragédia da Rua das Flores</td><td>1877</td></tr><tr><td>O Primo Basílio</td><td>1878</td></tr><tr><td>O Mandarim</td><td>1880</td></tr></table>
+stem: A tabela apresenta algumas obras do escritor Eça de Queirós que foram adaptadas para o cinema ou televisão. Os cinco números mencionados correspondem aos anos em que essas obras foram escritas. Sobre esses números, afirma-se que:
+
+I- Apenas dois são múltiplos de 3.
+II- Apenas três são múltiplos de 4.
+III- Apenas dois são primos.
+IV- O máximo divisor comum entre 1870 e 1880 é múltiplo de 10.
+V- Os múltiplos de 1875 possuem o número 5 como um de seus fatores primos.
+
+Estão corretas apenas as afirmativas
+o4: III, IV e V.
+key: B
+a: A afirmativa II é falsa: só 1880 é múltiplo de 4 (1870, 1875, 1877 e 1878 não são).
+b: I é verdadeira (1875 e 1878, soma dos algarismos 21 e 24). IV é verdadeira (MDC(1870; 1880) = 10). V é verdadeira (1875 = 3·5⁴, e todo múltiplo seu tem o fator 5).
+c: II é falsa e III é falsa: apenas 1877 é primo.
+d: III é falsa: 1870, 1875, 1878 e 1880 não são primos; só 1877 é primo.

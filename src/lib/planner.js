@@ -1,54 +1,61 @@
-// Lógica de recomendação: "o que estudar hoje" e geração automática de um
-// plano diário/semanal, para que a Rayane nunca fique sem saber por onde
-// começar — se ela (ou o admin) não montou o cronograma manualmente, o
-// sistema gera um automaticamente com base no peso de cada matéria na prova
-// e no que ainda não foi dominado.
+// Lógica de recomendação: "o que estudar hoje" e geração automática de plano.
+//
+// Estratégia (meta: 35+ acertos em 50 em ~2 meses): o que mais rende é atacar
+// primeiro os tópicos que MAIS CAEM na prova (núcleo = ~80–88% das questões
+// das provas 2016–2026) e em que ela mais perde pontos. Por isso a sugestão
+// usa "questões esperadas por prova × (1 − aproveitamento atual)".
 
 const { dbGet, dbAll, dbRun } = require('../db');
-const { getSubjectProgress } = require('./mastery');
+const { statsFromAttempts, getAllThemeStats } = require('./mastery');
 
-// Rotação de 7 posições usada para distribuir os dias da semana entre as
-// matérias, respeitando aproximadamente o peso de cada uma na prova
-// (Português 30%, Matemática 30%, Ciências 16%, Geografia 12%, História 12%).
 const WEEK_SUBJECT_ROTATION = ['portugues', 'matematica', 'ciencias', 'portugues', 'matematica', 'geografia', 'historia'];
 
-async function suggestNextTheme(user) {
-  const subjects = await dbAll('SELECT * FROM subjects ORDER BY order_index ASC');
+const PASS_TARGET = 35; // meta de acertos em 50 questões
+const FAIL_BELOW = 10; // menos que isso, eliminada
 
-  let best = null;
-  for (const subject of subjects) {
-    const progress = await getSubjectProgress(user, subject.id);
-    const masteryRatio = progress.totalThemes === 0 ? 0 : progress.mastered / progress.totalThemes;
-    const deficit = subject.weight_percent * (1 - masteryRatio);
-
-    const candidateTheme = pickThemeFromProgress(progress);
-    if (!candidateTheme) continue; // matéria inteira dominada
-
-    if (!best || deficit > best.deficit) {
-      best = { subject, theme: candidateTheme.theme, stats: candidateTheme.stats, deficit, progress };
-    }
-  }
-  return best;
-}
-
-// Dentro de um progresso de matéria já calculado, escolhe o melhor tema para
-// estudar agora: primeiro tema de alta prioridade ainda não dominado; se
-// todos os de alta prioridade já estiverem dominados, aceita um de baixa
-// prioridade.
-function pickThemeFromProgress(progress) {
-  const highPriorityPending = progress.themes.find(
-    (t) => t.theme.low_priority === 0 && t.stats.level.key !== 'dominado'
+async function loadCandidates(user, byTheme, subjectId) {
+  const themes = await dbAll(
+    `SELECT t.*, s.slug AS subject_slug, s.name AS subject_name,
+            (SELECT COUNT(*) FROM questions q WHERE q.theme_id = t.id AND q.active = 1) AS qcount
+     FROM themes t JOIN subjects s ON s.id = t.subject_id
+     WHERE t.active = 1 ${subjectId ? 'AND t.subject_id = ?' : ''}
+     ORDER BY t.priority_rank ASC`,
+    subjectId ? [subjectId] : []
   );
-  const anyPending = progress.themes.find((t) => t.stats.level.key !== 'dominado');
-  return highPriorityPending || anyPending || null;
+  return themes
+    .filter((t) => t.qcount > 0)
+    .map((t) => {
+      const stats = statsFromAttempts(byTheme.get(t.id));
+      const acc = stats.accuracy == null ? 0 : stats.accuracy;
+      const loss = (t.expected_per_exam || 0.3) * (stats.level.key === 'dominado' ? 0.15 : 1 - acc);
+      return { theme: t, stats, loss };
+    });
 }
 
-async function suggestThemeForSubject(user, subjectId) {
-  const progress = await getSubjectProgress(user, subjectId);
-  const candidate = pickThemeFromProgress(progress);
-  // Se a matéria inteira já está dominada, sugere o tema de maior prioridade
-  // mesmo assim, como revisão de manutenção.
-  return candidate || (progress.themes[0] || null);
+function pickBest(cands) {
+  const pending = cands.filter((c) => c.stats.level.key !== 'dominado');
+  const core = pending.filter((c) => c.theme.tier === 'core');
+  const pool = core.length ? core : pending;
+  if (!pool.length) return null;
+  return pool.slice().sort((a, b) => b.loss - a.loss || a.theme.priority_rank - b.theme.priority_rank)[0];
+}
+
+async function suggestNextTheme(user, byThemePre) {
+  const byTheme = byThemePre || (await getAllThemeStats(user));
+  const cands = await loadCandidates(user, byTheme, null);
+  const best = pickBest(cands);
+  if (!best) return null;
+  const subject = await dbGet('SELECT * FROM subjects WHERE id = ?', [best.theme.subject_id]);
+  return { subject, theme: best.theme, stats: best.stats, loss: best.loss };
+}
+
+async function suggestThemeForSubject(user, subjectId, byThemePre) {
+  const byTheme = byThemePre || (await getAllThemeStats(user));
+  const cands = await loadCandidates(user, byTheme, subjectId);
+  const best = pickBest(cands);
+  if (best) return { theme: best.theme, stats: best.stats };
+  // matéria toda dominada: revisão de manutenção do tópico mais cobrado
+  return cands[0] ? { theme: cands[0].theme, stats: cands[0].stats } : null;
 }
 
 async function examCountdown() {
@@ -61,6 +68,31 @@ async function examCountdown() {
   return { examDate: row.value, daysLeft: diffDays };
 }
 
+// Fases do plano de ~8 semanas, definidas pelos dias que faltam para a prova.
+function studyPhase(daysLeft) {
+  if (daysLeft == null) return PHASES[0];
+  if (daysLeft > 35) return PHASES[0];
+  if (daysLeft > 14) return PHASES[1];
+  return PHASES[2];
+}
+const PHASES = [
+  {
+    key: 1,
+    label: 'Fase 1 — Construir a base (núcleo da prova)',
+    desc: 'Estude a teoria curta e faça questões dos tópicos que mais caem, começando pelo nível 1 e 2. Meta da fase: todos os tópicos do núcleo em "Quase lá".',
+  },
+  {
+    key: 2,
+    label: 'Fase 2 — Treino em volume',
+    desc: 'Questões reais e autorais de todos os tópicos, "O Alienista" e o complemento. Revisão espaçada dos erros. 1 simulado por semana.',
+  },
+  {
+    key: 3,
+    label: 'Fase 3 — Reta final',
+    desc: 'Simulados completos com cronômetro, revisão do caderno de erros e dos tópicos fracos. Descanso na véspera.',
+  },
+];
+
 function dateStrAddDays(days) {
   const d = new Date();
   d.setDate(d.getDate() + days);
@@ -71,11 +103,7 @@ function epochDayFor(dateStr) {
   return Math.floor(new Date(dateStr + 'T00:00:00Z').getTime() / 86400000);
 }
 
-// Garante que exista pelo menos um bloco de estudo cadastrado para uma data
-// específica. Só cria um bloco automático se aquele dia estiver
-// completamente vazio — nunca sobrescreve ou duplica o que já foi
-// planejado manualmente pela Rayane ou pelo admin.
-async function ensureDayHasBlock(user, dateStr) {
+async function ensureDayHasBlock(user, dateStr, byTheme) {
   const existing = await dbGet('SELECT COUNT(*) AS c FROM schedule_blocks WHERE user = ? AND date = ?', [user, dateStr]);
   if (existing.c > 0) return false;
 
@@ -83,7 +111,7 @@ async function ensureDayHasBlock(user, dateStr) {
   const subject = await dbGet('SELECT * FROM subjects WHERE slug = ?', [slug]);
   if (!subject) return false;
 
-  const candidate = await suggestThemeForSubject(user, subject.id);
+  const candidate = await suggestThemeForSubject(user, subject.id, byTheme);
   const plannedMinutes = subject.weight_percent >= 30 ? 40 : 30;
 
   await dbRun(
@@ -91,17 +119,25 @@ async function ensureDayHasBlock(user, dateStr) {
      VALUES (?, ?, ?, ?, ?, 'pending', 1)`,
     [user, dateStr, subject.id, candidate ? candidate.theme.id : null, plannedMinutes]
   );
-
   return true;
 }
 
-// Garante plano para hoje e para os próximos `days` dias (padrão: uma
-// semana). Chamado sempre que a Rayane ou o admin abrem as páginas de "Hoje"
-// ou "Cronograma", para que nunca haja um dia sem sugestão de estudo.
 async function ensurePlan(user, days = 7) {
+  const byTheme = await getAllThemeStats(user);
   for (let i = 0; i < days; i++) {
-    await ensureDayHasBlock(user, dateStrAddDays(i));
+    await ensureDayHasBlock(user, dateStrAddDays(i), byTheme);
   }
 }
 
-module.exports = { suggestNextTheme, suggestThemeForSubject, examCountdown, ensurePlan, ensureDayHasBlock, WEEK_SUBJECT_ROTATION };
+module.exports = {
+  suggestNextTheme,
+  suggestThemeForSubject,
+  examCountdown,
+  studyPhase,
+  PHASES,
+  PASS_TARGET,
+  FAIL_BELOW,
+  ensurePlan,
+  ensureDayHasBlock,
+  WEEK_SUBJECT_ROTATION,
+};

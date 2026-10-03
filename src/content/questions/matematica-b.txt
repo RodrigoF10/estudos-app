@@ -1,0 +1,474 @@
+# Matemática — M09 (estatística), M04 (álgebra), M02 (proporção), M01 (porcentagem), M03 (equações e sistemas)
+
+# ===================== M09 =====================
+
+@A-M09-01 N1 cálculo
+sup: <table class="qt"><caption>Notas de Lúcia em cinco provas de Matemática</caption><tr><th>Prova</th><th>1ª</th><th>2ª</th><th>3ª</th><th>4ª</th><th>5ª</th></tr><tr><td>Nota</td><td>5</td><td>7</td><td>8</td><td>8</td><td>10</td></tr></table>
+stem: A média das notas de Lúcia nessas cinco provas é
+o1: 7,5.
+o2: 7,6.
+o3: 8,0.
+o4: 38.
+key: B
+a: 7,5 é a média entre a menor e a maior nota ((5 + 10) ÷ 2), e não a média de todas as notas.
+b: Soma: 5 + 7 + 8 + 8 + 10 = 38. Média: 38 ÷ 5 = 7,6.
+c: 8 é a mediana e também a moda; a média pedida considera todos os valores.
+d: 38 é a soma das notas; falta dividir pelo número de provas.
+
+@A-M09-02 N1
+sup: <table class="qt"><caption>Pares de tênis vendidos em uma semana, por número</caption><tr><th>Número</th><th>36</th><th>37</th><th>38</th><th>39</th><th>40</th></tr><tr><td>Pares vendidos</td><td>4</td><td>7</td><td>11</td><td>8</td><td>5</td></tr></table>
+stem: O número do tênis que representa a moda das vendas dessa semana é
+o1: 11.
+o2: 36.
+o3: 38.
+o4: 40.
+key: C
+a: 11 é a frequência (quantos pares foram vendidos), e a moda é o valor que mais se repete, ou seja, o número do tênis.
+b: 36 é o menor número da tabela e o menos vendido depois do 40; não é o mais frequente.
+c: A moda é o valor de maior frequência. O número 38 teve 11 vendas, mais que qualquer outro.
+d: 40 é o maior número da tabela, mas foi vendido só 5 vezes.
+
+@A-M09-03 N2
+sup: <svg viewBox="0 0 268 170" width="268" height="170" role="img" aria-label="Gráfico de colunas com livros vendidos: janeiro 40, fevereiro 55, março 45, abril 60"><line x1="46" y1="130.0" x2="260" y2="130.0" stroke="#d6d8e6"/><text x="40" y="133.0" font-size="9" text-anchor="end">0</text><line x1="46" y1="114.6" x2="260" y2="114.6" stroke="#d6d8e6"/><text x="40" y="117.6" font-size="9" text-anchor="end">10</text><line x1="46" y1="99.1" x2="260" y2="99.1" stroke="#d6d8e6"/><text x="40" y="102.1" font-size="9" text-anchor="end">20</text><line x1="46" y1="83.7" x2="260" y2="83.7" stroke="#d6d8e6"/><text x="40" y="86.7" font-size="9" text-anchor="end">30</text><line x1="46" y1="68.3" x2="260" y2="68.3" stroke="#d6d8e6"/><text x="40" y="71.3" font-size="9" text-anchor="end">40</text><line x1="46" y1="52.9" x2="260" y2="52.9" stroke="#d6d8e6"/><text x="40" y="55.9" font-size="9" text-anchor="end">50</text><line x1="46" y1="37.4" x2="260" y2="37.4" stroke="#d6d8e6"/><text x="40" y="40.4" font-size="9" text-anchor="end">60</text><line x1="46" y1="22.0" x2="260" y2="22.0" stroke="#d6d8e6"/><text x="40" y="25.0" font-size="9" text-anchor="end">70</text><line x1="46" y1="16" x2="46" y2="130" stroke="#555"/><line x1="46" y1="130" x2="260" y2="130" stroke="#555"/><rect x="58" y="68.3" width="34" height="61.7" fill="#7c8cff" stroke="#4351c9"/><text x="75" y="65.3" font-size="9" text-anchor="middle">40</text><text x="75" y="143" font-size="9" text-anchor="middle">Jan</text><rect x="110" y="45.1" width="34" height="84.9" fill="#7c8cff" stroke="#4351c9"/><text x="127" y="42.1" font-size="9" text-anchor="middle">55</text><text x="127" y="143" font-size="9" text-anchor="middle">Fev</text><rect x="162" y="60.6" width="34" height="69.4" fill="#7c8cff" stroke="#4351c9"/><text x="179" y="57.6" font-size="9" text-anchor="middle">45</text><text x="179" y="143" font-size="9" text-anchor="middle">Mar</text><rect x="214" y="37.4" width="34" height="92.6" fill="#7c8cff" stroke="#4351c9"/><text x="231" y="34.4" font-size="9" text-anchor="middle">60</text><text x="231" y="143" font-size="9" text-anchor="middle">Abr</text><text x="4" y="12" font-size="9">Livros vendidos</text></svg><p class="src">Vendas de livros em uma livraria escolar, de janeiro a abril.</p>
+stem: Em quantos desses meses as vendas superaram a média mensal do período?
+o1: 1.
+o2: 2.
+o3: 3.
+o4: 4.
+key: B
+a: Só abril (60) está acima da média, mas fevereiro (55) também supera 50.
+b: Média: (40 + 55 + 45 + 60) ÷ 4 = 200 ÷ 4 = 50. Acima de 50: fevereiro (55) e abril (60), ou seja, 2 meses.
+c: Janeiro (40) e março (45) estão abaixo da média; portanto não são três os meses acima dela.
+d: Não podem ser todos os meses acima da média, porque a média é um valor central.
+
+@A-M09-04 N2 cálculo
+sup: <table class="qt"><caption>Tempo de deslocamento até a escola, em minutos, de seis estudantes</caption><tr><th>Estudante</th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th></tr><tr><td>Tempo (min)</td><td>30</td><td>18</td><td>90</td><td>22</td><td>35</td><td>25</td></tr></table>
+stem: Em estatística, a mediana é uma medida que não é afetada por valores muito extremos. A mediana dos tempos de deslocamento, em minutos, é
+o1: 27,5.
+o2: 25.
+o3: 30.
+o4: 36,7.
+key: A
+a: Ordenando: 18, 22, 25, 30, 35, 90. Os dois valores centrais são 25 e 30; mediana = (25 + 30) ÷ 2 = 27,5.
+b: 25 é o 3º valor da lista ordenada, mas com seis valores a mediana é a média dos dois valores centrais.
+c: 30 é o 4º valor da lista ordenada, que é apenas um dos dois centrais.
+d: 36,7 é a média aritmética (220 ÷ 6), puxada para cima pelo valor 90.
+
+@A-M09-05 N2 cálculo
+sup: <table class="qt"><caption>Critério de avaliação de Matemática e notas de Rafael</caption><tr><th>Avaliação</th><th>Peso</th><th>Nota</th></tr><tr><td>Prova 1</td><td>2</td><td>6</td></tr><tr><td>Prova 2</td><td>3</td><td>8</td></tr><tr><td>Trabalho</td><td>5</td><td>7</td></tr></table>
+stem: A média final de Rafael, calculada como média ponderada, é
+o1: 6,8.
+o2: 7,0.
+o3: 7,1.
+o4: 7,2.
+key: C
+a: 6,8 resulta de inverter os pesos (5, 3 e 2), e os pesos precisam acompanhar cada avaliação.
+b: 7,0 é a média simples ((6 + 8 + 7) ÷ 3), que ignora os pesos.
+c: (6 · 2 + 8 · 3 + 7 · 5) ÷ (2 + 3 + 5) = (12 + 24 + 35) ÷ 10 = 71 ÷ 10 = 7,1.
+d: 7,2 resulta de considerar só as provas ((12 + 24) ÷ 5), deixando o trabalho de fora.
+
+@A-M09-06 N2 cálculo
+stem: A média de cinco notas de um estudante é 7,0. Para que a média com uma sexta nota seja 7,5, essa sexta nota deve ser
+o1: 7,5.
+o2: 8,5.
+o3: 9,5.
+o4: 10,0.
+key: D
+a: Com a sexta nota 7,5 a soma seria 42,5 e a média, 7,08. Confundir a nota com a média desejada não funciona.
+b: Com 8,5, a soma seria 43,5 e a média, 7,25.
+c: Com 9,5, a soma seria 44,5 e a média, cerca de 7,42; ainda não chega a 7,5.
+d: A soma das cinco notas é 5 · 7 = 35. Para média 7,5 com seis notas, a soma precisa ser 6 · 7,5 = 45. A sexta nota é 45 − 35 = 10,0.
+
+@A-M09-07 N2 cálculo
+sup: <svg viewBox="0 0 300 152" width="300" height="152" role="img" aria-label="Gráfico de barras com o esporte preferido dos estudantes: futebol 40 por cento, vôlei 25, basquete 20, outros 15"><line x1="96.0" y1="8" x2="96.0" y2="126" stroke="#d6d8e6"/><text x="96.0" y="138" font-size="9" text-anchor="middle">0</text><line x1="132.8" y1="8" x2="132.8" y2="126" stroke="#d6d8e6"/><text x="132.8" y="138" font-size="9" text-anchor="middle">10</text><line x1="169.6" y1="8" x2="169.6" y2="126" stroke="#d6d8e6"/><text x="169.6" y="138" font-size="9" text-anchor="middle">20</text><line x1="206.4" y1="8" x2="206.4" y2="126" stroke="#d6d8e6"/><text x="206.4" y="138" font-size="9" text-anchor="middle">30</text><line x1="243.2" y1="8" x2="243.2" y2="126" stroke="#d6d8e6"/><text x="243.2" y="138" font-size="9" text-anchor="middle">40</text><line x1="280.0" y1="8" x2="280.0" y2="126" stroke="#d6d8e6"/><text x="280.0" y="138" font-size="9" text-anchor="middle">50</text><text x="90" y="25" font-size="10" text-anchor="end">Futebol</text><rect x="96" y="12" width="147.2" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="247.2" y="25" font-size="9">40</text><text x="90" y="53" font-size="10" text-anchor="end">Vôlei</text><rect x="96" y="40" width="92.0" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="192.0" y="53" font-size="9">25</text><text x="90" y="81" font-size="10" text-anchor="end">Basquete</text><rect x="96" y="68" width="73.6" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="173.6" y="81" font-size="9">20</text><text x="90" y="109" font-size="10" text-anchor="end">Outros</text><rect x="96" y="96" width="55.2" height="18" fill="#7c8cff" stroke="#4351c9"/><text x="155.2" y="109" font-size="9">15</text><text x="294" y="150" font-size="9" text-anchor="end">% dos estudantes</text></svg><p class="src">Pesquisa com 400 estudantes sobre o esporte preferido. Cada estudante escolheu apenas uma opção.</p>
+stem: O número de estudantes que preferem vôlei ou basquete é
+o1: 100.
+o2: 160.
+o3: 180.
+o4: 260.
+key: C
+a: 100 corresponde só ao vôlei (25% de 400), e falta somar o basquete.
+b: 160 corresponde apenas ao futebol (40% de 400).
+c: Vôlei + basquete = 25% + 20% = 45%. 45% de 400 = 0,45 · 400 = 180.
+d: 260 é a soma de futebol e vôlei (65% de 400), e não de vôlei e basquete.
+
+@A-M09-08 N3 cálculo
+sup: <svg viewBox="0 0 320 170" width="320" height="170" role="img" aria-label="Gráfico de colunas com número de irmãos de 20 estudantes: 0 irmãos, 3 alunos; 1, 6 alunos; 2, 7 alunos; 3, 3 alunos; 4, 1 aluno"><line x1="46" y1="130.0" x2="312" y2="130.0" stroke="#d6d8e6"/><text x="40" y="133.0" font-size="9" text-anchor="end">0</text><line x1="46" y1="103.0" x2="312" y2="103.0" stroke="#d6d8e6"/><text x="40" y="106.0" font-size="9" text-anchor="end">2</text><line x1="46" y1="76.0" x2="312" y2="76.0" stroke="#d6d8e6"/><text x="40" y="79.0" font-size="9" text-anchor="end">4</text><line x1="46" y1="49.0" x2="312" y2="49.0" stroke="#d6d8e6"/><text x="40" y="52.0" font-size="9" text-anchor="end">6</text><line x1="46" y1="22.0" x2="312" y2="22.0" stroke="#d6d8e6"/><text x="40" y="25.0" font-size="9" text-anchor="end">8</text><line x1="46" y1="16" x2="46" y2="130" stroke="#555"/><line x1="46" y1="130" x2="312" y2="130" stroke="#555"/><rect x="58" y="89.5" width="34" height="40.5" fill="#7c8cff" stroke="#4351c9"/><text x="75" y="86.5" font-size="9" text-anchor="middle">3</text><text x="75" y="143" font-size="9" text-anchor="middle">0</text><rect x="110" y="49.0" width="34" height="81.0" fill="#7c8cff" stroke="#4351c9"/><text x="127" y="46.0" font-size="9" text-anchor="middle">6</text><text x="127" y="143" font-size="9" text-anchor="middle">1</text><rect x="162" y="35.5" width="34" height="94.5" fill="#7c8cff" stroke="#4351c9"/><text x="179" y="32.5" font-size="9" text-anchor="middle">7</text><text x="179" y="143" font-size="9" text-anchor="middle">2</text><rect x="214" y="89.5" width="34" height="40.5" fill="#7c8cff" stroke="#4351c9"/><text x="231" y="86.5" font-size="9" text-anchor="middle">3</text><text x="231" y="143" font-size="9" text-anchor="middle">3</text><rect x="266" y="116.5" width="34" height="13.5" fill="#7c8cff" stroke="#4351c9"/><text x="283" y="113.5" font-size="9" text-anchor="middle">1</text><text x="283" y="143" font-size="9" text-anchor="middle">4</text><text x="4" y="12" font-size="9">Nº de estudantes</text></svg><p class="src">Número de irmãos dos 20 estudantes de uma turma (eixo horizontal: número de irmãos; eixo vertical: número de estudantes).</p>
+stem: O número médio de irmãos por estudante dessa turma é
+o1: 1,65.
+o2: 2,0.
+o3: 4,0.
+o4: 33.
+key: A
+a: Total de irmãos: 0·3 + 1·6 + 2·7 + 3·3 + 4·1 = 33. Média: 33 ÷ 20 = 1,65.
+b: 2,0 é a média simples dos valores 0 a 4 ((0 + 1 + 2 + 3 + 4) ÷ 5); ela ignora quantos estudantes têm cada número de irmãos.
+c: 4,0 é a média das alturas das colunas ((3 + 6 + 7 + 3 + 1) ÷ 5), que não é a média de irmãos.
+d: 33 é o total de irmãos de todos os estudantes; falta dividir por 20.
+
+@A-M09-09 N2 cálculo
+sup: <table class="qt"><caption>Desempenho em uma avaliação</caption><tr><th>Turma</th><th>Nº de estudantes</th><th>Média</th></tr><tr><td>A</td><td>20</td><td>7,0</td></tr><tr><td>B</td><td>30</td><td>8,0</td></tr></table>
+stem: A média geral dos 50 estudantes das duas turmas nessa avaliação é
+o1: 7,0.
+o2: 7,5.
+o3: 7,6.
+o4: 8,0.
+key: C
+a: 7,0 é a média só da turma A, e as duas turmas devem entrar no cálculo.
+b: 7,5 é a média simples das duas médias; ela ignora que a turma B tem mais estudantes.
+c: Soma das notas: 20 · 7 + 30 · 8 = 140 + 240 = 380. Média geral: 380 ÷ 50 = 7,6.
+d: 8,0 é a média só da turma B.
+
+@A-M09-10 N3 julgar afirmativas
+sup: <svg viewBox="0 0 396 170" width="396" height="170" role="img" aria-label="Gráfico de linhas com as temperaturas máximas da semana: segunda 24, terça 26, quarta 25, quinta 29, sexta 31, sábado 28, domingo 27"><line x1="46" y1="134.0" x2="388" y2="134.0" stroke="#d6d8e6"/><text x="40" y="137.0" font-size="9" text-anchor="end">22</text><line x1="46" y1="111.6" x2="388" y2="111.6" stroke="#d6d8e6"/><text x="40" y="114.6" font-size="9" text-anchor="end">24</text><line x1="46" y1="89.2" x2="388" y2="89.2" stroke="#d6d8e6"/><text x="40" y="92.2" font-size="9" text-anchor="end">26</text><line x1="46" y1="66.8" x2="388" y2="66.8" stroke="#d6d8e6"/><text x="40" y="69.8" font-size="9" text-anchor="end">28</text><line x1="46" y1="44.4" x2="388" y2="44.4" stroke="#d6d8e6"/><text x="40" y="47.4" font-size="9" text-anchor="end">30</text><line x1="46" y1="22.0" x2="388" y2="22.0" stroke="#d6d8e6"/><text x="40" y="25.0" font-size="9" text-anchor="end">32</text><line x1="46" y1="16" x2="46" y2="134" stroke="#555"/><line x1="46" y1="134" x2="388" y2="134" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="68.0,111.6 116.0,89.2 164.0,100.4 212.0,55.6 260.0,33.2 308.0,66.8 356.0,78.0"/><circle cx="68.0" cy="111.6" r="3" fill="#4351c9"/><text x="68.0" y="105.6" font-size="9" text-anchor="middle">24</text><text x="68.0" y="147" font-size="9" text-anchor="middle">Seg</text><circle cx="116.0" cy="89.2" r="3" fill="#4351c9"/><text x="116.0" y="83.2" font-size="9" text-anchor="middle">26</text><text x="116.0" y="147" font-size="9" text-anchor="middle">Ter</text><circle cx="164.0" cy="100.4" r="3" fill="#4351c9"/><text x="164.0" y="94.4" font-size="9" text-anchor="middle">25</text><text x="164.0" y="147" font-size="9" text-anchor="middle">Qua</text><circle cx="212.0" cy="55.6" r="3" fill="#4351c9"/><text x="212.0" y="49.6" font-size="9" text-anchor="middle">29</text><text x="212.0" y="147" font-size="9" text-anchor="middle">Qui</text><circle cx="260.0" cy="33.2" r="3" fill="#4351c9"/><text x="260.0" y="27.2" font-size="9" text-anchor="middle">31</text><text x="260.0" y="147" font-size="9" text-anchor="middle">Sex</text><circle cx="308.0" cy="66.8" r="3" fill="#4351c9"/><text x="308.0" y="60.8" font-size="9" text-anchor="middle">28</text><text x="308.0" y="147" font-size="9" text-anchor="middle">Sáb</text><circle cx="356.0" cy="78.0" r="3" fill="#4351c9"/><text x="356.0" y="72.0" font-size="9" text-anchor="middle">27</text><text x="356.0" y="147" font-size="9" text-anchor="middle">Dom</text><text x="4" y="12" font-size="9">Temp. máxima (°C)</text></svg><p class="src">Temperaturas máximas diárias de uma cidade ao longo de uma semana.</p>
+stem: Com base no gráfico, analise as afirmativas.
+I. A amplitude (diferença entre a maior e a menor temperatura) da semana foi de 7 °C.
+II. A mediana das temperaturas máximas é 27 °C.
+III. A média das temperaturas máximas é maior que a mediana.
+IV. A moda das temperaturas máximas é 25 °C.
+Estão corretas apenas
+o1: I e II.
+o2: II e III.
+o3: I, II e III.
+o4: I, II, III e IV.
+key: C
+a: I e II estão corretas, mas a III também: a média é 190 ÷ 7 ≈ 27,14, maior que a mediana (27).
+b: II e III estão corretas, mas falta a I: 31 − 24 = 7 °C.
+c: I: 31 − 24 = 7 (correta). II: ordenando 24, 25, 26, 27, 28, 29, 31, o valor central é 27 (correta). III: 190 ÷ 7 ≈ 27,14 > 27 (correta). IV é falsa, pois nenhum valor se repete (não há moda).
+d: A IV é falsa: os valores são todos diferentes, então a série não tem moda.
+
+# ===================== M04 =====================
+
+@A-M04-01 N1 cálculo
+stem: O valor de 2³ · 2⁴ ÷ 2⁵ é
+o1: 2.
+o2: 4.
+o3: 8.
+o4: 128.
+key: B
+a: 2 é o expoente final (7 − 5), e o resultado é a potência 2².
+b: Produto de potências de mesma base: 2³ · 2⁴ = 2⁷. Quociente: 2⁷ ÷ 2⁵ = 2². Logo 2² = 4.
+c: 8 é 2³, que é apenas o primeiro fator da expressão.
+d: 128 é 2⁷, que resulta de multiplicar sem fazer a divisão por 2⁵.
+
+@A-M04-02 N1
+sup: <p>Um jardim quadrado tem lado de (x + 3) metros.</p>
+stem: A expressão que representa a área desse jardim, em metros quadrados, é
+o1: x² + 9.
+o2: x² + 3x + 9.
+o3: 4x + 12.
+o4: x² + 6x + 9.
+key: D
+a: x² + 9 é a conta de quem esquece o termo do meio do produto notável: (a + b)² não é a² + b².
+b: O termo do meio é 2 · x · 3 = 6x, e não 3x.
+c: 4x + 12 é o perímetro (4 lados de x + 3), e a pergunta é sobre a área.
+d: (x + 3)² = x² + 2 · x · 3 + 3² = x² + 6x + 9.
+
+@A-M04-03 N2 cálculo
+stem: Sabendo que x + y = 10 e x − y = 4, o valor de x² − y² é
+o1: 16.
+o2: 20.
+o3: 40.
+o4: 100.
+key: C
+a: 16 é (x − y)², que resulta de elevar ao quadrado só um fator.
+b: 20 não corresponde ao produto dos dois valores dados (10 · 4).
+c: x² − y² = (x + y)(x − y) = 10 · 4 = 40. (Conferência: x = 7 e y = 3 → 49 − 9 = 40.)
+d: 100 é (x + y)², que resulta de elevar ao quadrado só a soma.
+
+@A-M04-04 N2 cálculo
+stem: O valor da expressão √50 + √18 é igual a
+o1: 8√2.
+o2: √68.
+o3: 15√2.
+o4: 34.
+key: A
+a: √50 = 5√2 e √18 = 3√2. Somando os termos semelhantes: 5√2 + 3√2 = 8√2.
+b: √68 resulta de somar os radicandos (50 + 18); a soma de raízes não é a raiz da soma.
+c: 15√2 vem de multiplicar os coeficientes (5 · 3), quando eles devem ser somados.
+d: 34 vem de dividir cada radicando por 2 (25 + 9); não é uma operação válida com raízes.
+
+@A-M04-05 N2 cálculo
+stem: O valor da expressão (−2)³ + √81 − 3² é
+o1: −26.
+o2: −8.
+o3: 8.
+o4: 10.
+key: B
+a: −26 resulta de usar √81 = −9. A raiz quadrada aritmética de 81 é 9, positiva.
+b: (−2)³ = −8; √81 = 9; 3² = 9. Logo −8 + 9 − 9 = −8.
+c: 8 resulta de tratar (−2)³ como +8; potência ímpar de número negativo é negativa.
+d: 10 resulta de somar −8 + 9 + 9, trocando o sinal de 3² (que é subtraído na expressão).
+
+@A-M04-06 N2 cálculo
+stem: Para x = 7, o valor da expressão (x² − 9) ÷ (x − 3) é
+o1: 4.
+o2: 20.
+o3: 40.
+o4: 10.
+key: D
+a: 4 é só o denominador (7 − 3).
+b: 20 resulta de dividir 40 por 2, o que não tem relação com o denominador 4.
+c: 40 é só o numerador (49 − 9); falta dividir por 4.
+d: x² − 9 = (x + 3)(x − 3); simplificando por (x − 3), a expressão fica x + 3 = 10. Conferência: (49 − 9) ÷ 4 = 40 ÷ 4 = 10.
+
+@A-M04-07 N3
+sup: <p>A luz do Sol leva, aproximadamente, 8 minutos para chegar à Terra. A distância média entre o Sol e a Terra é de cerca de 1,5 × 10⁸ km.</p>
+stem: Com base nesses dados, a velocidade aproximada da luz, em km/s, é da ordem de
+o1: 3,1 × 10⁴.
+o2: 3,1 × 10⁵.
+o3: 3,1 × 10⁶.
+o4: 3,1 × 10⁷.
+key: B
+a: Com 10⁴ km/s a luz percorreria só 4,8 × 10⁶ km em 8 minutos, muito menos que 1,5 × 10⁸ km.
+b: 8 minutos = 480 s. Velocidade = 1,5 × 10⁸ ÷ 480 ≈ 3,1 × 10⁵ km/s (cerca de 300 mil km/s).
+c: 10⁶ km/s resultaria de errar a ordem de grandeza por um fator 10, o que seria um valor dez vezes maior que o correto.
+d: 10⁷ km/s resultaria de não converter minutos em segundos (1,5 × 10⁸ ÷ 8 ≈ 1,9 × 10⁷), que é a velocidade em km/min.
+
+@A-M04-08 N3 cálculo
+stem: Sendo a + b = 8 e a · b = 12, o valor de a² + b² é
+o1: 40.
+o2: 24.
+o3: 52.
+o4: 64.
+key: A
+a: (a + b)² = a² + 2ab + b². Então 64 = a² + b² + 24, e a² + b² = 64 − 24 = 40. (Conferência: a = 2 e b = 6 → 4 + 36 = 40.)
+b: 24 é 2ab, que é o termo do meio de (a + b)².
+c: 52 resulta de subtrair só ab (64 − 12), quando o termo do meio é 2ab.
+d: 64 é (a + b)², que inclui o termo 2ab.
+
+# ===================== M02 =====================
+
+@A-M02-01 N1 cálculo
+stem: Uma receita de churrasco usa 3 kg de carne para 12 pessoas. Para servir 20 pessoas, mantendo a proporção, serão necessários
+o1: 8 kg de carne.
+o2: 11 kg de carne.
+o3: 36 kg de carne.
+o4: 5 kg de carne.
+key: D
+a: 8 kg resulta de pensar em 1 kg a mais por pessoa extra (20 − 12 = 8), o que não mantém a proporção.
+b: 11 kg resulta de somar 8 pessoas a mais aos 3 kg originais; a relação é de proporção, não de soma.
+c: 36 kg é 3 · 12, uma multiplicação sem sentido para esse problema.
+d: Regra de três: 3 ÷ 12 = x ÷ 20, então x = 3 · 20 ÷ 12 = 5 kg.
+
+@A-M02-02 N2 cálculo
+stem: Seis máquinas iguais produzem 1 200 peças em 5 dias. Mantendo o mesmo ritmo, 10 dessas máquinas produzirão, em 6 dias,
+o1: 1 200 peças.
+o2: 2 000 peças.
+o3: 2 400 peças.
+o4: 14 400 peças.
+key: C
+a: 1 200 é a produção inicial; com mais máquinas e mais dias, a produção cresce.
+b: 2 000 considera só o aumento de máquinas (6 → 10) e esquece o aumento de dias (5 → 6).
+c: Produção é diretamente proporcional ao número de máquinas e de dias: 1 200 · (10 ÷ 6) · (6 ÷ 5) = 1 200 · 2 = 2 400.
+d: 14 400 resulta de multiplicar por 10 e por 6 ÷ 5 sem dividir pelas 6 máquinas originais.
+
+@A-M02-03 N2 cálculo
+stem: Três sócios investiram R$ 2.000,00, R$ 3.000,00 e R$ 4.000,00 em um negócio e vão dividir um lucro de R$ 9.000,00 em partes proporcionais ao investimento. O sócio que mais investiu receberá
+o1: R$ 4.000,00.
+o2: R$ 3.000,00.
+o3: R$ 3.600,00.
+o4: R$ 4.500,00.
+key: A
+a: Total investido: 2 + 3 + 4 = 9 (em milhares). A parte do maior investidor: 9.000 · 4 ÷ 9 = R$ 4.000,00.
+b: R$ 3.000,00 seria a divisão em partes iguais (9.000 ÷ 3), sem considerar os investimentos.
+c: R$ 3.600,00 resulta de calcular 40% de 9.000 usando uma proporção errada (4 ÷ 10).
+d: R$ 4.500,00 é a metade do lucro, o que daria a ele mais do que o investimento justifica.
+
+@A-M02-04 N2 cálculo
+stem: Um carro mantém a velocidade constante de 90 km/h. Essa velocidade, expressa em metros por segundo, é
+o1: 15 m/s.
+o2: 25 m/s.
+o3: 90 m/s.
+o4: 324 m/s.
+key: B
+a: 15 m/s é 54 km/h, e não 90 km/h.
+b: 1 km/h = 1 000 m ÷ 3 600 s = 1 ÷ 3,6 m/s. Então 90 ÷ 3,6 = 25 m/s.
+c: 90 m/s não envolve conversão nenhuma; é só trocar a unidade sem calcular.
+d: 324 resulta de multiplicar por 3,6 em vez de dividir.
+
+@A-M02-05 N3 cálculo
+stem: Oito operários constroem um muro em 15 dias. Depois de 5 dias de trabalho, 4 operários deixam a obra, e os outros 4 continuam no mesmo ritmo. O tempo que ainda falta, em dias, para terminar o muro é
+o1: 10.
+o2: 15.
+o3: 20.
+o4: 25.
+key: C
+a: 10 dias seria o tempo restante se os 8 operários continuassem (15 − 5), o que não ocorre.
+b: 15 dias é o prazo total original, e não o tempo que falta.
+c: Trabalho total: 8 · 15 = 120 operário-dias. Feito: 8 · 5 = 40. Restante: 80. Com 4 operários: 80 ÷ 4 = 20 dias.
+d: 25 dias é o tempo total (5 + 20), e a pergunta é sobre o tempo que falta.
+
+@A-M02-06 N2 cálculo
+stem: Para preparar um suco, mistura-se 1 parte de concentrado com 4 partes de água. Para obter 2 litros do suco pronto, a quantidade de concentrado necessária é
+o1: 200 mL.
+o2: 400 mL.
+o3: 500 mL.
+o4: 800 mL.
+key: B
+a: 200 mL seria 1 parte de 10, que não corresponde à mistura (1 + 4 = 5 partes).
+b: O suco tem 1 + 4 = 5 partes; o concentrado é 1 de 5, ou seja, 1/5 de 2 000 mL = 400 mL.
+c: 500 mL é 1/4 de 2 000 mL: confunde “1 parte para 4 de água” com “1 parte em 4 do total”.
+d: 800 mL é 4/10 de 2 000 mL, valor que não corresponde à mistura; a água ocupa 4/5 do suco, isto é, 1 600 mL.
+
+# ===================== M01 =====================
+
+@A-M01-01 N1 cálculo
+stem: Uma camiseta custa R$ 80,00. Em uma promoção, ela recebe 25% de desconto. O novo preço da camiseta é
+o1: R$ 20,00.
+o2: R$ 55,00.
+o3: R$ 60,00.
+o4: R$ 105,00.
+key: C
+a: R$ 20,00 é o valor do desconto (25% de 80), e não o preço depois do desconto.
+b: R$ 55,00 resulta de subtrair 25 reais, tratando 25% como se fosse R$ 25,00.
+c: 25% de 80 = 20. Preço novo: 80 − 20 = R$ 60,00 (ou 75% de 80 = 60).
+d: R$ 105,00 resulta de somar R$ 25,00 ao preço, quando a promoção é de desconto.
+
+@A-M01-02 N2 cálculo
+stem: O preço de um produto sofreu dois aumentos sucessivos: o primeiro de 10% e, depois, o segundo de 20% sobre o preço já reajustado. O aumento total, em relação ao preço original, foi de
+o1: 30%.
+o2: 32%.
+o3: 120%.
+o4: 132%.
+key: B
+a: 30% é a soma simples dos percentuais, mas o segundo aumento incide sobre um valor maior.
+b: Fator: 1,10 · 1,20 = 1,32. O preço final é 132% do original: aumento de 32%.
+c: 120% é o fator do segundo aumento, ignorando o primeiro (e confundindo fator com aumento).
+d: 132% é o preço final em relação ao original; o aumento total é 32%.
+
+@A-M01-03 N2 cálculo
+stem: Um investidor aplicou R$ 2.000,00 a juros simples, à taxa de 3% ao mês, durante 4 meses. O montante ao final da aplicação foi de
+o1: R$ 2.060,00.
+o2: R$ 2.251,02.
+o3: R$ 2.400,00.
+o4: R$ 2.240,00.
+key: D
+a: R$ 2.060,00 é o montante após apenas 1 mês (juros de R$ 60,00).
+b: R$ 2.251,02 é o montante a juros compostos (2.000 · 1,03⁴); o enunciado fala em juros simples.
+c: R$ 2.400,00 resultaria de uma taxa de 5% ao mês, ou de juros de R$ 400,00.
+d: Juros simples: 2.000 · 0,03 · 4 = R$ 240,00. Montante: 2.000 + 240 = R$ 2.240,00.
+
+@A-M01-04 N3 cálculo
+stem: Em uma escola, 60% dos estudantes são do Ensino Fundamental. Entre estes, 25% estudam no turno da tarde. A porcentagem de estudantes da escola que são do Ensino Fundamental e estudam à tarde é
+o1: 15%.
+o2: 25%.
+o3: 35%.
+o4: 85%.
+key: A
+a: 25% de 60% = 0,25 · 0,60 = 0,15, isto é, 15% de todos os estudantes.
+b: 25% é a porcentagem dentro do Fundamental, e a pergunta é sobre o total da escola.
+c: 35% resulta de subtrair 60 − 25, o que não tem relação com cálculo de porcentagem sobre porcentagem.
+d: 85% resulta de somar 60 + 25; os grupos não se somam, pois um está contido no outro.
+
+@A-M01-05 N3 cálculo
+stem: Uma loja anunciou 20% de desconto em um produto e, no caixa, ofereceu mais 10% de desconto sobre o preço já reduzido. O desconto total em relação ao preço original é de
+o1: 8%.
+o2: 28%.
+o3: 30%.
+o4: 72%.
+key: B
+a: 8% é o valor do segundo desconto em relação ao preço original (10% de 80%), mas falta somar o primeiro.
+b: Fator: 0,80 · 0,90 = 0,72. O cliente paga 72% do preço original, ou seja, desconto total de 28%.
+c: 30% é a soma simples dos percentuais, mas o segundo incide sobre o preço já reduzido, e por isso o desconto total é menor.
+d: 72% é o preço que o cliente paga em relação ao original, e não o desconto.
+
+# ===================== M03 =====================
+
+@A-M03-01 N1
+stem: O dobro de um número, aumentado de 7, é igual a 25. Esse número é
+o1: 9.
+o2: 12.
+o3: 18.
+o4: 32.
+key: A
+a: 2x + 7 = 25, então 2x = 18 e x = 9.
+b: 12 resulta de dividir 25 por 2 (12,5) sem considerar os 7 que foram somados.
+c: 18 é o resultado de 25 − 7; falta dividir por 2 (é o dobro do número).
+d: 32 resulta de somar 25 + 7 em vez de subtrair.
+
+@A-M03-02 N2 cálculo
+sup: <p>Em uma papelaria, 2 lápis e 3 canetas custam R$ 13,00. Além disso, 1 lápis e 2 canetas custam R$ 8,00.</p>
+stem: O preço de uma caneta, nessa papelaria, é
+o1: R$ 2,00.
+o2: R$ 3,00.
+o3: R$ 4,00.
+o4: R$ 5,00.
+key: B
+a: R$ 2,00 é o preço do lápis, e a pergunta é sobre a caneta.
+b: Sendo x o lápis e y a caneta: 2x + 3y = 13 e x + 2y = 8. Da segunda, x = 8 − 2y. Substituindo: 16 − 4y + 3y = 13, então y = 3.
+c: Com caneta a R$ 4,00, a segunda compra seria 1 lápis + R$ 8,00, o que passa de R$ 8,00.
+d: R$ 5,00 é o preço de 1 lápis mais 1 caneta (R$ 2,00 + R$ 3,00), e não de uma caneta.
+
+@A-M03-03 N2
+stem: A idade de um pai é o triplo da idade do filho. Daqui a 10 anos, a idade do pai será o dobro da idade do filho. A idade atual do pai é
+o1: 10 anos.
+o2: 20 anos.
+o3: 30 anos.
+o4: 40 anos.
+key: C
+a: 10 anos é a idade atual do filho, e a pergunta é sobre o pai.
+b: 20 anos é a idade do filho daqui a 10 anos.
+c: Filho x e pai 3x. Daqui a 10 anos: 3x + 10 = 2(x + 10), então x = 10. O pai tem 3 · 10 = 30 anos.
+d: 40 anos é a idade do pai daqui a 10 anos, e não a atual.
+
+@A-M03-04 N2
+stem: Joana gastou metade do dinheiro que tinha em um lanche e um terço em transporte. Sobraram R$ 10,00. O dinheiro que Joana tinha no início era de
+o1: R$ 12,00.
+o2: R$ 30,00.
+o3: R$ 120,00.
+o4: R$ 60,00.
+key: D
+a: R$ 12,00 resulta de resolver x ÷ 2 + x ÷ 3 = 10, tratando R$ 10,00 como o valor gasto, e não o que sobrou.
+b: R$ 30,00 resulta de supor que sobrou 1/3 do dinheiro, que não é o caso (gastou 1/2 + 1/3 = 5/6).
+c: R$ 120,00 resulta de supor que sobrou 1/12, o que não corresponde às frações dadas.
+d: Gastou 1/2 + 1/3 = 5/6; sobrou 1/6 do total. Então x ÷ 6 = 10 e x = R$ 60,00.
+
+@A-M03-05 N3 cálculo
+sup: <p>Em um teatro, os ingressos custam R$ 20,00 (inteira) e R$ 10,00 (meia-entrada). Em uma sessão, foram vendidos 150 ingressos, e a arrecadação total foi de R$ 2.400,00.</p>
+stem: O número de ingressos de meia-entrada vendidos nessa sessão foi
+o1: 50.
+o2: 90.
+o3: 100.
+o4: 60.
+key: D
+a: Com 50 meias e 100 inteiras, arrecadaria 500 + 2.000 = R$ 2.500,00, acima de R$ 2.400,00.
+b: 90 é o número de ingressos inteiros, e a pergunta é sobre as meias.
+c: Com 100 meias e 50 inteiras, arrecadaria 1.000 + 1.000 = R$ 2.000,00, abaixo de R$ 2.400,00.
+d: Inteiras x e meias y: x + y = 150 e 20x + 10y = 2.400. Então 20x + 10(150 − x) = 2.400, 10x = 900, x = 90. Meias: 150 − 90 = 60.
+
+@A-M03-06 N2
+stem: A solução da equação 3(x − 2) − 2(x − 5) = 2x − 3 é
+o1: 7.
+o2: −13.
+o3: 3.
+o4: 13.
+key: A
+a: 3x − 6 − 2x + 10 = x + 4. Então x + 4 = 2x − 3, e x = 7. Conferência: 3 · 5 − 2 · 2 = 11 e 2 · 7 − 3 = 11.
+b: −13 aparece se o sinal do segundo parêntese for aplicado errado (−2(x − 5) = −2x − 10).
+c: Com x = 3, o lado esquerdo seria 7 e o direito, 3. Não satisfaz.
+d: Com x = 13, o lado esquerdo seria 17 e o direito, 23. Não satisfaz.
+
+@A-M03-07 N3
+stem: Maria tem o triplo de moedas de Ana. Se Maria der 8 moedas a Ana, as duas ficarão com a mesma quantidade. O número de moedas que Maria tinha no início era
+o1: 8.
+o2: 16.
+o3: 32.
+o4: 24.
+key: D
+a: 8 é o número de moedas que Ana tinha no início.
+b: 16 é a quantidade que cada uma terá no final.
+c: 32 é o total de moedas das duas (24 + 8), e não só as de Maria.
+d: Ana tem x e Maria 3x. Depois: 3x − 8 = x + 8, então 2x = 16 e x = 8. Maria tinha 3 · 8 = 24 moedas.
+
+@A-M03-08 N3 cálculo
+sup: <p>Em uma feira, uma balança foi usada em duas pesagens: 2 maçãs e 1 laranja pesam 500 g; 1 maçã e 2 laranjas pesam 400 g. Todas as maçãs têm o mesmo peso, e todas as laranjas também.</p>
+stem: O peso de uma maçã é
+o1: 200 g.
+o2: 100 g.
+o3: 300 g.
+o4: 400 g.
+key: A
+a: Sejam m e l os pesos: 2m + l = 500 e m + 2l = 400. Da segunda, m = 400 − 2l; substituindo: 800 − 4l + l = 500, então l = 100 e m = 200.
+b: 100 g é o peso de uma laranja, e a pergunta é sobre a maçã.
+c: 300 g é o peso de uma maçã mais uma laranja (somando as duas equações: 3m + 3l = 900).
+d: 400 g é o peso da 2ª pesagem inteira, e não o de uma maçã.

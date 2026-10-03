@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Trilha de estudo — CEFET-MG' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'trilha' }) %>
+  <div class="container">
+
+    <div class="card">
+      <h2 class="mt-0">Trilha dos 80%</h2>
+      <p>Nas provas de 2016 a 2026, os tópicos do <strong>núcleo</strong> concentraram cerca de <strong><%= corePercent %>%</strong>
+        das questões. Estude primeiro o núcleo (em ordem), depois o complemento. O número ao lado de cada tópico é
+        quantas questões ele costuma valer em uma prova de 50.</p>
+      <p class="muted small" style="margin-bottom:0;">Cada tópico tem: resumo teórico com as pegadinhas da banca, questões reais do CEFET-MG e questões autorais no mesmo padrão, com níveis N1 (fácil), N2 (médio) e N3 (difícil).</p>
+    </div>
+
+    <% allProgress.forEach(function(item) { %>
+      <% const core = item.progress.themes.filter(function(t){ return t.theme.tier === 'core'; });
+         const comp = item.progress.themes.filter(function(t){ return t.theme.tier !== 'core'; }); %>
+      <div class="card">
+        <h2 class="mt-0"><a href="/rayane/materia/<%= item.subject.slug %>"><%= item.subject.name %></a>
+          <span class="muted small">(<%= item.subject.weight_percent %>% da prova)</span></h2>
+        <div class="tier-title">Núcleo · <%= item.progress.coreMastered %>/<%= core.length %> dominados</div>
+        <% core.forEach(function(t, idx) { const c = counts[t.theme.id] || { total: 0, real: 0, autoral: 0 }; %>
+          <div class="theme-row">
+            <div>
+              <span class="muted small">#<%= idx + 1 %></span>
+              <a href="/rayane/tema/<%= t.theme.id %>"><strong><%= t.theme.name %></strong></a>
+              <% if (t.theme.is_special) { %><span class="low-tag" style="border-color:var(--primary); color:var(--primary);">obra do ano</span><% } %>
+              <div class="muted small">≈ <%= t.theme.expected_per_exam.toFixed(1).replace('.', ',') %> por prova · <%= c.total %> questões (<%= c.real %> reais, <%= c.autoral %> autorais)</div>
+              <span class="badge badge-<%= t.stats.level.key %>"><%= t.stats.level.emoji %> <%= t.stats.level.label %></span>
+            </div>
+            <div>
+              <a class="btn btn-sm btn-outline" href="/rayane/tema/<%= t.theme.id %>">Teoria</a>
+              <a class="btn btn-sm" href="/rayane/praticar/<%= t.theme.id %>">Praticar</a>
+            </div>
+          </div>
+        <% }) %>
+        <% if (comp.length) { %>
+          <details class="fold" style="margin-top:14px;">
+            <summary>Complemento (<%= comp.length %> tópicos de menor frequência)</summary>
+            <% comp.forEach(function(t) { const c = counts[t.theme.id] || { total: 0, real: 0, autoral: 0 }; %>
+              <div class="theme-row">
+                <div>
+                  <a href="/rayane/tema/<%= t.theme.id %>"><strong><%= t.theme.name %></strong></a>
+                  <div class="muted small">≈ <%= t.theme.expected_per_exam.toFixed(1).replace('.', ',') %> por prova · <%= c.total %> questões</div>
+                  <span class="badge badge-<%= t.stats.level.key %>"><%= t.stats.level.emoji %> <%= t.stats.level.label %></span>
+                </div>
+                <div>
+                  <a class="btn btn-sm btn-outline" href="/rayane/tema/<%= t.theme.id %>">Teoria</a>
+                  <a class="btn btn-sm" href="/rayane/praticar/<%= t.theme.id %>">Praticar</a>
+                </div>
+              </div>
+            <% }) %>
+          </details>
+        <% } %>
+      </div>
+    <% }) %>
+
+  </div>
+</body>
+</html>

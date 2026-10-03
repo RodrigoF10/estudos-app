@@ -1,0 +1,5 @@
+<%# Selos de origem e nível de uma questão. Uso: include('../partials/qtags', { q }) com q.origin, q.obra, q.level, q.exam_year, q.exam_number %>
+<% if (q.origin === 'real') { %><span class="qtag real">📚 REAL · CEFET-MG <%= q.exam_year %> · Q.<%= String(q.exam_number).padStart(2,'0') %></span>
+<% } else if (q.obra) { %><span class="qtag obra">✍️ AUTORAL · O Alienista</span>
+<% } else { %><span class="qtag autoral">✍️ AUTORAL · padrão CEFET</span><% } %>
+<% if (q.level) { %><span class="qtag lvl<%= q.level %>">Nível N<%= q.level %></span><% } %>

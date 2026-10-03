@@ -1,0 +1,284 @@
+# História — H05 (ditadura militar e redemocratização), H07 (Revolução Industrial, trabalho e tecnologia)
+
+# ===================== H05 =====================
+
+@A-H05-01 N1
+sup: <p>Em 31 de março de 1964, militares, com o apoio de parte da sociedade civil, iniciaram um golpe que afastou o presidente da República do poder. O primeiro presidente do regime militar foi o general Castelo Branco.</p>
+stem: O presidente deposto nesse golpe foi
+o1: João Goulart.
+o2: Juscelino Kubitschek.
+o3: Getúlio Vargas.
+o4: Jânio Quadros.
+key: A
+a: João Goulart (Jango) foi deposto em 1964, depois de propor as chamadas reformas de base.
+b: Juscelino Kubitschek governou de 1956 a 1961 e construiu Brasília.
+c: Getúlio Vargas morreu em 1954, antes do golpe.
+d: Jânio Quadros renunciou em 1961.
+
+@A-H05-02 N1
+sup: <p>Em 13 de dezembro de 1968, o governo do general Costa e Silva editou um ato que fechou o Congresso Nacional, suspendeu o habeas corpus para crimes políticos, ampliou a censura e permitiu cassar mandatos e direitos políticos.</p>
+stem: Esse ato institucional ficou conhecido como
+o1: AI-1.
+o2: AI-2.
+o3: AI-5.
+o4: Lei da Anistia.
+key: C
+a: O AI-1, de 1964, deu poderes ao governo para cassar mandatos, mas não fechou o Congresso nem suspendeu o habeas corpus.
+b: O AI-2, de 1965, extinguiu os partidos políticos e criou o bipartidarismo.
+c: O AI-5 (1968) endureceu a ditadura, inaugurou os anos de maior repressão e censura e ampliou a tortura.
+d: A Lei da Anistia, de 1979, perdoou crimes políticos e permitiu a volta dos exilados.
+
+@A-H05-03 N1
+sup: <p>Entre 1983 e 1984, comícios reuniram milhões de pessoas em várias cidades brasileiras, pedindo eleições diretas para presidente da República. O movimento ficou conhecido por um slogan e por uma emenda constitucional que foi rejeitada na Câmara dos Deputados.</p>
+stem: Esse movimento foi o
+o1: Tenentismo.
+o2: Caras-Pintadas.
+o3: Movimento Abolicionista.
+o4: Diretas Já.
+key: D
+a: O tenentismo foi um movimento de jovens oficiais, nos anos 1920.
+b: Os Caras-Pintadas foram estudantes que protestaram, em 1992, pelo impeachment do presidente Collor.
+c: O movimento abolicionista lutou pelo fim da escravidão, no século XIX.
+d: O Diretas Já mobilizou milhões de pessoas por eleições diretas, em 1983–1984.
+
+@A-H05-04 N2
+sup: <p>Promulgada em 5 de outubro de 1988, a nova Constituição restabeleceu as eleições diretas para presidente, ampliou os direitos individuais e sociais e criminalizou o racismo. Foi chamada de “Constituição Cidadã”.</p>
+stem: Esse documento foi elaborado
+o1: por uma Assembleia Nacional Constituinte eleita em 1986, depois do fim da ditadura militar.
+o2: por D. Pedro I, que a outorgou ao dissolver a Assembleia Constituinte.
+o3: por Getúlio Vargas, no Estado Novo, sem a participação do Congresso.
+o4: pelos militares, durante o governo do general Médici, em plena ditadura.
+key: A
+a: A Constituição de 1988 foi escrita por uma Assembleia Constituinte eleita pelo voto popular, já na redemocratização.
+b: A Constituição de 1824 é a que foi outorgada por D. Pedro I.
+c: A Constituição de 1937 foi outorgada por Vargas no Estado Novo.
+d: A Constituição de 1988 foi elaborada depois do fim do regime militar e não durante o governo Médici.
+
+@A-H05-05 N2
+sup: <svg viewBox="0 0 372 170" width="372" height="170" role="img" aria-label="Gráfico de barras com o crescimento anual do PIB brasileiro, em porcentagem: 9,8 em 1968, 9,5 em 1969, 10,4 em 1970, 11,3 em 1971, 11,9 em 1972 e 14 em 1973"><line x1="46" y1="130.0" x2="364" y2="130.0" stroke="#d6d8e6"/><text x="40" y="133.0" font-size="9" text-anchor="end">0</text><line x1="46" y1="103.0" x2="364" y2="103.0" stroke="#d6d8e6"/><text x="40" y="106.0" font-size="9" text-anchor="end">4</text><line x1="46" y1="76.0" x2="364" y2="76.0" stroke="#d6d8e6"/><text x="40" y="79.0" font-size="9" text-anchor="end">8</text><line x1="46" y1="49.0" x2="364" y2="49.0" stroke="#d6d8e6"/><text x="40" y="52.0" font-size="9" text-anchor="end">12</text><line x1="46" y1="22.0" x2="364" y2="22.0" stroke="#d6d8e6"/><text x="40" y="25.0" font-size="9" text-anchor="end">16</text><line x1="46" y1="16" x2="46" y2="130" stroke="#555"/><line x1="46" y1="130" x2="364" y2="130" stroke="#555"/><rect x="58" y="63.8" width="34" height="66.2" fill="#7c8cff" stroke="#4351c9"/><text x="75" y="60.8" font-size="9" text-anchor="middle">9,8</text><text x="75" y="143" font-size="9" text-anchor="middle">1968</text><rect x="110" y="65.9" width="34" height="64.1" fill="#7c8cff" stroke="#4351c9"/><text x="127" y="62.9" font-size="9" text-anchor="middle">9,5</text><text x="127" y="143" font-size="9" text-anchor="middle">1969</text><rect x="162" y="59.8" width="34" height="70.2" fill="#7c8cff" stroke="#4351c9"/><text x="179" y="56.8" font-size="9" text-anchor="middle">10,4</text><text x="179" y="143" font-size="9" text-anchor="middle">1970</text><rect x="214" y="53.7" width="34" height="76.3" fill="#7c8cff" stroke="#4351c9"/><text x="231" y="50.7" font-size="9" text-anchor="middle">11,3</text><text x="231" y="143" font-size="9" text-anchor="middle">1971</text><rect x="266" y="49.7" width="34" height="80.3" fill="#7c8cff" stroke="#4351c9"/><text x="283" y="46.7" font-size="9" text-anchor="middle">11,9</text><text x="283" y="143" font-size="9" text-anchor="middle">1972</text><rect x="318" y="35.5" width="34" height="94.5" fill="#7c8cff" stroke="#4351c9"/><text x="335" y="32.5" font-size="9" text-anchor="middle">14</text><text x="335" y="143" font-size="9" text-anchor="middle">1973</text><text x="4" y="12" font-size="9">Crescimento do PIB (% ao ano)</text></svg><p class="src">Valores aproximados.</p>
+stem: O gráfico mostra o período do “milagre econômico” da ditadura militar. Esse crescimento acelerado foi acompanhado de
+o1: redução da desigualdade de renda e queda da dívida externa.
+o2: concentração de renda e aumento da dívida externa.
+o3: fim da inflação e aumento do salário mínimo real.
+o4: diminuição da industrialização e do consumo.
+key: B
+a: Nesse período, a desigualdade de renda aumentou, e a dívida externa cresceu.
+b: O “bolo” cresceu, mas a renda ficou concentrada, e o país se endividou com empréstimos externos para financiar obras e indústrias.
+c: O salário mínimo real perdeu valor no período, e a inflação não foi eliminada.
+d: A industrialização e o consumo aumentaram no período do milagre.
+
+@A-H05-06 N2
+sup: <p>Criada por lei em 2011, uma comissão investigou graves violações de direitos humanos ocorridas entre 1946 e 1988, entre elas mortes, desaparecimentos e torturas praticadas por agentes do Estado durante a ditadura. O relatório final foi entregue em 2014.</p>
+stem: Essa comissão é a
+o1: Comissão Parlamentar de Inquérito da Pandemia.
+o2: Comissão Constituinte.
+o3: Comissão Nacional da Verdade.
+o4: Comissão Pastoral da Terra.
+key: C
+a: A CPI da Pandemia investigou ações do governo durante a pandemia de covid-19, e não crimes da ditadura.
+b: A Comissão Constituinte elaborou a Constituição de 1988, e não investigou violações de direitos humanos.
+c: A Comissão Nacional da Verdade investigou as violações de direitos humanos no período 1946–1988 e entregou o relatório em 2014.
+d: A Comissão Pastoral da Terra é uma entidade da Igreja ligada aos conflitos no campo e não foi criada por lei em 2011.
+
+@A-H05-07 N2
+sup: <p>Em 1979, no governo do general Figueiredo, uma lei concedeu perdão a pessoas punidas por crimes políticos desde 1961. Graças a ela, milhares de exilados puderam voltar ao Brasil.</p>
+stem: Essa lei é a
+o1: Lei Áurea.
+o2: Lei Maria da Penha.
+o3: Lei de Terras.
+o4: Lei da Anistia.
+key: D
+a: A Lei Áurea, de 1888, aboliu a escravidão.
+b: A Lei Maria da Penha, de 2006, combate a violência doméstica contra a mulher.
+c: A Lei de Terras, de 1850, estabeleceu que as terras só poderiam ser compradas.
+d: A Lei da Anistia, de 1979, permitiu a volta dos exilados e a libertação de presos políticos.
+
+@A-H05-08 N2
+sup: <p>Em 1965, um ato institucional extinguiu os partidos políticos existentes. O regime permitiu apenas dois: um favorável ao governo e outro de oposição consentida.</p>
+stem: Esses dois partidos foram, respectivamente,
+o1: PTB e UDN.
+o2: ARENA e MDB.
+o3: PSD e PCB.
+o4: PT e PSDB.
+key: B
+a: O PTB e a UDN existiam antes de 1964 e foram extintos pelo AI-2.
+b: A ARENA (governista) e o MDB (oposição) formaram o bipartidarismo imposto pelo regime militar, entre 1966 e 1979.
+c: O PSD e o PCB existiam antes de 1964; o PCB foi colocado na ilegalidade.
+d: O PT e o PSDB foram criados depois, nos anos 1980.
+
+@A-H05-09 N2
+sup: <p>Nos anos 1970, o general Ernesto Geisel anunciou que o regime promoveria uma abertura política “lenta, gradual e segura”, sob o controle dos militares.</p>
+stem: A proposta indicava que
+o1: o regime restituiria rapidamente o poder aos civis, em poucos meses.
+o2: a ditadura seria mantida sem nenhuma alteração durante os anos seguintes.
+o3: a Constituição seria substituída imediatamente por uma nova, elaborada pelo povo.
+o4: o retorno à democracia seria feito aos poucos, mantendo o controle do processo nas mãos do governo.
+key: D
+a: A proposta falava em uma abertura “lenta” e não em devolução rápida do poder.
+b: A abertura era um projeto de mudança gradual, ainda que controlada.
+c: A abertura previa um processo gradual e não uma substituição imediata da Constituição.
+d: “Lenta, gradual e segura” significa uma transição controlada pelo governo militar, para evitar rupturas.
+
+@A-H05-10 N3 asserção–razão
+sup: <p>Analise as asserções e a relação entre elas.</p><p><b>I.</b> Em 1985, Tancredo Neves foi eleito presidente da República de forma indireta, por um Colégio Eleitoral.</p><p style="text-align:center"><b>PORQUE</b></p><p><b>II.</b> A emenda das Diretas Já, que previa eleições diretas para presidente, foi rejeitada pelo Congresso em 1984.</p>
+stem: A respeito dessas asserções, é correto afirmar que
+o1: ambas as asserções são verdadeiras, e a II justifica a I.
+o2: ambas as asserções são verdadeiras, mas a II não justifica a I.
+o3: a I é verdadeira, e a II é falsa.
+o4: a I é falsa, e a II é verdadeira.
+key: A
+a: Como a emenda foi rejeitada, o presidente continuou a ser escolhido pelo Colégio Eleitoral, e foi esse o caso de Tancredo Neves.
+b: A II é a causa da I: sem a emenda, as regras do regime se mantiveram.
+c: A II é verdadeira: a emenda Dante de Oliveira não obteve os votos necessários.
+d: A I é verdadeira: Tancredo Neves foi eleito por um Colégio Eleitoral, em janeiro de 1985.
+
+@A-H05-11 N3 julgar afirmativas
+stem: Sobre a ditadura militar brasileira (1964–1985), analise as afirmativas.
+I. Houve plena liberdade de imprensa, e a censura nunca foi usada.
+II. Muitas pessoas foram presas, torturadas, exiladas ou desapareceram por motivos políticos.
+III. Os governos militares foram eleitos por voto direto e secreto da população.
+IV. O regime foi encerrado em 1985, com a posse de um presidente civil.
+Estão corretas apenas
+o1: I e III.
+o2: II, III e IV.
+o3: II e IV.
+o4: I, II e IV.
+key: C
+a: I e III são falsas: a imprensa foi censurada, e os presidentes não foram eleitos pelo voto direto.
+b: A III é falsa: os presidentes militares foram escolhidos de forma indireta, e não pelo voto direto da população.
+c: II e IV são verdadeiras. I e III são falsas: houve censura, e os presidentes militares eram escolhidos indiretamente.
+d: A I é falsa: a censura foi muito usada, sobretudo depois do AI-5.
+
+@A-H05-12 N3
+sup: <table class="qt"><caption>Acontecimentos do período 1964–1988</caption><tr><th>Número</th><th>Acontecimento</th></tr><tr><td>I</td><td>Movimento Diretas Já (1984)</td></tr><tr><td>II</td><td>Edição do AI-5 (1968)</td></tr><tr><td>III</td><td>Lei da Anistia (1979)</td></tr><tr><td>IV</td><td>Promulgação da Constituição (1988)</td></tr></table>
+stem: A ordem cronológica correta desses acontecimentos é
+o1: II, I, III, IV.
+o2: III, II, I, IV.
+o3: I, II, III, IV.
+o4: II, III, I, IV.
+key: D
+a: A Anistia (1979) é anterior às Diretas Já (1984).
+b: O AI-5 (1968) é anterior à Anistia (1979).
+c: As Diretas Já (1984) não vieram antes do AI-5 (1968) nem da Anistia (1979).
+d: AI-5 (1968), Anistia (1979), Diretas Já (1984) e Constituição (1988).
+
+# ===================== H07 =====================
+
+@A-H07-01 N1
+sup: <p>Por volta de 1760, na Inglaterra, o uso de máquinas começou a substituir o trabalho artesanal em várias atividades, como a produção de tecidos. A máquina a vapor, aperfeiçoada por James Watt, passou a ser usada nas fábricas e nos transportes.</p>
+stem: Esse processo é conhecido como
+o1: Revolução Francesa.
+o2: Revolução Industrial.
+o3: Revolução Russa.
+o4: Revolução Verde.
+key: B
+a: A Revolução Francesa (1789) foi um movimento político e social, e não industrial.
+b: A Revolução Industrial começou na Inglaterra no século XVIII e transformou a produção, com o uso de máquinas e da energia a vapor.
+c: A Revolução Russa (1917) foi um movimento político que levou os bolcheviques ao poder.
+d: A Revolução Verde é um conjunto de mudanças na agricultura, no século XX.
+
+@A-H07-02 N1
+sup: <p>Nas fábricas inglesas do século XIX, havia dois grupos sociais principais: um grupo era dono das fábricas e das máquinas; o outro não possuía os meios de produção e vendia sua força de trabalho em troca de salário.</p>
+stem: Esses grupos eram, respectivamente,
+o1: a burguesia industrial e o proletariado.
+o2: o proletariado e a burguesia industrial.
+o3: a nobreza e o clero.
+o4: os senhores de engenho e os escravizados.
+key: A
+a: A burguesia industrial era dona das fábricas e das máquinas. O proletariado vendia o trabalho em troca de salário.
+b: A ordem está invertida: quem era dono dos meios de produção era a burguesia.
+c: A nobreza e o clero faziam parte da sociedade do Antigo Regime.
+d: Senhores de engenho e escravizados são grupos da sociedade colonial açucareira do Brasil.
+
+@A-H07-03 N1
+sup: <p>No início do século XIX, na Inglaterra, grupos de trabalhadores invadiram fábricas e quebraram máquinas. Eles acreditavam que as máquinas eram responsáveis pelo desemprego e pela queda dos salários.</p>
+stem: Esse movimento ficou conhecido como
+o1: Cartismo.
+o2: Fordismo.
+o3: Luddismo.
+o4: Iluminismo.
+key: C
+a: O cartismo foi um movimento operário inglês que reivindicava direitos políticos, como o voto, e não a destruição de máquinas.
+b: O fordismo é um sistema de produção em massa, baseado na linha de montagem.
+c: O luddismo foi o movimento de trabalhadores que destruíam máquinas, em protesto contra o desemprego e as condições de trabalho.
+d: O Iluminismo foi um movimento intelectual do século XVIII.
+
+@A-H07-04 N2
+stem: A Inglaterra foi o primeiro país a se industrializar. Entre as condições que favoreceram esse pioneirismo estão
+o1: a ausência de carvão e minério de ferro, o que obrigou o país a inovar para se desenvolver.
+o2: a falta de mercado consumidor, que estimulou a busca de novas tecnologias.
+o3: o isolamento do país, que impediu a concorrência estrangeira e protegeu a indústria.
+o4: o capital acumulado no comércio, as reservas de carvão e ferro, o mercado colonial e a mão de obra liberada do campo pelos cercamentos.
+key: D
+a: A Inglaterra tinha grandes reservas de carvão e ferro, recursos fundamentais para a industrialização.
+b: A Inglaterra tinha um grande mercado consumidor, interno e colonial.
+c: A Inglaterra mantinha forte comércio com outros países, e não o isolamento.
+d: O capital, o carvão, o ferro, o mercado colonial e os camponeses expulsos do campo (cercamentos) ofereceram as condições para a industrialização.
+
+@A-H07-05 N2
+sup: <p>No século XIX, em muitas fábricas inglesas, adultos e crianças trabalhavam de 14 a 16 horas por dia, com salários baixos, em ambientes insalubres e sem direito a descanso semanal.</p>
+stem: Para melhorar essas condições, os trabalhadores se organizaram em
+o1: corporações de ofício, que passaram a dominar a produção das fábricas.
+o2: capitanias hereditárias, que cuidavam dos trabalhadores.
+o3: sindicatos, que pressionaram por direitos como a redução da jornada.
+o4: bandeiras, que levavam os operários para outras regiões.
+key: C
+a: As corporações de ofício eram associações de artesãos medievais, e não surgiram nas fábricas industriais.
+b: As capitanias hereditárias foram uma forma de organização do território do Brasil colonial.
+c: Os sindicatos e outras organizações operárias lutaram por jornada menor, salários melhores e fim do trabalho infantil.
+d: As bandeiras eram expedições de exploração do interior do Brasil colonial.
+
+@A-H07-06 N2
+stem: Entre o final do século XIX e o início do século XX, ocorreu a chamada Segunda Revolução Industrial, caracterizada principalmente
+o1: pela energia a vapor e pelo carvão como únicas fontes de energia das fábricas.
+o2: pelo uso da eletricidade e do petróleo, pela indústria química e do aço e por novos métodos, como a linha de montagem.
+o3: pelo uso da internet, de computadores e da inteligência artificial.
+o4: pela volta ao trabalho artesanal, com o fim das fábricas.
+key: B
+a: A energia a vapor e o carvão caracterizaram a Primeira Revolução Industrial.
+b: A Segunda Revolução Industrial incorporou eletricidade, petróleo, aço, química e a linha de montagem, como no fordismo.
+c: A internet e a inteligência artificial pertencem à Terceira Revolução Industrial e ao período atual.
+d: A Segunda Revolução Industrial ampliou a produção em fábricas e não voltou ao trabalho artesanal.
+
+@A-H07-07 N2 associação
+sup: <p><b>Coluna I:</b><br>1. Primeira Revolução Industrial<br>2. Segunda Revolução Industrial<br>3. Terceira Revolução Industrial</p><p><b>Coluna II:</b><br>(A) Uso de eletricidade, petróleo e aço, e linha de montagem.<br>(B) Computadores, telecomunicações, robótica e internet.<br>(C) Máquina a vapor, carvão e indústria têxtil.</p>
+stem: A associação correta entre as colunas é
+o1: 1-A, 2-B, 3-C.
+o2: 1-B, 2-A, 3-C.
+o3: 1-C, 2-A, 3-B.
+o4: 1-C, 2-B, 3-A.
+key: C
+a: A Primeira Revolução Industrial é a do vapor (C), e não a da eletricidade (A).
+b: A Primeira não é a da informática (B); esta é a Terceira.
+c: Primeira: vapor, carvão e têxtil (C). Segunda: eletricidade, petróleo e aço (A). Terceira: informática e internet (B).
+d: A Segunda Revolução Industrial não é a da informática (B), e a Terceira não é a da eletricidade e do petróleo (A).
+
+@A-H07-08 N3
+sup: <svg viewBox="0 0 216 170" width="216" height="170" role="img" aria-label="Gráfico de barras com a população aproximada de Manchester, em milhares de habitantes: 18 em 1750, 75 em 1801 e 303 em 1851"><line x1="46" y1="130.0" x2="208" y2="130.0" stroke="#d6d8e6"/><text x="40" y="133.0" font-size="9" text-anchor="end">0</text><line x1="46" y1="114.6" x2="208" y2="114.6" stroke="#d6d8e6"/><text x="40" y="117.6" font-size="9" text-anchor="end">50</text><line x1="46" y1="99.1" x2="208" y2="99.1" stroke="#d6d8e6"/><text x="40" y="102.1" font-size="9" text-anchor="end">100</text><line x1="46" y1="83.7" x2="208" y2="83.7" stroke="#d6d8e6"/><text x="40" y="86.7" font-size="9" text-anchor="end">150</text><line x1="46" y1="68.3" x2="208" y2="68.3" stroke="#d6d8e6"/><text x="40" y="71.3" font-size="9" text-anchor="end">200</text><line x1="46" y1="52.9" x2="208" y2="52.9" stroke="#d6d8e6"/><text x="40" y="55.9" font-size="9" text-anchor="end">250</text><line x1="46" y1="37.4" x2="208" y2="37.4" stroke="#d6d8e6"/><text x="40" y="40.4" font-size="9" text-anchor="end">300</text><line x1="46" y1="22.0" x2="208" y2="22.0" stroke="#d6d8e6"/><text x="40" y="25.0" font-size="9" text-anchor="end">350</text><line x1="46" y1="16" x2="46" y2="130" stroke="#555"/><line x1="46" y1="130" x2="208" y2="130" stroke="#555"/><rect x="58" y="124.4" width="34" height="5.6" fill="#7c8cff" stroke="#4351c9"/><text x="75" y="121.4" font-size="9" text-anchor="middle">18</text><text x="75" y="143" font-size="9" text-anchor="middle">1750</text><rect x="110" y="106.9" width="34" height="23.1" fill="#7c8cff" stroke="#4351c9"/><text x="127" y="103.9" font-size="9" text-anchor="middle">75</text><text x="127" y="143" font-size="9" text-anchor="middle">1801</text><rect x="162" y="36.5" width="34" height="93.5" fill="#7c8cff" stroke="#4351c9"/><text x="179" y="33.5" font-size="9" text-anchor="middle">303</text><text x="179" y="143" font-size="9" text-anchor="middle">1851</text><text x="4" y="12" font-size="9">População (milhares)</text></svg><p class="src">Valores aproximados.</p>
+stem: O crescimento da população de Manchester, mostrado no gráfico, está associado
+o1: ao fim da industrialização na cidade.
+o2: à migração de camponeses para a cidade, em busca de emprego nas fábricas.
+o3: à volta dos trabalhadores ao campo, em razão da crise das fábricas.
+o4: à redução da natalidade nas áreas urbanas.
+key: B
+a: O crescimento ocorreu justamente com o avanço da industrialização, e não com o seu fim.
+b: Manchester foi um centro têxtil e atraiu camponeses, muitos deles sem terra por causa dos cercamentos, em busca de trabalho nas fábricas.
+c: O gráfico mostra crescimento da cidade, e não a saída de trabalhadores.
+d: A redução da natalidade diminuiria o crescimento; o gráfico mostra aumento de população.
+
+@A-H07-09 N3 julgar afirmativas
+stem: Sobre as transformações do trabalho a partir da Revolução Industrial, analise as afirmativas.
+I. O taylorismo buscou aumentar a produtividade por meio da divisão de tarefas e do controle do tempo de cada operário.
+II. O fordismo introduziu a linha de montagem, que permitiu a produção em massa.
+III. A industrialização eliminou totalmente a necessidade de trabalho humano nas fábricas.
+IV. A automação contemporânea extinguiu algumas profissões e criou outras.
+Estão corretas apenas
+o1: I e II.
+o2: I, II e IV.
+o3: II, III e IV.
+o4: I, II, III e IV.
+key: B
+a: I e II estão corretas, mas a IV também: a automação extingue e cria ocupações.
+b: I, II e IV estão corretas. A III é falsa: as fábricas continuam a empregar pessoas, mesmo com a automação.
+c: A III é falsa, e a I é verdadeira; a alternativa exclui I, que está correta.
+d: A III é falsa: a industrialização não eliminou totalmente o trabalho humano.

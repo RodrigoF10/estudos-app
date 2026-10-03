@@ -1,0 +1,165 @@
+@R-2017-19
+key: B
+a: 70 reais seria 2,5% de R$ 2.800,00, e não os 5% restantes.
+b: 5% de R$ 2.800,00 = 0,05 × 2.800 = R$ 140,00. Como 30% − 25% = 5%, a nova prestação ocupa os 5% que faltam para o limite.
+c: 210 reais é 7,5% do salário; resultado de usar 30% − 25% = 5% sobre outro valor ou de somar errado.
+d: 280 reais corresponde a 10% do salário, o dobro do que sobra do limite.
+
+@R-2018-16
+key: D
+a: Os 15% são só o frete pago na compra; falta contar o que a empresa cobrou na devolução.
+b: 20% não corresponde a nenhuma combinação dos dados (15% + 15%).
+c: 25% também não resulta de nenhuma soma dos dados do problema.
+d: O consumidor pagou 15% de frete na ida e a empresa cobrou outros 15% na devolução; o reembolso devolveu só o preço do telefone. Prejuízo total: 15% + 15% = 30% do valor da mercadoria.
+
+@R-2018-19
+key: A
+a: Meio litro = 500 ml = 500 cm³. 3% de 500 = 15 cm³ de suplemento. Cada colher tem 3 cm³, logo 15 ÷ 3 = 5 colheres.
+b: 6 colheres seriam 18 cm³, que equivale a 3,6% do leite.
+c: 7 colheres seriam 21 cm³, ou seja, 4,2% do leite.
+d: 8 colheres seriam 24 cm³, ou seja, 4,8% do leite.
+
+@R-2022-26
+key: A
+a: Dia 10: preço = 1,30 × P. Dia 30: 30% menor que o do dia 10 = 0,70 × 1,30 × P = 0,91 × P. Logo o preço final é 91% do inicial: desconto de 9%.
+b: Houve queda (0,91 P), não aumento.
+c: Os 30% de queda incidem sobre o preço já aumentado (1,3 P), não sobre o preço do dia 1º; por isso o desconto líquido não é 30%.
+d: Um aumento de 30% seguido de uma queda de 30% não se anulam, pois as bases de cálculo são diferentes.
+
+@R-2023-33
+key: A
+a: Primeiro modelo: 10 000 × 1,2² = 14 400. No segundo modelo, juros simples de 10% ao ano por 2 anos dão montante = C × (1 + 0,10 × 2) = 1,2 C. Então 1,2 C = 14 400 e C = 12 000.
+b: 12 200 daria montante de 14 640, maior que 14 400.
+c: 13 400 daria montante de 16 080, bem acima de 14 400.
+d: 14 000 daria 16 800; esse valor é próximo do montante, mas o montante é obtido após os juros, não é o capital.
+
+@R-2025-23
+key: B
+a: R$ 5.280,00 é a metade da despesa; só seria a parte de Mariana se as rendas fossem iguais.
+b: Se Luciano ganha L, Mariana ganha 1,2 L. A divisão proporcional dá a Mariana 1,2/(1 + 1,2) = 1,2/2,2 = 6/11 da despesa. 10 560 × 6/11 = 960 × 6 = 5 760.
+c: 5.866 vem de arredondar 10 560 × 0,5555…, mistura de proporções que não corresponde aos dados.
+d: 6.336 = 10 560 × 0,6, o que equivaleria a Mariana ganhar 50% a mais que Luciano, e não 20%.
+
+@R-2026-20
+stem: Luísa guardou, em um pote, 12 balas vermelhas e 36 azuis. Ela consumiu 3/4 das balas vermelhas e 1/4 das balas azuis.
+
+Em relação ao total de balas que sobrou no pote, a porcentagem de balas vermelhas que restou é de
+key: A
+a: Consumiu 3/4 de 12 = 9 vermelhas, restam 3. Consumiu 1/4 de 36 = 9 azuis, restam 27. Total que sobrou: 30. Vermelhas: 3/30 = 10%.
+b: 15% corresponderia a 4,5 balas vermelhas em 30; não é possível.
+c: 20% corresponderia a 6 balas vermelhas em 30; sobram apenas 3.
+d: 25% é a fração de balas vermelhas que NÃO foi consumida (1/4), mas a pergunta é sobre o total que restou no pote.
+
+@R-2016-17
+key: B
+a: 18 funcionários dariam 18 × 20 × 0,5 = 180 peças, menos que as 200 pedidas.
+b: Cada funcionário produz 150 ÷ (10 × 30) = 0,5 peça por dia. Para 200 peças em 20 dias: n × 20 × 0,5 = 200, logo n = 20. (Grandezas: peças diretamente e dias inversamente proporcionais ao número de funcionários.)
+c: 22 funcionários produziriam 220 peças nesse prazo, mais do que o necessário.
+d: 24 funcionários produziriam 240 peças em 20 dias; seria excesso.
+
+@R-2016-20
+stem: Na área de enfermagem, o cálculo do gotejamento do soro é necessário para que se possa ter uma previsão do horário em que se deve verificar a quantidade de soro recebida pelo paciente. Para esse cálculo, utiliza-se a seguinte fórmula:
+
+Nº de gotas/minuto = V ÷ (3 · t)
+(V = volume em ml; t = tempo em horas)
+
+Se um enfermeiro configurar um equipamento do soro para que desse saiam 30 gotas de soro por minuto, então, o tempo, em minutos, necessário para aplicar 1,8 litro de soro ao paciente é
+key: A
+a: 1,8 L = 1 800 ml. Então 30 = 1 800 ÷ (3t), logo 3t = 60 e t = 20 horas. Em minutos: 20 × 60 = 1 200.
+b: 1 800 é o volume em ml, não o tempo em minutos.
+c: 2 000 não resulta de nenhuma etapa correta do cálculo.
+d: 3 000 não resulta de nenhuma etapa correta; o tempo é 20 horas = 1 200 min.
+
+@R-2017-25
+sup: <table class="qt"><tr><th>Resultado</th><th>Situação</th></tr><tr><td>Abaixo de 17</td><td>Muito abaixo do peso</td></tr><tr><td>Entre 17 e 18,49</td><td>Abaixo do peso</td></tr><tr><td>Entre 18,5 e 24,99</td><td>Peso normal</td></tr><tr><td>Entre 25 e 29,99</td><td>Acima do peso</td></tr><tr><td>Entre 30 e 34,99</td><td>Obesidade I</td></tr><tr><td>Entre 35 e 39,99</td><td>Obesidade II (severa)</td></tr><tr><td>Acima de 40</td><td>Obesidade III (mórbida)</td></tr></table>
+stem: IMC é a sigla para Índice de Massa Corporal, que é a medida utilizada pela Organização Mundial de Saúde (OMS) para verificar a obesidade. O cálculo do IMC é feito dividindo o peso P (em quilogramas) pela altura H (em metros) ao quadrado: IMC = P ÷ H². A tabela a seguir serve para consulta de IMC.
+
+Uma pessoa de 1,5 m de altura estava com o IMC igual a 34, ou seja, obesidade I. Preocupada com seu peso, essa pessoa desenvolveu atividades de modo que, após 3 meses, ela emagreceu 5.500 g. Após calcular novamente seu IMC, ela percebeu que se encontrava na situação de
+key: A
+a: Peso inicial: 34 × 1,5² = 34 × 2,25 = 76,5 kg. Perdeu 5,5 kg: 71 kg. Novo IMC = 71 ÷ 2,25 ≈ 31,6, que continua entre 30 e 34,99: obesidade I.
+b: Peso normal exigiria IMC entre 18,5 e 24,99, o que pediria uma perda muito maior (mais de 20 kg).
+c: Acima do peso (25 a 29,99) exigiria IMC menor que 30, ou seja, peso abaixo de 67,5 kg; ela ficou em 71 kg.
+d: Abaixo do peso exigiria IMC entre 17 e 18,49; está muito distante.
+
+@R-2017-27
+key: B
+a: Com n = 6 o sistema não fecha: seria preciso d = 6 dias, e dispensar 2 operários não atrasaria só 2 dias.
+b: Seja d o prazo previsto. O trabalho total é n·d. Com 3 operários a mais: (n+3)(d−2) = nd, o que dá 3d = 2n + 6. Com 2 a menos: (n−2)(d+2) = nd, o que dá n = d + 2. Substituindo: 3d = 2(d+2) + 6, logo d = 10 e n = 12.
+c: Com n = 18 teríamos d = 16 na segunda condição, mas a primeira exigiria d = 14; incoerente.
+d: Com n = 24 as duas condições também não são satisfeitas ao mesmo tempo.
+
+@R-2019-22
+sup: <table class="qt"><tr><th>Embalagem</th><th>Volume (ml)</th><th>Valor (R$)</th></tr><tr><td>I</td><td>200</td><td>3,80</td></tr><tr><td>II</td><td>300</td><td>5,20</td></tr><tr><td>III</td><td>500</td><td>7,80</td></tr><tr><td>IV</td><td>800</td><td>11,20</td></tr></table>
+stem: Uma pessoa foi ao supermercado comprar o creme de leite de sua preferência e percebeu que o produto é vendido em quatro embalagens distintas. Os volumes e preços dessas embalagens estão representados no quadro (creme de leite).
+
+De acordo com esse quadro, a embalagem de creme de leite que proporciona o menor custo, por ml, é a
+key: D
+a: Custo por ml: 3,80 ÷ 200 = R$ 0,0190, o mais caro entre as quatro.
+b: 5,20 ÷ 300 ≈ R$ 0,0173, ainda maior que o da embalagem IV.
+c: 7,80 ÷ 500 = R$ 0,0156, menor que I e II, mas maior que IV.
+d: 11,20 ÷ 800 = R$ 0,0140 por ml, o menor valor entre as quatro.
+
+@R-2020-20
+o4: 40 < N1 < 120
+key: D
+a: N1 = 104, que não é menor que 60.
+b: N1 = 104 não é menor que 80.
+c: N1 = 104 não é menor que 100.
+d: Se a nota de Júlia é J e a de Marcos é M: J/8 = M/27 = k. Então J = 8k e M = 27k. J + M = 35k = 455, logo k = 13 e J = 104, que está em 40 < N1 < 120.
+
+@R-2022-28
+key: C
+a: R$ 10 000,00 é só a parte proporcional de Augusto (e a de Bernardo na proporcional seria o dobro disso); esquece-se da metade igualitária.
+b: R$ 12 500,00 não corresponde a nenhuma das duas partes combinadas.
+c: Metade do lucro (R$ 15 000) é dividida igualmente: R$ 7 500 para cada. A outra metade (R$ 15 000) é proporcional aos investimentos 40 000 : 80 000 = 1 : 2; Bernardo recebe 2/3 de 15 000 = R$ 10 000. Total de Bernardo: 7 500 + 10 000 = R$ 17 500.
+d: R$ 20 000,00 seria 2/3 do lucro total, ignorando que metade do lucro é repartida igualmente.
+
+@R-2022-31
+stem: A lei da gravitação universal, proposta por Isaac Newton no século XVII, explica alguns fenômenos naturais, como, por exemplo, o efeito das marés nos oceanos e o movimento dos planetas ao redor do Sol. Essa lei fornece a intensidade da força gravitacional F, entre dois corpos considerados, quando são relacionadas as suas massas M e m e a distância d entre os centros desses dois corpos, conforme representação matemática a seguir:
+
+F = G · (M · m) ÷ d²
+
+Nessa representação, G é uma constante. Considerando a força gravitacional calculada entre dois corpos a certa distância, quando se dobra a distância entre eles, a força gravitacional fica
+key: D
+a: Se a força aumentasse, a grandeza seria diretamente proporcional à distância; mas d está no denominador.
+b: A força não cai pela metade: a distância aparece ao quadrado.
+c: Dobrar a distância faz a força diminuir, não aumentar.
+d: F é inversamente proporcional ao quadrado de d. Com d' = 2d: F' = G·Mm ÷ (2d)² = F ÷ 4. A força fica quatro vezes menor.
+
+@R-2022-39
+stem: A densidade é uma propriedade específica de cada tipo de material. Objetos feitos com o mesmo material e estando sob as mesmas condições de temperatura e pressão, ainda que tenham formatos diferentes, possuem a mesma densidade. Matematicamente, a densidade (d) é obtida por meio da relação d = m ÷ v, onde m é a massa do objeto e v é o seu volume.
+
+A seguir, temos quatro sólidos maciços, todos feitos a partir de uma mesma substância e postos sob mesma pressão e temperatura, tendo, dessa forma, a mesma densidade:
+Objeto I: prisma reto de base quadrada e volume v1.
+Objeto II: cilindro circular reto de volume v2.
+Objeto III: prisma reto de base triangular e volume v3.
+Objeto IV: prisma reto de base retangular e volume v4.
+
+Sabendo-se que v3 < v4 < v1 < v2, o objeto que apresenta a maior massa é o
+key: B
+a: O objeto I tem o terceiro maior volume (v1 < v2), logo não tem a maior massa.
+b: Como d é constante, m = d · v: a massa é diretamente proporcional ao volume. O maior volume é v2 (cilindro), logo o objeto II tem a maior massa.
+c: O objeto III tem o menor volume (v3), portanto a menor massa.
+d: O objeto IV tem o segundo menor volume, logo massa menor que a de I e de II.
+
+@R-2023-32
+sup: <table class="qt"><tr><th colspan="2">Bolha de sabão</th></tr><tr><td>Glucose de milho</td><td>25 ml</td></tr><tr><td>Detergente</td><td>50 ml</td></tr><tr><td>Água</td><td>75 ml</td></tr></table>
+stem: Um estudante encontrou na internet a receita para produzir uma mistura para bolha de sabão, contendo a indicação da quantidade de cada um dos ingredientes (tabela).
+
+O estudante fará uma mistura com 420 ml de detergente, mantendo a proporção apresentada na receita. Assim, o volume total dos materiais utilizados, em ml, na mistura para bolha de sabão será igual a
+key: C
+a: 840 ml é só o dobro do detergente; a mistura tem também água e glucose.
+b: 1 000 não segue a proporção 25 : 50 : 75.
+c: A receita usa 25 + 50 + 75 = 150 ml para cada 50 ml de detergente. Com 420 ml de detergente, o fator é 420 ÷ 50 = 8,4 e o total é 8,4 × 150 = 1 260 ml.
+d: 1 500 ml corresponderia a ~500 ml de detergente, e não 420.
+
+@R-2023-35
+sup: <table class="qt"><tr><th>Jogador(a)</th><th>Tempo em quadra (min)</th><th>Valor a pagar (R$)</th></tr><tr><td>André</td><td>70</td><td>35,00</td></tr><tr><td>Bárbara</td><td>—</td><td>35,00</td></tr><tr><td>Cleiton</td><td>60</td><td>—</td></tr><tr><td>Daiane</td><td>40</td><td>—</td></tr></table>
+stem: Quatro amigos alugaram uma quadra de peteca por duas horas para jogarem entre si. O preço do aluguel era de R$ 60,00 por hora. Eles combinaram que o valor individual a ser pago ao fim do jogo seria proporcional à quantidade de minutos que cada um ficasse em quadra. O quadro, incompleto, mostra o tempo que cada jogador permaneceu efetivamente em quadra, e o respectivo valor que cada um deles deverá pagar.
+
+O valor proporcional a ser pago por Daiane, em relação ao valor total do aluguel de duas horas, corresponde, aproximadamente, a
+key: D
+a: 6,67% seria 8 reais de 120; não é o valor de Daiane.
+b: 13,33% seria R$ 16,00; Daiane ficou 40 min, que valem R$ 20,00.
+c: 15,15% não resulta da relação 20 ÷ 120.
+d: André pagou R$ 35,00 por 70 min, ou seja, R$ 0,50 por minuto. Daiane, com 40 min, paga R$ 20,00. O aluguel de 2 h custa R$ 120,00; 20 ÷ 120 ≈ 0,1667 = 16,66%.

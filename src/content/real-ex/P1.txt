@@ -1,0 +1,76 @@
+@R-2026-11
+sup: <p>Na esteira das abordagens europeias, os intelectuais brasileiros se voltaram para as manifestações culturais populares, particularmente por meio do estudo da literatura oral. Enquanto, na Europa, a definição de cultura popular como o saber tradicional de pessoas simples, iletradas, da área rural, estava associada à permanência de formas culturais livres de interferências estrangeiras e/ou estranhas, logo, como depositária de uma singularidade capaz de embasar uma identidade nacional, no Brasil se verificou empenho em fundar a identidade da jovem nação brasileira na mestiçagem, decorrente da interação de três raças – o índio, o negro e o branco – que compunham a população. Os primeiros estudos no país procuravam detectar as contribuições específicas de uma ou de outra raça para os contos, lendas, crenças e costumes, de modo a deslindar a composição mestiça preconizada. O movimento folclórico, como ficou conhecido o esforço dos intelectuais brasileiros nesse campo, preocupou-se em traçar os contornos iniciais de uma base conceitual e de uma categorização que acompanhassem o material coletado. A evolução do campo de estudos, durante o movimento modernista brasileiro, seguiu novas orientações e ampliou o repertório, incluindo músicas, ritmos, festejos, folguedos e rituais nas investigações empíricas que se estenderam por várias regiões do país.</p><p class="src">COSTA, Maria Elisabeth de Andrade. Cultura popular. In: REZENDE, Maria Beatriz et al. (Orgs.). Dicionário IPHAN de Patrimônio Cultural. Rio de Janeiro, Brasília: IPHAN/DAF/Copedoc, 2015 (verbete).</p><table class="qt"><tr><th>Relações semânticas</th><th>Ocorrências (expressões destacadas)</th></tr><tr><td>1. Relação de temporalidade</td><td>( ) “<b>Enquanto</b>, na Europa, a definição da cultura popular como saber tradicional […] no Brasil se verificou empenho em fundar a identidade jovem da nação brasileira na mestiçagem”</td></tr><tr><td>2. Relação de alternância</td><td>( ) “Os primeiros estudos no país procuravam detectar as contribuições específicas de <b>uma ou de outra</b> raça”</td></tr><tr><td>3. Relação de finalidade</td><td>( ) “<b>de modo a</b> deslindar a composição mestiça preconizada”</td></tr><tr><td>4. Relação de comparação</td><td>( ) “<b>como</b> ficou conhecido o esforço dos intelectuais brasileiros nesse campo”</td></tr><tr><td>5. Relação de conformidade</td><td>( ) “<b>durante</b> o movimento modernista brasileiro”</td></tr></table>
+stem: Associe as relações semânticas da primeira coluna às ocorrências das expressões destacadas na segunda.
+
+A sequência correta é
+o1: 5, 3, 2, 4, 1
+o2: 3, 4, 2, 1, 5
+o3: 4, 2, 3, 5, 1
+o4: 1, 2, 3, 5, 4
+key: C
+a: Começa com 5 (conformidade) para "Enquanto", mas essa conjunção opõe a Europa ao Brasil. Também liga "uma ou de outra" à finalidade, e a ocorrência com "ou" é de alternância.
+b: Começa com 3 (finalidade) para "Enquanto", o que não faz sentido: a conjunção não expressa objetivo, e sim contraste entre as duas realidades.
+c: "Enquanto" contrapõe Europa e Brasil, por isso é comparação (4). "uma ou de outra" indica alternância (2). "de modo a" introduz finalidade (3). "como ficou conhecido" equivale a "conforme ficou conhecido", conformidade (5). "durante o movimento" marca tempo, temporalidade (1). Sequência 4, 2, 3, 5, 1.
+d: Começa com 1 (temporalidade) para "Enquanto" e termina ligando "durante" à comparação. Mas "durante" indica tempo, e "enquanto" contrapõe as duas realidades.
+
+@R-2017-08
+o4: “A explicação me veio após a caminhada, lendo o jornal na padaria – também ela, aliás, repleta de meninos e meninas abduzidos por mais uma irresistível miçanga da informática”.
+key: A
+a: O trecho do enunciado critica o adolescente que prefere o celular à pessoa amada (“anticoncepcional”). “Monogamicamente entregues” usa a mesma metáfora amorosa: fidelidade exclusiva ao aparelho. As duas passagens se correspondem.
+b: Fala só da quantidade de jovens com os olhos na tela; não faz a relação com o amor ou o namoro, que é a ideia central do trecho.
+c: O autor imagina uma atividade escolar ao ver os grupos de jovens; é um engano, e não há ligação com a preferência do celular sobre a pessoa amada.
+d: Mostra a presença do celular em outro lugar (a padaria), mas sem a metáfora amorosa nem a ideia de substituir a pessoa amada.
+
+@R-2024-15
+sup: <p><b>Argumentos a favor e contra o uso de animais em pesquisas científicas</b></p><p>Ativistas invadiram um laboratório de pesquisas científicas e levaram 178 cães da raça beagle, além de sete coelhos por conta de <b>supostos</b> maus-tratos. O G1 ouviu cientistas e resumiu abaixo os principais argumentos usados no debate sobre o uso de animais em experimentos científicos.</p><table class="qt"><caption>Uso de animais em testes</caption><tr><th>Contra</th><th>A favor</th></tr><tr><td>Testes em laboratórios causam sofrimento, ferimentos e transtornos psicológicos nos animais. Há uma corrente de neurocientistas que <b>sugere</b> que animais não humanos, incluindo todos os mamíferos, aves, além dos polvos, possuem substratos neurológicos que geram a consciência e comportamentos intencionais, ou seja, eles sentem dor.</td><td>Os testes com animais são submetidos a comitês de ética. A <b>principal</b> ênfase é não causar sofrimento ou dor. O Conselho Nacional de Controle de Experimentação Animal (Concea) cria normas que <b>protegem</b> o bem-estar desses animais. O fim do uso de animais em testes no Brasil tornaria a ciência brasileira dependente da tecnologia externa.</td></tr></table><p class="src">Disponível em: https://g1.globo.com/ciencia-e-saude/debate-pesquisa-animais/platb/. Acesso em: 16 ago. 2023 (adaptado).</p>
+stem: Sobre os efeitos de sentido produzidos pelos adjetivos e verbos destacados na reportagem, é correto afirmar que
+o1: “sugere” poderia ser substituído por “comprova” sem alterar o sentido do texto.
+o2: “protegem” reforça a posição do portal de notícias de que os testes com animais foram extintos.
+o3: “supostos” indica que o portal de notícias não se compromete com a opinião dos ativistas de que os animais sofriam maus-tratos.
+o4: “principal” mostra a opção do portal de notícias em apoiar argumentos a favor do uso de animais em experimentos científicos.
+key: C
+a: "Sugere" indica hipótese (há uma corrente de neurocientistas que levanta a ideia); "comprova" afirmaria certeza, e a substituição mudaria o sentido.
+b: "Protegem" refere-se às normas do Concea, que regulam o uso dos animais; o texto não diz que os testes foram extintos (ao contrário, discute o fim deles como hipótese).
+c: "Supostos" significa "alegados, presumidos": o jornal reporta a acusação dos ativistas sem assumi-la como verdade.
+d: "Principal" aparece dentro da coluna "a favor", descrevendo a ênfase dos defensores dos testes. Não é a opinião do portal, que apresenta os dois lados.
+
+@R-2022-13
+key: B
+a: A pergunta do título é retórica: serve para atrair o leitor, e não para pedir que ele escreva uma resposta.
+b: O título "E se rolasse uma vacina contra a morte?" usa linguagem coloquial ("rolasse") e uma pergunta para aproximar-se do leitor e despertar a reflexão sobre o tema.
+c: O tom é informal e curioso, o contrário do tom professoral, que seria formal e autoritário.
+d: O título não questiona o conteúdo da notícia; ele apresenta o tema e o desenvolve no texto.
+
+@R-2022-17
+key: C
+a: O exemplo do 6 e do 9 não simplifica a tese do direito à opinião; ele a complexifica ao mostrar que as opiniões dependem de um referencial.
+b: O autor afirma que o pluralismo "deve ser sempre festejado"; a alternativa inverte a ideia do texto.
+c: O exemplo mostra que 6 ou 9 só faz sentido com um referencial (como a vaga de estacionamento). Assim, sustenta que o conhecimento do contexto é necessário para defender uma ideia.
+d: O texto não critica a existência de diferentes modos de ver; critica a "ignorância por esporte", isto é, a opinião sem referencial.
+
+@R-2022-18
+key: B
+a: O texto diz que há "resíduo de preconceito" herdado da escravidão, que se manifesta hoje de forma mais explícita; não afirma que o preconceito seja recente.
+b: O entrevistado diz que os brasileiros criaram mitos "para mascarar a importância do tema" na história. Isso é renegar ou esconder o passado escravagista.
+c: A ideia de escravidão patriarcal e benévola é a lenda que o autor refuta ("foi tão violenta quanto em qualquer outro lugar").
+d: A democracia racial também é apontada como mito, e o texto chama o Brasil de sociedade de castas.
+
+@R-2023-19
+key: A
+a: O artigo estabelece um dever ("É dever de todos velar...") e orienta condutas, que é a função do tipo injuntivo (instruções, ordens, normas).
+b: Não descreve características de um objeto ou ser; por isso, não é descritivo.
+c: Não explica nem informa sobre um conceito; por isso, não é expositivo.
+d: Não defende uma opinião com argumentos; por isso, não é argumentativo.
+
+@R-2024-14
+key: B
+a: Há menção a disciplinas: Letras, Sociologia e Antropologia.
+b: O texto não cita dados nem resultados de pesquisas. Essa é a estratégia que NÃO aparece e é a resposta da questão.
+c: Há alusão histórica: "O medo tem a idade da humanidade", "desde os primórdios", "séculos e séculos atrás".
+d: Há exemplificação: perguntas como "que barulho foi esse?", e as lendas e contos de assombração.
+
+@R-2017-07
+exclude: texto-base ausente na extração (precisa do texto original do caderno).
+
+@R-2022-15
+exclude: texto-base ausente na extração (precisa do fragmento original do caderno).

@@ -186,3 +186,66 @@ input[type="password"], input[type="text"], input[type="date"], input[type="numb
   .profile-toggle { flex-wrap: wrap; }
   .profile-toggle label { min-width: 45%; }
 }
+
+/* ===== Questões no padrão CEFET-MG (v3) ===== */
+.stem { white-space: pre-line; margin: 10px 0 14px; font-size: 1.02rem; line-height: 1.6; }
+.support {
+  background: #fafafd; border: 1px solid var(--border); border-left: 4px solid var(--primary);
+  border-radius: 10px; padding: 12px 14px; margin: 10px 0; font-size: 0.95rem; line-height: 1.6; overflow-x: auto;
+}
+.support p { margin: 0 0 8px; }
+.support p:last-child { margin-bottom: 0; }
+.support .src { color: var(--muted); font-size: 0.8rem; }
+.support:empty { display: none; }
+.support svg { max-width: 100%; height: auto; display: block; margin: 6px auto; }
+.support svg text { fill: #333; font-family: inherit; }
+table.qt { border-collapse: collapse; margin: 6px 0; font-size: 0.9rem; max-width: 100%; }
+table.qt th, table.qt td { border: 1px solid #cfd0e0; padding: 5px 9px; text-align: center; vertical-align: top; }
+table.qt th { background: #eeeefa; font-weight: 600; }
+table.qt caption { caption-side: top; text-align: left; font-size: 0.82rem; color: var(--muted); padding-bottom: 4px; }
+table.qt td:first-child { text-align: left; }
+.option-btn .opt-text { white-space: pre-line; }
+
+.qtag {
+  display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 2px 8px; border-radius: 999px;
+  margin-right: 6px; border: 1px solid var(--border); color: var(--muted); background: #fff;
+}
+.qtag.real { background: #eef1ff; color: var(--primary-dark); border-color: #cfd4ff; }
+.qtag.autoral { background: #f1faf4; color: var(--green); border-color: #cdebd7; }
+.qtag.obra { background: #fff6e0; color: var(--yellow); border-color: #f0dcaa; }
+.qtag.lvl1 { background: var(--green-bg); color: var(--green); border-color: #bfe5cc; }
+.qtag.lvl2 { background: var(--yellow-bg); color: var(--yellow); border-color: #f0dcaa; }
+.qtag.lvl3 { background: var(--red-bg); color: var(--red); border-color: #f0c4be; }
+
+.theory h4 { margin: 18px 0 6px; font-size: 1rem; color: var(--primary-dark); }
+.theory p { margin: 6px 0; }
+.theory ul { margin: 6px 0 10px; padding-left: 20px; }
+.theory li { margin: 3px 0; }
+.theory .tip {
+  background: var(--yellow-bg); border: 1px solid #f0dcaa; border-radius: 10px; padding: 10px 12px; margin: 10px 0; font-size: 0.93rem;
+}
+.theory .tip::before { content: "⚠️ Pegadinha da banca: "; font-weight: 700; }
+.theory table.qt td, .theory table.qt th { text-align: left; }
+
+.stat-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.stat { border: 1px solid var(--border); border-radius: 12px; padding: 12px; text-align: center; background: #fff; }
+.stat .n { font-size: 1.7rem; font-weight: 700; color: var(--primary); }
+.stat .l { font-size: 0.8rem; color: var(--muted); }
+
+.meter { position: relative; height: 14px; border-radius: 999px; background: var(--border); overflow: visible; margin: 14px 0 22px; }
+.meter > .fill { height: 100%; border-radius: 999px; background: var(--primary); }
+.meter > .goal { position: absolute; top: -5px; bottom: -5px; width: 2px; background: var(--green); }
+.meter > .goal span { position: absolute; top: 24px; left: -22px; font-size: 0.72rem; color: var(--green); white-space: nowrap; }
+
+.tier-title { margin: 18px 0 4px; font-size: 0.9rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.week-card { border-left: 5px solid var(--border); }
+.week-card.p1 { border-left-color: var(--primary); }
+.week-card.p2 { border-left-color: var(--orange); }
+.week-card.p3 { border-left-color: var(--green); }
+.week-card.now { box-shadow: 0 0 0 2px var(--primary) inset; }
+.chip { display: inline-block; padding: 2px 8px; margin: 2px 4px 2px 0; border: 1px solid var(--border); border-radius: 999px; font-size: 0.78rem; background: #fff; color: var(--text); }
+.chip:hover { border-color: var(--primary); text-decoration: none; }
+details.fold > summary { cursor: pointer; font-weight: 600; color: var(--primary); }
+.mode-card { border: 1px solid var(--border); border-radius: 12px; padding: 14px; background: #fff; }
+.mode-card h3 { margin-top: 0; }
+select.input, input.input { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: #fff; font-size: 0.92rem; }

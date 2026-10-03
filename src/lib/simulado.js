@@ -1,6 +1,14 @@
-// Lógica dos simulados cronometrados: seleção de questões respeitando o formato
-// real da prova (50 questões: 15 Português, 15 Matemática, 8 Ciências, 6
-// Geografia, 6 História, em 3 horas), correção e resumo de resultado.
+// Simulados no padrão CEFET-MG.
+//
+// Modos:
+//   completo — 50 questões (15 Port, 15 Mat, 8 Ciên, 6 Geo, 6 His), 180 min
+//   rapido   — 20 questões na mesma proporção da prova, 72 min
+//   materia  — 10/15/20 questões de uma só matéria, 3,6 min por questão
+//
+// A distribuição de questões por tópico segue a frequência histórica de cada
+// tópico nas provas 2016–2026 (themes.expected_per_exam), então o simulado
+// "cai" como a prova. Dentro do tópico, prefere questões que a Rayane ainda
+// não respondeu e mistura níveis N1/N2/N3 (≈ 25% / 50% / 25%).
 
 const { dbGet, dbAll, dbRun } = require('../db');
 const { scheduleNext } = require('./srs');
@@ -13,6 +21,8 @@ const FORMAT = [
   { slug: 'geografia', count: 6 },
   { slug: 'historia', count: 6 },
 ];
+const MINUTES_PER_QUESTION = 3.6;
+const LEVEL_WEIGHT = { 1: 1, 2: 2, 3: 1 };
 
 function shuffle(arr) {
   const a = arr.slice();
@@ -23,72 +33,120 @@ function shuffle(arr) {
   return a;
 }
 
-// Escolhe `count` questões de uma matéria, priorizando temas de maior
-// importância (a obra do ano e os temas de alta prioridade aparecem mais),
-// sem repetir questão dentro do mesmo simulado.
-async function pickQuestionsForSubject(subjectId, count) {
-  const themes = await dbAll('SELECT * FROM themes WHERE subject_id = ? ORDER BY priority_rank ASC', [subjectId]);
-  const weightedThemeIds = [];
-  themes.forEach((t) => {
-    let weight;
-    if (t.is_special) weight = 6;
-    else if (t.low_priority) weight = 1;
-    else weight = Math.max(1, themes.length - t.priority_rank + 2);
-    for (let i = 0; i < weight; i++) weightedThemeIds.push(t.id);
+// Distribui `total` unidades proporcionalmente a `weights` (método do maior resto).
+function allocate(weights, total) {
+  const sum = weights.reduce((a, b) => a + b, 0) || 1;
+  const raw = weights.map((w) => (w / sum) * total);
+  const base = raw.map(Math.floor);
+  let left = total - base.reduce((a, b) => a + b, 0);
+  const order = raw.map((r, i) => ({ i, frac: r - Math.floor(r) })).sort((a, b) => b.frac - a.frac);
+  for (let k = 0; k < left; k++) base[order[k % order.length].i]++;
+  return base;
+}
+
+function weightedPick(items, weightFn) {
+  const total = items.reduce((s, it) => s + weightFn(it), 0);
+  let r = Math.random() * total;
+  for (const it of items) {
+    r -= weightFn(it);
+    if (r <= 0) return it;
+  }
+  return items[items.length - 1];
+}
+
+// Escolhe `count` questões de uma matéria seguindo a frequência dos tópicos.
+async function pickQuestionsForSubject(user, subjectId, count) {
+  const themes = await dbAll(
+    'SELECT id, expected_per_exam, tier FROM themes WHERE subject_id = ? AND active = 1',
+    [subjectId]
+  );
+  const questions = await dbAll(
+    `SELECT q.id, q.theme_id, q.level,
+            EXISTS(SELECT 1 FROM attempts a WHERE a.user = ? AND a.question_id = q.id) AS seen
+     FROM questions q JOIN themes t ON t.id = q.theme_id
+     WHERE t.subject_id = ? AND q.active = 1 AND t.active = 1`,
+    [user, subjectId]
+  );
+  const byTheme = new Map();
+  questions.forEach((q) => {
+    if (!byTheme.has(q.theme_id)) byTheme.set(q.theme_id, []);
+    byTheme.get(q.theme_id).push(q);
   });
+  const usable = themes.filter((t) => (byTheme.get(t.id) || []).length > 0);
+  const quotas = allocate(usable.map((t) => t.expected_per_exam || 0.3), count);
 
   const selected = [];
   const used = new Set();
-  let guard = 0;
-  while (selected.length < count && guard < count * 40 && weightedThemeIds.length > 0) {
-    guard++;
-    const themeId = weightedThemeIds[Math.floor(Math.random() * weightedThemeIds.length)];
-    const excludeClause = used.size ? `AND id NOT IN (${[...used].join(',')})` : '';
-    const q = await dbGet(`SELECT * FROM questions WHERE theme_id = ? ${excludeClause} ORDER BY RANDOM() LIMIT 1`, [themeId]);
-    if (q) {
-      selected.push(q);
-      used.add(q.id);
+  const takeFrom = (pool, n) => {
+    // não vistas primeiro; dentro de cada grupo, sorteio ponderado por nível
+    for (const seen of [0, 1]) {
+      let cand = pool.filter((q) => !used.has(q.id) && Number(q.seen) === seen);
+      while (n > 0 && cand.length) {
+        const q = weightedPick(cand, (x) => LEVEL_WEIGHT[x.level] || 1);
+        selected.push(q);
+        used.add(q.id);
+        cand = cand.filter((x) => x.id !== q.id);
+        n--;
+      }
     }
+    return n;
+  };
+  let missing = 0;
+  usable.forEach((t, i) => {
+    missing += takeFrom(byTheme.get(t.id), quotas[i]);
+  });
+  if (missing > 0) {
+    // tópico sem questões suficientes: completa com os outros da mesma matéria
+    const rest = questions.filter((q) => !used.has(q.id));
+    takeFrom(rest, missing);
   }
-  if (selected.length < count) {
-    const excludeClause = used.size ? `AND q.id NOT IN (${[...used].join(',')})` : '';
-    const remaining = await dbAll(
-      `SELECT q.* FROM questions q JOIN themes t ON t.id = q.theme_id
-       WHERE t.subject_id = ? ${excludeClause} ORDER BY RANDOM() LIMIT ?`,
-      [subjectId, count - selected.length]
-    );
-    selected.push(...remaining);
-  }
-  return selected;
+  return selected.slice(0, count);
 }
 
-async function createSimulado(user) {
+function planFor(mode, subjects, opts) {
+  if (mode === 'materia') {
+    const slug = opts.subject;
+    const count = [10, 15, 20].includes(Number(opts.count)) ? Number(opts.count) : 15;
+    if (!subjects.some((s) => s.slug === slug)) throw new Error('Matéria inválida');
+    return { blocks: [{ slug, count }], total: count, minutes: Math.round(count * MINUTES_PER_QUESTION) };
+  }
+  if (mode === 'rapido') {
+    const counts = allocate(FORMAT.map((f) => f.count), 20);
+    return { blocks: FORMAT.map((f, i) => ({ slug: f.slug, count: counts[i] })), total: 20, minutes: 72 };
+  }
+  return { blocks: FORMAT, total: 50, minutes: DURATION_MINUTES };
+}
+
+async function createSimulado(user, opts = {}) {
+  const mode = ['completo', 'rapido', 'materia'].includes(opts.mode) ? opts.mode : 'completo';
   const subjects = await dbAll('SELECT * FROM subjects ORDER BY order_index ASC');
   const subjectBySlug = {};
   subjects.forEach((s) => { subjectBySlug[s.slug] = s; });
+  const plan = planFor(mode, subjects, opts);
+
+  // sorteia primeiro (se faltar questão, falha antes de criar o simulado)
+  const picks = [];
+  for (const block of plan.blocks) {
+    const subject = subjectBySlug[block.slug];
+    if (!subject || block.count === 0) continue;
+    const picked = shuffle(await pickQuestionsForSubject(user, subject.id, block.count));
+    picked.forEach((q) => picks.push({ q, subject }));
+  }
+  if (picks.length === 0) throw new Error('Não há questões suficientes para este simulado.');
 
   const info = await dbRun(
-    `INSERT INTO simulados (user, time_limit_seconds, total_questions, status)
-     VALUES (?, ?, ?, 'em_andamento')`,
-    [user, DURATION_MINUTES * 60, 50]
+    `INSERT INTO simulados (user, time_limit_seconds, total_questions, status, mode)
+     VALUES (?, ?, ?, 'em_andamento', ?)`,
+    [user, Math.round(plan.minutes * 60), picks.length, mode]
   );
   const simuladoId = info.lastInsertRowid;
-
   let orderIndex = 0;
-  for (const block of FORMAT) {
-    const subject = subjectBySlug[block.slug];
-    if (!subject) continue;
-    const picked = shuffle(await pickQuestionsForSubject(subject.id, block.count));
-    for (const q of picked) {
-      await dbRun(
-        `INSERT INTO simulado_questions (simulado_id, question_id, subject_id, order_index)
-         VALUES (?, ?, ?, ?)`,
-        [simuladoId, q.id, subject.id, orderIndex]
-      );
-      orderIndex++;
-    }
+  for (const p of picks) {
+    await dbRun(
+      `INSERT INTO simulado_questions (simulado_id, question_id, subject_id, order_index) VALUES (?, ?, ?, ?)`,
+      [simuladoId, p.q.id, p.subject.id, orderIndex++]
+    );
   }
-
   return simuladoId;
 }
 
@@ -100,10 +158,11 @@ async function getOngoingSimulado(user) {
   return dbGet("SELECT * FROM simulados WHERE user = ? AND status = 'em_andamento' ORDER BY id DESC LIMIT 1", [user]);
 }
 
+// Durante a prova NÃO mostramos origem, nível nem gabarito (como na prova real).
 async function getSimuladoQuestionsForTaking(simuladoId) {
   return dbAll(
     `SELECT sq.id AS sq_id, sq.order_index, sq.selected_option, sq.subject_id,
-            q.id AS question_id, q.stem, q.option_a, q.option_b, q.option_c, q.option_d,
+            q.id AS question_id, q.stem, q.support_html, q.option_a, q.option_b, q.option_c, q.option_d,
             s.name AS subject_name
      FROM simulado_questions sq
      JOIN questions q ON q.id = sq.question_id
@@ -122,15 +181,10 @@ function secondsRemaining(simulado) {
 
 async function answerQuestion(simuladoId, sqId, selectedOption) {
   await dbRun('UPDATE simulado_questions SET selected_option = ? WHERE id = ? AND simulado_id = ?', [
-    selectedOption,
-    sqId,
-    simuladoId,
+    selectedOption, sqId, simuladoId,
   ]);
 }
 
-// Corrige o simulado inteiro, registra cada questão respondida em `attempts`
-// (para entrar nas estatísticas de domínio e na fila de revisão espaçada,
-// igual a uma questão praticada normalmente) e marca o simulado como finalizado.
 async function finishSimulado(simuladoId, user) {
   const simulado = await getSimulado(simuladoId, user);
   if (!simulado || simulado.status !== 'em_andamento') return simulado;
@@ -150,7 +204,6 @@ async function finishSimulado(simuladoId, user) {
     if (isCorrect) correctCount++;
 
     await dbRun('UPDATE simulado_questions SET is_correct = ? WHERE id = ?', [isCorrect, row.id]);
-
     await dbRun(
       `INSERT INTO attempts (user, question_id, theme_id, selected_option, is_correct, source)
        VALUES (?, ?, ?, ?, ?, 'simulado')`,
@@ -163,10 +216,7 @@ async function finishSimulado(simuladoId, user) {
     const nextStreak = isCorrect ? (existing ? existing.correct_streak + 1 : 1) : 0;
     if (existing) {
       await dbRun('UPDATE srs_queue SET stage = ?, next_review_at = ?, correct_streak = ? WHERE id = ?', [
-        nextStage,
-        nextReviewAt,
-        nextStreak,
-        existing.id,
+        nextStage, nextReviewAt, nextStreak, existing.id,
       ]);
     } else {
       await dbRun(
@@ -177,11 +227,14 @@ async function finishSimulado(simuladoId, user) {
   }
 
   await dbRun("UPDATE simulados SET finished_at = datetime('now'), correct_count = ?, status = 'finalizado' WHERE id = ?", [
-    correctCount,
-    simuladoId,
+    correctCount, simuladoId,
   ]);
-
   return getSimulado(simuladoId, user);
+}
+
+function bump(map, key, label, extra = {}) {
+  if (!map[key]) map[key] = { key, label, total: 0, correct: 0, answered: 0, ...extra };
+  return map[key];
 }
 
 async function getResultSummary(simuladoId, user) {
@@ -189,28 +242,45 @@ async function getResultSummary(simuladoId, user) {
   if (!simulado) return null;
 
   const rows = await dbAll(
-    `SELECT sq.*, q.stem, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option,
+    `SELECT sq.*, q.stem, q.support_html, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option,
             q.explanation_correct, q.explanation_a, q.explanation_b, q.explanation_c, q.explanation_d,
-            s.name AS subject_name, s.slug AS subject_slug
+            q.source_note, q.level, q.origin, q.format,
+            s.name AS subject_name, s.slug AS subject_slug, t.name AS theme_name, t.code AS theme_code, t.tier AS theme_tier
      FROM simulado_questions sq
      JOIN questions q ON q.id = sq.question_id
      JOIN subjects s ON s.id = sq.subject_id
+     JOIN themes t ON t.id = q.theme_id
      WHERE sq.simulado_id = ?
      ORDER BY sq.order_index ASC`,
     [simuladoId]
   );
 
-  const bySubject = {};
+  const bySubjectMap = {};
+  const byThemeMap = {};
+  const byLevelMap = {};
   for (const r of rows) {
-    if (!bySubject[r.subject_slug]) {
-      bySubject[r.subject_slug] = { name: r.subject_name, total: 0, correct: 0, answered: 0 };
-    }
-    bySubject[r.subject_slug].total++;
-    if (r.selected_option) bySubject[r.subject_slug].answered++;
-    if (r.is_correct) bySubject[r.subject_slug].correct++;
+    const groups = [
+      bump(bySubjectMap, r.subject_slug, r.subject_name),
+      bump(byThemeMap, r.theme_code, r.theme_name, { subject: r.subject_name, tier: r.theme_tier }),
+      bump(byLevelMap, String(r.level), `Nível N${r.level}`),
+    ];
+    groups.forEach((g) => {
+      g.total++;
+      if (r.selected_option) g.answered++;
+      if (r.is_correct) g.correct++;
+    });
   }
+  const byTheme = Object.values(byThemeMap).sort((a, b) => (a.correct / a.total) - (b.correct / b.total) || b.total - a.total);
+  const projected = simulado.total_questions ? Math.round((simulado.correct_count / simulado.total_questions) * 50 * 10) / 10 : 0;
 
-  return { simulado, rows, bySubject: Object.values(bySubject) };
+  return {
+    simulado,
+    rows,
+    bySubject: Object.values(bySubjectMap),
+    byTheme,
+    byLevel: Object.values(byLevelMap).sort((a, b) => a.key.localeCompare(b.key)),
+    projected,
+  };
 }
 
 async function getHistory(user) {
@@ -219,6 +289,8 @@ async function getHistory(user) {
 
 module.exports = {
   DURATION_MINUTES,
+  FORMAT,
+  allocate,
   createSimulado,
   getSimulado,
   getOngoingSimulado,

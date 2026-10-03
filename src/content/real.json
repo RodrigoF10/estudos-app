@@ -1,0 +1,3504 @@
+[
+{
+"id": "R-2016-17",
+"year": 2016,
+"num": 17,
+"topic": "M02",
+"level": 2,
+"format": "cálculo",
+"gab": "B",
+"stem": "Em uma empresa, 10 funcionários produzem 150 peças em 30 dias úteis. O número de funcionários que a empresa vai precisar para produzir 200 peças, em 20 dias úteis, é igual a",
+"o": [
+"18.",
+"20.",
+"22.",
+"24."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2016-20",
+"year": 2016,
+"num": 20,
+"topic": "M02",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "Na área de enfermagem, o cálculo do gotejamento do soro é necessário para que se possa ter uma previsão do horário em que se deve verificar a quantidade de soro recebida pelo paciente. Para esse cálculo, utiliza-se a seguinte fórmula:\n\nV (V, volume em ml) Nº de gotas/minuto =                          . 3t (t, tempo em horas)\n\nDisponível em: <http://cuidartenfermagem.blogspot.com.br/2011/04/calculo-degotejamento-de-soro.html>. (Adaptado. Acesso em: 08 out. 2015)\n\nSe um enfermeiro configurar um equipamento do soro para que desse saiam 30 gotas de soro por minuto, então, o tempo, em minutos, necessário para aplicar 1,8 litros de soro ao paciente é",
+"o": [
+"1200.",
+"1800.",
+"2000.",
+"3000."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2016-21",
+"year": 2016,
+"num": 21,
+"topic": "M08",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "O saldo S de uma empresa A é calculado em função do tempo t, em meses, pela equação S(t) = 3t 2 – 39t + 66.\n\nConsiderando essa função, o saldo da empresa é negativo entre o",
+"o": [
+"2º e o 11º mês.",
+"4º e o 16º mês.",
+"1º e 4º e entre o 5º do 16º mês.",
+"2º e 5º e entre o 7º do 14º mês."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2016-26",
+"year": 2016,
+"num": 26,
+"topic": "M05",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Considere os conjuntos X e Y definidos por\n\nX = {x∈IN / x é múltiplo de 3} e Y = {y∈Z / y é divisor de 84}.\n\nSobre o conjunto A = X∩Y, é correto afirmar que",
+"o": [
+"se n∈A então (-n)∈A.",
+"o conjunto A possui 4 elementos.",
+"o menor elemento do conjunto A é o zero.",
+"o maior elemento do conjunto A é divisível por 7."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2016-33",
+"year": 2016,
+"num": 33,
+"topic": "C05",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "C",
+"stem": "Para verificar se uma pessoa está febril, pode-se usar um termômetro clínico de uso doméstico que consiste em um líquido como o mercúrio colocado dentro de um tubo de vidro graduado, fechado em uma das extremidades e com uma escala indicando os valores de temperatura. Em seguida, coloca-se o termômetro debaixo da axila e aguardam-se alguns minutos para fazer a leitura.\n\nAs afirmativas a seguir referem-se ao funcionamento do termômetro.\n\nI- A temperatura marcada no termômetro coincidirá com a tempe- ratura de ebulição do mercúrio do dispositivo.\n\nII- A temperatura marcada na escala do termômetro está relacio- nada com a dilatação térmica do mercúrio.\n\nIII- O tempo de espera citado acima refere-se ao tempo necessário para que se atinja o equilíbrio térmico entre o paciente e o ter- mômetro.\n\nIV- Se a substância do mesmo termômetro for trocada por álcool, a temperatura indicada será a mesma.\n\nAs afirmativas corretas são",
+"o": [
+"I e II.",
+"I e IV.",
+"II e III.",
+"III e IV."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2016-34",
+"year": 2016,
+"num": 34,
+"topic": "C05",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "C",
+"stem": "Analise as afirmações a seguir e assinale (V) para as verdadeiras ou (F) para as falsas.\n\n( ) Ao segurar um corrimão de madeira e outro de metal, ambos à mesma temperatura, tem-se a sensação de que a madeira está mais quente porque ela conduz melhor o calor.\n\n( ) Uma geladeira funcionando dentro de uma cozinha, sempre causará o aquecimento do ambiente.\n\n( ) Considere dois materiais diferentes, de mesma massa e à mes- ma temperatura. Para que eles sejam aquecidos até atingirem uma mesma temperatura final, a quantidade de calor necessá- ria será a mesma.\n\n( ) Considere dois materiais iguais, de volumes diferentes e à mes- ma temperatura. Para que eles sejam aquecidos até atingirem uma mesma temperatura final, a quantidade de calor necessá- ria será a mesma.\n\nA sequência correta encontrada é",
+"o": [
+"F, F, V, V.",
+"V, V, F, F.",
+"F, V, F, F.",
+"V, F, F, V."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2016-35",
+"year": 2016,
+"num": 35,
+"topic": "C09",
+"level": 1,
+"format": "direta",
+"gab": "C",
+"stem": "Considere uma situação em que há um alinhamento perfeito entre o Sol, a Terra e a Lua com o centro dos três astros formando uma linha reta. Nesse caso, é possível observar a partir __________, o fenômeno chamado __________ quando __________ se encontra entre __________ e __________.\n\nA opção que contém os termos que completam corretamente as lacunas acima é a letra",
+"o": [
+"da Lua, eclipse solar, a Lua, o Sol, a Terra.",
+"da Terra, eclipse solar, a Terra, a Lua, o Sol.",
+"da Terra, eclipse lunar, a Terra, a Lua, o Sol.",
+"da Lua, eclipse terrestre, a Terra, o Sol, a Lua."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2016-39",
+"year": 2016,
+"num": 39,
+"topic": "C04",
+"level": 1,
+"format": "direta",
+"gab": "C",
+"stem": "Observe a equação química a seguir:\n\nC2H4            +            H2       →    C2H6 (28 g)                      (2 g)           (30g)\n\nA comparação entre as massas do produto e dos reagentes relaciona-se à Lei de",
+"o": [
+"Bohr.",
+"Dalton.",
+"Lavoisier.",
+"Rutherford."
+],
+"support": "equação química"
+},
+{
+"id": "R-2016-40",
+"year": 2016,
+"num": 40,
+"topic": "C03",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "A",
+"stem": "Sobre as propriedades do íon sulfeto ( 16 S2-) , marque (V) para ver-\n\ndadeiro ou (F) para falso.\n\n( ) Contém 14 elétrons.\n\n( ) Contém 16 nêutrons.\n\n( ) Apresenta massa atômica igual a 30.\n\n( ) Apresenta número atômico igual a 18.\n\nA sequência correta é:",
+"o": [
+"F, V, F, F.",
+"F, F, V, F.",
+"F, F, V, V.",
+"V, V, F, F."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2016-41",
+"year": 2016,
+"num": 41,
+"topic": "C03",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "Utilizando-se a Tabela Periódica dos Elementos, é possível identificar determinadas substâncias encontradas na natureza.\n\nConsidere uma substância com as seguintes características:\n\nI- Simples\n\nII- Diatômica\n\nIII- Presente na atmosfera\n\nIV- Constituída por átomos da coluna ou família VI A (calcogênios)\n\nEssa substância corresponde ao gás",
+"o": [
+"CO2.",
+"N2.",
+"O3.",
+"O2."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2016-43",
+"year": 2016,
+"num": 43,
+"topic": "C12",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "A maioria dos recifes de coral em climas temperados conse- gue suportar temperaturas de até 29oC antes de branquea- rem – processo em que corais expelem as algas simbióticas que vivem em seus tecidos, tornando-se vulneráveis a doen- ças e morte. Corais nos recifes do Golfo Pérsico, no entanto, tipicamente toleram temperaturas de até 36ºC durante o ve- rão, já que possuem mecanismos genéticos que os ajudam a sobreviver a essas temperaturas extremas.\n\nDisponível em: <http://www2.uol.com.br>. (Adaptado). Acesso em: 08 set. 2015.\n\nUm alerta de um evento global de branqueamento devido ao aquecimento das águas fez com que cientistas discutissem a reprodução cruzada de corais do Golfo com aqueles de climas temperados, uma vez que esse método poderia",
+"o": [
+"reverter o aquecimento das águas.",
+"produzir descendentes termorresistentes.",
+"substituir os corais de climas temperados.",
+"transferir características entre um coral e outro."
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2016-44",
+"year": 2016,
+"num": 44,
+"topic": "C11",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Depois de uma refeição, a circulação sanguínea aumenta na região abdominal auxiliando no processo de digestão. Muita gente pensa que o banho de chuveiro frio após comer muito pode fazer mal, mas na verdade não é bem assim! O banho de chuveiro pode se tornar perigoso após uma refeição caso a água esteja muito quente, uma vez que isso faz com que parte desse sangue que irrigava a região abdominal, seja des- viado para a pele, retardando o tempo de digestão.\n\nDisponível em: < http://diariodebiologia.com>. (Adaptado). Acesso em: 08 set. 2015.\n\nO desvio de sangue para a pele durante um banho quente tem por finalidade",
+"o": [
+"resfriar a água do chuveiro.",
+"provocar uma sensação de saciedade.",
+"conduzir nutrientes para as células da pele.",
+"promover a liberação de calor para o ambiente."
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2016-45",
+"year": 2016,
+"num": 45,
+"topic": "C12",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "Na Alemanha, foi inventado um tijolo ecológico que absorve CO2 para ser utilizado em pisos de estacionamentos a fim de reduzir a poluição. Os organismos que realizam processo similar, garantindo sua sobrevivência, são as(os)",
+"o": [
+"fungos.",
+"plantas.",
+"animais.",
+"bactérias."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2016-47",
+"year": 2016,
+"num": 47,
+"topic": "C11",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "Os mamíferos aquáticos marinhos podem ficar submersos por muito tempo, devido a várias adaptações do sistema respiratório e circulatório. A baleia cachalote, por exemplo, pode ficar submersa por mais de uma hora. Quando o ani- mal está na superfície, o ar entra pelo orifício respiratório, e, assim que mergulha, o orifício é fechado, evitando que o animal se afogue. Algumas espécies conseguem aproveitar quase todo o ar inalado e nos cetáceos (baleias e golfinhos) o sangue é mais escuro que o sangue humano.\n\nDisponível em: <noticias.uol.com.br>. (Adaptado). Acesso em: 08 set. 2015.\n\nO aproveitamento citado só é possível devido",
+"o": [
+"à abundância de hemoglobina.",
+"à presença de bexiga natatória.",
+"aos batimentos cardíacos acelerados.",
+"ao excesso de oxigênio ao nível do mar."
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2016-48",
+"year": 2016,
+"num": 48,
+"topic": "C12",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Os chips de computador são fabricados em salas ultralimpas com tecnologia de ponta, onde a qualidade do ar é rigida- mente controlada. No Japão, devido à queda neste merca- do, algumas empresas pararam de fabricar esses produtos e resolveram produzir verduras. O cultivo de verduras nessas salas dispensa o uso de agrotóxicos e uma alface, depois de colhida, dura até três semanas, bem mais do que a alface comum. Além disso, os vegetais dessas salas possuem menos potássio e um sabor mais adocicado.\n\nRodrigues, A. C. Disponível em: <http://super.abril.com.br>. (Adaptado). Acesso em: 31 jul. 2015.\n\nA conservação do alimento mencionada ocorre devido à",
+"o": [
+"diminuição do potássio no vegetal.",
+"eliminação dos agrotóxicos do processo.",
+"concentração elevada de açúcar na planta.",
+"redução dos micro-organismos deterioradores. GEOGRAFIA"
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2016-50",
+"year": 2016,
+"num": 50,
+"topic": "G07",
+"level": 3,
+"format": "NÃO/incorreta",
+"gab": "D",
+"stem": "Leia o fragmento a seguir:\n\nA crescente globalização econômica e essa aparente direção rumo a um mundo economicamente tripolar, não impedem que se manifestem também “n” outros indicadores represen- tativos mais de desordem [do que ordem]\n\nHAESBAERT & PORTO-GONÇALVES. A nova desordem mundial. São Paulo: UNESP, 2006. p.46.\n\nNo contexto da (des)ordem gerada pela globalização econômica, é INCORRETO afirmar que ela está expressa no(a)",
+"o": [
+"Grécia, com sua elevada dívida externa.",
+"Brasil, com as flutuações nas bolsas de valores.",
+"Venezuela, com a crise de desabastecimento atual.",
+"China, com a valorização crescente da moeda frente ao dólar."
+],
+"support": "texto acadêmico"
+},
+{
+"id": "R-2016-51",
+"year": 2016,
+"num": 51,
+"topic": "G04",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "B",
+"stem": "A partir da distribuição geográfica dos principais desertos do planeta, afirma-se que eles:\n\nI- Apresentam biodiversidade fitogeográfica reduzida.\n\nII- São influenciados diretamente pelos efeitos da longitude.\n\nIII- Caracterizam-se por apresentarem baixas amplitudes térmicas.\n\nIV- Estão associados à dinâmica de circulação atmosférica.\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I e III",
+"I e IV.",
+"II e III.",
+"II e IV."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2016-55",
+"year": 2016,
+"num": 55,
+"topic": "H08",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "“A Segunda Guerra Mundial mal terminara quando a huma- nidade mergulhou no que se pode encarar, razoavelmente, como uma Terceira Guerra Mundial, embora uma guerra mui- to peculiar. A Guerra Fria entre EUA e URSS que dominou o cenário internacional na segunda metade do Breve Século XX foi sem dúvida um desses períodos. Gerações inteiras se criaram à sombra de batalhas nucleares globais que, acredi- tava-se firmemente, podiam estourar a qualquer momento, e devastar a humanidade. Não aconteceu, mas por cerca de quarenta anos pareceu uma possibilidade diária.”\n\nAdaptado de: HOBSBAWM, E. J. Era dos extremos: o breve século XX 1914-1991. São Paulo: Companhia das Letras, 1995. p.224.\n\nSobre esse contexto histórico, pode-se afirmar que",
+"o": [
+"a corrida armamentista produziu a possibilidade de o mundo autodestruir-se algumas vezes.",
+"a Guerra Fria evitou as guerras regionais, pois impedia o embate aberto e o uso armas nucleares.",
+"os testes nucleares geraram a sensação de que tais armas dificil- mente seriam usadas em uma guerra efetiva.",
+"as duas superpotências dividiram o mundo em áreas de influên- cia que permaneceram intocáveis durante o período."
+],
+"support": "texto acadêmico"
+},
+{
+"id": "R-2016-56",
+"year": 2016,
+"num": 56,
+"topic": "H04",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "“No quadro geral de emergência de regimes totalitários e au- toritários, tanto na Europa do Leste como na Europa ociden- tal, é possível apontar alguns regimes com direta influência na organização do Estado Novo e na construção de sua ide- ologia. Chovendo no molhado, lembro, por exemplo, que a moldura sindical do Estado Novo teve forte influência da Car- ta del Lavoro, vigente na Itália de Mussolini, e que as técnicas de propaganda estado-novistas foram muito influenciadas pelo exemplo nazifascista.”\n\nAdaptado de: FAUSTO, Boris. O Estado Novo no contexto internacional. In PANDOLFI, Dulce Chaves; FUNDAÇÃO GETULIO VARGAS. Repensando o Estado Novo. Rio de Janeiro: Editora FGV, 1999, p. 18.\n\nTendo em vista a citação pode-se afirmar que",
+"o": [
+"a solução brasileira para a crise econômica que se espalhou pelo mundo ao longo dos anos de 1930 foi pioneira.",
+"o projeto estado-novista buscava a modernização do país se- guindo modelos importados, como garantia aos direitos políti- cos e civis.",
+"a política trabalhista do período reforçava o antagonismo entre trabalhadores e empresários, prática influenciada pelo governo italiano.",
+"o limite do liberalismo ficou evidente a partir de 1929, o que gerou um projeto que primava pelo autoritarismo político e pela intervenção do Estado na economia."
+],
+"support": "texto acadêmico"
+},
+{
+"id": "R-2016-58",
+"year": 2016,
+"num": 58,
+"topic": "H01",
+"level": 3,
+"format": "NÃO/incorreta",
+"gab": "D",
+"stem": "“Após a Independência, o governo brasileiro encontrava-se em uma situação complicada. Afora vozes isoladas, não ape- nas os grandes proprietários e traficantes, como toda a po- pulação livre, estavam convencidos de que o fim do tráfico de escravos, a curto prazo, provocaria um colapso na sociedade brasileira. No entanto, a Inglaterra, país de quem dependia, pressionava cada vez mais em sentido contrário”. Apesar da dependência brasileira, a extinção do tráfico de escravos foi um longo processo de desavenças e acordos entre Brasil e Inglaterra.”\n\nFAUSTO, Boris. História do Brasil. São Paulo: EDUSP, 2007, p. 192.\n\nDentre os fatores que contribuíram para a extinção do tráfico de escravos, é INCORRETO afirmar que",
+"o": [
+"a Lei Eusébio de Queiros, de setembro de 1850, reconhecia que o tráfico equivalia à pirataria.",
+"o endividamento dos fazendeiros forçou a hipoteca de suas ter- ras como pagamento aos traficantes.",
+"a Lei de Terras, aprovada em 1850, estipulava que os imigrantes não poderiam se tornar proprietários fundiários.",
+"a diminuição do tráfico transatlântico resultou no deslocamento de escravos da região mineradora para suprir as necessidades de cativos na lavoura açucareira."
+],
+"support": "texto acadêmico"
+},
+{
+"id": "R-2016-59",
+"year": 2016,
+"num": 59,
+"topic": "H06",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "As mudanças econômicas e políticas ocorridas na Europa explicariam a formação de impérios coloniais no final do século XIX. As transformações advindas da crise de 1873 (concentração de capital, monopólios e imperialismo) e os nacionalismos, explicariam a presença das potências europeias nos continentes africano e asiático.\n\nDentre os resultados da presença europeia nos dois continentes, ocorreu a",
+"o": [
+"manutenção de estruturas tradicionais nas colônias, cujo artesa- nato secular foi incentivado e muitas vezes aperfeiçoado.",
+"efetivação dos direitos sociais e civis para as populações tra- dicionais em função do desenvolvimento industrial nos países dominados.",
+"aceitação passiva da população nativa das novas técnicas e co- nhecimentos que permitiram a melhoria das condições de vida nas colônias.",
+"destruição, em países africanos, de estruturas tradicionais como a propriedade coletiva do solo, bem como a imposição de traba- lhos forçados e o pagamento de impostos."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2016-60",
+"year": 2016,
+"num": 60,
+"topic": "H08",
+"level": 2,
+"format": "NÃO/incorreta",
+"gab": "A",
+"stem": "O período entreguerras (1918-1939) foi marcado pela radicalização política. Naquele contexto, para vários países, a ditadura parecia a solução para uma nação forte, próspera e livre de agitações sociais. Para outros, a democracia liberal era o caminho a seguir.\n\nDentre os eventos ocorridos no período, é INCORRETO afirmar que",
+"o": [
+"na Itália, a crise econômica e social foi solucionada pelo fortale- cimento das instituições democráticas, que viabilizaram o cres- cimento industrial.",
+"a Espanha foi assolada pela guerra civil marcada pelo confronto entre o governo da república e os setores conservadores, lidera- dos pelo general Franco.",
+"na Inglaterra, do ponto de vista social, os problemas econômi- cos geraram oposições ao sistema político vigente, mas a demo- cracia liberal foi mantida.",
+"em Portugal, o governo de Salazar rejeitava o liberalismo, o so- cialismo e a democracia, apoiando-se no nacionalismo, no cato- licismo e nas grandes corporações. Centro Federal de Educação Tecnológica de Minas Gerais Educação Profissional Técnica Integrada de Nível Médio Quadro de Respostas (rascunho) Português Matemática Ciências Geografia 08. A B C D 23. A B C D 38. A B C D História 46. A B C D 47. A B C D 48. A B C D - Tanto as questões quanto o gabarito das provas serão disponibilizados na Internet, no dia 22 de novembro de 2015, a partir das 20 horas. - O resultado oficial será publicado no dia 04 de dezembro de 2015, a partir das 17 horas, no endereço eletrônico da Copeve: www.copeve.cefetmg.br - As informações sobre matrícula devem ser consultadas no Edital. - O candidato que sair com o Caderno de Provas e/ou com a Folha de Respostas do local de aplicação de provas será automaticamente eliminado do Processo Seletivo."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2017-07",
+"year": 2017,
+"num": 7,
+"topic": "PT08",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Levando em consideração as estratégias de escrita e o gênero, o texto caracteriza-se pela",
+"o": [
+"explicitação dos interlocutores, buscando a representação da perspectiva dos leitores.",
+"utilização de exemplificações, tendo em vista os propósitos di- dáticos da abordagem ao tema.",
+"referência intertextual, criticando a ausência de um olhar poé- tico sobre a contemporaneidade.",
+"voz em primeira pessoa, expressando um ponto de vista parti- cular sobre elementos do cotidiano."
+],
+"support": "texto jornalístico (crônica)"
+},
+{
+"id": "R-2017-08",
+"year": 2017,
+"num": 8,
+"topic": "PT03",
+"level": 3,
+"format": "direta",
+"gab": "A",
+"stem": "Releia o trecho:\n\n“Acho que alguma coisa não vai bem quando, em pleno fogaréu hormonal da adolescência, você prefere digitar as teclas do celular em vez das prendas tão apetecíveis da pes- soa amada. Será esse absorvente aparelho um novo tipo de anticoncepcional? (4º parágrafo)\n\nAs informações presentes nessa passagem encontram correspondências nas impressões que o autor manifesta no trecho:",
+"o": [
+"“[...] não havia, no parque, mais que meia dúzia de adolescen- tes que não estivessem monogamicamente entregues à mani- pulação de seu celular”.",
+"“Nem precisava, na verdade, ser minimamente arguto para constatar que dezenas, talvez centenas de jovens [...] tinham os olhos cravados na telinha do smartphone.",
+"“Como a galera, aqui e ali, se organizava em rodinhas, cheguei a imaginar que professores de um colégio houvessem progra- mado para o dia alguma atividade ao ar livre”.",
+"“A explicação me veio após a caminhada, lendo o jornal na padaria – também ela, aliás, repleta de meninos e meninas abduzidos por mais uma irresistível miçanga da informática”. As questões de (09) a (15) referem-se ao livro Ouro dentro da cabeça, de Maria Valéria Rezende."
+],
+"support": "texto jornalístico (crônica)"
+},
+{
+"id": "R-2017-18",
+"year": 2017,
+"num": 18,
+"topic": "M03",
+"level": 2,
+"format": "cálculo",
+"gab": "B",
+"stem": "Ao entrar na sala de aula, um aluno perguntou ao seu professor de Matemática que horas eram. O professor então respondeu: desde que começou este dia, as horas que já se passaram excedem as que faltam transcorrer em 3 horas e 16 minutos. Assim, a hora em que o aluno fez a pergunta ao professor é",
+"o": [
+"12h 36 min.",
+"13h 38 min.",
+"14h 38 min.",
+"15h 16 min."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2017-19",
+"year": 2017,
+"num": 19,
+"topic": "M01",
+"level": 1,
+"format": "cálculo",
+"gab": "B",
+"stem": "Por regulamentação federal, uma pessoa pode comprometer até 30% de seu salário bruto mensal com empréstimos consignados em folha (empréstimos cujo pagamento das prestações é descontado no salário). Uma pessoa com salário bruto mensal de R$ 2.800,00 já tem comprometido 25% desse valor em prestação mensal e deseja utilizar todos os 5% restantes em um novo empréstimo. O valor dessa nova prestação, em reais, é",
+"o": [
+"70,00.",
+"140,00.",
+"210,00.",
+"280,00."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2017-21",
+"year": 2017,
+"num": 21,
+"topic": "M06",
+"level": 3,
+"format": "cálculo",
+"gab": "C",
+"stem": "Um Quadrado Perfeito é um número inteiro que pode ser escrito como quadrado de outro número inteiro. Para que o número M = 45864 y seja um quadrado perfeito, o menor valor de y, y ∈ IN* é",
+"o": [
+"13.",
+"36.",
+"65.",
+"127."
+],
+"support": "enunciado"
+},
+{
+"id": "R-2017-25",
+"year": 2017,
+"num": 25,
+"topic": "M02",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "IMC é a sigla para Índice de Massa Corporal, que é a medida utilizada pela Organização Mundial de Saúde (OMS) para verificar a obesidade. O cálculo do IMC é feito dividindo o peso P (em quilogramas) pela altura H (em metros) ao quadrado.\n\nP IMC = H2 A seguir apresenta-se uma tabela para consulta de IMC.\n\nResultado                      Situação Abaixo de 17                   Muito abaixo do peso Entre 17 e 18,49               Abaixo do peso Entre 18,5 e 24,99             Peso normal Entre 25 e 29,99               Acima do peso Entre 30 e 34,99               Obesidade I Entre 35 e 39,99               Obesidade II (severa) Acima de 40                    Obesidade III (mórbida) Disponível em: <http:// www.calculoimc.com.br.> Acesso em: 12 set. 2016.\n\nUma pessoa de 1,5m de altura estava com o IMC igual a 34, ou seja, obesidade I. Preocupada com seu peso, essa pessoa desenvolveu atividades de modo que, após 3 meses, ela emagreceu 5.500g. Após calcular novamente seu IMC, ela percebeu que se encontrava na situação de",
+"o": [
+"obesidade I.",
+"peso normal.",
+"acima do peso.",
+"abaixo do peso."
+],
+"support": "tabela + enunciado contextualizado"
+},
+{
+"id": "R-2017-27",
+"year": 2017,
+"num": 27,
+"topic": "M02",
+"level": 3,
+"format": "cálculo",
+"gab": "B",
+"stem": "Para executar uma reforma em uma loja, foram contratados n operários. O mestre de obras argumentou: “para entregar a obra 2 dias antes do prazo previsto, seria necessário contratar mais 3 operários; se, entretanto, 2 operários fossem dispensados a obra atrasaria em 2 dias.” Considerando que os operários trabalhem da mesma forma, o número n de operários contratados foi",
+"o": [
+"6.",
+"12.",
+"18.",
+"24."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2017-30",
+"year": 2017,
+"num": 30,
+"topic": "M14",
+"level": 2,
+"format": "cálculo",
+"gab": "D",
+"stem": "Sejam dois ângulos x e y tais que (2x) e (y + 10°) são ângulos complementares e (5x) e (3y− 40°) são suplementares. O ângulo x mede",
+"o": [
+"5°.",
+"10°.",
+"15°.",
+"20°. FÍSICA"
+],
+"support": "enunciado"
+},
+{
+"id": "R-2017-32",
+"year": 2017,
+"num": 32,
+"topic": "C07",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "D",
+"stem": "As afirmativas a seguir estão relacionadas com movimentos que presenciamos no dia a dia. Analise cada uma delas e marque (V) para verdadeiro ou (F) para falso.\n\n( ) O movimento de queda livre tem a sua causa no princípio da inércia.\n( ) Dois objetos de massas diferentes caem, no vácuo, com a mesma aceleração.\n( ) Devido a inércia, um objeto que estava solto na carroceria de um caminhão é lançado para a frente durante a frenagem em um movimento retilíneo.\n\nA sequência correta é",
+"o": [
+"V, F, F.",
+"V, V, F.",
+"F, F, V.",
+"F, V, V."
+],
+"support": "enunciado"
+},
+{
+"id": "R-2017-34",
+"year": 2017,
+"num": 34,
+"topic": "C05",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "Dois corpos A e B de temperaturas TA e TB , onde TA > TB são colocados em um recipiente termicamente isolado juntamente com um terceiro corpo C de temperatura TC . Após atingido o equilíbrio térmico, as temperaturas",
+"o": [
+"TA , TB e TC diminuem.",
+"TA , TB e TC tornam-se iguais.",
+"TA diminui, TB aumenta e TC diminui.",
+"TA aumenta, TB diminui e TC aumenta."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2017-35",
+"year": 2017,
+"num": 35,
+"topic": "C06",
+"level": 1,
+"format": "direta",
+"gab": "C",
+"stem": "A potência elétrica que uma bateria alcalina de 9V entrega, quando conectada a uma pequena lâmpada incandescente de lanterna, é uma grandeza relacionada à",
+"o": [
+"energia elétrica fornecida pela bateria.",
+"corrente elétrica fornecida pela bateria por unidade de tempo.",
+"energia elétrica fornecida pela bateria por unidade de tempo.",
+"tensão elétrica estabelecida pela bateria nos terminais da lâmpada."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2017-37",
+"year": 2017,
+"num": 37,
+"topic": "C01",
+"level": 1,
+"format": "direta",
+"gab": "A",
+"stem": "Um copo contendo água mineral gaseificada, com pedras de gelo, é uma mistura           formada por          fases, sendo                  .\n\nOs termos que completam as lacunas são, respectivamente,",
+"o": [
+"heterogênea, três, uma sólida.",
+"homogênea, duas, uma sólida.",
+"homogênea, três, duas sólidas.",
+"heterogênea, duas, duas sólidas."
+],
+"support": "enunciado contextualizado (lacunas)"
+},
+{
+"id": "R-2017-39",
+"year": 2017,
+"num": 39,
+"topic": "C04",
+"level": 3,
+"format": "cálculo",
+"gab": "D",
+"stem": "O óxido de cálcio (CaO), cal virgem, reage com o dióxido de carbono (CO2) produzindo o carbonato de cálcio (CaCO3). Em um laboratório de química, foram realizados vários experimentos cujos resultados estão expressos na tabela a seguir:\n\nMassa de óxido    Massa de gás     Massa de carbonato Experimento de cálcio (g)     carbônico (g)    de cálcio (g)\n\nI          5,6                 X                 10,0\n\nII          Y                22,0                50,0\n\nIII           56,0              44,0                  Z\n\nCom base na lei de Lavoisier e nos experimentos realizados, conclui-se que",
+"o": [
+"Y = 5 X",
+"X.Y < Z",
+"Z = X . 3,5 5,6",
+"56 . 22 = 1 Y 44"
+],
+"support": "tabela"
+},
+{
+"id": "R-2017-41",
+"year": 2017,
+"num": 41,
+"topic": "C03",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "Um dos elementos químicos mais letais está localizado no sexto período da tabela periódica e faz parte da família dos calcogênios. Tal elemento é altamente radioativo, sendo obtido por mecanismos artificiais, ou ainda encontrado na superfície da Terra. O que nos deixa mais seguros é que sua obtenção anual estimada gira em torno de apenas 100 g.\n\nO elemento químico descrito é o",
+"o": [
+"At.",
+"Cs.",
+"Po.",
+"Te."
+],
+"support": "enunciado + tabela periódica"
+},
+{
+"id": "R-2017-42",
+"year": 2017,
+"num": 42,
+"topic": "C03",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "A água da chuva é naturalmente ácida devido à presença do gás carbônico encontrado na atmosfera. Esse efeito pode ser agravado com a emissão de gases contendo enxofre, sendo o dióxido e o trióxido de enxofre os principais poluentes que intensificam esse fenômeno. Um dos prejuízos causados pela chuva ácida é a elevação do teor de ácido no solo, implicando diretamente a fertilidade na produção agrícola de alimentos. Para reduzir a acidez provocada por esses óxidos, frequentemente é utilizado o óxido de cálcio, um óxido básico capaz de neutralizar a acidez do solo.\n\nAs fórmulas moleculares dos óxidos citados no texto são, respectivamente,",
+"o": [
+"CO, SO, SO3 e CaO2.",
+"CO2, SO2, SO3 e CaO.",
+"CO2, S2O, S3O e CaO.",
+"CO, SO2, SO3 e CaO2. BIOLOGIA"
+],
+"support": "texto científico"
+},
+{
+"id": "R-2017-43",
+"year": 2017,
+"num": 43,
+"topic": "C12",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "O número total de polinizadores é estimado em 40.000 espécies, dentre as quais 25.000 são de abelhas. Elas também são responsáveis pela produção de alimentos para o homem provenientes de 900 das 1300 espécies vegetais cultivadas no mundo e respondem por 75% dos requerimentos de polinização das culturas agrícolas.\n\nEsses animais são eficientes polinizadores porque",
+"o": [
+"são adaptados às culturas agrícolas.",
+"vivem exclusivamente em locais que facilitam o acesso ao pólen.",
+"buscam essências florais similares aos feromônios de atração sexual.",
+"possuem estruturas especializadas que auxiliam na coleta de pólen."
+],
+"support": "texto científico"
+},
+{
+"id": "R-2017-45",
+"year": 2017,
+"num": 45,
+"topic": "C10",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "Tartarugas com acúmulo de algas em seu casco nadam até os recifes de corais para terem esse peso extra removido pelos peixes que se aproveitam do alimento farto e abundante. Depois que o peso extra é eliminado, o animal deixa o recife.\n\nNas cadeias alimentares desse ecossistema, o alimento dos peixes está desempenhando o papel de",
+"o": [
+"parasita.",
+"produtor.",
+"consumidor.",
+"decompositor."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2017-47",
+"year": 2017,
+"num": 47,
+"topic": "C12",
+"level": 2,
+"format": "NÃO/incorreta",
+"gab": "B",
+"stem": "A imagem a seguir mostra a famosa Dionéia ou Vênus papa moscas (Dionaea muscipula). Suas armadilhas nada mais são do que suas próprias folhas modificadas no processo de evolução.\n\nDisponível    em: <http://mlb-d2-p.mlstatic.com/planta-carnivora-dionaea-muscipulavenus-papa-mosca-239401-MLB20337831333_072015-F.jpg?square=false>. Acesso em 19 out. 2016.\n\nDentre as funções dessas armadilhas, NÃO se inclui a",
+"o": [
+"formação de novas mudas.",
+"reprodução de forma sexuada.",
+"absorção de algumas substâncias.",
+"realização do processo de fotossíntese."
+],
+"support": "imagem + enunciado"
+},
+{
+"id": "R-2017-48",
+"year": 2017,
+"num": 48,
+"topic": "C11",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "Existe uma infinidade de métodos contraceptivos que apresentam eficácias variadas. Um método contraceptivo considerado como um dos de menor eficácia é a utilização de",
+"o": [
+"substâncias químicas que simulam alguns hormônios, impe- dindo a liberação do gameta feminino na tuba uterina.",
+"controle voluntário durante a relação sexual, retirando-se o pê- nis de dentro da vagina alguns instantes antes da ejaculação.",
+"envoltório geralmente de silicone que encobre totalmente o pênis, evitando a passagem de espermatozoides para o canal vaginal.",
+"pequeno aparelho colocado dentro do útero, impedindo a passagem de espermatozoides para as tubas uterinas e libe- rando hormônios que impedem a ovulação. GEOGRAFIA"
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2017-49",
+"year": 2017,
+"num": 49,
+"topic": "G01",
+"level": 3,
+"format": "cálculo",
+"gab": "D",
+"stem": "A delegação da Austrália embarcou no aeroporto de Sidnei, localizado no (fuso 135ºE), no dia 24 de Julho, domingo, rumo ao Rio de Janeiro (fuso 45ºW) para participar dos jogos olímpicos. O voo decolou as 12h30 e fez uma conexão de 1h40 em Santiago, no Chile, de modo que a viagem teve uma duração total de 18h35. O avião chegou ao aeroporto do Rio de Janeiro, às          do dia .\n\nOs termos que completam as lacunas são, respectivamente,",
+"o": [
+"13h05 / 24 de Julho.",
+"14h05 / 25 de Julho.",
+"18h05 / 25 de Julho.",
+"19h05 / 24 de Julho."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2017-50",
+"year": 2017,
+"num": 50,
+"topic": "G07",
+"level": 2,
+"format": "NÃO/incorreta",
+"gab": "B",
+"stem": "Leia os fragmentos a seguir:\n\nO Brasil ganhou 200 novos “ultra ricos” no último ano. São agora 1.900 mil brasileiros com mais de US$ 50 milhões, se- gundo pesquisa divulgada nesta terça-feira (14) pelo banco Credit Suisse. Em todo o mundo, o levantamento “Global Wealth Report” estima que haja 128,2 mil indivíduos con- siderados muito ricos. Destes, 4,3 mil têm mais de US$ 500 milhões, e outros 45,2 mil têm mais de US$ 100 milhões (...) Disponível em: < http://www.correiodoestado.com.br/economia/brasil-ganhou-200-ultra-ricos- -em-um-ano-mostra-levantamento/229714/>. Acesso em 08 set. 2016.\n\nCerca de 1,5 bilhão de pessoas sofre de “pobreza multi- dimensional” em 91 países em desenvolvimento, ou seja, passam por privações nas áreas de saúde, educação e “pa- drões básicos de vida”, segundo o documento (...) Entre as pessoas afetadas pela pobreza, 842 milhões têm crise de fome crônica, 12% da população mundial (...) Outros 800 milhões de pessoas - 15% da população mundial - estão “em risco de pobreza” (...) Disponível em: < http://exame.abril.com.br/mundo/noticias/pobreza-afeta-2-2-bilhoes-de-pessoasno-mundo-todo>. Acesso em 08 set. 2016.\n\nNo contexto da globalização, a emergência do cenário apresentado pelos textos NÃO está relacionado com o(a)",
+"o": [
+"participação dos setores empresariais na política.",
+"ampliação do papel do Estado nos setores sociais.",
+"tendência de flexibilização dos direitos trabalhistas.",
+"aumento da circulação global de capitais especulativos."
+],
+"support": "texto jornalístico (dois fragmentos)"
+},
+{
+"id": "R-2017-52",
+"year": 2017,
+"num": 52,
+"topic": "G03",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "B",
+"stem": "Considere as afirmativas sobre as megacidades.\n\nI- Os processos de urbanização e metropolização intensa po- dem ser responsáveis pela formação dessas aglomerações.\n\nII- Esses espaços, por serem polos financeiros, comerciais e de serviços, assemelham-se por ocuparem o mesmo nível hierár- quico mundial.\n\nIII- São aglomerações de eficiente planejamento urbano, com oferta generalizada à população de serviços de saneamento básico.\n\nIV- Verifica-se a tendência de maior incremento no quantitativo destas áreas nos países menos desenvolvidos.\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I e II.",
+"I e IV.",
+"II e III.",
+"III e IV."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2017-54",
+"year": 2017,
+"num": 54,
+"topic": "G05",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "Leia o fragmento em sequência\n\n(...) os impactos, resultantes da ação antrópica sobre os solos, acontecem de uma maneira bastante complexa, po- dendo ser de ordem benéfica ou adversa, tanto em áreas rurais como urbanas, afetando essas áreas onde a degra- dação das terras esteja ocorrendo, bem como seus efeitos danosos podem ter repercussão a vários quilômetros de distância da área atingida diretamente por esses processos geomorfológicos, muitas vezes de caráter catastrófico.\n\nGUERRA, A. J. T., JORGE, M. C. O. (org). Degradação dos solos no Brasil. Rio de Janeiro: Bertrand Brasil, 2014. p. 42.\n\nNo contexto da relação entre as atividades agrárias brasileiras e o meio ambiente, pode-se considerar práticas de ordem benéfica e adversa, respectivamente,",
+"o": [
+"aeração e dessalinização.",
+"dessalinização e fertilização.",
+"fertilização e uso de pesticidas tóxicos.",
+"utilização de pesticidas tóxicos e aeração. HISTÓRIA"
+],
+"support": "texto científico"
+},
+{
+"id": "R-2017-55",
+"year": 2017,
+"num": 55,
+"topic": "H02",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "(Bandeira proposta pelo escritor paulista Júlio Ribeiro para a república brasileira em 1888. Disponível em https://pt.wikipedia.org/wiki/J%C3%BAlio_Ribeiro. Acesso em 21 set.2016.)\n\nO movimento republicano que surgiu durante o Segundo Reinado buscava, nos Estados Unidos da América, suas principais referências. Entre as características daquele país que mais influenciaram o republicanismo brasileiro está a",
+"o": [
+"cultura religiosa protestante.",
+"autonomia dos estados sob o federalismo.",
+"colonização dos territórios do interior do país.",
+"maneira como foi resolvido o problema da escravidão."
+],
+"support": "imagem (bandeira) + enunciado"
+},
+{
+"id": "R-2017-56",
+"year": 2017,
+"num": 56,
+"topic": "H06",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "C",
+"stem": "“Em 1849 os Estados Unidos assinaram um tratado de ami- zade com a monarquia do Havaí. As relações comerciais se intensificaram, e em 1875 foi assinado um tratado de reci- procidade comercial, levando à expansão da economia ha- vaiana voltada para o mercado interno dos EUA. Em 1893, após uma tentativa da rainha Liliuokalani de fortalecer a monarquia havaiana face aos estrangeiros, latifundiários estadunidenses deram um golpe de estado, proclamando a República do Havaí em 1894, com apoio do governo norte americano. Em 1898 foi assinado o termo de anexação do Havaí aos Estados Unidos, oficializado como Território em 1900. Tornou-se o 50º Estado da Federação em 1959.” (Adaptado do Arquivo do Departamento de Estado dos EUA. Disponível em http://20012009.state.gov/r/pa/ho/time/gp/17661.htm. Acesso em 21 set. 2016.)\n\nA anexação do Havaí, parte do processo de expansão imperialista dos EUA, tem características próprias. Entre essas destacam-se:\nI- a ampliação do turismo após a invenção do navio a vapor.\nII- a posição estratégica do arquipélago para o comércio com a Ásia.\nIII- a abertura de fronteiras agrícolas para o agronegócio estadu- nidense.\nIV- a defesa contra a expansão imperialista japonesa no Oceano Pacífico. Estão corretas apenas as afirmativas",
+"o": [
+"I e II.",
+"I e IV.",
+"II e III.",
+"III e IV."
+],
+"support": "texto histórico"
+},
+{
+"id": "R-2017-57",
+"year": 2017,
+"num": 57,
+"topic": "H03",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "“Análises recentes das sucessões presidenciais na Primeira República (1889-1930) mostram que a famosa aliança en- tre Minas Gerais e São Paulo, chamada de política do ‘café com leite’, não controlou de forma exclusiva o poder re- publicano. Havia outros quatro estados, pelo menos, com acentuada importância no cenário político: Rio Grande do Sul, Rio de Janeiro, Bahia e Pernambuco.” (VISCARDI, Cláudia. Além do café com leite. In: FIGUEIREDO, Luciano. (Org.). História do Brasil para ocupados. Rio de Janeiro: Casa da Palavra, 2013, p. 165.)\n\nNo referido período, a organização política da República",
+"o": [
+"controlou o resultado das eleições por meio do pacto estabe- lecido entre diferentes estados.",
+"incentivou práticas sociais de mobilização dos trabalhadores em torno das revoltas urbanas.",
+"revelou a livre participação dos cidadãos brasileiros na escolha de seus representantes na presidência.",
+"apresentou características democráticas com a divisão iguali- tária do poder entre as elites regionais."
+],
+"support": "texto historiográfico"
+},
+{
+"id": "R-2017-58",
+"year": 2017,
+"num": 58,
+"topic": "H04",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "“Getúlio Vargas tomou posse a 31 de janeiro de 1951. A União Democrática Nacional (UDN) tentou sem êxito impe- dir sua eleição [...]. Defensores, em princípio, da legalida- de democrática, os liberais não conseguiram atrair o voto da grande massa, nas eleições mais importantes. A partir daí, passaram a contestar os resultados eleitorais com ar- gumentos duvidosos ou, cada vez mais, a apelar para a in- tervenção das Forças Armadas”.\n\n(FAUSTO, Boris. História do Brasil. 13. ed. São Paulo: Edusp, 2010, p. 406.)\n\nA partir desse contexto, os opositores do projeto nacional-populista de Getúlio Vargas aderiram",
+"o": [
+"à luta pelo apoio dos eleitores, preparando campanhas políti- cas eficazes.",
+"à manobra do golpe de Estado, distorcendo as leis constitu- cionais vigentes.",
+"ao exercício de defesa da Petrobrás, visando ao aumento do número de votos.",
+"ao respeito pelas regras da democracia, aceitando o resultado da escolha popular."
+],
+"support": "texto historiográfico"
+},
+{
+"id": "R-2017-60",
+"year": 2017,
+"num": 60,
+"topic": "H09",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "“Em meio às mudanças sociopolíticas dos anos 1960, as canções populares e religiosas do movimento por direitos civis passaram a inspirar um grande número de artistas. As- sim, surgia o soul (alma) nos Estados Unidos.”\n\n(Adaptado. ALVES, Amanda Palomo. Do blues ao movimento pelos direitos civis. Disponível em http://www.revistahistoria.ufba.br/2011_1/a04.pdf- Acesso em 17 set. 2016)\n\nNo contexto a que se refere o texto, o surgimento do soul demonstra o",
+"o": [
+"crescimento da religião evangélica e a recusa de participação política.",
+"sucesso do movimento hippie e a popularização dos grandes festivais.",
+"poder das forças militares e a repressão às manifestações es- tudantis.",
+"orgulho da comunidade negra e a luta pela afirmação de sua identidade. Centro Federal de Educação Tecnológica de Minas Gerais Educação Profissional Técnica Integrada de Nível Médio Quadro de Respostas (rascunho) Língua Portuguesa Matemática Física Geografia 07. A B C D 22. A B C D Química História 08. A B C D 23. A B C D 37. A B C D 38. A B C D 39. A B C D 40. A B C D 41. A B C D 42. A B C D 15. A B C D 30. A B C D Biologia 43. A B C D 44. A B C D 45. A B C D 46. A B C D 47. A B C D 48 A B C D • Tanto as questões quanto o gabarito das provas serão disponibilizados na Internet, no dia 04 de dezembro de 2016, a partir das 20 horas. • O resultado oficial será publicado, no dia 15 de dezembro de 2016, a partir das 17 horas, no endereço eletrônico da COPEVE: www.copeve.cefetmg.br • As informações sobre matrícula devem ser consultadas no Edital. • O candidato que sair com o Caderno de Provas e/ou com a Folha de Respostas do local de aplicação de provas será automaticamente eliminado do processo seletivo."
+],
+"support": "texto histórico"
+},
+{
+"id": "R-2018-16",
+"year": 2018,
+"num": 16,
+"topic": "M01",
+"level": 1,
+"format": "cálculo",
+"gab": "D",
+"stem": "Um consumidor adquiriu um telefone em um site de compras pela internet que cobrou frete de 15% sobre o valor dessa mercadoria. Após ter recebido o produto, ele decidiu devolvêlo sem que houvesse alguma justificativa para tal. A empresa aceitou a devolução, reembolsando o valor pago no telefone. Porém, cobrou os mesmos 15% do valor da mercadoria, o que acarretou um prejuízo total para esse consumidor de",
+"o": [
+"15%.",
+"20%.",
+"25%.",
+"30% ."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2018-19",
+"year": 2018,
+"num": 19,
+"topic": "M01",
+"level": 1,
+"format": "cálculo",
+"gab": "A",
+"stem": "Sabe-se que, para preparar uma determinada suplementação alimentar, a quantidade de suplemento a ser diluída deve ser de 3% do volume de leite. Se for utilizado meio litro de leite e se a medida usada para o suplemento for uma colher que tem 3cm3, então, o número de colheres do suplemento que será necessário, nessa preparação, é igual a",
+"o": [
+"5.",
+"6.",
+"7.",
+"8."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2018-21",
+"year": 2018,
+"num": 21,
+"topic": "M03",
+"level": 3,
+"format": "cálculo",
+"gab": "C",
+"stem": "Numa família com 7 filhos, sou o caçula e 14 anos mais novo que o primogênito de minha mãe. Dentre os filhos, o quarto tem a terça parte da idade do irmão mais velho, acrescidos de 7 anos. Se a soma de nossas três idades é 42, então minha idade é um número",
+"o": [
+"divisível por 5.",
+"divisível por 3.",
+"primo.",
+"par."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2018-26",
+"year": 2018,
+"num": 26,
+"topic": "M06",
+"level": 2,
+"format": "cálculo",
+"gab": "B",
+"stem": "Segundo uma profecia Maia, acreditava-se que 2012 seria o ano do “fim do mundo”. Supondo-se que essa profecia tivesse sido anunciada em um domingo, e que, a partir daí, a Terra teria “apenas” mais 1.870.626 “dias de vida”, o dia da semana em que o “mundo acabaria” seria",
+"o": [
+"segunda.",
+"terça.",
+"quarta.",
+"quinta."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2018-28",
+"year": 2018,
+"num": 28,
+"topic": "M04",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "a   b Se a e b são constantes reais tais que 2x  –1 = +     , com x2 – 2x  x  x–2 x ≠ 0 e x ≠ 2; então, b – a é igual a",
+"o": [
+"1",
+"2",
+"3",
+"4"
+],
+"support": "expressão algébrica"
+},
+{
+"id": "R-2018-31",
+"year": 2018,
+"num": 31,
+"topic": "C12",
+"level": 1,
+"format": "direta",
+"gab": "A",
+"stem": "Bebidas alcoólicas, como a cerveja e o vinho, são produzidas graças à fermentação realizada pelos fungos conhecidos como leveduras, na ausência de oxigênio. Esse processo energético também é o responsável pela produção de",
+"o": [
+"pães.",
+"gasolina.",
+"macarrão.",
+"sabonetes."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2018-32",
+"year": 2018,
+"num": 32,
+"topic": "C10",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "O nitrogênio é essencial a todos os seres vivos e a produtividade de alimentos está ligada à disponibilidade desse elemento químico. Apesar de ser abundante na atmosfera em sua forma gasosa, poucos seres vivos conseguem incorporá-lo diretamente. Os organismos autotróficos clorofilados realizam esse processo por meio da(s)",
+"o": [
+"reações da fotossíntese.",
+"captura direta pelas folhas.",
+"absorção de sais pelas raízes.",
+"digestão de matéria orgânica."
+],
+"support": "texto científico"
+},
+{
+"id": "R-2018-33",
+"year": 2018,
+"num": 33,
+"topic": "C11",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "O veneno de escorpião contém proteínas com ação lesiva sobre o sistema nervoso e outros constituintes envolvidos no processo da dor e da inflamação. No Ceará, após serem picadas por esse artrópode, algumas pessoas apresentaram melhora do sintoma de dor crônica articular causada pela Chikungunha. Dessa forma, espera-se que, ao receber o soro antiescorpiônico, um paciente com essa doença não desenvolva sintomas como paralisia, fraqueza muscular, edemas e urticárias na pele. (Disponível em: < http://blogs.ne10.uol.com.br/casasaudavel/2017/09/15/escorpiaopesquisadores-brasileiros-investigam-se-veneno-pode-ser-util-para-tratar-dores-dachicungunha/> Acesso 21 Set 2017). (adaptado)\n\nEsses benefícios ocorrerão porque o paciente recebe",
+"o": [
+"anticorpos contra os compostos do veneno.",
+"toxina viral atenuada para síntese de antígenos.",
+"antígenos que neutralizarão a toxina escorpiônica.",
+"proteínas que estimulam a produção de anticorpos."
+],
+"support": "texto jornalístico/científico"
+},
+{
+"id": "R-2018-34",
+"year": 2018,
+"num": 34,
+"topic": "C11",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "Pesquisadores da Universidade da Califórnia descobriram que os pulmões desempenham um papel muito mais complexo no corpo de mamíferos do que pensávamos. Experimentos com ratos mostraram que esses órgãos produzem mais de 10 milhões de plaquetas por hora, o que equivale à maioria em circulação nesses animais. De acordo com a pesquisa, um conjunto de células-tronco sanguíneas residem no tecido pulmonar, fabricando esses fragmentos celulares.\n\n(Disponível em: < http://www.ageracaociencia.com/2017/07/10/foi-descoberta-umanova-funcao-inesperada-dos-pulmoes>. Acesso em: 01 out de 2017.) (adaptado)\n\nA capacidade de produzir esses elementos figurados do sangue faz com que os pulmões também tenham função na(o)",
+"o": [
+"síntese de proteínas.",
+"defesa do organismo.",
+"transporte de oxigênio.",
+"coagulação do sangue."
+],
+"support": "texto jornalístico/científico"
+},
+{
+"id": "R-2018-35",
+"year": 2018,
+"num": 35,
+"topic": "C12",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Para entender melhor como a fauna está organizada em uma região tão ampla e diversa como a Mata Atlântica, é necessário aplicar uma técnica conhecida como regionalização. Por meio dela, é possível dividir uma região geográfica em porções menores com base nos grupos de espécies de cada área. Um estudo recente indicou que os processos responsáveis pela distribuição regional das serpentes, nesse bioma, podem estar ligados às variações climáticas.\n\n(Disponível em: <http://www.cienciahoje.org.br/noticia/v/ler/id/4912/n/serpentes_atlanticas>. Acesso em: 30 de set 2017.) (adaptado)\n\nEssas alterações nas condições ambientais são importantes para as serpentes que podem regular a",
+"o": [
+"respiração cutânea.",
+"taxa de fecundação.",
+"ingestão de alimento.",
+"temperatura corpórea."
+],
+"support": "texto jornalístico/científico"
+},
+{
+"id": "R-2018-37",
+"year": 2018,
+"num": 37,
+"topic": "C01",
+"level": 2,
+"format": "cálculo",
+"gab": "D",
+"stem": "Midas, na mitologia grega, foi um rei agraciado com o dom de transformar tudo que tocava em ouro. Esse dom, que no princípio era motivo de muita alegria, tornou-se um problema para o rei que se via impedido de se alimentar por converter também em ouro os alimentos e as bebidas por ele tocados. Em todos os materiais tranformados eram inalterados seus volumes.\n\nSe a densidade de uma maçã é de aproximadamente 0,8 g/cm3 e a do ouro 19,3 g/cm3, a massa de uma “maçã de ouro”, que antes da transformação possuía massa mi será mais próxima de",
+"o": [
+"15,0 mi.",
+"18,0 mi.",
+"20,0 mi.",
+"24,0 mi."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2018-38",
+"year": 2018,
+"num": 38,
+"topic": "C04",
+"level": 3,
+"format": "direta",
+"gab": "D",
+"stem": "O esquema abaixo explica a formação da chuva ácida a partir de emissões gasosas poluentes geradas nos grandes centros urbanos industrializados. A combinação desses poluentes com o vapor de água da atmosfera acumula-se nas nuvens, ocorrendo, assim, sua condensação.\n\nFormação da chuva ácida\n\nEmissões               Atmosfera S(s) + O2(g) → SO2(g)               2SO2(g) + O2(g) + 2H2O(I) → H2SO4(aq) Indústria\n\nEm relação ao fenômeno representado, é correto afirmar que",
+"o": [
+"na indústria, há formação de óxido constituído por três elementos.",
+"na atmosfera, a chuva gerada colore de rosa uma solução de fenolftaleína.",
+"na atmosfera, há consumo de duas substâncias compostas e uma substância pura.",
+"na atmosfera, o produto final da reação é uma substância utilizada nas baterias de automóveis."
+],
+"support": "esquema de equações"
+},
+{
+"id": "R-2018-40",
+"year": 2018,
+"num": 40,
+"topic": "C04",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "Em um motor à combustão realizou-se lentamente a queima de 20Kg de um líquido inflamável. Todos os produtos obtidos nesse processo estavam no estado gasoso e foram armazenados em um reservatório fechado e sem qualquer vazamento. Ao final, constatou-se que a massa dos produtos foi maior do que a massa do combustível que havia sido adicionada.\n\nA explicação para o fenômeno observado é que",
+"o": [
+"em sistemas abertos, não se aplica a lei de Lavoisier.",
+"no combustível, foi incorporado outro reagente químico.",
+"no combustível, havia partículas sólidas que possuem maior massa do que os gases.",
+"em um processo de combustão lenta, formam-se inesperados produtos de maior massa."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2018-41",
+"year": 2018,
+"num": 41,
+"topic": "C03",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "A figura seguinte representa um fenômeno ocorrido ao atritar um pente em uma flanela e depois aproximá-lo de papel picado pelo fato de o pente ficar eletrizado por atrito.\n\n(Disponível em: <http://www.ebah.com.br/content/ABAAABKEgAH/eletrotcnica-i?part=3>. Acesso em: 21 set. 2017.)\n\nTendo em vista a evolução dos modelos atômicos, de Dalton até Bohr, o primeiro modelo que explica o fenômeno da eletrização é o de",
+"o": [
+"Bohr.",
+"Dalton.",
+"Thomson.",
+"Rutherford."
+],
+"support": "texto + figura ilustrativa"
+},
+{
+"id": "R-2018-42",
+"year": 2018,
+"num": 42,
+"topic": "C03",
+"level": 1,
+"format": "direta",
+"gab": "A",
+"stem": "Muitas substâncias químicas são utilizadas com a finalidade de prevenir e tratar doenças, um exemplo é o do óxido presente nos cremes contra assaduras, dermatites que afetam bebês nos seus primeiros meses de vida. Geralmente essas dermatites acometem a região da pele coberta pela fralda. (CISCATO, C.A.M, PEREIRA, L.F., CHEMELLO, E., PROTI, P.B. Química, Vol. 1, 1ª ed., São Paulo: Editora Moderna, 2016.)\n\nA substância que pode corresponder àquela citada como exemplo no texto, é o",
+"o": [
+"ZnO.",
+"NaCl.",
+"HNO3.",
+"Ca(OH)2. FÍSICA"
+],
+"support": "texto científico"
+},
+{
+"id": "R-2018-43",
+"year": 2018,
+"num": 43,
+"topic": "C09",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "No dia 21 de agosto de 2017, o eclipse total do Sol pôde ser visto nos Estados Unidos, e o melhor lugar para avistá-lo foi em Cardondale, pois ali o Sol foi coberto pela Lua durante mais tempo.\n\nConsiderando-se esse fato, a fase anterior da Lua em relação à do dia que ocorreu o eclipse nessa região era",
+"o": [
+"Minguante.",
+"Crescente.",
+"Cheia.",
+"Nova."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2018-44",
+"year": 2018,
+"num": 44,
+"topic": "C07",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Sobre os conceitos de referencial, posição, velocidade e aceleração, fundamentais para o estudo dos movimentos em Ciências, afirma-se, corretamente, que o conceito de",
+"o": [
+"posição é associado ao local em uma trajetória e não depende do referencial adotado.",
+"referencial é associado ao valor da velocidade e da aceleração do objeto em movimento.",
+"velocidade está relacionado à mudança de posição e não depende do referencial adotado.",
+"aceleração está relacionado à mudança do valor da velocidade medida em um dado referencial."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2018-46",
+"year": 2018,
+"num": 46,
+"topic": "C06",
+"level": 2,
+"format": "cálculo",
+"gab": "B",
+"stem": "No circuito elétrico das residências, há algumas chaves disjuntoras de segurança que se desligam automaticamente em caso de sobrecarga. Na cozinha de uma casa pode ocorrer de funcionarem, ao mesmo tempo, uma geladeira de 1000 W, um forno de 2100 W, uma lâmpada de 50 W e um liquidificador de 150 W. Se essa casa possui uma rede elétrica de 110 V, o disjuntor da cozinha deve ser capaz de suportar uma corrente, em amperes, de, no mínimo,",
+"o": [
+"15.",
+"30.",
+"45.",
+"60."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2018-48",
+"year": 2018,
+"num": 48,
+"topic": "C07",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "A estudante Paula, do ensino fundamental, necessita de uma mola macia para realizar um trabalho que será apresentado na feira de Ciências da sua escola.\n\nNa caixa de ferramentas, ela encontrou duas molas, A e B, de comprimentos iniciais iguais a 10 cm e 15 cm, respectivamente. Para verificar qual delas era a mais macia, pendurou, na vertical, um mesmo objeto em cada uma das molas separadamente. Após o equilíbrio, Paula aferiu que o comprimento final das molas A e B tinha os valores de 12 cm e 18 cm, respectivamente.\n\nDe acordo com suas observações, a estudante verificou que",
+"o": [
+"a mola A é mais macia.",
+"a mola B é mais macia.",
+"o experimento é inconclusivo.",
+"as molas são igualmente macias. GEOGRAFIA"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2018-50",
+"year": 2018,
+"num": 50,
+"topic": "G06",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "C",
+"stem": "Os gráficos a seguir referem-se ao comércio exterior brasileiro.\n\nComposição por origens e destinos                         Dezembro/14 a Nov/15 Exportações                                   Importações União              EUA                   União                     EUA Europeia           U$$ 24,4 Bi Europeia                U$$ 25,7 Bi U$$ 34,3 Bi     13%                                            15% 18%                           U$$ 35,6 Bi China                        20%          China 18% U$$ 35,5 Bi                               17% U$$ 31,0 Bi Outros 31%                                                  10% U$$ 60,4 Bi          19%                       Outros        39% Am. Latina                                    Am. Latina U$$ 68,7 Bi U$$ 37,4 Bi                                      U$$ 17,1 Bi\n\n(Disponível em: <https://www.slideshare.net/FIESP/raiox-do-comrcio-exterior-outubrode-2015-56283775>. Acesso em: 30 set. 2017.)\n\nSobre a dinâmica econômica internacional, afirma-se que\n\nI- O superávit brasileiro nas transações com a União Europeia deve-se aos acordos bilaterais firmados recentemente.\nII- As trocas comerciais do Brasil com países emergentes e em desenvolvimento geram maior superávit do que com nações desenvolvidas.\nIII- O déficit do Brasil em relação aos Estados Unidos deve-se ao pre- domínio de exportações brasileiras com baixo valor agregado.\nIV- A participação do Brasil em organismos de cooperação como o Mercosul e o BRICS gera expressivo déficit no país.\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I e II.",
+"I e III.",
+"II e III.",
+"III e IV."
+],
+"support": "gráfico (dois gráficos de setores)"
+},
+{
+"id": "R-2018-53",
+"year": 2018,
+"num": 53,
+"topic": "G07",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "B",
+"stem": "Analise o quadro abaixo.\n\nÍndice de Gini da distribuição do rendimento mensal das pessoas de 15 anos ou mais de idade, com rendimento, por Grandes Regiões - 2004/2014\n\n2004     2005     2006     2007      2008     2009     2011    2012    2013    2014 Brasil          0,555    0,548    0,544    0,531     0,526    0,521    0,506   0,505   0,501   0,497 Norte           0,522    0,501    0,504    0,501     0,490    0,496    0,503   0,486   0,484   0,480 Nordeste        0,563    0,546    0,553    0,534     0,534    0,532    0,510   0,510   0,509   0,490 Sudeste         0,531    0,531    0,526    0,507     0,502    0,497    0,484   0,485   0,483   0,485 Sul             0,527    0,516    0,507    0,501     0,492    0,486    0,468   0,465   0,458   0,453 Centro Oeste 0,567       0,561    0,554    0,559     0,562    0,550    0,532   0,523   0,519   0,507\n\nFonte: IBGE, Pesquisa Nacional por Amostra de Domicílios 2004/2014 Notas: 1. Exclusive as informações das pessoas sem declaração de rendimento. 2. Não houve pesquisa em 2010.\n\n(Disponível em: <https://biblioteca.ibge.gov.br/visualizacao/livros/liv95011.pdf>. Acesso em: 15 set. 2017.) (adaptado)\n\nConsiderando-se o período apresentado, é correto afirmar que:\nI- A disparidade de rendimentos reduziu no Brasil.\nII- As maiores desigualdades de renda persistem nas regiões Norte e Nordeste.\nIII- O crescimento econômico contribuiu para a redução do Índi- ce de Gini.\nIV- As políticas redistributivas devem ser priorizadas pelos gover- nos dos estados das regiões Sul e Sudeste.\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I e II.",
+"I e III.",
+"II e III.",
+"III e IV."
+],
+"support": "tabela"
+},
+{
+"id": "R-2018-55",
+"year": 2018,
+"num": 55,
+"topic": "H02",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "A classe dominante brasileira era, em sua maioria, conser- vadora (...). Desejava manter as estruturas econômicas e sociais coloniais baseadas no sistema agrícola, na escravi- dão e na exportação de produtos agrícolas tropicais para o mercado europeu. Contudo, havia nas cidades (...) alguns liberais que esperavam mudanças mais profundas na políti- ca e na sociedade: soberania popular, democracia e mesmo uma república.\n\n(BETHELL, Leslie. A independência do Brasil. In:   História da América Latina. São Paulo: EDUSP, 2009. V. 3, p. 213.)\n\nA aceitação de D. Pedro pela elite senhorial, como líder do processo de independência do Brasil, eclodido em 1822, visava a",
+"o": [
+"manter nosso país sob a tutela da metrópole lusitana.",
+"evitar transformações mais bruscas na ordem social e política.",
+"defender a República como sistema de governo para o novo país.",
+"impossibilitar a escolha do regime monárquico após a emanci- pação."
+],
+"support": "texto historiográfico"
+},
+{
+"id": "R-2018-56",
+"year": 2018,
+"num": 56,
+"topic": "H03",
+"level": 1,
+"format": "direta",
+"gab": "A",
+"stem": "Nas três primeiras décadas da república, o Brasil era um país tipicamente agrário. Calcula-se que cerca de 70% da popu- lação habitava o campo nesse período. A maioria dos traba- lhadores não era proprietária de terra ou vivia da pequena lavoura de subsistência, não tendo acesso à assistência mé- dica e à educação. Esse cenário desfavorável contribuiu de forma significativa para a eclosão de agitações sociais que ocorreram na zona rural durante a Primeira República.\n\n(BRAICK, Patrícia Ramos; MOTA, Myriam Becho. História: das cavernas ao terceiro milênio. São Paulo: Moderna, 2013. V. 3: Do avanço imperialista no século XIX aos dias atuais, cap.2: O Brasil na Primeira República, p. 29.)\n\nSão exemplos de movimentos sociais rurais no período citado:",
+"o": [
+"Guerra de Canudos e Cangaço.",
+"Revolta Federalista e Revolta da Vacina.",
+"Ligas Camponesas e Revolta da Armada.",
+"Guerra do Contestado e Revolta da Chibata."
+],
+"support": "texto didático"
+},
+{
+"id": "R-2018-57",
+"year": 2018,
+"num": 57,
+"topic": "H08",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "A educação militar fazia parte de toda uma estrutura de ensino que visava formar o “novo homem” através de uma educação integral que envolvia o lado psicológico, físico e social. No começo do governo, as aulas de educação física se converteram no cenário ideal para preparar os corpos e as mentes dos jovens para o espírito guerreiro.\n\nROSA, Cristina Souza. Pequenos soldados do Fascismo: a educação militar durante o governo de Mussolini. Antíteses, vol. 2, n. 4, Londrina, PR, p. 622, jul-dez de 2009\n\nA educação de crianças e jovens, como a implementada pelo governo fascista na Itália (1922-1943), tinha por objetivo formar cidadãos",
+"o": [
+"apoiadores do socialismo e do movimento operário.",
+"adeptos do nacionalismo e da subordinação hierárquica.",
+"simpatizantes da democracia e das liberdades individuais.",
+"defensores das inovações modernistas e da emancipação fe- minina."
+],
+"support": "texto historiográfico"
+},
+{
+"id": "R-2018-58",
+"year": 2018,
+"num": 58,
+"topic": "H04",
+"level": 2,
+"format": "asserção–razão",
+"gab": "C",
+"stem": "Nem sempre a memória de Vargas recebeu tratamento tão nobre. Em primeiro lugar, porque se trata de um persona- gem bastante ambíguo – se por um lado contribuiu com inegáveis avanços para o desenvolvimento do país, por ou- tro liderou um período autoritário e de repressão política em seu primeiro governo (1930-1945). Além disso, no úl- timo meio século, o Brasil atravessou grandes mudanças políticas e institucionais. À experiência democrática iniciada em 1946 sucederam-se, a partir de 1964, vinte anos de di- tadura militar, até que em 1985 se iniciasse novo processo de construção democrática. Para cada um desses momen- tos veio à tona um Vargas diferente.\n\n(FERREIRA, Maria de Moraes. Vargas para todos os gostos. Revista de História. Rio de Janeiro, Biblioteca Nacional, ano 3, n. 35, p. 14-19, ago 2008.)\n\nA memória de Getúlio Vargas ganha interpretações diversas\n\nPORQUE\n\nsua ambiguidade permite que, em momentos históricos distintos, seja apropriada de maneiras variadas.\n\nSobre essas duas proposições, é correto afirmar que",
+"o": [
+"a primeira é verdadeira e a segunda é falsa.",
+"a primeira é falsa e a segunda é verdadeira.",
+"as duas são verdadeiras e a segunda justifica a primeira.",
+"as duas são verdadeiras e a segunda não justifica a primeira."
+],
+"support": "texto historiográfico"
+},
+{
+"id": "R-2018-59",
+"year": 2018,
+"num": 59,
+"topic": "H04",
+"level": 2,
+"format": "NÃO/incorreta",
+"gab": "A",
+"stem": "A industrialização realizada durante os anos 50 trouxe con- sigo a modernização do Brasil. Modernização dos homens, tornando-os cada vez mais ur- banos. Modernização de seus pensamentos e hábitos, tor- nando-os consumistas. Modernização do modo de vida, das cidades, da arquitetura, das artes, da técnica, da ciência.\n\n(RODRIGUES, Marly. A década de 50: populismo e metas desenvolvimentistas no Brasil. São Paulo: Ática, 1992. p. 31)\n\nSobre a modernização do modo de vida brasileiro nos anos 1950, é INCORRETO afirmar que",
+"o": [
+"atingiu de maneira uniforme todas as parcelas da população, independente de classe social e de localização geográfica.",
+"teve como símbolo do progresso e da liberdade o automóvel, indispensável para vencer as distâncias nas grandes cidades.",
+"consolidou o poder homogeneizador da indústria cultural, com o desenvolvimento da publicidade e o avanço dos meios de comunicação de massa.",
+"representou a criação de novos hábitos, como o uso de roupas de tecidos sintéticos, o consumo de alimentos enlatados e a aquisição de eletrodomésticos."
+],
+"support": "texto didático"
+},
+{
+"id": "R-2019-16",
+"year": 2019,
+"num": 16,
+"topic": "M04",
+"level": 3,
+"format": "cálculo",
+"gab": "D",
+"stem": "x5y + 2x4y2 + x3y3 Considere a expressão M =                       . x3 + x3y + x2y\n\nSe x + y = –3 e xy = 4, então o valor numérico de M é",
+"o": [
+"–36.",
+"–3.",
+"24.",
+"36. Integrado CEFET-MG 1º semestre 2019 21"
+],
+"support": "expressão algébrica"
+},
+{
+"id": "R-2019-21",
+"year": 2019,
+"num": 21,
+"topic": "M03",
+"level": 1,
+"format": "cálculo",
+"gab": "C",
+"stem": "Uma coleção de doze livros foi distribuída entre Augusto e Bárbara. Se Augusto tivesse recebido três livros a mais do que recebeu dessa coleção, então a quantidade de livros recebida por ele seria igual ao dobro da quantidade de livros recebida por Bárbara. O número de livros que Bárbara recebeu é igual a",
+"o": [
+"8.",
+"7.",
+"5.",
+"4. 26 Integrado CEFET-MG 1º semestre 2019"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2019-22",
+"year": 2019,
+"num": 22,
+"topic": "M02",
+"level": 1,
+"format": "cálculo",
+"gab": "D",
+"stem": "Uma pessoa foi ao supermercado comprar o creme de leite de sua preferência e percebeu que o produto é vendido em quatro embalagens distintas. Os volumes e preços dessas embalagens estão representados no quadro abaixo:\n\nCreme de leite\n\nEmbalagem Volume (ml) Valor (R$) I              200      3,80 II                 300      5,20 III                500      7,80 IV                 800      11,20\n\nDe acordo com esse quadro, a embalagem de creme de leite que proporciona o menor custo, por ml, é a",
+"o": [
+"I.",
+"II.",
+"III.",
+"IV. Integrado CEFET-MG 1º semestre 2019 27"
+],
+"support": "tabela"
+},
+{
+"id": "R-2019-25",
+"year": 2019,
+"num": 25,
+"topic": "M16",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "A figura 1 mostra uma pirâmide formada por um quadrado e quatro triângulos equiláteros.\n\nFigura 1\n\nA planificação dessa pirâmide está representada na figura 2.\n\nFigura 2\n\nSe a área total da pirâmide é dada pela área da Figura 2 e o lado do quadrado mede l, então, a área total da pirâmide é",
+"o": [
+"3l . ( )",
+"l2 1 + √3 .",
+"l2(1 + √3) .",
+"3l2 . 30 Integrado CEFET-MG 1º semestre 2019"
+],
+"support": "figura geométrica"
+},
+{
+"id": "R-2019-26",
+"year": 2019,
+"num": 26,
+"topic": "M08",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Considere f e g duas funções reais definidas por f(x) = – x2 + x + 6 e g(x) = x + 2. Sobre os gráficos dessas funções, é correto afirmar que eles se interceptam em pontos cujas ordenadas são",
+"o": [
+"–2 e 2.",
+"–2 e 3.",
+"0 e 4.",
+"4 e 6. Integrado CEFET-MG 1º semestre 2019 31"
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2019-29",
+"year": 2019,
+"num": 29,
+"topic": "M07",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "Um prestador de serviço da construção civil deseja adquirir um equipamento, fabricado por duas marcas A e B, para melhor desempenhar seu trabalho. O equipamento da marca A é vendido no mercado por R$2000,00 e tem um custo de manutenção anual de R$300,00 e o da marca B é vendido por R$1400,00 e tem um custo de manutenção anual de R$450,00. O gráfico a seguir representa essa situação.\n\nV\n\nP\n\nMarca B\n\nMarca A\n\n0                          t\n\nDeseja-se saber em quanto tempo de uso (t), o custo total do equipamento (V) da marca A e o da marca B serão iguais. Nesse caso, o ponto P(t, V) tem coordenadas",
+"o": [
+"(4, 3200).",
+"(4, 3400).",
+"(20, 8000).",
+"(20, 10400). 34 Integrado CEFET-MG 1º semestre 2019"
+],
+"support": "gráfico + enunciado contextualizado"
+},
+{
+"id": "R-2019-33",
+"year": 2019,
+"num": 33,
+"topic": "C03",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "Os fenômenos que ocorrem a nossa volta, como as explosões de fogos de artifício, podem ser entendidos a partir das teorias e dos modelos propostos para o átomo.\n\nDe acordo com a teoria atômica apropriada, as diferentes cores produzidas no exemplo citado são decorrentes de transições de",
+"o": [
+"elétrons de níveis mais internos para níveis mais externos.",
+"elétrons de níveis mais externos para níveis mais internos.",
+"prótons de níveis mais internos para níveis mais externos.",
+"prótons de níveis mais externos para níveis mais internos. Integrado CEFET-MG 1º semestre 2019 39"
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2019-37",
+"year": 2019,
+"num": 37,
+"topic": "C04",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "Fenômenos químicos são aqueles que envolvem rearranjos dos átomos e, assim, formação de novas substâncias. Algumas vezes esses fenômenos são acompanhados de evidências experimentais, ou seja, alterações macroscópicas que podem dar indícios de transformações. Contudo deve-se tomar cuidado, pois são apenas indícios.\n\nUm exemplo cotidiano de alteração macroscópica química é",
+"o": [
+"a formação da cor verde após a mistura de tinta azul com tinta amarela.",
+"o surgimento da cor vermelha em uma chapa de ferro ao ser aquecida.",
+"a formação de bolhas após adição de açúcar a um copo de refrigerante.",
+"o surgimento da cor caramelo em panela contendo açúcar ao ser aquecido. Integrado CEFET-MG 1º semestre 2019 43"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2019-39",
+"year": 2019,
+"num": 39,
+"topic": "C07",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Na teoria de Newton, o conceito de força desempenha um importante papel para o estudo dos movimentos dos objetos. Esse conceito pode ser associado à capacidade de colocar um objeto em movimento bem como de trazê-lo ao repouso.\n\nCom base nessa teoria, o airbag – dispositivo de segurança dos automóveis que aciona uma reação química produtora de um gás capaz de encher rapidamente um balão de ar – diminui o risco de morte durante as colisões, devido a sua capacidade de",
+"o": [
+"reduzir o valor da inércia do ocupante do veículo.",
+"direcionar o impacto para a estrutura metálica do veículo.",
+"aplicar uma força no mesmo sentido de movimento do carro.",
+"aumentar o tempo necessário para o ocupante do carro en- trar em repouso. 46 Integrado CEFET-MG 1º semestre 2019"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2019-40",
+"year": 2019,
+"num": 40,
+"topic": "C08",
+"level": 1,
+"format": "direta",
+"gab": "C",
+"stem": "Usar a tecnologia para melhorar a vida de pessoas com deficiência tem sido um dos objetivos de trabalhos apresentados pelo CEFET-MG em eventos científicos locais. Estudantes do Curso Técnico em Equipamentos Biomédicos desenvolveram o projeto “Vision DC – Diferenciador de cédulas de dinheiro para deficientes visuais”, orientados pelo professor Renato Zanetti. O aparelho informa a cor das cédulas através de um alto falante ou fone de ouvido, identificando, assim, o valor das notas. 27ª Mostra Específica de Trabalhos e Aplicações do CEFET-MG. Disponível em: <http://cefetmg.br/noticias/arquivos/2017/10/noticia048.html> Acesso em: 22 Set 2018.\n\nO aparelho que diferencia as cédulas, desenvolvido pelos estudantes do CEFET-MG, substitui a função",
+"o": [
+"da íris.",
+"da cóclea.",
+"dos cones.",
+"dos canais semicirculares. Integrado CEFET-MG 1º semestre 2019 47"
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2019-42",
+"year": 2019,
+"num": 42,
+"topic": "C13",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "Em novembro de 2015, ocorreu um dos desastres ambientais mais graves do Brasil: o rompimento da Barragem do Fundão, na cidade mineira de Mariana. Nesse acidente, o solo do local e a água do Rio Doce foram contaminados por uma série de resíduos de mineração, inclusive metais pesados, como: ferro, chumbo, zinco e cádmio.\n\nPesquisa desenvolvida por estudantes do Curso de Engenharia Ambiental do CEFET-MG utilizou, para remediação do solo contaminado, o plantio de diferentes vegetais, de forma a reduzir as concentrações dos metais pesados.\n\nAlguns dados da pesquisa estão apresentados abaixo.\n\nConcentração média (mg/kg) Metal analisado                                    Solo plantado Solo não plantado Feijão       Grama     Milho Ferro (Fe)         50185,19           49078,73 50185,01 49427,38 Zinco (Zn)          286,03             234,15      156,13    255,21\n\nEssa pesquisa permite concluir que",
+"o": [
+"a grama apresentou o melhor resultado para remediação do zinco.",
+"o milho apresentou melhores resultados para solos contami- nados pelo ferro.",
+"as concentrações de ferro reduziram mais que 1000 mg/kg, com os três vegetais.",
+"um dos vegetais conseguiu reduzir em mais de 50% as con- centrações de zinco do solo. Integrado CEFET-MG 1º semestre 2019 49"
+],
+"support": "tabela + texto jornalístico"
+},
+{
+"id": "R-2019-45",
+"year": 2019,
+"num": 45,
+"topic": "C07",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "A velocidade dos navios em relação ao solo é medida por uma unidade denominada nó que equivale aproximadamente a 1,85 km/h.\n\nConsidere um navio que partiu às 02:00h em direção a um porto situado a 74.000 m, com uma velocidade de 10 nós em relação à água.\n\nSupondo que não existam correntes marítimas e que a velocidade do navio permaneça constante, o navio chegará ao porto às",
+"o": [
+"18:00 h.",
+"09:40 h.",
+"06:00 h.",
+"04:00 h. 52 Integrado CEFET-MG 1º semestre 2019"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2019-46",
+"year": 2019,
+"num": 46,
+"topic": "C11",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "Diariamente, absorvemos diferentes contaminantes presentes não só no ar, na água e em alimentos, mas também em diferentes produtos – de garrafas plásticas, detergentes, papéis emitidos pela máquina de cartão de crédito a esmaltes, sabonetes e plástico filme. Conhecidas como “desreguladores endócrinos”, algumas dessas substâncias podem interferir em funções como metabolismo, crescimento, desenvolvimento, reprodução, sono e estado de ânimo. A fim de verificar o nível de exposição de crianças brasileiras a essas substâncias, um grupo de pesquisadores analisou a concentração de 65 desreguladores endócrinos em amostras biológicas de 300 crianças das cinco regiões do país, com idades entre 6 e 14 anos. Alves, Alessandra G. Os desreguladores hormonais presentes em plásticos e cosméticos e que foram encontrados em crianças brasileiras. Disponível em:<https://www.bbc.com/ portuguese/geral-45555524> Acesso em: 22 set 2018.\n\nConsiderando a presença dessas substâncias no sangue, a amostra biológica indicada para as análises é",
+"o": [
+"o suor.",
+"a urina.",
+"a saliva.",
+"o escarro. Integrado CEFET-MG 1º semestre 2019 53"
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2019-48",
+"year": 2019,
+"num": 48,
+"topic": "C09",
+"level": 1,
+"format": "julgar afirmativas",
+"gab": "A",
+"stem": "Leia a tirinha do personagem Menino Maluquinho criado pelo cartunista Ziraldo. A VIDA DE UM FORA-DA-                             PRINCIPALMENTE QUANDO LEI É MUITO DIFÍCIL!                              ELE TENTA FICAR FORA DA LEI DA GRAVIDADE!\n\nCom base nessa tirinha, um estudante formulou as seguintes conclusões:\n\nI- A queda do Menino Maluquinho em direção à Terra deve-se ao mesmo motivo pelo qual a Lua descreve sua órbita em torno da Terra.\n\nII- A Lei da Gravidade, citada pelo Menino Maluquinho, aplica-se somente ao movimento da Terra em torno do Sol.\n\nIII- A Lei da Gravidade aplica-se exclusivamente a objetos de gran- des massas, como a Lua, a Terra e o Sol.\n\nEstá(ão) correta(s) apenas",
+"o": [
+"I.",
+"II.",
+"III.",
+"I e II. Integrado CEFET-MG 1º semestre 2019 55 GEOGRAFIA"
+],
+"support": "tirinha"
+},
+{
+"id": "R-2019-52",
+"year": 2019,
+"num": 52,
+"topic": "G06",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "A",
+"stem": "Sobre o processo de industrialização, afirma-se que:\n\nI- A Primeira Revolução Industrial foi marcada pelo uso do car- vão mineral para obtenção de energia, sendo importante que as unidades fabris se localizassem próximas às fontes de ma- téria-prima.\n\nII- A indústria 4.0 utiliza-se de tecnologias voltadas à internet das coisas e à computação em nuvem, favorecendo a automação de sistemas ciberfísicos e a integração com dispositivos mó- veis.\n\nIII- A Segunda Revolução Industrial teve o predomínio dos setores de robótica, informática e telecomunicações, permitindo que a produção fabril se disseminasse entre os países desenvolvi- dos.\n\nIV- A Revolução Técnico-Informacional caracteriza-se pelo adven- to da indústria química, elétrica e petrolífera, possibilitando a expansão do setor automobilístico pelos países emergentes.\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I e II.",
+"I e IV.",
+"II e III.",
+"III e IV. 60 Integrado CEFET-MG 1º semestre 2019"
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2019-54",
+"year": 2019,
+"num": 54,
+"topic": "G02",
+"level": 2,
+"format": "NÃO/incorreta",
+"gab": "C",
+"stem": "A nigeriana Mate Sunday, atualmente com 38 anos, precisou sair de seu país para fugir dos atentados do Boko Haram, grupo fundamentalista islâmico considerado terrorista pela ONU. Ela chegou ao Brasil em 2014, grávida, e passou por algumas casas de acolhida até se encontrar com seu marido, também refugiado, e conseguir reunir a família em São Paulo.\n\n“Foi muito difícil”, diz Mate. “Primeiro, é o problema da língua, segundo é um país que não conheço. Tudo é mudança. Cultura diferente, língua diferente, comida diferente. Eu sofri bastante com essas coisas”.\nSUDRÉ, Lu. Refugiados no Brasil sofrem com racismo e falta de políticas públicas. In: Brasil de Fato. Disponível em: <https://www.brasildefato.com.br>. Acesso em: 24 set 2018.\n\nO Brasil tem recebido, nos últimos anos, inúmeras solicitações de refúgio, mesmo com os problemas narrados pela nigeriana Mate Sunday. São fatores responsáveis por esses pedidos, EXCETO:",
+"o": [
+"Projeção internacional do Brasil como potência econômica emergente e regional.",
+"Abertura da legislação brasileira à recepção dos estrangeiros fugidos de conflitos.",
+"Criação de unidades policiais especiais de proteção à segurança física dos refugiados.",
+"Presença de instituições religiosas e de Organizações Não Governamentais que acolhem os refugiados. 62 Integrado CEFET-MG 1º semestre 2019 HISTÓRIA"
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2019-55",
+"year": 2019,
+"num": 55,
+"topic": "H06",
+"level": 1,
+"format": "direta",
+"gab": "C",
+"stem": "Tanto a partilha como a ocupação efetiva do continente africano foram impulsionadas pela concorrência entre várias economias industriais, buscando obter e preservar mercados, e pela pressão econômica de 1880, que desencadeou o expansionismo europeu.\nHERNANDEZ, Leila Leite. A África na sala de aula. São Paulo: Editora Selo Negro, 2005. p. 71. (Adaptado).\n\nO trecho refere-se à etapa de expansão do capitalismo pelo mundo marcada pela(o)",
+"o": [
+"acumulação de ouro e prata para financiar o desenvolvimento industrial europeu.",
+"incentivo aos investimentos financeiros para especular nas economias europeias.",
+"ampliação das iniciativas imperialistas para assegurar maiores lucros às empresas europeias.",
+"crescimento do tráfico atlântico de escravos para garantir a ocupação de territórios não europeus. Integrado CEFET-MG 1º semestre 2019 63"
+],
+"support": "texto histórico"
+},
+{
+"id": "R-2019-56",
+"year": 2019,
+"num": 56,
+"topic": "H01",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "A",
+"stem": "O termo Abolicionismo diz respeito mais propriamente ao movimento iniciado em 1880, reunindo diversos grupos sociais e tendências políticas. Os abolicionistas fundaram a “Sociedade Brasileira contra a Escravidão” e o seu jornal, que circulou entre 1880 e 1881.\nVAINFAS, Ronaldo (org.). Dicionário do Brasil Imperial (1822-1889). Rio de Janeiro: Objetiva, 2002. P.19). (Adaptado).\n\nSobre esse tema, afirma-se que:\n\nI- Algumas lideranças do movimento abolicionista defendiam pu- blicamente as fugas de escravos e a formação de quilombos.\nII- Joaquim Nabuco e André Rebouças destacavam-se dentre as lideranças abolicionistas de tendência política monarquista.\nIII- O quilombo de Palmares fazia parte de uma rede de resistên- cia ligada à Confederação Abolicionista.\nIV- A força política dos abolicionistas no Parlamento foi limita- da, tendo sido aprovada a indenização aos proprietários de escravos.\nV- Os representantes de várias classes sociais, incluindo os ex-es- cravos, participavam do movimento abolicionista dos Caifazes em São Paulo.\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I, II, V.",
+"I, II, IV.",
+"II, III, IV.",
+"III, IV, V. 64 Integrado CEFET-MG 1º semestre 2019"
+],
+"support": "texto histórico"
+},
+{
+"id": "R-2019-58",
+"year": 2019,
+"num": 58,
+"topic": "H04",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "Observe a imagem abaixo.\n\nTalão de Greves, Dossiê Fábrica Calfat, 2233, DEOPS/SP. Arquivo do Estado de São Paulo.\n\n66                                   Integrado      CEFET-MG       1º semestre 2019\n\nA imagem refere-se a um \"talão de greves\", emitido pelo Departamento Estadual de Ordem Política e Social (DEOPS), que traz informações de um movimento ocorrido na fábrica Calfat & Cia Fiações e Tecelagem, como:\n\n• Número de operários: 700 aprox. Mulheres: 400 • Início da greve: 11/10/1935      Término: 14/10/1935 • Motivo: Aumento salarial • Agitadores da fábrica: [nomes] • Agitadores estranhos: [nomes] • Solução: de acordo\n\nA análise desse documento permite constatar que, durante o primeiro governo constitucional de Getúlio Vargas (1934-1937), o movimento operário era",
+"o": [
+"controlado por meio de uma polícia política oficial.",
+"formado por trabalhadores de origem estrangeira.",
+"apoiado pelo presidente por meio de ações grevistas.",
+"liderado por sindicatos organizados pelos anarquistas. Integrado CEFET-MG 1º semestre 2019 67"
+],
+"support": "imagem (documento) + enunciado"
+},
+{
+"id": "R-2019-59",
+"year": 2019,
+"num": 59,
+"topic": "H04",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "Texto 1 O projeto de incorporação da Petróleo Brasileiro Sociedade Anônima, ou, mais simplesmente, Petrobras, visa captar, para o desenvolvimento da indústria brasileira do petróleo, as fontes de receita de que necessita e a centralização de iniciativas que lhe é indispensável. Mais ainda, consolida a orientação nacionalista, de que nunca se afastou o meu governo e que espero poder sustentar até o fim, contra todos os adversários descobertos ou embuçados e os inimigos da nossa emancipação econômica. Discurso do Presidente Getúlio Vargas, Candeias (Bahia), 23 de junho de 1952. Disponível em: <http://www.horadopovo.com.br>. Acesso em 01 out. 2018.\n\nTexto 2 Rendo homenagem muito especial, por fim, a todos os que defenderam a Petrobras quando ela foi atacada ao longo de sua história – e ainda hoje – e aos funcionários e petroleiros que se mantiveram de pé quando a empresa passou a ser tratada como uma herança maldita do período jurássico. Benditos amigos e companheiros do dinossauro, que sobreviveu à extinção, deu a volta por cima, mostrou o seu valor. E descobriu o pré-sal – patrimônio da União, riqueza do Brasil e passaporte para o nosso futuro. Pronunciamento à Nação do Presidente da República, Luiz Inácio Lula da Silva, em cadeia nacional de rádio e televisão, por ocasião das comemorações do dia 7 de Setembro. Brasília, 06 de setembro de 2009. Disponível em: <http://www.camara.leg.br>. Acesso em 01 out. 2018.\n\n68                                   Integrado       CEFET-MG      1º semestre 2019\n\nSobre os textos 1 e 2, produzidos em momentos distintos, é correto afirmar que",
+"o": [
+"endossam a noção de Estado liberal, que marcou os governos populistas brasileiros.",
+"convergem para uma ideia de Estado como protagonista do desenvolvimento econômico brasileiro.",
+"divergem no entendimento do papel das empresas estatais para a organização político-econômica nacional.",
+"destoam do discurso desenvolvimentista, que defendeu o pre- domínio do capital privado na economia nacional. Integrado CEFET-MG 1º semestre 2019 69"
+],
+"support": "dois textos (discursos)"
+},
+{
+"id": "R-2020-17",
+"year": 2020,
+"num": 17,
+"topic": "M06",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "B",
+"stem": "A figura abaixo apresenta algumas obras do escritor Eça de Queirós que foram adaptadas para o cinema ou televisão.\n\nObras                                      Anos O Mistério da Estrada de Sintra                                          1870\n\nO Crime do Padre Amaro                                                   1875\n\nA Tragédia da Rua das Flores                                             1877\n\nO Primo Basílio                                                          1878\n\nO Mandarim                                                               1880\n\nDisponível em: <https://nielylindsey.wordpress.com/2014/01/05/eca-de-queiros-obras-adaptadas/>. Acesso em: 22 ago. 2019 (adaptado).\n\nNa figura, os cinco números mencionados correspondem aos anos em que essas obras foram escritas. Sobre esses números, afirma-se que:\n\nI- Apenas dois são múltiplos de 3.\n\nII- Apenas três são múltiplos de 4.\n\nIII- Apenas dois são primos.\n\nIV- O máximo divisor comum entre 1870 e 1880 é múltiplo de 10.\n\nV- Os múltiplos de 1875 possuem o número 5 como um de seus fatores primos.\n\n20                                   Integrado      CEFET-MG      1º semestre 2020\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I, II e IV.",
+"I, IV e V.",
+"II, III e V.",
+"III, IV e V. Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "tabela"
+},
+{
+"id": "R-2020-20",
+"year": 2020,
+"num": 20,
+"topic": "M02",
+"level": 2,
+"format": "cálculo",
+"gab": "D",
+"stem": "Júlia e Marcos fizeram uma prova para proficiência em língua inglesa. A razão entre a nota de Júlia e o número 8 e a razão entre a nota de Marcos e o número 27 são diretamente proporcionais a uma mesma constante. Se a soma das notas de ambos é 455, afirma-se corretamente que a nota N1, de Júlia, está no intervalo",
+"o": [
+"40 < N1 < 60",
+"40 < N1 < 80",
+"40 < N1 < 100",
+"40 < N1 < 120 24 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2020-21",
+"year": 2020,
+"num": 21,
+"topic": "M16",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "Carlos solicitou a um carpinteiro a construção de uma caixa no formato de um paralelepípedo retangular, com dimensões x, 2x e 3x cm. Após analisar todos os materiais que precisavam ser guardados nessa caixa, o carpinteiro explicou a Carlos que o espaço seria insuficiente e que, portanto, ela deveria ser maior que aquela inicialmente solicitada. Assim, a caixa construída passou a ter as seguintes dimensões (x + 1), (2x + 2), (3x + 2) cm.\n\nA diferença entre o volume da caixa construída pelo carpinteiro e o volume da caixa inicialmente solicitada por Carlos, em cm3 , é",
+"o": [
+"2(8x2 + 7x + 2)",
+"3(2x2 + 5x + 1)",
+"4(x2 + 3x + 4)",
+"6(2x2 + 6x + 2) Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2020-22",
+"year": 2020,
+"num": 22,
+"topic": "M04",
+"level": 3,
+"format": "direta",
+"gab": "D",
+"stem": "Se x + y = 4, então P = x3 +x2y +x2 – y2 é equivalente à expressão algébrica",
+"o": [
+"3x – 16",
+"x3 + 8x",
+"3x2 + 2x – 1",
+"4x2 + 8x – 16 26 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2020-23",
+"year": 2020,
+"num": 23,
+"topic": "M07",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "Considere o gráfico da função real f(x) = –2x +4, representado no plano cartesiano a seguir. y\n\n0    2         x\n\nA função afim, g(x), cujo gráfico é simétrico ao dessa função f(x) em relação ao eixo y, é dada por",
+"o": [
+"g(x) = 2x + 4",
+"g(x) = 2x – 4",
+"g(x) = –2x – 4",
+"g(x) = –4x + 2 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "gráfico"
+},
+{
+"id": "R-2020-24",
+"year": 2020,
+"num": 24,
+"topic": "M09",
+"level": 1,
+"format": "cálculo",
+"gab": "C",
+"stem": "Joana está ansiosa para saber seu conceito final em Matemática, que está condicionado à média aritmética das notas obtidas nas quatro provas da disciplina.\n\nO quadro abaixo apresenta a correspondência entre os conceitos e os intervalos de notas.\n\nConceito         Intervalo da nota Insatisfatório          0≤N≤3 Regular                 3<N≤6 Bom                     6<N≤8 Ótimo                   8 < N ≤ 10\n\nO sistema online da escola divulgou as quatro notas de Joana, como especificado no quadro a seguir.\n\nN1      N2      N3    N4 4       7        9    8\n\nDe acordo com essas notas, o conceito de Joana na disciplina de Matemática foi",
+"o": [
+"insatisfatório.",
+"regular.",
+"bom.",
+"ótimo. 28 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "tabela"
+},
+{
+"id": "R-2020-28",
+"year": 2020,
+"num": 28,
+"topic": "M08",
+"level": 3,
+"format": "cálculo",
+"gab": "B",
+"stem": "O corte transversal de um túnel, de pista única, em que a base tem 20 m de largura e a altura máxima é de 8 m, tem o formato de um arco de parábola, conforme representado na ilustração e no gráfico a seguir, sendo V o vértice da parábola.\n\ny\n\nV\n\n8m\n\n20 m\n\n0                            20   x\n\nUm caminhão, cujo formato do corte transversal de sua carroceria é um retângulo, tem altura do chão até seu ponto mais alto igual a 6 m. O ponto mais alto desse caminhão está em sua carroceria. Para que ele consiga passar no túnel, a maior largura possível para a carroceria do caminhão, dentre as opções abaixo, em metros, é",
+"o": [
+"6",
+"8",
+"11",
+"13 32 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2020-32",
+"year": 2020,
+"num": 32,
+"topic": "C03",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "B",
+"stem": "Considere os seguintes fenômenos de interesse científico:\n\nI. Eletrização de uma régua por atrito.\n\nII. Fusão de uma barra de gelo exposta ao Sol.\n\nIII. Conservação da massa em uma reação química.\n\nIV. Condução de eletricidade em um circuito simples.\n\nV. Emissão de luz colorida no estouro de fogos de artifício.\n\nO modelo atômico de Dalton, proposto no início do século XIX, pode ser utilizado para explicar os fenômenos descritos em",
+"o": [
+"I e IV.",
+"II e III.",
+"II e V.",
+"III e IV. 38 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2020-33",
+"year": 2020,
+"num": 33,
+"topic": "C06",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "Uma ocorrência bastante comum, principalmente em locais de clima seco, é o pequeno choque elétrico sofrido por pessoas no momento de abrir a porta de um carro. Esse fenômeno é provocado pelo toque na parte metálica do automóvel que sofreu uma eletrização decorrente do atrito com o ar durante o deslocamento do veículo. Nesse contexto, o choque elétrico acontece porque",
+"o": [
+"as cargas elétricas escoam pelo passageiro no contato com o solo.",
+"o ar seco é um bom condutor elétrico ao contrário da pele humana.",
+"o automóvel perde cargas positivas, ficando eletrizado negati- vamente.",
+"as cargas em excesso se acumulam no interior da carcaça do automóvel. Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2020-35",
+"year": 2020,
+"num": 35,
+"topic": "C07",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Considere o problema de Calvin na tirinha a seguir.\n\nPROBLEMA:              A que distância Jack e Joe         ERA MAIS UM DAQUELES Jack e Joe saíram de casa ao     estavam um do outro?              CASOS INTRIGANTES. mesmo tempo e estão dirigin-                                        MAS NÃO É PRA ISSO QUE do um na direção do outro.                                         EXISTEM OS DETETIVES Jack vai a 120 km/h e Joe a 60                                      PARTICULARES? km/h. Em dez minutos os dois vão chegar ao mesmo ponto.\n\nDisponível em: <https://novaescola.org.br/conteudo/3621/calvin-e-seus-amigos>. Acesso em: set. 2019.\n\nA resposta correta para o desafio da tirinha, em km, é",
+"o": [
+"10.",
+"20.",
+"30.",
+"40. Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "charge/tirinha"
+},
+{
+"id": "R-2020-36",
+"year": 2020,
+"num": 36,
+"topic": "C07",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "O programa espacial brasileiro desenvolve foguetes para lançar satélites no espaço. No instante de um lançamento, a força do motor impulsiona o foguete para cima lentamente no início e, após alguns minutos, com grande velocidade.\n\nNa situação descrita, a reação da força que impulsiona o foguete está aplicada",
+"o": [
+"no ar atmosférico.",
+"nos gases expelidos.",
+"na superfície da Terra.",
+"na torre de lançamento. 42 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2020-37",
+"year": 2020,
+"num": 37,
+"topic": "C08",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Para transformar seu celular em um microscópio, basta colocar uma gota de água na lente do telefone e, com cuidado, virar o dispositivo. “A gota suspensa serve como lente”, diz o fotógrafo Alexandre Wild que começou a usar a técnica após ler que uma equipe que desenvolve microscópios fazia experiências com água antes de mudar para uma lente sólida. As figuras abaixo mostram, respectivamente, a gota de água suspensa na câmera do dispositivo e a fotografia da parte interna de uma flor.\n\nDisponível em: <http://blogs.scientificamerican.com/compound-eye/2012/03/12/transform-your-iphone-into-a-microscope-just-add-water/> Acesso em: ago. 2014 (adaptado).\n\nNo ar, a gota de água presa ao celular, usada para captar a imagem da flor, tem o mesmo comportamento que lentes usadas para corrigir o problema de",
+"o": [
+"miopia.",
+"daltonismo.",
+"astigmatismo.",
+"hipermetropia. Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2020-38",
+"year": 2020,
+"num": 38,
+"topic": "C12",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "Em um novo estudo da Universidade de Washington (EUA), foram investigados aspectos que estariam relacionados ao início da vida no nosso planeta. Para imitar a constituição das células primitivas, os pesquisadores utilizaram moléculas orgânicas simples em recipientes microscópicos cheios de fluido e envoltos em membranas feitas de ácidos graxos, como teriam sido as estruturas equivalentes à época da “sopa oceânica”. Os estudos indicaram que moléculas de aminoácidos e de RNA foram importantes na incorporação de íons magnésio às membranas celulares, garantindo a estabilidade dessas contra a desintegração. CORNELL CE, et. al. Proceedings of the National Academy of Sciences. 116 (35), 2019 (adaptado).\n\nEsses experimentos evidenciam a formação da",
+"o": [
+"litosfera.",
+"biosfera.",
+"atmosfera.",
+"hidrosfera. 44 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "texto científico"
+},
+{
+"id": "R-2020-40",
+"year": 2020,
+"num": 40,
+"topic": "C11",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "C",
+"stem": "Na tabela a seguir, são apresentados os números de casos de diferentes tipos de câncer que afetam o ser humano do sexo masculino.\n\nLocalização Primária do Câncer             Nº de Casos             % Próstata                                      68.220             42,0 Traqueia, Brônquios e Pulmão                  18.740             11,6 Cólon e Reto                                  17.380             10,7 Estômago                                      13.540              8,4 Cavidade Oral                                 11.200              6,9 Esôfago                                        8.240              5,1 Bexiga                                         6.690              4,1 Laringe                                        6.390              3,9 Sangue (leucemias)                             5.940              3,7 Encéfalo e medula                              5.810              3,6 Total                                        162.150             100,0\n\nDisponível em: <http://www.inca.gov.br/estimativa/2014/estimativa-24042014.pdf> Acesso em: 12 set 2019 (fragmento, adaptado).\n\nCom base nos dados da tabela, afirma-se que:\n\nI- A soma de casos de câncer relacionados ao sistema urinário é igual a 14,8%.\nII- O maior número de casos relaciona-se a uma glândula que produz um fluido que protege e nutre os espermatozoides.\nIII- Dos diferentes tipos de câncer, pelo menos 4 relacionam-se a órgãos do sistema respiratório.\n\n46                                Integrado     CEFET-MG     1º semestre 2020\n\nIV- O percentual de 19,1% refere-se ao somatório de casos de câncer no sistema digestório.\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I e II.",
+"I e IV.",
+"II e III.",
+"III e IV. Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "tabela"
+},
+{
+"id": "R-2020-41",
+"year": 2020,
+"num": 41,
+"topic": "C07",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "Um vídeo que circulou recentemente na internet mostrava um apresentador no interior de uma sala, realizando experimentos sobre a queda dos corpos.\n\nEm um experimento, uma bola de boliche e uma pena de ave são presas no teto da sala e soltas simultaneamente. No primeiro teste, a sala estava cheia de ar e a bola de boliche chegou ao solo antes da pena de ave. No segundo teste, o ar foi retirado da sala e ambos os objetos chegaram juntos ao solo.\n\nSobre esse experimento, a hipótese correta é:",
+"o": [
+"com a sala cheia de ar, os objetos chegam ao solo em tempos distintos, pois a força de resistência do ar é a mesma nos ob- jetos.",
+"caso a experiência fosse feita na Lua, com a sala sem ar, a au- sência da força da gravidade impediria que os objetos caíssem do teto.",
+"os pesos dos objetos são constantes independentemente da quantidade de ar na sala.",
+"o ar deve ser um elemento que reduz a força da gravidade sobre a pena. 48 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2020-44",
+"year": 2020,
+"num": 44,
+"topic": "C09",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "As concepções de formação do Universo estão presentes em várias culturas e são relacionadas a aspectos religiosos, míticos e filosóficos. Atualmente, a comunidade científica aceita a teoria do Big Bang como a melhor explicação para a origem e a evolução do Universo.\n\nFaz parte da teoria do Big Bang a ideia de que",
+"o": [
+"a distância entre as galáxias é constante.",
+"os planetas formaram-se antes das estrelas.",
+"a temperatura média do Universo era menor no início.",
+"as estrelas mais antigas estão mais afastadas da Terra. Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2020-47",
+"year": 2020,
+"num": 47,
+"topic": "C13",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "Em 19 de agosto de 2019, os moradores de São Paulo se assustaram com a forte nebulosidade que encobriu a cidade. Por volta das 15h30, o céu escureceu e uma chuva cinza caiu. Testes realizados pela Universidade Municipal de São Caetano do Sul (USCS), a partir da água da chuva coletada por moradores, revelaram alta concentração de fuligem, cerca de sete vezes maior do que a registrada na água de uma chuva normal. Portal Gazetaweb com G1, em 21 ago. 2019 (adaptado).\n\nOs resultados dos testes realizados pela universidade evidenciaram",
+"o": [
+"o forte caráter ácido da chuva.",
+"o elevado nível de poluição nas águas da cidade.",
+"a retenção de gases de efeito estufa em São Paulo.",
+"o impacto das queimadas na qualidade do ar atmosférico."
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2020-48",
+"year": 2020,
+"num": 48,
+"topic": "C13",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "O desenvolvimento sustentável é capaz de suprir as demandas da geração atual, sem comprometer as necessidades das futuras gerações. Fundo Mundial para a Natureza. Disponível em: <https://www.wwf.org.br> Acesso em: 12 set 2019 (fragmento, adaptado).\n\nUm dos caminhos para se alcançar esse ideal de desenvolvimento é",
+"o": [
+"privilegiar o consumo de combustíveis fósseis.",
+"priorizar a espécie humana em relação às demais.",
+"aumentar a quantidade dos produtos industrializados.",
+"reconhecer a limitação de recursos naturais do planeta. 54 Integrado CEFET-MG 1º semestre 2020 GEOGRAFIA"
+],
+"support": "texto científico"
+},
+{
+"id": "R-2020-52",
+"year": 2020,
+"num": 52,
+"topic": "G05",
+"level": 1,
+"format": "NÃO/incorreta",
+"gab": "D",
+"stem": "A criação de espaços democráticos em Unidades de Conservação é fundamental para que a participação e o controle social estejam presentes nesse espaço de gestão que, por definição, representa interesses em disputa e situações de conflitos.\nLOUREIRO, C.F.B e CUNHA, C. C. Educação ambiental e gestão participativa de unidades de conservação: elementos para se pensar a sustentabilidade democrática. Revista Ambiente & Sociedade. Campinas v. XI, n. 2 - jul.-dez. 2008, p.150.\n\nA ação que NÃO favorece a gestão compartilhada das Unidades de Conservação é:",
+"o": [
+"Participar do debate para a elaboração do Plano de Manejo.",
+"Estabelecer, coletivamente, regras sustentáveis que orientem o comportamento dos usuários.",
+"Promover tomadas de decisões que envolvam os usuários nos resultados de ações executadas.",
+"Controlar o acesso de usuários potenciais aos parques urbanos para preservar os recursos naturais. 58 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "texto científico"
+},
+{
+"id": "R-2020-55",
+"year": 2020,
+"num": 55,
+"topic": "H01",
+"level": 2,
+"format": "NÃO/incorreta",
+"gab": "B",
+"stem": "O trecho a seguir do jornal O Pharol comentava a lei provincial e tratava dos subsídios à imigração de trabalhadores estrangeiros.\n\nOs mineiros compreendem perfeitamente a necessidade econômica, a força imperativa da civilização, da humanidade e religião, os interesses físicos, morais e intelectuais que determinam o desaparecimento, inadiável e improrrogável do elemento escravizado. [...] Necessário é que desde já surta seus efeitos a lei provincial; para isso é mister que nos estabelecimentos rurais se inicie a construção de cômodos para os trabalhadores livres. O Pharol, 10 fev. 1888. Setor de Memória da Biblioteca Municipal Murilo Mendes. Juiz de Fora, MG.\n\nEntre os argumentos utilizados em defesa da vinda de imigrantes para trabalhar no Brasil, no período final da escravidão, é INCORRETO incluir a",
+"o": [
+"visão dos homens livres como mais adequados à economia do país.",
+"formação europeia especializada nas práticas da cafeicultura.",
+"idealização dos europeus como mais eficazes na agricultura.",
+"facilidade de inserção dos italianos na sociedade brasileira. Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "texto jornalístico (fonte histórica)"
+},
+{
+"id": "R-2020-57",
+"year": 2020,
+"num": 57,
+"topic": "H08",
+"level": 2,
+"format": "NÃO/incorreta",
+"gab": "C",
+"stem": "No trecho abaixo, Adolf Hitler declara qual é o papel da propaganda política no seu projeto de Estado.\n\nToda propaganda deve ser popular e deve adaptar seu nível intelectual à capacidade receptiva do menos intelectual daqueles a quem se deseja abordar. Assim, deve afundar sua elevação mental em proporção aos números da massa que deseja agarrar [...]. A capacidade receptiva das massas é muito limitada, e sua compreensão é pequena; por outro lado, elas têm um grande poder de esquecer. Sendo assim, toda propaganda eficaz deve limitar-se a pouquíssimos pontos que devem ser destacados na forma de slogans. Adolf Hitler. Meim Kampf, (My Battle). Boston; New York: Houghton Mifflin Company, The Riverside Press Cambridge, 1933, p. 76-7. Apud STANLEY, Jason. Como funciona o fascismo. A política “nós” e “eles”. L&PM, 2018, p. 63-64.\n\nBaseando-se nessa definição, é INCORRETO afirmar que a propaganda nazista visava à",
+"o": [
+"eliminação do espaço de divergências políticas.",
+"simplificação da comunicação oficial para as massas.",
+"construção do debate sobre políticas governamentais.",
+"utilização da linguagem como ferramenta de persuasão. 64 Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "texto (fonte histórica)"
+},
+{
+"id": "R-2020-58",
+"year": 2020,
+"num": 58,
+"topic": "H09",
+"level": 3,
+"format": "direta",
+"gab": "A",
+"stem": "O texto a seguir apresenta reformulações curriculares na área de História produzidas pelo governo do Estado de Israel, na década de 1970, quando já haviam decorrido intensos conflitos com os países árabes.\n\nUm estudo ainda superficial do curso de História revela que ele é feito para enaltecer a história dos judeus e apresentá-la sob a melhor luz possível, ao passo que a visão da história árabe é a tal ponto deturpada que beira a mentira. A história árabe é apresentada como uma série de revoluções, massacres e disputas intermináveis, de modo a obscurecer as conquistas árabes. Do mesmo modo, o tempo dedicado à história árabe é curto. No quinto ano, por exemplo, alunos de dez anos passam dez horas (ou períodos) estudando os “hebreus” e somente cinco a “Península Arábica”. E, mesmo quando estudam a Península Arábica, sua atenção é atraída para as comunidades judaicas, como estipulado no programa. [...]\nJIRYIS, S. The Arabs in Israel. Trad. Inea Englet. New York: Monthly Review Press, 1976, p. 210-2 Apud SAID, Edward. A Questão da Palestina. São Paulo: Editora Unesp, 2012, p. 147.\n\nNesse contexto, o ensino de História em Israel assumiu o papel de",
+"o": [
+"promover sentimento de pertencimento e lealdade por meio da educação.",
+"valorizar conteúdos que abordassem a diversidade religiosa presente na região.",
+"desenvolver uma consciência que favorecia o isolamento dos israelenses no território.",
+"utilizar a educação como ferramenta de assimilação das dife- renças entre árabes e palestinos. Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "texto (fonte histórica)"
+},
+{
+"id": "R-2020-60",
+"year": 2020,
+"num": 60,
+"topic": "H03",
+"level": 3,
+"format": "direta",
+"gab": "D",
+"stem": "Os textos abaixo expressam posições relativas a projetos de identidade e desenvolvimento para o Brasil durante a Primeira República.\n\nTexto I Assim esgotando a terra, deixamos também de formar a nação. Abandonando a terra, e não cuidando da nação, abandonamos a Pátria, porque a Pátria é a terra, com o habitat, mas principalmente, para o sentimento e para a razão, [é] a nação, isto é, a gente. Fora disto, a palavra “Pátria” não exprime senão uma imagem supersticiosa – como as de qualquer culto fetichista – ou uma falsidade convencional.\nTORRES, Alberto. O problema nacional brasileiro: introdução a um programa de organização nacional [1914]. S.P.: Ed. Nacional, 1933.\n\nTexto II Queremos luz, ar, ventiladores, aeroplanos, reivindicações obreiras, idealismos, motores, chaminés de fábricas, sangue, velocidade, sonho na nossa Arte. E que o rufo de um automóvel, nos trilhos de dois versos, espante da poesia o último deus homérico, que ficou, anacronicamente, a dormir e sonhar, na era do jazz band e do cinema, com a frauta dos pastores da Arcádia e os seios de Helena. DEL PICCHIA, Menotti. Arte moderna (conferência pronunciada na noite de 17 de fevereiro da Semana de Arte Moderna) [1922]. In: PICCHIA, Menotti; SALGADO, Plínio; RICARDO, Cassiano. O curupira e o carão. S.P.: Hélios, 1927.\n\n68                                   Integrado      CEFET-MG      1º semestre 2020\n\nOs textos I e II representam o debate entre",
+"o": [
+"protecionistas e liberais.",
+"nacionalistas e entreguistas.",
+"germanistas e americanistas.",
+"tradicionalistas e vanguardistas. Integrado CEFET-MG 1º semestre 2020 Centro Federal de Educação Tecnológica de Minas Gerais Educação Profissional Técnica Integrada de Nível Médio Quadro de Respostas (rascunho) Questões 01 - 15 Questões 16 - 30 Questões 31 - 45 Questões 46 - 60 01 16 31 46 02 17 32 47 03 18 33 48 04 19 34 49 05 20 35 50 06 21 36 51 07 22 37 52 08 23 38 53 09 24 39 54 10 25 40 55 11 26 41 56 12 27 42 57 13 28 43 58 14 29 44 59 15 30 45 60 • O candidato que sair com o Caderno de Provas e/ou com a Folha de Respostas do local de aplicação de provas será automaticamente eliminado do processo seletivo. • Tanto as questões quanto o gabarito das provas serão disponibilizados no en- dereço www.vestibular.cefetmg.br, a partir das 20 horas do dia 18 de novembro de 2019. • O resultado final estará disponível no dia 26 de novembro de 2019, após as 20 horas, no endereço eletrônico www.vestibular.cefetmg.br. • As informações sobre matrícula devem ser consultadas no Edital. Integrado CEFET-MG 1º semestre 2020"
+],
+"support": "texto (fontes históricas)"
+},
+{
+"id": "R-2022-13",
+"year": 2022,
+"num": 13,
+"topic": "PT08",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "E se rolasse uma vacina contra a morte?\n\nA vida eterna seria um tédio? Não necessariamente. Até porque ela não seria realmente eterna. Mas o mundo estagnaria sem o poder de inovação dos jovens.\n\nMARTON, Fábio. \"E se rolasse uma vacina contra a morte?\". Disponível em: <https://super. abril.com.br/ideias/e-se-rolasse-uma-vacina-contra-a-morte/>. Acesso em: 18 jan. 2021.\n\nNessa notícia, o título em forma de pergunta revela a intenção do autor de",
+"o": [
+"estimular a resposta de seu leitor, convidando-o a escrever um texto para essa pergunta.",
+"aproximar-se do leitor ao incitá-lo à reflexão, usando, para isso, uma linguagem coloquial.",
+"apresentar um tom professoral, evidenciando seu domínio e conhecimento sobre o assunto.",
+"questionar o próprio conteúdo da notícia, mostrando-se céti- co em relação ao tema noticiado."
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2022-15",
+"year": 2022,
+"num": 15,
+"topic": "PT08",
+"level": 1,
+"format": "direta",
+"gab": "C",
+"stem": "O objetivo desse fragmento de artigo de opinião é",
+"o": [
+"comparar as diferentes culturas no subúrbio.",
+"descrever as qualidades da paisagem urbana.",
+"avaliar a ocupação dos cortiços no espaço urbano.",
+"divulgar a lucratividade no mercado habitacional."
+],
+"support": "artigo de opinião"
+},
+{
+"id": "R-2022-17",
+"year": 2022,
+"num": 17,
+"topic": "PT08",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "O 6, o 9 e o culto à ignorância\n\nO mais valioso que aprendi em um curso de Ciências Humanas nem foi a existência e o respeito às formas de ver, mas justa- mente o ato de problematizá-las, entender que tudo o que te- mos é resultado de processos históricos mais ou menos longos, e que tudo que temos, portanto, tem um referencial e só pode ser apreendido com alguma clareza a partir dele. Assim, o 6 ou o 9 não está ali entre os dois sujeitos aletoriamente, há um referen- cial para ele. Se, por exemplo, se tratar de um estacionamento numerado, na vaga anterior estará escrito um 5 ou um 8 e, na posterior, um 7 ou um 10. Somente com base nos referenciais em que circulam as coisas do mundo é que podemos fugir do sim- plismo de considerar tudo como uma “questão de opinião”. Há de se dizer de onde vêm, com quais outras coisas se trava relação, com quais oposições foi contrastado. Quem “acha”, não sabe. O conhecimento das coisas se dá pelo adensamento do olhar, pelo conflito das visões, pela listagem dos elementos relacionais, e não pelo culto ao perspectivismo raso. É preciso reafirmar que a pluralidade de ideias, o pluralismo como um todo deve ser sempre festejado. O que não se pode é cair na ignorância por esporte. Pretensão de saber sem referencial.\nBORGES, W. C. \"O 6, o 9 e o culto à ignorância\". Disponível em: <https://revistacult.uol. com.br/home/o-6-o-9-e-o-culto-a-ignorancia/>. Acesso em: 18 jan.2021.\n\nNesse texto, o uso da exemplificação como estratégia argumentativa atendeu ao propósito de",
+"o": [
+"simplificar a tese do direito à opinião própria.",
+"contestar a necessidade do pluralismo de visões de mundo.",
+"comprovar a importância do conhecimento na defesa de uma ideia.",
+"criticar a existência de diferentes modos de ver as questões sociais."
+],
+"support": "texto argumentativo (opinião)"
+},
+{
+"id": "R-2022-18",
+"year": 2022,
+"num": 18,
+"topic": "PT08",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "Como o Brasil lida hoje com o passado da escravidão? [...] Há um resíduo de preconceito que está se manifestando hoje de forma mais explícita do que no passado. Os brasileiros criaram mitos a respeito da escravidão, até mesmo para mascarar a importância do tema na nossa história. Tem essa lenda de que o Brasil é uma democracia racial, que nossa escravidão foi patriarcal, benévola. Ao fazer a pesquisa, você percebe que a escravidão foi tão violenta quanto em qualquer outro lugar onde houve cativeiro. O Brasil é uma sociedade de castas, e essa estrutura, hierarquização por classes, é fruto desse processo. [...] Fragmento de entrevista com Laurentino Gomes. Disponível em: <https://www.terra.com. br/noticias/brasil/legado-da-escravidao-precisa-ser-combatido-no-brasil-diz-laurentino->. Acesso em: 30 jan. 2021.\n\nNo texto, a ideia defendida é a de que",
+"o": [
+"o preconceito racial é recente na sociedade brasileira.",
+"a sociedade brasileira renega seu passado escravagista.",
+"a escravidão foi patriarcal e benévola.",
+"o país é uma democracia racial."
+],
+"support": "entrevista (texto jornalístico)"
+},
+{
+"id": "R-2022-25",
+"year": 2022,
+"num": 25,
+"topic": "M05",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "Dentre os alunos de uma turma, considere M o conjunto daqueles que gostam de Matemática, G o conjunto dos que gostam de Geografia e P o conjunto dos alunos que gostam de Português. Assim, o conjunto dos alunos que não gostam de Geografia, mas gostam de Matemática ou de Português é, corretamente, representado por",
+"o": [
+"G – (M ∪ P)",
+"G – (M ∩ P)",
+"(M ∩ P) – G",
+"(M ∪ P) – G"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2022-26",
+"year": 2022,
+"num": 26,
+"topic": "M01",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "Eduardo desejava comprar uma televisão em uma loja virtual no final do mês de novembro de 2021 e, antes de efetuar a compra, realizou uma pesquisa na internet. Ele verificou que o preço da televisão oscilou ao longo desse mês: no dia 10 era 30% maior em relação ao preço que constava no site no dia 1º e, no dia 30, o preço era 30% menor do que o praticado no dia 10.\n\nEduardo, ao comparar o preço da televisão no dia 30 de novembro de 2021 com o do dia 1º do mesmo mês e ano, concluiu corretamente que",
+"o": [
+"houve um desconto de 9%.",
+"houve um acréscimo de 9%.",
+"houve um desconto de 30%.",
+"não houve desconto e nem acréscimo."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2022-27",
+"year": 2022,
+"num": 27,
+"topic": "M12",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Um restaurante vende pizzas no formato circular em 4 tamanhos diferentes. Na tabela a seguir, são apresentados os preços dessas pizzas, conforme o diâmetro de cada uma delas.\n\nDiâmetro da pizza Preço (em reais)\n\n20 cm\t\t                    20,00\n\n30 cm\t\t                    40,00\n\n40 cm\t\t                    60,00\n\n50 cm\t\t                    120,00\n\nA opção de menor custo, por cm² de pizza, é aquela cujo diâmetro, em cm, mede",
+"o": [
+"20",
+"30",
+"40",
+"50"
+],
+"support": "tabela"
+},
+{
+"id": "R-2022-28",
+"year": 2022,
+"num": 28,
+"topic": "M02",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Augusto e Bernardo decidiram abrir uma empresa em sociedade, investindo uma quantia total de R$ 120 000,00. Augusto partici- pou com R$ 40 000,00 e Bernardo com o valor restante. Os sócios combinaram que, ao final de um ano, todo o lucro seria repartido entre os dois da seguinte forma: 50% seriam divididos em duas partes iguais, uma para cada um dos sócios, e a outra metade do lucro seria distribuída em partes diretamente proporcionais ao investimento inicial de cada um.\n\nRespeitando o que foi combinado entre os sócios, se, ao final de um ano de funcionamento, essa empresa obteve um lucro total de R$ 30 000,00, então, o lucro destinado a Bernardo, em reais, foi igual a",
+"o": [
+"10 000,00",
+"12 500,00",
+"17 500,00",
+"20 000,00"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2022-29",
+"year": 2022,
+"num": 29,
+"topic": "M11",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Considere m o número natural dado por\n\nm=1∙2∙3∙4∙…∙32∙33∙34∙35\n\nou seja, m é o produto dos números naturais de 1 a 35. Assim, o número m termina com",
+"o": [
+"6 zeros consecutivos.",
+"7 zeros consecutivos.",
+"8 zeros consecutivos.",
+"9 zeros consecutivos."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2022-30",
+"year": 2022,
+"num": 30,
+"topic": "M10",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "Considere as situações I, II e III a seguir, referentes a eventos que podem ocorrer em uma determinada região de Belo Horizonte no próximo domingo:\n\nI. Choverá pela manhã.\n\nII. Choverá pela manhã e fará sol à tarde.\n\nIII. Choverá pela manhã ou fará sol à tarde.\n\nSendo X, Y e Z as probabilidades de ocorrerem as situações I, II e III, respectivamente, é correto afirmar que",
+"o": [
+"X ≤ Y ≤ Z",
+"Y ≤ X ≤ Z",
+"X ≤ Z ≤ Y",
+"Z ≤ X ≤ Y Parte II"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2022-31",
+"year": 2022,
+"num": 31,
+"topic": "M02",
+"level": 1,
+"format": "cálculo",
+"gab": "D",
+"stem": "A lei da gravitação universal, proposta por Isaac Newton no século XVII, explica alguns fenômenos naturais, como, por exemplo, o efeito das marés nos oceanos e o movimento dos planetas ao redor do Sol. Essa lei fornece a intensidade da força gravitacional F, entre dois corpos considerados, quando são relacionadas as suas massas M e m e a distância d entre os centros desses dois corpos, conforme representação matemática a seguir:\n\nMm F= G ∙ d2\n\nNessa representação, G é uma constante. Considerando a força gravitacional calculada entre dois corpos a certa distância, quando se dobra a distância entre eles, a força gravitacional fica",
+"o": [
+"duas vezes maior.",
+"duas vezes menor.",
+"quatro vezes maior.",
+"quatro vezes menor."
+],
+"support": "texto científico + fórmula"
+},
+{
+"id": "R-2022-32",
+"year": 2022,
+"num": 32,
+"topic": "M13",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Corredores de rua utilizam o conceito de ritmo para controlar o desenvolvimento da corrida, que é medido em minuto/quilôme- tro (min/km). Por exemplo, um corredor que apresenta um ritmo de 3 min/km percorre 1 km a cada 3 minutos.\n\nConsidere que os corredores, Andreia e Samuel, participam de uma corrida, partindo de um mesmo ponto e instante percor- rendo estradas distintas. Os dois mantêm um ritmo constante durante uma corrida de 24 minutos; Andreia a 4min/km e Samuel a 3 min/km. Ambos percorrem trajetórias retilíneas e perpendicu- lares entre si, como mostra a figura. Estrada A\n\nPonto de               Estrada B partida\n\nAo final da corrida, o segmento de reta que liga esses corredores tem, em km, comprimento igual a",
+"o": [
+"6",
+"8",
+"10",
+"14"
+],
+"support": "enunciado contextualizado + figura"
+},
+{
+"id": "R-2022-33",
+"year": 2022,
+"num": 33,
+"topic": "M07",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Considere uma escala linear X de temperatura cuja correspondência com os valores na escala Celsius está representada na figura a seguir.\n\nEscala X                            Escala Celsius\n\n12°X                          20°C\n\n20°X                          25°C\n\nUsando um termômetro graduado na escala X, Pedro registra a temperatura de 0°X para um objeto. Nessas condições, a temperatura desse objeto correspondente na escala Celsius (°C) é igual a",
+"o": [
+"7,5",
+"10",
+"12,5",
+"15"
+],
+"support": "tabela / figura (escalas)"
+},
+{
+"id": "R-2022-35",
+"year": 2022,
+"num": 35,
+"topic": "M09",
+"level": 3,
+"format": "cálculo",
+"gab": "B",
+"stem": "O Brasil possui atualmente 334 Unidades de Conservação Federais (UCs) dentre florestas, reservas e parques. Os 73 Parques Nacio- nais podem ser agrupados de acordo com sua extensão territorial, conforme o gráfico:\n\nQuantidade de Parques Nacionais por extensão terrritorial (em km2)\n\na partir de 10 000 e menos de 100 000          6 a partir de 1 000 e menos de 10 000                                27 a partir de 100 e menos de 1000                                      33 a partir de 10 e menos de 100          7 0     5    10    15   20 25 30         35\n\nDisponível em: <https://www.gov.br/icmbio/pt-br>. Acesso em: 08 jan. 2021. (adaptado)\n\nCom base nos dados desse gráfico, é correto afirmar que a área total dos 73 parques nacionais, em quilômetros quadrados é, no mínimo, igual a",
+"o": [
+"730",
+"90 370",
+"903 700",
+"7 300 000"
+],
+"support": "gráfico de barras"
+},
+{
+"id": "R-2022-36",
+"year": 2022,
+"num": 36,
+"topic": "M10",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Suponha que, nos testes para desenvolvimento de uma vacina para prevenção da COVID-19, um laboratório adotou a seguinte metodologia: 10 mil voluntários receberam doses da vacina (grupo teste) e outros 10 mil receberam um placebo* (grupo controle), de forma que voluntários e pesquisadores não sabiam quem eram os integrantes de cada grupo. Como resultado, observou-se que, dos 20 mil voluntários acompanhados na pesquisa, 200 deles contraíram a doença, sendo que 190 faziam parte do grupo controle e 10, do grupo teste. * Placebo é uma substância neutra sem efeito farmacológico usada em pesquisas.\n\nDe acordo com os resultados dessa pesquisa, é correto afirmar que",
+"o": [
+"a pessoa do grupo teste fica imune à doença após receber uma dose da vacina.",
+"os grupos pesquisados têm a mesma chance de contrair a doença, pois há infectados nos dois grupos.",
+"uma pessoa dentre os voluntários, se for escolhida ao acaso, tem mais chances de estar infectada do que de não estar.",
+"as pessoas do grupo teste passaram a ter menos chances de se infectarem do que as pessoas do grupo controle."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2022-39",
+"year": 2022,
+"num": 39,
+"topic": "M02",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "A densidade é uma propriedade específica de cada tipo de ma- terial. Objetos feitos com o mesmo material e estando sob as mesmas condições de temperatura e pressão, ainda que tenham formatos diferentes, possuem a mesma densidade. Matematica- m mente, a densidade (d) é obtida por meio da relação d =   , v onde m é a massa do objeto e v é o seu volume.\n\nA seguir, temos quatro sólidos maciços, todos feitos a partir de uma mesma substância e postos sob mesma pressão e tempera- tura, tendo, dessa forma, a mesma densidade.\n\nObjeto I                         Objeto II Prisma reto de base              Cilindro circular quadrada e volume v1             reto de volume v2\n\nObjeto III                       Objeto IV Prisma reto de base              Prisma reto de base triangular e volume v3           retangular e volume v4\n\nSabendo-se que v3 < v4 <v1 < v2 , o objeto que apresenta a maior massa é o",
+"o": [
+"I",
+"II",
+"III",
+"IV"
+],
+"support": "texto científico + figura (sólidos)"
+},
+{
+"id": "R-2022-40",
+"year": 2022,
+"num": 40,
+"topic": "M06",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Segundo a Lei das Proporções Constantes, uma determinada substância composta sempre é formada pelos mesmos elemen- tos químicos numa mesma proporção em massa. A água, por exemplo, é uma substância composta formada por hidrogênio e oxigênio de modo que, em cada 9 gramas de água, temos 1 grama de hidrogênio e 8 gramas de oxigênio. No quadro a se- guir, são apresentados dados referentes à decomposição de duas amostras (I e II) de água.\n\nAmostra Água      Hidrogênio Oxigênio I     27 gramas x gramas   y gramas II    z gramas w gramas    56 gramas\n\nConsiderando a Lei das Proporções Constantes e os dados do quadro, é correto afirmar que",
+"o": [
+"y é divisível por 5.",
+"x é um número par.",
+"w é um número primo.",
+"z é um quadrado perfeito. Centro Federal de Educação Tecnológica de Minas Gerais Cursos Técnicos Integrado, Concomitância Externa e Subsequente Quadro de Respostas (rascunho) Questões 01 - 10 Questões 11 - 20 Questões 21 - 30 Questões 31 - 40 01 11 21 31 02 12 22 32 03 13 23 33 04 14 24 34 05 15 25 35 06 16 26 36 07 17 27 37 08 18 28 38 09 19 29 39 10 20 30 40 • O candidato que sair com o caderno de provas e/ou folha de respostas do local de aplicação de provas será automaticamente eliminado do processo seletivo. • O caderno de provas e o gabarito serão disponibilizados no endereço www.vestibular.cefetmg.br, a partir das 20 horas do dia 24 de janeiro de 2022. • O resultado preliminar estará disponível no endereço www. vestibular.cefetmg.br, a partir das 20 horas do dia 07 de fevereiro de 2022. • As informações sobre matrícula devem ser consultadas no Edital 115/21, disponível no endereço www.vestibular.cefetmg.br."
+],
+"support": "quadro (tabela)"
+},
+{
+"id": "R-2023-19",
+"year": 2023,
+"num": 19,
+"topic": "PT08",
+"level": 1,
+"format": "direta",
+"gab": "A",
+"stem": "Art. 18. É dever de todos velar pela dignidade da criança e do adolescente, pondo-os a salvo de qualquer tratamento desumano, violento, aterrorizante, vexatório ou constrangedor. BRASIL. Lei no 8.069, de 13 de julho de 1990. Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências. Disponível em:< http://www.planalto.gov.br/ ccivil_03/leis/l8069.htm>. Acesso em: 08 set. 2022.\n\nOs elementos composicionais e a intencionalidade desse texto indicam que o tipo textual predominante é",
+"o": [
+"injuntivo.",
+"descritivo.",
+"expositivo.",
+"argumentativo."
+],
+"support": "texto legal (ECA)"
+},
+{
+"id": "R-2023-21",
+"year": 2023,
+"num": 21,
+"topic": "M04",
+"level": 2,
+"format": "cálculo",
+"gab": "B",
+"stem": "x3 + 3x2 – (x – 2)(x+2) – 4 Considere a expressão M =                              ; sendo x3 + 4x2 + 4x x ≠ 0 e x ≠ –2. Nessas condições, M é equivalente a",
+"o": [
+"x x",
+"x+2",
+"x",
+"x+2"
+],
+"support": "expressão algébrica"
+},
+{
+"id": "R-2023-22",
+"year": 2023,
+"num": 22,
+"topic": "M14",
+"level": 1,
+"format": "direta",
+"gab": "A",
+"stem": "O quadro a seguir apresenta características de alguns quadriláteros notáveis e uma figura para exemplificar cada um deles.\n\nQUADRILÁTERO CARACTERÍSTICA                      EXEMPLO Paralelogramo Os lados opostos são paralelos.\n\nLosango            Os quatro lados são congruentes.\n\nRetângulo          Os quatro ângulos são retos.\n\nQuadrado           Os quatro ângulos são retos e os quatro lados são congruentes.\n\nSobre esses quadriláteros, é correto afirmar que:",
+"o": [
+"Todo quadrado é um losango.",
+"Todo retângulo é um losango.",
+"Nem todo quadrado é um retângulo.",
+"Nem todo losango é um paralelogramo."
+],
+"support": "quadro de quadriláteros"
+},
+{
+"id": "R-2023-24",
+"year": 2023,
+"num": 24,
+"topic": "M08",
+"level": 3,
+"format": "cálculo",
+"gab": "B",
+"stem": "Considere o gráfico da função quadrática f(x) = – x2 + 16x – 28 que intercepta o eixo x nos pontos A e B.\n\ny\n\ngráfico de f\n\nA                 B    x\n\nSendo C um ponto pertencente ao gráfico de f, no primeiro quadrante, a maior área possível para o triângulo ABC, em unidades de área, é igual a",
+"o": [
+"144.",
+"216.",
+"324.",
+"432."
+],
+"support": "gráfico de função"
+},
+{
+"id": "R-2023-27",
+"year": 2023,
+"num": 27,
+"topic": "M06",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "Os itens de um conjunto, formado por uma pulseira, um colar e um brinco, serão distribuídos entre três pessoas. Cada uma delas atribui para cada item uma fração do valor total do conjunto, conforme o quadro a seguir.\n\nPulseira         Colar       Brinco 3             13           1 Carol           8             24          12 1             5            1 Lourdes         4             12           3 1             4            8 Ícaro           5             15          15\n\nCada pessoa receberá um item que, em sua própria avaliação, corresponda a pelo menos um terço do valor total do conjunto. De acordo com esse critério para distribuição dos itens, é correto afirmar que",
+"o": [
+"Carol ficará com a pulseira; Lourdes, com o colar; e Ícaro, com o brinco.",
+"Carol ficará com a pulseira; Lourdes, com o brinco; e Ícaro, com o colar.",
+"Carol ficará com o colar; Lourdes, com a pulseira; e Ícaro, com o brinco.",
+"Carol ficará com o colar; Lourdes, com o brinco; e Ícaro, com a pulseira."
+],
+"support": "tabela"
+},
+{
+"id": "R-2023-28",
+"year": 2023,
+"num": 28,
+"topic": "M07",
+"level": 1,
+"format": "cálculo",
+"gab": "D",
+"stem": "Lucas contratou um professor de música para ter uma aula particular de violão num determinado dia. O professor cobra o valor de R$20,00 para o deslocamento e R$30,00 por cada meia hora trabalhada. Sabendo-se que Lucas pode gastar com a aula de violão apenas R$230,00, a duração dessa aula será, no máximo, de",
+"o": [
+"2 horas.",
+"2 horas e 30 minutos.",
+"3 horas.",
+"3 horas e 30 minutos."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2023-30",
+"year": 2023,
+"num": 30,
+"topic": "M03",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Uma escola que, durante a pandemia da COVID-19, adotou o ensino remoto, fez uma pesquisa para saber qual tipo de equipamento estava sendo utilizado pelos alunos das turmas A e B que possuíam, respectivamente, 31 e 28 alunos. Ao coletar as informações, concluiu-se que o número de alunos que: • utilizou celular na turma B foi o triplo do número de alunos que utilizou o celular na turma A; • utilizou o computador na turma A foi o dobro do número de alunos que utilizou o computador na turma B.\n\nSabendo-se que cada um dos 59 alunos pesquisados utilizou exatamente um desses equipamentos, o número de alunos que usou celular durante o ensino remoto é igual a",
+"o": [
+"5.",
+"15.",
+"20.",
+"39. Parte II"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2023-31",
+"year": 2023,
+"num": 31,
+"topic": "M10",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "O quadro a seguir exibe três sequências numéricas, obtidas por meio de sorteio, em lançamentos consecutivos de um dado honesto de seis faces, numeradas de 1 a 6.\n\nLançamentos 1º 2º 3º             4º   5º   6º Sequência I          5      5      5      5    5    5 Sequência II         1      2      3      4    5    6 Sequência III        2      5      1      2    4    3\n\nAssim, na sequência I, o número 5 foi sorteado em todos os lançamentos. Na sequência II, no primeiro lançamento foi sorteado o número 1, no segundo o número 2 e assim por diante. Considerando A, B e C as probabilidades de serem obtidas as sequências I, II e III, respectivamente, é correto afirmar que",
+"o": [
+"A<B<C",
+"B<A<C",
+"B=A<C",
+"A=B=C"
+],
+"support": "tabela"
+},
+{
+"id": "R-2023-32",
+"year": 2023,
+"num": 32,
+"topic": "M02",
+"level": 1,
+"format": "cálculo",
+"gab": "C",
+"stem": "Um estudante encontrou na internet a receita para produzir uma mistura para bolha de sabão, contendo a indicação da quantidade de cada um dos ingredientes.\n\nBOLHA DE SABÃO\n\nGLUCOSE DE MILHO 25 ml\n\n50 ml DETERGENTE\n\nÁGUA 75 ml\n\nO estudante fará uma mistura com 420 ml de detergente, mantendo a proporção apresentada na receita. Assim, o volume total dos materiais utilizados, em ml, na mistura para bolha de sabão será igual a",
+"o": [
+"840.",
+"1 000.",
+"1 260.",
+"1 500."
+],
+"support": "figura (receita) + enunciado"
+},
+{
+"id": "R-2023-33",
+"year": 2023,
+"num": 33,
+"topic": "M01",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "Um cliente de um banco comparou diferentes investimentos de médio prazo, considerando dois modelos específicos: no primeiro, o capital investido renderia juros de 20% ao ano em regime de juros compostos; no segundo, renderia juros de 10% ao ano, em regime de juros simples.\n\nO cliente optou pelo primeiro modelo, investindo capital de R$ 10 000,00, que permaneceu aplicado por 2 anos.\n\nCaso o cliente decidisse investir no segundo modelo, considerando o mesmo prazo, o capital, em real, para obter o montante igual ao do primeiro modelo, deve ser igual a",
+"o": [
+"12 000,00.",
+"12 200,00.",
+"13 400,00.",
+"14 000,00."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2023-35",
+"year": 2023,
+"num": 35,
+"topic": "M02",
+"level": 2,
+"format": "cálculo",
+"gab": "D",
+"stem": "Quatro amigos alugaram uma quadra de peteca por duas horas para jogarem entre si. O preço do aluguel era de R$ 60,00 por hora. Eles combinaram que o valor individual a ser pago ao fim do jogo seria proporcional à quantidade de minutos que cada um ficasse em quadra. O quadro a seguir, incompleto, mostra o tempo que cada jogador permaneceu efetivamente em quadra, e o respectivo valor que cada um deles deverá pagar.\n\nJogador(a) Tempo em quadra Valor a pagar (em minutos)    (em R$) André                    70                 35,00 Bárbara                                      35,00 Cleiton                   60 Daiane                    40\n\nO valor proporcional a ser pago por Daiane, em relação ao valor total do aluguel de duas horas, corresponde, aproximadamente, a",
+"o": [
+"6,67%.",
+"13,33%.",
+"15,15%.",
+"16,66%."
+],
+"support": "tabela"
+},
+{
+"id": "R-2023-39",
+"year": 2023,
+"num": 39,
+"topic": "M12",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "A fachada do sobrado, representada abaixo, é formada por um quadrado de lado igual a 8 m e um triângulo de altura igual a 3 m. Essa fachada possui duas janelas e uma porta retangulares, com as seguintes dimensões para cada uma delas:\n\n• janela: 1,4 m x 1 m. • porta: 0,6 m x 2 m.\n\nA fachada será pintada, com exceção das janelas e da porta. Sabendo-se que cada litro de tinta é suficiente para pintar 9 m², a quantidade mínima de tinta que deve ser comprada para realizar essa pintura, em litro, é igual a",
+"o": [
+"6.",
+"7.",
+"8.",
+"9."
+],
+"support": "figura geométrica (fachada)"
+},
+{
+"id": "R-2024-14",
+"year": 2024,
+"num": 14,
+"topic": "PT08",
+"level": 2,
+"format": "NÃO/incorreta",
+"gab": "B",
+"stem": "O medo tem a idade da humanidade. Desde os primórdios de nossa jornada no planeta, existe, no nosso imaginário, uma área de mistérios ameaçadores que nada parece capaz de extinguir. E qualquer mistério nasce da dúvida: “que barulho foi esse? O que é aquela luz no horizonte? O que existe depois da morte? Ou antes da vida?” Ao longo do tempo, as respostas foram sendo fornecidas pela ciência. Mas ainda existem aquelas dúvidas que hoje continuam tão inquietantes quanto eram séculos e séculos atrás. A saída para nós, criaturas curiosas que somos, foi inventar possíveis respostas — e acreditar nelas. Assim se manteve viva (e habitada) a zona de mistério da nossa imaginação. É nesse espaço que residem as lendas e os contos de assombração. Sobretudo no Brasil, onde as histórias de fantasmas e monstros há tanto tempo atrapalham o nosso sono. Nossos pais, avós e bisavós costumavam ouvir narrativas sinistras de seus pais, avós ou bisavós, e essa transmissão tornou-se parte de nossa essência cultural. Prova disso é a importância dada à oralidade em diversas áreas de conhecimento, como Letras, Sociologia ou Antropologia. Disponível em: https://revistagalileu.globo.com/Cultura/noticia/2021/03/escritores-que-transformaram-lendas-brasileiras-em-livros-de-horror.html. Acesso em: 17 ago. 2023 (adaptado).\n\nNesse fragmento, NÃO é empregada a estratégia argumentativa:",
+"o": [
+"menção a diferentes disciplinas.",
+"citação de dados de pesquisas.",
+"alusão histórica.",
+"exemplificação."
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2024-15",
+"year": 2024,
+"num": 15,
+"topic": "PT03",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "Argumentos a favor e contra o uso de animais em pesquisas científicas Ativistas invadiram um laboratório de pesquisas científicas e levaram 178 cães da raça beagle, além de sete coelhos por conta de supostos maus- tratos. O G1 ouviu cientistas e resumiu abaixo os principais argumentos usados no debate sobre o uso de animais em experimentos científicos.\n\nUso de animais em testes Contra                                         A favor Testes em laboratórios causam sofri-           Os testes com animais são submetidos mento, ferimentos e transtornos psi-           a comitês de ética. A principal ênfase é cológicos nos animais. Há uma cor-             não causar sofrimento ou dor. O Con- rente de neurocientistas que sugere            selho Nacional de Controle de Experi- que animais não humanos, incluindo             mentação Animal (Concea) cria nor- todos os mamíferos, aves, além dos             mas que protegem o bem-estar desses polvos, possuem substratos neuroló-            animais. O fim do uso de animais em gicos que geram a consciência e com-           testes no Brasil tornaria a ciência brasi- portamentos intencionais, ou seja, eles        leira dependente da tecnologia exter- sentem dor.                                    na. Disponível em: https://g1.globo.com/ciencia-e-saude/debate-pesquisa-animais/platb/. Acesso em: 16 ago. 2023 (adaptado).\n\nSobre os efeitos de sentido produzidos pelos adjetivos e verbos destacados na reportagem, é correto afirmar que",
+"o": [
+"“sugere” poderia ser substituído por “comprova” sem alterar o sentido do texto.",
+"“protegem” reforça a posição do portal de notícias de que os testes com animais foram extintos.",
+"“supostos” indica que o portal de notícias não se compromete com a opinião dos ativistas de que os animais sofriam maus- tratos.",
+"“principal” mostra a opção do portal de notícias em apoiar argumentos a favor do uso de animais em experimentos cien- tíficos."
+],
+"support": "texto jornalístico (quadro)"
+},
+{
+"id": "R-2024-17",
+"year": 2024,
+"num": 17,
+"topic": "M04",
+"level": 2,
+"format": "cálculo",
+"gab": "D",
+"stem": "Lucas recebe uma mesada cujo valor não é fixo. Para descobrir quanto irá receber em cada mês, ele precisa resolver desafios matemáticos propostos por seu pai. No último mês, o valor que recebeu, em real, foi igual ao resultado da seguinte expressão:\n\n3 × 102 [(3+√5)2 – (3 – √5)2] 23 × 3√5\n\nA mesada recebida por Lucas, em real, no último mês foi de",
+"o": [
+"75,00",
+"100,00",
+"125,00",
+"150,00"
+],
+"support": "expressão numérica"
+},
+{
+"id": "R-2024-18",
+"year": 2024,
+"num": 18,
+"topic": "M04",
+"level": 2,
+"format": "cálculo",
+"gab": "A",
+"stem": "Considere a expressão a seguir.\n\n(216 – 214)2 m= 229 + 226\n\nSimplificando essa expressão, é correto afirmar que o valor de m é igual a",
+"o": [
+"4",
+"2",
+"1",
+"1"
+],
+"support": "expressão numérica"
+},
+{
+"id": "R-2024-22",
+"year": 2024,
+"num": 22,
+"topic": "M02",
+"level": 1,
+"format": "cálculo",
+"gab": "A",
+"stem": "Um carro consome 1 litro de combustível para percorrer 14 km. O motorista fez uma viagem que durou 3h30min utilizando esse carro e todo o percurso foi feito a uma velocidade constante de 80 km/h.\n\nA quantidade de combustível consumida pelo carro no percurso dessa viagem, em litro, é igual a",
+"o": [
+"20",
+"25",
+"30",
+"35"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2024-24",
+"year": 2024,
+"num": 24,
+"topic": "M11",
+"level": 2,
+"format": "cálculo",
+"gab": "B",
+"stem": "Um site de compras lançou uma promoção em que uma lista de 8 produtos é oferecida com entrega grátis. Para ter direito à promoção, duas condições precisam ser satisfeitas:\n1) Cada cliente não poderá comprar mais do que 1 unidade de um mesmo produto;\n2) O valor mínimo da compra deverá ser de R$ 50,00. Na tabela, estão apresentados os produtos oferecidos nessa promoção e seus respectivos preços:\n\nPRODUTO         PREÇO A           R$ 35,00 B           R$ 20,00 C           R$ 10,00 D           R$ 35,00 E           R$ 20,00 F           R$ 10,00 G           R$ 10,00 H           R$ 35,00\n\nUm cliente decidiu comprar o produto A, mas, para ter o benefício da entrega gratuita, adicionará produtos à compra a fim de gastar o mínimo possível.\n\nDessa forma, de quantas maneiras diferentes esse cliente poderá fazer a escolha desses produtos?",
+"o": [
+"4",
+"5",
+"6",
+"7"
+],
+"support": "tabela"
+},
+{
+"id": "R-2024-26",
+"year": 2024,
+"num": 26,
+"topic": "M05",
+"level": 3,
+"format": "direta",
+"gab": "D",
+"stem": "O sistema denominado ABO classifica os tipos sanguíneos em humanos de acordo com a presença, ou ausência, dos chamados antígenos A e B. Nesse sistema, caso o sangue possua os antígenos A e B, o sangue é considerado do tipo AB, caso possua apenas o antígeno A, é classificado como do tipo A, e caso possua apenas o antígeno B é classificado como o tipo B. Se o sangue não possuir nenhum desses antígenos, é considerado como tipo O.\n\nConsidere um grupo de 100 pessoas, das quais 22 possuem o antígeno A e 19 possuem o antígeno B.\n\nNessas condições, é correto afirmar que, dentre as pessoas desse grupo, a quantidade das que têm o tipo sanguíneo O é",
+"o": [
+"exatamente 59.",
+"exatamente 78.",
+"no mínimo 41 e no máximo 59.",
+"no mínimo 59 e no máximo 78."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2024-28",
+"year": 2024,
+"num": 28,
+"topic": "M10",
+"level": 3,
+"format": "cálculo",
+"gab": "C",
+"stem": "André, Bruno, Cecília e Daniela disputam um jogo no qual, a cada rodada, são lançados um dado comum (numerado de 1 a\n6) e uma moeda comum (cara e coroa nas faces). Sabe-se que:\n\n• André vencerá o jogo se obtiver, em três rodadas seguidas, coroa na face superior da moeda; • Bruno vencerá o jogo se obtiver, em três rodadas seguidas, cara na face superior da moeda; • Cecília vencerá o jogo se obtiver, em três rodadas seguidas, um número par na face superior do dado; e • Daniela vencerá o jogo se obtiver, em três rodadas seguidas, três números iguais na face superior do dado.\n\nConsidere que já tenham sido realizadas duas rodadas. Na primeira rodada, foram obtidos cara na face superior da moeda e o número 2 na face superior do dado. Na segunda rodada, foram obtidos os mesmos resultados.\n\nNessas condições, a chance de vitória no jogo na terceira rodada é maior para",
+"o": [
+"André.",
+"Bruno.",
+"Cecília e Bruno.",
+"Daniela e Cecília."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2024-29",
+"year": 2024,
+"num": 29,
+"topic": "M02",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Na construção de um edifício, são utilizados três tipos de tijolos, A, B e C, sendo que tijolos do mesmo tipo têm o mesmo peso. O transporte desses materiais entre os andares da construção é feito por um elevador de carga que suporta, no máximo, o peso de 1 000 tijolos do tipo A, ou 2 000 do tipo B, ou 3 000 do tipo C.\n\nConsidere que há, nesse elevador, apenas 200 tijolos do tipo A e 100 do tipo B. Nas condições apresentadas, a quantidade de tijolos do tipo C que podem ser colocados, nesse elevador, até atingir sua capacidade máxima de peso suportado para o transporte é igual a",
+"o": [
+"1 500",
+"1 750",
+"2 250",
+"2 500"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2024-31",
+"year": 2024,
+"num": 31,
+"topic": "M11",
+"level": 2,
+"format": "cálculo",
+"gab": "D",
+"stem": "A senha de desbloqueio de um aparelho celular é composta de 4 dígitos e apresenta as seguintes características: • O primeiro e o último dígitos são iguais; • Os dígitos da 2ª e da 3ª posição formam um número primo; • Apenas são utilizados algarismos ímpares.\n\nConsiderando as características listadas, quantas são as possibilidades de senha para esse aparelho celular?",
+"o": [
+"5",
+"12",
+"36",
+"60"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2024-35",
+"year": 2024,
+"num": 35,
+"topic": "C10",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "Na teia alimentar representativa de um ecossistema, os organismos ocupam diferentes níveis tróficos e participam de interações complexas.\n\nAs teias alimentares representam de modo mais coerente os ecossistemas em comparação às cadeias alimentares mais simples, porque",
+"o": [
+"indicam as relações de simbiose de maneira isolada.",
+"incluem apenas consumidores primários e produtores.",
+"demonstram as relações de predação de maneira linear.",
+"refletem as interconexões das diferentes cadeias alimentares."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2024-36",
+"year": 2024,
+"num": 36,
+"topic": "C01",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "A lavagem a seco consiste na utilização de líquidos capazes de remover a sujeira sem afetar as características originais dos materiais, ou seja, sem desbotar ou encolher o material ou tecido. O quadro a seguir apresenta quatro substâncias das quais apenas uma poderia ser empregada na lavagem a seco.\n\nSubstância      Temperatura Temperatura     Informações sobre de fusão    de ebulição     solubilidade Água            0 ºC         100 ºC         Dissolve alguns coran- tes de tecidos. Não é capaz de intera- gir com graxa/gordura. Butano          - 135 ºC     0,6 ºC         Pouco solúvel em água. Não dissolve alguns corantes de tecidos. Capaz de interagir com graxa/gordura. Naftaleno       80 ºC        218 ºC         Insolúvel em água. Não dissolve alguns corantes de tecidos. Capaz de interagir com graxa/gordura.\n\nPercloroetileno - 22 ºC      121 ºC         Insolúvel em água. Não dissolve alguns corantes de tecidos. Capaz de interagir com graxa/gordura.\n\nDentre essas substâncias, a adequada para lavagem a seco é o(a)",
+"o": [
+"água.",
+"butano.",
+"naftaleno.",
+"percloroetileno."
+],
+"support": "tabela"
+},
+{
+"id": "R-2024-37",
+"year": 2024,
+"num": 37,
+"topic": "C01",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "O biodiesel, que se destaca por ser originado de fontes renováveis, é um combustível que contribui para a preservação ambiental. Seu processo de produção se inicia por meio de uma reação química conhecida como transesterificação, que resulta na formação do biodiesel e da glicerina. Posteriormente, é necessário realizar a separação desses dois componentes. Sabe-se que a mistura de biodiesel e glicerina possui duas fases distintas, sendo o componente de interesse presente na fase superior.\n\nEm relação à glicerina obtida como produto secundário, esse combustível é",
+"o": [
+"menos denso e deve ser separado por filtração.",
+"menos denso e deve ser separado por decantação.",
+"mais denso e deve ser separado por destilação simples.",
+"mais denso e deve ser separado por destilação fracionada."
+],
+"support": "texto científico"
+},
+{
+"id": "R-2024-38",
+"year": 2024,
+"num": 38,
+"topic": "C05",
+"level": 1,
+"format": "NÃO/incorreta",
+"gab": "C",
+"stem": "É comum vermos imagens de humanos que viveram na época da Era do Gelo utilizando grossas peles de animais, como na figura a seguir, pois era um período no qual houve um grande resfriamento do nosso planeta.\n\nDisponível em: https://elsolrevista.com/una-nueva-hipotesis-sugiere-que-los-cazadores-siberianos-pudieron-domesticar-a-los-perros-hace-23-000-anos/. Acesso em: 26 ago. 2023.\n\nNÃO é um motivo adequado para essa representação o fato de as peles",
+"o": [
+"serem provenientes de sobra de caças.",
+"oferecerem um bom isolamento térmico.",
+"aquecerem as pessoas por serem grossas.",
+"impedirem a perda de energia térmica para o meio externo."
+],
+"support": "imagem"
+},
+{
+"id": "R-2024-39",
+"year": 2024,
+"num": 39,
+"topic": "C10",
+"level": 1,
+"format": "direta",
+"gab": "C",
+"stem": "Um estudo de campo revelou uma relação ecológica inédita no Brasil entre morcegos-beija-flores (Glossophaga soricina) e a planta parasita de raiz Scybalium fungiforme. A visita dos morcegos à planta envolve voos rasantes e pousos em suas flores próximas ao solo, onde se alimentam de néctar e pólen, e acabam atuando como agentes polinizadores dessas plantas. Essa interação é o primeiro registro desse comportamento no Brasil que foi publicado na revista Ecology. Disponível em: https://jornal.unesp.br/2023/04/07/pesquisador-capta-momento-raro-emque-morcego-da-voos-rasantes-e-poliniza-planta-parasita-no-solo/. Acesso em: 26 ago. 2023 (adaptado).\n\nA relação ecológica descrita é um caso de",
+"o": [
+"sociedade.",
+"predatismo.",
+"mutualismo.",
+"inquilinismo."
+],
+"support": "texto científico"
+},
+{
+"id": "R-2024-40",
+"year": 2024,
+"num": 40,
+"topic": "C09",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "O fenômeno das marés foi explicado pela Teoria da Gravitação Universal de Newton. Esse fenômeno ocorre devido à atração da Lua e do Sol sobre as massas de água dos oceanos. A soma dos efeitos dessas atrações deforma a massa de água, como representado na figura abaixo. Eixo de rotação da Terra\n\nPara a Lua\n\nágua\n\nA intensidade das marés depende de diversos fatores, podendo ser atribuída, principalmente, à posição da Lua.\n\nAo longo de um período de aproximadamente 24 horas, enquanto a Terra gira ao redor de seu eixo, uma pessoa fixa em um mesmo ponto da superfície da Terra, à beira mar, observaria",
+"o": [
+"uma maré alta e uma maré baixa.",
+"uma maré alta e duas marés baixas.",
+"duas marés altas e uma maré baixa.",
+"duas marés altas e duas marés baixas."
+],
+"support": "imagem"
+},
+{
+"id": "R-2024-41",
+"year": 2024,
+"num": 41,
+"topic": "C11",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "O sistema circulatório dos vertebrados possui, como característica comum, o fato de o sangue circular pelo organismo através dos vasos sanguíneos. A bomba propulsora do sangue pelos vasos é o coração, que tem diferenças marcantes entre os grupos de vertebrados.\n\nAo observar os tipos de coração e os caminhos percorridos pelo sangue em diferentes vertebrados, um estudante deparou-se com um coração que apresentava duas cavidades preenchidas com sangue venoso.\n\nEsse estudante chegou à conclusão de que o coração em questão se tratava do órgão de um",
+"o": [
+"réptil.",
+"peixe.",
+"anfíbio.",
+"mamífero."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2024-42",
+"year": 2024,
+"num": 42,
+"topic": "C05",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "D",
+"stem": "A figura abaixo representa, esquematicamente, uma garrafa térmica e suas várias camadas internas.\n\nTampa isolante\n\nParede V              V            externa Á              Á C              C U              U O              O Superfícies espelhadas Apoio isolante\n\nSobre o funcionamento de uma garrafa térmica, analise se as afirmações a seguir são verdadeiras (V) ou falsas (F).\n\n( ) A região de vácuo entre as superfícies espelhadas funciona para impedir a transmissão de calor por radiação.\n\n( ) As paredes espelhadas funcionam para impedir a transmissão de calor por radiação.\n\n( ) O apoio isolante na base serve para impedir a transmissão de calor por convecção.\n\n( ) O vácuo entre as camadas interna e externa das superfícies espelhadas serve para impedir a transmissão de calor por condução.\n\nA sequência correta de cima para baixo é",
+"o": [
+"V, F, V, F.",
+"V, V, F, F.",
+"F, F, V, V.",
+"F, V, F, V."
+],
+"support": "imagem"
+},
+{
+"id": "R-2024-43",
+"year": 2024,
+"num": 43,
+"topic": "C12",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "As angiospermas formam um grupo de plantas com maior conjunto de organismos fotossintetizantes do planeta. As características biológicas encontradas nesse grupo são adaptações aos ambientes em que vivem e estima-se que existam cerca de 450 mil espécies. O grande sucesso adaptativo das angiospermas é devido a vários fatores.\n\nDentre esses fatores, estão as estruturas específicas associadas a sua ampla dispersão, como a presença de",
+"o": [
+"folhas diversificadas.",
+"flores, frutos e sementes.",
+"vasos condutores de seivas.",
+"raízes que variam em forma e função."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2024-44",
+"year": 2024,
+"num": 44,
+"topic": "C01",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "A",
+"stem": "Durante uma aula prática de Ciências, os estudantes foram desafiados a analisar três materiais muito usados em nossa vida cotidiana: cobre, vidro e madeira. Eles exploraram as propriedades desses materiais para entender como suas características determinam suas diversas aplicações. O quadro a seguir apresenta as informações obtidas pelos estudantes, sem a identificação do nome do material.\n\nMaterial Densidade Temp. de       Conduti-   Conduti-     Propriedades (g/cm3)   fusão (°C)     bilidade   bilidade     mecânicas térmica    elétrica A     2,4         1600 –       Baixa      Baixa        Duro e que- 8           1700                                 bradiço B     0,3 – 0,9   Indetermi-   Baixa      Baixa        Resistente à nado                                 compressão C     8,9         1085         Alta       Alta         Maleável e dúctil\n\nCom base nesses dados, julgue se as afirmações a seguir são verdadeiras (V) ou falsas (F):\n(     ) O material A pode ser empregado na fabricação de fios elé- tricos.\n(     ) O material B pode ser empregado na fabricação de móveis residenciais.\n(     ) O material C é excelente isolante contra choques elétricos.\n(     ) O material A é mais resistente ao impacto do que os materiais B e C.\n\nA sequência correta de cima para baixo é",
+"o": [
+"F, V, F, F.",
+"F, V, V, F.",
+"V, F, V, V.",
+"V, F, F, V."
+],
+"support": "tabela"
+},
+{
+"id": "R-2024-45",
+"year": 2024,
+"num": 45,
+"topic": "C01",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "O soro fisiológico, uma solução aquosa de cloreto de sódio a 0,9 %, desempenha um papel essencial em diversas aplicações, desde a higienização dos olhos e do nariz até o tratamento de feridas, como queimaduras.\n\nSobre a composição dessa solução, o número de fases, o número de substâncias e o número de elementos químicos são, respectivamente,",
+"o": [
+"1, 1, 2.",
+"1, 2, 4.",
+"2, 1, 3.",
+"2, 2, 4."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2024-46",
+"year": 2024,
+"num": 46,
+"topic": "C06",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "O gráfico abaixo apresenta dados relativos ao consumo de ener- gia elétrica residencial no Brasil no período de 2019 a 2021, evi- denciando variações significativas ao longo das estações do ano.\n\nConsumo de energia elétrica residencial Energia consumida por mês no Brasil, entre 2019 e 2021*\n\nAno 2019          2020          2021\n\n13.600 13.400 13.200\n\n13.000 12.800 Consumo (MWh)\n\n12.600 12.400 12.200 12.000 11.800 11.600 11.400 11.200 11.000 10.800 Jan   Fev   Mar     Abr    Mai    Jun     Jul    Ago Set       Out Nov Dez\n\nMês\n\nB        D *Até a data desta publicação, os dados de novembro e dezembro de 2021 ainda não tinham sido atualizados na fonte original.                                      Fonte: MME\n\nA tabela a seguir apresenta dados sobre o consumo médio diário de energia elétrica residencial para diferentes eletrodomésticos: Consumo        Tempo de Uso      Consumo Eletrodoméstico Médio (Watts)   Diário (horas)   Diário (Wh) Micro-ondas                1000           0,25            250 Chuveiro elétrico            4500            0,5            2250 Ferro de passar roupa          1200            0,5            600 Máquina de lavar 500              1             500 roupa Lâmpada 60              3             180 Incandescente (60W) Lâmpada LED (15W)              15              4              60 Televisão LED               50             10             500 Ar-condicionado             1200             6             7200 Computador (desktop)           150              6             900 Ventilador                60              6             360 Geladeira                150             24             3600\n\nA estratégia que poderia ser indicada ao cidadão comum para ajudar a reduzir o gasto energético durante os meses de maior consumo em sua residência é",
+"o": [
+"substituir o uso de aparelhos de ar-condicionado por ventila- dores nesse período.",
+"manter todas as janelas e portas abertas durante o dia para aproveitar a luz natural e reduzir o uso de lâmpadas.",
+"diminuir o tempo médio de uso de aparelhos de televisão e de geladeiras, pois são equipamentos que mais consomem energia.",
+"instalar lâmpadas incandescentes em todos os cômodos da casa, já que elas emitem energia na forma de calor para aque- cer os ambientes em dias frios. GEOGRAFIA"
+],
+"support": "gráfico e tabela"
+},
+{
+"id": "R-2024-48",
+"year": 2024,
+"num": 48,
+"topic": "G02",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "“Em 1º de agosto de 2022, o Brasil tinha 203.062.512 habitantes. Desde 2010, quando foi realizado o Censo Demográfico anterior, a população do país cresceu 6,5%, ou 12.306.713 pessoas a mais. Isso resulta em uma taxa de crescimento anual de 0,52%, a menor já observada desde o início da série histórica iniciada em 1872, ano da primeira operação censitária do país. Os dados são dos primeiros resultados do Censo Demográfico de 2022, divulgados pelo IBGE.”\n\nIBGE. De 2021 a 2022, população brasileira cresce 6,5% e chega a 203,1 milhões. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/37237-de-2010-a-2022-populacao-brasileira-cresce-6-5-e-chega-a-203-1-milhoes. Acesso em: 13 ago. 2023 (adaptado).\n\nA diminuição do crescimento da população brasileira em relação ao esperado pelo IBGE do Censo de 2010 para o de 2022 está associada à/ao",
+"o": [
+"queda das taxas de fecundidade totais.",
+"redução da expectativa de vida da classe média.",
+"corte dos investimentos em políticas de maternidade.",
+"contenção dos fluxos imigratórios pelo Estado brasileiro."
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2024-50",
+"year": 2024,
+"num": 50,
+"topic": "G03",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "A população de Minas Gerais cresceu 4,8% entre 2010 e 2022, como mostram os resultados do Censo Demográfico de 2022, divulgados pelo IBGE. O estado segue como o segundo mais populoso do Brasil, atrás apenas de São Paulo. Dos 853 municípios mineiros, 458, ou 53,6%, registraram aumento ou estabilidade da população. Belo Horizonte, por sua vez, foi uma das cidades que viu o total de habitantes encolher nesses 12 anos, uma queda de 2,53%. A capital mineira viu sua população diminuir de 2.375.609 para 2.315.560. Por outro lado, Uberlândia (+18,08%), Montes Claros (+14,38%), Uberaba (+14,14%) e Divinópolis (+8,4%) tiveram aumentos proporcionais na comparação com o último recenseamento.\nSALGADO, Rodrigo. Segundo estado mais populoso do país, Minas Gerais cresce e chega a mais de 20 milhões de habitantes, diz Censo. Reportagem publicada em 28 jun. 2023. Disponível em: https://g1.globo.com/mg/minas-gerais/noticia/2023/06/28/minas-geraistem-mais-de-20-milhoes-de-habitantes-aponta-censo-houve-crescimento-de-quase-5percent-entre-2010-e-2022.ghtml. Acesso em: 13 ago. 2023 (adaptado).\n\nConsiderando essas informações referentes à rede urbana de Minas Gerais, observa-se que, no período analisado, consolidou-se o processo de",
+"o": [
+"migração pendular para a metrópole.",
+"estagnação industrial das capitais regionais.",
+"crescimento demográfico das cidades médias.",
+"dinamização econômica das pequenas cidades."
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2024-51",
+"year": 2024,
+"num": 51,
+"topic": "G06",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "B",
+"stem": "Sobre a industrialização brasileira, afirma-se que:\n\nI-  As primeiras fábricas instaladas no Brasil eram voltadas para a produção de bens de consumo não duráveis, como as têxteis e alimentícias.\n\nII- As indústrias de bens de consumo duráveis se instalaram no território brasileiro a partir da década de 1990, com a abertura econômica e comercial do país.\n\nIII- As políticas de incentivos fiscais contribuíram para a consolidação da Região Centro-Oeste como a terceira região mais industrializada do país.\n\nIV- Os fatores locacionais considerados mais importantes para a difusão de indústrias 4.0 são a proximidade de centros de pesquisa e a disponibilidade de mão de obra altamente qualificada.\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I e II.",
+"I e IV.",
+"II e III.",
+"III e IV."
+],
+"support": "só enunciado"
+},
+{
+"id": "R-2024-52",
+"year": 2024,
+"num": 52,
+"topic": "G07",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "No século XXI, o movimento da China em direção à África foi impulsionado principalmente por seu apetite por matéria-prima para suas indústrias em expansão – petróleo, cobre, alumínio, minério de ferro, cobalto, diamante, urânio, madeira. Além disso, esse movimento também era parte de um plano de longo prazo para fazer da China o mais influente protagonista estrangeiro na África.\nMEREDITH, Martin. O destino da África: cinco mil anos de riquezas, ganância e desafios. Tradução Marlene Suano. Rio de Janeiro: Zahar, 2017. p. 669 (adaptado).\n\nA participação da África na Divisão Internacional do Trabalho (DIT) evidencia desigualdades e requer que os países africanos façam investimentos para",
+"o": [
+"elevar tarifas de serviços digitais.",
+"agregar valor aos produtos exportados.",
+"focar a produção em gêneros primários.",
+"priorizar o comércio com nações europeias."
+],
+"support": "texto"
+},
+{
+"id": "R-2024-54",
+"year": 2024,
+"num": 54,
+"topic": "H01",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "Texto I Em meio às discussões sobre racismo, o Google mantinha até esta quarta-feira [24/05/2023] em sua loja de aplicativo um jogo chamado ‘Simulador de Escravidão’. O game simula pessoas negras que podem ser castigadas ao longo das partidas. [...] Nos comentários, algumas pessoas reclamavam de poucas possibilidades de agressão. A produtora do game, Magnus, informou na plataforma que o “jogo foi criado para fins de entretenimento” e que condena a escravidão no mundo real. Disponível em: https://g1.globo.com/sp/sao-paulo/noticia/2023/05/24/google-tira-do-arjogo-simulador-de-escravidao.ghtml. Acesso em: 10 ago. 2023 (adaptado).\n\nTexto II\n\nSimulador de Escravidão Sobre este jogo\n\nNeste jogo você será capaz de:\n\n1. Comércio de escravos no mercado. Compre e venda escravos. Os preços estão em constante mudança. 2. Gerencie seus escravos. Mude suas condições de vida, contrate seguranças e treine-os. 3. Proteja seus escravos para evitar que escapem e se levantem. 4. Faça negócios, atribua escravos a diferentes empresas para trabalhar e gerar renda. 5. Explorar novas tecnologias para aumentar a renda e outras características.\n\nEscolha um dos dois objetivos no início do simulador do proprietário de escravos: o Caminho do Tirano ou o Caminho do Libertador. Torne-se um rico proprietário de escravos ou consiga a abolição da escravidão. Tudo está em suas mãos.\n\nNeste simulador de escravidão, existem 3 tipos de escravos: trabalhadores, gladiadores e escra- vos de prazer. Compre e venda-os. Cada escravo é adequado para um determinado negócio. Treine seus escravos para aumentar seu nível de maestria e renda.\n\nVersão                                        Atualizado em 1.0                                           20 de abr de 2023\n\nRequer Android                                Dowloads 5.0 ou superior                               1.000 + dowloads\n\nCompras no app                                 Classificação do conteúdo R$4,99 - R$ 20,99 por item                     Classificação Livre Saiba mais\n\nGoogle Play/Divulgação\n\nConsiderando os textos I e II, é correto afirmar que, ao",
+"o": [
+"aplicar os castigos físicos aos escravos, o jogo cumpre com uma função pedagógica para o ensino de História.",
+"simular o escravismo colonial, o jogo contribui para a com- preensão de uma importante página da história do Brasil.",
+"transformar a escravidão em entretenimento, o jogo reforça a desumanização produzida pelo racismo sobre a população negra.",
+"abordar o tráfico atlântico, o jogo comete um erro histórico relativo à variação dos preços dos escravizados africanos no mercado."
+],
+"support": "texto jornalístico + captura de aplicativo"
+},
+{
+"id": "R-2024-57",
+"year": 2024,
+"num": 57,
+"topic": "H02",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "B",
+"stem": "Texto I\n\nEmprestado para bicentenário, coração de D. Pedro I chega ao Brasil. Relíquia será exposta em festividades da Independência\n\nMarcelo Camargo, Agência Brasil, 07 set. 2022. Disponível em: https://agenciabrasil.ebc. com.br/geral/noticia/2022-08/emprestado-para-bicentenario-coracao-de-d-pedro-i-chega-ao-brasil. Acesso em: 10 ago. 2023.\n\nTexto II\n\nPara as elites baianas, a implementação de seu projeto conservador representava um delicado dilema. Ganhar a guerra, expulsando os portugueses e integrando a Província da Bahia ao Império do Brasil significava, inevitavelmente, armar e organizar um contingente populacional potencialmente rebelde. Foi necessário estabelecer uma dura vigilância, submetendo os soldados à disciplina militar e os rebeldes à força da lei. As autoridades apelaram para um discurso patriótico, mas encontraram pela\n\nfrente uma interpretação mais radical do que o desejado. Muitas vezes, soldados e civis resolviam, eles próprios, julgar e prender portugueses como inimigos da Causa do Brasil à revelia de seus superiores. As autoridades da vila de Camamu, assustadas com as hostilidades contra um juiz local tido por português, alertaram o Conselho Interino: “ficando isto sem exemplo, passarão a fazer o mesmo insulto a nós ou a outra qualquer Autoridade”. GUERRA FILHO, Sérgio. A Independência e o protagonismo popular. Brasil: Bicentenário das Independências. ANPUH/SEO/Almanack, 2022. Disponível em: https://bicentenario2022.com.br/a-independencia-e-o-protagonismo-popular/. Acesso em: 18 jun. 2023.\n\nSobre a Independência do Brasil, considere as afirmações abaixo.\n\nI- Foi um fato histórico apropriado por grupos variados, con- frontando visões diferentes sobre os eventos ocorridos à épo- ca e a maneira de interpretá-los e de celebrá-los atualmente.\n\nII- Abarcou diferentes movimentos em regiões diversas do país, com objetivos muitas vezes conflitantes, apesar de alguns ele- mentos comuns, como a luta pela ruptura com Portugal.\n\nIII- Foi um processo coordenado pela Corte luso-brasileira no Rio de Janeiro, visando à consolidação de um império liberal com a participação de toda a população brasileira.\n\nEstão corretas as afirmativas",
+"o": [
+"I, II, III.",
+"I e II.",
+"I e III.",
+"II e III."
+],
+"support": "texto jornalístico + texto historiográfico"
+},
+{
+"id": "R-2024-58",
+"year": 2024,
+"num": 58,
+"topic": "H07",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "A Revolução Industrial entra em fase nova quando os computadores começam a executar trabalhos de coleção, arquivamento, composição, análise e execução de operações sobre dados. A aplicação da eletrônica em tarefas executivas provoca um reajustamento de valores que é difícil localizar como um simples desenvolvimento da velha Revolução Industrial. Esta aplicação foi um choque para os humanistas que receavam que o computador pudesse tornar o ser humano obsoleto. As funções de processamento de dados e estocagem de informações e composição dão à máquina um caráter de decisão. Mas chegará essa máquina a ter características humanas? O homem e o computador. Ou algo de novo está acontecendo. Jornal do Brasil. Rio de Janeiro: 03 de maio de 1968. Página 8. Disponível em: https://books.google.com.br/books/ content?id=EfURAAAAIBAJ&hl=pt-BR&pg=416%2C485456&img=1&zoom=4&sig=ACfU3U1ut4WU7Q_jlYG_RBO8zoWO7hd79g&tid=76. Acesso em: 10 ago. 2023 (adaptado).\n\nSobre essa reportagem, publicada em 1968, é correto afirmar que:",
+"o": [
+"nega a importância do desenvolvimento da computação para o avanço do sistema capitalista, que desconheceu contradi- ções no que se refere ao papel dos trabalhadores em sua tra- jetória.",
+"apresenta a preocupação de parte da sociedade com questões ligadas à tecnologia que ainda hoje se fazem presentes, tais como os debates atuais acerca da Inteligência Artificial e sua aplicação.",
+"considera o desenvolvimento do computador como uma rup- tura com a longa trajetória iniciada com a Revolução Industrial em fins do século XVIII, que possibilitou o desenvolvimento do capitalismo.",
+"evidencia o entusiasmo com a possibilidade de substituição dos humanos pelos computadores em atividades industriais, o que foi desmentido no contexto do mundo do trabalho nas décadas seguintes."
+],
+"support": "texto de jornal histórico"
+},
+{
+"id": "R-2025-17",
+"year": 2025,
+"num": 17,
+"topic": "M06",
+"level": 3,
+"format": "direta",
+"gab": "A",
+"stem": "Considere o número de 5 algarismos n = aaabb, em que os três primeiros algarismos são a, com a ≠ 0, e os dois últimos algarismos são b, com b ≠ 0. Sabe-se que n é divisível por 3.\n\nNas condições dadas, é correto afirmar que se n for",
+"o": [
+"par, então b2 = 36.",
+"ímpar, então b2 < a2.",
+"ímpar, então n é divisível por 9.",
+"par, então n pode ser divisível por 10."
+],
+"support": "enunciado"
+},
+{
+"id": "R-2025-23",
+"year": 2025,
+"num": 23,
+"topic": "M01",
+"level": 2,
+"format": "cálculo",
+"gab": "B",
+"stem": "Um casal recém-casado fez um acordo de dividir as despesas fixas da casa em partes diretamente proporcionais à renda mensal de cada um. Dessa forma, Mariana, que recebia 20% a mais que Luciano, arcaria com a maior parte dos R$ 10.560,00 que o casal gastaria mensalmente.\n\nA parcela de Mariana para custear as despesas mensais do casal, em real, é igual a",
+"o": [
+"5.280",
+"5.760",
+"5.866",
+"6.336"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2025-24",
+"year": 2025,
+"num": 24,
+"topic": "M03",
+"level": 2,
+"format": "cálculo",
+"gab": "C",
+"stem": "Lavínia e Isadora, vendedoras em uma loja de automóveis, foram contratadas com um acordo diferente de remuneração. Lavínia recebe de salário mensal: R$ 3.200,00 fixos, acrescidos de 2% de comissão sobre o valor total das suas vendas efetuadas no mês. Já Isadora recebe de salário mensal: R$ 4.800,00 fixos, acrescidos de 1% de comissão sobre as vendas no mesmo período.\n\nEm certo mês, o valor total das vendas das duas foi idêntico, e também foi idêntico o salário recebido por elas nesse mês.\n\nConsiderando que, no referido mês, o salário de cada uma das vendedoras foi igual a K reais, então a soma dos algarismos de K é igual a",
+"o": [
+"5",
+"7",
+"10",
+"12"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2025-26",
+"year": 2025,
+"num": 26,
+"topic": "M11",
+"level": 1,
+"format": "cálculo",
+"gab": "C",
+"stem": "Ana, Bia, Carlos e Débora foram assistir a um filme no cinema e escolheram os assentos da primeira fileira. Sabendo que há 5 poltronas nessa fileira, o número de formas distintas em que eles poderiam se distribuir para assistir ao filme é",
+"o": [
+"24",
+"60",
+"120",
+"256"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2025-29",
+"year": 2025,
+"num": 29,
+"topic": "M10",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "Célio e Amanda vão disputar um jogo no qual cada um vai escolher aleatoriamente um dos números naturais de 0 a 9 e escrevê-lo em um papel, sem que um saiba o número do outro. Posteriormente, eles revelam os números escritos e, caso a soma dos números seja par, Célio vence o jogo e, sendo ímpar a soma, a vencedora será Amanda.\n\nNesse jogo, Célio não escreveu o número 0 e o número que Amanda escreveu é par. Sobre a probabilidade de cada um deles vencer o jogo, é correto afirmar que",
+"o": [
+"ambos têm a mesma probabilidade de vitória.",
+"Amanda tem maior probabilidade de vencer que Célio.",
+"Célio tem maior probabilidade de vencer que Amanda.",
+"não é possível saber qual deles tem maior probabilidade de vitória."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2025-30",
+"year": 2025,
+"num": 30,
+"topic": "M09",
+"level": 2,
+"format": "cálculo",
+"gab": "B",
+"stem": "Um grupo de 15 amigos, cujas idades estão registradas na tabela, se inscreveu para disputar em equipe uma gincana.\n\nIdade    Número de Jogadores 10             3 11             4 14             4 16             2 17             2\n\nDentre as regras da gincana, há as seguintes exigências:\n\nI- Cada equipe deverá ser formada por 16 jogadores.\n\nII- A mediana da idade dos jogadores da equipe deverá ser 13,5.\n\nSendo assim, para atender as exigências, a equipe precisa incluir um jogador de",
+"o": [
+"12 anos.",
+"13 anos.",
+"14 anos.",
+"15 anos. versão adaptada GRUPO PERÍODO Cursos Técnicos [6,938 - 6,997] CEFET-MG 2025"
+],
+"support": "tabela"
+},
+{
+"id": "R-2025-31",
+"year": 2025,
+"num": 31,
+"topic": "C01",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "Para investigar o efeito da temperatura na solubilidade em água, um grupo de estudantes misturou massas fixas de quatro diferentes substâncias (I, II, III e IV) com 100 mL de água destilada. A seguir, eles mediram a quantidade máxima de cada substância, que se dissolveu em diferentes temperaturas, e registraram os resultados na tabela.\n\nTemperatura          Massa da substância (em gramas) (°C )        I                II               III          IV 20          30           40                  10            20 30          35           36                  20            22 40          40           31                  30            24 50          45           28                  48            24 60          50           24                  58            25\n\nCom base nos dados dessa tabela, os estudantes concluíram que a solubilidade da substância",
+"o": [
+"I é a que mais aumenta com o aquecimento.",
+"II é a menor em temperatura próxima de 25 °C.",
+"III é a maior a partir de 50 °C.",
+"IV sofre variações significativas com o aquecimento."
+],
+"support": "tabela"
+},
+{
+"id": "R-2025-32",
+"year": 2025,
+"num": 32,
+"topic": "C10",
+"level": 1,
+"format": "direta",
+"gab": "B",
+"stem": "Os decompositores desempenham papéis essenciais nos ecossistemas. Bactérias e fungos decompõem matéria orgânica morta – como folhas caídas, animais mortos e resíduos orgânicos – convertendo-a em moléculas mais simples no processo de reciclagem da matéria.\n\nA importância biológica desse grupo nos ecossistemas é a",
+"o": [
+"conversão da energia solar em açúcares pela fotossíntese.",
+"capacidade de manutenção do húmus e da fertilidade do solo.",
+"regulação das populações de produtores e de consumidores primários.",
+"produção de oxigênio essencial para a respiração de organis- mos aeróbicos."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2025-34",
+"year": 2025,
+"num": 34,
+"topic": "C09",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "Houve uma época em que se pensava que o Sol girava ao redor da Terra. Hoje, sabemos que é exatamente o contrário: a Terra é que gira ao redor do Sol em uma órbita elíptica, fazendo com que ora ela esteja mais próxima do Sol, periélio, ora mais distante, afélio. Mas a Terra também gira ao redor dela mesma. O movimento da Terra em torno do Sol é denominado de translação e o da Terra em torno dela mesma é chamado de rotação. Outro aspecto importante dos movimentos da Terra é que o seu eixo de rotação é inclinado em relação à sua órbita em torno do Sol. Trevisan, Rute Helena. Astronomia no dia a dia. Disponível em: https://cienciahoje.periodicos.capes.gov.br/storage/acervo/chc/chc_203.pdf. Acesso em: 02 jul. 2024 (adaptado).\n\nDe acordo com o texto, o mecanismo responsável pelas estações do ano no planeta Terra é",
+"o": [
+"a órbita elíptica.",
+"o movimento de rotação.",
+"o movimento de translação.",
+"a inclinação do eixo de rotação."
+],
+"support": "texto científico"
+},
+{
+"id": "R-2025-35",
+"year": 2025,
+"num": 35,
+"topic": "C02",
+"level": 1,
+"format": "direta",
+"gab": "D",
+"stem": "Uma família está reunida em uma sala bem aquecida em um dia de inverno. Lá fora, a temperatura está muito baixa. Após algum tempo, eles percebem que as janelas de vidro da sala começam a ficar embaçadas por dentro, dificultando a visão através do vidro.\n\nNessa situação, as janelas ficam embaçadas porque",
+"o": [
+"o ar quente da sala se expande, forçando a saída de calor atra- vés do vidro e formando uma camada de neblina.",
+"o vidro frio atrai as moléculas de água do ar quente, produzin- do uma fina camada de gelo que causa o embaçamento.",
+"o calor interno da sala aquece o vidro, causando uma rápida evaporação da umidade, que forma neblina na superfície.",
+"o vapor de água do ar quente se condensa ao entrar em contato com a superfície fria do vidro, formando gotículas."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2025-36",
+"year": 2025,
+"num": 36,
+"topic": "C12",
+"level": 2,
+"format": "direta",
+"gab": "A",
+"stem": "No Reino Plantae, os grupos das Briófitas e Pteridófitas destacamse pela sua importância ecológica no aumento da biodiversidade, na formação e na estabilização dos solos, dentre outros benefícios e vantagens. Esses grupos têm diferentes estratégias reprodutivas e um papel relevante na evolução das plantas terrestres.\n\nA estratégia reprodutiva comum a esses dois grupos é a",
+"o": [
+"dependência da água para a fecundação.",
+"formação de flores e folhas.",
+"e xistência de raízes, caules e frutos.",
+"produção de esporos em estruturas chamadas soros."
+],
+"support": "enunciado"
+},
+{
+"id": "R-2025-37",
+"year": 2025,
+"num": 37,
+"topic": "C05",
+"level": 1,
+"format": "direta",
+"gab": "A",
+"stem": "Ao esquecer uma colher de metal dentro de uma panela com feijão quente, uma pessoa pode se queimar ao tentar pegá-la depois de algum tempo. No entanto, se a colher for de madeira, isso não acontece da mesma forma. Isso evidencia o fato de os metais serem melhores condutores térmicos do que a madeira.\n\nEssa diferença na condutividade térmica dos objetos citados ocorre porque",
+"o": [
+"os metais possuem elétrons livres que facilitam a condução de energia térmica.",
+"a madeira perde calor rapidamente para o ambiente, não per- manecendo aquecida.",
+"a madeira armazena o calor em seu interior, impedindo a sua passagem para as mãos.",
+"os átomos dos metais estão mais próximos, o que promove a condução da temperatura."
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2025-38",
+"year": 2025,
+"num": 38,
+"topic": "C01",
+"level": 2,
+"format": "direta",
+"gab": "B",
+"stem": "A vela, objeto utilizado desde tempos remotos como fonte de luz, é formada por um pavio impregnado com um combustível sólido. Ao acender um palito de fósforo e aproximá-lo do pavio, este queima gerando uma chama capaz de atingir 750°C. Essa chama provoca a fusão e posterior vaporização desse combustível. Esse vapor aquecido reage com o oxigênio atmosférico, o que possibilita manter a vela acesa. Disponível em: https://super.abril.com.br/ciencia/calor-da-chama-depende-do-materialqueimado. Acesso em: 04 jul. 2024 (adaptado).\n\nA tabela a seguir apresenta quatro materiais com suas respectivas propriedades.\n\nTemperatura de    Temperatura de Material      fusão aproximada ebulição aproximada Inflamabilidade (°C )             (°C ) 1              − 95                        56                 Inflamável 2                60                       290                 Inflamável 3               110                       185              Não inflamável 4              1200                      2800                 Inflamável\n\nConforme a tabela, o material adequado para impregnar o pavio é o",
+"o": [
+"1.",
+"2.",
+"3.",
+"4. GEOGRAFIA"
+],
+"support": "tabela"
+},
+{
+"id": "R-2025-40",
+"year": 2025,
+"num": 40,
+"topic": "G03",
+"level": 1,
+"format": "direta",
+"gab": "C",
+"stem": "O crescimento das cidades brasileiras ocorreu sem que o emprego industrial tomasse grande proporção na estrutura ocupacional. Isso fez com que a população recém-chegada às cidades, empurrada pelo êxodo rural, tivesse como alicerce a inserção no setor de serviços, em grande parte em atividades informais e com baixos rendimentos. Nesse processo, parte da população inseriu-se de forma periférica tanto na estrutura ocupacional quanto no território das cidades, habitando as zonas periféricas ou as regiões com sérias deficiências de estrutura urbana.\nCOSTA, Marco Aurélio. Diálogos para uma Política Nacional de Desenvolvimento Urbano: temas transversais à PNUD. Brasília: IPEA, 2024, p.136.\n\nA dinâmica socioespacial descrita teve como consequência a",
+"o": [
+"redução significativa do emprego no setor terciário.",
+"distribuição equitativa dos habitantes rurais e urbanos.",
+"ampliação expressiva da segregação no espaço urbano.",
+"inserção predominante da força de trabalho no setor primário. Formas de relevo"
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2025-47",
+"year": 2025,
+"num": 47,
+"topic": "H07",
+"level": 1,
+"format": "direta",
+"gab": "A",
+"stem": "Inteligência Artificial pode ter impacto maior do que a Revolução Industrial, diz vice-primeiro-ministro britânico Para o vice-primeiro-ministro do Reino Unido, Oliver Dowden, o avanço da Inteligência Artificial (IA) pode provocar um impacto ainda mais profundo no Reino Unido do que a própria Revolução Industrial. [...] Ele reconheceu que o crescimento das tecnologias leva a uma situação de reestruturação econômica, mas afirmou ser trabalho do governo garantir que isso não penalize os britânicos. Um dos temores com o crescimento acelerado das técnicas de IA é justamente que elas substituam postos de trabalho e contribuam para um cenário de desemprego elevado.\n\nDisponível em: https://oglobo.globo.com/mundo/noticia/2023/08/13/inteligencia-artificial-pode-ter-impacto-maior-do-que-a-revolucao-industrial-diz-vice-primeiro-ministro-britanico.ghtml. Acesso em: 06 ago. 2024.\n\nO receio expresso no texto remete a uma das bandeiras defendidas por um movimento social que marcou a Revolução Industrial britânica, conhecido como",
+"o": [
+"Ludismo.",
+"Socialismo.",
+"Anarquismo.",
+"Liberalismo."
+],
+"support": "texto jornalístico"
+},
+{
+"id": "R-2026-11",
+"year": 2026,
+"num": 11,
+"topic": "PT02",
+"level": 3,
+"format": "associação",
+"gab": "C",
+"stem": "Na esteira das abordagens europeias, os intelectuais brasileiros se voltaram para as manifestações culturais populares, particularmente por meio do estudo da literatura oral. Enquanto, na Europa, a definição de cultura popular como o saber tradicional de pessoas simples, iletradas, da área rural, estava associada à permanência de formas culturais livres de interferências estrangeiras e/ou estranhas, logo, como depositária de uma singularidade capaz de embasar uma identidade nacional, no Brasil se verificou empenho em fundar a identidade da jovem nação brasileira na mestiçagem, decorrente da interação de três raças – o índio, o negro e o branco – que compunham a população. Os primeiros estudos no país procuravam detectar as contribuições específicas de uma ou de outra raça para os contos, lendas, crenças e costumes, de modo a deslindar a composição mestiça preconizada. O movimento folclórico, como ficou conhecido o esforço dos intelectuais brasileiros nesse campo, preocupou-se em traçar os contornos iniciais de uma base conceitual e de uma categorização que acompanhassem o material coletado. A evolução do campo de estudos, durante o movimento modernista brasileiro, seguiu novas orientações e ampliou o repertório, incluindo músicas, ritmos, festejos, folguedos e rituais nas investigações empíricas que se estenderam por várias regiões do país. Disponível em: http://portal.iphan.gov.br/dicionarioPatrimonioCultural/detalhes/26/cultura-popular Acesso em 30 jul. 2025. COSTA, Maria Elisabeth de Andrade. Cultura popular. In: REZENDE, Maria Beatriz; GRIECO, Bettina; TEIXEIRA, Luciano; THOMPSON, Analucia (Orgs.). Dicionário IPHAN de Patrimônio Cultural. 1. ed. Rio de Janeiro, Brasília: IPHAN/ DAF/Copedoc, 2015. (verbete). ISBN 978-85-7334-279-6\n\nAssocie as relações semânticas da primeira coluna às ocorrências das expressões destacadas na segunda:\n\n1. Relação de                   ( ) \"Enquanto, na Europa, a temporalidade                      definição da cultura popular como saber tradicional […] no Brasil se verificou empenho em fundar a identidade jovem da nação brasileira na mestiçagem\" 2. Relação de                   ( ) \"Os primeiros estudos no alternância                        país procuravam detectar as contribuições específicas de uma ou de outra raça\"\n\n3. Relação de finalidade         ( ) \"de modo a deslindar a composição mestiça preconizada\" 4. Relação de                   ( ) \"como ficou conhecido o comparação                         esforço dos intelectuais brasileiros nesse campo\"\n\n5. Relação de                   ( ) \"durante o movimento conformidade                       modernista brasileiro\"\n\nA sequência correta é",
+"o": [
+"5, 3, 2, 4, 1",
+"3, 4, 2, 1, 5",
+"4, 2, 3, 5, 1",
+"1, 2, 3, 5, 4"
+],
+"support": "texto expositivo (verbete)"
+},
+{
+"id": "R-2026-16",
+"year": 2026,
+"num": 16,
+"topic": "M04",
+"level": 2,
+"format": "cálculo",
+"gab": "D",
+"stem": "A Unidade Astronômica (UA) é uma unidade de medida utilizada para indicar distâncias entre corpos no sistema solar.\n\nConsidere que\n\nUA = 1,5×1011 m;\nI) 1\nII) a distância entre a Terra e a Lua era de 300.000.000 metros num certo instante.\n\nNesse instante, a distância entre a Terra e a Lua, em UA, era igual a",
+"o": [
+"0,4 x 103",
+"0,4 x 10–3",
+"2,0 x 103",
+"2,0 x 10–3"
+],
+"support": "enunciado"
+},
+{
+"id": "R-2026-17",
+"year": 2026,
+"num": 17,
+"topic": "M04",
+"level": 3,
+"format": "cálculo",
+"gab": "C",
+"stem": "Na expressão algébrica\n\na 6 – 2a 3b 3 + b 6 M= a6 – b6\n\no valor numérico de M quando a=2 e b=3 é",
+"o": [
+"– 15",
+"– 13",
+"–",
+"– 69"
+],
+"support": "expressão algébrica"
+},
+{
+"id": "R-2026-20",
+"year": 2026,
+"num": 20,
+"topic": "M01",
+"level": 1,
+"format": "cálculo",
+"gab": "A",
+"stem": "Luísa guardou, em um pote, 12 balas vermelhas e 36 azuis. Ela consumiu 3 das balas vermelhas e 1 das balas azuis. 4                       4\n\nEm relação ao total de balas que sobrou no pote, a porcentagem de balas vermelhas que restou é de",
+"o": [
+"10%",
+"15%",
+"20%",
+"25%"
+],
+"support": "enunciado"
+},
+{
+"id": "R-2026-22",
+"year": 2026,
+"num": 22,
+"topic": "M05",
+"level": 1,
+"format": "cálculo",
+"gab": "D",
+"stem": "Ana e Pedro moram no Distrito Federal. Cada um deles já visitou 11 estados brasileiros, sendo que 8 foram visitados por ambos. Eles estão planejando o destino de sua próxima viagem de férias e decidiram que o local a ser escolhido será um dos 26 estados brasileiros, com a condição de que seja um estado que nenhum dos dois tenha visitado anteriormente.\n\nSendo assim, o número de estados que poderão ser escolhidos como destino da próxima viagem é",
+"o": [
+"15",
+"14",
+"13",
+"12"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2026-24",
+"year": 2026,
+"num": 24,
+"topic": "M09",
+"level": 2,
+"format": "cálculo",
+"gab": "B",
+"stem": "Uma equipe do CEFET-MG disputava uma competição acadêmica em que cada integrante realizava individualmente uma prova. Em determinado momento, faltava apenas Carla concluir sua prova pela equipe. A média do restante da equipe, até então, era de 46 pontos. Carla conseguiu 70 pontos na prova, fazendo com que a média da equipe aumentasse para 52 pontos.\n\nO total de integrantes dessa equipe é",
+"o": [
+"3",
+"4",
+"5",
+"6"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2026-25",
+"year": 2026,
+"num": 25,
+"topic": "M11",
+"level": 3,
+"format": "cálculo",
+"gab": "A",
+"stem": "Patrícia criará uma senha de cinco letras, sem diferenciar maiúsculas de minúsculas, com ou sem repetição. Para homenagear os filhos (Celio, Celso, Cesar e Selma), a senha terá a seguinte regra de formação: a primeira letra da senha será a primeira letra do nome de um dos quatro filhos; a segunda letra da senha será a segunda letra do nome de algum dos quatro filhos, e assim por diante, até a quinta letra da senha, que será a última letra de algum dos nomes.\n\nSão exemplos de senhas com essa regra: CELMR e SESAA.\n\nA quantidade de senhas distintas que Patrícia tem à sua disposição para escolher é",
+"o": [
+"48",
+"512",
+"729",
+"4096"
+],
+"support": "enunciado contextualizado"
+},
+{
+"id": "R-2026-34",
+"year": 2026,
+"num": 34,
+"topic": "C03",
+"level": 3,
+"format": "direta",
+"gab": "B",
+"stem": "A Organização das Nações Unidas declarou 2025 como o “Ano Internacional da Ciência e Tecnologia Quântica”. Estudos nessa área contemplam a estrutura interna da matéria e possibilitaram avanços significativos na tecnologia moderna. Niels Bohr foi o primeiro cientista a considerar aspectos quânticos para os átomos, ao postular um modelo em que os elétrons giravam em torno do núcleo, com órbitas estacionárias de energia.\n\nO fenômeno que tem seu funcionamento diretamente relacionado a esse modelo atômico é",
+"o": [
+"o som produzido pelos alto-falantes.",
+"a luz emitida nas lâmpadas fluorescentes.",
+"o aquecimento da água nos chuveiros elétricos.",
+"a queima do combustível nos motores dos automóveis."
+],
+"support": "texto"
+},
+{
+"id": "R-2026-35",
+"year": 2026,
+"num": 35,
+"topic": "C05",
+"level": 2,
+"format": "julgar afirmativas",
+"gab": "C",
+"stem": "Na aula de Ciências, foi discutido o funcionamento dos aparelhos de ar condicionado e do aquecedor de ambiente. A professora explicou que, para os processos de troca de calor nos ambientes onde estão operando, esses aparelhos funcionam por meio do fenômeno da convecção.\n\nSobre esse fenômeno, a professora registrou, no quadro, diferentes explicações dadas pelos estudantes:\n\nEstudantes\t\t            Explicações Ana \t\t\t                 Permite a transmissão de calor no vácuo. Bianca\t\t                É responsável pela transmissão de calor nos líquidos e gases. Carlos\t\tÉ a transmissão de calor por meio da movimentação do próprio material. Davi\t\t\t                 Explica a transmissão de calor nos sólidos. Eva\t\t\tOcorre quando o ar aquecido sobe enquanto o ar frio desce.\n\nEstão corretas somente as explicações dos estudantes:",
+"o": [
+"A na, Carlos e Eva.",
+"Ana, Bianca e Davi.",
+"Bianca, Carlos e Eva.",
+"B ianca, Carlos e Davi."
+],
+"support": "quadro/tabela"
+},
+{
+"id": "R-2026-37",
+"year": 2026,
+"num": 37,
+"topic": "C13",
+"level": 2,
+"format": "direta",
+"gab": "C",
+"stem": "Há 252 milhões de anos, erupções nos Trapps Siberianos liberaram grandes quantidades de CO2. Essas erupções aqueceram o planeta e causaram a extinção de 94% das espécies marinhas, de 70% dos vertebrados terrestres e de vastas florestas tropicais. A destruição dessas florestas agravou ainda mais o aquecimento, mantendo a Terra em estado de “superestufa” por cerca de cinco milhões de anos, até a lenta recuperação da vegetação. Superinteressante. Abril, 2024. (adaptado)\n\nDe acordo com o texto, a destruição das florestas contribuiu para o agravamento do efeito estufa global porque",
+"o": [
+"aumentou a exposição do solo à chuva, intensificando a erosão.",
+"passou a liberar oxigênio em excesso, alterando o equilíbrio da atmosfera.",
+"resultou na decomposição da biomassa vegetal, elevando a emissão de gases.",
+"favoreceu o desenvolvimento de áreas urbanas e agrícolas, retendo mais calor solar nas superfícies."
+],
+"support": "texto de divulgação"
+},
+{
+"id": "R-2026-38",
+"year": 2026,
+"num": 38,
+"topic": "C08",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "Em uma noite de tempestade, pai e filha estavam reunidos na varanda de casa quando observaram um raio iluminando o céu. Poucos segundos depois, ouviram o som forte do trovão. Curiosa, a filha perguntou ao pai, que é professor de Ciências, como o som se propaga até chegar aos ouvidos.\n\nA explicação cientificamente correta dada pelo pai à filha é:",
+"o": [
+"O som é formado por partículas diferentes das moléculas de ar, propagando-se desde o trovão até os ouvidos.",
+"O som se propaga porque as moléculas de ar são empurradas na direção da propagação, transportando energia que vibra os tímpanos.",
+"O som passa através dos espaços vazios entre as moléculas de ar, criando zonas de compressão e rarefação, propagando-se até os ouvidos.",
+"O som é uma onda que se propaga através da vibração das partículas do ar, transmitindo energia de molécula a molécula até os ouvidos. GEOGRAFIA"
+],
+"support": "enunciado narrativo"
+},
+{
+"id": "R-2026-40",
+"year": 2026,
+"num": 40,
+"topic": "G07",
+"level": 2,
+"format": "direta",
+"gab": "D",
+"stem": "As exportações brasileiras de carne bovina dão sinais de que – em meio à queda acentuada registrada nas vendas para os Estados Unidos, devido à sobretaxa imposta pelo presidente Donald Trump – já estão migrando para outros destinos. A principal evidência desse movimento vem do México, que, até o ano passado, sequer figurava na lista dos dez maiores importadores da carne brasileira. Esse país acaba de ultrapassar as compras feitas pelos Estados Unidos, ficando em segundo lugar do ranking, só atrás da China, que também segue em expansão. Disponível em: https://www1.folha.uol.com.br/mercado/2025/08/mexico-desbanca-eua-eja-e-segundo-maior-comprador-de-carne-brasileira.shtml Acesso em 25 ago. 2025. (adaptado).\n\nA mudança nos fluxos comerciais descrita nesse texto reforça a",
+"o": [
+"subordinação dos países periféricos, evidenciando sua submissão às economias centrais.",
+"consolidação de barreiras sanitárias, limitando a efetivação de acordos bilaterais de comércio.",
+"redução do protecionismo comercial, indicando a suspensão de tarifas pelos países desenvolvidos.",
+"cooperação de países emergentes, reduzindo suas vulnerabilidades às ameaças comerciais externas."
+],
+"support": "notícia"
+},
+{
+"id": "R-2026-42",
+"year": 2026,
+"num": 42,
+"topic": "G06",
+"level": 3,
+"format": "direta",
+"gab": "C",
+"stem": "Nas últimas décadas, principalmente após a crise financeira de 2008, tornou-se evidente a limitação do modelo de globalização econômica baseada na financeirização e na desindustrialização acelerada. A pandemia da Covid-19, a emergência climática e os choques nas cadeias globais de valor reforçaram a centralidade do Estado e do planejamento estratégico para garantir a resiliência, a segurança produtiva e o bem-estar coletivo. O retorno da política industrial ao centro do debate internacional – por meio de estratégias nacionais como a Lei de Redução da Inflação (2022) dos Estados Unidos, os programas industriais da União Europeia e o modelo chinês de Estado desenvolvimentista – expressa essa nova fase do capitalismo global, mais orientada por interesses geopolíticos.\nFREDDO, D.; ROVENTINI, A.; BARROS, P. S. O tempo da política industrial no mundo. Revista Tempo do Mundo, IPEA: Brasília, n. 36, dez. 2024. (adaptado)\n\nDe acordo com o texto, a nova fase do capitalismo global utiliza a",
+"o": [
+"elevação tarifária como uma estratégia para liberalização comercial.",
+"d esregulamentação ambiental como condição para comercia- lização mundial.",
+"reorganização produtiva como um instrumento para desenvol- vimento econômico.",
+"p adronização das condições de trabalho como ferramenta para maximização de lucros."
+],
+"support": "texto acadêmico"
+},
+{
+"id": "R-2026-46",
+"year": 2026,
+"num": 46,
+"topic": "H07",
+"level": 3,
+"format": "julgar afirmativas",
+"gab": "B",
+"stem": "Com base nos textos I e II, analise as afirmativas:\nI- O automóvel passou a ser um elemento de conflito na disputa pelo direito ao espaço urbano.\nII- O automóvel passou a ser a representação das limitações e atrasos das sociedades periféricas.\nIII- O automóvel passou a ser um dos principais símbolos de pertencimento ao mundo moderno.\nIV- O automóvel passou a ser a encarnação dos valores democráticos de liberdade e de solidariedade.\n\nEstão corretas apenas as afirmativas",
+"o": [
+"I e II.",
+"I e III.",
+"II e III.",
+"III e IV."
+],
+"support": "2 textos (jornal 1912 e manifesto futurista)"
+}
+]

@@ -106,28 +106,37 @@
     });
   }
 
-  // 5) Notas nos simulados
+  // 5) Acertos nos simulados (equivalente a 50) com linha da meta
   const simuladosEl = document.getElementById('chart-simulados');
   if (simuladosEl && data.simulados.length > 0) {
+    const goal = Math.round(((data.passTarget || 70) / 100) * 50);
     new Chart(simuladosEl, {
       type: 'line',
       data: {
         labels: data.simulados.map((s) => s.date.split('-').reverse().join('/')),
         datasets: [
           {
-            label: 'Nota (%)',
-            data: data.simulados.map((s) => s.score),
+            label: 'Acertos (equiv. a 50)',
+            data: data.simulados.map((s) => s.outOf50),
             borderColor: COLORS.primary,
             backgroundColor: 'rgba(91,91,224,0.12)',
             fill: true,
             tension: 0.2,
             pointRadius: 4,
           },
+          {
+            label: `Meta (${goal})`,
+            data: data.simulados.map(() => goal),
+            borderColor: COLORS.green,
+            borderDash: [6, 6],
+            pointRadius: 0,
+            fill: false,
+          },
         ],
       },
       options: {
-        scales: { y: { min: 0, max: 100, ticks: { callback: (v) => v + '%' } } },
-        plugins: { legend: { display: false } },
+        scales: { y: { min: 0, max: 50 } },
+        plugins: { legend: { display: true, position: 'bottom' } },
       },
     });
   }

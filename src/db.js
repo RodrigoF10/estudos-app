@@ -207,6 +207,37 @@ function initDb() {
       await ensureColumn('attempts', 'source', "source TEXT NOT NULL DEFAULT 'pratica'");
       await ensureColumn('attempts', 'time_spent_seconds', 'time_spent_seconds INTEGER');
       await ensureColumn('schedule_blocks', 'auto_generated', 'auto_generated INTEGER NOT NULL DEFAULT 0');
+
+      // --- Reestruturação v3 (padrão CEFET-MG): taxonomia de temas, origem/nível das questões ---
+      await ensureColumn('themes', 'code', 'code TEXT');
+      await ensureColumn('themes', 'tier', "tier TEXT NOT NULL DEFAULT 'core'");
+      await ensureColumn('themes', 'expected_per_exam', 'expected_per_exam REAL NOT NULL DEFAULT 0');
+      await ensureColumn('themes', 'exam_hits', 'exam_hits INTEGER NOT NULL DEFAULT 0');
+      await ensureColumn('themes', 'theory', 'theory TEXT');
+      await ensureColumn('themes', 'active', 'active INTEGER NOT NULL DEFAULT 1');
+      await ensureColumn('questions', 'ext_id', 'ext_id TEXT');
+      await ensureColumn('questions', 'origin', "origin TEXT NOT NULL DEFAULT 'legado'");
+      await ensureColumn('questions', 'exam_year', 'exam_year INTEGER');
+      await ensureColumn('questions', 'exam_number', 'exam_number INTEGER');
+      await ensureColumn('questions', 'level', 'level INTEGER');
+      await ensureColumn('questions', 'format', 'format TEXT');
+      await ensureColumn('questions', 'support_html', 'support_html TEXT');
+      await ensureColumn('questions', 'shuffle', 'shuffle INTEGER NOT NULL DEFAULT 1');
+      await ensureColumn('questions', 'obra', 'obra INTEGER NOT NULL DEFAULT 0');
+      await ensureColumn('questions', 'active', 'active INTEGER NOT NULL DEFAULT 1');
+      await ensureColumn('simulado_questions', 'opt_order', 'opt_order TEXT');
+      await ensureColumn('simulados', 'mode', "mode TEXT NOT NULL DEFAULT 'completo'");
+      await ensureColumn('attempts', 'opt_order', 'opt_order TEXT');
+      await dbExec('CREATE UNIQUE INDEX IF NOT EXISTS idx_questions_ext_id ON questions(ext_id)');
+      await dbExec('CREATE INDEX IF NOT EXISTS idx_questions_theme_active ON questions(theme_id, active)');
+      await dbExec('CREATE INDEX IF NOT EXISTS idx_attempts_user_q ON attempts(user, question_id)');
+
+      // Sincroniza o conteúdo (temas + questões) quando a versão do conteúdo mudou.
+      // Idempotente e NÃO apaga tentativas, fila de revisão nem simulados.
+      if (process.env.AUTO_SYNC_CONTENT !== '0') {
+        const { syncContent } = require('./lib/content-sync');
+        await syncContent();
+      }
     })();
   }
   return initPromise;

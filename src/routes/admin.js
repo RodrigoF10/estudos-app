@@ -23,12 +23,13 @@ router.get('/', h(async (req, res) => {
   }
 
   const countdown = await examCountdown();
-  const totalAttemptsRow = await dbGet('SELECT COUNT(*) AS c FROM attempts WHERE user = ?', [STUDENT]);
-  const totalCorrectRow = await dbGet('SELECT COUNT(*) AS c FROM attempts WHERE user = ? AND is_correct = 1', [STUDENT]);
+  const totalAttemptsRow = await dbGet('SELECT COUNT(*) AS c FROM attempts a JOIN questions q ON q.id = a.question_id AND q.active = 1 WHERE a.user = ?', [STUDENT]);
+  const totalCorrectRow = await dbGet('SELECT COUNT(*) AS c FROM attempts a JOIN questions q ON q.id = a.question_id AND q.active = 1 WHERE a.user = ? AND a.is_correct = 1', [STUDENT]);
 
   const last7 = await dbAll(
     `SELECT date(created_at) AS day, COUNT(*) AS total, SUM(is_correct) AS acertos
      FROM attempts WHERE user = ? AND created_at >= datetime('now', '-7 days')
+     AND question_id IN (SELECT id FROM questions WHERE active = 1)
      GROUP BY day ORDER BY day ASC`,
     [STUDENT]
   );
@@ -47,10 +48,10 @@ router.get('/', h(async (req, res) => {
      FROM themes t
      JOIN subjects s ON s.id = t.subject_id
      LEFT JOIN attempts a ON a.theme_id = t.id AND a.user = ?
-     WHERE t.low_priority = 0
+     WHERE t.low_priority = 0 AND t.active = 1
      GROUP BY t.id
      HAVING last_attempt IS NULL OR last_attempt < datetime('now', '-7 days')
-     ORDER BY last_attempt ASC
+     ORDER BY t.expected_per_exam DESC, last_attempt ASC
      LIMIT 8`,
     [STUDENT]
   );
@@ -94,7 +95,7 @@ router.get('/atividade', h(async (req, res) => {
      JOIN questions q ON q.id = a.question_id
      JOIN themes t ON t.id = a.theme_id
      JOIN subjects s ON s.id = t.subject_id
-     WHERE a.user = ?
+     WHERE a.user = ? AND q.active = 1
      ORDER BY a.created_at DESC LIMIT 100`,
     [STUDENT]
   );
@@ -115,7 +116,7 @@ router.get('/cronograma', h(async (req, res) => {
   );
   const themesBySubject = {};
   for (const s of subjects) {
-    themesBySubject[s.id] = await dbAll('SELECT id, name FROM themes WHERE subject_id = ? ORDER BY priority_rank ASC', [s.id]);
+    themesBySubject[s.id] = await dbAll('SELECT id, name FROM themes WHERE subject_id = ? AND active = 1 ORDER BY priority_rank ASC', [s.id]);
   }
   res.render('admin/cronograma', { subjects, blocks, themesBySubject });
 }));

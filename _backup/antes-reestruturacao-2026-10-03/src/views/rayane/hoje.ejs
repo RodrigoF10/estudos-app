@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Hoje — Estudos CEFET-MG' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'hoje' }) %>
+  <div class="container">
+
+    <div class="card" style="background: linear-gradient(135deg, #5b5be0, #4544c4); color: #fff; border: none;">
+      <h2 style="color:#fff; margin-top:0;">Oi, Rayane! 👋</h2>
+      <% if (countdown) { %>
+        <p style="font-size:1.1rem; margin-bottom:0;">
+          Faltam <strong><%= countdown.daysLeft %> dias</strong> para a prova do CEFET-MG (<%= countdown.examDate.split('-').reverse().join('/') %>).
+        </p>
+      <% } %>
+    </div>
+
+    <% if (ongoingSimulado) { %>
+      <div class="card" style="border-color: var(--orange);">
+        <h2 class="mt-0">⏱️ Você tem um simulado em andamento</h2>
+        <p class="muted small">Continue de onde parou — o tempo já começou a contar.</p>
+        <a class="btn" href="/rayane/simulado/<%= ongoingSimulado.id %>">Continuar simulado</a>
+      </div>
+    <% } %>
+
+    <% if (suggestion) { %>
+      <div class="card">
+        <h2 class="mt-0">Sugestão de hoje</h2>
+        <p class="muted small" style="margin-top:-8px;">Escolhida com base no peso da matéria na prova e no que você ainda não domina.</p>
+        <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;">
+          <div>
+            <span class="badge badge-<%= suggestion.stats.level.key %>"><%= suggestion.stats.level.emoji %> <%= suggestion.stats.level.label %></span>
+            <h3 style="margin: 8px 0 2px;"><%= suggestion.subject.name %> · <%= suggestion.theme.name %></h3>
+            <p class="muted small" style="max-width:520px;"><%= suggestion.theme.summary %></p>
+          </div>
+          <div style="display:flex; gap:8px;">
+            <a class="btn btn-outline" href="/rayane/tema/<%= suggestion.theme.id %>">Ver teoria</a>
+            <a class="btn" href="/rayane/praticar/<%= suggestion.theme.id %>">Praticar agora</a>
+          </div>
+        </div>
+      </div>
+    <% } else { %>
+      <div class="card"><p>Parabéns, todos os temas cadastrados já estão dominados! Continue revisando pelo cronograma.</p></div>
+    <% } %>
+
+    <div class="card">
+      <h2 class="mt-0">Plano de hoje</h2>
+      <% if (todayBlocks.length === 0) { %>
+        <p class="muted">Nenhum bloco de estudo agendado para hoje. <a href="/rayane/cronograma">Ajustar cronograma →</a></p>
+      <% } else { %>
+        <% todayBlocks.forEach(function(b) { %>
+          <div class="theme-row">
+            <div>
+              <strong><%= b.subject_name %></strong><% if (b.theme_name) { %> · <%= b.theme_name %><% } %>
+              <% if (b.auto_generated) { %><span class="low-tag">sugestão automática</span><% } %>
+              <div class="muted small"><%= b.planned_minutes %> min · <span class="status-<%= b.status %>"><%= b.status %></span></div>
+            </div>
+            <% if (b.theme_id) { %>
+              <a class="btn btn-sm btn-outline" href="/rayane/praticar/<%= b.theme_id %>">Praticar</a>
+            <% } %>
+          </div>
+        <% }) %>
+      <% } %>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Simulado completo</h2>
+      <p class="muted small" style="margin-top:-8px;">50 questões, no mesmo formato da prova (15 Português, 15 Matemática, 8 Ciências, 6 Geografia, 6 História), com 3 horas cronometradas.</p>
+      <a class="btn btn-outline" href="/rayane/simulado">Ver simulados</a>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Suas matérias</h2>
+      <div class="grid grid-2">
+        <% subjects.forEach(function(s) { %>
+          <a class="subject-pill" href="/rayane/materia/<%= s.subject.slug %>">
+            <strong><%= s.subject.name %></strong>
+            <div class="weight"><%= s.subject.weight_percent %>% da prova · <%= s.mastered %>/<%= s.total %> temas dominados</div>
+            <div class="progress-bar" style="margin-top:8px;">
+              <div style="width: <%= s.total ? Math.round((s.mastered / s.total) * 100) : 0 %>%;"></div>
+            </div>
+          </a>
+        <% }) %>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

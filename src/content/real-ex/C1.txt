@@ -1,0 +1,238 @@
+@R-2017-37
+stem: Um copo contendo água mineral gaseificada, com pedras de gelo, é uma mistura ________ formada por ________ fases, sendo ________.
+
+Os termos que completam as lacunas são, respectivamente,
+key: A
+a: Há gelo (sólido), água (líquido) e bolhas de gás carbônico: três fases visíveis, logo mistura heterogênea; só o gelo é sólido, portanto "uma sólida".
+b: Mistura homogênea tem uma única fase; aqui o gelo e as bolhas formam fases separadas.
+c: Seria homogênea se tivesse uma fase; e só há um componente sólido (o gelo), não dois.
+d: Heterogênea está certo, mas são três fases (sólido, líquido, gás) e apenas uma é sólida.
+
+@R-2018-37
+stem: Midas, na mitologia grega, foi um rei agraciado com o dom de transformar tudo que tocava em ouro. Esse dom, que no princípio era motivo de muita alegria, tornou-se um problema para o rei que se via impedido de se alimentar por converter também em ouro os alimentos e as bebidas por ele tocados. Em todos os materiais transformados eram inalterados seus volumes.
+
+Se a densidade de uma maçã é de aproximadamente 0,8 g/cm³ e a do ouro 19,3 g/cm³, a massa de uma “maçã de ouro”, que antes da transformação possuía massa mᵢ, será mais próxima de
+o1: 15,0 mᵢ.
+o2: 18,0 mᵢ.
+o3: 20,0 mᵢ.
+o4: 24,0 mᵢ.
+key: D
+a: 15,0 mi viria de usar a razão entre as densidades com valores trocados ou arredondados incorretamente.
+b: 18,0 mi está próximo, mas não corresponde a 19,3 ÷ 0,8.
+c: 20,0 mi seria obtido com densidade da maçã de 0,965 g/cm³.
+d: Como o volume é o mesmo, a massa é proporcional à densidade: m_ouro ÷ m_i = 19,3 ÷ 0,8 ≈ 24,1. A massa da maçã de ouro é cerca de 24 mi.
+
+@R-2024-36
+sup: <table class="qt"><tr><th>Substância</th><th>Temp. de fusão</th><th>Temp. de ebulição</th><th>Informações sobre solubilidade</th></tr><tr><td>Água</td><td>0 °C</td><td>100 °C</td><td>Dissolve alguns corantes de tecidos. Não é capaz de interagir com graxa/gordura.</td></tr><tr><td>Butano</td><td>−135 °C</td><td>0,6 °C</td><td>Pouco solúvel em água. Não dissolve alguns corantes de tecidos. Capaz de interagir com graxa/gordura.</td></tr><tr><td>Naftaleno</td><td>80 °C</td><td>218 °C</td><td>Insolúvel em água. Não dissolve alguns corantes de tecidos. Capaz de interagir com graxa/gordura.</td></tr><tr><td>Percloroetileno</td><td>−22 °C</td><td>121 °C</td><td>Insolúvel em água. Não dissolve alguns corantes de tecidos. Capaz de interagir com graxa/gordura.</td></tr></table>
+stem: A lavagem a seco consiste na utilização de líquidos capazes de remover a sujeira sem afetar as características originais dos materiais, ou seja, sem desbotar ou encolher o material ou tecido. O quadro apresenta quatro substâncias das quais apenas uma poderia ser empregada na lavagem a seco.
+
+Dentre essas substâncias, a adequada para lavagem a seco é o(a)
+key: D
+a: A água dissolve corantes (desbota) e não remove gordura.
+b: O butano remove gordura, mas ferve a 0,6 °C: é gás na temperatura ambiente, não é um líquido utilizável.
+c: O naftaleno remove gordura, mas funde a 80 °C: é sólido na temperatura ambiente.
+d: O percloroetileno é líquido à temperatura ambiente (−22 °C a 121 °C), não dissolve corantes e interage com gordura.
+
+@R-2024-37
+key: B
+a: A glicerina é mais densa que o biodiesel, e a decantação, e não a filtração, separa líquidos imiscíveis; filtração separa sólido de líquido.
+b: O biodiesel (de interesse) está na fase superior, logo é menos denso que a glicerina, que fica embaixo. Esse tipo de mistura heterogênea líquido-líquido é separada por decantação.
+c: Destilação simples separa misturas homogêneas de sólido dissolvido em líquido; aqui são duas fases.
+d: Destilação fracionada separa líquidos miscíveis com pontos de ebulição próximos, e não fases imiscíveis.
+
+@R-2024-44
+sup: <table class="qt"><tr><th>Material</th><th>Densidade (g/cm³)</th><th>Temp. de fusão (°C)</th><th>Condutibilidade térmica</th><th>Condutibilidade elétrica</th><th>Propriedades mecânicas</th></tr><tr><td>A</td><td>2,4 – 2,8</td><td>1600 – 1700</td><td>Baixa</td><td>Baixa</td><td>Duro e quebradiço</td></tr><tr><td>B</td><td>0,3 – 0,9</td><td>Indeterminado</td><td>Baixa</td><td>Baixa</td><td>Resistente à compressão</td></tr><tr><td>C</td><td>8,9</td><td>1085</td><td>Alta</td><td>Alta</td><td>Maleável e dúctil</td></tr></table>
+stem: Durante uma aula prática de Ciências, os estudantes foram desafiados a analisar três materiais muito usados em nossa vida cotidiana: cobre, vidro e madeira. Eles exploraram as propriedades desses materiais para entender como suas características determinam suas diversas aplicações. O quadro apresenta as informações obtidas pelos estudantes, sem a identificação do nome do material.
+
+Com base nesses dados, julgue se as afirmações a seguir são verdadeiras (V) ou falsas (F):
+( ) O material A pode ser empregado na fabricação de fios elétricos.
+( ) O material B pode ser empregado na fabricação de móveis residenciais.
+( ) O material C é excelente isolante contra choques elétricos.
+( ) O material A é mais resistente ao impacto do que os materiais B e C.
+
+A sequência correta de cima para baixo é
+key: A
+a: 1ª (F): o material A (vidro) tem baixa condutibilidade elétrica, não serve para fios. 2ª (V): B (madeira) é leve, resistente à compressão e isolante, adequada a móveis. 3ª (F): C (cobre) tem alta condutibilidade elétrica; conduz, não isola. 4ª (F): A é duro, mas quebradiço; C é maleável e resiste melhor ao impacto.
+b: A terceira afirmação é falsa: C tem alta condutibilidade elétrica.
+c: A primeira afirmação é falsa: A conduz mal a eletricidade e a quarta também é falsa.
+d: A primeira e a quarta são falsas: A é isolante e quebradiço.
+
+@R-2024-45
+key: B
+a: Há 2 substâncias (água e cloreto de sódio) e 4 elementos (H, O, Na, Cl), não 1 e 2.
+b: Solução aquosa é mistura homogênea: 1 fase. Substâncias: água (H₂O) e cloreto de sódio (NaCl): 2. Elementos químicos: H, O, Na e Cl: 4.
+c: Solução é homogênea, portanto tem 1 fase, não 2.
+d: O sal dissolvido não forma fase separada; são 2 substâncias e 4 elementos, mas 1 fase.
+
+@R-2025-31
+sup: <table class="qt"><tr><th>Temperatura (°C)</th><th>I</th><th>II</th><th>III</th><th>IV</th></tr><tr><td>20</td><td>30</td><td>40</td><td>10</td><td>20</td></tr><tr><td>30</td><td>35</td><td>36</td><td>20</td><td>22</td></tr><tr><td>40</td><td>40</td><td>31</td><td>30</td><td>24</td></tr><tr><td>50</td><td>45</td><td>28</td><td>48</td><td>24</td></tr><tr><td>60</td><td>50</td><td>24</td><td>58</td><td>25</td></tr></table>
+stem: Para investigar o efeito da temperatura na solubilidade em água, um grupo de estudantes misturou massas fixas de quatro diferentes substâncias (I, II, III e IV) com 100 mL de água destilada. A seguir, eles mediram a quantidade máxima de cada substância (em gramas) que se dissolveu em diferentes temperaturas, e registraram os resultados na tabela.
+
+Com base nos dados dessa tabela, os estudantes concluíram que a solubilidade da substância
+key: C
+a: I aumenta 20 g (de 30 a 50), enquanto III aumenta 48 g (de 10 a 58): III é a que mais aumenta.
+b: Perto de 25 °C a substância II tem a MAIOR solubilidade (40 g a 20 °C), não a menor.
+c: A partir de 50 °C a substância III dissolve 48 g e 58 g, mais que I (45 e 50), II (28 e 24) e IV (24 e 25).
+d: IV varia apenas de 20 a 25 g: variação pequena, não significativa.
+
+@R-2025-38
+sup: <table class="qt"><tr><th>Material</th><th>Temp. de fusão aproximada (°C)</th><th>Temp. de ebulição aproximada (°C)</th><th>Inflamabilidade</th></tr><tr><td>1</td><td>−95</td><td>56</td><td>Inflamável</td></tr><tr><td>2</td><td>60</td><td>290</td><td>Inflamável</td></tr><tr><td>3</td><td>110</td><td>185</td><td>Não inflamável</td></tr><tr><td>4</td><td>1200</td><td>2800</td><td>Inflamável</td></tr></table>
+stem: A vela, objeto utilizado desde tempos remotos como fonte de luz, é formada por um pavio impregnado com um combustível sólido. Ao acender um palito de fósforo e aproximá-lo do pavio, este queima gerando uma chama capaz de atingir 750 °C. Essa chama provoca a fusão e posterior vaporização desse combustível. Esse vapor aquecido reage com o oxigênio atmosférico, o que possibilita manter a vela acesa. (Adaptado de Super Interessante.)
+
+A tabela apresenta quatro materiais com suas respectivas propriedades. Conforme a tabela, o material adequado para impregnar o pavio é o
+key: B
+a: O material 1 funde a −95 °C: é líquido (ou gás) na temperatura ambiente, não um combustível sólido.
+b: O material 2 é sólido à temperatura ambiente (funde a 60 °C), vaporiza abaixo de 750 °C (ebulição 290 °C) e é inflamável.
+c: O material 3 é sólido e vaporiza facilmente, mas não é inflamável, então não sustentaria a chama.
+d: O material 4 é inflamável, mas só vaporiza a 2800 °C, temperatura que a chama (750 °C) não alcança.
+
+@R-2025-35
+key: D
+a: O ar quente não "força a saída de calor" formando neblina; o embaçamento é de água líquida, não de neblina de ar.
+b: O vidro não atrai moléculas, e o embaçamento é formado por gotículas de água líquida, não por gelo.
+c: O vidro interno está frio, não aquecido; a água não evapora, e sim condensa.
+d: O vapor de água presente no ar quente da sala perde energia ao tocar o vidro frio e passa do estado gasoso ao líquido (condensação), formando gotículas.
+
+@R-2016-40
+stem: Sobre as propriedades do íon sulfeto (³²₁₆S²⁻), marque (V) para verdadeiro ou (F) para falso.
+( ) Contém 14 elétrons.
+( ) Contém 16 nêutrons.
+( ) Apresenta massa atômica igual a 30.
+( ) Apresenta número atômico igual a 18.
+
+A sequência correta é:
+key: A
+a: No íon ³²₁₆S²⁻: Z = 16 (16 prótons); número de massa A = 32; nêutrons = 32 − 16 = 16; elétrons = 16 + 2 = 18. Logo: elétrons 14 (F); nêutrons 16 (V); massa 30 (F, é 32); número atômico 18 (F, é 16).
+b: A terceira é falsa: a massa é 32, não 30.
+c: A terceira e a quarta são falsas (massa 32; número atômico 16).
+d: A primeira é falsa (o íon tem 18 elétrons, pois ganhou 2) e a segunda é verdadeira.
+
+@R-2016-41
+key: D
+a: CO₂ é composto (carbono e oxigênio), não simples.
+b: N₂ é simples e diatômico e está na atmosfera, mas o nitrogênio pertence à família 5A, não à 6A.
+c: O₃ é simples e do grupo 6A, mas é triatômico (3 átomos).
+d: O₂ é substância simples, diatômica, presente na atmosfera e formada por oxigênio, da família 6A (calcogênios).
+
+@R-2017-41
+key: C
+a: O astato (At) é halogênio (7A), não calcogênio.
+b: O césio (Cs) é metal alcalino (1A) e está no 6º período, mas não é calcogênio.
+c: O polônio (Po) está no 6º período e na família 6A (calcogênios) e é altamente radioativo.
+d: O telúrio (Te) é calcogênio, mas está no 5º período e não é altamente radioativo.
+
+@R-2017-42
+key: B
+a: CO (monóxido) e SO (monóxido de enxofre) não são os óxidos do texto; o texto fala em gás carbônico (CO₂) e dióxido de enxofre (SO₂).
+b: Gás carbônico: CO₂. Dióxido de enxofre: SO₂. Trióxido de enxofre: SO₃. Óxido de cálcio: CaO (Ca²⁺ e O²⁻).
+c: S₂O e S₃O não são as fórmulas de dióxido e trióxido de enxofre.
+d: CO é monóxido, não dióxido, e CaO₂ é peróxido de cálcio, não óxido.
+
+@R-2018-41
+key: C
+a: Bohr é posterior e trata dos níveis de energia; não é o primeiro a explicar a eletrização.
+b: Dalton propôs o átomo maciço e indivisível, sem cargas; não explica a eletrização.
+c: Thomson ("pudim de passas") propôs que o átomo é uma esfera positiva com elétrons incrustados; os elétrons podem ser transferidos por atrito.
+d: Rutherford (núcleo e eletrosfera) explica, também, a eletrização, mas não é o primeiro modelo a fazê-lo.
+
+@R-2018-42
+key: A
+a: O óxido de zinco (ZnO) é o óxido usado em pomadas contra assaduras.
+b: NaCl é um sal (cloreto de sódio), não é um óxido.
+c: HNO₃ é um ácido (nítrico), corrosivo; não é óxido.
+d: Ca(OH)₂ é uma base (hidróxido de cálcio), não um óxido.
+
+@R-2019-33
+key: B
+a: Quando o elétron vai de nível interno para externo, ele absorve energia; não há emissão de luz.
+b: Ao serem excitados pelo calor da explosão, os elétrons sobem de nível e depois retornam a níveis mais internos, liberando a energia na forma de luz de cores diferentes (modelo de Bohr).
+c: Prótons ficam no núcleo, não mudam de nível de energia nesse fenômeno.
+d: Prótons não fazem transições eletrônicas; quem faz são os elétrons.
+
+@R-2020-32
+key: B
+a: Eletrização e condução elétrica exigem partículas carregadas (elétrons), que Dalton não considerou: seu átomo era maciço e indivisível.
+b: No modelo de Dalton, átomos indivisíveis se rearranjam sem criação nem destruição (conservação da massa, III) e a fusão do gelo é uma mudança de estado em que as moléculas apenas mudam de arranjo (II).
+c: A emissão de luz colorida (V) exige níveis de energia, modelo de Bohr.
+d: A condução de eletricidade (IV) exige elétrons móveis, algo ausente no modelo de Dalton.
+
+@R-2026-34
+key: B
+a: O som do alto-falante depende de eletromagnetismo e vibração de uma membrana, e não de níveis de energia atômicos.
+b: Nas lâmpadas fluorescentes, elétrons dos átomos de vapor de mercúrio são excitados e emitem luz ao voltar a níveis de menor energia, o que só se explica com órbitas estacionárias de energia (Bohr).
+c: O aquecimento no chuveiro é efeito Joule (resistência elétrica): transformação de energia elétrica em térmica.
+d: A queima de combustíveis é uma reação química de combustão, explicada por rearranjo de átomos e energia de ligação, e não pelo modelo de Bohr.
+
+@R-2016-39
+sup: <table class="qt"><tr><td>C₂H₄ (28 g)</td><td>+</td><td>H₂ (2 g)</td><td>→</td><td>C₂H₆ (30 g)</td></tr></table>
+stem: Observe a equação química: C₂H₄ (28 g) + H₂ (2 g) → C₂H₆ (30 g).
+
+A comparação entre as massas do produto e dos reagentes relaciona-se à Lei de
+key: C
+a: Bohr propôs o modelo de níveis de energia do átomo; não trata de massas em reações.
+b: Dalton formulou a teoria atômica (átomos indivisíveis) e a Lei das proporções múltiplas, não a comparação direta entre massas totais.
+c: 28 g + 2 g = 30 g: a massa total dos reagentes é igual à dos produtos, o que é a Lei da Conservação das Massas, de Lavoisier.
+d: Rutherford propôs o modelo nuclear do átomo; não trata de massas em reações.
+
+@R-2017-39
+sup: <table class="qt"><tr><th>Experimento</th><th>Massa de óxido de cálcio (g)</th><th>Massa de gás carbônico (g)</th><th>Massa de carbonato de cálcio (g)</th></tr><tr><td>I</td><td>5,6</td><td>X</td><td>10,0</td></tr><tr><td>II</td><td>Y</td><td>22,0</td><td>50,0</td></tr><tr><td>III</td><td>56,0</td><td>44,0</td><td>Z</td></tr></table>
+stem: O óxido de cálcio (CaO), cal virgem, reage com o dióxido de carbono (CO₂) produzindo o carbonato de cálcio (CaCO₃). Em um laboratório de química, foram realizados vários experimentos cujos resultados estão expressos na tabela.
+
+Com base na lei de Lavoisier e nos experimentos realizados, conclui-se que
+o1: Y/X = 5
+o2: X · Y < Z
+o3: Z/5,6 = X · 3,5
+o4: (56/Y) · (22/44) = 1
+key: D
+a: Pela conservação das massas: X = 10,0 − 5,6 = 4,4 e Y = 50,0 − 22,0 = 28. Y/X = 28 ÷ 4,4 ≈ 6,36, e não 5.
+b: Z = 56 + 44 = 100. X · Y = 4,4 × 28 = 123,2, que é maior que Z = 100.
+c: Z/5,6 = 100 ÷ 5,6 ≈ 17,86, mas X · 3,5 = 15,4: não são iguais.
+d: Os valores são X = 4,4; Y = 28 e Z = 100. Então (56 ÷ 28) · (22 ÷ 44) = 2 · 0,5 = 1.
+
+@R-2018-38
+stem: O esquema explica a formação da chuva ácida a partir de emissões gasosas poluentes geradas nos grandes centros urbanos industrializados. A combinação desses poluentes com o vapor de água da atmosfera acumula-se nas nuvens, ocorrendo, assim, sua condensação.
+
+Na indústria: S(s) + O₂(g) → SO₂(g)
+Na atmosfera: 2 SO₂(g) + O₂(g) + 2 H₂O(l) → 2 H₂SO₄(aq)
+
+Em relação ao fenômeno representado, é correto afirmar que
+key: D
+a: O SO₂ formado na indústria é um óxido de dois elementos (S e O), não três.
+b: A chuva ácida é ácida: a fenolftaleína fica incolor, e não rosa, que é a cor em meio básico.
+c: Na reação atmosférica, são consumidas duas substâncias compostas (SO₂ e H₂O) e uma simples (O₂); como todas são substâncias puras, o termo "substância pura" não distingue a simples e a afirmação não está correta.
+d: O produto final é o ácido sulfúrico (H₂SO₄), usado como eletrólito nas baterias de automóveis.
+
+@R-2018-40
+key: B
+a: A lei de Lavoisier vale em qualquer sistema desde que se considerem todas as massas (inclusive as dos gases que entram e saem).
+b: Na combustão, o combustível reage com o oxigênio do ar. A massa dos produtos é igual à soma das massas do combustível e do oxigênio consumido, por isso a massa dos produtos é maior que a do combustível adicionado.
+c: Partículas sólidas não explicam o aumento; todos os produtos estavam no estado gasoso.
+d: A combustão lenta não forma "produtos inesperados"; o aumento vem do oxigênio incorporado, conforme a lei de Lavoisier.
+
+@R-2019-37
+key: D
+a: Misturar tintas azul e amarela produz verde por mistura de pigmentos (fenômeno físico), sem nova substância.
+b: O aquecimento de uma chapa de ferro produz incandescência (emissão de luz), fenômeno físico, a menos que haja oxidação.
+c: Bolhas ao adicionar açúcar ao refrigerante: o açúcar facilita a saída do CO₂ já dissolvido (fenômeno físico).
+d: O açúcar aquecido caramelizou: novas substâncias se formam (cor e sabor diferentes), com decomposição, que é uma transformação química.
+
+@R-2016-33
+key: C
+a: I é falsa: o termômetro marca a temperatura do corpo, bem abaixo da temperatura de ebulição do mercúrio (356 °C).
+b: I e IV são falsas.
+c: II: a escala do termômetro relaciona-se à dilatação térmica do mercúrio (verdadeira). III: aguarda-se o equilíbrio térmico entre o paciente e o termômetro (verdadeira).
+d: IV é falsa: a escala é calibrada para cada substância; o álcool dilata de outra forma.
+
+@R-2016-34
+key: C
+a: A terceira e a quarta são falsas: o calor necessário depende de massa, calor específico e variação de temperatura.
+b: Madeira é pior condutora (isolante) que o metal: a madeira parece mais quente porque conduz menos calor da mão; a 1ª é falsa.
+c: 1ª (F): a madeira conduz pior. 2ª (V): a geladeira retira calor do interior e o despeja, mais o calor do motor, na cozinha: o ambiente esquenta. 3ª (F): materiais diferentes têm calor específico diferente. 4ª (F): volumes diferentes têm massas diferentes e exigem quantidades de calor diferentes.
+d: A primeira é falsa e a segunda é verdadeira; essa sequência as inverte.
+
+@R-2017-34
+key: B
+a: Em um sistema isolado, os corpos mais quentes cedem calor e os mais frios recebem; nem todos diminuem.
+b: Em recipiente termicamente isolado, após o tempo suficiente, todos os corpos atingem o equilíbrio térmico e ficam com a mesma temperatura.
+c: Só TA diminui com certeza; TB aumenta, mas TC não necessariamente diminui; o resultado final é comum.
+d: TA diminui (é o mais quente), não aumenta.

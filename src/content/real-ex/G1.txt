@@ -1,0 +1,161 @@
+@R-2017-49
+stem: A delegação da Austrália embarcou no aeroporto de Sidnei, localizado no fuso 135ºE, no dia 24 de julho, domingo, rumo ao Rio de Janeiro (fuso 45ºW) para participar dos jogos olímpicos. O voo decolou às 12h30 e fez uma conexão de 1h40 em Santiago, no Chile, de modo que a viagem teve uma duração total de 18h35. O avião chegou ao aeroporto do Rio de Janeiro às ______ do dia ______.
+
+Os termos que completam as lacunas são, respectivamente,
+key: D
+a: Não confere. Em horário de Sidnei o avião chega às 07h05 do dia 25; como o Rio está 12 horas atrás, o horário local não é 13h05 do dia 24.
+b: Não confere. 14h05 do dia 25 ignora que o Rio fica a oeste de Sidnei: o relógio do Rio está atrasado em 12 horas, e não adiantado.
+c: Não confere. 18h05 do dia 25 vem de subtrair uma diferença de fuso menor que a real; os 180° de diferença de longitude dão 12 horas, e o dia da chegada local é o 24.
+d: A diferença de longitude é 135° + 45° = 180°, ou 180 ÷ 15 = 12 horas, e o Rio está atrasado. Chegada no horário de Sidnei: 12h30 + 18h35 = 31h05, isto é, 07h05 do dia 25. Subtraindo 12 h, em horário do Rio são 19h05 do dia 24 de julho.
+
+@R-2019-54
+o4: Presença de instituições religiosas e de Organizações Não Governamentais que acolhem os refugiados.
+key: C
+a: Fator real: o Brasil foi visto como país de economia emergente, líder regional e com boa imagem internacional, o que atrai pedidos de refúgio.
+b: Fator real: a lei brasileira de refúgio (Lei 9.474/1997) é considerada moderna e acolhedora, e a legislação de migração foi ampliada em 2017.
+c: Não existem unidades policiais especiais para proteger refugiados; o próprio texto fala em "falta de políticas públicas". Logo, não é fator de atração. Resposta da questão (EXCETO).
+d: Fator real: Cáritas, igrejas, ONGs e casas de acolhida dão abrigo, alimentação e apoio jurídico aos refugiados, como no caso relatado no texto.
+
+@R-2024-48
+key: A
+a: O texto mostra o menor crescimento anual da série histórica (0,52% ao ano). Esse fenômeno decorre da queda da taxa de fecundidade: as mulheres brasileiras têm, em média, menos filhos, e a população cresce cada vez mais devagar.
+b: A expectativa de vida no Brasil aumentou ao longo das décadas (com queda pontual na pandemia). Não há redução específica na classe média que explique o menor crescimento.
+c: Não há corte de investimentos em maternidade que explique o fenômeno; o declínio da fecundidade é um processo de longo prazo ligado à urbanização, escolaridade feminina e acesso a contraceptivos.
+d: A imigração é pequena em relação à população brasileira e não é o fator que determina o ritmo do crescimento demográfico.
+
+@R-2017-52
+key: B
+a: II é falsa: as megacidades não ocupam o mesmo nível hierárquico mundial. Tóquio, Nova York e Londres são cidades globais, enquanto outras megacidades são grandes em população, mas têm pouca influência financeira.
+b: I é verdadeira: megacidades surgem da urbanização acelerada e da metropolização. IV é verdadeira: o crescimento mais intenso dessas aglomerações hoje ocorre nos países menos desenvolvidos (Ásia, África e América Latina).
+c: II e III são falsas. III é falsa porque muitas megacidades têm planejamento deficiente e saneamento precário, com favelas e periferias sem serviços.
+d: III é falsa: o planejamento urbano costuma ser ineficiente nas megacidades de países pobres, e o saneamento básico não é universalizado.
+
+@R-2024-50
+key: C
+a: A migração pendular é o deslocamento diário entre cidades para trabalhar. Os dados falam de população residente, e a capital perdeu habitantes, o que não indica consolidação desse processo.
+b: Não há dados sobre indústria no texto. As capitais regionais citadas (Uberlândia, Montes Claros, Uberaba) cresceram, o que não sugere estagnação.
+c: Uberlândia, Montes Claros, Uberaba e Divinópolis, cidades médias, tiveram aumento proporcional bem acima da média do estado, enquanto BH perdeu população. Isso consolida o crescimento demográfico das cidades médias.
+d: O texto não trata de economia de pequenas cidades; ele só mostra população por município, e as cidades que mais cresceram são médias.
+
+@R-2025-40
+key: C
+a: O texto diz o contrário: a população foi absorvida pelo setor de serviços (terciário), que cresceu, em grande parte informal.
+b: O êxodo rural deslocou a população do campo para a cidade; o Brasil passou a ser predominantemente urbano, sem distribuição equitativa entre campo e cidade.
+c: O texto afirma que a população recém-chegada se inseriu "de forma periférica" no território, habitando periferias com deficiências de infraestrutura. Isso é segregação socioespacial, que se ampliou.
+d: A população migrou do campo para a cidade, saindo do setor primário e indo para serviços. A afirmativa inverte o processo descrito.
+
+@R-2016-51
+key: B
+a: III é falsa: os desertos têm grande amplitude térmica diária, com dias muito quentes e noites frias, porque o ar seco e o céu limpo dissipam o calor rapidamente.
+b: I é verdadeira: pouca água implica vegetação esparsa e biodiversidade reduzida. IV é verdadeira: grandes desertos se concentram em torno de 30° de latitude, sob células de alta pressão (circulação atmosférica descendente, que inibe chuva).
+c: II é falsa: a localização dos desertos é influenciada principalmente pela latitude, e não pela longitude. III também é falsa.
+d: II é falsa, pois a longitude não determina o clima desértico, e sim a latitude e a circulação atmosférica.
+
+@R-2017-54
+key: C
+a: Aeração do solo é benéfica, e dessalinização também é benéfica (corrige solos salinizados). As duas são positivas, então a ordem "benéfica e adversa" não se cumpre.
+b: A dessalinização é benéfica, mas a fertilização também é benéfica (devolve nutrientes ao solo), não é adversa.
+c: Fertilização adequada repõe nutrientes e melhora a produtividade (prática benéfica). Pesticidas tóxicos contaminam solo e água e eliminam organismos úteis (prática adversa). A ordem pedida é benéfica e adversa.
+d: A ordem está invertida: pesticidas tóxicos são adversos e aeração é benéfica, mas o enunciado pede "respectivamente" benéfica e adversa.
+
+@R-2020-52
+key: D
+a: Favorece: o Plano de Manejo é o documento que define as regras de uso da unidade, e a participação da população no debate é parte da gestão compartilhada.
+b: Favorece: definir regras coletivamente é o princípio da gestão participativa.
+c: Favorece: envolver os usuários nas decisões e nos resultados fortalece o controle social.
+d: Controlar o acesso e excluir usuários potenciais vai contra o princípio de espaço democrático descrito no texto, pois restringe a participação. É a ação que NÃO favorece a gestão compartilhada.
+
+@R-2018-50
+sup: <table class="qt"><caption>Comércio exterior brasileiro por origens e destinos, dez/2014 a nov/2015 (valores em US$ bilhões e participação no total). Fonte: FIESP</caption><tr><th>Parceiro</th><th>Exportações</th><th>Importações</th></tr><tr><td>União Europeia</td><td>34,3 (18%)</td><td>35,6 (20%)</td></tr><tr><td>Estados Unidos</td><td>24,4 (13%)</td><td>25,7 (15%)</td></tr><tr><td>China</td><td>35,5 (18%)</td><td>31,0 (17%)</td></tr><tr><td>América Latina</td><td>37,4 (19%)</td><td>17,1 (10%)</td></tr><tr><td>Outros</td><td>60,4 (31%)</td><td>68,7 (39%)</td></tr></table>
+stem: Os dados da tabela (originalmente gráficos) referem-se ao comércio exterior brasileiro.
+
+Sobre a dinâmica econômica internacional, afirma-se que
+
+I- O superávit brasileiro nas transações com a União Europeia deve-se aos acordos bilaterais firmados recentemente.
+II- As trocas comerciais do Brasil com países emergentes e em desenvolvimento geram maior superávit do que com nações desenvolvidas.
+III- O déficit do Brasil em relação aos Estados Unidos deve-se ao predomínio de exportações brasileiras com baixo valor agregado.
+IV- A participação do Brasil em organismos de cooperação como o Mercosul e o BRICS gera expressivo déficit no país.
+
+Estão corretas apenas as afirmativas
+o1: I e II.
+o2: I e III.
+o3: II e III.
+o4: III e IV.
+key: C
+a: I é falsa: com a União Europeia o Brasil teve déficit (exportou 34,3 e importou 35,6 bilhões), e não superávit.
+b: I é falsa pelo mesmo motivo: o saldo com a União Europeia foi negativo.
+c: II é verdadeira: superávit com China (35,5 − 31,0 = 4,5) e América Latina (37,4 − 17,1 = 20,3), contra déficit com UE e EUA. III é verdadeira: o saldo com os EUA é negativo (24,4 − 25,7), pois o Brasil exporta bens primários e semimanufaturados de baixo valor agregado e importa produtos industrializados mais caros.
+d: IV é falsa: com a América Latina (Mercosul) há grande superávit, e o BRICS inclui parceiros como a China, com saldo positivo para o Brasil. Esses blocos não geram déficit.
+
+@R-2019-52
+key: A
+a: I é verdadeira: na 1ª Revolução Industrial, a máquina a vapor movida a carvão mineral levou as fábricas a se instalarem perto das minas. II é verdadeira: a indústria 4.0 usa internet das coisas, computação em nuvem e sistemas ciberfísicos.
+b: IV é falsa: indústria química, elétrica e petrolífera caracteriza a 2ª Revolução Industrial.
+c: III é falsa: robótica, informática e telecomunicações caracterizam a 3ª Revolução (técnico-científico-informacional). A 2ª Revolução teve aço, eletricidade, petróleo e indústria química.
+d: III e IV são falsas: ambas trocam as características da 2ª e da 3ª Revoluções Industriais.
+
+@R-2024-51
+key: B
+a: II é falsa: os bens de consumo duráveis (automóveis, eletrodomésticos) chegaram ao Brasil nos anos 1950, com o Plano de Metas de Juscelino Kubitschek, e não nos anos 1990.
+b: I é verdadeira: a industrialização começou por têxteis e alimentos, bens de consumo não duráveis. IV é verdadeira: a indústria 4.0 depende de centros de pesquisa, universidades e mão de obra qualificada.
+c: II e III são falsas. III é falsa porque o Centro-Oeste tem economia baseada no agronegócio e é uma das regiões menos industrializadas, atrás de Sudeste, Sul e Nordeste.
+d: III é falsa: o Centro-Oeste não é a terceira região mais industrializada do país.
+
+@R-2026-42
+o1: elevação tarifária como uma estratégia para liberalização comercial.
+o2: desregulamentação ambiental como condição para comercialização mundial.
+o3: reorganização produtiva como um instrumento para desenvolvimento econômico.
+o4: padronização das condições de trabalho como ferramenta para maximização de lucros.
+key: C
+a: O texto trata de políticas industriais e estatais, e não de usar tarifas para liberalizar o comércio; a liberalização é a ideia que o texto diz ter mostrado limites.
+b: O texto não menciona desregulamentação ambiental; cita a "emergência climática" como motivo para reforçar o papel do Estado.
+c: O texto diz que o retorno da política industrial, com estratégias nacionais, busca resiliência e segurança produtiva. Ou seja, a reorganização da produção é um instrumento para o desenvolvimento econômico.
+d: O texto não trata de padronizar condições de trabalho nem de maximizar lucros; fala de resiliência, segurança produtiva e bem-estar coletivo.
+
+@R-2016-50
+key: D
+a: A Grécia, com dívida externa elevada e crise a partir de 2010, é exemplo da instabilidade econômica global (desordem).
+b: As bolsas de valores brasileiras oscilam com os movimentos do capital financeiro internacional, o que mostra a vulnerabilidade gerada pela globalização.
+c: A crise de desabastecimento na Venezuela, ligada à dependência do petróleo e à queda de seu preço, expressa a desordem econômica global.
+d: Em 2015-2016, a China desvalorizou o yuan frente ao dólar (e não o valorizou), e essa desvalorização abalou as bolsas do mundo. Logo, o item está incorreto, como a questão pede.
+
+@R-2017-50
+key: B
+a: Relacionado: a influência do poder econômico sobre a política (financiamento de campanhas, lobby) ajuda a concentrar renda.
+b: A globalização neoliberal tende à redução do papel do Estado nos setores sociais (privatizações, corte de gastos). Ampliar esse papel diminuiria a desigualdade, então NÃO está relacionado ao cenário. Resposta da questão.
+c: Relacionado: a flexibilização dos direitos trabalhistas reduz salários e amplia a concentração de renda.
+d: Relacionado: os capitais especulativos beneficiam os mais ricos e aumentam a desigualdade global.
+
+@R-2018-53
+sup: <table class="qt"><caption>Índice de Gini da distribuição do rendimento mensal das pessoas de 15 anos ou mais de idade, com rendimento, por Grandes Regiões, 2004/2014 (Fonte: IBGE, PNAD 2004/2014; não houve pesquisa em 2010)</caption><tr><th></th><th>2004</th><th>2005</th><th>2006</th><th>2007</th><th>2008</th><th>2009</th><th>2011</th><th>2012</th><th>2013</th><th>2014</th></tr><tr><td>Brasil</td><td>0,555</td><td>0,548</td><td>0,544</td><td>0,531</td><td>0,526</td><td>0,521</td><td>0,506</td><td>0,505</td><td>0,501</td><td>0,497</td></tr><tr><td>Norte</td><td>0,522</td><td>0,501</td><td>0,504</td><td>0,501</td><td>0,490</td><td>0,496</td><td>0,503</td><td>0,486</td><td>0,484</td><td>0,480</td></tr><tr><td>Nordeste</td><td>0,563</td><td>0,546</td><td>0,553</td><td>0,534</td><td>0,534</td><td>0,532</td><td>0,510</td><td>0,510</td><td>0,509</td><td>0,490</td></tr><tr><td>Sudeste</td><td>0,531</td><td>0,531</td><td>0,526</td><td>0,507</td><td>0,502</td><td>0,497</td><td>0,484</td><td>0,485</td><td>0,483</td><td>0,485</td></tr><tr><td>Sul</td><td>0,527</td><td>0,516</td><td>0,507</td><td>0,501</td><td>0,492</td><td>0,486</td><td>0,468</td><td>0,465</td><td>0,458</td><td>0,453</td></tr><tr><td>Centro-Oeste</td><td>0,567</td><td>0,561</td><td>0,554</td><td>0,559</td><td>0,562</td><td>0,550</td><td>0,532</td><td>0,523</td><td>0,519</td><td>0,507</td></tr></table>
+stem: Considerando-se o período apresentado, é correto afirmar que:
+
+I- A disparidade de rendimentos reduziu no Brasil.
+II- As maiores desigualdades de renda persistem nas regiões Norte e Nordeste.
+III- O crescimento econômico contribuiu para a redução do Índice de Gini.
+IV- As políticas redistributivas devem ser priorizadas pelos governos dos estados das regiões Sul e Sudeste.
+
+Estão corretas apenas as afirmativas
+o1: I e II.
+o2: I e III.
+o3: II e III.
+o4: III e IV.
+key: B
+a: II é falsa: em 2014 o maior índice é o do Centro-Oeste (0,507); o Norte (0,480) tem um dos menores índices. Logo, as maiores desigualdades não estão no Norte.
+b: I é verdadeira: o Gini do Brasil caiu de 0,555 para 0,497. III é verdadeira: o crescimento econômico e a geração de empregos do período contribuíram para a queda da desigualdade.
+c: II é falsa, pois o Norte não tem desigualdade alta; o Centro-Oeste lidera.
+d: IV é falsa: Sul e Sudeste têm os menores índices (Sul 0,453), então as políticas redistributivas teriam prioridade em outras regiões, como Centro-Oeste e Nordeste.
+
+@R-2024-52
+key: B
+a: O texto trata de matérias-primas e comércio de bens, não de serviços digitais. Elevar tarifas de serviços digitais não corrige a desigualdade na DIT.
+b: O texto mostra que a África exporta matérias-primas e a China agrega valor. Para reduzir a desigualdade, os países africanos precisam industrializar e agregar valor aos produtos exportados.
+c: Focar em produtos primários mantém a posição subordinada na DIT, que é a origem do problema apontado.
+d: O texto descreve a expansão chinesa; restringir parceiros a europeus não resolve o problema de baixo valor agregado.
+
+@R-2026-40
+key: D
+a: O México e a China são países emergentes, e a mudança mostra os países periféricos ampliando alternativas, e não submissão às economias centrais.
+b: O texto não fala de barreiras sanitárias; fala de sobretaxa tarifária e redirecionamento de vendas.
+c: Os EUA aplicaram uma sobretaxa, ou seja, aumentaram o protecionismo, e não o reduziram.
+d: Diante da sobretaxa dos EUA, o Brasil redirecionou as exportações para México e China (países emergentes), diversificando mercados e reduzindo a vulnerabilidade a ameaças comerciais externas.

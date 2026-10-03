@@ -1,0 +1,490 @@
+# Ciências — C01 (matéria e misturas), C03 (átomo e fórmulas), C04 (transformações químicas), C12 (botânica/zoologia), C13 (ambiente), C10 (ecologia)
+# Dados numéricos de textos de apoio são ilustrativos, escritos para estudo, quando indicado.
+
+# ===================== C01 =====================
+
+@A-C01-01 N1
+stem: Entre os materiais abaixo, o único que é uma substância pura é
+o1: o ar atmosférico filtrado.
+o2: a água do mar.
+o3: a água destilada.
+o4: o leite.
+key: C
+a: O ar é uma mistura de gases (nitrogênio, oxigênio, argônio e outros).
+b: A água do mar contém água, sais e gases dissolvidos; é uma mistura.
+c: A água destilada é formada apenas por moléculas de H₂O. Tem composição fixa e propriedades constantes: substância pura.
+d: O leite é uma mistura de água, gorduras, proteínas, açúcares e sais.
+
+@A-C01-02 N2
+sup: <p>Uma amostra é formada por areia, sal de cozinha e água. O sal está totalmente dissolvido na água, e a areia se deposita no fundo do recipiente.</p><p class="src">Situação autoral para estudo.</p>
+stem: Para separar os três componentes (areia, sal e água), a sequência de processos mais adequada é
+o1: decantação e, depois, imantação.
+o2: filtração e, depois, destilação simples.
+o3: peneiração e, depois, filtração.
+o4: catação e, depois, decantação.
+key: B
+a: A imantação separa materiais atraídos por ímã (como o ferro); nem a areia nem o sal são magnéticos.
+b: A filtração retira a areia (sólido insolúvel). Na destilação simples, a água evapora e é recolhida por condensação, e o sal permanece no balão.
+c: A peneiração separa sólidos de tamanhos diferentes, e a filtração não retira o sal dissolvido, que passa pelo filtro.
+d: A catação é usada para separar pedaços grandes à mão, e a decantação não separa o sal dissolvido.
+
+@A-C01-03 N2
+sup: <table class="qt"><caption>Densidade de alguns materiais (valores aproximados)</caption><tr><th>Material</th><th>Densidade (g/cm³)</th></tr><tr><td>Mel</td><td>1,40</td></tr><tr><td>Água</td><td>1,00</td></tr><tr><td>Óleo de soja</td><td>0,92</td></tr><tr><td>Bolinha de plástico</td><td>0,95</td></tr></table><p class="src">Mel, água e óleo foram colocados, com cuidado, nessa ordem em um copo. Considere que os três líquidos não se misturam e formam três camadas.</p>
+stem: Ao soltar a bolinha de plástico no copo, ela ficará
+o1: no fundo do copo, abaixo do mel.
+o2: entre o mel e a água.
+o3: entre a água e o óleo.
+o4: na superfície, acima do óleo.
+key: C
+a: A bolinha é menos densa que o mel (0,95 < 1,40), por isso não afunda abaixo dele.
+b: A bolinha é menos densa que a água (0,95 < 1,00), então ela não afunda além da camada de água.
+c: Camadas (do fundo para cima): mel, água e óleo. A bolinha (0,95) é mais densa que o óleo (0,92), e afunda nele; é menos densa que a água (1,00), e flutua nela. Fica entre a água e o óleo.
+d: Para ficar acima do óleo, a bolinha teria de ser menos densa que ele, e 0,95 é maior que 0,92.
+
+@A-C01-04 N3 cálculo
+sup: <table class="qt"><caption>Solubilidade do sal X em água (valores ilustrativos)</caption><tr><th>Temperatura</th><th>Massa de sal X dissolvida em 100 g de água</th></tr><tr><td>20 °C</td><td>36 g</td></tr><tr><td>60 °C</td><td>40 g</td></tr></table><p class="src">Em um béquer, 80 g do sal X foram completamente dissolvidos em 200 g de água a 60 °C. A solução foi, depois, resfriada até 20 °C.</p>
+stem: A massa de sal X que se depositou no fundo do béquer foi de
+o1: 4 g.
+o2: 8 g.
+o3: 36 g.
+o4: 72 g.
+key: B
+a: 4 g é a diferença de solubilidade em 100 g de água (40 − 36); como há 200 g de água, a diferença deve ser dobrada.
+b: A 20 °C, 200 g de água dissolvem no máximo 2 · 36 = 72 g. Como havia 80 g, depositaram-se 80 − 72 = 8 g.
+c: 36 g é a solubilidade em 100 g de água a 20 °C, e não a massa que precipitou.
+d: 72 g é a massa que permanece dissolvida a 20 °C, e não a que se depositou.
+
+@A-C01-05 N2 julgar afirmativas
+stem: Sobre misturas e substâncias, analise as afirmativas.
+I. Água e óleo de cozinha formam uma mistura heterogênea.
+II. O ar atmosférico filtrado, sem poeira, é uma mistura homogênea de gases.
+III. O ouro 18 quilates, que é uma liga de ouro com outros metais, é uma substância pura.
+Estão corretas apenas
+o1: I e II.
+o2: I e III.
+o3: II e III.
+o4: I, II e III.
+key: A
+a: I: o óleo não se dissolve em água; há duas fases visíveis. II: os gases se misturam e formam uma única fase. III é falsa: a liga é uma mistura (homogênea) de metais.
+b: A III é falsa: uma liga metálica, como o ouro 18 quilates, é mistura de metais, e não substância pura.
+c: A I é verdadeira: água e óleo formam duas fases e, portanto, uma mistura heterogênea.
+d: A III é falsa, pois uma liga metálica é mistura.
+
+@A-C01-06 N3
+sup: <p>Em um recipiente de vidro foram colocados: gelo (água sólida); água líquida com sal de cozinha totalmente dissolvido; e uma camada de óleo de cozinha (considere o óleo como um único componente).</p><p class="src">Sistema autoral para estudo.</p>
+stem: O número de fases e o número de componentes desse sistema são, respectivamente,
+o1: 2 e 3.
+o2: 3 e 3.
+o3: 3 e 4.
+o4: 4 e 3.
+key: B
+a: Há 3 fases (gelo, solução salgada e óleo): gelo e líquido são fases diferentes, e por isso “2” é pouco.
+b: Fases: gelo (sólido), água salgada (líquido homogêneo) e óleo (líquido que não se mistura): 3 fases. Componentes: água, sal e óleo: 3.
+c: A água, tanto no gelo quanto no estado líquido, é uma única substância; contá-la duas vezes leva a 4 componentes, mas são 3.
+d: O sal dissolvido faz parte da mesma fase da água líquida (mistura homogênea); não forma uma fase própria.
+
+# ===================== C03 =====================
+
+@A-C03-01 N1
+stem: Em um átomo, a partícula de carga elétrica positiva que fica localizada no núcleo é o
+o1: elétron.
+o2: nêutron.
+o3: próton.
+o4: ânion.
+key: C
+a: O elétron tem carga negativa e fica na eletrosfera.
+b: O nêutron fica no núcleo, mas não tem carga elétrica.
+c: O próton tem carga positiva e fica no núcleo. O número de prótons define o elemento químico.
+d: Ânion é um íon com carga negativa, e não uma partícula do núcleo.
+
+@A-C03-02 N2
+sup: <p>Um átomo neutro de sódio tem 11 prótons e 12 nêutrons.</p>
+stem: O número atômico, o número de massa e o número de elétrons desse átomo são, respectivamente,
+o1: 11, 23 e 11.
+o2: 11, 12 e 23.
+o3: 12, 23 e 11.
+o4: 23, 11 e 12.
+key: A
+a: Número atômico = número de prótons = 11. Número de massa = prótons + nêutrons = 11 + 12 = 23. Átomo neutro: elétrons = prótons = 11.
+b: 12 é o número de nêutrons, e 23 é o número de massa, e não o de elétrons.
+c: O número atômico é 11 (prótons), e não 12 (nêutrons).
+d: Inverte os conceitos: o número atômico é 11 e o de massa é 23.
+
+@A-C03-03 N2
+stem: Elementos que pertencem ao mesmo grupo da tabela periódica têm propriedades químicas semelhantes. Entre os pares abaixo, o par de elementos do mesmo grupo (metais alcalinos) é
+o1: sódio (Na) e cloro (Cl).
+o2: sódio (Na) e potássio (K).
+o3: carbono (C) e oxigênio (O).
+o4: lítio (Li) e flúor (F).
+key: B
+a: O sódio é um metal alcalino (grupo 1), e o cloro é um halogênio (grupo 17).
+b: Sódio e potássio estão no grupo 1 (metais alcalinos), com propriedades semelhantes, como reagir intensamente com a água.
+c: O carbono está no grupo 14, e o oxigênio, no grupo 16.
+d: O lítio é metal alcalino (grupo 1), mas o flúor é halogênio (grupo 17).
+
+@A-C03-04 N2 cálculo
+stem: A glicose, açúcar produzido na fotossíntese, tem fórmula molecular C₆H₁₂O₆. O número total de átomos em uma molécula de glicose é
+o1: 3.
+o2: 6.
+o3: 12.
+o4: 24.
+key: D
+a: 3 é o número de elementos diferentes (C, H e O), e não de átomos.
+b: 6 é só o número de átomos de carbono.
+c: 12 é só o número de átomos de hidrogênio.
+d: Somando os índices: 6 (C) + 12 (H) + 6 (O) = 24 átomos.
+
+@A-C03-05 N3 associação
+sup: <p><b>Modelos atômicos:</b> (A) Dalton; (B) Thomson; (C) Rutherford.</p><p>( ) Esfera de carga positiva com elétrons incrustados, como passas em um pudim.<br>( ) Esfera maciça e indivisível.<br>( ) Núcleo pequeno, denso e positivo, com elétrons ao seu redor.</p>
+stem: A sequência correta, de cima para baixo, é
+o1: A, B, C.
+o2: B, A, C.
+o3: C, A, B.
+o4: B, C, A.
+key: B
+a: Dalton é a esfera maciça indivisível, e não a esfera com elétrons incrustados.
+b: Thomson propôs a esfera positiva com elétrons incrustados; Dalton, a esfera maciça indivisível; Rutherford, o núcleo pequeno e denso.
+c: Rutherford propôs o núcleo; ele não explicou a esfera com elétrons incrustados.
+d: Dalton não propôs núcleo, e sim esferas indivisíveis.
+
+@A-C03-06 N2
+stem: O átomo de magnésio tem número atômico 12. Ele forma o íon Mg²⁺ ao perder dois elétrons. O número de elétrons do íon Mg²⁺ é
+o1: 2.
+o2: 12.
+o3: 14.
+o4: 10.
+key: D
+a: 2 é a carga do íon (e o número de elétrons perdidos), e não o número que sobrou.
+b: 12 é o número de elétrons do átomo neutro, antes da perda.
+c: 14 resultaria de ganhar dois elétrons, e isso formaria um ânion (carga negativa).
+d: O átomo neutro tem 12 elétrons. Ao perder 2, o íon fica com 12 − 2 = 10 elétrons (e continua com 12 prótons).
+
+@A-C03-07 N2
+sup: <p>Fórmulas de algumas substâncias: O₂ (gás oxigênio), O₃ (ozônio), H₂O (água), NaCl (sal de cozinha), N₂ (gás nitrogênio).</p>
+stem: O número de substâncias simples, isto é, formadas por átomos de um único elemento, é
+o1: 2.
+o2: 3.
+o3: 4.
+o4: 5.
+key: B
+a: Faltou contar uma: as simples são O₂, O₃ e N₂.
+b: O₂, O₃ e N₂ têm apenas um tipo de elemento. H₂O (H e O) e NaCl (Na e Cl) são compostas.
+c: Incluiu H₂O ou NaCl, que são substâncias compostas.
+d: Considerou todas as substâncias da lista como simples, mas H₂O e NaCl têm dois elementos.
+
+# ===================== C04 =====================
+
+@A-C04-01 N1
+stem: Entre os fenômenos abaixo, o único que é uma transformação química é
+o1: o derretimento de um cubo de gelo.
+o2: a evaporação da água de uma poça.
+o3: a queima de uma folha de papel.
+o4: o amassamento de uma folha de papel.
+key: C
+a: Derreter é mudança de estado físico; a água continua água.
+b: Evaporar é mudança de estado; a substância continua sendo água.
+c: Na queima, o papel se transforma em cinzas e gases (como CO₂): formam-se novas substâncias.
+d: Amassar muda só a forma do papel; a composição se mantém.
+
+@A-C04-02 N2
+sup: <p>Em um experimento, 10 g de palha de aço foram queimados ao ar livre. Depois da queima, o material residual tinha 12 g.</p><p class="src">Situação autoral para estudo.</p>
+stem: O aumento da massa observado é explicado porque
+o1: a palha de aço criou matéria nova durante a queima.
+o2: o ferro da palha se combinou com o oxigênio do ar, formando um produto de maior massa.
+o3: o ferro se transformou em outro elemento químico, mais pesado.
+o4: a balança passou a medir também o peso do calor liberado.
+key: B
+a: A matéria não é criada: de acordo com Lavoisier, a massa total se conserva quando se considera tudo o que participa da reação.
+b: O ferro reage com o oxigênio do ar e forma óxido de ferro. A massa extra (2 g) é a do oxigênio incorporado ao sólido.
+c: Reações químicas não transformam um elemento em outro; os átomos de ferro se conservam.
+d: O calor não tem massa mensurável nesse caso.
+
+@A-C04-03 N2
+sup: <p>A equação da formação da água, ainda não balanceada, é: H₂ + O₂ → H₂O</p>
+stem: Os menores coeficientes inteiros que balanceiam a equação, na ordem H₂, O₂ e H₂O, são
+o1: 1, 1 e 1.
+o2: 2, 1 e 2.
+o3: 1, 2 e 2.
+o4: 2, 2 e 1.
+key: B
+a: Com 1, 1 e 1 há 2 átomos de oxigênio nos reagentes e só 1 nos produtos.
+b: 2 H₂ + O₂ → 2 H₂O: 4 átomos de H e 2 de O de cada lado.
+c: 1 H₂ + 2 O₂ → 2 H₂O deixa 2 átomos de H nos reagentes e 4 nos produtos.
+d: 2 H₂ + 2 O₂ → 1 H₂O deixa 4 H e 4 O nos reagentes, mas só 2 H e 1 O nos produtos.
+
+@A-C04-04 N3 cálculo
+sup: <table class="qt"><caption>Formação de água a partir de hidrogênio e oxigênio</caption><tr><th>Experimento</th><th>Massa de hidrogênio</th><th>Massa de oxigênio</th><th>Massa de água formada</th></tr><tr><td>1</td><td>2 g</td><td>16 g</td><td>18 g</td></tr><tr><td>2</td><td>4 g</td><td>32 g</td><td>36 g</td></tr></table>
+stem: Mantida essa proporção, a massa de oxigênio necessária para formar 27 g de água é
+o1: 16 g.
+o2: 27 g.
+o3: 32 g.
+o4: 24 g.
+key: D
+a: 16 g de oxigênio formam 18 g de água (experimento 1), e não 27 g.
+b: 27 g é a massa de água; o oxigênio é só parte dela.
+c: 32 g de oxigênio formam 36 g de água (experimento 2), e não 27 g.
+d: Proporção O : água = 16 : 18 = 8 : 9. Para 27 g de água: 27 · 8 ÷ 9 = 24 g de oxigênio (e 3 g de hidrogênio).
+
+@A-C04-05 N2 NÃO/incorreta
+stem: Em uma transformação química, novas substâncias são formadas. Entre as situações abaixo, aquela que NÃO indica, por si só, que ocorreu uma transformação química é
+o1: a formação de um sólido ao misturar duas soluções límpidas (precipitado).
+o2: a liberação de bolhas de gás ao colocar um comprimido efervescente na água.
+o3: a mudança de estado físico da água, que passa de sólida para líquida.
+o4: a liberação de luz e calor durante a queima de uma vela.
+key: C
+a: O surgimento de um sólido onde antes só havia soluções indica formação de nova substância insolúvel.
+b: Gás formado na reação do comprimido com a água indica nova substância (como o CO₂).
+c: Fusão do gelo é fenômeno físico; as moléculas continuam sendo H₂O.
+d: Luz e calor na queima indicam reação de combustão, com formação de novas substâncias.
+
+# ===================== C12 =====================
+
+@A-C12-01 N1
+stem: Os musgos (briófitas) são plantas que crescem rente ao solo e têm poucos centímetros. Uma explicação para o pequeno porte delas é
+o1: a ausência de vasos condutores de seiva, o que limita o transporte de água e nutrientes.
+o2: a presença de sementes grandes, que ocupam todo o espaço da planta.
+o3: o fato de produzirem flores, que impedem o crescimento.
+o4: a presença de raízes muito profundas, que consomem os nutrientes.
+key: A
+a: Sem xilema e floema, a água se desloca célula a célula, por difusão, e isso só funciona em distâncias curtas.
+b: Os musgos não têm sementes; reproduzem-se por esporos.
+c: Os musgos não têm flores.
+d: Os musgos não têm raízes verdadeiras, e sim rizoides.
+
+@A-C12-02 N2
+sup: <table class="qt"><caption>Características dos grupos de plantas</caption><tr><th>Grupo</th><th>Vasos condutores</th><th>Sementes</th><th>Frutos</th></tr><tr><td>Briófitas (musgos)</td><td>ausentes</td><td>ausentes</td><td>ausentes</td></tr><tr><td>Pteridófitas (samambaias)</td><td>presentes</td><td>ausentes</td><td>ausentes</td></tr><tr><td>Gimnospermas (pinheiros)</td><td>presentes</td><td>presentes</td><td>ausentes</td></tr><tr><td>Angiospermas (mangueira, feijão)</td><td>presentes</td><td>presentes</td><td>presentes</td></tr></table>
+stem: Segundo a tabela, o grupo de plantas que produz sementes, mas não forma frutos, é o das
+o1: briófitas.
+o2: pteridófitas.
+o3: gimnospermas.
+o4: angiospermas.
+key: C
+a: As briófitas não têm sementes nem frutos; reproduzem-se por esporos.
+b: As pteridófitas têm vasos, mas não têm sementes; reproduzem-se por esporos.
+c: Gimnospermas (como o pinheiro) produzem sementes “nuas”, sem fruto que as envolva.
+d: As angiospermas produzem sementes protegidas por frutos.
+
+@A-C12-03 N2
+stem: O golfinho vive na água e tem corpo hidrodinâmico, mas é classificado como mamífero, e não como peixe. A característica que justifica essa classificação é
+o1: possuir nadadeiras para se locomover.
+o2: viver em ambiente aquático.
+o3: ter o corpo coberto por escamas.
+o4: respirar por pulmões e amamentar os filhotes.
+key: D
+a: Nadadeiras existem em peixes e em mamíferos aquáticos; não definem os mamíferos.
+b: Viver na água não distingue peixes de mamíferos; baleias e golfinhos são aquáticos e mamíferos.
+c: O golfinho tem pele lisa, sem escamas.
+d: Mamíferos têm pulmões e glândulas mamárias. O golfinho precisa subir à superfície para respirar e amamenta seus filhotes.
+
+@A-C12-04 N2
+sup: <p>O cacto vive em regiões muito secas. Em vez de folhas largas, ele tem espinhos, que são folhas modificadas, e seu caule é espesso e verde, onde é feita a fotossíntese e é armazenada a água.</p><p class="src">Texto autoral para estudo.</p>
+stem: A transformação das folhas em espinhos é uma adaptação que
+o1: reduz a perda de água por transpiração em ambiente seco.
+o2: aumenta a superfície de absorção de luz solar.
+o3: facilita a dispersão das sementes pelo vento.
+o4: permite que a planta absorva mais água da chuva pelas folhas.
+key: A
+a: Folhas largas perdem muita água por transpiração. Espinhos têm superfície pequena e reduzem essa perda, importante em ambiente seco.
+b: Espinhos têm superfície pequena e absorvem menos luz do que folhas largas; por isso a fotossíntese ocorre no caule.
+c: Os espinhos não participam da dispersão das sementes.
+d: A absorção de água ocorre principalmente pelas raízes, e não pelas folhas.
+
+@A-C12-05 N3 julgar afirmativas
+stem: Sobre a circulação do sangue em diferentes vertebrados, analise as afirmativas.
+I. Nos peixes, a circulação é simples e o coração tem duas câmaras.
+II. Nos anfíbios adultos, o coração tem três câmaras, e o sangue rico e o pobre em oxigênio se misturam parcialmente no ventrículo.
+III. Nas aves e nos mamíferos, o coração tem quatro câmaras, e a circulação é dupla e completa.
+IV. Todos os vertebrados têm coração com quatro câmaras.
+Estão corretas apenas
+o1: I e II.
+o2: II e IV.
+o3: I, II e III.
+o4: I, II, III e IV.
+key: C
+a: I e II estão corretas, mas a III também: aves e mamíferos têm coração de quatro câmaras.
+b: A IV é falsa, pois peixes, anfíbios e a maioria dos répteis têm coração com menos de quatro câmaras.
+c: I, II e III são verdadeiras. A IV é falsa: só aves, mamíferos e crocodilianos têm coração de quatro câmaras.
+d: A IV é falsa, pois peixes têm duas câmaras e anfíbios, três.
+
+@A-C12-06 N3 associação
+sup: <p><b>Coluna I — dispersão de sementes:</b> (1) por animais, que comem frutos carnosos e coloridos e eliminam as sementes; (2) pelo vento; (3) pela água.</p><p><b>Coluna II — exemplos:</b><br>( ) Dente-de-leão, cujas sementes têm plumas leves.<br>( ) Coco, que flutua e é levado pelo mar.<br>( ) Goiaba, fruto carnoso comido por aves e morcegos.</p>
+stem: A associação correta entre as colunas, de cima para baixo, é
+o1: 1, 2, 3.
+o2: 2, 3, 1.
+o3: 3, 1, 2.
+o4: 2, 1, 3.
+key: B
+a: O dente-de-leão não é dispersado por animais; suas plumas são típicas de dispersão pelo vento.
+b: As plumas do dente-de-leão favorecem o vento (2). O coco flutua e é levado pelas águas (3). A goiaba é comida por animais, que dispersam as sementes (1).
+c: O dente-de-leão não é dispersado pela água.
+d: O coco é dispersado pela água, e não por animais, nessa descrição; e a goiaba, por animais.
+
+# ===================== C13 =====================
+
+@A-C13-01 N1
+stem: O aumento da concentração de um gás na atmosfera, em consequência da queima de combustíveis fósseis, intensifica o efeito estufa. Esse gás é o
+o1: oxigênio (O₂).
+o2: nitrogênio (N₂).
+o3: dióxido de carbono (CO₂).
+o4: hélio (He).
+key: C
+a: O oxigênio é essencial à respiração, mas não é o gás liberado em grande quantidade pela queima de combustíveis.
+b: O nitrogênio é o gás mais abundante do ar e não está relacionado ao aumento do efeito estufa.
+c: A queima de combustíveis fósseis (gasolina, diesel, carvão) libera CO₂, que retém calor na atmosfera.
+d: O hélio é um gás nobre e não é liberado nesses processos.
+
+@A-C13-02 N2
+sup: <p>Os clorofluorcarbonetos (CFCs) foram muito usados em aerossóis e geladeiras. Quando chegam à estratosfera, a radiação solar os decompõe, liberando átomos de cloro que reagem com o ozônio.</p>
+stem: A preocupação com os CFCs se deve ao fato de que eles
+o1: aumentam a chuva ácida nas cidades.
+o2: provocam o derretimento das calotas polares por contato direto.
+o3: aumentam a quantidade de oxigênio da atmosfera.
+o4: destroem a camada de ozônio, que filtra parte da radiação ultravioleta do Sol.
+key: D
+a: A chuva ácida está associada ao SO₂ e aos óxidos de nitrogênio, e não aos CFCs.
+b: Os CFCs não atuam por contato direto com o gelo.
+c: A reação de CFCs com ozônio diminui o ozônio, e não aumenta o oxigênio.
+d: A destruição do ozônio estratosférico deixa passar mais radiação UV, que prejudica a saúde e os ecossistemas.
+
+@A-C13-03 N2
+stem: A chuva ácida é causada principalmente pela liberação, por indústrias e veículos, de óxidos de enxofre e de nitrogênio, que reagem com a água da atmosfera. Uma consequência dela é
+o1: a corrosão de monumentos e a acidificação de solos e lagos.
+o2: o aumento da camada de ozônio.
+o3: a diminuição da temperatura média do planeta.
+o4: o aumento da quantidade de gás oxigênio dissolvido nos rios.
+key: A
+a: A água ácida reage com metais e rochas (como o mármore) e altera o pH de solos e lagos, prejudicando os seres vivos.
+b: A chuva ácida não está associada ao ozônio.
+c: A chuva ácida não é a causa do resfriamento do planeta.
+d: A acidificação, em geral, prejudica a vida aquática, e não aumenta o oxigênio dos rios.
+
+@A-C13-04 N2
+sup: <p>Os “3 Rs” da sustentabilidade são: reduzir, reutilizar e reciclar.</p>
+stem: Entre as atitudes abaixo, a que corresponde ao princípio de reduzir é
+o1: separar o lixo para enviá-lo à reciclagem.
+o2: usar de novo um pote de vidro como recipiente de alimentos.
+o3: evitar o desperdício, comprando apenas o que realmente será usado.
+o4: transformar garrafas plásticas em fibra para tecidos.
+key: C
+a: Separar o lixo para reciclagem é reciclar.
+b: Usar de novo o mesmo objeto é reutilizar.
+c: Reduzir é diminuir o consumo e a geração de resíduos, evitando o desperdício.
+d: Transformar garrafas em outro material é reciclar.
+
+@A-C13-05 N2 cálculo
+sup: <table class="qt"><caption>Matriz elétrica de um país (valores ilustrativos, em %)</caption><tr><th>Fonte</th><th>Participação</th></tr><tr><td>Hidrelétrica</td><td>55</td></tr><tr><td>Eólica</td><td>12</td></tr><tr><td>Solar</td><td>8</td></tr><tr><td>Biomassa</td><td>8</td></tr><tr><td>Gás natural</td><td>10</td></tr><tr><td>Carvão</td><td>4</td></tr><tr><td>Nuclear</td><td>3</td></tr></table>
+stem: Considerando as fontes renováveis (hidrelétrica, eólica, solar e biomassa), a participação delas na matriz elétrica desse país é de
+o1: 55%.
+o2: 75%.
+o3: 93%.
+o4: 83%.
+key: D
+a: 55% é só a hidrelétrica, e faltam as outras fontes renováveis.
+b: 75% resulta de esquecer a biomassa (55 + 12 + 8 = 75).
+c: 93% inclui o gás natural (10%), que é combustível fóssil, e não renovável.
+d: Renováveis: 55 + 12 + 8 + 8 = 83%. Gás natural, carvão e nuclear não são renováveis.
+
+# ===================== C10 =====================
+
+@A-C10-01 N1
+sup: <p>Capim → gafanhoto → sapo → cobra</p><p class="src">Cadeia alimentar: a seta indica “é comido por”.</p>
+stem: Nessa cadeia alimentar, o sapo é classificado como
+o1: produtor.
+o2: consumidor primário.
+o3: consumidor secundário.
+o4: decompositor.
+key: C
+a: O produtor é o capim, que faz fotossíntese.
+b: O consumidor primário é o gafanhoto, que se alimenta do produtor.
+c: O sapo se alimenta do gafanhoto (consumidor primário), por isso é consumidor secundário.
+d: Decompositores (fungos e bactérias) não aparecem na cadeia.
+
+@A-C10-02 N2
+sup: <svg viewBox="0 0 320 210" width="330" height="216" role="img" aria-label="Teia alimentar: capim é comido por gafanhoto e rato; gafanhoto é comido por sapo; sapo e rato são comidos por cobra; cobra e rato são comidos por coruja"><defs><marker id="seta" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs><g fill="#eef1ff" stroke="#4351c9"><rect x="125" y="8" width="70" height="22" rx="6"/><rect x="125" y="69" width="70" height="22" rx="6"/><rect x="25" y="69" width="70" height="22" rx="6"/><rect x="225" y="69" width="70" height="22" rx="6"/><rect x="20" y="129" width="80" height="22" rx="6"/><rect x="125" y="181" width="70" height="22" rx="6"/></g><g font-size="11" text-anchor="middle"><text x="160" y="23">Coruja</text><text x="160" y="84">Cobra</text><text x="60" y="84">Sapo</text><text x="260" y="84">Rato</text><text x="60" y="144">Gafanhoto</text><text x="160" y="196">Capim</text></g><g stroke="#555" stroke-width="1.5" marker-end="url(#seta)"><line x1="128" y1="182" x2="90" y2="154"/><line x1="192" y1="182" x2="243" y2="94"/><line x1="60" y1="129" x2="60" y2="94"/><line x1="95" y1="80" x2="122" y2="80"/><line x1="225" y1="80" x2="198" y2="80"/><line x1="160" y1="69" x2="160" y2="33"/><line x1="255" y1="69" x2="195" y2="31"/></g></svg><p class="src">Teia alimentar de um ecossistema. A seta aponta de quem é alimento para quem se alimenta dele.</p>
+stem: Se a população de cobras diminuísse muito por causa de uma doença, a consequência direta mais provável, nessa teia, seria
+o1: o aumento das populações de sapos e de ratos, que perdem um predador.
+o2: o aumento da população de corujas, que passam a ter mais alimento.
+o3: a diminuição das populações de sapos e de ratos, que perdem a proteção das cobras.
+o4: o aumento da população de capim, que passa a ser consumido por menos animais.
+key: A
+a: Sapos e ratos são comidos pelas cobras. Com menos cobras, há menos predação e essas populações tendem a crescer (diretamente).
+b: As corujas comem cobras e ratos; com menos cobras, elas têm menos uma fonte de alimento, e não mais.
+c: Cobras são predadoras, e não protetoras, de sapos e ratos; menos cobras significa menos mortes entre eles.
+d: O capim não é comido por cobras; um efeito sobre ele seria indireto, e mais ratos o comeriam, o que tende a diminuí-lo.
+
+@A-C10-03 N2
+stem: Fungos e bactérias decompositores estão presentes em todos os ecossistemas. A principal função deles é
+o1: produzir matéria orgânica a partir da luz solar, como fazem as plantas.
+o2: servir de alimento exclusivo para os predadores de topo das cadeias.
+o3: impedir a entrada de energia nas cadeias alimentares dos ecossistemas.
+o4: transformar restos de seres vivos em substâncias simples que voltam ao ambiente e podem ser reaproveitadas.
+key: D
+a: Produzir matéria orgânica com luz solar é função dos produtores (plantas, algas), e não dos decompositores.
+b: Não são alimento exclusivo de ninguém.
+c: A energia entra nas cadeias pela fotossíntese; os decompositores não impedem isso.
+d: A decomposição devolve nutrientes ao solo e à água, que as plantas usam novamente: é a reciclagem da matéria.
+
+@A-C10-04 N2 associação
+sup: <p><b>Coluna I:</b><br>1. Líquen: alga e fungo vivem juntos e ambos se beneficiam.<br>2. Carrapato que se alimenta do sangue de um boi.<br>3. Rêmora que se prende a um tubarão e aproveita restos de comida, sem prejudicá-lo.</p><p><b>Coluna II:</b> (A) parasitismo; (B) mutualismo; (C) comensalismo.</p>
+stem: A associação correta entre as colunas é
+o1: 1-B, 2-A, 3-C.
+o2: 1-A, 2-B, 3-C.
+o3: 1-B, 2-C, 3-A.
+o4: 1-C, 2-A, 3-B.
+key: A
+a: Líquen: ambos ganham (mutualismo). Carrapato: um ganha e o outro é prejudicado (parasitismo). Rêmora: um ganha e o outro não é afetado (comensalismo).
+b: O líquen é mutualismo (B), e não parasitismo; o carrapato é parasita (A).
+c: O carrapato é parasita (A), e não comensal; a rêmora é comensal (C).
+d: O líquen é mutualismo, e não comensalismo; a rêmora é comensal, e não mutualista.
+
+@A-C10-05 N2 cálculo
+sup: <p>Em um ecossistema, os produtores armazenam 10 000 kJ de energia. Em cada passagem de um nível trófico para o seguinte, apenas cerca de 10% da energia é transferida; o restante é perdido, principalmente como calor.</p><p class="src">Cadeia: produtores → consumidor primário → consumidor secundário → consumidor terciário.</p>
+stem: A energia disponível para o consumidor terciário é de, aproximadamente,
+o1: 1 000 kJ.
+o2: 100 kJ.
+o3: 1 kJ.
+o4: 10 kJ.
+key: D
+a: 1 000 kJ é o que chega ao consumidor primário, depois da 1ª transferência.
+b: 100 kJ é o que chega ao consumidor secundário, depois da 2ª transferência.
+c: 1 kJ resultaria de considerar mais uma transferência do que a cadeia tem.
+d: 10 000 → 1 000 (primário) → 100 (secundário) → 10 kJ (terciário), com 10% em cada passagem.
+
+@A-C10-06 N3
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Gráfico das populações de lebres (azul) e de linces (vermelho) ao longo de 8 anos; os linces aumentam logo depois das lebres"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">0</text><line x1="59.8" y1="14" x2="59.8" y2="162" stroke="#e3e5f0"/><text x="59.8" y="174" font-size="9" text-anchor="middle">1</text><line x1="85.5" y1="14" x2="85.5" y2="162" stroke="#e3e5f0"/><text x="85.5" y="174" font-size="9" text-anchor="middle">2</text><line x1="111.2" y1="14" x2="111.2" y2="162" stroke="#e3e5f0"/><text x="111.2" y="174" font-size="9" text-anchor="middle">3</text><line x1="137.0" y1="14" x2="137.0" y2="162" stroke="#e3e5f0"/><text x="137.0" y="174" font-size="9" text-anchor="middle">4</text><line x1="162.8" y1="14" x2="162.8" y2="162" stroke="#e3e5f0"/><text x="162.8" y="174" font-size="9" text-anchor="middle">5</text><line x1="188.5" y1="14" x2="188.5" y2="162" stroke="#e3e5f0"/><text x="188.5" y="174" font-size="9" text-anchor="middle">6</text><line x1="214.2" y1="14" x2="214.2" y2="162" stroke="#e3e5f0"/><text x="214.2" y="174" font-size="9" text-anchor="middle">7</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">8</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">0</text><line x1="34" y1="125.0" x2="240" y2="125.0" stroke="#e3e5f0"/><text x="29" y="128.0" font-size="9" text-anchor="end">20</text><line x1="34" y1="88.0" x2="240" y2="88.0" stroke="#e3e5f0"/><text x="29" y="91.0" font-size="9" text-anchor="end">40</text><line x1="34" y1="51.0" x2="240" y2="51.0" stroke="#e3e5f0"/><text x="29" y="54.0" font-size="9" text-anchor="end">60</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">80</text><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#555"/><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="34.0,88.0 59.8,32.5 85.5,69.5 111.2,125.0 137.0,88.0 162.8,32.5 188.5,69.5 214.2,125.0 240.0,88.0"/><circle cx="34.0" cy="88.0" r="3" fill="#4351c9"/><circle cx="59.8" cy="32.5" r="3" fill="#4351c9"/><circle cx="85.5" cy="69.5" r="3" fill="#4351c9"/><circle cx="111.2" cy="125.0" r="3" fill="#4351c9"/><circle cx="137.0" cy="88.0" r="3" fill="#4351c9"/><circle cx="162.8" cy="32.5" r="3" fill="#4351c9"/><circle cx="188.5" cy="69.5" r="3" fill="#4351c9"/><circle cx="214.2" cy="125.0" r="3" fill="#4351c9"/><circle cx="240.0" cy="88.0" r="3" fill="#4351c9"/><polyline fill="none" stroke="#c0392b" stroke-width="2" points="34.0,143.5 59.8,134.2 85.5,106.5 111.2,115.8 137.0,143.5 162.8,134.2 188.5,106.5 214.2,115.8 240.0,143.5"/><circle cx="34.0" cy="143.5" r="3" fill="#c0392b"/><circle cx="59.8" cy="134.2" r="3" fill="#c0392b"/><circle cx="85.5" cy="106.5" r="3" fill="#c0392b"/><circle cx="111.2" cy="115.8" r="3" fill="#c0392b"/><circle cx="137.0" cy="143.5" r="3" fill="#c0392b"/><circle cx="162.8" cy="134.2" r="3" fill="#c0392b"/><circle cx="188.5" cy="106.5" r="3" fill="#c0392b"/><circle cx="214.2" cy="115.8" r="3" fill="#c0392b"/><circle cx="240.0" cy="143.5" r="3" fill="#c0392b"/><text x="240" y="188" font-size="9" text-anchor="end">Tempo (anos)</text><text x="2" y="9" font-size="9">Nº de indivíduos</text></svg><p class="src">Azul: lebres. Vermelho: linces. Dados ilustrativos de uma relação presa-predador.</p>
+stem: A análise do gráfico permite concluir que
+o1: as duas populações crescem e diminuem exatamente ao mesmo tempo, sem defasagem.
+o2: o aumento da população de linces ocorre logo depois do aumento da população de lebres, e a queda das lebres é seguida pela queda dos linces.
+o3: a população de linces é sempre maior que a de lebres em todos os anos.
+o4: a população de lebres cresce continuamente, independentemente do número de linces.
+key: B
+a: Os picos não coincidem: a de lebres chega ao máximo no ano 1 e a de linces, no ano 2.
+b: Com mais lebres (alimento), os linces se reproduzem e aumentam; depois, mais predadores reduzem as lebres, e a falta de alimento faz os linces diminuírem. Os ciclos acompanham-se com atraso.
+c: A população de linces (10 a 30) é sempre menor que a de lebres (20 a 70).
+d: A população de lebres oscila (sobe e desce); não cresce de forma contínua.
+
+@A-C10-07 N3 cálculo
+sup: <table class="qt"><caption>Concentração de um inseticida persistente em organismos de uma cadeia alimentar em um lago (valores ilustrativos, em ppm)</caption><tr><th>Organismo</th><th>Concentração</th></tr><tr><td>Plâncton</td><td>0,04</td></tr><tr><td>Peixe pequeno</td><td>0,5</td></tr><tr><td>Peixe grande</td><td>2</td></tr><tr><td>Ave que se alimenta de peixes</td><td>25</td></tr></table>
+stem: A concentração do inseticida na ave é, em relação à do plâncton, aproximadamente
+o1: 625 vezes maior.
+o2: 25 vezes maior.
+o3: 100 vezes maior.
+o4: 1 000 vezes maior.
+key: A
+a: 25 ÷ 0,04 = 625. O inseticida, que não é degradado, se acumula ao longo da cadeia (bioacumulação).
+b: 25 é o valor da concentração na ave, e não a razão entre ela e a do plâncton.
+c: 100 não corresponde a 25 ÷ 0,04.
+d: 1 000 vezes não corresponde à razão entre os valores da tabela.
+
+@A-C10-08 N3
+sup: <p>Um caramujo originário da África foi trazido para uma região onde não há predadores naturais que se alimentem dele. Sua população cresceu muito, e ele passou a consumir plantações e plantas nativas e a competir com caramujos nativos.</p><p class="src">Texto autoral para estudo.</p>
+stem: O problema descrito é um exemplo de
+o1: espécie exótica invasora, que se multiplica sem controle natural e prejudica espécies nativas.
+o2: mutualismo, pois as duas espécies de caramujo se beneficiam.
+o3: decomposição, pois o caramujo recicla os nutrientes das plantas.
+o4: equilíbrio ecológico, pois a introdução da espécie aumentou a biodiversidade.
+key: A
+a: Espécie introduzida fora de sua área de origem, sem predadores ou doenças que a controlem, tende a crescer demais. É a invasão biológica.
+b: As espécies competem; nenhuma se beneficia, e por isso não é mutualismo.
+c: O caramujo é consumidor, e não decompositor; ele se alimenta das plantas vivas.
+d: A introdução causou desequilíbrio e ameaça a biodiversidade nativa.

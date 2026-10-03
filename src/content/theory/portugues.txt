@@ -1,0 +1,186 @@
+@PT04
+resumo: Reconhecer o efeito de sentido das figuras (comparação, metáfora, ironia, antítese, personificação, hipérbole, eufemismo, gradação…).
+
+## O que a banca cobra
+Nunca pede só "o nome da figura": mostra um trecho (poema, conto, anúncio, tirinha) e pergunta **qual efeito** a figura produz ou **o que ela revela** do narrador ou do eu lírico. Já apareceu em quase toda prova.
+
+## As figuras que mais caem
+- **Comparação**: liga dois elementos com conectivo (_como_, _tal qual_, _parece_): "Ela é forte como uma rocha."
+- **Metáfora**: identifica sem conectivo: "Ela é uma rocha." (a comparação "escondida")
+- **Personificação (prosopopeia)**: atribui ações humanas a seres não humanos: "O vento sussurrava segredos."
+- **Antítese**: palavras de sentido oposto lado a lado: "Era o riso e o choro, a festa e o luto."
+- **Hipérbole**: exagero expressivo: "Morri de rir."
+- **Eufemismo**: suaviza algo desagradável: "Ele nos deixou" (= morreu).
+- **Ironia**: diz o contrário do que pensa, para criticar: "Que bela ideia, deixar tudo para a véspera!"
+- **Gradação**: sequência em ordem crescente ou decrescente: "Chegou, viu, conquistou."
+- **Repetição / anáfora**: repete palavras para dar ênfase ou ritmo.
+- **Metonímia**: troca uma palavra por outra relacionada: "Li Machado de Assis" (= a obra).
+
+## Como resolver
+1. Leia o trecho **inteiro** e diga com as suas palavras o que o autor quer dizer.
+2. Identifique a figura e pergunte: _por que ele usou isso em vez de dizer direto?_
+3. A alternativa certa fala do **efeito** (ênfase, crítica, suavização, humor, beleza), não só do nome.
+
+> Comparação tem conectivo (_como_); metáfora não. Hipérbole exagera; ironia **inverte** o sentido. Se a alternativa nomeia a figura certa mas atribui um efeito que o texto não tem, está errada.
+
+@PT08
+resumo: Identificar o gênero, a finalidade, a tese e as estratégias argumentativas de um texto (notícia, artigo, charge, lei, anúncio…).
+
+## O que a banca cobra
+Mostra um texto curto de gênero variado e pergunta: **qual é o objetivo**, **qual é a tese**, **que estratégia o autor usa** (exemplo, dado, citação, comparação, pergunta retórica) ou **qual NÃO foi usada**. É um dos tópicos mais frequentes.
+
+## Gêneros e finalidade
+| Gênero | Para que serve | Marcas |
+|---|---|---|
+| Notícia | Informar fatos | 3ª pessoa, fatos, data/local, tom neutro |
+| Reportagem | Aprofundar um tema | Dados, entrevistas, vários pontos de vista |
+| Artigo de opinião | Defender uma ideia | Tese, argumentos, 1ª pessoa possível |
+| Crônica | Refletir sobre o cotidiano | Tom pessoal, humor, ironia |
+| Charge | Criticar um fato atual | Humor, exagero, relação com a atualidade |
+| Texto de lei / regulamento | Orientar condutas | Verbos de ordem, "é dever", "é proibido" (injuntivo) |
+| Propaganda | Convencer a comprar/aderir | Apelo, imperativo, slogan |
+
+## Estratégias argumentativas
+- **Exemplificação**: um caso concreto para provar a ideia.
+- **Argumento de autoridade**: citar especialista ou instituição.
+- **Dados e estatísticas**: números de pesquisa.
+- **Comparação / analogia**.
+- **Pergunta retórica**: pergunta que não espera resposta, só chama a reflexão.
+- **Alusão histórica**: lembrar um fato do passado.
+
+## Como resolver
+1. Descubra a **tese** (a ideia que o autor defende).
+2. Veja **como** ele a sustenta (a estratégia).
+3. Na pergunta "NÃO", marque cada estratégia no texto; a que você não achar é a resposta.
+
+> Cuidado com a "extrapolação": alternativa que diz mais do que o texto diz está errada. Notícia informa; artigo de opinião defende.
+
+@PT09
+resumo: O Alienista (Machado de Assis): enredo, personagens, ironia, narrador e crítica social. A prova pede análise de trecho, não "decoreba".
+
+## O que a banca cobra
+Em todos os anos, a prova entrega **trechos da obra do ano** e pergunta _como o texto é escrito_ (ironia, narrador, conectivos, modalizadores, figuras) e _o que ele critica_. Para 2027 a obra é **O Alienista**, de Machado de Assis. Leia o conto **inteiro, duas vezes**.
+
+## Ficha rápida
+- **Autor:** Machado de Assis (Realismo). Publicado em folhetim em 1881–1882 e reunido em _Papéis Avulsos_ (1882).
+- **Local:** vila de **Itaguaí** (interior do Rio de Janeiro); a **Casa Verde** é o manicômio.
+- **Narrador:** 3ª pessoa, onisciente e irônico; finge relatar o que dizem "as crônicas" e "os cronistas".
+- **Personagens:** **Simão Bacamarte** (o alienista), **D. Evarista** (esposa), **Crispim Soares** (boticário, oportunista), **Porfírio ("Canjica")** (barbeiro que lidera a revolta), a **Câmara** e a população.
+- **Enredo em 5 passos:** (1) Bacamarte funda a Casa Verde; (2) começa a internar "loucos" e amplia o conceito de loucura; (3) a vila vive o terror e se rebela (Revolta dos Canjicas, "Bastilha da razão humana"); (4) ele inverte a teoria: passa a tratar os "equilibrados" como doentes; (5) conclui que o único com equilíbrio perfeito é ele mesmo e interna-se na Casa Verde, onde morre.
+
+## Ideias para a prova
+- **Crítica à ciência dogmática**: o médico confia só na própria teoria e não admite erro.
+- **Quem define a loucura?** A fronteira entre razão e loucura é arbitrária.
+- **Poder e política**: vereadores, oportunistas, revolta popular.
+- **Ironia**: elogio que vira crítica, "falsa seriedade histórica".
+
+> Em questão de obra, volte sempre ao **trecho**: a resposta está em como o texto está escrito, não no que você lembra do resumo.
+
+@PT05
+resumo: Comparar dois textos (ou um texto e uma imagem): o que têm em comum, no que divergem e que diálogo mantêm.
+
+## O que a banca cobra
+Dois textos, às vezes de épocas e gêneros diferentes (um trecho de conto e um poema; uma notícia e um fragmento literário). Pergunta: **qual é a relação entre eles**, **qual ideia compartilham**, **em que divergem** ou **como um retoma o outro** (citação, paródia, alusão, paráfrase).
+
+## Tipos de relação
+- **Citação**: traz a fala de outro texto, com aspas.
+- **Alusão**: faz referência indireta a outro texto, personagem ou fato.
+- **Paráfrase**: diz de novo, com outras palavras, o mesmo sentido.
+- **Paródia**: imita o original para criticar ou fazer humor (muda o sentido).
+- **Contraste**: os dois tratam do mesmo tema com visões opostas.
+
+## Como resolver
+1. Resuma cada texto em **uma frase** (tema + ponto de vista).
+2. Compare: _mesmo tema? mesma posição? mesmo tom?_
+3. A alternativa certa descreve a relação **sem inventar** nada que um dos textos não diga.
+
+> Se a alternativa afirma que um texto "critica", "elogia" ou "defende" algo, confira nas **palavras do texto** se há mesmo essa posição. Semelhança de tema não é igual a mesma opinião.
+
+@PT02
+resumo: Coesão: conectivos e referências que ligam as partes do texto; saber a relação que o conectivo expressa e a que palavra um pronome se refere.
+
+## O que a banca cobra
+Pergunta qual **relação** (causa, oposição, conclusão, finalidade, tempo, condição, concessão) um conectivo estabelece, ou **a que termo** um pronome ou expressão se refere. Costuma citar uma frase do texto e pedir para trocar o conectivo sem mudar o sentido.
+
+## Conectivos por relação
+| Relação | Exemplos |
+|---|---|
+| Oposição | mas, porém, contudo, todavia, entretanto, no entanto |
+| Causa/explicação | porque, pois, já que, uma vez que, visto que |
+| Conclusão/consequência | portanto, logo, assim, por isso, de modo que |
+| Finalidade | para, a fim de, de modo a |
+| Concessão | embora, ainda que, apesar de, mesmo que |
+| Condição | se, caso, desde que, a menos que |
+| Tempo | quando, enquanto, assim que, antes que |
+| Adição | e, além disso, também |
+
+## Referência
+Pronomes (ele, isso, este, o qual, cujo) e expressões ("a medida", "esse fato") **retomam** algo já dito. Pergunte: _o que, exatamente, foi dito antes?_
+
+## Como resolver
+1. Reescreva a frase com cada conectivo das alternativas e veja se o **sentido** se mantém.
+2. Em "a que se refere", troque o pronome pelo termo que você acha e leia de novo.
+
+> "Pois" pode explicar (= porque) ou concluir (= portanto, no meio da frase, entre vírgulas). "Como" pode ser comparação, causa ou conformidade. Olhe o contexto, não só a palavra.
+
+@PT03
+resumo: Perceber a opinião do autor pelas palavras: adjetivos, advérbios, verbos de opinião e modalizadores (talvez, certamente, infelizmente).
+
+## O que a banca cobra
+Pede para identificar **a posição** do autor ou o **grau de certeza** dele a partir de palavras como _infelizmente_, _talvez_, _sem dúvida_, _parece que_, _dizem_. Também pergunta o efeito de um adjetivo ou verbo escolhido.
+
+## Modalizadores
+- **Certeza**: certamente, sem dúvida, evidentemente, é claro que.
+- **Dúvida/possibilidade**: talvez, provavelmente, possivelmente, parece que, pode ser.
+- **Avaliação (opinião)**: infelizmente, felizmente, absurdamente, lamentavelmente.
+- **Distanciamento**: "dizem que", "supostamente", "segundo fulano" (o autor não assume o que diz).
+
+## Como resolver
+1. Sublinhe adjetivos, advérbios e verbos que **julgam** (e não só descrevem).
+2. Pergunte: _o autor assume o que diz ou se afasta?_
+3. Troque a palavra por outra neutra e veja o que muda: a diferença é a **opinião**.
+
+> "Suposto", "pretenso", "dito" e "dizem" mostram que o autor **não** se compromete com a afirmação. "Sugerir" é menos forte que "comprovar".
+
+@PT06
+resumo: Narrador (1ª ou 3ª pessoa, onisciente ou observador) e discurso (direto, indireto, indireto livre).
+
+## O que a banca cobra
+Pergunta **quem conta** a história e **como** as falas aparecem. Já apareceu em quase toda prova com texto literário.
+
+## Foco narrativo
+- **1ª pessoa**: narrador-personagem ("eu vi", "fui"). Conhece só o que viveu.
+- **3ª pessoa onisciente**: de fora, sabe o que todos pensam.
+- **3ª pessoa observador**: só descreve o que se vê e ouve.
+
+## Tipos de discurso
+- **Direto**: reproduz a fala (travessão ou aspas): — Vou embora, disse ele.
+- **Indireto**: o narrador conta a fala: Ele disse que ia embora.
+- **Indireto livre**: mistura a voz do narrador com o pensamento do personagem, sem marcas: "Ele olhou a conta. Como pagar aquilo?"
+
+## Como resolver
+1. Veja o **verbo** e o **pronome**: "eu/nós" = 1ª pessoa; "ele/ela" = 3ª.
+2. Se o narrador comenta, julga e entra na mente dos personagens, é **onisciente**.
+
+> No indireto livre não há "disse que" nem travessão: o pensamento do personagem aparece no meio da narração.
+
+@PT07
+resumo: Variação linguística (regional, social, de época, de situação) e norma culta: adequar a linguagem à situação.
+
+## O que a banca cobra
+Mostra um texto com gíria, regionalismo ou linguagem antiga e pergunta o que isso revela (o **perfil** do falante, a **situação**, a **época**) ou se a linguagem é **adequada** ao contexto. Não existe "certo e errado" absoluto: existe **adequado** e **inadequado**.
+
+## Tipos de variação
+- **Regional (diatópica)**: sotaques e palavras de cada região (_mandioca/macaxeira_).
+- **Social (diastrática)**: grupo social, escolaridade, idade, profissão (gírias, jargão).
+- **Histórica (diacrônica)**: mudanças ao longo do tempo (_vossa mercê → você_).
+- **De situação (diafásica)**: formal ou informal, falada ou escrita.
+
+## Norma culta
+Variedade usada em situações formais (textos oficiais, provas, trabalhos). Respeita concordância, regência e ortografia. O texto literário pode usar a fala de um personagem para **caracterizá-lo**.
+
+## Como resolver
+1. Pergunte: _quem fala? para quem? onde?_
+2. A linguagem escolhida **combina** com esse perfil? Esse casamento é o efeito de sentido.
+
+> Escolher a variante informal não é "erro": pode ser uma escolha para aproximar o leitor ou caracterizar o personagem. Evite alternativas que chamam uma variante de "errada" ou "pobre".

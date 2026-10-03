@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <%- include('../partials/head', { title: 'Painel do Administrador' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { role, active: 'overview' }) %>
+  <div class="container">
+
+    <div class="grid grid-3">
+      <div class="card center">
+        <div class="muted small">Dias até a prova</div>
+        <div style="font-size:2rem; font-weight:700;"><%= countdown ? countdown.daysLeft : '—' %></div>
+      </div>
+      <div class="card center">
+        <div class="muted small">Questões respondidas</div>
+        <div style="font-size:2rem; font-weight:700;"><%= totalAttempts %></div>
+      </div>
+      <div class="card center">
+        <div class="muted small">Aproveitamento geral</div>
+        <div style="font-size:2rem; font-weight:700;"><%= totalAttempts ? Math.round((totalCorrect/totalAttempts)*100) : 0 %>%</div>
+      </div>
+    </div>
+
+    <div class="card" style="background: linear-gradient(135deg, #24242e, #3a3a4a); color:#fff; border:none;">
+      <h2 style="color:#fff; margin-top:0;">⏳ Tempo de estudo (só você vê isso)</h2>
+      <div class="grid grid-2">
+        <div>
+          <div class="small" style="opacity:0.8;">Total desde o início</div>
+          <div style="font-size:1.8rem; font-weight:700;"><%= studyTime.total %></div>
+        </div>
+        <div>
+          <div class="small" style="opacity:0.8;">Últimos 7 dias</div>
+          <div style="font-size:1.8rem; font-weight:700;"><%= studyTime.last7Days %></div>
+        </div>
+      </div>
+      <p class="small" style="opacity:0.8; margin-bottom:0;">Soma o tempo gasto respondendo exercícios de prática e a duração dos simulados finalizados.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Simulados</h2>
+      <% if (ongoingSimulado) { %>
+        <p class="muted small">Simulado em andamento desde <%= ongoingSimulado.started_at %>.</p>
+      <% } %>
+      <% if (simuladoHistory.length === 0) { %>
+        <p class="muted">Nenhum simulado finalizado ainda.</p>
+      <% } else { %>
+        <% simuladoHistory.forEach(function(h) { %>
+          <div class="theme-row">
+            <div>
+              <strong><%= h.started_at.slice(0,10).split('-').reverse().join('/') %></strong>
+              <div class="muted small"><%= h.correct_count %>/<%= h.total_questions %> (<%= Math.round((h.correct_count/h.total_questions)*100) %>%)</div>
+            </div>
+            <a class="btn btn-sm btn-outline" href="/rayane/simulado/<%= h.id %>/resultado">Ver resultado</a>
+          </div>
+        <% }) %>
+      <% } %>
+    </div>
+
+    <% if (stalledHighPriority.length > 0) { %>
+      <div class="card" style="border-color: var(--orange);">
+        <h2 class="mt-0">⚠️ Alertas — temas prioritários parados</h2>
+        <p class="muted small" style="margin-top:-8px;">Temas de alta prioridade sem nenhuma tentativa nos últimos 7 dias (ou nunca praticados).</p>
+        <div class="table-scroll">
+        <table class="simple">
+          <thead><tr><th>Matéria</th><th>Tema</th><th>Última tentativa</th></tr></thead>
+          <tbody>
+            <% stalledHighPriority.forEach(function(r) { %>
+              <tr>
+                <td><%= r.subject_name %></td>
+                <td><%= r.theme_name %></td>
+                <td><%= r.last_attempt ? r.last_attempt : 'nunca praticado' %></td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    <% } %>
+
+    <div class="card">
+      <h2 class="mt-0">Aderência ao cronograma (últimos 7 dias)</h2>
+      <% if (adherence.length === 0) { %>
+        <p class="muted">Sem blocos de cronograma no período.</p>
+      <% } else { %>
+        <div class="grid grid-3">
+          <% adherence.forEach(function(a) { %>
+            <div class="card center" style="margin-bottom:0;">
+              <div class="muted small"><%= a.status %></div>
+              <div style="font-size:1.5rem; font-weight:700;"><%= a.c %></div>
+            </div>
+          <% }) %>
+        </div>
+      <% } %>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Atividade recente (últimos 7 dias)</h2>
+      <% if (last7.length === 0) { %>
+        <p class="muted">Sem tentativas registradas na última semana.</p>
+      <% } else { %>
+        <div class="table-scroll">
+        <table class="simple">
+          <thead><tr><th>Dia</th><th>Questões</th><th>Acertos</th><th>Aproveitamento</th></tr></thead>
+          <tbody>
+            <% last7.forEach(function(d) { %>
+              <tr>
+                <td><%= d.day.split('-').reverse().join('/') %></td>
+                <td><%= d.total %></td>
+                <td><%= d.acertos %></td>
+                <td><%= Math.round((d.acertos/d.total)*100) %>%</td>
+              </tr>
+            <% }) %>
+          </tbody>
+        </table>
+        </div>
+      <% } %>
+    </div>
+
+    <div class="card">
+      <h2 class="mt-0">Mapa de domínio por matéria</h2>
+      <div class="grid grid-2">
+        <% progressBySubject.forEach(function(item) { %>
+          <a class="subject-pill" href="/admin/materia/<%= item.subject.slug %>">
+            <strong><%= item.subject.name %></strong>
+            <div class="weight"><%= item.subject.weight_percent %>% da prova · <%= item.progress.mastered %>/<%= item.progress.totalThemes %> dominados</div>
+            <div class="progress-bar" style="margin-top:8px;">
+              <div style="width: <%= item.progress.totalThemes ? Math.round((item.progress.mastered/item.progress.totalThemes)*100) : 0 %>%;"></div>
+            </div>
+          </a>
+        <% }) %>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

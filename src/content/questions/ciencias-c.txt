@@ -1,0 +1,422 @@
+# Ciências — C08 (óptica e som), C07 (mecânica), C06 (eletricidade), C11 (corpo humano e saúde)
+
+# ===================== C08 =====================
+
+@A-C08-01 N1
+sup: <p>Em muitos filmes de ficção científica, uma nave explode no espaço e o som da explosão é ouvido pelos tripulantes de outra nave que passa por perto, no vácuo.</p>
+stem: Do ponto de vista da Física, essa cena não é realista porque
+o1: o som é uma onda mecânica e precisa de um meio material para se propagar.
+o2: o som se propaga apenas na água e nos sólidos.
+o3: a luz da explosão anularia o som.
+o4: o som viaja mais rápido que a luz e chegaria antes da explosão.
+key: A
+a: O som é uma onda mecânica, isto é, depende das vibrações das partículas de um meio (ar, água, sólido). No vácuo não há partículas para vibrar.
+b: O som também se propaga nos gases, como o ar; ele não se limita à água e aos sólidos.
+c: Luz e som são ondas de natureza diferente e não se anulam.
+d: A luz é muito mais veloz que o som (cerca de 300 mil km/s contra 340 m/s no ar); por isso vemos o clarão antes de ouvir o estrondo.
+
+@A-C08-02 N1 cálculo
+stem: Durante uma tempestade, uma pessoa vê um relâmpago e, 3 segundos depois, ouve o trovão. Considerando a velocidade do som no ar igual a 340 m/s e desprezando o tempo que a luz leva para chegar, a distância aproximada entre a pessoa e o local do raio é de
+o1: 113 m.
+o2: 340 m.
+o3: 1.020 m.
+o4: 10.200 m.
+key: C
+a: 113 m resulta de dividir 340 por 3, quando o correto é multiplicar velocidade por tempo.
+b: 340 m é a distância percorrida pelo som em apenas 1 segundo.
+c: d = v · t = 340 · 3 = 1.020 m.
+d: 10.200 m seria a distância para um intervalo de 30 s, e não de 3 s.
+
+@A-C08-03 N1
+stem: Um som agudo, como o de um apito, se diferencia de um som grave, como o de um tambor, principalmente por ter maior
+o1: intensidade (volume).
+o2: velocidade de propagação no ar.
+o3: timbre.
+o4: frequência.
+key: D
+a: A intensidade está ligada ao volume (som forte ou fraco), e não a ser agudo ou grave.
+b: Todos os sons se propagam com praticamente a mesma velocidade no ar, qualquer que seja a altura.
+c: O timbre é a característica que permite diferenciar duas fontes que emitem a mesma nota, e não distingue grave de agudo.
+d: A altura do som (agudo ou grave) depende da frequência: quanto maior a frequência, mais agudo é o som.
+
+@A-C08-04 N2
+sup: <p>Uma criança com miopia não enxerga bem objetos distantes. Nos olhos míopes, a imagem de um objeto distante se forma antes da retina.</p>
+stem: Para corrigir esse problema, o oftalmologista deve indicar óculos com lentes
+o1: convergentes, que aproximam ainda mais a imagem do cristalino.
+o2: divergentes, que afastam a imagem e a fazem se formar sobre a retina.
+o3: planas, que não alteram a direção dos raios de luz.
+o4: coloridas, que filtram a luz de maior comprimento de onda.
+key: B
+a: Lentes convergentes aproximam a imagem do cristalino e pioram a miopia; elas são usadas na hipermetropia.
+b: Como a imagem se forma antes da retina, é preciso uma lente divergente, que espalha um pouco os raios e “empurra” a imagem para trás, até a retina.
+c: Uma lente plana não desvia os raios e, portanto, não corrige o defeito.
+d: A cor da lente não altera o ponto onde a imagem se forma; ela apenas filtra parte da luz.
+
+@A-C08-05 N2 cálculo
+stem: Uma pessoa está parada a 2 m de um espelho plano. A imagem dessa pessoa, formada pelo espelho, está a que distância dela, e o que acontece com essa distância se a pessoa se afastar 1 m do espelho?
+o1: 2 m; a distância aumenta 1 m.
+o2: 4 m; a distância aumenta 1 m.
+o3: 4 m; a distância aumenta 2 m.
+o4: 2 m; a distância aumenta 2 m.
+key: C
+a: A imagem de um espelho plano fica atrás do espelho, à mesma distância do objeto. Logo a distância entre pessoa e imagem é o dobro: 4 m, e não 2 m.
+b: A distância é 4 m, mas ela aumenta 2 m (1 m da pessoa e 1 m da imagem), e não apenas 1 m.
+c: A imagem fica a 2 m atrás do espelho: 2 + 2 = 4 m. Ao se afastar 1 m, a pessoa fica a 3 m e a imagem também; a distância entre elas vira 6 m, ou seja, aumenta 2 m.
+d: Ignora que a imagem fica atrás do espelho; a distância entre pessoa e imagem é 4 m, e não 2 m.
+
+@A-C08-06 N2
+sup: <p>Em uma sala escura, uma camiseta vermelha é iluminada somente por uma lâmpada que emite luz verde. A camiseta é feita de um tecido que reflete apenas a luz vermelha e absorve as demais cores.</p>
+stem: Nessa situação, a camiseta será vista com a cor
+o1: vermelha, pois é a sua cor própria, independentemente da luz que a ilumina.
+o2: verde, pois é a cor da luz que a ilumina e o tecido a reflete.
+o3: amarela, pela mistura de vermelho e verde, que se somam nos olhos.
+o4: preta, pois absorve a luz verde e não há luz vermelha para ser refletida.
+key: D
+a: A cor vista depende da luz que chega e é refletida. Sem luz vermelha na iluminação, nada vermelho pode ser refletido.
+b: O tecido absorve a luz verde, e não a reflete; por isso não aparece verde.
+c: Não há luz vermelha na lâmpada; sem ela, não ocorre mistura de cores.
+d: A luz verde é absorvida pelo tecido e não existe luz vermelha para refletir; nenhuma luz chega aos olhos, e a camiseta parece preta.
+
+@A-C08-07 N2 cálculo
+stem: Os morcegos se orientam emitindo sons e captando o eco. Um morcego emite um som e recebe o eco de um obstáculo 0,1 s depois. Considerando a velocidade do som no ar igual a 340 m/s, a distância entre o morcego e o obstáculo é de
+o1: 34 m.
+o2: 3,4 m.
+o3: 17 m.
+o4: 68 m.
+key: C
+a: 34 m é a distância total de ida e volta do som (340 · 0,1), e não a distância até o obstáculo.
+b: 3,4 m resulta de erro de casas decimais ao multiplicar 340 por 0,01.
+c: O som vai até o obstáculo e volta: percorre 340 · 0,1 = 34 m no total. A distância até o obstáculo é a metade: 17 m.
+d: 68 m dobraria a distância total, o que equivale a contar duas vezes a volta.
+
+@A-C08-08 N2
+sup: <p>Ao colocar um lápis dentro de um copo transparente com água, vemos o lápis aparentemente “quebrado” na altura da superfície da água.</p>
+stem: Esse efeito acontece devido ao fenômeno da
+o1: refração da luz, pois a velocidade da luz muda ao passar da água para o ar.
+o2: reflexão total da luz na superfície do lápis, que o torna parcialmente visível.
+o3: difração da luz nas bordas do copo, que desvia os raios.
+o4: absorção da luz pelo vidro do copo, que escurece parte do lápis.
+key: A
+a: Ao passar de um meio para outro, a luz muda de velocidade e de direção. Isso é a refração; por causa dela, a parte do lápis na água parece deslocada.
+b: Na reflexão total, a luz volta ao meio de origem; não é isso que desloca a imagem do lápis.
+c: A difração é o contorno de obstáculos por uma onda e não explica o lápis “quebrado”.
+d: A absorção reduz a quantidade de luz, mas não altera a direção dos raios.
+
+@A-C08-09 N3
+sup: <svg viewBox="0 0 250 160" width="250" height="160" role="img" aria-label="Espelho plano horizontal. Um raio de luz incide no espelho formando 60 graus com a superfície e é refletido. A reta normal ao espelho é tracejada."><line x1="20" y1="130" x2="230" y2="130" stroke="#333" stroke-width="3"/><line x1="125" y1="130" x2="125" y2="25" stroke="#888" stroke-dasharray="4 3"/><text x="129" y="30" font-size="9">normal</text><line x1="75" y1="43.4" x2="125" y2="130" stroke="#c0392b" stroke-width="2"/><polygon points="103,92 95.5,87.1 102.5,83.1" fill="#c0392b"/><line x1="125" y1="130" x2="175" y2="43.4" stroke="#c0392b" stroke-width="2"/><polygon points="152,83.2 151.5,92.1 144.5,88.1" fill="#c0392b"/><path d="M100 130 A25 25 0 0 1 112.5 108.35" fill="none" stroke="#333"/><text x="86" y="118" font-size="10">60°</text><text x="72" y="38" font-size="9" text-anchor="end">raio incidente</text><text x="180" y="46" font-size="9">raio refletido</text><text x="125" y="146" font-size="9" text-anchor="middle">espelho</text></svg>
+stem: Um raio de luz incide em um espelho plano formando 60° com a superfície do espelho, como mostra a figura. O ângulo de reflexão (medido em relação à normal) e o ângulo formado entre o raio incidente e o raio refletido valem, respectivamente,
+o1: 60° e 120°.
+o2: 30° e 30°.
+o3: 30° e 60°.
+o4: 60° e 60°.
+key: C
+a: Usa o ângulo com a superfície (60°) como se fosse o ângulo de incidência. A lei da reflexão usa o ângulo com a normal.
+b: O ângulo de reflexão é 30°, mas o ângulo entre os raios é a soma dos ângulos de incidência e de reflexão: 60°, e não 30°.
+c: O ângulo de incidência é medido em relação à normal: 90° − 60° = 30°. Pela lei da reflexão, o ângulo de reflexão também é 30°. O ângulo entre os raios é 30° + 30° = 60°.
+d: Confunde o ângulo com a superfície (60°) com o ângulo de reflexão; este vale 30°.
+
+@A-C08-10 N3
+sup: <table class="qt"><caption>Velocidade do som em diferentes meios (valores aproximados)</caption><tr><th>Meio</th><th>Velocidade (m/s)</th></tr><tr><td>Ar</td><td>340</td></tr><tr><td>Água</td><td>1.500</td></tr><tr><td>Aço</td><td>5.000</td></tr></table>
+stem: Uma onda sonora de frequência 500 Hz propaga-se no ar e depois entra na água. Usando v = λ · f, a frequência e o comprimento de onda dessa onda na água são, respectivamente,
+o1: 500 Hz e 3 m.
+o2: 1.500 Hz e 0,68 m.
+o3: 500 Hz e 0,23 m.
+o4: 2.206 Hz e 0,68 m.
+key: A
+a: A frequência é determinada pela fonte e não muda na passagem entre meios. No ar, λ = 340/500 = 0,68 m. Na água, λ = 1.500/500 = 3 m.
+b: Confunde a velocidade na água com a frequência; a frequência continua sendo 500 Hz.
+c: Inverte a razão entre as velocidades (340/1.500). Como a velocidade aumenta na água, o comprimento de onda também aumenta.
+d: Supõe que o comprimento de onda não muda; na verdade a frequência é que permanece constante, e o comprimento de onda varia com a velocidade.
+
+# ===================== C07 =====================
+
+@A-C07-01 N1
+sup: <p>Um remador empurra a água para trás com o remo, e o barco se move para a frente.</p>
+stem: Esse movimento é explicado
+o1: pela lei da inércia, pois o barco tende a manter o estado de repouso.
+o2: pela lei da ação e reação: o remo empurra a água para trás e a água empurra o barco para a frente.
+o3: pela lei da gravitação, pois a água atrai o barco para a frente.
+o4: pelo princípio da conservação da massa, pois a água deslocada se conserva.
+key: B
+a: A inércia explica a tendência de manter o estado de movimento, mas não a origem da força que impulsiona o barco.
+b: Pela terceira lei de Newton, a força que o remo faz na água tem uma reação de mesma intensidade e sentido oposto, que age no barco, empurrando-o para a frente.
+c: A gravitação não explica o avanço do barco na horizontal.
+d: A conservação da massa trata de transformações de matéria e não explica o movimento do barco.
+
+@A-C07-02 N1 cálculo
+stem: Um carro se desloca com velocidade constante de 72 km/h. A distância percorrida por ele em 10 segundos é de
+o1: 72 m.
+o2: 120 m.
+o3: 200 m.
+o4: 720 m.
+key: C
+a: 72 m resulta de usar o número da velocidade em km/h diretamente, sem converter a unidade.
+b: 120 m não corresponde a nenhuma conversão correta de 72 km/h em m/s.
+c: 72 km/h ÷ 3,6 = 20 m/s. Em 10 s: d = 20 · 10 = 200 m.
+d: 720 m multiplica 72 por 10 sem converter km/h em m/s.
+
+@A-C07-03 N2
+sup: <svg viewBox="0 0 250 190" width="250" height="190" role="img" aria-label="Gráfico da velocidade de um ciclista: a velocidade aumenta de 0 a 8 m/s entre 0 e 4 s e se mantém constante em 8 m/s entre 4 s e 10 s"><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#e3e5f0"/><text x="34.0" y="174" font-size="9" text-anchor="middle">0</text><line x1="75.2" y1="14" x2="75.2" y2="162" stroke="#e3e5f0"/><text x="75.2" y="174" font-size="9" text-anchor="middle">2</text><line x1="116.4" y1="14" x2="116.4" y2="162" stroke="#e3e5f0"/><text x="116.4" y="174" font-size="9" text-anchor="middle">4</text><line x1="157.6" y1="14" x2="157.6" y2="162" stroke="#e3e5f0"/><text x="157.6" y="174" font-size="9" text-anchor="middle">6</text><line x1="198.8" y1="14" x2="198.8" y2="162" stroke="#e3e5f0"/><text x="198.8" y="174" font-size="9" text-anchor="middle">8</text><line x1="240.0" y1="14" x2="240.0" y2="162" stroke="#e3e5f0"/><text x="240.0" y="174" font-size="9" text-anchor="middle">10</text><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#e3e5f0"/><text x="29" y="165.0" font-size="9" text-anchor="end">0</text><line x1="34" y1="132.4" x2="240" y2="132.4" stroke="#e3e5f0"/><text x="29" y="135.4" font-size="9" text-anchor="end">2</text><line x1="34" y1="102.8" x2="240" y2="102.8" stroke="#e3e5f0"/><text x="29" y="105.8" font-size="9" text-anchor="end">4</text><line x1="34" y1="73.2" x2="240" y2="73.2" stroke="#e3e5f0"/><text x="29" y="76.2" font-size="9" text-anchor="end">6</text><line x1="34" y1="43.6" x2="240" y2="43.6" stroke="#e3e5f0"/><text x="29" y="46.6" font-size="9" text-anchor="end">8</text><line x1="34" y1="14.0" x2="240" y2="14.0" stroke="#e3e5f0"/><text x="29" y="17.0" font-size="9" text-anchor="end">10</text><line x1="34.0" y1="14" x2="34.0" y2="162" stroke="#555"/><line x1="34" y1="162.0" x2="240" y2="162.0" stroke="#555"/><polyline fill="none" stroke="#4351c9" stroke-width="2" points="34.0,162.0 116.4,43.6 240.0,43.6"/><circle cx="34.0" cy="162.0" r="3" fill="#4351c9"/><circle cx="116.4" cy="43.6" r="3" fill="#4351c9"/><circle cx="240.0" cy="43.6" r="3" fill="#4351c9"/><text x="240" y="188" font-size="9" text-anchor="end">t (s)</text><text x="2" y="9" font-size="9">v (m/s)</text></svg>
+stem: O gráfico mostra a velocidade de um ciclista durante 10 s. A distância total percorrida por ele nesse intervalo é de
+o1: 48 m.
+o2: 64 m.
+o3: 80 m.
+o4: 32 m.
+key: B
+a: 48 m é a distância apenas do trecho de velocidade constante (6 s · 8 m/s); falta o trecho em que a velocidade aumenta.
+b: A distância é a área sob o gráfico. De 0 a 4 s (triângulo): 4 · 8 / 2 = 16 m. De 4 a 10 s (retângulo): 6 · 8 = 48 m. Total: 64 m.
+c: 80 m supõe velocidade constante de 8 m/s durante todos os 10 s, o que ignora o início do movimento.
+d: 32 m é a área do retângulo 4 s · 8 m/s e não corresponde à figura do gráfico.
+
+@A-C07-04 N2 cálculo
+sup: <p>Em uma gangorra em equilíbrio, uma criança de peso 300 N está sentada a 2 m do ponto de apoio. Do outro lado, senta-se uma criança de peso 200 N. Na condição de equilíbrio, vale a relação: peso · distância ao apoio de um lado = peso · distância ao apoio do outro lado.</p>
+stem: Para que a gangorra permaneça em equilíbrio, a segunda criança deve sentar-se a uma distância do apoio de
+o1: 1,0 m.
+o2: 1,33 m.
+o3: 2,0 m.
+o4: 3,0 m.
+key: D
+a: 1,0 m não satisfaz a relação: 200 · 1 = 200, que é diferente de 300 · 2 = 600.
+b: 1,33 m resulta de inverter a relação (200 ÷ 300 · 2). O mais leve precisa ficar mais longe do apoio, e não mais perto.
+c: Com 2 m, os momentos seriam 600 e 400: a gangorra desceria do lado da criança mais pesada.
+d: 300 · 2 = 200 · d, logo d = 600 ÷ 200 = 3 m. A criança mais leve precisa sentar-se mais longe.
+
+@A-C07-05 N2 cálculo
+stem: Um objeto é abandonado do repouso de uma altura de 45 m, em queda livre (despreze a resistência do ar e use g = 10 m/s²). Com h = g · t² / 2, o tempo de queda é de
+o1: 3 s.
+o2: 4,5 s.
+o3: 9 s.
+o4: 2 s.
+key: A
+a: 45 = 5 · t², logo t² = 9 e t = 3 s.
+b: 4,5 s resulta de dividir a altura por g (45 ÷ 10) sem usar a fórmula do tempo de queda.
+c: 9 s é o valor de t², e não de t; falta extrair a raiz quadrada.
+d: Com 2 s, a queda seria de apenas 20 m (h = 5 · 4).
+
+@A-C07-06 N2 cálculo
+sup: <p>Uma caixa de 10 kg é puxada sobre uma superfície horizontal por uma força de 60 N para a direita. O atrito com o chão exerce uma força de 30 N para a esquerda.</p>
+stem: A aceleração da caixa, em m/s², é de
+o1: 6.
+o2: 9.
+o3: 3.
+o4: 0.
+key: C
+a: 6 m/s² usa apenas a força de 60 N, ignorando o atrito.
+b: 9 m/s² soma as duas forças (90 N), mas elas têm sentidos opostos e devem ser subtraídas.
+c: A força resultante é 60 − 30 = 30 N. Pela segunda lei de Newton, a = F/m = 30/10 = 3 m/s².
+d: A aceleração só seria zero se as forças fossem iguais; aqui a força de 60 N é maior que a de atrito.
+
+@A-C07-07 N3
+sup: <svg viewBox="0 0 290 190" width="290" height="190" role="img" aria-label="Gráfico da posição em função do tempo de dois móveis, A e B, que partem da posição zero. Em 10 segundos, A chega a 50 metros e B chega a 20 metros. As duas linhas são retas."><line x1="40" y1="150" x2="250" y2="150" stroke="#555"/><line x1="40" y1="20" x2="40" y2="150" stroke="#555"/><line x1="40" y1="30" x2="245" y2="30" stroke="#e3e5f0"/><line x1="40" y1="54" x2="245" y2="54" stroke="#e3e5f0"/><line x1="40" y1="78" x2="245" y2="78" stroke="#e3e5f0"/><line x1="40" y1="102" x2="245" y2="102" stroke="#e3e5f0"/><line x1="40" y1="126" x2="245" y2="126" stroke="#e3e5f0"/><text x="34" y="153" font-size="9" text-anchor="end">0</text><text x="34" y="129" font-size="9" text-anchor="end">10</text><text x="34" y="105" font-size="9" text-anchor="end">20</text><text x="34" y="81" font-size="9" text-anchor="end">30</text><text x="34" y="57" font-size="9" text-anchor="end">40</text><text x="34" y="33" font-size="9" text-anchor="end">50</text><text x="40" y="163" font-size="9" text-anchor="middle">0</text><text x="140" y="163" font-size="9" text-anchor="middle">5</text><text x="240" y="163" font-size="9" text-anchor="middle">10</text><text x="145" y="178" font-size="9" text-anchor="middle">t (s)</text><text x="4" y="14" font-size="9">posição (m)</text><line x1="40" y1="150" x2="240" y2="30" stroke="#2e6bd6" stroke-width="2"/><line x1="40" y1="150" x2="240" y2="102" stroke="#c0392b" stroke-width="2"/><text x="246" y="32" font-size="10" fill="#2e6bd6">A</text><text x="246" y="104" font-size="10" fill="#c0392b">B</text></svg>
+stem: O gráfico mostra a posição de dois móveis, A e B, em movimento retilíneo uniforme, em função do tempo. Em relação à velocidade de B, a velocidade de A é
+o1: 2,5 vezes maior.
+o2: 30 m/s maior.
+o3: 0,4 vez a de B, ou seja, menor.
+o4: igual, pois os dois partem da mesma posição.
+key: A
+a: Em 10 s, A percorre 50 m (vA = 5 m/s) e B percorre 20 m (vB = 2 m/s). Razão: 5 ÷ 2 = 2,5.
+b: 30 m é a diferença entre as posições finais (50 − 20), e não uma diferença de velocidades.
+c: 0,4 é a razão inversa (2 ÷ 5): seria a velocidade de B em relação à de A.
+d: Partir da mesma posição não significa ter a mesma velocidade; as inclinações das retas são diferentes.
+
+@A-C07-08 N3 julgar afirmativas
+sup: <p>Um astronauta tem massa de 60 kg. A aceleração da gravidade vale 10 m/s² na Terra e cerca de 1,6 m/s² na Lua. Lembre-se de que peso = massa · g.</p>
+stem: Sobre esse astronauta, analise as afirmativas.
+I. Na Lua, sua massa continua sendo 60 kg.
+II. Na Terra, seu peso é de 600 N.
+III. Na Lua, seu peso é igual ao da Terra, pois sua massa não muda.
+Estão corretas apenas
+o1: I e II.
+o2: I.
+o3: II e III.
+o4: I, II e III.
+key: A
+a: I é verdadeira (a massa não depende do local) e II também (60 · 10 = 600 N). III é falsa: o peso depende de g, e na Lua vale 60 · 1,6 = 96 N.
+b: II também é verdadeira: P = 60 · 10 = 600 N.
+c: III é falsa; o peso na Lua é cerca de 96 N, bem menor que na Terra. Além disso, I também é verdadeira.
+d: III é falsa: a massa é a mesma, mas o peso muda conforme a gravidade local.
+
+# ===================== C06 =====================
+
+@A-C06-01 N1 cálculo
+stem: Um chuveiro elétrico de potência 5.000 W (5 kW) permanece ligado por meia hora. A energia elétrica consumida nesse tempo é de
+o1: 5 kWh.
+o2: 10 kWh.
+o3: 0,25 kWh.
+o4: 2,5 kWh.
+key: D
+a: 5 kWh corresponde a uma hora de funcionamento, e não a meia hora.
+b: 10 kWh resulta de dividir a potência pelo tempo em horas (5 ÷ 0,5), em vez de multiplicar.
+c: 0,25 kWh erra a ordem de grandeza ao converter 30 min em horas.
+d: E = P · t = 5 kW · 0,5 h = 2,5 kWh.
+
+@A-C06-02 N1 cálculo
+stem: Em um mês, uma residência consumiu 240 kWh de energia elétrica. Sabendo que a distribuidora cobra R$ 0,80 por kWh, o valor da conta, sem impostos adicionais, é de
+o1: R$ 30,00.
+o2: R$ 192,00.
+o3: R$ 240,80.
+o4: R$ 300,00.
+key: B
+a: R$ 30,00 resulta de um erro com a vírgula da tarifa (240 ÷ 8), em vez de multiplicar 240 por 0,80.
+b: Valor = consumo · tarifa = 240 · 0,80 = R$ 192,00.
+c: R$ 240,80 soma os números em vez de multiplicar.
+d: R$ 300,00 resulta de 240 ÷ 0,8; a divisão é a operação errada para o custo.
+
+@A-C06-03 N2
+sup: <p>Nas casas, as lâmpadas e as tomadas são ligadas em paralelo à rede elétrica.</p>
+stem: Essa ligação em paralelo é adotada porque
+o1: os aparelhos ficam sempre ligados à mesma corrente elétrica, que se divide igualmente.
+o2: a corrente total é nula, e por isso não há risco de choque elétrico.
+o3: cada aparelho recebe a mesma tensão e funciona independentemente dos demais; se um queimar, os outros continuam ligados.
+o4: a tensão se divide igualmente entre os aparelhos, o que evita que eles queimem.
+key: C
+a: Em paralelo, a tensão é a mesma para todos os aparelhos, mas a corrente se divide conforme a resistência de cada um.
+b: A corrente total é a soma das correntes dos aparelhos ligados; não é nula.
+c: No circuito em paralelo, cada ramo está sob a mesma tensão da rede e funciona de forma independente. Ao desligar ou queimar um aparelho, os demais não são afetados.
+d: A divisão de tensão acontece na ligação em série, e não na ligação em paralelo.
+
+@A-C06-04 N2
+sup: <p>Um bastão de vidro é atritado com um pedaço de seda e passa a atrair pequenos pedaços de papel. Sabe-se que, nesse atrito, o vidro fica carregado positivamente.</p>
+stem: O vidro ficou positivo porque, no atrito,
+o1: ganhou prótons da seda.
+o2: perdeu elétrons para a seda.
+o3: ganhou elétrons da seda.
+o4: perdeu prótons para a seda.
+key: B
+a: Os prótons estão presos aos núcleos dos átomos e não são transferidos no atrito.
+b: Os elétrons passam do vidro para a seda. O vidro, que perdeu elétrons, fica com excesso de cargas positivas e a seda fica negativa.
+c: Se o vidro ganhasse elétrons, ficaria negativo.
+d: Prótons não se transferem em processos de eletrização por atrito.
+
+@A-C06-05 N2
+sup: <table class="qt"><caption>Consumo diário de aparelhos de uma residência (valores ilustrativos)</caption><tr><th>Aparelho</th><th>Potência</th><th>Tempo de uso por dia</th></tr><tr><td>Chuveiro</td><td>4.000 W</td><td>15 min</td></tr><tr><td>Geladeira</td><td>300 W</td><td>10 h</td></tr><tr><td>Ferro de passar</td><td>1.000 W</td><td>1 h</td></tr><tr><td>Televisor</td><td>100 W</td><td>5 h</td></tr></table>
+stem: Segundo a tabela, o aparelho que consome mais energia por dia é o
+o1: chuveiro, que tem a maior potência.
+o2: ferro de passar.
+o3: televisor.
+o4: a geladeira, apesar de sua potência ser baixa.
+key: D
+a: A maior potência não garante o maior consumo: o chuveiro consome 4 kW · 0,25 h = 1 kWh, pois é usado por pouco tempo.
+b: O ferro consome 1 kW · 1 h = 1 kWh, o mesmo que o chuveiro e menos que a geladeira.
+c: O televisor consome 0,1 kW · 5 h = 0,5 kWh, o menor valor da tabela.
+d: A geladeira consome 0,3 kW · 10 h = 3 kWh, maior que os demais (1; 1; 0,5 kWh), porque fica ligada por muitas horas.
+
+@A-C06-06 N3 cálculo
+sup: <p>Um chuveiro elétrico tem resistência elétrica de 22 Ω e é ligado a uma tomada de 220 V. A potência elétrica pode ser calculada por P = U² / R.</p>
+stem: Se esse chuveiro for usado durante 30 minutos, a energia elétrica consumida será de
+o1: 1,1 kWh.
+o2: 2,2 kWh.
+o3: 0,005 kWh.
+o4: 66 kWh.
+key: A
+a: P = 220² / 22 = 48.400 / 22 = 2.200 W = 2,2 kW. Em 0,5 h: E = 2,2 · 0,5 = 1,1 kWh.
+b: 2,2 kWh corresponde a uma hora de uso; os 30 minutos equivalem a 0,5 h.
+c: 0,005 kWh resulta de calcular P = U / R (10 W), fórmula incorreta, e depois multiplicar por 0,5 h.
+d: 66 kWh resulta de multiplicar 2.200 W por 30 sem converter minutos em horas nem watts em quilowatts.
+
+# ===================== C11 =====================
+
+@A-C11-01 N1
+stem: A maior parte da absorção dos nutrientes dos alimentos digeridos ocorre no
+o1: estômago, onde o suco gástrico decompõe as proteínas.
+o2: intestino grosso, que reabsorve água e forma as fezes.
+o3: esôfago, que conduz o alimento até o estômago.
+o4: intestino delgado, cujas dobras e vilosidades aumentam a superfície de absorção.
+key: D
+a: No estômago ocorre digestão, principalmente de proteínas, mas a absorção de nutrientes é pequena.
+b: O intestino grosso absorve principalmente água e sais minerais, e não a maior parte dos nutrientes.
+c: O esôfago apenas conduz o alimento por movimentos peristálticos.
+d: O intestino delgado é longo e tem vilosidades que ampliam a superfície por onde os nutrientes passam para o sangue.
+
+@A-C11-02 N1
+stem: As trocas gasosas, em que o gás oxigênio passa do ar para o sangue e o gás carbônico passa do sangue para o ar, ocorrem nos
+o1: brônquios, que conduzem o ar até os pulmões.
+o2: alvéolos pulmonares, estruturas de paredes muito finas, cercadas de capilares.
+o3: bronquíolos, que são as ramificações finais da traqueia.
+o4: músculos do diafragma, que realizam a respiração.
+key: B
+a: Os brônquios só conduzem o ar; suas paredes não permitem trocas gasosas eficientes.
+b: Nos alvéolos, a parede muito fina e a grande rede de capilares facilitam a passagem dos gases por difusão.
+c: Os bronquíolos conduzem o ar até os alvéolos e não são o local das trocas.
+d: O diafragma é um músculo que altera o volume da caixa torácica; não realiza trocas gasosas.
+
+@A-C11-03 N2
+sup: <p>No esquema simplificado da circulação humana, o sangue vai do coração aos pulmões, retorna ao coração e é então bombeado para o resto do corpo.</p>
+stem: O sangue rico em oxigênio, vindo dos pulmões, chega ao coração pelas
+o1: veias pulmonares, que levam o sangue ao átrio esquerdo.
+o2: artérias pulmonares, que levam o sangue ao átrio direito.
+o3: veias cavas, que levam o sangue ao átrio esquerdo.
+o4: artérias aortas, que levam o sangue ao ventrículo direito.
+key: A
+a: As veias pulmonares são exceção por levar sangue oxigenado: saem dos pulmões e chegam ao átrio esquerdo.
+b: As artérias pulmonares levam sangue pobre em oxigênio do coração para os pulmões.
+c: As veias cavas trazem ao átrio direito o sangue pobre em oxigênio vindo do corpo.
+d: A aorta leva o sangue do ventrículo esquerdo para o corpo; não leva sangue ao coração.
+
+@A-C11-04 N2
+stem: As vacinas protegem as pessoas contra algumas doenças porque
+o1: contêm antibióticos que eliminam o agente causador da doença.
+o2: contêm anticorpos prontos, que duram a vida inteira.
+o3: estimulam o organismo a produzir anticorpos e células de memória, sem causar a doença.
+o4: aumentam a temperatura corporal e impedem a multiplicação do agente.
+key: C
+a: Antibióticos atuam contra bactérias e não são o princípio da vacina; além disso, não agem em vírus.
+b: Quem fornece anticorpos prontos são os soros, cuja proteção é temporária. A vacina estimula a produção dos anticorpos pelo próprio organismo.
+c: A vacina contém agentes enfraquecidos, inativados ou partes deles. O sistema imunológico reage, produz anticorpos e guarda memória para responder rápido a um contato futuro.
+d: As vacinas não têm a função de elevar a temperatura corporal para combater o agente.
+
+@A-C11-05 N2
+sup: <p>Ao encostar sem querer a mão em uma panela quente, uma pessoa a retira rapidamente, antes mesmo de sentir dor.</p>
+stem: Essa reação rápida é um ato reflexo, cujo comando é feito principalmente pela
+o1: cerebelo, que escolhe o movimento a ser realizado.
+o2: glândula adrenal, que libera hormônios que provocam o movimento.
+o3: região do córtex cerebral responsável pela memória.
+o4: medula espinhal, sem passar pela decisão consciente do cérebro.
+key: D
+a: O cerebelo coordena o equilíbrio e a precisão dos movimentos; não comanda o reflexo de retirada.
+b: Os hormônios agem de forma mais lenta que os impulsos nervosos; um reflexo imediato depende do sistema nervoso.
+c: A memória não está envolvida na resposta imediata de retirar a mão.
+d: No ato reflexo, o estímulo segue por neurônios sensitivos até a medula, que envia a resposta pelos neurônios motores ao músculo, tornando a reação muito rápida.
+
+@A-C11-06 N2 cálculo
+sup: <table class="qt"><caption>Informação nutricional de uma porção de 30 g de um biscoito (valores ilustrativos)</caption><tr><th>Nutriente</th><th>Quantidade por porção</th></tr><tr><td>Carboidratos</td><td>18 g</td></tr><tr><td>Proteínas</td><td>3 g</td></tr><tr><td>Gorduras totais</td><td>6 g</td></tr></table><p class="src">Considere: 1 g de carboidrato fornece 4 kcal; 1 g de proteína, 4 kcal; 1 g de gordura, 9 kcal.</p>
+stem: O valor energético dessa porção é de
+o1: 27 kcal.
+o2: 138 kcal.
+o3: 108 kcal.
+o4: 243 kcal.
+key: B
+a: 27 é a soma das massas (18 + 3 + 6), em gramas, e não a energia em kcal.
+b: 18 · 4 + 3 · 4 + 6 · 9 = 72 + 12 + 54 = 138 kcal.
+c: 108 kcal considera 4 kcal por grama para os três nutrientes, o que subestima a energia das gorduras.
+d: 243 kcal considera 9 kcal por grama para os três nutrientes, superestimando a energia de carboidratos e proteínas.
+
+@A-C11-07 N3 julgar afirmativas
+stem: Sobre o sistema excretor humano, analise as afirmativas.
+I. Os rins filtram o sangue e produzem a urina.
+II. A ureia, resíduo do metabolismo das proteínas, é eliminada na urina.
+III. A urina é armazenada na bexiga e levada ao exterior pela uretra.
+IV. Os rins produzem a bile, que auxilia a digestão das gorduras.
+Estão corretas apenas
+o1: I e II.
+o2: I, II e III.
+o3: II, III e IV.
+o4: I, II, III e IV.
+key: B
+a: I e II são verdadeiras, mas III também: a bexiga armazena a urina, e a uretra a conduz ao exterior.
+b: I, II e III estão corretas. A IV é falsa: a bile é produzida no fígado.
+c: A IV é falsa e a I é verdadeira; a alternativa exclui uma afirmativa correta e inclui uma incorreta.
+d: A IV é falsa: a bile é produzida pelo fígado, e não pelos rins.
+
+@A-C11-08 N3
+sup: <table class="qt"><caption>Chuva e casos de dengue em uma cidade fictícia (valores ilustrativos)</caption><tr><th>Mês</th><th>Chuva (mm)</th><th>Casos de dengue</th></tr><tr><td>Outubro</td><td>60</td><td>40</td></tr><tr><td>Novembro</td><td>130</td><td>90</td></tr><tr><td>Dezembro</td><td>240</td><td>200</td></tr><tr><td>Janeiro</td><td>300</td><td>380</td></tr><tr><td>Fevereiro</td><td>280</td><td>560</td></tr><tr><td>Março</td><td>150</td><td>520</td></tr></table>
+stem: Os casos de dengue aumentam depois do início do período chuvoso e permanecem altos mesmo quando a chuva diminui. Uma explicação coerente com os dados e com o ciclo da doença é que
+o1: a chuva carrega o vírus pelo ar de uma pessoa para outra, espalhando a doença.
+o2: a dengue é causada por uma bactéria que vive na água da chuva e infecta quem a toca.
+o3: a chuva elimina os mosquitos, e por isso os casos caem logo nos meses seguintes.
+o4: a água parada acumulada favorece a reprodução do mosquito Aedes aegypti, e o aumento do número de mosquitos eleva os casos nas semanas seguintes.
+key: D
+a: A dengue é transmitida pela picada do mosquito infectado, e não pelo ar com a chuva.
+b: A dengue é causada por vírus e não por bactéria; a água da chuva não é a fonte do agente.
+c: Os dados mostram o contrário: os casos aumentam depois das chuvas e continuam altos em março.
+d: A água parada em recipientes permite o desenvolvimento das larvas. Há mais mosquitos, mais transmissão e mais casos com certa defasagem, o que explica o pico depois da chuva.

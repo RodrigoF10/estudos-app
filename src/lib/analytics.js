@@ -10,6 +10,7 @@ async function accuracyOverTime(user, days = 30) {
     `SELECT date(created_at) AS day, COUNT(*) AS total, SUM(is_correct) AS correct
      FROM attempts
      WHERE user = ? AND created_at >= datetime('now', ?)
+     AND question_id IN (SELECT id FROM questions WHERE active = 1)
      GROUP BY day ORDER BY day ASC`,
     [user, `-${days} days`]
   );
@@ -28,6 +29,7 @@ async function accuracyBySubject(user) {
      FROM attempts a
      JOIN themes t ON t.id = a.theme_id
      JOIN subjects s ON s.id = t.subject_id
+     JOIN questions q ON q.id = a.question_id AND q.active = 1
      WHERE a.user = ?
      GROUP BY s.id ORDER BY s.order_index ASC`,
     [user]
@@ -47,7 +49,7 @@ async function accuracyByDifficulty(user) {
   const rows = await dbAll(
     `SELECT q.difficulty AS difficulty, COUNT(*) AS total, SUM(a.is_correct) AS correct
      FROM attempts a
-     JOIN questions q ON q.id = a.question_id
+     JOIN questions q ON q.id = a.question_id AND q.active = 1
      WHERE a.user = ?
      GROUP BY q.difficulty`,
     [user]
@@ -64,11 +66,9 @@ async function accuracyByDifficulty(user) {
 
 // Distribuição de temas por selo de domínio (para um gráfico de rosca/pizza).
 async function masteryDistribution(user) {
-  const { getSubjectProgress } = require('./mastery');
-  const subjects = await dbAll('SELECT * FROM subjects');
+  const { getAllProgress } = require('./mastery');
   const counts = { nao_iniciado: 0, em_desenvolvimento: 0, quase_la: 0, dominado: 0 };
-  for (const s of subjects) {
-    const progress = await getSubjectProgress(user, s.id);
+  for (const { progress } of await getAllProgress(user)) {
     for (const t of progress.themes) {
       counts[t.stats.level.key] = (counts[t.stats.level.key] || 0) + 1;
     }
@@ -84,7 +84,7 @@ async function masteryDistribution(user) {
 // Histórico de notas em simulados finalizados.
 async function simuladoScoreHistory(user) {
   const rows = await dbAll(
-    `SELECT id, started_at, finished_at, total_questions, correct_count
+    `SELECT id, started_at, finished_at, total_questions, correct_count, mode
      FROM simulados WHERE user = ? AND status = 'finalizado' ORDER BY started_at ASC`,
     [user]
   );
@@ -94,6 +94,8 @@ async function simuladoScoreHistory(user) {
     score: Math.round((r.correct_count / r.total_questions) * 100),
     correct: r.correct_count,
     total: r.total_questions,
+    mode: r.mode,
+    outOf50: Math.round((r.correct_count / r.total_questions) * 50 * 10) / 10,
   }));
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "cefet-estudos",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Site de estudos da Rayane para o Processo Seletivo CEFET-MG (Ensino Técnico Integrado, campus Varginha, 2027)",
   "main": "src/server.js",
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node src/server.js",
-    "seed": "node src/seed.js"
+    "seed": "node src/seed.js",
+    "check": "node src/content/check.js"
   },
   "dependencies": {
     "@libsql/client": "^0.17.4",
